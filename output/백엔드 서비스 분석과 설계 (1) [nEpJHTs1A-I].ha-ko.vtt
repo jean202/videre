@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: ha
+
+00:00:00.000 --> 00:00:02.020
+Sannu, wannan shine Tsarin Lamba.
+
+00:00:03.290 --> 00:00:05.350
+Manhaja tana da sarkakiya
+
+00:00:06.650 --> 00:00:08.890
+Da farko dai, akwai lambar sirri da yawa da ake buƙatar a rubuta.
+
+00:00:09.760 --> 00:00:12.710
+Misalin ayyukan da na ƙirƙira don wannan jerin
+
+00:00:12.710 --> 00:00:15.270
+Lambar tana da layuka sama da 12,000.
+
+00:00:16.330 --> 00:00:18.320
+Idan ainihin sabis ne na aiki
+
+00:00:18.320 --> 00:00:21.530
+Ko da ƙaramin sabis ne, zai wuce layuka 100,000 cikin sauƙi.
+
+00:00:22.130 --> 00:00:25.300
+Layuka dubu ɗari sun isa su cika littattafai ashirin.
+
+00:00:26.870 --> 00:00:29.560
+Rubuta dogon lambar ba yana nufin ya ƙare ba.
+
+00:00:30.330 --> 00:00:32.540
+Dole ne ka ci gaba da gyara lambar da kake rubutawa.
+
+00:00:33.400 --> 00:00:35.800
+Idan ka gyara A, B zai karye.
+
+00:00:35.800 --> 00:00:39.130
+Idan ka gyara B, A da C za su lalace.
+
+00:00:41.090 --> 00:00:44.260
+Idan aka yi amfani da misalin, kamar an kama mutum a cikin Rasputica da kuka ne.
+
+00:00:44.260 --> 00:00:46.360
+Za ka iya cewa yanayi ne makamancin haka da doki.
+
+00:00:47.330 --> 00:00:50.550
+A wannan lokacin, za ku ji buƙatar ƙira.
+
+00:00:52.580 --> 00:00:55.010
+Amma idan ka yi ƙoƙarin rubuta takardar zane,
+
+00:00:55.500 --> 00:00:58.490
+Bayyana tunanin da ke cikin zuciyarka a zahiri
+
+00:00:58.790 --> 00:01:01.260
+Za ku gane cewa ba abu ne mai sauƙi kamar yadda kuke tsammani ba.
+
+00:01:01.890 --> 00:01:05.600
+Ko da waƙar takarda, wacce takarda ce da ke ɗaukar sauti ko kiɗa da ido,
+
+00:01:05.600 --> 00:01:06.700
+Wannan abu ne mai rikitarwa
+
+00:01:07.520 --> 00:01:10.610
+Ba wai kawai kiɗa ba, har ma da kuɗi da dabaru
+
+00:01:10.610 --> 00:01:14.060
+Ƙarin ra'ayoyi daban-daban da buƙatun mai amfani marasa ma'ana
+
+00:01:14.060 --> 00:01:17.220
+Ba zai zama da sauƙi a bayyana shi a cikin wani takamaiman tsari ba.
+
+00:01:18.530 --> 00:01:19.490
+Abin farin ciki
+
+00:01:19.770 --> 00:01:23.200
+Don shawo kan wahalar yin kwaikwayon ra'ayoyi marasa ma'ana
+
+00:01:23.540 --> 00:01:26.860
+An haifi UML a ƙarshen shekarun 1990.
+
+00:01:27.730 --> 00:01:30.120
+Grady Butch ne ya jagorance ta.
+
+00:01:31.460 --> 00:01:34.390
+Muna amfani da UML tare da tsammani
+
+00:01:34.980 --> 00:01:36.990
+Zana zane na aji
+
+00:01:36.990 --> 00:01:38.760
+Bari mu kuma zana zane mai tsari
+
+00:01:39.430 --> 00:01:39.980
+duk da haka
+
+00:01:40.360 --> 00:01:43.160
+Lokacin da na yi ƙoƙarin tsara shi, ya bambanta da rubuta shi kai tsaye.
+
+00:01:43.160 --> 00:01:45.130
+Da alama ba ta bambanta sosai ba
+
+00:01:45.590 --> 00:01:46.520
+Me yasa hakan?
+
+00:01:47.350 --> 00:01:50.910
+Wannan kuwa saboda tsarin tunani ya saba da aiwatarwa.
+
+00:01:51.290 --> 00:01:54.170
+Maimakon sanya ra'ayoyin da ba a iya fahimta ba su zama masu inganci,
+
+00:01:54.490 --> 00:01:57.590
+Domin yana fassara tunanin matakin aiwatarwa zuwa UML.
+
+00:01:58.520 --> 00:02:00.270
+Kawai saboda zaka iya karanta littafin rubutu
+
+00:02:00.270 --> 00:02:01.950
+Ba kamar zan iya rubuta shi ba ne
+
+00:02:02.390 --> 00:02:03.850
+Kawai saboda ka koyi UML
+
+00:02:03.850 --> 00:02:06.170
+Ba kamar kana haɓaka ƙwarewar ƙira ba ne.
+
+00:02:07.700 --> 00:02:09.300
+Don haka a cikin wannan jerin
+
+00:02:09.300 --> 00:02:11.580
+Ta hanyar ayyukan gaske
+
+00:02:11.580 --> 00:02:14.420
+Yadda ake yin simintin ƙa'idodi masu rikitarwa
+
+00:02:14.420 --> 00:02:16.290
+Za a iya haɗa lambar?
+
+00:02:16.290 --> 00:02:18.010
+Ina so in nuna maka kai tsaye
+
+00:02:18.530 --> 00:02:20.930
+Na zaɓi yin booking na tikitin fim ta hanyar domain
+
+00:02:21.370 --> 00:02:25.200
+Yin rajistar tikitin fina-finai abu ne mai sauƙin fahimta domin galibinsu wurare ne da aka saba da su.
+
+00:02:25.200 --> 00:02:29.710
+Ya haɗa da ayyuka daban-daban kamar shiga, biyan kuɗi, da zaɓin wurin zama.
+
+00:02:29.710 --> 00:02:31.580
+Da alama misali ne mai kyau
+
+00:02:33.600 --> 00:02:36.890
+Ainihin, batun wannan labarin shine ƙirar software, amma
+
+00:02:36.890 --> 00:02:40.350
+Za mu kuma yi bayani game da ci gaban da aka yi bisa gwaji.
+
+00:02:41.210 --> 00:02:44.890
+Yanayin ci gaba na zamani yana tallafawa kayan aikin gwaji.
+
+00:02:45.600 --> 00:02:48.320
+Ko da kun kalli shahararrun ayyukan bude tushen,
+
+00:02:48.320 --> 00:02:51.130
+Muna da wani matakin gwaji.
+
+00:02:51.740 --> 00:02:56.200
+Wannan yana nufin cewa gwaji yana da matuƙar muhimmanci kuma yana da amfani.
+
+00:02:56.870 --> 00:02:58.120
+Amma a zahiri
+
+00:02:58.120 --> 00:03:02.590
+A lokuta da yawa, ba wai TDD kawai ba, har ma da gwajin atomatik ba a aiwatar da shi yadda ya kamata.
+
+00:03:03.190 --> 00:03:06.260
+Rubuta jarrabawa masu ma'ana da farko ba tare da wani shiri ba shine
+
+00:03:06.260 --> 00:03:07.540
+Ba ya taɓa zama mai sauƙi ba
+
+00:03:08.410 --> 00:03:12.340
+Wannan wani abu ne da ke buƙatar haɗin gwiwar ƙwarewar ƙirar software.
+
+00:03:13.320 --> 00:03:16.270
+Don haka, ya fi kyau a yi mu'amala da ƙira da TDD tare.
+
+00:03:16.270 --> 00:03:18.180
+Na yi zaton yana da inganci
+
+00:03:20.120 --> 00:03:23.450
+Don haka yanzu bari mu fara taron farko na aikin.
+
+00:03:24.150 --> 00:03:26.470
+Domin wannan ƙaramin aiki ne
+
+00:03:26.470 --> 00:03:28.090
+Akwai masu halarta guda biyu
+
+00:03:28.790 --> 00:03:32.340
+Wanda ke hagu ƙwararren mai bincike ne a fannin yanki (domain), wanda ke gefen dama kuma mai haɓaka bayanai ne (developer).
+
+00:03:34.550 --> 00:03:37.790
+Masana a fannin suna da ra'ayin kansu game da tsarin da muke buƙatar ginawa.
+
+00:03:37.790 --> 00:03:39.280
+Yana ba da labarai da yawa
+
+00:03:40.340 --> 00:03:42.160
+Gidan wasan kwaikwayo da muke gudanarwa
+
+00:03:42.160 --> 00:03:44.710
+Akwai kimanin su dubu huɗu a faɗin ƙasar.
+
+00:03:44.710 --> 00:03:47.220
+Zai iya ƙara ƙaruwa nan gaba.
+
+00:03:47.220 --> 00:03:50.480
+A halin yanzu, aikin yin rajistar tikitin fina-finai ne kawai ake tallafawa.
+
+00:03:50.480 --> 00:03:54.510
+Muna shirin ƙara tallace-tallacen tikiti don manyan wasanni daga baya.
+
+00:03:54.510 --> 00:03:58.940
+Kuma abu mafi mahimmanci shine kada ku taɓa yin amfani da kujerun yin booking sau biyu.
+
+00:03:58.940 --> 00:04:03.250
+A da, cibiyoyin kula da abokan ciniki sun sha wahala sosai da irin wannan matsalar.
+
+00:04:03.250 --> 00:04:07.670
+Domin akwai bayanai da yawa game da fim da kuma bayanan bita da aka riga aka tara.
+
+00:04:07.670 --> 00:04:11.090
+Dole ne waɗannan bayanai su kasance ba tare da wata matsala ba.
+
+00:04:12.090 --> 00:04:14.730
+A nan tattaunawar ta kasance mai tsari sosai, amma
+
+00:04:14.890 --> 00:04:16.960
+A gaskiya, akwai ƙarin bayani
+
+00:04:16.960 --> 00:04:18.600
+Za a isar da shi ta hanyar da ba ta da tsari
+
+00:04:19.470 --> 00:04:22.110
+Amma labarin da ya fito a farkon aikin shine
+
+00:04:22.110 --> 00:04:23.780
+Domin kuwa shine mafi mahimmancin buƙata
+
+00:04:23.780 --> 00:04:25.320
+Dole ne ka saurara da kyau
+
+00:04:27.110 --> 00:04:29.810
+Masu haɓakawa suna sauraron ƙwararrun yanki
+
+00:04:29.810 --> 00:04:31.290
+Ina da wasu tambayoyi
+
+00:04:32.290 --> 00:04:34.660
+Babban aikin yin rajistar tikitin aiki da kuka ambata
+
+00:04:34.660 --> 00:04:36.910
+Yaushe za a ƙara shi?
+
+00:04:36.910 --> 00:04:39.910
+Shin ya kamata a haɗa wannan a cikin wannan aikin tun da wuri?
+
+00:04:39.910 --> 00:04:43.590
+Ko kuma ina so in sani ko ya kamata in yi la'akari da shi tukuna
+
+00:04:43.590 --> 00:04:46.090
+Da kuma buƙatar kiyaye bayanan da ke akwai
+
+00:04:46.090 --> 00:04:48.940
+Shin hakan yana nufin bai kamata mu canza tsarin DB ba?
+
+00:04:48.940 --> 00:04:51.950
+Akwai wasu ayyuka da ke raba DB ɗin a halin yanzu?
+
+00:04:53.580 --> 00:04:54.980
+Kamar yadda kake gani daga DB,
+
+00:04:54.980 --> 00:04:57.290
+Domin ƙwararrun masu haɓaka shafin yanar gizo ba masu haɓaka shafin yanar gizo ba ne.
+
+00:04:57.290 --> 00:04:59.430
+Bayanin fasaha ba shi da tabbas
+
+00:04:59.910 --> 00:05:02.890
+Masu haɓaka suna buƙatar duba waɗannan abubuwa a hankali.
+
+00:05:04.230 --> 00:05:07.450
+Masana a fannin yanar gizo suna amsa tambayoyin masu haɓaka shafin kamar haka:
+
+00:05:08.330 --> 00:05:10.210
+Babban aikin ajiyar tikiti na aiki
+
+00:05:10.210 --> 00:05:13.450
+Babu wani takamaiman jadawali tukuna.
+
+00:05:13.450 --> 00:05:15.970
+Duk da haka, idan aka ƙara fasaloli a nan gaba
+
+00:05:15.970 --> 00:05:18.700
+Domin ku iya haɓakawa ba tare da wahala mai yawa ba
+
+00:05:18.700 --> 00:05:22.600
+Ina ganin zai yi kyau idan za ka iya yin la'akari da shi a wannan karon.
+
+00:05:22.600 --> 00:05:27.050
+Ba ma amfani da DB don wani abu banda ayyukanmu.
+
+00:05:27.050 --> 00:05:32.840
+Sauya tsarin da kansa ba babbar matsala ba ce matuƙar ana kiyaye bayanan da kyau.
+
+00:05:33.840 --> 00:05:35.080
+Bayan jin labarin, sai ya
+
+00:05:35.080 --> 00:05:39.400
+Ban tsammanin kana buƙatar damuwa da babban shirin ba.
+
+00:05:39.400 --> 00:05:40.790
+Ba shine iyakokin aikin ba
+
+00:05:40.790 --> 00:05:43.040
+Bukatun ma ba a fayyace su ba
+
+00:05:43.040 --> 00:05:44.930
+Ban san lokacin da zan buƙaci hakan ba, amma
+
+00:05:44.930 --> 00:05:47.710
+Wannan matsala ce da za mu sake dubawa daga baya.
+
+00:05:48.920 --> 00:05:50.910
+Ko da ba a rubuta shi a cikin takardar ba
+
+00:05:50.910 --> 00:05:54.880
+Masana fannin za su kuma bayar da amsa cewa za su yi la'akari da manyan ayyuka.
+
+00:05:54.880 --> 00:05:55.960
+Bai kamata ka manta ba
+
+00:05:56.740 --> 00:05:58.320
+Shi ke nan
+
+00:05:58.320 --> 00:06:00.630
+Sannan, aikin yin ajiyar tikiti mai girma
+
+00:06:00.630 --> 00:06:04.500
+Ba zan sanya shi cikin manyan abubuwan da suka fi muhimmanci ga wannan aikin ba.
+
+00:06:04.500 --> 00:06:08.220
+Madadin haka, yana sauƙaƙa faɗaɗa ayyuka daga baya a cikin tsarin haɓakawa.
+
+00:06:08.220 --> 00:06:10.190
+Zan kula da shi sosai
+
+00:06:10.190 --> 00:06:12.840
+Kada ka damu. Ku yarda da ni kawai
+
+00:06:13.840 --> 00:06:15.960
+Yana da mahimmanci a yi mu'amala mai kyau
+
+00:06:17.980 --> 00:06:19.500
+Ta hanyar tattaunawarmu zuwa yanzu
+
+00:06:19.500 --> 00:06:22.700
+An taƙaita manyan abubuwan da suka fi muhimmanci kamar haka:
+
+00:06:23.220 --> 00:06:25.890
+Wannan shine bayanin da kwararrun domains suka bayar.
+
+00:06:25.890 --> 00:06:28.410
+Fassarawa da tsarawa daga mahangar mai haɓakawa
+
+00:06:28.410 --> 00:06:29.810
+Fara aikin
+
+00:06:31.700 --> 00:06:32.860
+Tare da ƙwararrun yanki
+
+00:06:32.860 --> 00:06:34.980
+Da zarar ka yanke shawara kan manufofin aikinka,
+
+00:06:35.620 --> 00:06:37.980
+Yanzu lokaci ya yi da za ka ambaci sunan aikinka.
+
+00:06:38.750 --> 00:06:41.840
+Da farko, tambayi ƙwararren masanin fannin yanar gizo ra'ayinsa.
+
+00:06:42.800 --> 00:06:45.540
+Me ya kamata in sanya wa aikin suna?
+
+00:06:45.540 --> 00:06:47.680
+Tsarin yin rajistar fina-finai ne.
+
+00:06:47.680 --> 00:06:50.150
+Yaya game da Tsarin Yin Rajistar Fina-finai kawai?
+
+00:06:50.150 --> 00:06:51.430
+a'a, ba na so
+
+00:06:51.430 --> 00:06:53.570
+Zan kula da manyan wasanni
+
+00:06:53.570 --> 00:06:56.930
+Bari mu tafi da Tsarin Yin Rajistar Fina-finai. eh?
+
+00:06:56.930 --> 00:06:58.180
+mai girma
+
+00:06:58.180 --> 00:06:59.950
+na gode sosai
+
+00:07:01.000 --> 00:07:05.230
+Ƙwararrun masu bincike na yanki na iya son sunayen ayyukan a cikin harshen Koriya.
+
+00:07:05.580 --> 00:07:07.680
+Amma daga mahangar mai haɓaka
+
+00:07:07.680 --> 00:07:09.990
+Duk sharuɗɗan da suka haɗa da sunayen aikin
+
+00:07:09.990 --> 00:07:12.180
+Domin an aiwatar da shi kai tsaye a cikin lambar,
+
+00:07:12.600 --> 00:07:15.000
+Yana da sauƙi a fassara shi da Turanci idan zai yiwu.
+
+00:07:15.540 --> 00:07:19.510
+Yana da mahimmanci ga masu haɓaka su bi buƙatun ƙwararrun yanki da aminci, amma
+
+00:07:19.960 --> 00:07:21.430
+Idan aka yi la'akari da dukkan aikin
+
+00:07:21.430 --> 00:07:23.930
+Muna kuma da alhakin jagorantar al'amura zuwa ga hanya mai inganci.
+
+00:07:25.850 --> 00:07:27.760
+Idan ka yanke shawara kan suna don aikinka
+
+00:07:27.760 --> 00:07:31.380
+Yanzu lokaci ya yi da za a gano wanda ke amfani da Tsarin Yin Rajistar Fina-finai.
+
+00:07:32.020 --> 00:07:34.940
+Hakika, ya kamata ka tambayi ƙwararren masanin yanki don ƙarin bayani game da wannan.
+
+00:07:35.420 --> 00:07:38.740
+Kuma mun gano cewa muna da abokan ciniki da manajoji.
+
+00:07:40.820 --> 00:07:43.280
+Ɗaya daga cikin abubuwan da ba a iya mantawa da su ba a farkon matakan ƙira shine
+
+00:07:43.280 --> 00:07:44.760
+Dogara ce ta waje
+
+00:07:45.340 --> 00:07:46.580
+Abubuwan da suka dogara da waje sune
+
+00:07:46.580 --> 00:07:49.210
+Zai iya zama tsarin gado na yanzu,
+
+00:07:49.660 --> 00:07:51.420
+Zai iya zama tsarin biyan kuɗi
+
+00:07:52.020 --> 00:07:53.670
+Wannan dangantaka ta dogara ita ce
+
+00:07:53.670 --> 00:07:56.760
+Domin kuwa zai iya yin babban tasiri ga tsarin gabaɗaya.
+
+00:07:56.950 --> 00:08:00.150
+Yana da mahimmanci a gano shi da wuri-wuri.
+
+00:08:00.570 --> 00:08:01.240
+sa'a
+
+00:08:01.820 --> 00:08:04.990
+Abubuwa kamar hanyoyin biyan kuɗi da tsarin gado
+
+00:08:05.270 --> 00:08:07.730
+Domin ana amfani da shi a tsarin da ake da shi a yanzu
+
+00:08:07.990 --> 00:08:10.360
+Ana iya fahimtarsa ​​cikin sauƙi
+
+00:08:11.230 --> 00:08:14.410
+Ɗaya daga cikin abubuwan da ke da sauƙin yin watsi da su a cikin dangantaka mai dogaro shine
+
+00:08:14.410 --> 00:08:16.090
+Akwai abubuwan da suka shafi muhalli na waje
+
+00:08:16.900 --> 00:08:19.060
+Ƙasarmu tana cikin yankin lokaci ɗaya
+
+00:08:19.060 --> 00:08:22.430
+A ƙasar da ke da babban yanki na ƙasa, kowane gidan wasan kwaikwayo yana da lokaci daban-daban.
+
+00:08:23.190 --> 00:08:25.100
+Sai Tsarin Yin Rajistar Fina-finai
+
+00:08:25.100 --> 00:08:28.900
+Babu makawa abubuwan da suka shafi muhalli kamar yankunan lokaci za su shafe shi.
+
+00:08:29.410 --> 00:08:32.760
+Waɗannan abubuwan ba sa bayyana a fili sai dai idan ka tambayi ƙwararren masanin yankin kai tsaye.
+
+00:08:32.760 --> 00:08:33.950
+Yana da sauƙin rasawa
+
+00:08:34.740 --> 00:08:37.610
+Masana fannin suna yawan yin watsi da waɗannan bayanai.
+
+00:08:37.610 --> 00:08:40.010
+Domin za a iya cire bayanin
+
+00:08:41.680 --> 00:08:43.640
+Tunda an bayyana dangantakar dogaro a sarari
+
+00:08:43.640 --> 00:08:47.500
+Yanzu bari mu mayar da hankali kan abubuwan da ke cikin Tsarin Yin Rajistar Fina-finai.
+
+00:08:48.430 --> 00:08:52.230
+Da farko, me abokin ciniki ke yi a Tsarin Yin Rajistar Fina-finai?
+
+00:08:52.230 --> 00:08:54.230
+Bari mu tambayi masana fannin yankin
+
+00:08:55.800 --> 00:08:57.880
+Me abokan ciniki ke yi?
+
+00:08:57.880 --> 00:08:59.970
+Abokan ciniki suna neman fina-finai,
+
+00:08:59.970 --> 00:09:01.450
+Duba cikakkun bayanai game da fim ɗin,
+
+00:09:01.450 --> 00:09:02.910
+Zaɓi lokacin nunawa,
+
+00:09:02.910 --> 00:09:04.450
+Zaɓi wurin zama,
+
+00:09:04.450 --> 00:09:05.920
+Yi rajistar tikitin fim,
+
+00:09:05.920 --> 00:09:07.610
+Duba bayanan ajiyar wuri,
+
+00:09:07.610 --> 00:09:10.180
+Yi abubuwa kamar soke yin booking
+
+00:09:10.180 --> 00:09:15.750
+Shin zaɓar lokacin nuna fim da kuma zaɓar wurin zama wani ɓangare ne na tsarin yin rajistar tikitin fina-finai?
+
+00:09:15.750 --> 00:09:18.880
+Kuma don yin rajistar tikitin fim, don soke rajistar fim
+
+00:09:18.880 --> 00:09:22.210
+Bayan haka, ba wai kawai kana sayen tikiti ka dawo da kudinka ba ne?
+
+00:09:22.210 --> 00:09:23.620
+kana da gaskiya
+
+00:09:23.620 --> 00:09:25.030
+Haka ne
+
+00:09:25.480 --> 00:09:27.880
+Domin yanzu yanki ne da aka saba da shi
+
+00:09:27.880 --> 00:09:31.240
+Zaɓi lokacin tantancewa kuma zaɓi wurin zama
+
+00:09:31.240 --> 00:09:33.200
+Shin wannan ɓangare ne na tsarin yin rajistar tikitin fina-finai?
+
+00:09:33.200 --> 00:09:34.530
+Zan iya tambaya
+
+00:09:34.980 --> 00:09:37.220
+Amma idan wani yanki ne da ba a saba gani ba,
+
+00:09:37.410 --> 00:09:40.160
+Yin nazari dalla-dalla kan kowane yanayin amfani
+
+00:09:40.520 --> 00:09:43.330
+Za ka maimaita aikin tacewa sau da yawa.
+
+00:09:43.790 --> 00:09:45.350
+Dangane da yanayin aikin
+
+00:09:45.350 --> 00:09:48.080
+Za ka iya maimaita wannan tsari sau da yawa,
+
+00:09:48.080 --> 00:09:50.580
+Da zarar ka ɗauki lokacinka ka yi nazari a hankali,
+
+00:09:50.580 --> 00:09:54.190
+Rage gwaji da kurakurai yayin matakan ƙira da aiwatarwa.
+
+00:09:55.850 --> 00:09:57.530
+Dangane da tattaunawar da aka yi zuwa yanzu
+
+00:09:57.530 --> 00:10:00.970
+Mun tsara yanayin amfani da abokan cinikinmu zuwa rukuni huɗu:
+
+00:10:02.960 --> 00:10:04.470
+Na gaba shine mai gudanarwa
+
+00:10:05.190 --> 00:10:08.850
+Mai gudanarwa zai iya ganin cewa akwai abubuwa guda biyar na gudanarwa:
+
+00:10:09.440 --> 00:10:13.620
+Ni da kaina, ina taka tsantsan game da amfani da kalmar "Manage" a cikin ci gaba.
+
+00:10:14.360 --> 00:10:16.980
+Gudanarwa ya yi faɗi sosai
+
+00:10:16.980 --> 00:10:19.030
+Ba a san abin da kake yi ba
+
+00:10:19.640 --> 00:10:20.950
+Haka nan ma
+
+00:10:21.370 --> 00:10:23.760
+Ta yaya ake sarrafa shi daidai?
+
+00:10:23.760 --> 00:10:24.810
+Ban sani ba
+
+00:10:25.930 --> 00:10:27.620
+Ta hanyar yin magana da ƙwararrun masu bincike a yankin
+
+00:10:27.620 --> 00:10:31.220
+An faɗaɗa kowane abu na gudanarwa zuwa takamaiman yanayin amfani.
+
+00:10:31.900 --> 00:10:33.660
+Idan aiki ne na gaske
+
+00:10:33.660 --> 00:10:35.890
+Akwai yiwuwar akwai ƙarin amfani fiye da wannan.
+
+00:10:36.150 --> 00:10:39.000
+Ga shi nan na sauƙaƙa shi don bayani.
+
+00:10:39.860 --> 00:10:42.700
+Abin da ya kamata a lura a nan shi ne, lokacin da aka tsara lokacin aiki,
+
+00:10:43.020 --> 00:10:45.900
+Za ka iya ganin cewa an ƙirƙiri tikitin kuma
+
+00:10:46.960 --> 00:10:49.200
+Kuma lokacin siyan ko mayar da tikiti
+
+00:10:49.490 --> 00:10:53.910
+Haka kuma za ku iya ganin cewa muna amfani da sabis na waje da ake kira ƙofar biyan kuɗi.
+
+00:10:55.890 --> 00:10:58.670
+Na haɗa shari'o'in amfani da abokan ciniki da manajoji.
+
+00:10:59.350 --> 00:11:01.730
+Duba dukkan yanayin amfani kamar haka
+
+00:11:01.730 --> 00:11:02.900
+Wani abu yana jin babu komai
+
+00:11:03.890 --> 00:11:05.840
+Akwai zaɓi don ƙara gidan wasan kwaikwayo
+
+00:11:05.840 --> 00:11:08.720
+Ban ga wani abu kamar Search Theater ba
+
+00:11:09.410 --> 00:11:12.130
+Da alama akwai wasu sharuɗɗan amfani da yawa da aka cire.
+
+00:11:12.770 --> 00:11:15.980
+Domin kuwa daga mahangar ƙwararren masanin yanki, akwai abubuwa da yawa da za a yi bayani a kansu.
+
+00:11:15.980 --> 00:11:17.950
+Wannan yanayin amfani, wanda ya bayyana a fili,
+
+00:11:18.150 --> 00:11:19.810
+Za ka iya cire bayanin
+
+00:11:20.770 --> 00:11:23.460
+To, daga mahangar mai haɓaka manhaja fa?
+
+00:11:24.400 --> 00:11:28.290
+Ya fi kyau a bar labarai masu sauƙi kamar neman gidan wasan kwaikwayo.
+
+00:11:28.290 --> 00:11:30.700
+Shin wannan ba zai fi taimakawa wajen sarrafa takardu ba?
+
+00:11:31.720 --> 00:11:32.870
+Idan ƙirar baya ce
+
+00:11:32.870 --> 00:11:35.920
+Sauƙaƙan amfani kamar neman gidan wasan kwaikwayo
+
+00:11:35.920 --> 00:11:37.760
+Ina ganin babu laifi a tsallake shi
+
+00:11:38.600 --> 00:11:41.570
+Abin da nake nufi shi ne, ba a makara ba wajen mayar da martani a lokacin aiwatarwa.
+
+00:11:42.370 --> 00:11:44.310
+Amma idan aiki ne na gaske
+
+00:11:44.310 --> 00:11:48.450
+Ga masu tsara allo, waɗannan sharuɗɗan amfani suna da kyau wurin farawa.
+
+00:11:49.250 --> 00:11:52.300
+Mai tsara shirin ya duba batun amfani da neman gidan wasan kwaikwayo.
+
+00:11:52.300 --> 00:11:55.300
+Ta yaya zan iya samun damar bincika gidajen sinima?
+
+00:11:55.300 --> 00:11:56.600
+Za ka iya tunani
+
+00:11:58.000 --> 00:12:00.880
+Idan ka haɗa zane-zanen zuwa ɗaya, zai yi kama da mai rikitarwa.
+
+00:12:01.490 --> 00:12:05.150
+Da ace aiki ne na gaske, da ya fi rikitarwa.
+
+00:12:05.720 --> 00:12:08.240
+A wannan yanayin, babu buƙatar tilasta haɗa kai.
+
+00:12:08.810 --> 00:12:13.910
+Na haɗa su a nan ne kawai domin in bayyana cewa akwai wasu shari'o'in da suka ɓace.
+
+00:12:16.020 --> 00:12:18.490
+Na cike dukkan akwatunan da suka ɓace
+
+00:12:19.200 --> 00:12:21.880
+Ina da wani misali inda aka cire haɗin kai da ɗan wasan kwaikwayo.
+
+00:12:22.290 --> 00:12:25.720
+Wannan ya shafi abokan ciniki da manajoji.
+
+00:12:26.400 --> 00:12:29.480
+Kuma don sauƙin aiwatarwa, na rubuta shi da Turanci.
+
+00:12:31.370 --> 00:12:34.160
+Ba matsala yanzu domin ƙaramin aiki ne
+
+00:12:34.160 --> 00:12:36.160
+Idan aikin yana da girma kuma mai rikitarwa
+
+00:12:36.160 --> 00:12:38.980
+Ina ya kamata ƙwararren masanin yanki ya fara bayani?
+
+00:12:38.980 --> 00:12:40.380
+Yana iya zama da wahala
+
+00:12:41.280 --> 00:12:43.300
+Me mai gudanarwa ke yi?
+
+00:12:43.300 --> 00:12:44.700
+Aiki ne mai yawa
+
+00:12:44.700 --> 00:12:46.620
+Kamar yadda ake tsammani daga manaja
+
+00:12:47.620 --> 00:12:49.750
+A wannan yanayin, za mu iya raba 'yan wasan kwaikwayo?
+
+00:12:49.750 --> 00:12:52.340
+Haka kuma kyakkyawan ra'ayi ne a yi bita
+
+00:12:53.140 --> 00:12:54.790
+Da farko an kira ni mai gudanarwa
+
+00:12:54.790 --> 00:12:57.400
+Ana iya raba shi ta hanyar rawar da ya taka
+
+00:12:58.520 --> 00:13:00.820
+Kuma amfani da Tsarin Buga Fina-finai
+
+00:13:00.820 --> 00:13:02.870
+Akwai ayyukan waje
+
+00:13:03.660 --> 00:13:05.340
+Idan muka rarraba 'yan wasan kwaikwayo kamar haka,
+
+00:13:05.340 --> 00:13:09.420
+Masana fannin za su iya samar da ƙarin bayanai na tsari.
+
+00:13:10.350 --> 00:13:14.000
+Ba shakka, wannan misali ɗaya ne kawai na nazarin wani yanki mai rikitarwa.
+
+00:13:14.540 --> 00:13:17.320
+Akwai wasu hanyoyi masu kyau da za a iya bi
+
+00:13:17.960 --> 00:13:21.740
+Yana da muhimmanci a mayar da martani cikin sassauci dangane da yanayin da ake ciki.
+
+00:13:24.250 --> 00:13:25.060
+Wannan shine ƙarshe
+
+00:13:25.950 --> 00:13:29.170
+A wannan karon, za mu yi amfani da tsarin misali na amfani
+
+00:13:29.170 --> 00:13:30.840
+Kafa manufofi don aikin
+
+00:13:31.230 --> 00:13:33.700
+Na shiga matakan farko na bincike.
+
+00:13:34.880 --> 00:13:38.010
+Da kaina, a duk lokacin da ake ci gaba da aikin ci gaba
+
+00:13:38.010 --> 00:13:40.060
+Ina ganin bincike shine mafi wahala
+
+00:13:40.570 --> 00:13:44.250
+Domin dole ne mu tsara ra'ayoyi mafi rikitarwa da rashin tabbas.
+
+00:13:45.020 --> 00:13:47.650
+Lokaci na gaba za mu duba manyan lamuran amfani
+
+00:13:47.650 --> 00:13:49.470
+Bari mu yi nazari sosai kan hakan
+
+00:13:50.300 --> 00:13:52.100
+Na gode da aikin da kuka yi tukuru zuwa yanzu.
+

@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: id
+
+00:00:00.000 --> 00:00:02.020
+Halo, ini Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Perangkat lunak itu kompleks.
+
+00:00:06.650 --> 00:00:08.890
+Pertama-tama, ada banyak kode yang perlu ditulis.
+
+00:00:09.760 --> 00:00:12.710
+Ini hanyalah contoh proyek yang saya buat untuk seri ini.
+
+00:00:12.710 --> 00:00:15.270
+Kode tersebut memiliki panjang lebih dari 12.000 baris.
+
+00:00:16.330 --> 00:00:18.320
+Jika itu adalah layanan operasional yang sebenarnya
+
+00:00:18.320 --> 00:00:21.530
+Sekalipun layanannya kecil, jumlah saluran yang digunakan akan dengan mudah melebihi 100.000.
+
+00:00:22.130 --> 00:00:25.300
+Seratus ribu baris sudah cukup untuk mengisi dua puluh novel.
+
+00:00:26.870 --> 00:00:29.560
+Menulis kode panjang bukan berarti pekerjaan sudah selesai.
+
+00:00:30.330 --> 00:00:32.540
+Anda harus terus memperbaiki kode yang Anda tulis.
+
+00:00:33.400 --> 00:00:35.800
+Jika Anda memperbaiki A, B akan rusak.
+
+00:00:35.800 --> 00:00:39.130
+Jika Anda memperbaiki B, maka A dan C akan rusak.
+
+00:00:41.090 --> 00:00:44.260
+Sebagai analogi, ini seperti terjebak di dalam Rasputica dan menangis.
+
+00:00:44.260 --> 00:00:46.360
+Bisa dibilang situasinya mirip dengan kuda.
+
+00:00:47.330 --> 00:00:50.550
+Pada titik ini, Anda akan merasakan kebutuhan akan desain.
+
+00:00:52.580 --> 00:00:55.010
+Namun ketika Anda benar-benar mencoba menulis dokumen desain,
+
+00:00:55.500 --> 00:00:58.490
+Mengungkapkan pikiran yang ada di kepala Anda secara konkret.
+
+00:00:58.790 --> 00:01:01.260
+Anda akan menyadari bahwa itu tidak semudah yang Anda bayangkan.
+
+00:01:01.890 --> 00:01:05.600
+Bahkan partitur musik, yang merupakan dokumen yang secara visual merekam suara atau musik,
+
+00:01:05.600 --> 00:01:06.700
+Ini sangat rumit.
+
+00:01:07.520 --> 00:01:10.610
+Tidak hanya musik, tetapi juga keuangan dan logistik.
+
+00:01:10.610 --> 00:01:14.060
+Konsep yang lebih beragam dan persyaratan pengguna yang lebih abstrak.
+
+00:01:14.060 --> 00:01:17.220
+Tidak akan mudah untuk mengungkapkannya dalam model yang spesifik.
+
+00:01:18.530 --> 00:01:19.490
+Untung
+
+00:01:19.770 --> 00:01:23.200
+Untuk mengatasi kesulitan dalam memodelkan konsep abstrak.
+
+00:01:23.540 --> 00:01:26.860
+UML lahir pada akhir tahun 1990-an.
+
+00:01:27.730 --> 00:01:30.120
+Dipimpin oleh Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Kami menggunakan UML dengan antisipasi.
+
+00:01:34.980 --> 00:01:36.990
+Gambarlah diagram kelas.
+
+00:01:36.990 --> 00:01:38.760
+Mari kita juga menggambar diagram urutan.
+
+00:01:39.430 --> 00:01:39.980
+Namun
+
+00:01:40.360 --> 00:01:43.160
+Ketika saya benar-benar mencoba mendesainnya, hasilnya berbeda dari langsung membuat kodenya.
+
+00:01:43.160 --> 00:01:45.130
+Sepertinya tidak jauh berbeda
+
+00:01:45.590 --> 00:01:46.520
+Mengapa demikian?
+
+00:01:47.350 --> 00:01:50.910
+Itu karena proses berpikirnya sudah terbiasa dengan implementasi.
+
+00:01:51.290 --> 00:01:54.170
+Alih-alih membuat konsep abstrak menjadi lebih konkret,
+
+00:01:54.490 --> 00:01:57.590
+Karena hal itu menerjemahkan pemikiran tingkat implementasi ke dalam UML.
+
+00:01:58.520 --> 00:02:00.270
+Hanya karena kamu bisa membaca not musik
+
+00:02:00.270 --> 00:02:01.950
+Bukan berarti aku bisa mengarangnya.
+
+00:02:02.390 --> 00:02:03.850
+Hanya karena Anda mempelajari UML
+
+00:02:03.850 --> 00:02:06.170
+Bukan berarti kamu mengembangkan keterampilan desain.
+
+00:02:07.700 --> 00:02:09.300
+Jadi dalam seri ini
+
+00:02:09.300 --> 00:02:11.580
+Melalui proyek nyata
+
+00:02:11.580 --> 00:02:14.420
+Bagaimana cara mengkonkretkan persyaratan abstrak?
+
+00:02:14.420 --> 00:02:16.290
+Bisakah Anda menghubungkan kode tersebut?
+
+00:02:16.290 --> 00:02:18.010
+Saya ingin menunjukkannya langsung kepada Anda.
+
+00:02:18.530 --> 00:02:20.930
+Saya memilih untuk memesan tiket film melalui domain.
+
+00:02:21.370 --> 00:02:25.200
+Reservasi tiket film mudah dipahami karena sebagian besar merupakan bidang yang sudah dikenal.
+
+00:02:25.200 --> 00:02:29.710
+Mencakup berbagai fungsi seperti login, pembayaran, dan pemilihan tempat duduk.
+
+00:02:29.710 --> 00:02:31.580
+Ini tampaknya merupakan contoh yang bagus.
+
+00:02:33.600 --> 00:02:36.890
+Pada dasarnya, topik artikel ini adalah desain perangkat lunak, tetapi
+
+00:02:36.890 --> 00:02:40.350
+Kami juga akan membahas pengembangan berbasis pengujian (test-driven development).
+
+00:02:41.210 --> 00:02:44.890
+Lingkungan pengembangan modern secara bawaan mendukung alat pengujian.
+
+00:02:45.600 --> 00:02:48.320
+Bahkan jika Anda melihat proyek open source terkenal,
+
+00:02:48.320 --> 00:02:51.130
+Kami memiliki tingkat pengujian tertentu.
+
+00:02:51.740 --> 00:02:56.200
+Ini kemungkinan berarti bahwa pengujian memiliki kepentingan dan kegunaan yang sangat tinggi.
+
+00:02:56.870 --> 00:02:58.120
+Namun kenyataannya
+
+00:02:58.120 --> 00:03:02.590
+Dalam banyak kasus, bukan hanya TDD, tetapi bahkan otomatisasi pengujian pun tidak diimplementasikan dengan benar.
+
+00:03:03.190 --> 00:03:06.260
+Menulis tes yang bermakna terlebih dahulu tanpa persiapan apa pun adalah
+
+00:03:06.260 --> 00:03:07.540
+Ini tidak pernah mudah.
+
+00:03:08.410 --> 00:03:12.340
+Ini adalah sesuatu yang membutuhkan gabungan kemampuan desain perangkat lunak.
+
+00:03:13.320 --> 00:03:16.270
+Jadi, lebih baik menangani desain dan TDD secara bersamaan.
+
+00:03:16.270 --> 00:03:18.180
+Saya menilai itu efisien.
+
+00:03:20.120 --> 00:03:23.450
+Baiklah, sekarang mari kita mulai pertemuan pertama proyek ini.
+
+00:03:24.150 --> 00:03:26.470
+Karena ini adalah proyek kecil
+
+00:03:26.470 --> 00:03:28.090
+Ada dua orang yang hadir.
+
+00:03:28.790 --> 00:03:32.340
+Yang di sebelah kiri adalah pakar bidang, dan yang di sebelah kanan adalah pengembang.
+
+00:03:34.550 --> 00:03:37.790
+Para ahli di bidangnya memiliki peran dalam menentukan sistem yang perlu kita bangun.
+
+00:03:37.790 --> 00:03:39.280
+Ini menceritakan banyak kisah.
+
+00:03:40.340 --> 00:03:42.160
+Teater yang kami kelola
+
+00:03:42.160 --> 00:03:44.710
+Ada sekitar empat ribu di antaranya di seluruh negeri.
+
+00:03:44.710 --> 00:03:47.220
+Angka tersebut mungkin akan meningkat lebih lanjut di masa mendatang.
+
+00:03:47.220 --> 00:03:50.480
+Saat ini, hanya fungsi pemesanan tiket film yang didukung.
+
+00:03:50.480 --> 00:03:54.510
+Kami berencana untuk menambahkan penjualan tiket untuk pertunjukan berskala besar di kemudian hari.
+
+00:03:54.510 --> 00:03:58.940
+Dan yang terpenting, Anda tidak boleh memesan tempat duduk ganda.
+
+00:03:58.940 --> 00:04:03.250
+Di masa lalu, pusat layanan pelanggan mengalami kesulitan yang sangat besar dalam menangani masalah semacam itu.
+
+00:04:03.250 --> 00:04:07.670
+Karena sudah banyak informasi film dan data ulasan yang terkumpul.
+
+00:04:07.670 --> 00:04:11.090
+Data ini harus tetap utuh.
+
+00:04:12.090 --> 00:04:14.730
+Di sini percakapannya tersusun dengan baik, tetapi
+
+00:04:14.890 --> 00:04:16.960
+Sebenarnya, ada informasi lebih lanjut.
+
+00:04:16.960 --> 00:04:18.600
+Pengirimannya akan dilakukan secara tidak teratur.
+
+00:04:19.470 --> 00:04:22.110
+Namun, cerita yang muncul di awal proyek adalah...
+
+00:04:22.110 --> 00:04:23.780
+Karena itu adalah persyaratan terpenting.
+
+00:04:23.780 --> 00:04:25.320
+Anda harus mendengarkan dengan saksama.
+
+00:04:27.110 --> 00:04:29.810
+Para pengembang mendengarkan para ahli di bidangnya.
+
+00:04:29.810 --> 00:04:31.290
+Saya punya beberapa pertanyaan.
+
+00:04:32.290 --> 00:04:34.660
+Fungsi pemesanan tiket pertunjukan skala besar yang Anda sebutkan.
+
+00:04:34.660 --> 00:04:36.910
+Kapan akan ditambahkan?
+
+00:04:36.910 --> 00:04:39.910
+Apakah hal ini perlu dimasukkan dalam lingkup proyek ini sejak awal?
+
+00:04:39.910 --> 00:04:43.590
+Atau saya ingin tahu apakah saya harus mempertimbangkannya sekarang.
+
+00:04:43.590 --> 00:04:46.090
+Dan kebutuhan untuk memelihara data yang ada
+
+00:04:46.090 --> 00:04:48.940
+Apakah ini berarti kita tidak boleh mengubah sistem basis data?
+
+00:04:48.940 --> 00:04:51.950
+Apakah ada layanan lain yang saat ini berbagi basis data tersebut?
+
+00:04:53.580 --> 00:04:54.980
+Seperti yang Anda lihat dari basis data,
+
+00:04:54.980 --> 00:04:57.290
+Karena pakar bidang tertentu bukanlah pengembang.
+
+00:04:57.290 --> 00:04:59.430
+Istilah teknis tersebut ambigu.
+
+00:04:59.910 --> 00:05:02.890
+Para pengembang perlu memeriksa hal-hal ini dengan cermat.
+
+00:05:04.230 --> 00:05:07.450
+Pakar bidang tertentu menjawab pertanyaan pengembang seperti ini:
+
+00:05:08.330 --> 00:05:10.210
+Fungsi pemesanan tiket pertunjukan skala besar
+
+00:05:10.210 --> 00:05:13.450
+Belum ada jadwal spesifik.
+
+00:05:13.450 --> 00:05:15.970
+Namun, ketika fitur-fitur ditambahkan di masa mendatang
+
+00:05:15.970 --> 00:05:18.700
+Sehingga Anda dapat melakukan upgrade tanpa banyak kesulitan.
+
+00:05:18.700 --> 00:05:22.600
+Saya rasa akan lebih baik jika Anda mempertimbangkannya kali ini.
+
+00:05:22.600 --> 00:05:27.050
+Kami tidak menggunakan DB untuk hal lain selain layanan kami.
+
+00:05:27.050 --> 00:05:32.840
+Mengubah sistem itu sendiri bukanlah masalah besar selama data dikelola dengan baik.
+
+00:05:33.840 --> 00:05:35.080
+Setelah mendengar cerita tersebut
+
+00:05:35.080 --> 00:05:39.400
+Saya rasa Anda tidak perlu khawatir tentang pertunjukan besar itu.
+
+00:05:39.400 --> 00:05:40.790
+Ini bukan cakupan proyeknya.
+
+00:05:40.790 --> 00:05:43.040
+Persyaratannya juga tidak jelas.
+
+00:05:43.040 --> 00:05:44.930
+Saya tidak tahu kapan saya akan membutuhkannya, tetapi
+
+00:05:44.930 --> 00:05:47.710
+Itu adalah masalah yang perlu kita tinjau kembali nanti.
+
+00:05:48.920 --> 00:05:50.910
+Meskipun tidak tercatat dalam dokumen.
+
+00:05:50.910 --> 00:05:54.880
+Para ahli di bidang terkait juga akan memberikan tanggapan bahwa mereka akan mempertimbangkan pertunjukan berskala besar.
+
+00:05:54.880 --> 00:05:55.960
+Anda tidak boleh lupa
+
+00:05:56.740 --> 00:05:58.320
+Baiklah
+
+00:05:58.320 --> 00:06:00.630
+Kemudian, fungsi reservasi tiket pertunjukan berskala besar.
+
+00:06:00.630 --> 00:06:04.500
+Saya tidak akan menempatkannya di antara prioritas utama untuk proyek ini.
+
+00:06:04.500 --> 00:06:08.220
+Sebaliknya, hal ini mempermudah perluasan fungsionalitas di kemudian hari dalam proses pengembangan.
+
+00:06:08.220 --> 00:06:10.190
+Saya akan merawatnya dengan baik.
+
+00:06:10.190 --> 00:06:12.840
+Jangan khawatir. Percayalah hanya padaku
+
+00:06:13.840 --> 00:06:15.960
+Penting untuk menjaga hubungan baik.
+
+00:06:17.980 --> 00:06:19.500
+Melalui percakapan kita sejauh ini
+
+00:06:19.500 --> 00:06:22.700
+Prioritas utama tersebut dapat dirangkum sebagai berikut:
+
+00:06:23.220 --> 00:06:25.890
+Ini adalah informasi yang diberikan oleh para ahli di bidangnya.
+
+00:06:25.890 --> 00:06:28.410
+Menafsirkan dan menyusun dari perspektif pengembang.
+
+00:06:28.410 --> 00:06:29.810
+Mulai proyeknya
+
+00:06:31.700 --> 00:06:32.860
+Dengan para ahli di bidangnya
+
+00:06:32.860 --> 00:06:34.980
+Setelah Anda menentukan tujuan proyek Anda,
+
+00:06:35.620 --> 00:06:37.980
+Sekarang saatnya memberi nama proyek Anda.
+
+00:06:38.750 --> 00:06:41.840
+Pertama, mintalah pendapat dari pakar di bidang tersebut.
+
+00:06:42.800 --> 00:06:45.540
+Apa nama yang sebaiknya saya berikan untuk proyek ini?
+
+00:06:45.540 --> 00:06:47.680
+Ini adalah sistem reservasi film.
+
+00:06:47.680 --> 00:06:50.150
+Bagaimana kalau hanya Sistem Pemesanan Film saja?
+
+00:06:50.150 --> 00:06:51.430
+Tidak, saya tidak mau.
+
+00:06:51.430 --> 00:06:53.570
+Saya akan mengurus pertunjukan berskala besar.
+
+00:06:53.570 --> 00:06:56.930
+Mari kita gunakan Sistem Pemesanan Film. Ya?
+
+00:06:56.930 --> 00:06:58.180
+Besar
+
+00:06:58.180 --> 00:06:59.950
+Terima kasih banyak
+
+00:07:01.000 --> 00:07:05.230
+Pakar bidang terkait mungkin menginginkan nama proyek dalam bahasa Korea.
+
+00:07:05.580 --> 00:07:07.680
+Namun dari perspektif pengembang
+
+00:07:07.680 --> 00:07:09.990
+Semua istilah termasuk nama proyek
+
+00:07:09.990 --> 00:07:12.180
+Karena diimplementasikan langsung dalam kode,
+
+00:07:12.600 --> 00:07:15.000
+Akan lebih mudah untuk menjelaskannya dalam bahasa Inggris jika memungkinkan.
+
+00:07:15.540 --> 00:07:19.510
+Penting bagi pengembang untuk mengikuti kebutuhan para ahli di bidangnya dengan saksama, tetapi...
+
+00:07:19.960 --> 00:07:21.430
+Dengan mempertimbangkan keseluruhan proyek.
+
+00:07:21.430 --> 00:07:23.930
+Kita juga memiliki tanggung jawab untuk mengarahkan segala sesuatunya ke arah yang efisien.
+
+00:07:25.850 --> 00:07:27.760
+Jika Anda sudah menentukan nama untuk proyek Anda
+
+00:07:27.760 --> 00:07:31.380
+Sekarang saatnya mencari tahu siapa yang menggunakan Sistem Pemesanan Film.
+
+00:07:32.020 --> 00:07:34.940
+Tentu saja, Anda sebaiknya meminta informasi kepada pakar di bidang tersebut.
+
+00:07:35.420 --> 00:07:38.740
+Dan kami menemukan bahwa kami memiliki pelanggan dan manajer.
+
+00:07:40.820 --> 00:07:43.280
+Salah satu elemen yang mudah terlewatkan pada tahap awal desain adalah
+
+00:07:43.280 --> 00:07:44.760
+Ini adalah ketergantungan eksternal
+
+00:07:45.340 --> 00:07:46.580
+Ketergantungan eksternal adalah
+
+00:07:46.580 --> 00:07:49.210
+Ini bisa jadi sistem lama yang sudah ada,
+
+00:07:49.660 --> 00:07:51.420
+Ini bisa jadi sistem pembayaran.
+
+00:07:52.020 --> 00:07:53.670
+Hubungan ketergantungan ini adalah
+
+00:07:53.670 --> 00:07:56.760
+Karena hal itu dapat berdampak besar pada desain sistem secara keseluruhan.
+
+00:07:56.950 --> 00:08:00.150
+Penting untuk mengidentifikasinya sedini mungkin.
+
+00:08:00.570 --> 00:08:01.240
+untung
+
+00:08:01.820 --> 00:08:04.990
+Elemen-elemen seperti gerbang pembayaran dan sistem lama.
+
+00:08:05.270 --> 00:08:07.730
+Karena hal itu sudah digunakan dalam sistem yang ada.
+
+00:08:07.990 --> 00:08:10.360
+Hal ini dapat dipahami dengan relatif mudah.
+
+00:08:11.230 --> 00:08:14.410
+Salah satu hal yang mudah diabaikan dalam hubungan ketergantungan adalah
+
+00:08:14.410 --> 00:08:16.090
+Terdapat faktor lingkungan eksternal.
+
+00:08:16.900 --> 00:08:19.060
+Negara kita berada di zona waktu yang sama.
+
+00:08:19.060 --> 00:08:22.430
+Di negara dengan wilayah daratan yang luas, setiap teater memiliki slot waktu yang berbeda.
+
+00:08:23.190 --> 00:08:25.100
+Kemudian Sistem Pemesanan Film
+
+00:08:25.100 --> 00:08:28.900
+Tidak dapat dipungkiri bahwa hal tersebut akan dipengaruhi oleh faktor lingkungan seperti zona waktu.
+
+00:08:29.410 --> 00:08:32.760
+Faktor-faktor ini tidak mudah terlihat kecuali Anda bertanya langsung kepada pakar di bidang tersebut.
+
+00:08:32.760 --> 00:08:33.950
+Sangat mudah terlewatkan
+
+00:08:34.740 --> 00:08:37.610
+Para ahli di bidang tertentu cenderung mengabaikan detail-detail ini.
+
+00:08:37.610 --> 00:08:40.010
+Karena penjelasannya mungkin dihilangkan.
+
+00:08:41.680 --> 00:08:43.640
+Karena hubungan ketergantungan telah dinyatakan dengan jelas.
+
+00:08:43.640 --> 00:08:47.500
+Sekarang mari kita fokus pada bagian internal dari Sistem Pemesanan Film.
+
+00:08:48.430 --> 00:08:52.230
+Pertama-tama, apa yang dilakukan pelanggan dalam Sistem Pemesanan Film?
+
+00:08:52.230 --> 00:08:54.230
+Mari kita tanyakan kepada para ahli di bidang ini.
+
+00:08:55.800 --> 00:08:57.880
+Apa yang dilakukan pelanggan?
+
+00:08:57.880 --> 00:08:59.970
+Pelanggan mencari film,
+
+00:08:59.970 --> 00:09:01.450
+Lihat detail film,
+
+00:09:01.450 --> 00:09:02.910
+Pilih waktu penayangan,
+
+00:09:02.910 --> 00:09:04.450
+Pilih tempat duduk Anda,
+
+00:09:04.450 --> 00:09:05.920
+Pesan tiket film,
+
+00:09:05.920 --> 00:09:07.610
+Periksa detail reservasi,
+
+00:09:07.610 --> 00:09:10.180
+Melakukan hal-hal seperti membatalkan reservasi
+
+00:09:10.180 --> 00:09:15.750
+Apakah memilih jam tayang dan memilih tempat duduk termasuk dalam proses pemesanan tiket film?
+
+00:09:15.750 --> 00:09:18.880
+Dan untuk memesan tiket film, untuk membatalkan reservasi
+
+00:09:18.880 --> 00:09:22.210
+Lagipula, bukankah Anda hanya membeli tiket dan meminta pengembalian dana?
+
+00:09:22.210 --> 00:09:23.620
+Kamu benar.
+
+00:09:23.620 --> 00:09:25.030
+Itu benar
+
+00:09:25.480 --> 00:09:27.880
+Karena ini sudah menjadi ranah yang familiar sekarang.
+
+00:09:27.880 --> 00:09:31.240
+Pilih waktu penayangan dan pilih tempat duduk Anda.
+
+00:09:31.240 --> 00:09:33.200
+Apakah ini bagian dari proses pemesanan tiket film?
+
+00:09:33.200 --> 00:09:34.530
+Saya bisa bertanya
+
+00:09:34.980 --> 00:09:37.220
+Namun jika itu adalah bidang yang tidak dikenal,
+
+00:09:37.410 --> 00:09:40.160
+Menganalisis setiap kasus penggunaan secara detail.
+
+00:09:40.520 --> 00:09:43.330
+Anda akan mengulangi proses pemurnian beberapa kali.
+
+00:09:43.790 --> 00:09:45.350
+Tergantung pada situasi proyek.
+
+00:09:45.350 --> 00:09:48.080
+Anda dapat mengulangi proses ini beberapa kali,
+
+00:09:48.080 --> 00:09:50.580
+Semakin Anda meluangkan waktu dan menganalisis dengan cermat,
+
+00:09:50.580 --> 00:09:54.190
+Kurangi proses coba-coba selama tahap desain dan implementasi.
+
+00:09:55.850 --> 00:09:57.530
+Berdasarkan percakapan sejauh ini
+
+00:09:57.530 --> 00:10:00.970
+Kami telah mengelompokkan studi kasus pelanggan kami ke dalam empat kategori:
+
+00:10:02.960 --> 00:10:04.470
+Berikutnya adalah administrator.
+
+00:10:05.190 --> 00:10:08.850
+Administrator dapat melihat bahwa ada lima item manajemen:
+
+00:10:09.440 --> 00:10:13.620
+Secara pribadi, saya berhati-hati dalam menggunakan kata "Mengelola" dalam pengembangan.
+
+00:10:14.360 --> 00:10:16.980
+Mengelola adalah ungkapan yang terlalu luas.
+
+00:10:16.980 --> 00:10:19.030
+Tidak jelas apa yang sedang Anda lakukan.
+
+00:10:19.640 --> 00:10:20.950
+Di sini juga sama.
+
+00:10:21.370 --> 00:10:23.760
+Bagaimana tepatnya pengelolaannya?
+
+00:10:23.760 --> 00:10:24.810
+Saya tidak tahu
+
+00:10:25.930 --> 00:10:27.620
+Dengan berbicara kepada para ahli di bidang tersebut.
+
+00:10:27.620 --> 00:10:31.220
+Setiap item manajemen telah diperluas ke kasus penggunaan spesifik.
+
+00:10:31.900 --> 00:10:33.660
+Jika ini adalah proyek nyata
+
+00:10:33.660 --> 00:10:35.890
+Kemungkinan ada lebih banyak kasus penggunaan daripada ini.
+
+00:10:36.150 --> 00:10:39.000
+Di sini saya telah menyederhanakannya untuk memudahkan penjelasan.
+
+00:10:39.860 --> 00:10:42.700
+Yang penting untuk diperhatikan di sini adalah bahwa ketika Anda membuat waktu berjalan,
+
+00:10:43.020 --> 00:10:45.900
+Anda dapat melihat bahwa tiket juga telah dibuat.
+
+00:10:46.960 --> 00:10:49.200
+Dan saat membeli atau mengembalikan tiket
+
+00:10:49.490 --> 00:10:53.910
+Anda juga dapat melihat bahwa kami menggunakan layanan eksternal yang disebut payment gateway.
+
+00:10:55.890 --> 00:10:58.670
+Saya menggabungkan kasus penggunaan dari sudut pandang pelanggan dan manajer.
+
+00:10:59.350 --> 00:11:01.730
+Jika dilihat dari keseluruhan kasus penggunaan seperti ini
+
+00:11:01.730 --> 00:11:02.900
+Ada sesuatu yang terasa hampa.
+
+00:11:03.890 --> 00:11:05.840
+Ada opsi untuk menambahkan teater.
+
+00:11:05.840 --> 00:11:08.720
+Saya tidak melihat aplikasi seperti Search Theater.
+
+00:11:09.410 --> 00:11:12.130
+Sepertinya ada cukup banyak kasus penggunaan yang diabaikan.
+
+00:11:12.770 --> 00:11:15.980
+Karena dari perspektif seorang ahli di bidangnya, ada banyak hal yang perlu dijelaskan.
+
+00:11:15.980 --> 00:11:17.950
+Kasus penggunaan ini, yang tampaknya sangat jelas,
+
+00:11:18.150 --> 00:11:19.810
+Anda dapat menghilangkan penjelasannya.
+
+00:11:20.770 --> 00:11:23.460
+Lalu bagaimana dari perspektif pengembang?
+
+00:11:24.400 --> 00:11:28.290
+Lebih baik mengabaikan kasus berita sederhana seperti mencari teater.
+
+00:11:28.290 --> 00:11:30.700
+Bukankah ini akan lebih bermanfaat untuk manajemen dokumen?
+
+00:11:31.720 --> 00:11:32.870
+Jika ini tentang desain backend
+
+00:11:32.870 --> 00:11:35.920
+Contoh penggunaan sederhana seperti mencari teater.
+
+00:11:35.920 --> 00:11:37.760
+Saya rasa tidak apa-apa untuk melewatkannya.
+
+00:11:38.600 --> 00:11:41.570
+Yang ingin saya sampaikan adalah, belum terlambat untuk memberikan tanggapan selama fase implementasi.
+
+00:11:42.370 --> 00:11:44.310
+Tapi jika ini proyek sungguhan
+
+00:11:44.310 --> 00:11:48.450
+Bagi perencana layar, studi kasus ini merupakan titik awal yang baik.
+
+00:11:49.250 --> 00:11:52.300
+Perencana tersebut mempertimbangkan skenario penggunaan untuk mencari teater.
+
+00:11:52.300 --> 00:11:55.300
+Bagaimana cara agar saya bisa mencari bioskop?
+
+00:11:55.300 --> 00:11:56.600
+Anda akan mampu berpikir
+
+00:11:58.000 --> 00:12:00.880
+Jika Anda menggabungkan diagram-diagram tersebut menjadi satu, hasilnya terlihat rumit.
+
+00:12:01.490 --> 00:12:05.150
+Jika ini adalah proyek sungguhan, pasti akan jauh lebih rumit.
+
+00:12:05.720 --> 00:12:08.240
+Dalam hal ini, tidak perlu memaksakan penggabungan.
+
+00:12:08.810 --> 00:12:13.910
+Saya baru saja menggabungkannya di sini untuk mengungkapkan bahwa ada kasus yang hilang.
+
+00:12:16.020 --> 00:12:18.490
+Saya telah mengisi semua kasus yang hilang.
+
+00:12:19.200 --> 00:12:21.880
+Saya memiliki kasus penggunaan di mana koneksi ke aktor dihilangkan.
+
+00:12:22.290 --> 00:12:25.720
+Hal ini berlaku baik untuk pelanggan maupun manajer.
+
+00:12:26.400 --> 00:12:29.480
+Dan untuk memudahkan implementasi, saya menuliskannya dalam bahasa Inggris.
+
+00:12:31.370 --> 00:12:34.160
+Tidak apa-apa sekarang karena ini proyek kecil.
+
+00:12:34.160 --> 00:12:36.160
+Jika proyeknya besar dan kompleks
+
+00:12:36.160 --> 00:12:38.980
+Dari mana seorang ahli di bidang tersebut harus mulai menjelaskan?
+
+00:12:38.980 --> 00:12:40.380
+Ini mungkin sulit.
+
+00:12:41.280 --> 00:12:43.300
+Apa saja tugas seorang administrator?
+
+00:12:43.300 --> 00:12:44.700
+Ini pekerjaan yang berat
+
+00:12:44.700 --> 00:12:46.620
+Sesuai yang diharapkan dari seorang manajer.
+
+00:12:47.620 --> 00:12:49.750
+Dalam hal ini, bisakah kita membagi aktor-aktor tersebut menjadi sub-kelompok?
+
+00:12:49.750 --> 00:12:52.340
+Sebaiknya juga dilakukan peninjauan.
+
+00:12:53.140 --> 00:12:54.790
+Awalnya saya dipanggil sebagai administrator.
+
+00:12:54.790 --> 00:12:57.400
+Mungkin dimungkinkan untuk membagi lebih lanjut berdasarkan peran.
+
+00:12:58.520 --> 00:13:00.820
+Dan menggunakan Sistem Pemesanan Film
+
+00:13:00.820 --> 00:13:02.870
+Mungkin ada layanan eksternal.
+
+00:13:03.660 --> 00:13:05.340
+Jika kita mengelompokkan aktor seperti ini,
+
+00:13:05.340 --> 00:13:09.420
+Para ahli di bidang terkait akan mampu memberikan informasi yang lebih sistematis.
+
+00:13:10.350 --> 00:13:14.000
+Tentu saja, ini hanyalah satu contoh dari analisis domain yang kompleks.
+
+00:13:14.540 --> 00:13:17.320
+Mungkin ada cara baik lainnya.
+
+00:13:17.960 --> 00:13:21.740
+Penting untuk merespons secara fleksibel tergantung pada situasi yang ada.
+
+00:13:24.250 --> 00:13:25.060
+Inilah kesimpulannya
+
+00:13:25.950 --> 00:13:29.170
+Kali ini, kita akan menggunakan diagram kasus penggunaan.
+
+00:13:29.170 --> 00:13:30.840
+Tetapkan tujuan untuk proyek tersebut.
+
+00:13:31.230 --> 00:13:33.700
+Saya telah melalui tahap-tahap awal analisis.
+
+00:13:34.880 --> 00:13:38.010
+Secara pribadi, selama seluruh proses pengembangan
+
+00:13:38.010 --> 00:13:40.060
+Menurut saya, analisis adalah bagian yang paling sulit.
+
+00:13:40.570 --> 00:13:44.250
+Karena kita harus mengatur konsep-konsep yang paling abstrak dan samar.
+
+00:13:45.020 --> 00:13:47.650
+Selanjutnya kita akan membahas kasus penggunaan utamanya.
+
+00:13:47.650 --> 00:13:49.470
+Mari kita analisis lebih detail.
+
+00:13:50.300 --> 00:13:52.100
+Terima kasih atas kerja keras Anda selama ini.
+

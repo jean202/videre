@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: hr
+
+00:00:00.000 --> 00:00:02.020
+Pozdrav, ovdje Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Softver je složen
+
+00:00:06.650 --> 00:00:08.890
+Prije svega, postoji puno koda koji treba napisati.
+
+00:00:09.760 --> 00:00:12.710
+Samo primjeri projekata koje sam napravio za ovu seriju
+
+00:00:12.710 --> 00:00:15.270
+Kod je dug preko 12.000 redaka.
+
+00:00:16.330 --> 00:00:18.320
+Ako se radi o stvarnoj operativnoj usluzi
+
+00:00:18.320 --> 00:00:21.530
+Čak i ako je riječ o maloj usluzi, lako će premašiti 100 000 redaka.
+
+00:00:22.130 --> 00:00:25.300
+Sto tisuća redaka dovoljno je za popunjavanje dvadeset romana.
+
+00:00:26.870 --> 00:00:29.560
+Pisanje dugog koda ne znači da je gotovo.
+
+00:00:30.330 --> 00:00:32.540
+Moraš stalno popravljati kod koji pišeš.
+
+00:00:33.400 --> 00:00:35.800
+Ako popraviš A, B se pokvari.
+
+00:00:35.800 --> 00:00:39.130
+Ako popravite B, A i C će se slomiti.
+
+00:00:41.090 --> 00:00:44.260
+Da upotrijebimo analogiju, to je kao da ste zarobljeni u Rasputici i plačete.
+
+00:00:44.260 --> 00:00:46.360
+Moglo bi se reći da je situacija slična kao i s konjem.
+
+00:00:47.330 --> 00:00:50.550
+U ovom trenutku osjetit ćete potrebu za dizajnom.
+
+00:00:52.580 --> 00:00:55.010
+Ali kada zapravo pokušate napisati dizajnerski dokument,
+
+00:00:55.500 --> 00:00:58.490
+Konkretno izražavanje misli u glavi
+
+00:00:58.790 --> 00:01:01.260
+Otkrit ćeš da nije tako lako kao što misliš.
+
+00:01:01.890 --> 00:01:05.600
+Čak i notni zapisi, dokumenti koji vizualno bilježe zvuk ili glazbu,
+
+00:01:05.600 --> 00:01:06.700
+To je ovako komplicirano
+
+00:01:07.520 --> 00:01:10.610
+Ne samo glazba, već i financije i logistika
+
+00:01:10.610 --> 00:01:14.060
+Raznovrsniji koncepti i apstraktniji korisnički zahtjevi
+
+00:01:14.060 --> 00:01:17.220
+Neće biti lako to izraziti u određenom modelu.
+
+00:01:18.530 --> 00:01:19.490
+Srećom
+
+00:01:19.770 --> 00:01:23.200
+Kako prevladati poteškoće modeliranja apstraktnih koncepata
+
+00:01:23.540 --> 00:01:26.860
+UML je nastao krajem 1990-ih.
+
+00:01:27.730 --> 00:01:30.120
+Predvodio ga je Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+UML koristimo s iščekivanjem
+
+00:01:34.980 --> 00:01:36.990
+Nacrtajte dijagram klase
+
+00:01:36.990 --> 00:01:38.760
+Nacrtajmo i dijagram sekvenci
+
+00:01:39.430 --> 00:01:39.980
+međutim
+
+00:01:40.360 --> 00:01:43.160
+Kad sam ga zapravo pokušao dizajnirati, bilo je drugačije od izravnog kodiranja.
+
+00:01:43.160 --> 00:01:45.130
+Ne čini se da je puno drugačije
+
+00:01:45.590 --> 00:01:46.520
+Zašto je to tako?
+
+00:01:47.350 --> 00:01:50.910
+To je zato što je misaoni proces naviknut na provedbu.
+
+00:01:51.290 --> 00:01:54.170
+Umjesto da apstraktne koncepte učinimo konkretnijima,
+
+00:01:54.490 --> 00:01:57.590
+Jer prevodi razmišljanje na razini implementacije u UML.
+
+00:01:58.520 --> 00:02:00.270
+Samo zato što znaš čitati note
+
+00:02:00.270 --> 00:02:01.950
+Nije kao da to mogu skladati
+
+00:02:02.390 --> 00:02:03.850
+Samo zato što si naučio UML
+
+00:02:03.850 --> 00:02:06.170
+Nije kao da razvijaš dizajnerske vještine.
+
+00:02:07.700 --> 00:02:09.300
+Dakle, u ovoj seriji
+
+00:02:09.300 --> 00:02:11.580
+Kroz stvarne projekte
+
+00:02:11.580 --> 00:02:14.420
+Kako konkretizirati apstraktne zahtjeve
+
+00:02:14.420 --> 00:02:16.290
+Možete li spojiti kod?
+
+00:02:16.290 --> 00:02:18.010
+Želio bih ti osobno pokazati
+
+00:02:18.530 --> 00:02:20.930
+Odabrao/la sam rezervirati kino ulaznice putem domene
+
+00:02:21.370 --> 00:02:25.200
+Rezervacije kino ulaznica lako je razumjeti jer se uglavnom radi o poznatim domenama.
+
+00:02:25.200 --> 00:02:29.710
+Uključuje razne funkcije kao što su prijava, plaćanje i odabir sjedala.
+
+00:02:29.710 --> 00:02:31.580
+Čini se kao dobar primjer
+
+00:02:33.600 --> 00:02:36.890
+U osnovi, tema ovog članka je dizajn softvera, ali
+
+00:02:36.890 --> 00:02:40.350
+Također ćemo obraditi razvoj vođen testiranjem.
+
+00:02:41.210 --> 00:02:44.890
+Moderna razvojna okruženja izvorno podržavaju alate za testiranje.
+
+00:02:45.600 --> 00:02:48.320
+Čak i ako pogledate poznate projekte otvorenog koda,
+
+00:02:48.320 --> 00:02:51.130
+Imamo određenu razinu testiranja.
+
+00:02:51.740 --> 00:02:56.200
+To vjerojatno znači da je testiranje od velike važnosti i korisnosti.
+
+00:02:56.870 --> 00:02:58.120
+Ali u stvarnosti
+
+00:02:58.120 --> 00:03:02.590
+U mnogim slučajevima, ne samo TDD, već čak ni automatizacija testiranja nije pravilno implementirana.
+
+00:03:03.190 --> 00:03:06.260
+Pisanje smislenih testova prvo bez ikakve pripreme je
+
+00:03:06.260 --> 00:03:07.540
+Nikad nije lako
+
+00:03:08.410 --> 00:03:12.340
+To je nešto što zahtijeva kombinirane sposobnosti dizajna softvera.
+
+00:03:13.320 --> 00:03:16.270
+Dakle, bolje je baviti se dizajnom i TDD-om zajedno.
+
+00:03:16.270 --> 00:03:18.180
+Procijenio sam da je učinkovito
+
+00:03:20.120 --> 00:03:23.450
+Dakle, sada započnimo prvi sastanak projekta.
+
+00:03:24.150 --> 00:03:26.470
+Budući da je ovo mali projekt
+
+00:03:26.470 --> 00:03:28.090
+Postoje dva sudionika
+
+00:03:28.790 --> 00:03:32.340
+Onaj s lijeve strane je stručnjak za domenu, a onaj s desne strane je programer.
+
+00:03:34.550 --> 00:03:37.790
+Stručnjaci za domene imaju utjecaja na sustave koje trebamo izgraditi.
+
+00:03:37.790 --> 00:03:39.280
+Priča mnogo priča
+
+00:03:40.340 --> 00:03:42.160
+Kazalište koje vodimo
+
+00:03:42.160 --> 00:03:44.710
+Ima ih oko četiri tisuće diljem zemlje.
+
+00:03:44.710 --> 00:03:47.220
+U budućnosti bi se moglo dodatno povećati.
+
+00:03:47.220 --> 00:03:50.480
+Trenutno je podržana samo funkcija rezervacije kino ulaznica.
+
+00:03:50.480 --> 00:03:54.510
+Kasnije planiramo dodati prodaju ulaznica za velike predstave.
+
+00:03:54.510 --> 00:03:58.940
+I važno je da nikada ne biste trebali rezervirati dva mjesta.
+
+00:03:58.940 --> 00:04:03.250
+U prošlosti su centri za korisničku podršku imali stvarno poteškoća s takvom vrstom problema.
+
+00:04:03.250 --> 00:04:07.670
+Jer već postoji mnogo informacija o filmovima i podataka o recenzijama.
+
+00:04:07.670 --> 00:04:11.090
+Ovi podaci moraju ostati netaknuti.
+
+00:04:12.090 --> 00:04:14.730
+Ovdje je razgovor dobro organiziran, ali
+
+00:04:14.890 --> 00:04:16.960
+Zapravo, ima više informacija
+
+00:04:16.960 --> 00:04:18.600
+Bit će dostavljeno na neorganiziran način
+
+00:04:19.470 --> 00:04:22.110
+Ali priča koja se pojavljuje na početku projekta je
+
+00:04:22.110 --> 00:04:23.780
+Jer je to najvažniji zahtjev
+
+00:04:23.780 --> 00:04:25.320
+Moraš pažljivo slušati
+
+00:04:27.110 --> 00:04:29.810
+Programeri slušaju stručnjake za domene
+
+00:04:29.810 --> 00:04:31.290
+Imam nekoliko pitanja
+
+00:04:32.290 --> 00:04:34.660
+Funkcija rezervacije ulaznica za velike predstave koju ste spomenuli
+
+00:04:34.660 --> 00:04:36.910
+Kada će biti dodano?
+
+00:04:36.910 --> 00:04:39.910
+Treba li ovo unaprijed uključiti u opseg ovog projekta?
+
+00:04:39.910 --> 00:04:43.590
+Ili bih volio znati trebam li to ipak razmotriti
+
+00:04:43.590 --> 00:04:46.090
+I potreba za održavanjem postojećih podataka
+
+00:04:46.090 --> 00:04:48.940
+Znači li to da ne bismo trebali mijenjati sustav baza podataka?
+
+00:04:48.940 --> 00:04:51.950
+Postoje li još neke usluge koje trenutno dijele bazu podataka?
+
+00:04:53.580 --> 00:04:54.980
+Kao što možete vidjeti iz baze podataka,
+
+00:04:54.980 --> 00:04:57.290
+Jer stručnjaci za domene nisu programeri
+
+00:04:57.290 --> 00:04:59.430
+Tehnički izraz je dvosmislen
+
+00:04:59.910 --> 00:05:02.890
+Programeri moraju pažljivo provjeriti ove stvari.
+
+00:05:04.230 --> 00:05:07.450
+Stručnjaci za domene odgovaraju na pitanja programera ovako:
+
+00:05:08.330 --> 00:05:10.210
+Funkcija rezervacije ulaznica za velike predstave
+
+00:05:10.210 --> 00:05:13.450
+Još nema određenog rasporeda.
+
+00:05:13.450 --> 00:05:15.970
+Međutim, kada se značajke dodaju u budućnosti
+
+00:05:15.970 --> 00:05:18.700
+Tako da možete nadograditi bez većih poteškoća
+
+00:05:18.700 --> 00:05:22.600
+Mislim da bi bilo dobro da ovaj put razmisliš o tome.
+
+00:05:22.600 --> 00:05:27.050
+Ne koristimo DB ni za što drugo osim za naše usluge.
+
+00:05:27.050 --> 00:05:32.840
+Sama promjena sustava nije veliki problem sve dok se podaci dobro održavaju.
+
+00:05:33.840 --> 00:05:35.080
+Nakon što je čuo priču
+
+00:05:35.080 --> 00:05:39.400
+Mislim da se ne trebaš brinuti zbog velike predstave.
+
+00:05:39.400 --> 00:05:40.790
+To nije opseg projekta
+
+00:05:40.790 --> 00:05:43.040
+Ni zahtjevi nisu jasni
+
+00:05:43.040 --> 00:05:44.930
+Ne znam kada će mi trebati, ali
+
+00:05:44.930 --> 00:05:47.710
+To je problem koji ćemo morati kasnije ponovno razmotriti.
+
+00:05:48.920 --> 00:05:50.910
+Čak i ako nije zabilježeno u dokumentu
+
+00:05:50.910 --> 00:05:54.880
+Stručnjaci za domenu također će dati odgovor da će uzeti u obzir izvedbe velikih razmjera.
+
+00:05:54.880 --> 00:05:55.960
+Ne smiješ zaboraviti
+
+00:05:56.740 --> 00:05:58.320
+U redu
+
+00:05:58.320 --> 00:06:00.630
+Zatim, funkcija rezervacije ulaznica za velike predstave
+
+00:06:00.630 --> 00:06:04.500
+Ne bih to stavio među glavne prioritete za ovaj projekt.
+
+00:06:04.500 --> 00:06:08.220
+Umjesto toga, olakšava proširenje funkcionalnosti kasnije u procesu razvoja.
+
+00:06:08.220 --> 00:06:10.190
+Dobro ću se brinuti o tome
+
+00:06:10.190 --> 00:06:12.840
+Ne brini se. Vjeruj samo meni
+
+00:06:13.840 --> 00:06:15.960
+Važno je dobro se slagati
+
+00:06:17.980 --> 00:06:19.500
+Kroz naš dosadašnji razgovor
+
+00:06:19.500 --> 00:06:22.700
+Najvažniji prioriteti sažeti su kako slijedi:
+
+00:06:23.220 --> 00:06:25.890
+Ovo su informacije koje su dali stručnjaci za domene.
+
+00:06:25.890 --> 00:06:28.410
+Tumačenje i organiziranje iz perspektive programera
+
+00:06:28.410 --> 00:06:29.810
+Započnite projekt
+
+00:06:31.700 --> 00:06:32.860
+Sa stručnjacima za domene
+
+00:06:32.860 --> 00:06:34.980
+Nakon što ste odlučili o ciljevima svog projekta,
+
+00:06:35.620 --> 00:06:37.980
+Sada je vrijeme da date naziv svom projektu.
+
+00:06:38.750 --> 00:06:41.840
+Prvo, zatražite mišljenje stručnjaka za domenu.
+
+00:06:42.800 --> 00:06:45.540
+Kako da nazovem projekt?
+
+00:06:45.540 --> 00:06:47.680
+To je sustav za rezervaciju filmova.
+
+00:06:47.680 --> 00:06:50.150
+Što kažete samo na Sustav rezervacije filmova?
+
+00:06:50.150 --> 00:06:51.430
+ne, ne želim
+
+00:06:51.430 --> 00:06:53.570
+Pobrinut ću se za velike nastupe
+
+00:06:53.570 --> 00:06:56.930
+Krenimo sa sustavom za rezervaciju filmova. Da?
+
+00:06:56.930 --> 00:06:58.180
+odlično
+
+00:06:58.180 --> 00:06:59.950
+Puno ti hvala
+
+00:07:01.000 --> 00:07:05.230
+Stručnjaci za domene možda žele nazive projekata na korejskom.
+
+00:07:05.580 --> 00:07:07.680
+Ali iz perspektive programera
+
+00:07:07.680 --> 00:07:09.990
+Svi pojmovi, uključujući nazive projekata
+
+00:07:09.990 --> 00:07:12.180
+Budući da je implementiran direktno u kodu,
+
+00:07:12.600 --> 00:07:15.000
+Lakše je definirati na engleskom ako je moguće.
+
+00:07:15.540 --> 00:07:19.510
+Važno je da programeri vjerno slijede potrebe stručnjaka za domenu, ali
+
+00:07:19.960 --> 00:07:21.430
+Uzimajući u obzir cijeli projekt
+
+00:07:21.430 --> 00:07:23.930
+Također imamo odgovornost usmjeriti stvari u učinkovitom smjeru.
+
+00:07:25.850 --> 00:07:27.760
+Ako ste odlučili o nazivu svog projekta
+
+00:07:27.760 --> 00:07:31.380
+Sada je vrijeme da saznamo tko koristi Sustav rezervacije filmova.
+
+00:07:32.020 --> 00:07:34.940
+Naravno, o tome biste trebali pitati stručnjaka za domenu.
+
+00:07:35.420 --> 00:07:38.740
+I otkrivamo da imamo kupce i menadžere.
+
+00:07:40.820 --> 00:07:43.280
+Jedan od elemenata koji je lako previdjeti u ranim fazama dizajniranja je
+
+00:07:43.280 --> 00:07:44.760
+To je vanjska ovisnost
+
+00:07:45.340 --> 00:07:46.580
+Vanjske ovisnosti su
+
+00:07:46.580 --> 00:07:49.210
+Mogao bi to biti postojeći naslijeđeni sustav,
+
+00:07:49.660 --> 00:07:51.420
+To bi mogao biti platni sustav
+
+00:07:52.020 --> 00:07:53.670
+Ovaj odnos ovisnosti je
+
+00:07:53.670 --> 00:07:56.760
+Jer to može imati veliki utjecaj na cjelokupni dizajn sustava.
+
+00:07:56.950 --> 00:08:00.150
+Važno ga je prepoznati što je ranije moguće.
+
+00:08:00.570 --> 00:08:01.240
+srećom
+
+00:08:01.820 --> 00:08:04.990
+Elementi poput platnih sustava i naslijeđenih sustava
+
+00:08:05.270 --> 00:08:07.730
+Budući da se već koristi u postojećim sustavima
+
+00:08:07.990 --> 00:08:10.360
+Može se relativno lako razumjeti
+
+00:08:11.230 --> 00:08:14.410
+Jedna od stvari koju je lako previdjeti u ovisnom odnosu je
+
+00:08:14.410 --> 00:08:16.090
+Postoje vanjski čimbenici okoline
+
+00:08:16.900 --> 00:08:19.060
+Naša zemlja je u istoj vremenskoj zoni
+
+00:08:19.060 --> 00:08:22.430
+U zemlji s velikom površinom, svako kazalište ima drugačiji vremenski termin.
+
+00:08:23.190 --> 00:08:25.100
+Zatim Sustav rezervacije filmova
+
+00:08:25.100 --> 00:08:28.900
+Neizbježno je da će na to utjecati čimbenici okoline poput vremenskih zona.
+
+00:08:29.410 --> 00:08:32.760
+Ovi čimbenici nisu odmah očiti osim ako izravno ne pitate stručnjaka za domenu.
+
+00:08:32.760 --> 00:08:33.950
+Lako je promašiti
+
+00:08:34.740 --> 00:08:37.610
+Stručnjaci za domene obično previde ove detalje.
+
+00:08:37.610 --> 00:08:40.010
+Budući da se objašnjenje može izostaviti
+
+00:08:41.680 --> 00:08:43.640
+Budući da je odnos ovisnosti bio jasno naveden
+
+00:08:43.640 --> 00:08:47.500
+Sada se usredotočimo na unutrašnjost sustava za rezervaciju filmova.
+
+00:08:48.430 --> 00:08:52.230
+Prije svega, što kupac radi u Sustavu za rezervaciju filmova?
+
+00:08:52.230 --> 00:08:54.230
+Pitajmo stručnjake za domene
+
+00:08:55.800 --> 00:08:57.880
+Što kupci rade?
+
+00:08:57.880 --> 00:08:59.970
+Kupci traže filmove,
+
+00:08:59.970 --> 00:09:01.450
+Pogledajte detalje filma,
+
+00:09:01.450 --> 00:09:02.910
+Odaberite vrijeme projekcije,
+
+00:09:02.910 --> 00:09:04.450
+Odaberite svoje sjedalo,
+
+00:09:04.450 --> 00:09:05.920
+Rezervirajte kino ulaznice,
+
+00:09:05.920 --> 00:09:07.610
+Provjerite detalje rezervacije,
+
+00:09:07.610 --> 00:09:10.180
+Radite stvari poput otkazivanja rezervacije
+
+00:09:10.180 --> 00:09:15.750
+Jesu li odabir termina prikazivanja i odabir sjedala dio procesa rezervacije ulaznica za kino?
+
+00:09:15.750 --> 00:09:18.880
+I rezervirati kino ulaznice, otkazati rezervacije
+
+00:09:18.880 --> 00:09:22.210
+Uostalom, zar ne kupujete samo kartu i ne dobivate povrat novca?
+
+00:09:22.210 --> 00:09:23.620
+u pravu si
+
+00:09:23.620 --> 00:09:25.030
+Tako je
+
+00:09:25.480 --> 00:09:27.880
+Jer je to sada poznata domena
+
+00:09:27.880 --> 00:09:31.240
+Odaberite vrijeme projekcije i odaberite svoja mjesta
+
+00:09:31.240 --> 00:09:33.200
+Je li ovo dio postupka rezervacije kino ulaznica?
+
+00:09:33.200 --> 00:09:34.530
+Mogao bih pitati
+
+00:09:34.980 --> 00:09:37.220
+Ali ako je riječ o nepoznatoj domeni,
+
+00:09:37.410 --> 00:09:40.160
+Detaljna analiza svakog slučaja upotrebe
+
+00:09:40.520 --> 00:09:43.330
+Postupak rafiniranja ponovit ćete nekoliko puta.
+
+00:09:43.790 --> 00:09:45.350
+Ovisno o situaciji u projektu
+
+00:09:45.350 --> 00:09:48.080
+Ovaj postupak možete ponoviti nekoliko puta,
+
+00:09:48.080 --> 00:09:50.580
+Što više vremena posvetite analizi i pažljivo je analizirate,
+
+00:09:50.580 --> 00:09:54.190
+Smanjite pokušaje i pogreške tijekom faza dizajna i implementacije.
+
+00:09:55.850 --> 00:09:57.530
+Na temelju dosadašnjeg razgovora
+
+00:09:57.530 --> 00:10:00.970
+Organizirali smo slučajeve korištenja naših korisnika u četiri kategorije:
+
+00:10:02.960 --> 00:10:04.470
+Sljedeći je administrator
+
+00:10:05.190 --> 00:10:08.850
+Administrator može vidjeti da postoji pet stavki upravljanja:
+
+00:10:09.440 --> 00:10:13.620
+Osobno sam oprezan s korištenjem riječi "Upravljanje" u razvoju.
+
+00:10:14.360 --> 00:10:16.980
+Upravljati je preširok izraz
+
+00:10:16.980 --> 00:10:19.030
+Nije jasno što radiš
+
+00:10:19.640 --> 00:10:20.950
+Isto je i ovdje
+
+00:10:21.370 --> 00:10:23.760
+Kako se točno upravlja?
+
+00:10:23.760 --> 00:10:24.810
+Ne znam
+
+00:10:25.930 --> 00:10:27.620
+Razgovorom sa stručnjacima za domene
+
+00:10:27.620 --> 00:10:31.220
+Svaka stavka upravljanja proširena je na specifičan slučaj upotrebe.
+
+00:10:31.900 --> 00:10:33.660
+Ako je riječ o pravom projektu
+
+00:10:33.660 --> 00:10:35.890
+Vjerojatno postoji više slučajeva upotrebe od ovog.
+
+00:10:36.150 --> 00:10:39.000
+Ovdje sam to pojednostavio radi objašnjenja.
+
+00:10:39.860 --> 00:10:42.700
+Važno je ovdje napomenuti da kada kreirate vrijeme izvođenja,
+
+00:10:43.020 --> 00:10:45.900
+Možete vidjeti da je i karta kreirana
+
+00:10:46.960 --> 00:10:49.200
+I prilikom kupnje ili povrata novca za kartu
+
+00:10:49.490 --> 00:10:53.910
+Također možete vidjeti da koristimo vanjsku uslugu koja se naziva platni sustav.
+
+00:10:55.890 --> 00:10:58.670
+Kombinirao sam slučajeve upotrebe kupaca i menadžera.
+
+00:10:59.350 --> 00:11:01.730
+Gledajući cijeli slučaj upotrebe ovako
+
+00:11:01.730 --> 00:11:02.900
+Nešto se osjeća prazno
+
+00:11:03.890 --> 00:11:05.840
+Postoji mogućnost dodavanja kazališta
+
+00:11:05.840 --> 00:11:08.720
+Ne vidim ništa slično Search Theateru
+
+00:11:09.410 --> 00:11:12.130
+Čini se da postoji popriličan broj slučajeva upotrebe koji su izostavljeni.
+
+00:11:12.770 --> 00:11:15.980
+Jer iz perspektive stručnjaka za domenu, ima puno toga za objasniti.
+
+00:11:15.980 --> 00:11:17.950
+Ovaj slučaj upotrebe, koji se čini tako očitim,
+
+00:11:18.150 --> 00:11:19.810
+Možete izostaviti objašnjenje
+
+00:11:20.770 --> 00:11:23.460
+Pa što je s perspektive programera?
+
+00:11:24.400 --> 00:11:28.290
+Bolje je izostaviti jednostavne slučajeve vijesti poput traženja kazališta.
+
+00:11:28.290 --> 00:11:30.700
+Ne bi li ovo bilo korisnije za upravljanje dokumentima?
+
+00:11:31.720 --> 00:11:32.870
+Ako se radi o dizajnu pozadinske komponente
+
+00:11:32.870 --> 00:11:35.920
+Jednostavni slučajevi upotrebe poput traženja kina
+
+00:11:35.920 --> 00:11:37.760
+Mislim da je u redu preskočiti to
+
+00:11:38.600 --> 00:11:41.570
+Ono što želim reći jest da nije prekasno za reagiranje tijekom faze implementacije.
+
+00:11:42.370 --> 00:11:44.310
+Ali ako je to pravi projekt
+
+00:11:44.310 --> 00:11:48.450
+Za planere ekrana, ovi slučajevi upotrebe su dobra polazna točka.
+
+00:11:49.250 --> 00:11:52.300
+Planer je razmotrio slučaj upotrebe traženja kazališta.
+
+00:11:52.300 --> 00:11:55.300
+Kako bih trebao omogućiti pretraživanje kina?
+
+00:11:55.300 --> 00:11:56.600
+Moći ćeš razmišljati
+
+00:11:58.000 --> 00:12:00.880
+Kad spojite dijagrame u jedan, izgleda komplicirano.
+
+00:12:01.490 --> 00:12:05.150
+Da je riječ o stvarnom projektu, bilo bi puno kompliciranije.
+
+00:12:05.720 --> 00:12:08.240
+U ovom slučaju, nema potrebe za prisilnim spajanjem.
+
+00:12:08.810 --> 00:12:13.910
+Upravo sam ih ovdje spojio kako bih otkrio da nedostaju neki slučajevi.
+
+00:12:16.020 --> 00:12:18.490
+Popunio sam sve nedostajuće slučajeve
+
+00:12:19.200 --> 00:12:21.880
+Imam slučaj upotrebe gdje je veza s akterom izostavljena.
+
+00:12:22.290 --> 00:12:25.720
+To se odnosi i na kupce i na menadžere.
+
+00:12:26.400 --> 00:12:29.480
+A radi lakše implementacije, napisao sam to na engleskom.
+
+00:12:31.370 --> 00:12:34.160
+Sad je u redu jer je to mali projekt.
+
+00:12:34.160 --> 00:12:36.160
+Ako je projekt velik i složen
+
+00:12:36.160 --> 00:12:38.980
+Gdje bi stručnjak za domenu trebao početi objašnjavati?
+
+00:12:38.980 --> 00:12:40.380
+Može biti teško
+
+00:12:41.280 --> 00:12:43.300
+Što radi administrator?
+
+00:12:43.300 --> 00:12:44.700
+Puno je posla
+
+00:12:44.700 --> 00:12:46.620
+Kao što se i očekivalo od menadžera
+
+00:12:47.620 --> 00:12:49.750
+U ovom slučaju, možemo li podijeliti aktere?
+
+00:12:49.750 --> 00:12:52.340
+Također je dobra ideja pregledati
+
+00:12:53.140 --> 00:12:54.790
+Isprva su me zvali administratorom
+
+00:12:54.790 --> 00:12:57.400
+Moguće je podijeliti po ulogama
+
+00:12:58.520 --> 00:13:00.820
+I korištenje sustava za rezervaciju filmova
+
+00:13:00.820 --> 00:13:02.870
+Mogu postojati vanjske usluge
+
+00:13:03.660 --> 00:13:05.340
+Ako segmentiramo aktere na ovaj način,
+
+00:13:05.340 --> 00:13:09.420
+Stručnjaci za domenu moći će pružiti sustavnije informacije.
+
+00:13:10.350 --> 00:13:14.000
+Naravno, ovo je samo jedan primjer analize složene domene.
+
+00:13:14.540 --> 00:13:17.320
+Možda postoje i drugi dobri načini
+
+00:13:17.960 --> 00:13:21.740
+Važno je fleksibilno reagirati ovisno o situaciji.
+
+00:13:24.250 --> 00:13:25.060
+Ovo je zaključak
+
+00:13:25.950 --> 00:13:29.170
+Ovaj put ćemo koristiti dijagram slučaja upotrebe
+
+00:13:29.170 --> 00:13:30.840
+Postavite ciljeve za projekt
+
+00:13:31.230 --> 00:13:33.700
+Prošao sam kroz početne faze analize.
+
+00:13:34.880 --> 00:13:38.010
+Osobno, tijekom cijelog procesa razvoja
+
+00:13:38.010 --> 00:13:40.060
+Mislim da je analiza najteža
+
+00:13:40.570 --> 00:13:44.250
+Jer moramo organizirati najapstraktnije i najnejasne koncepte.
+
+00:13:45.020 --> 00:13:47.650
+Sljedeći put ćemo pogledati glavne slučajeve upotrebe
+
+00:13:47.650 --> 00:13:49.470
+Analizirajmo to detaljnije
+
+00:13:50.300 --> 00:13:52.100
+Hvala vam na vašem dosadašnjem trudu.
+

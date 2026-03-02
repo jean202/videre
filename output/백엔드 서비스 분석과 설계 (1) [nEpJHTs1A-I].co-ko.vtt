@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: co
+
+00:00:00.000 --> 00:00:02.020
+Salutu, questu hè u Codice di Manera.
+
+00:00:03.290 --> 00:00:05.350
+U software hè cumplessu
+
+00:00:06.650 --> 00:00:08.890
+Prima di tuttu, ci hè assai codice chì deve esse scrittu.
+
+00:00:09.760 --> 00:00:12.710
+Solu l'esempii di prughjetti chì aghju creatu per sta seria
+
+00:00:12.710 --> 00:00:15.270
+U codice hè longu più di 12.000 righe.
+
+00:00:16.330 --> 00:00:18.320
+S'ellu hè un serviziu operativu reale
+
+00:00:18.320 --> 00:00:21.530
+Ancu s'ellu hè un picculu serviziu, supererà facilmente e 100 000 linee.
+
+00:00:22.130 --> 00:00:25.300
+Cento mila righe bastanu per empie vinti rumanzi.
+
+00:00:26.870 --> 00:00:29.560
+Scrive codice longu ùn significa micca chì hè finitu.
+
+00:00:30.330 --> 00:00:32.540
+Duvete cuntinuà à curregge u codice chì scrivite.
+
+00:00:33.400 --> 00:00:35.800
+Sè riparate A, B si rompe.
+
+00:00:35.800 --> 00:00:39.130
+Sè riparate B, A è C si romperanu.
+
+00:00:41.090 --> 00:00:44.260
+Per aduprà una analogia, hè cum'è esse intrappulatu in una Rasputica è pienghje.
+
+00:00:44.260 --> 00:00:46.360
+Si puderebbe dì chì hè una situazione simile à un cavallu.
+
+00:00:47.330 --> 00:00:50.550
+À questu puntu, sentirete u bisognu di cuncepimentu.
+
+00:00:52.580 --> 00:00:55.010
+Ma quandu pruvate veramente à scrive un documentu di cuncepimentu,
+
+00:00:55.500 --> 00:00:58.490
+Esprimere concretamente i pinsamenti in a vostra testa
+
+00:00:58.790 --> 00:01:01.260
+Scuprirete chì ùn hè micca cusì faciule cum'è pensate.
+
+00:01:01.890 --> 00:01:05.600
+Ancu spartiti musicali, chì sò un documentu chì registra visivamente u sonu o a musica,
+
+00:01:05.600 --> 00:01:06.700
+Hè cusì cumplicatu
+
+00:01:07.520 --> 00:01:10.610
+Micca solu musica, ma ancu finanza è logistica
+
+00:01:10.610 --> 00:01:14.060
+Cuncetti più diversi è esigenze astratte di l'utilizatori
+
+00:01:14.060 --> 00:01:17.220
+Ùn serà micca faciule d'esprimelu in un mudellu specificu.
+
+00:01:18.530 --> 00:01:19.490
+Per furtuna
+
+00:01:19.770 --> 00:01:23.200
+Per superà a difficultà di mudellà cuncetti astratti
+
+00:01:23.540 --> 00:01:26.860
+UML hè natu à a fine di l'anni 1990.
+
+00:01:27.730 --> 00:01:30.120
+Era guidatu da Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Adupremu UML cun anticipazione
+
+00:01:34.980 --> 00:01:36.990
+Disegnate un diagramma di classe
+
+00:01:36.990 --> 00:01:38.760
+Disegnàmu ancu un diagramma di sequenza
+
+00:01:39.430 --> 00:01:39.980
+però
+
+00:01:40.360 --> 00:01:43.160
+Quandu aghju pruvatu à cuncepiscelu, era diversu da codificà lu direttamente.
+
+00:01:43.160 --> 00:01:45.130
+Ùn pare micca esse assai differente
+
+00:01:45.590 --> 00:01:46.520
+Perchè hè cusì?
+
+00:01:47.350 --> 00:01:50.910
+Hè perchè u prucessu di pensamentu hè abituatu à l'implementazione.
+
+00:01:51.290 --> 00:01:54.170
+Piuttostu chè rende i cuncetti astratti più concreti,
+
+00:01:54.490 --> 00:01:57.590
+Perchè traduce u pensamentu à livellu d'implementazione in UML.
+
+00:01:58.520 --> 00:02:00.270
+Solu perchè sapete leghje spartiti musicali
+
+00:02:00.270 --> 00:02:01.950
+Ùn hè micca cum'è s'e possu cumponelu
+
+00:02:02.390 --> 00:02:03.850
+Solu perchè avete amparatu UML
+
+00:02:03.850 --> 00:02:06.170
+Ùn hè micca cum'è sviluppendu cumpetenze di cuncepimentu.
+
+00:02:07.700 --> 00:02:09.300
+Cusì in questa seria
+
+00:02:09.300 --> 00:02:11.580
+Attraversu prughjetti veri
+
+00:02:11.580 --> 00:02:14.420
+Cumu concretizà i requisiti astratti
+
+00:02:14.420 --> 00:02:16.290
+Pudete cunnette u codice?
+
+00:02:16.290 --> 00:02:18.010
+Vogliu mustrà ti in persona
+
+00:02:18.530 --> 00:02:20.930
+Aghju sceltu di riservà biglietti di cinema per duminiu
+
+00:02:21.370 --> 00:02:25.200
+E riservazioni di biglietti di cinema sò faciuli da capisce perchè sò per u più duminii familiari.
+
+00:02:25.200 --> 00:02:29.710
+Include diverse funzioni cum'è u login, u pagamentu è a selezzione di u postu.
+
+00:02:29.710 --> 00:02:31.580
+Pare un bon esempiu
+
+00:02:33.600 --> 00:02:36.890
+In fondu, u tema di questu articulu hè a cuncepzione di software, ma
+
+00:02:36.890 --> 00:02:40.350
+Copriremu ancu u sviluppu basatu nantu à i test.
+
+00:02:41.210 --> 00:02:44.890
+L'ambienti di sviluppu muderni supportanu nativamente strumenti di test.
+
+00:02:45.600 --> 00:02:48.320
+Ancu s'è vo fighjate i famosi prughjetti open source,
+
+00:02:48.320 --> 00:02:51.130
+Avemu un certu livellu di prova.
+
+00:02:51.740 --> 00:02:56.200
+Questu significa probabilmente chì a prova hè di cusì grande impurtanza è utilità.
+
+00:02:56.870 --> 00:02:58.120
+Ma in realtà
+
+00:02:58.120 --> 00:03:02.590
+In parechji casi, micca solu TDD, ma ancu l'automatizazione di i testi ùn hè micca implementata currettamente.
+
+00:03:03.190 --> 00:03:06.260
+Scrive prima testi significativi senza alcuna preparazione hè
+
+00:03:06.260 --> 00:03:07.540
+Ùn hè mai faciule
+
+00:03:08.410 --> 00:03:12.340
+Questu hè qualcosa chì richiede e capacità cumminate di a cuncepzione di software.
+
+00:03:13.320 --> 00:03:16.270
+Dunque, hè megliu trattà inseme u disignu è u TDD.
+
+00:03:16.270 --> 00:03:18.180
+L'aghju ghjudicatu efficace
+
+00:03:20.120 --> 00:03:23.450
+Dunque avà cuminciamu a prima riunione di u prugettu.
+
+00:03:24.150 --> 00:03:26.470
+Perchè questu hè un picculu prughjettu
+
+00:03:26.470 --> 00:03:28.090
+Ci sò dui participanti
+
+00:03:28.790 --> 00:03:32.340
+Quellu à manca hè un espertu di duminiu, è quellu à diritta hè un sviluppatore.
+
+00:03:34.550 --> 00:03:37.790
+L'esperti di duminiu anu voce in capitolo in i sistemi chì ci vole à custruisce.
+
+00:03:37.790 --> 00:03:39.280
+Conta assai storie
+
+00:03:40.340 --> 00:03:42.160
+U teatru chì gestimu
+
+00:03:42.160 --> 00:03:44.710
+Ci sò circa quattru mila di elli in tuttu u paese.
+
+00:03:44.710 --> 00:03:47.220
+Pò cresce ancu di più in u futuru.
+
+00:03:47.220 --> 00:03:50.480
+Attualmente, solu a funzione di riservazione di biglietti di cinema hè supportata.
+
+00:03:50.480 --> 00:03:54.510
+Avemu previstu d'aghjunghje a vendita di biglietti per spettaculi à grande scala più tardi.
+
+00:03:54.510 --> 00:03:58.940
+È l'impurtante hè chì ùn duvete mai riservà duie volte i posti.
+
+00:03:58.940 --> 00:04:03.250
+In u passatu, i centri di serviziu à i clienti anu avutu assai difficultà cù stu tipu di prublema.
+
+00:04:03.250 --> 00:04:07.670
+Perchè ci hè assai infurmazione di filmi è dati di recensioni chì sò digià stati accumulati.
+
+00:04:07.670 --> 00:04:11.090
+Questi dati devenu rimanere intatti.
+
+00:04:12.090 --> 00:04:14.730
+Quì a cunversazione hè ben urganizata, ma
+
+00:04:14.890 --> 00:04:16.960
+In fatti, ci hè più infurmazione
+
+00:04:16.960 --> 00:04:18.600
+Serà furnitu in modu disurganizatu
+
+00:04:19.470 --> 00:04:22.110
+Ma a storia chì esce à l'iniziu di u prugettu hè
+
+00:04:22.110 --> 00:04:23.780
+Perchè hè l'esigenza più impurtante
+
+00:04:23.780 --> 00:04:25.320
+Duvete ascultà attentamente
+
+00:04:27.110 --> 00:04:29.810
+I sviluppatori ascoltanu l'esperti di duminiu
+
+00:04:29.810 --> 00:04:31.290
+Aghju qualchì quistione
+
+00:04:32.290 --> 00:04:34.660
+A funzione di riservazione di biglietti per spettaculi à grande scala chì avete mintuvatu
+
+00:04:34.660 --> 00:04:36.910
+Quandu serà aghjuntu ?
+
+00:04:36.910 --> 00:04:39.910
+Questu duverebbe esse inclusu in u scopu di stu prugettu in anticipu?
+
+00:04:39.910 --> 00:04:43.590
+O mi piacerebbe sapè s'ellu devu cunsiderallu digià
+
+00:04:43.590 --> 00:04:46.090
+È a necessità di mantene i dati esistenti
+
+00:04:46.090 --> 00:04:48.940
+Questu significa chì ùn duvemu micca cambià u sistema DB?
+
+00:04:48.940 --> 00:04:51.950
+Ci sò altri servizii chì spartenu attualmente a basa di dati?
+
+00:04:53.580 --> 00:04:54.980
+Cum'è si pò vede da a DB,
+
+00:04:54.980 --> 00:04:57.290
+Perchè l'esperti di duminiu ùn sò micca sviluppatori.
+
+00:04:57.290 --> 00:04:59.430
+L'espressione tecnica hè ambigua
+
+00:04:59.910 --> 00:05:02.890
+I sviluppatori anu bisognu di verificà attentamente queste cose.
+
+00:05:04.230 --> 00:05:07.450
+L'esperti di duminiu rispondenu à e dumande di i sviluppatori cusì:
+
+00:05:08.330 --> 00:05:10.210
+A funzione di riservazione di biglietti di spettaculu à grande scala
+
+00:05:10.210 --> 00:05:13.450
+Ùn ci hè ancu un calendariu specificu.
+
+00:05:13.450 --> 00:05:15.970
+Tuttavia, quandu e funzioni sò aghjunte in u futuru
+
+00:05:15.970 --> 00:05:18.700
+Cusì pudete aghjurnà senza troppu difficultà
+
+00:05:18.700 --> 00:05:22.600
+Pensu chì saria bè s'è vo ci pudete dà qualchì cunsiderazione sta volta.
+
+00:05:22.600 --> 00:05:27.050
+Ùn usemu micca DB per nunda altru ch'è i nostri servizii.
+
+00:05:27.050 --> 00:05:32.840
+Cambià u sistema stessu ùn hè micca un grande prublema basta chì i dati sianu mantenuti bè.
+
+00:05:33.840 --> 00:05:35.080
+Dopu avè intesu a storia
+
+00:05:35.080 --> 00:05:39.400
+Ùn pensu micca chì avete bisognu di preoccupassi di u grande spettaculu.
+
+00:05:39.400 --> 00:05:40.790
+Ùn hè micca u scopu di u prugettu
+
+00:05:40.790 --> 00:05:43.040
+I requisiti ùn sò micca chjari mancu
+
+00:05:43.040 --> 00:05:44.930
+Ùn sò micca quandu ne averaghju bisognu, ma
+
+00:05:44.930 --> 00:05:47.710
+Hè un prublema chì duveremu rivedere torna più tardi.
+
+00:05:48.920 --> 00:05:50.910
+Ancu s'ellu ùn hè micca arregistratu in u documentu
+
+00:05:50.910 --> 00:05:54.880
+L'esperti di duminiu daranu ancu una risposta chì cunsidereranu prestazioni à grande scala.
+
+00:05:54.880 --> 00:05:55.960
+Ùn devi micca scurdà
+
+00:05:56.740 --> 00:05:58.320
+Tuttu bè
+
+00:05:58.320 --> 00:06:00.630
+Dopu, a funzione di riservazione di biglietti di spettaculu à grande scala
+
+00:06:00.630 --> 00:06:04.500
+Ùn a metteraghju micca trà e priorità principali di stu prugettu.
+
+00:06:04.500 --> 00:06:08.220
+Invece, facilita l'espansione di e funzionalità più tardi in u prucessu di sviluppu.
+
+00:06:08.220 --> 00:06:10.190
+Ne piglieraghju cura
+
+00:06:10.190 --> 00:06:12.840
+Ùn ti ne fà. Fidatevi solu di mè
+
+00:06:13.840 --> 00:06:15.960
+Hè impurtante d'andà bè inseme
+
+00:06:17.980 --> 00:06:19.500
+Attraversu a nostra cunversazione finu à avà
+
+00:06:19.500 --> 00:06:22.700
+E priorità principali sò riassunte cusì:
+
+00:06:23.220 --> 00:06:25.890
+Questa hè l'infurmazione furnita da esperti di duminiu.
+
+00:06:25.890 --> 00:06:28.410
+Interpretazione è urganizazione da a perspettiva di un sviluppatore
+
+00:06:28.410 --> 00:06:29.810
+Principià u prugettu
+
+00:06:31.700 --> 00:06:32.860
+Cù esperti di duminiu
+
+00:06:32.860 --> 00:06:34.980
+Una volta chì avete decisu l'ubbiettivi di u vostru prugettu,
+
+00:06:35.620 --> 00:06:37.980
+Avà hè ora di dà un nome à u vostru prughjettu.
+
+00:06:38.750 --> 00:06:41.840
+Prima, dumandate à un espertu di duminiu a so opinione.
+
+00:06:42.800 --> 00:06:45.540
+Chì nome devu dà à u prugettu ?
+
+00:06:45.540 --> 00:06:47.680
+Hè un sistema di riservazione di filmi.
+
+00:06:47.680 --> 00:06:50.150
+Chì ne dici di u Sistema di Prenotazione di Film?
+
+00:06:50.150 --> 00:06:51.430
+innò, ùn vogliu micca
+
+00:06:51.430 --> 00:06:53.570
+Mi occuperaghju di e prestazioni à grande scala
+
+00:06:53.570 --> 00:06:56.930
+Andemu cù u Sistema di Prenotazione di Film. Iè?
+
+00:06:56.930 --> 00:06:58.180
+perfettu
+
+00:06:58.180 --> 00:06:59.950
+Grazie tante
+
+00:07:01.000 --> 00:07:05.230
+L'esperti di duminii puderanu vulè nomi di prughjetti in coreanu.
+
+00:07:05.580 --> 00:07:07.680
+Ma da u puntu di vista di un sviluppatore
+
+00:07:07.680 --> 00:07:09.990
+Tutti i termini cumpresi i nomi di i prughjetti
+
+00:07:09.990 --> 00:07:12.180
+Perchè hè implementatu direttamente in u codice,
+
+00:07:12.600 --> 00:07:15.000
+Hè più faciule di definisce lu in inglese s'ellu hè pussibule.
+
+00:07:15.540 --> 00:07:19.510
+Hè impurtante per i sviluppatori di seguità fedelmente i bisogni di l'esperti di duminiu, ma
+
+00:07:19.960 --> 00:07:21.430
+Cunsiderendu tuttu u prugettu
+
+00:07:21.430 --> 00:07:23.930
+Avemu dinù a rispunsabilità di guidà e cose in una direzzione efficiente.
+
+00:07:25.850 --> 00:07:27.760
+Sè avete decisu un nome per u vostru prugettu
+
+00:07:27.760 --> 00:07:31.380
+Avà hè ora di scopre quale usa u Sistema di Prenotazione di Film.
+
+00:07:32.020 --> 00:07:34.940
+Benintesa, duvete dumandà infurmazioni à un espertu di duminiu.
+
+00:07:35.420 --> 00:07:38.740
+È truvemu chì avemu clienti è dirigenti.
+
+00:07:40.820 --> 00:07:43.280
+Unu di l'elementi chì hè faciule da trascurà in e prime fasi di u cuncepimentu hè
+
+00:07:43.280 --> 00:07:44.760
+Hè una dipendenza esterna
+
+00:07:45.340 --> 00:07:46.580
+E dipendenze esterne sò
+
+00:07:46.580 --> 00:07:49.210
+Puderia esse un sistema legacy esistente,
+
+00:07:49.660 --> 00:07:51.420
+Puderia esse un sistema di pagamentu
+
+00:07:52.020 --> 00:07:53.670
+Questa relazione di dipendenza hè
+
+00:07:53.670 --> 00:07:56.760
+Perchè pò avè un impattu maiò nantu à u disignu generale di u sistema.
+
+00:07:56.950 --> 00:08:00.150
+Hè impurtante d'identificà lu u più prestu pussibule.
+
+00:08:00.570 --> 00:08:01.240
+furtunatamente
+
+00:08:01.820 --> 00:08:04.990
+Elementi cum'è i gateway di pagamentu è i sistemi legacy
+
+00:08:05.270 --> 00:08:07.730
+Perchè hè digià adupratu in sistemi esistenti
+
+00:08:07.990 --> 00:08:10.360
+Si pò capisce relativamente facilmente
+
+00:08:11.230 --> 00:08:14.410
+Una di e cose chì hè faciule da trascurà in una relazione dipendente hè
+
+00:08:14.410 --> 00:08:16.090
+Ci sò fattori ambientali esterni
+
+00:08:16.900 --> 00:08:19.060
+U nostru paese hè in u listessu fusu orariu
+
+00:08:19.060 --> 00:08:22.430
+In un paese cù una grande superficia, ogni teatru hà una fascia oraria diversa.
+
+00:08:23.190 --> 00:08:25.100
+Dopu u Sistema di Prenotazione di Film
+
+00:08:25.100 --> 00:08:28.900
+Hè inevitabile chì serà affettatu da fattori ambientali cum'è i fusi orari.
+
+00:08:29.410 --> 00:08:32.760
+Questi fattori ùn sò micca immediatamente evidenti, salvu chì ùn dumandate direttamente à l'espertu di duminiu.
+
+00:08:32.760 --> 00:08:33.950
+Hè faciule à mancà
+
+00:08:34.740 --> 00:08:37.610
+L'esperti di duminiu tendenu à trascurà sti ditaglii.
+
+00:08:37.610 --> 00:08:40.010
+Perchè a spiegazione pò esse omessa
+
+00:08:41.680 --> 00:08:43.640
+Siccomu a relazione di dipendenza hè stata chjaramente dichjarata
+
+00:08:43.640 --> 00:08:47.500
+Avà cuncentramuci nantu à l'internu di u Sistema di Prenotazione di Film.
+
+00:08:48.430 --> 00:08:52.230
+Prima di tuttu, chì face u cliente in u Sistema di Prenotazione di Film?
+
+00:08:52.230 --> 00:08:54.230
+Dumandemu à l'esperti di duminiu
+
+00:08:55.800 --> 00:08:57.880
+Chì facenu i clienti ?
+
+00:08:57.880 --> 00:08:59.970
+I clienti cercanu filmi,
+
+00:08:59.970 --> 00:09:01.450
+Vede i dettagli di u filmu,
+
+00:09:01.450 --> 00:09:02.910
+Sceglite un tempu di pruiezione,
+
+00:09:02.910 --> 00:09:04.450
+Sceglite u vostru postu,
+
+00:09:04.450 --> 00:09:05.920
+Riservà biglietti di cinema,
+
+00:09:05.920 --> 00:09:07.610
+Verificate i dettagli di a riservazione,
+
+00:09:07.610 --> 00:09:10.180
+Fate cose cum'è annullà una riservazione
+
+00:09:10.180 --> 00:09:15.750
+A scelta di un orariu di spettaculu è a scelta di un postu facenu parte di u prucessu di riservazione di biglietti di cinema?
+
+00:09:15.750 --> 00:09:18.880
+È per riservà biglietti di cinema, per annullà e prenotazioni
+
+00:09:18.880 --> 00:09:22.210
+Dopu tuttu, ùn cumprate micca solu un bigliettu è uttene un rimborsu?
+
+00:09:22.210 --> 00:09:23.620
+avete ragione
+
+00:09:23.620 --> 00:09:25.030
+Hè ghjusta
+
+00:09:25.480 --> 00:09:27.880
+Perchè hè un duminiu cunnisciutu avà
+
+00:09:27.880 --> 00:09:31.240
+Selezziunate un orariu di pruiezione è sceglite u vostru postu
+
+00:09:31.240 --> 00:09:33.200
+Face questu parte di u prucessu di riservazione di biglietti di cinema?
+
+00:09:33.200 --> 00:09:34.530
+Puderaghju dumandà
+
+00:09:34.980 --> 00:09:37.220
+Ma s'ellu hè un duminiu scunnisciutu,
+
+00:09:37.410 --> 00:09:40.160
+Analizendu ogni casu d'usu in dettagliu
+
+00:09:40.520 --> 00:09:43.330
+Ripeterete u prucessu di raffinazione parechje volte.
+
+00:09:43.790 --> 00:09:45.350
+Sicondu a situazione di u prugettu
+
+00:09:45.350 --> 00:09:48.080
+Pudete ripete stu prucessu parechje volte,
+
+00:09:48.080 --> 00:09:50.580
+Più pigliate u vostru tempu è analizate attentamente,
+
+00:09:50.580 --> 00:09:54.190
+Riduce e prove è l'errori durante e tappe di cuncepimentu è implementazione.
+
+00:09:55.850 --> 00:09:57.530
+Basatu annantu à a cunversazione finu à avà
+
+00:09:57.530 --> 00:10:00.970
+Avemu urganizatu i casi d'usu di i nostri clienti in quattru categurie:
+
+00:10:02.960 --> 00:10:04.470
+Dopu hè l'amministratore
+
+00:10:05.190 --> 00:10:08.850
+L'amministratore pò vede chì ci sò cinque elementi di gestione:
+
+00:10:09.440 --> 00:10:13.620
+Personalmente, sò prudente à aduprà a parola "Gestisce" in u sviluppu.
+
+00:10:14.360 --> 00:10:16.980
+Gestisce hè una spressione troppu larga
+
+00:10:16.980 --> 00:10:19.030
+Ùn hè chjaru ciò chì stai fà
+
+00:10:19.640 --> 00:10:20.950
+Hè listessu ancu quì
+
+00:10:21.370 --> 00:10:23.760
+Cumu hè gestitu esattamente?
+
+00:10:23.760 --> 00:10:24.810
+Ùn a sò micca
+
+00:10:25.930 --> 00:10:27.620
+Parlendu cù esperti di duminiu
+
+00:10:27.620 --> 00:10:31.220
+Ogni elementu di gestione hè statu allargatu à un casu d'usu specificu.
+
+00:10:31.900 --> 00:10:33.660
+S'ellu hè un veru prughjettu
+
+00:10:33.660 --> 00:10:35.890
+Ci sò probabilmente più casi d'usu chè questu.
+
+00:10:36.150 --> 00:10:39.000
+Quì l'aghju simplificatu per a spiegazione.
+
+00:10:39.860 --> 00:10:42.700
+Ciò chì hè impurtante di nutà quì hè chì quandu create un tempu di corsa,
+
+00:10:43.020 --> 00:10:45.900
+Pudete vede chì u bigliettu hè ancu creatu
+
+00:10:46.960 --> 00:10:49.200
+È quandu si compra o si rimborsa un bigliettu
+
+00:10:49.490 --> 00:10:53.910
+Pudete ancu vede chì usemu un serviziu esternu chjamatu gateway di pagamentu.
+
+00:10:55.890 --> 00:10:58.670
+Aghju cumbinatu i casi d'usu di i clienti è di i manager.
+
+00:10:59.350 --> 00:11:01.730
+Fighjendu tuttu u casu d'usu cusì
+
+00:11:01.730 --> 00:11:02.900
+Qualcosa si sente viotu
+
+00:11:03.890 --> 00:11:05.840
+Ci hè una opzione per aghjunghje un teatru
+
+00:11:05.840 --> 00:11:08.720
+Ùn vecu nunda cum'è Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Pare chì ci sianu parechji casi d'usu chì sò stati omessi.
+
+00:11:12.770 --> 00:11:15.980
+Perchè da a perspettiva di un espertu di duminiu, ci hè assai da spiegà.
+
+00:11:15.980 --> 00:11:17.950
+Questu casu d'usu, chì pare cusì ovviu,
+
+00:11:18.150 --> 00:11:19.810
+Pudete omette a spiegazione
+
+00:11:20.770 --> 00:11:23.460
+Dunque, chì ne dici da u puntu di vista di un sviluppatore?
+
+00:11:24.400 --> 00:11:28.290
+Hè megliu omette i casi simplici di nutizie cum'è a ricerca di un teatru.
+
+00:11:28.290 --> 00:11:30.700
+Ùn saria micca più utile per a gestione di documenti?
+
+00:11:31.720 --> 00:11:32.870
+S'ellu hè un cuncepimentu di backend
+
+00:11:32.870 --> 00:11:35.920
+Casi d'usu simplici cum'è a ricerca di un teatru
+
+00:11:35.920 --> 00:11:37.760
+Pensu chì hè bè di saltallu
+
+00:11:38.600 --> 00:11:41.570
+Ciò chì dicu hè chì ùn hè micca troppu tardi per risponde durante a fase di implementazione.
+
+00:11:42.370 --> 00:11:44.310
+Ma s'ellu hè un veru prughjettu
+
+00:11:44.310 --> 00:11:48.450
+Per i pianificatori di schermu, questi casi d'usu sò un bon puntu di partenza.
+
+00:11:49.250 --> 00:11:52.300
+U pianificatore hà esaminatu u casu d'usu di a ricerca di un teatru.
+
+00:11:52.300 --> 00:11:55.300
+Cumu devu fà pussibule a ricerca di teatri ?
+
+00:11:55.300 --> 00:11:56.600
+Puderete pensà
+
+00:11:58.000 --> 00:12:00.880
+Quandu si combinanu i diagrammi in unu, pare cumplicatu.
+
+00:12:01.490 --> 00:12:05.150
+S'ellu fussi un veru prughjettu, saria assai più cumplicatu.
+
+00:12:05.720 --> 00:12:08.240
+In questu casu, ùn ci hè bisognu di furzà una fusione.
+
+00:12:08.810 --> 00:12:13.910
+Li aghju appena fusionati quì per rivelà chì ci sò casi mancanti.
+
+00:12:16.020 --> 00:12:18.490
+Aghju riempitu tutti i casi mancanti
+
+00:12:19.200 --> 00:12:21.880
+Aghju un casu d'usu induve a cunnessione cù l'attore hè omessa.
+
+00:12:22.290 --> 00:12:25.720
+Questu vale sia per i clienti sia per i gestori.
+
+00:12:26.400 --> 00:12:29.480
+È per facilità l'implementazione, l'aghju scrittu in inglese.
+
+00:12:31.370 --> 00:12:34.160
+Va bè avà perchè hè un picculu prughjettu
+
+00:12:34.160 --> 00:12:36.160
+Sè u prugettu hè grande è cumplessu
+
+00:12:36.160 --> 00:12:38.980
+Induve deve cumincià à spiegà un espertu di duminiu?
+
+00:12:38.980 --> 00:12:40.380
+Pò esse difficiule
+
+00:12:41.280 --> 00:12:43.300
+Chì face un amministratore?
+
+00:12:43.300 --> 00:12:44.700
+Hè assai travagliu
+
+00:12:44.700 --> 00:12:46.620
+Cum'è previstu da u manager
+
+00:12:47.620 --> 00:12:49.750
+In questu casu, pudemu suddivide l'attori ?
+
+00:12:49.750 --> 00:12:52.340
+Hè ancu una bona idea di rivedere
+
+00:12:53.140 --> 00:12:54.790
+À u principiu mi chjamavanu amministratore
+
+00:12:54.790 --> 00:12:57.400
+Pò esse pussibule di suddivide per rolu
+
+00:12:58.520 --> 00:13:00.820
+È aduprendu u Sistema di Prenotazione di Film
+
+00:13:00.820 --> 00:13:02.870
+Ci ponu esse servizii esterni
+
+00:13:03.660 --> 00:13:05.340
+Sè segmentemu l'attori cusì,
+
+00:13:05.340 --> 00:13:09.420
+L'esperti di duminiu saranu capaci di furnisce informazioni più sistematiche.
+
+00:13:10.350 --> 00:13:14.000
+Benintesa, questu hè solu un esempiu di analisi di un duminiu cumplessu.
+
+00:13:14.540 --> 00:13:17.320
+Ci ponu esse altri boni modi
+
+00:13:17.960 --> 00:13:21.740
+Hè impurtante di risponde cun flessibilità secondu a situazione.
+
+00:13:24.250 --> 00:13:25.060
+Questa hè a cunclusione
+
+00:13:25.950 --> 00:13:29.170
+Sta volta, useremu un diagramma di casu d'usu
+
+00:13:29.170 --> 00:13:30.840
+Stabilite obiettivi per u prugettu
+
+00:13:31.230 --> 00:13:33.700
+Aghju passatu per e prime tappe di l'analisi.
+
+00:13:34.880 --> 00:13:38.010
+Personalmente, durante tuttu u prucessu di sviluppu
+
+00:13:38.010 --> 00:13:40.060
+Credu chì l'analisi sia a cosa più difficiule
+
+00:13:40.570 --> 00:13:44.250
+Perchè ci tocca à urganizà i cuncetti i più astratti è vaghi.
+
+00:13:45.020 --> 00:13:47.650
+A prossima volta guarderemu i principali casi d'usu
+
+00:13:47.650 --> 00:13:49.470
+Analizemulu più in dettagliu
+
+00:13:50.300 --> 00:13:52.100
+Grazie per u vostru travagliu finu à avà.
+

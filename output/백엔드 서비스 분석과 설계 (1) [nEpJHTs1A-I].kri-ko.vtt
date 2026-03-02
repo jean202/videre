@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: kri
+
+00:00:00.000 --> 00:00:02.020
+Halo, dis na Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Sɔftwia na kɔmpleks tin
+
+00:00:06.650 --> 00:00:08.890
+Fɔs, bɔku kɔd dɛn de we dɛn nid fɔ rayt.
+
+00:00:09.760 --> 00:00:12.710
+Jɔs di ɛgzampul projɛkt dɛn we a mek fɔ dis siriɔs
+
+00:00:12.710 --> 00:00:15.270
+Di kɔd lɔng pas 12,000 layn dɛn.
+
+00:00:16.330 --> 00:00:18.320
+If na rial ɔpreshɔn savis
+
+00:00:18.320 --> 00:00:21.530
+Ivin if na smɔl savis, i go izi fɔ pas 100,000 layn dɛn.
+
+00:00:22.130 --> 00:00:25.300
+Wan ɔndrɛd tawzin layn dɛn na inf fɔ ful-ɔp twɛnti novel dɛn.
+
+00:00:26.870 --> 00:00:29.560
+Fɔ rayt lɔng kɔd nɔ min se i dɔn dɔn.
+
+00:00:30.330 --> 00:00:32.540
+Yu fɔ kɔntinyu fɔ fiks di kɔd we yu rayt.
+
+00:00:33.400 --> 00:00:35.800
+If yu fiks A, B de brok.
+
+00:00:35.800 --> 00:00:39.130
+If yu fiks B, A ɛn C go brok.
+
+00:00:41.090 --> 00:00:44.260
+Fɔ yuz analɔji, i tan lɛk se dɛn trɔs yu na Rasputa ɛn kray.
+
+00:00:44.260 --> 00:00:46.360
+Yu kin se na di sem tin we apin to ɔs.
+
+00:00:47.330 --> 00:00:50.550
+Na dis tɛm ya, yu go fil se yu nid fɔ mek dizayn.
+
+00:00:52.580 --> 00:00:55.010
+Bɔt we yu rili tray fɔ rayt wan dizayn dɔkyumɛnt, .
+
+00:00:55.500 --> 00:00:58.490
+Fɔ tɔk di tin dɛn we yu de tink bɔt na yu ed kɔnkrit wan
+
+00:00:58.790 --> 00:01:01.260
+Yu go kam fɔ no se i nɔ izi lɛk aw yu tink.
+
+00:01:01.890 --> 00:01:05.600
+Ivin sheet myusik, we na dɔkyumɛnt we de rikodɔm sawnd ɔ myuzik wit yay, .
+
+00:01:05.600 --> 00:01:06.700
+Na dis kɔmplikɛt
+
+00:01:07.520 --> 00:01:10.610
+Nɔto myuzik nɔmɔ, bɔt faynans ɛn lɔjistik bak
+
+00:01:10.610 --> 00:01:14.060
+Mɔ difrɛn kɔnsɛpt dɛn ɛn abstrakt yuza rikwaymɛnt dɛn
+
+00:01:14.060 --> 00:01:17.220
+I nɔ go izi fɔ ɛksprɛs am insay wan patikyula mɔdel.
+
+00:01:18.530 --> 00:01:19.490
+I gud
+
+00:01:19.770 --> 00:01:23.200
+Fɔ ɔvakom di difikulti fɔ mɔdel abstrakt kɔnsɛpt dɛn
+
+00:01:23.540 --> 00:01:26.860
+UML bin bɔn insay di let 1990s.
+
+00:01:27.730 --> 00:01:30.120
+Na Gredi Butch bin de bifo am.
+
+00:01:31.460 --> 00:01:34.390
+Wi de yuz UML wit antisipeshon
+
+00:01:34.980 --> 00:01:36.990
+Dro wan klas dayagram
+
+00:01:36.990 --> 00:01:38.760
+Lɛ wi drɔ bak wan sikwins dayagram
+
+00:01:39.430 --> 00:01:39.980
+bɔt
+
+00:01:40.360 --> 00:01:43.160
+We a bin rili tray fɔ disayn am, i bin difrɛn frɔm fɔ kɔd am dairekt wan.
+
+00:01:43.160 --> 00:01:45.130
+I tan lɛk se i nɔ rili difrɛn
+
+00:01:45.590 --> 00:01:46.520
+Wetin mek na so i bi?
+
+00:01:47.350 --> 00:01:50.910
+Dat na bikɔs di tink prɔses dɔn akɔstɔm to implimɛnt.
+
+00:01:51.290 --> 00:01:54.170
+Bifo yu mek abstrakt kɔnsɛpt dɛn mɔ kɔnkrit, .
+
+00:01:54.490 --> 00:01:57.590
+Bikɔs i de translet implimɛnt-lɛvel tinkin to UML.
+
+00:01:58.520 --> 00:02:00.270
+Jɔs bikɔs yu ebul fɔ rid sheet myuzik
+
+00:02:00.270 --> 00:02:01.950
+I nɔ tan lɛk se a kin kɔmpoz am
+
+00:02:02.390 --> 00:02:03.850
+Jɔs bikɔs yu lan UML
+
+00:02:03.850 --> 00:02:06.170
+I nɔ tan lɛk se yu de divɛlɔp dizayn skil dɛn.
+
+00:02:07.700 --> 00:02:09.300
+So insay dis siriɔs wan
+
+00:02:09.300 --> 00:02:11.580
+Tru rial prɔjek dɛn
+
+00:02:11.580 --> 00:02:14.420
+Aw fɔ kɔnkrit abstrakt rikwaymɛnt dɛn
+
+00:02:14.420 --> 00:02:16.290
+Yu kin kɔnɛkt di kɔd?
+
+00:02:16.290 --> 00:02:18.010
+A go lɛk fɔ sho yu insay pɔsin
+
+00:02:18.530 --> 00:02:20.930
+A bin pik fɔ rɛzɛv fim tikɛt dɛn bay domɛyn
+
+00:02:21.370 --> 00:02:25.200
+I izi fɔ ɔndastand fɔ rɛzɛv fim tikɛt bikɔs bɔku pan dɛn na domɛyn dɛn we pipul dɛn sabi.
+
+00:02:25.200 --> 00:02:29.710
+Inklud difrɛn tin dɛn lɛk fɔ login, fɔ pe, ɛn fɔ pik sidɔm ples.
+
+00:02:29.710 --> 00:02:31.580
+I tan lɛk se na gud ɛgzampul
+
+00:02:33.600 --> 00:02:36.890
+Bes wan, di tɔpik fɔ dis atikul na softwea dizayn, bɔt
+
+00:02:36.890 --> 00:02:40.350
+Wi go kɔba bak di divɛlɔpmɛnt we dɛn de yuz fɔ tɛst.
+
+00:02:41.210 --> 00:02:44.890
+Mɔdan divɛlɔpmɛnt ɛnvayrɔmɛnt dɛn nativ wan de sɔpɔt tɛst tul dɛn.
+
+00:02:45.600 --> 00:02:48.320
+Ivin if yu luk pan fambul opin sos projɛkt dɛn, .
+
+00:02:48.320 --> 00:02:51.130
+Wi gɛt wan patikyula lɛvul fɔ tɛst.
+
+00:02:51.740 --> 00:02:56.200
+Dis go mɔs min se fɔ tɛst rili impɔtant ɛn i rili impɔtant.
+
+00:02:56.870 --> 00:02:58.120
+Bɔt fɔ tru
+
+00:02:58.120 --> 00:03:02.590
+Bɔku tɛm, nɔto TDD nɔmɔ, bɔt ivin tɛst ɔtomɛshɔn nɔ kin impruv fayn.
+
+00:03:03.190 --> 00:03:06.260
+Fɔ rayt tɛst dɛn we gɛt minin fɔs we yu nɔ pripia na
+
+00:03:06.260 --> 00:03:07.540
+I nɔ kin ɛva izi
+
+00:03:08.410 --> 00:03:12.340
+Dis na sɔntin we nid di kɔmbayn kapabiliti dɛn fɔ softwea dizayn.
+
+00:03:13.320 --> 00:03:16.270
+So, i bɛtɛ fɔ dil wit dizayn ɛn TDD togɛda.
+
+00:03:16.270 --> 00:03:18.180
+A bin jɔj am fɔ bi efyushɔn
+
+00:03:20.120 --> 00:03:23.450
+So naw lɛ wi bigin di fɔs mitin fɔ di wok.
+
+00:03:24.150 --> 00:03:26.470
+Na bikɔs dis na smɔl wok
+
+00:03:26.470 --> 00:03:28.090
+Tu pipul dɛn de we kin atɛnd
+
+00:03:28.790 --> 00:03:32.340
+Di wan we de na di lɛft na domɛyn ɛkspɛkt, ɛn di wan we de na di rayt na divɛlɔpa.
+
+00:03:34.550 --> 00:03:37.790
+Domɛyn ɛkspɛkt dɛn gɛt fɔ tɔk bɔt di sistɛm dɛn we wi nid fɔ bil.
+
+00:03:37.790 --> 00:03:39.280
+I de tɛl bɔku stori dɛn
+
+00:03:40.340 --> 00:03:42.160
+Di tiyata we wi de rul
+
+00:03:42.160 --> 00:03:44.710
+Na lɛk 4 tawzin pan dɛn de ɔlsay na di kɔntri.
+
+00:03:44.710 --> 00:03:47.220
+I kin bɔku mɔ ɛn mɔ tumara bambay.
+
+00:03:47.220 --> 00:03:50.480
+Naw, na di fim tikɛt rɛzɛvɛshɔn wok nɔmɔ dɛn de sɔpɔt.
+
+00:03:50.480 --> 00:03:54.510
+Wi plan fɔ ad tikɛt sɛl fɔ big big pɔfɔmɛnshɔn dɛn leta.
+
+00:03:54.510 --> 00:03:58.940
+Ɛn di impɔtant tin na dat yu nɔ fɔ ɛva dubl buk sidɔm ples.
+
+00:03:58.940 --> 00:04:03.250
+Trade, di kastoma savis sɛnta dɛn bin rili at fɔ gɛt da kayn prɔblɛm de.
+
+00:04:03.250 --> 00:04:07.670
+Na bikɔs bɔku fim infɔmeshɔn ɛn rivyu data de we dɛn dɔn ɔlrɛdi gɛda.
+
+00:04:07.670 --> 00:04:11.090
+Dɛn data ya fɔ kɔntinyu fɔ de.
+
+00:04:12.090 --> 00:04:14.730
+Na ya di tɔk ɔganayz fayn, bɔt
+
+00:04:14.890 --> 00:04:16.960
+Fɔ tru, mɔ infɔmeshɔn de
+
+00:04:16.960 --> 00:04:18.600
+Dɛn go deliv am di we we nɔ ɔganayz
+
+00:04:19.470 --> 00:04:22.110
+Bɔt di stori we de kɔmɔt na di biginin fɔ di prɔjek na
+
+00:04:22.110 --> 00:04:23.780
+Bikɔs na di tin we impɔtant pas ɔl
+
+00:04:23.780 --> 00:04:25.320
+Yu fɔ tek tɛm lisin
+
+00:04:27.110 --> 00:04:29.810
+Divɛlɔpa dɛn kin lisin to pipul dɛn we sabi bɔt domɛyn
+
+00:04:29.810 --> 00:04:31.290
+A gɛt sɔm kwɛstyɔn dɛn
+
+00:04:32.290 --> 00:04:34.660
+Di big-big pefɔmɛns tikɛt rizɛvshɔn fɛnshɔn we yu bin tɔk bɔt
+
+00:04:34.660 --> 00:04:36.910
+Ustɛm dɛn go ad am?
+
+00:04:36.910 --> 00:04:39.910
+Yu tink se dɛn fɔ put dis insay di say we dɛn de du dis wok bifo tɛm?
+
+00:04:39.910 --> 00:04:43.590
+Ɔ a go lɛk fɔ no if a fɔ tink bɔt am yet
+
+00:04:43.590 --> 00:04:46.090
+Ɛn di nid fɔ kip di data we dɔn de
+
+00:04:46.090 --> 00:04:48.940
+Dis min se wi nɔ fɔ chenj di DB sistɛm?
+
+00:04:48.940 --> 00:04:51.950
+Ɛni ɔda savis de we de sheb di DB naw?
+
+00:04:53.580 --> 00:04:54.980
+As yu si frɔm di DB, .
+
+00:04:54.980 --> 00:04:57.290
+Bikɔs domɛyn ɛkspɛkt dɛn nɔto divɛlɔpa dɛn.
+
+00:04:57.290 --> 00:04:59.430
+Di tɛknikal ɛksprɛshɔn nɔ klia
+
+00:04:59.910 --> 00:05:02.890
+Di wan dɛn we de mek tin dɛn nid fɔ tek tɛm chɛk dɛn tin ya.
+
+00:05:04.230 --> 00:05:07.450
+Di wan dɛn we sabi bɔt domɛyn kin ansa di divɛlɔpman dɛn kwɛstyɔn dɛn lɛk dis:
+
+00:05:08.330 --> 00:05:10.210
+Di big-big pefɔmɛns tikɛt rizɛvshɔn fɛnshɔn
+
+00:05:10.210 --> 00:05:13.450
+No spesifik schedule no de yet.
+
+00:05:13.450 --> 00:05:15.970
+Bɔt we dɛn ad ficha dɛn tumara bambay
+
+00:05:15.970 --> 00:05:18.700
+So dat yu go ebul fɔ ɔpgrɛd witout bɔku prɔblɛm
+
+00:05:18.700 --> 00:05:22.600
+A tink se i go fayn if yu kin gi am sɔm kɔnsidareshɔn dis tɛm.
+
+00:05:22.600 --> 00:05:27.050
+Wi nɔ de yuz DB fɔ ɛni ɔda tin pas wi savis dɛn.
+
+00:05:27.050 --> 00:05:32.840
+Fɔ chenj di sistɛm sɛf nɔto big prɔblɛm as lɔng as dɛn de kip di data fayn fayn wan.
+
+00:05:33.840 --> 00:05:35.080
+Afta we i yɛri di stori
+
+00:05:35.080 --> 00:05:39.400
+A nɔ tink se yu nid fɔ wɔri bɔt di big sho.
+
+00:05:39.400 --> 00:05:40.790
+Nɔto di skɔp fɔ di prɔjek
+
+00:05:40.790 --> 00:05:43.040
+Di tin dɛn we dɛn nid fɔ du nɔ klia bak
+
+00:05:43.040 --> 00:05:44.930
+A nɔ no ustɛm a go nid am, bɔt
+
+00:05:44.930 --> 00:05:47.710
+Dat na prɔblɛm we wi go gɛt fɔ rivyu bak leta.
+
+00:05:48.920 --> 00:05:50.910
+Ivin if dɛn nɔ rayt am na di dɔkyumɛnt
+
+00:05:50.910 --> 00:05:54.880
+Domɛyn ɛkspɛkt dɛn go gi ansa bak se dɛn go tink bɔt big-big pefɔmɛns.
+
+00:05:54.880 --> 00:05:55.960
+Yu nɔ fɔ fɔgɛt
+
+00:05:56.740 --> 00:05:58.320
+Nɔ bad
+
+00:05:58.320 --> 00:06:00.630
+Dɔn, di big-big pɔfɔmɛnshɔn tikɛt rizɛvshɔn fɛnshɔn
+
+00:06:00.630 --> 00:06:04.500
+A nɔ go put am pan di tɔp prayorities fɔ dis projɛkt.
+
+00:06:04.500 --> 00:06:08.220
+Bifo dat, i de mek am izi fɔ mek dɛn ebul fɔ du mɔ leta insay di divɛlɔpmɛnt prɔses.
+
+00:06:08.220 --> 00:06:10.190
+A go tek kia ɔf am gud gud wan
+
+00:06:10.190 --> 00:06:12.840
+Nɔ wɔri. Na mi nɔmɔ abop pan
+
+00:06:13.840 --> 00:06:15.960
+I impɔtant fɔ mek wi de togɛda fayn fayn wan
+
+00:06:17.980 --> 00:06:19.500
+Tru wi tɔk-tɔk so fa
+
+00:06:19.500 --> 00:06:22.700
+Dɛn dɔn sɔmariz di tin dɛn we dɛn fɔ pe atɛnshɔn pan pas ɔl lɛk dis:
+
+00:06:23.220 --> 00:06:25.890
+Dis na di infɔmeshɔn we di wan dɛn we sabi bɔt domɛyn dɔn gi.
+
+00:06:25.890 --> 00:06:28.410
+Fɔ intaprit ɛn ɔganayz frɔm di we aw divɛlɔpa de si am
+
+00:06:28.410 --> 00:06:29.810
+Start di prɔjek
+
+00:06:31.700 --> 00:06:32.860
+Wit domɛyn ɛkspɛkt dɛn
+
+00:06:32.860 --> 00:06:34.980
+We yu dɔn disayd di gol dɛn we yu gɛt fɔ du, .
+
+00:06:35.620 --> 00:06:37.980
+Naw na tɛm fɔ gi yu prɔjek in nem.
+
+00:06:38.750 --> 00:06:41.840
+Fɔs, aks wan pɔsin we sabi bɔt domɛyn fɔ wetin dɛn tink.
+
+00:06:42.800 --> 00:06:45.540
+Wetin a fɔ kɔl di prɔjek?
+
+00:06:45.540 --> 00:06:47.680
+Na wan sistem fɔ rɛzɛv fim.
+
+00:06:47.680 --> 00:06:50.150
+Aw yu go fil bɔt jɔs di Muvi Booking System?
+
+00:06:50.150 --> 00:06:51.430
+nɔ, a nɔ want
+
+00:06:51.430 --> 00:06:53.570
+A go tek kia of di big-big pefomans dem
+
+00:06:53.570 --> 00:06:56.930
+Mek wi go wit di Movie Booking System. Yɛs?
+
+00:06:56.930 --> 00:06:58.180
+rili
+
+00:06:58.180 --> 00:06:59.950
+Plɛnti tɛnki
+
+00:07:01.000 --> 00:07:05.230
+Di wan dɛn we sabi bɔt domɛyn kin want fɔ gɛt di prɔjɛkt nem dɛn insay Korian.
+
+00:07:05.580 --> 00:07:07.680
+Bɔt frɔm di we aw wan divɛlɔpa de si tin
+
+00:07:07.680 --> 00:07:09.990
+Ɔl di wɔd dɛn inklud di prɔjek nem dɛn
+
+00:07:09.990 --> 00:07:12.180
+Bikɔs dɛn de impruv am dairekt insay kɔd, .
+
+00:07:12.600 --> 00:07:15.000
+I izi fɔ difayn am insay Inglish if i pɔsibul.
+
+00:07:15.540 --> 00:07:19.510
+I impɔtant fɔ mek divɛlɔpa dɛn fetful wan fala di nid dɛn fɔ di domɛyn ɛkspɛkt dɛn, bɔt
+
+00:07:19.960 --> 00:07:21.430
+We wi de tink bɔt di wan ol prɔjek
+
+00:07:21.430 --> 00:07:23.930
+Wi gɛt di wok bak fɔ mek tin go bifo fayn fayn wan.
+
+00:07:25.850 --> 00:07:27.760
+If yu dɔn disayd fɔ gi yu nem fɔ yu prɔjek
+
+00:07:27.760 --> 00:07:31.380
+Naw na tɛm fɔ no udat de yuz di Muvi Booking System.
+
+00:07:32.020 --> 00:07:34.940
+Na tru se yu fɔ aks pɔsin we sabi bɔt domɛyn fɔ no bɔt dis.
+
+00:07:35.420 --> 00:07:38.740
+Ɛn wi kin si se wi gɛt kɔstɔma dɛn ɛn manija dɛn.
+
+00:07:40.820 --> 00:07:43.280
+Wan pan di tin dɛn we izi fɔ mis we dɛn bigin fɔ mek dizayn na
+
+00:07:43.280 --> 00:07:44.760
+Na ɛksternal dipɛnsin
+
+00:07:45.340 --> 00:07:46.580
+Ekstanshal dipεndεns dεm na
+
+00:07:46.580 --> 00:07:49.210
+I kin bi wan lɛgsi sistɛm we dɔn de, .
+
+00:07:49.660 --> 00:07:51.420
+I kin bi wan we fɔ pe
+
+00:07:52.020 --> 00:07:53.670
+Dis dipɛnsin rilayshɔn na
+
+00:07:53.670 --> 00:07:56.760
+Bikɔs i kin gɛt big impak pan di ɔl di sistɛm dizayn.
+
+00:07:56.950 --> 00:08:00.150
+I impɔtant fɔ no am kwik kwik wan.
+
+00:08:00.570 --> 00:08:01.240
+i gud
+
+00:08:01.820 --> 00:08:04.990
+Elemɛnt dɛn lɛk pemɛnt get ɛn lɛgsi sistɛm
+
+00:08:05.270 --> 00:08:07.730
+Bikɔs dɛn dɔn ɔlrɛdi de yuz am na di sistɛm dɛn we dɔn de
+
+00:08:07.990 --> 00:08:10.360
+Wi kin ɔndastand am izi wan
+
+00:08:11.230 --> 00:08:14.410
+Wan pan di tin dɛm wae izi fɔ fɔgɛt pan di dipɛndent rileshɔnship na
+
+00:08:14.410 --> 00:08:16.090
+Sɔm tin dɛn de we de na do na di envayrɔmɛnt
+
+00:08:16.900 --> 00:08:19.060
+Wi kɔntri de na di sem tɛm zon
+
+00:08:19.060 --> 00:08:22.430
+Insay kɔntri we gɛt bɔku land, ɛni tiyata gɛt difrɛn tɛm fɔ du am.
+
+00:08:23.190 --> 00:08:25.100
+Dɔn di Fim Buk Sistɛm
+
+00:08:25.100 --> 00:08:28.900
+I nɔ go ebul fɔ avɔyd se i go afɛkt di tin dɛn we de apin na di envayrɔmɛnt lɛk di tɛm zon.
+
+00:08:29.410 --> 00:08:32.760
+Dɛn tin ya nɔ kin apin wantɛm wantɛm pas yu aks di pɔsin we sabi bɔt di domɛyn dairekt wan.
+
+00:08:32.760 --> 00:08:33.950
+I izi fɔ mis am
+
+00:08:34.740 --> 00:08:37.610
+Di wan dɛn we sabi bɔt domɛyn kin lɛk fɔ fɔgɛt bɔt dɛn ditil ya.
+
+00:08:37.610 --> 00:08:40.010
+Na bikɔs dɛn kin pul di ɛksplen
+
+00:08:41.680 --> 00:08:43.640
+Sins di dipɛnsin rilayshɔn bin tɔk klia wan
+
+00:08:43.640 --> 00:08:47.500
+Naw lɛ wi pe atɛnshɔn pan di intanɛnt dɛn na di Muvi Buk Sistɛm.
+
+00:08:48.430 --> 00:08:52.230
+Fɔs, wetin di kɔstɔma de du na di Muvi Booking System?
+
+00:08:52.230 --> 00:08:54.230
+Lɛ wi aks di domɛyn ɛkspɛkt dɛn
+
+00:08:55.800 --> 00:08:57.880
+Wetin di kɔstɔma dɛn kin du?
+
+00:08:57.880 --> 00:08:59.970
+Di kɔstɔma dɛn kin luk fɔ fim dɛn, .
+
+00:08:59.970 --> 00:09:01.450
+Luk di ditel dɛn bɔt di fim, .
+
+00:09:01.450 --> 00:09:02.910
+Pik wan tɛm we dɛn go sho di fim, .
+
+00:09:02.910 --> 00:09:04.450
+Pik yu sidɔm ples, .
+
+00:09:04.450 --> 00:09:05.920
+Buk fim tikɛt, .
+
+00:09:05.920 --> 00:09:07.610
+Chek di ditel dɛn bɔt aw fɔ rɛzɛv, .
+
+00:09:07.610 --> 00:09:10.180
+Du tin dɛn lɛk fɔ kansel rɛzɛvɛshɔn
+
+00:09:10.180 --> 00:09:15.750
+Yu tink se fɔ pik wan sho tɛm ɛn fɔ pik sidɔm ples na pat pan di fim tikɛt rɛzɛvɛshɔn prɔses?
+
+00:09:15.750 --> 00:09:18.880
+Ɛn fɔ rɛzɛv fim tikɛt, fɔ kansel rɛzɛv
+
+00:09:18.880 --> 00:09:22.210
+Afta ɔl, yu nɔ tink se yu jɔs de bay tikɛt ɛn gɛt rifandim?
+
+00:09:22.210 --> 00:09:23.620
+yu rait
+
+00:09:23.620 --> 00:09:25.030
+Na so i bi
+
+00:09:25.480 --> 00:09:27.880
+Bikɔs na domɛyn we pipul dɛn sabi naw
+
+00:09:27.880 --> 00:09:31.240
+Pik wan tɛm fɔ sho di fim ɛn pik di say we yu go sidɔm
+
+00:09:31.240 --> 00:09:33.200
+Dis na pat pan di we aw dɛn kin rɛzɛv fim tikɛt?
+
+00:09:33.200 --> 00:09:34.530
+A bin ebul fɔ aks
+
+00:09:34.980 --> 00:09:37.220
+Bɔt if na domɛyn we yu nɔ sabi, .
+
+00:09:37.410 --> 00:09:40.160
+Analayz ɛni yuz kes ditayli
+
+00:09:40.520 --> 00:09:43.330
+Yu go ripit di rifin prɔses bɔku tɛm.
+
+00:09:43.790 --> 00:09:45.350
+Dipen pan di projɛkt sityueshɔn
+
+00:09:45.350 --> 00:09:48.080
+Yu kin ripit dis prɔses bɔku tɛm, .
+
+00:09:48.080 --> 00:09:50.580
+Di mɔ yu de tek yu tɛm ɛn tek tɛm stɔdi, .
+
+00:09:50.580 --> 00:09:54.190
+Ridyus tray ɛn mistek we dɛn de du di dizayn ɛn implimɛnt stej.
+
+00:09:55.850 --> 00:09:57.530
+Based pan di tok-tok so fa
+
+00:09:57.530 --> 00:10:00.970
+Wi dɔn ɔganayz wi kɔstɔma dɛn yus kes dɛn to 4 kategori dɛn:
+
+00:10:02.960 --> 00:10:04.470
+Neks wan na di administreta
+
+00:10:05.190 --> 00:10:08.850
+Di administreta kin si se fayv tin dɛn de we dɛn kin du fɔ manej:
+
+00:10:09.440 --> 00:10:13.620
+Pasɔnali, a de tek tɛm fɔ yuz di wɔd "Manage" na divɛlɔpmɛnt.
+
+00:10:14.360 --> 00:10:16.980
+Manage na tu brayt ɛksprɛshɔn
+
+00:10:16.980 --> 00:10:19.030
+I nɔ klia wetin yu de du
+
+00:10:19.640 --> 00:10:20.950
+Na di sem tin na ya bak
+
+00:10:21.370 --> 00:10:23.760
+Aw ɛksaktɔli dɛn de manej am?
+
+00:10:23.760 --> 00:10:24.810
+A nɔ no
+
+00:10:25.930 --> 00:10:27.620
+Na bay we yu tɔk to pipul dɛn we sabi bɔt domɛyn
+
+00:10:27.620 --> 00:10:31.220
+Dɛn dɔn ɛkspɛn ɛni manejmɛnt aytem to wan patikyula yus kes.
+
+00:10:31.900 --> 00:10:33.660
+If na rial prɔjek
+
+00:10:33.660 --> 00:10:35.890
+I go bi se mɔ yus kes dɛn de pas dis.
+
+00:10:36.150 --> 00:10:39.000
+Na ya a dɔn mek am simpul fɔ ɛksplen.
+
+00:10:39.860 --> 00:10:42.700
+Wetin impɔtant fɔ no ya na dat we yu de mek wan tɛm we yu de rɔn, .
+
+00:10:43.020 --> 00:10:45.900
+Yu kin si se dɛn mek di tikɛt bak
+
+00:10:46.960 --> 00:10:49.200
+Ɛn we yu de bay ɔ gi yu bak tikɛt
+
+00:10:49.490 --> 00:10:53.910
+Yu kin si bak se wi de yuz wan ɔda savis we dɛn kɔl pemɛnt get.
+
+00:10:55.890 --> 00:10:58.670
+A bin jɔyn di yus kes dɛn we di kɔstɔma dɛn ɛn di manija dɛn gɛt.
+
+00:10:59.350 --> 00:11:01.730
+Luk di entire use case laik dis
+
+00:11:01.730 --> 00:11:02.900
+Sɔntin kin fil se i ɛmti
+
+00:11:03.890 --> 00:11:05.840
+Opshɔn de fɔ ad wan tiyata
+
+00:11:05.840 --> 00:11:08.720
+A nɔ si ɛnitin lɛk Search Theatre
+
+00:11:09.410 --> 00:11:12.130
+I tan lɛk se bɔku yus kes dɛn de we dɛn de pul.
+
+00:11:12.770 --> 00:11:15.980
+Bikɔs frɔm di we aw pɔsin we sabi bɔt domɛyn de si am, bɔku tin de fɔ ɛksplen.
+
+00:11:15.980 --> 00:11:17.950
+Dis yus kes, we tan lɛk se i so klia, .
+
+00:11:18.150 --> 00:11:19.810
+Yu kin lɛf di ɛksplen
+
+00:11:20.770 --> 00:11:23.460
+So wetin bɔt frɔm di we aw divɛlɔpa de si am?
+
+00:11:24.400 --> 00:11:28.290
+I bɛtɛ fɔ lɛf simpul nyus kes dɛn lɛk fɔ fɛn tiyata.
+
+00:11:28.290 --> 00:11:30.700
+Yu nɔ tink se dis go ɛp mɔ fɔ manej di dɔkyumɛnt dɛn?
+
+00:11:31.720 --> 00:11:32.870
+If na bakɛnd dizayn
+
+00:11:32.870 --> 00:11:35.920
+Simpul yus kes dɛm lɛk fɔ fɛn tiyata
+
+00:11:35.920 --> 00:11:37.760
+A tink se i nɔ bad fɔ skip am
+
+00:11:38.600 --> 00:11:41.570
+Wetin a de se na dat i nɔ tu let fɔ ansa di tɛm we dɛn de implimɛnt di faz.
+
+00:11:42.370 --> 00:11:44.310
+Bɔt if na rial prɔjek
+
+00:11:44.310 --> 00:11:48.450
+Fɔ di wan dɛn we de plan fɔ mek skrin, dɛn yuz kes ya na gud say fɔ bigin.
+
+00:11:49.250 --> 00:11:52.300
+Di pɔsin we de plan bin luk di yus kes fɔ fɛn wan tiyata.
+
+00:11:52.300 --> 00:11:55.300
+Aw a fɔ mek am pɔsibul fɔ fɛn say dɛn we dɛn kin ple fim?
+
+00:11:55.300 --> 00:11:56.600
+Yu go ebul fɔ tink
+
+00:11:58.000 --> 00:12:00.880
+We yu jɔyn di dayagram dɛn to wan, i kin tan lɛk se i kɔmplikt.
+
+00:12:01.490 --> 00:12:05.150
+If na bin rial wok, i bin fɔ dɔn rili kɔmplikt.
+
+00:12:05.720 --> 00:12:08.240
+If na so i bi, nid nɔ de fɔ fos fɔ mek dɛn jɔyn.
+
+00:12:08.810 --> 00:12:13.910
+A jos don merged dem ya fo rivɛl se kes de we nɔ de.
+
+00:12:16.020 --> 00:12:18.490
+A bin ful-ɔp ɔl di kes dɛn we nɔ bin de
+
+00:12:19.200 --> 00:12:21.880
+a geht yus kes we di konekshon to di aktɔ de omit.
+
+00:12:22.290 --> 00:12:25.720
+Dis kin apin to di kɔstɔma dɛn ɛn di manija dɛn.
+
+00:12:26.400 --> 00:12:29.480
+Ɛn fɔ mek i izi fɔ impruv am, a rayt am insay Inglish.
+
+00:12:31.370 --> 00:12:34.160
+I okay naw bikɔs na smɔl prɔjek
+
+00:12:34.160 --> 00:12:36.160
+If di prɔjek big ɛn kɔmpleks
+
+00:12:36.160 --> 00:12:38.980
+Usay pɔsin we sabi bɔt domɛyn fɔ bigin fɔ ɛksplen?
+
+00:12:38.980 --> 00:12:40.380
+I kin at fɔ lɛ i nɔ izi
+
+00:12:41.280 --> 00:12:43.300
+Wetin administreta kin du?
+
+00:12:43.300 --> 00:12:44.700
+Na bɔku wok we yu de du
+
+00:12:44.700 --> 00:12:46.620
+As dɛn bin de op fɔ di manija
+
+00:12:47.620 --> 00:12:49.750
+If na so i bi, wi go ebul fɔ sheb di aktɔ dɛn?
+
+00:12:49.750 --> 00:12:52.340
+I fayn bak fɔ rivyu
+
+00:12:53.140 --> 00:12:54.790
+Fɔs, dɛn bin de kɔl mi administreta
+
+00:12:54.790 --> 00:12:57.400
+I kin pɔsibul fɔ sheb difrɛn difrɛn wok dɛn bay di wok we dɛn de du
+
+00:12:58.520 --> 00:13:00.820
+Ɛn yuz di Muvi Booking System
+
+00:13:00.820 --> 00:13:02.870
+Sɔntɛm, ɔda savis dɛn de we de na do
+
+00:13:03.660 --> 00:13:05.340
+If wi segment di aktɔ dɛn lɛk dis, .
+
+00:13:05.340 --> 00:13:09.420
+Domɛyn ɛkspɛkt dɛn go ebul fɔ gi mɔ sistamɛtik infɔmeshɔn.
+
+00:13:10.350 --> 00:13:14.000
+Na tru se dis na jɔs wan ɛgzampul fɔ analayz wan kɔmpleks domɛyn.
+
+00:13:14.540 --> 00:13:17.320
+Sɔntɛm ɔda gud we dɛn de
+
+00:13:17.960 --> 00:13:21.740
+I impɔtant fɔ ansa fri wan dipen pan di tin we de apin.
+
+00:13:24.250 --> 00:13:25.060
+Dis na di kɔnklushɔn
+
+00:13:25.950 --> 00:13:29.170
+Dis tɛm, wi go yuz wan yuz kes dayagram
+
+00:13:29.170 --> 00:13:30.840
+Sɛt gol dɛn fɔ di wok
+
+00:13:31.230 --> 00:13:33.700
+A don go tru di initial stej dem fo analysis.
+
+00:13:34.880 --> 00:13:38.010
+Pasɔnali, insay di ɔl divɛlɔpmɛnt prɔses
+
+00:13:38.010 --> 00:13:40.060
+A tink se analisis na di wan we at pas ɔl
+
+00:13:40.570 --> 00:13:44.250
+Bikɔs wi fɔ ɔganayz di kɔnsɛpt dɛn we abstrakt ɛn vayg pas ɔl.
+
+00:13:45.020 --> 00:13:47.650
+Neks tɛm wi go luk di men yus kes dɛm
+
+00:13:47.650 --> 00:13:49.470
+Lɛ wi analays am mɔ ditayli
+
+00:13:50.300 --> 00:13:52.100
+Wi tɛl una tɛnki fɔ di tranga wok we una dɔn du te naw.
+

@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: ay
+
+00:00:00.000 --> 00:00:02.020
+Suma arunaka, akax Código de Manera satawa.
+
+00:00:03.290 --> 00:00:05.350
+Software ukax mä complejo ukhamawa
+
+00:00:06.650 --> 00:00:08.890
+Nayraqatax walja codigo ukanakaw utji, ukax qillqt’añaw wakisi.
+
+00:00:09.760 --> 00:00:12.710
+Ukhama uñacht’awi proyectos ukanakax aka serie ukan lurawayta
+
+00:00:12.710 --> 00:00:15.270
+Uka códigojj 12.000 jila líneanakaniwa.
+
+00:00:16.330 --> 00:00:18.320
+Ukaxa chiqapa servicio operativo ukhamawa
+
+00:00:18.320 --> 00:00:21.530
+Mä jisk’a servicio ukhamäkchisa, jasakiw 100.000 líneas ukjat jila.
+
+00:00:22.130 --> 00:00:25.300
+Patak waranqa chimpunakax pä tunk novelas phuqhantañatakix wakisiwa.
+
+00:00:26.870 --> 00:00:29.560
+Jaya codigo qillqañax janiw tukusxi sañ munkiti.
+
+00:00:30.330 --> 00:00:32.540
+Jumax qillqt’at código ukarux askichaskakiñamawa.
+
+00:00:33.400 --> 00:00:35.800
+A askichasaxa, B ukaxa p’akjasi.
+
+00:00:35.800 --> 00:00:39.130
+B ukar askichasax A ukat C ukanakax p’akjatäniwa.
+
+00:00:41.090 --> 00:00:44.260
+Mä analogía apnaqañatakix mä Rasputa ukan katjata ukat jachañjamawa.
+
+00:00:44.260 --> 00:00:46.360
+Mä caballor uñtasit mä jan waltʼäwiw sasaw sasma.
+
+00:00:47.330 --> 00:00:50.550
+Aka pachanxa, diseño lurañax wakisitap amuyasïta.
+
+00:00:52.580 --> 00:00:55.010
+Ukampis kunapachatï chiqpachapuni mä documento de diseño qillqañ yantʼäta ukhaxa,
+
+00:00:55.500 --> 00:00:58.490
+P’iqiman amuyunakax concretamente uñacht’ayaña
+
+00:00:58.790 --> 00:01:01.260
+Ukajj janiw kunjamtï amuykta ukham faciläkiti sasaw amuyäta.
+
+00:01:01.890 --> 00:01:05.600
+Partituras, ukax mä documento satawa, ukax uñjkañaw sonido jan ukax musica graba,
+
+00:01:05.600 --> 00:01:06.700
+Ukax aka ch’amäxiwa
+
+00:01:07.520 --> 00:01:10.610
+Janiw musica ukakikiti, jan ukasti qullqi tuqit ukhamarak logística tuqitwa
+
+00:01:10.610 --> 00:01:14.060
+Juk’amp kunayman amuyunaka ukat abstracto apnaqirin mayiwinakapa
+
+00:01:14.060 --> 00:01:17.220
+Mä modelo específico ukan uñacht’ayañax janiw jasakikaniti.
+
+00:01:18.530 --> 00:01:19.490
+Utjrini
+
+00:01:19.770 --> 00:01:23.200
+Abstracto amuyunaka modelado ukan ch’amätap atipjañataki
+
+00:01:23.540 --> 00:01:26.860
+UML ukax 1990 mara tukuyanw yuritayna.
+
+00:01:27.730 --> 00:01:30.120
+Ukax Grady Butch jupan p’iqinchatawa.
+
+00:01:31.460 --> 00:01:34.390
+UML ukax suyt’awimpiw apnaqapxta
+
+00:01:34.980 --> 00:01:36.990
+Mä clase diagrama uñacht’ayaña
+
+00:01:36.990 --> 00:01:38.760
+Ukhamaraki, mä secuencia diagrama uñacht’ayañäni
+
+00:01:39.430 --> 00:01:39.980
+ukampirus
+
+00:01:40.360 --> 00:01:43.160
+Chiqpachansa diseñar yantʼkayäta ukhaxa, directo codificañat sipansa mayjänwa.
+
+00:01:43.160 --> 00:01:45.130
+Janiw sinti mayjäkaspas ukhamäkiti
+
+00:01:45.590 --> 00:01:46.520
+¿Kunatsa ukham lurasi?
+
+00:01:47.350 --> 00:01:50.910
+Ukax kunatix amuyt’awix phuqhañ yatitawa.
+
+00:01:51.290 --> 00:01:54.170
+Abstracto amuyunakax juk’amp concreto ukham lurañat sipansa,
+
+00:01:54.490 --> 00:01:57.590
+Kunatix implementación-nivel amuyt’awinak UML ukar jaqukipi.
+
+00:01:58.520 --> 00:02:00.270
+Partituranak liytʼañ yatta laykuki
+
+00:02:00.270 --> 00:02:01.950
+Janiw kunjamtï nayax composirjamäkti
+
+00:02:02.390 --> 00:02:03.850
+UML ukan yatiqatamata ukhamakiw
+
+00:02:03.850 --> 00:02:06.170
+Janiw kunjamtï jumax diseño lurañ yatiñanak jilxattaykta ukhamäkiti.
+
+00:02:07.700 --> 00:02:09.300
+Ukhamajj aka serienjja
+
+00:02:09.300 --> 00:02:11.580
+Chiqpach proyectos ukanakampi
+
+00:02:11.580 --> 00:02:14.420
+Kunjamasa concretizar requisitos abstractos ukaxa
+
+00:02:14.420 --> 00:02:16.290
+¿Jumax uka codigo ukarux conectasmati?
+
+00:02:16.290 --> 00:02:18.010
+Nayax jumanakar uñjañ munapxsma
+
+00:02:18.530 --> 00:02:20.930
+Nayax cine boletonak dominio ukarjam reservañ amtawayta
+
+00:02:21.370 --> 00:02:25.200
+Películan billetes reservacionanakax jasakiw amuyañaxa kunatix jilpachax dominios uñt’atanakawa.
+
+00:02:25.200 --> 00:02:29.710
+Kunayman lurawinakaw utji, sañäni, mantañ, payllañ, ukat qunuñanak ajlliña.
+
+00:02:29.710 --> 00:02:31.580
+Mä suma uñachtʼäwikïkaspas ukhamawa
+
+00:02:33.600 --> 00:02:36.890
+Jilpachax aka qillqatan temapax software diseño ukawa, ukampis...
+
+00:02:36.890 --> 00:02:40.350
+Ukhamarakiw yant’awimp apnaqat lurawinak uñakipt’añäni.
+
+00:02:41.210 --> 00:02:44.890
+Jichha pacha nayrar sartañ pachanakax nativamente yant’äw yänak yanapt’apxi.
+
+00:02:45.600 --> 00:02:48.320
+Uñt’at proyectos de código abierto ukanakar uñakipt’kasas,
+
+00:02:48.320 --> 00:02:51.130
+Jiwasax mä nivel de prueba ukaniwa.
+
+00:02:51.740 --> 00:02:56.200
+Ukajj yantʼanakajj wali wakiskiriwa ukat wali askirakiwa sañwa munaspa.
+
+00:02:56.870 --> 00:02:58.120
+Ukampis cheqpachansa
+
+00:02:58.120 --> 00:03:02.590
+Walja kutix janiw TDD ukakikiti, jan ukasti automatización de pruebas ukax janiw sum phuqhaskiti.
+
+00:03:03.190 --> 00:03:06.260
+Nayraqatax jan kuna wakicht’asisaw aski yant’äwinak qillqañaxa
+
+00:03:06.260 --> 00:03:07.540
+Janipuniw faciläkiti
+
+00:03:08.410 --> 00:03:12.340
+Akax mä kunaw software diseño ukan mayacht’at ch’amanchawinakap mayi.
+
+00:03:13.320 --> 00:03:16.270
+Ukhama, diseño ukat TDD ukanakamp mayacht’asis uñjañax juk’amp askiwa.
+
+00:03:16.270 --> 00:03:18.180
+Nayajj ukajj wali sumäkaspas ukhamwa amuyayäta
+
+00:03:20.120 --> 00:03:23.450
+Ukhamajj jichhajj uka proyecton nayrïr tantachäwip qalltañäni.
+
+00:03:24.150 --> 00:03:26.470
+Kunatix akax mä jisk’a lurawiwa
+
+00:03:26.470 --> 00:03:28.090
+Ukanjja, pä jilatanakaw tantachasipjje
+
+00:03:28.790 --> 00:03:32.340
+Ch’iqa tuqinkir jaqix dominio ukan yatxatatawa, ukatx ch’iqa tuqinx desarrollador ukhamawa.
+
+00:03:34.550 --> 00:03:37.790
+Dominio yatxatirinakax sistemas ukanakan lurañax wakiski ukanakanx mä arsuwiw utji.
+
+00:03:37.790 --> 00:03:39.280
+Walja sarnaqäwinakatwa parli
+
+00:03:40.340 --> 00:03:42.160
+Uka teatro ukax jiwasanakan apnaqatawa
+
+00:03:42.160 --> 00:03:44.710
+Markpachanx niya pusi waranq jaqinakaw utji.
+
+00:03:44.710 --> 00:03:47.220
+Inas jutïrin jukʼamp jiljjattaspa.
+
+00:03:47.220 --> 00:03:50.480
+Jichhax, cine boleto reservañ función ukakiw yanapt’ata.
+
+00:03:50.480 --> 00:03:54.510
+Qhipharux jach’a uñacht’äwinakatakiw billetes aljasiñanak yapxatañ amtapxta.
+
+00:03:54.510 --> 00:03:58.940
+Ukat wali wakiskirïki ukajja, janipuniw asientonak doble reservañamäkiti.
+
+00:03:58.940 --> 00:04:03.250
+Nayra pachanx centros de servicio al cliente ukanakax chiqpachans uka kasta jan walt’awimp ch’am tukupxäna.
+
+00:04:03.250 --> 00:04:07.670
+Kunatix walja pelicula yatiyawinakaw utji ukat revisión de datos ukax nayratpach apthapitawa.
+
+00:04:07.670 --> 00:04:11.090
+Uka yatiyawinakax jan mayjt’ataw qhiparañapa.
+
+00:04:12.090 --> 00:04:14.730
+Aka chiqanx aruskipäwix suma wakicht’atawa, ukampis
+
+00:04:14.890 --> 00:04:16.960
+Chiqansa, jukʼamp yatiyawinakaw utji
+
+00:04:16.960 --> 00:04:18.600
+Ukax jan wakicht’ataw puriyatäni
+
+00:04:19.470 --> 00:04:22.110
+Ukampis kuna sarnaqäwitix proyecto qalltawinx mistki ukax ukhamawa
+
+00:04:22.110 --> 00:04:23.780
+Kunatix ukax juk’amp wakiskir mayiwiwa
+
+00:04:23.780 --> 00:04:25.320
+Suma istʼañamawa
+
+00:04:27.110 --> 00:04:29.810
+Desarrolladores ukanakax dominio ukan yatxatirinakaruw ist’apxi
+
+00:04:29.810 --> 00:04:31.290
+Mä qawqha jiskt’äwinakaw utjitu
+
+00:04:32.290 --> 00:04:34.660
+Jach’a escala de performance boletos reservación función ukaxa arsutawa
+
+00:04:34.660 --> 00:04:36.910
+¿Kunapachas ukax yapxatasini?
+
+00:04:36.910 --> 00:04:39.910
+¿Ukax nayratpach aka proyecton lurañanakaparux uñt’ayatäñapati?
+
+00:04:39.910 --> 00:04:43.590
+Jan ukajj jichhakamat amuytʼañajati janicha uk yatiñ munta
+
+00:04:43.590 --> 00:04:46.090
+Ukatx utjki uka datos ukanakax uñjañaw wakisi
+
+00:04:46.090 --> 00:04:48.940
+¿Ukax sañ muniw janiw sistema DB ukar mayjt’ayañasäkiti?
+
+00:04:48.940 --> 00:04:51.950
+Jichhax yaqha servicios ukanakax DB ukar chikancht’asis utjiti?
+
+00:04:53.580 --> 00:04:54.980
+Kunjamtï DB ukan uñjktanxa,
+
+00:04:54.980 --> 00:04:57.290
+Kunatix dominio yatxatirinakax janiw desarrolladores ukhamäkiti.
+
+00:04:57.290 --> 00:04:59.430
+Expresión técnica ukax pä amuyuniwa
+
+00:04:59.910 --> 00:05:02.890
+Desarrolladores ukanakax ukanak sum uñakipapxañapawa.
+
+00:05:04.230 --> 00:05:07.450
+Dominio yatxatirinakax desarrolladores ukanakan jiskt’awinakaparux akham jaysapxi:
+
+00:05:08.330 --> 00:05:10.210
+Jach’a lurawi boleto reservación uka lurawi
+
+00:05:10.210 --> 00:05:13.450
+Jichhakamax janiw kuna horario específicos ukanakas utjkiti.
+
+00:05:13.450 --> 00:05:15.970
+Ukampirus, kunapachatix jutïrinx kunayman lurawinakaw yapxatatäni
+
+00:05:15.970 --> 00:05:18.700
+Ukhamat jan sinti ch’amäkipan machaqar tukuyañataki
+
+00:05:18.700 --> 00:05:22.600
+Nayax amuyta, aka kutix mä juk’a amuyt’asma ukhax wali askïspawa.
+
+00:05:22.600 --> 00:05:27.050
+Jiwasax janiw DB ukax yaqha lurawinakatakis apnaqktanti, jan ukasti jiwasan lurawinakasatakiw apnaqapxtanxa.
+
+00:05:27.050 --> 00:05:32.840
+Sistema pachpa mayjt’ayañax janiw jach’a jan walt’awikiti kunapachatix datos ukanakax sum uñjatäki ukhakama.
+
+00:05:33.840 --> 00:05:35.080
+Uka sarnaqäwi ist’asaxa
+
+00:05:35.080 --> 00:05:39.400
+Nayax janiw jach’a uñacht’äwit llakisiñax wakiskiti sasaw amuyta.
+
+00:05:39.400 --> 00:05:40.790
+Janiw uka proyecton alcancepakiti
+
+00:05:40.790 --> 00:05:43.040
+Mayt’awinakax janiw qhanäkiti
+
+00:05:43.040 --> 00:05:44.930
+Kunapachas munasini uk janiw yatkti, ukampis...
+
+00:05:44.930 --> 00:05:47.710
+Ukax mä jan walt’awiwa, qhipat wasitat uñakipañasawa.
+
+00:05:48.920 --> 00:05:50.910
+Janis documenton qillqantatäkchixa
+
+00:05:50.910 --> 00:05:54.880
+Dominio yatxatirinakax mä jaysäwi churapxarakiniwa, jupanakax jach’a lurawinakat amuyt’apxani.
+
+00:05:54.880 --> 00:05:55.960
+Janiw armasiñamäkiti
+
+00:05:56.740 --> 00:05:58.320
+Walikiwa
+
+00:05:58.320 --> 00:06:00.630
+Ukatxa, jach’a lurawi boleto reservación función
+
+00:06:00.630 --> 00:06:04.500
+Nayax janiw aka proyecto ukan nayrïr amtanakap taypin uñt’ayañ munkti.
+
+00:06:04.500 --> 00:06:08.220
+Ukhamakipansti, qhipharux lurawinak jilxatayañax juk’amp jasakiw lurasi.
+
+00:06:08.220 --> 00:06:10.190
+Nayaw sum uñjä
+
+00:06:10.190 --> 00:06:12.840
+Jan llakisimti. Nayarukiw confiyañama
+
+00:06:13.840 --> 00:06:15.960
+Suma sum apasiñajj wali wakiskiriwa
+
+00:06:17.980 --> 00:06:19.500
+Jichhakamax aruskipt’apkta uka tuqiw
+
+00:06:19.500 --> 00:06:22.700
+Jilïr amtanakax akham uñacht’ayatawa:
+
+00:06:23.220 --> 00:06:25.890
+Akax dominio ukan yatxatirinakan yatiyawipawa.
+
+00:06:25.890 --> 00:06:28.410
+Mä lurayirin uñjatapat qhanañchaña ukat wakicht’aña
+
+00:06:28.410 --> 00:06:29.810
+Uka proyecto qalltaña
+
+00:06:31.700 --> 00:06:32.860
+Dominio yatxatirinakampi
+
+00:06:32.860 --> 00:06:34.980
+Mä kutix proyectoman amtanakap amtxasax, .
+
+00:06:35.620 --> 00:06:37.980
+Jichhax proyecto ukar sutinchañ pachaw purini.
+
+00:06:38.750 --> 00:06:41.840
+Nayraqatax mä yatxatat dominio ukar jiskt’añamawa jupanakan amuyunakapata.
+
+00:06:42.800 --> 00:06:45.540
+¿Kuna sutimpis uka proyector sutichañaja?
+
+00:06:45.540 --> 00:06:47.680
+Ukax mä sistema de reserva de películas satawa.
+
+00:06:47.680 --> 00:06:50.150
+¿Kunjamarak Sistema de Reserva de Películas ukakix kunjamasa?
+
+00:06:50.150 --> 00:06:51.430
+janiwa, janiwa munkti
+
+00:06:51.430 --> 00:06:53.570
+Nayax jach’a uñacht’awinak uñjä
+
+00:06:53.570 --> 00:06:56.930
+Sistema de Reserva de Películas ukampiw sarañäni. Jïsa?
+
+00:06:56.930 --> 00:06:58.180
+kusawa
+
+00:06:58.180 --> 00:06:59.950
+Pay suma
+
+00:07:01.000 --> 00:07:05.230
+Dominio yatxatirinakax proyecto sutinak coreano arun munapxaspaw.
+
+00:07:05.580 --> 00:07:07.680
+Ukampis mä desarrolladoran uñjataparjama
+
+00:07:07.680 --> 00:07:09.990
+Taqi términos ukanakax proyecto sutinakampi chika
+
+00:07:09.990 --> 00:07:12.180
+Kunatix ukax chiqak código ukan phuqhasiwayi,
+
+00:07:12.600 --> 00:07:15.000
+Inglés arut qhanañchañax juk’amp jasakiwa, ukax wakisispa ukhaxa.
+
+00:07:15.540 --> 00:07:19.510
+Desarrolladores ukanakatakix wali askiw chiqa chuymamp dominio yatxatirinakan munañanakap arktañataki, ukampis
+
+00:07:19.960 --> 00:07:21.430
+Taqi uka proyecto uñakipt’asa
+
+00:07:21.430 --> 00:07:23.930
+Ukatxa, kunanaktï mä suma chiqar irpañasawa, ukax mä responsabilidad ukaniwa.
+
+00:07:25.850 --> 00:07:27.760
+Jumatix proyectoman sutip amtawayta
+
+00:07:27.760 --> 00:07:31.380
+Jichhax khitinakas Sistema de Reserva de Películas uka apnaqapxi uk yatxatañ pachaw purini.
+
+00:07:32.020 --> 00:07:34.940
+Chiqansa, mä yatxatat dominioruw uka tuqit yatiyañama.
+
+00:07:35.420 --> 00:07:38.740
+Ukat aljirinakas ukat irpirinakas utjatap jikxattanxa.
+
+00:07:40.820 --> 00:07:43.280
+Mä elemento ukax qallta etapas de diseño ukanx jasakiw faltaski ukax
+
+00:07:43.280 --> 00:07:44.760
+Ukax anqäx tuqit dependencia satawa
+
+00:07:45.340 --> 00:07:46.580
+Anqax markat dependencias ukanakax
+
+00:07:46.580 --> 00:07:49.210
+Ukax mä sistema legado utjki ukhamäspawa,
+
+00:07:49.660 --> 00:07:51.420
+Ukax mä sistema de pago ukhamäspawa
+
+00:07:52.020 --> 00:07:53.670
+Aka dependencia ukan mayacht’asiwipax
+
+00:07:53.670 --> 00:07:56.760
+Kunatix ukax mä jach’a ch’amanchawiw sistema general ukan diseño ukarux utjayaspa.
+
+00:07:56.950 --> 00:08:00.150
+Wali askiw jank’ak uñt’añaxa.
+
+00:08:00.570 --> 00:08:01.240
+utjrini
+
+00:08:01.820 --> 00:08:04.990
+Elementos ukanakax payllañ punkunaka ukat sistemas legados ukanaka
+
+00:08:05.270 --> 00:08:07.730
+Kunatix nayratpach sistemas utjki ukanakan apnaqatäxiwa
+
+00:08:07.990 --> 00:08:10.360
+Ukajj mä jukʼa facilakiw amuyasispa
+
+00:08:11.230 --> 00:08:14.410
+Mä kunatix mä dependiente jaqichasïwinx jan yäqañax facilakiwa, ukax
+
+00:08:14.410 --> 00:08:16.090
+Anqax pachamamaru yanqhachawinakaw utji
+
+00:08:16.900 --> 00:08:19.060
+Jiwasana markasaxa pachpa pachanakiwa
+
+00:08:19.060 --> 00:08:22.430
+Jach’a uraqini markanxa, sapa teatro ukanx kunayman pachanakaw utji.
+
+00:08:23.190 --> 00:08:25.100
+Ukatxa Sistema de Reserva de Películas satawa
+
+00:08:25.100 --> 00:08:28.900
+Janiw jark’atäkiti kunatix pachamama tuqit jan walt’ayataw uñjasispa, kunjamatix zonas horarias ukanakampi.
+
+00:08:29.410 --> 00:08:32.760
+Aka factores ukax janiw jank’ak uñjasikiti jan ukax dominio experto ukar chiqak jiskt’añamawa.
+
+00:08:32.760 --> 00:08:33.950
+Ukajj janiw chʼamäkiti
+
+00:08:34.740 --> 00:08:37.610
+Dominio yatxatirinakax uka detalles ukanakarux janiw yäqapkiti.
+
+00:08:37.610 --> 00:08:40.010
+Kunattix qhanañchäwix inas jan utjkchispati
+
+00:08:41.680 --> 00:08:43.640
+Kunjamatixa relación de dependencia ukaxa qhananchata
+
+00:08:43.640 --> 00:08:47.500
+Jichhax Sistema de Reserva de Películas ukan manqhankir yänakapat uñakipt’añäni.
+
+00:08:48.430 --> 00:08:52.230
+Nayraqatxa, ¿kunsa aljirix Sistema de Reserva de Películas ukan luraski?
+
+00:08:52.230 --> 00:08:54.230
+Dominio yatxatirinakaruw jiskt’añäni
+
+00:08:55.800 --> 00:08:57.880
+¿Kunsa aljirinakax lurapxi?
+
+00:08:57.880 --> 00:08:59.970
+Aljirinakax peliculanak thaqhapxi,
+
+00:08:59.970 --> 00:09:01.450
+Película ukan detalles uñakipt’aña,
+
+00:09:01.450 --> 00:09:02.910
+Mä uñacht’ayawi pacha ajlliñani, .
+
+00:09:02.910 --> 00:09:04.450
+Asiento ajlliñamawa, .
+
+00:09:04.450 --> 00:09:05.920
+Películan billetes ukanakap reservaña, .
+
+00:09:05.920 --> 00:09:07.610
+Reservacionan detalles uñakipt’añäni, .
+
+00:09:07.610 --> 00:09:10.180
+Mä reserva cancelañjam lurañanak luraña
+
+00:09:10.180 --> 00:09:15.750
+¿Mä uñacht’ayañ horasa ajlliñasa ukat mä asiento ajlliñasa cine boleto reservañ lurañan mä partekïpachati?
+
+00:09:15.750 --> 00:09:18.880
+Ukat cine boletonak reservañataki, reservacionanak cancelañataki
+
+00:09:18.880 --> 00:09:22.210
+Chiqansa, ¿janit mä boleto alasisax qullqi kuttʼayañakix wakiskaspa?
+
+00:09:22.210 --> 00:09:23.620
+jumax chiqaw sasma
+
+00:09:23.620 --> 00:09:25.030
+Ukax chiqawa
+
+00:09:25.480 --> 00:09:27.880
+Kunatix jichhax mä uñt’at dominio ukhamawa
+
+00:09:27.880 --> 00:09:31.240
+Mä uñacht’äw pacha ajlliñamawa ukat qunt’asiñ ajlliñamawa
+
+00:09:31.240 --> 00:09:33.200
+¿Akax cine boleto reservañ proceso ukan chikanchatäpachati?
+
+00:09:33.200 --> 00:09:34.530
+Nayax jiskt’asiristwa
+
+00:09:34.980 --> 00:09:37.220
+Ukampis jan uñtʼat dominio ukhamächi ukhajja,
+
+00:09:37.410 --> 00:09:40.160
+Sapa apnaqawi tuqita suma uñakipaña
+
+00:09:40.520 --> 00:09:43.330
+Uka refinamiento lurawixa walja kutiwa lurataraki.
+
+00:09:43.790 --> 00:09:45.350
+Proyecto ukan situación ukarjamaw lurasi
+
+00:09:45.350 --> 00:09:48.080
+Inas walja kuti uka lurañax mayamp luratächispa, .
+
+00:09:48.080 --> 00:09:50.580
+Ukat jukʼamp tiempo apstʼasisin sum uñakiptʼäta ukhajja, .
+
+00:09:50.580 --> 00:09:54.190
+Diseño ukhamaraki implementación ukanakana yant’awinaka ukhamaraki pantjasiwi jisk’achaña.
+
+00:09:55.850 --> 00:09:57.530
+Jichhakamax aruskipt’ataparjama
+
+00:09:57.530 --> 00:10:00.970
+Jiwasax aljirinakax apnaqañ tuqitx pusi tuqitw wakicht’apxta:
+
+00:10:02.960 --> 00:10:04.470
+Ukxarusti, administrador ukax utjarakiwa
+
+00:10:05.190 --> 00:10:08.850
+Administrador ukax uñjaspawa phisqa apnaqañ yänakax utjiwa:
+
+00:10:09.440 --> 00:10:13.620
+Naya pachpatakix "Gestión" uka aru apnaqañax desarrollo ukanx wali amuyumpiw uñjta.
+
+00:10:14.360 --> 00:10:16.980
+Gestión ukax mä expresión sinti jach’awa
+
+00:10:16.980 --> 00:10:19.030
+Kuntï lurapkta ukajj janiw qhanäkiti
+
+00:10:19.640 --> 00:10:20.950
+Akansa ukhamarakiwa
+
+00:10:21.370 --> 00:10:23.760
+¿Kunjamsa chiqpachapuni apnaqasi?
+
+00:10:23.760 --> 00:10:24.810
+Janiw yatkti
+
+00:10:25.930 --> 00:10:27.620
+Dominio yatxatirinakamp aruskipt’asa
+
+00:10:27.620 --> 00:10:31.220
+Sapa apnaqañ yänakax mä específico caso de uso ukar jach’anchayatawa.
+
+00:10:31.900 --> 00:10:33.660
+Ukax chiqpach proyecto ukhamawa
+
+00:10:33.660 --> 00:10:35.890
+Inas ukat sipan juk’amp apnaqañ utanakax utjchispa.
+
+00:10:36.150 --> 00:10:39.000
+Aka chiqanx qhanañcht’añatakiw ch’amanchawayta.
+
+00:10:39.860 --> 00:10:42.700
+Kunatix aka chiqanx wali askiw amuyañaxa, kunapachatix mä t’ijtäw pacha lurapk ukhax .
+
+00:10:43.020 --> 00:10:45.900
+Ukhamaraki, uka boleto ukaxa luratarakiwa
+
+00:10:46.960 --> 00:10:49.200
+Ukat kunapachatï mä boleto alasktan jan ukajj kuttʼayañäni ukhajja
+
+00:10:49.490 --> 00:10:53.910
+Ukhamaraki uñjaraksnawa mä anqäxa servicio apnaqapxta, ukaxa payllawi punku satawa.
+
+00:10:55.890 --> 00:10:58.670
+Nayax aljirinakax ukat irpirinakan casos de uso ukanakap mayachthapiyäta.
+
+00:10:59.350 --> 00:11:01.730
+Taqi uka apnaqañ tuqit uñakipt’asa
+
+00:11:01.730 --> 00:11:02.900
+Kunas ch’usäkaspas ukhamaw amuyasi
+
+00:11:03.890 --> 00:11:05.840
+Mä teatro yapxatañatakix mä amtawiw utji
+
+00:11:05.840 --> 00:11:08.720
+Nayax janiw kunas Teatro de Busqueda ukar uñtasit uñjkti
+
+00:11:09.410 --> 00:11:12.130
+Ukhamarjamax mä qawqha casos de uso ukanakax jan uñt’ayatäkaspas ukhamawa.
+
+00:11:12.770 --> 00:11:15.980
+Kunatix mä yatxatat dominio ukan uñjatapatxa, walja qhanañcht’awinakaw utji.
+
+00:11:15.980 --> 00:11:17.950
+Aka apnaqañ caso, ukax wali qhanpach uñt’atawa, .
+
+00:11:18.150 --> 00:11:19.810
+Uka qhanañchäwix janiw sañjamakiti
+
+00:11:20.770 --> 00:11:23.460
+Ukhamajj ¿mä desarrolladoran uñjatapat kamsasmasa?
+
+00:11:24.400 --> 00:11:28.290
+Ukax juk’amp askiwa, jan ch’amäki uka yatiyäwinak jaytañaxa, kunjamatix teatro ukar thaqhañaxa.
+
+00:11:28.290 --> 00:11:30.700
+¿Janit ukax documentonak apnaqañatakix jukʼamp yanaptʼkaspa?
+
+00:11:31.720 --> 00:11:32.870
+Ukax backend diseño ukawa
+
+00:11:32.870 --> 00:11:35.920
+Casos de uso simples ukanakax teatro ukar thaqhañjamawa
+
+00:11:35.920 --> 00:11:37.760
+Nayax amuyta, ukax walikïskiwa
+
+00:11:38.600 --> 00:11:41.570
+Kuntix nayax siskta ukax janiw sinti qhipäkiti, phuqhañ pachanx jaysañataki.
+
+00:11:42.370 --> 00:11:44.310
+Ukampis chiqpach proyecto ukhamächi ukhaxa
+
+00:11:44.310 --> 00:11:48.450
+Pantalla planificadores ukanakatakix aka casos de uso ukax mä suma qalltawiwa.
+
+00:11:49.250 --> 00:11:52.300
+Planificador ukax mä teatro thaqhañatakix caso de uso uñakipäna.
+
+00:11:52.300 --> 00:11:55.300
+¿Kunjamsa teatronak thaqhañax wakisispa?
+
+00:11:55.300 --> 00:11:56.600
+Jumaw amuytʼasirïta
+
+00:11:58.000 --> 00:12:00.880
+Kunawsatix diagramas ukanakax mäkiw mayacht’atäki ukhax ch’amäkaspas ukhamaw uñstaski.
+
+00:12:01.490 --> 00:12:05.150
+Chiqpach proyecto ukhamäspa ukhaxa, jukʼamp chʼamäspawa.
+
+00:12:05.720 --> 00:12:08.240
+Ukhamächi ukhaxa, janiw mä fusión ukar ch’amanchañax wakiskiti.
+
+00:12:08.810 --> 00:12:13.910
+Nayax jichhakiw jupanakarux akan mayacht’awayta, chhaqhat casos ukanakax utji uk uñacht’ayañataki.
+
+00:12:16.020 --> 00:12:18.490
+Taqi uka chhaqhat cajanakaruw phuqhantawayta
+
+00:12:19.200 --> 00:12:21.880
+Nayax mä caso de uso ukanx actor ukar conexión ukax apsutawa.
+
+00:12:22.290 --> 00:12:25.720
+Ukax aljirinakataki ukhamarak irpirinakatakiw apnaqasi.
+
+00:12:26.400 --> 00:12:29.480
+Ukat jan ch’amäñapatakix inglés arut qillqt’awayta.
+
+00:12:31.370 --> 00:12:34.160
+Jichhax walikïskiwa kunatix mä jisk’a proyecto ukhamawa
+
+00:12:34.160 --> 00:12:36.160
+Uka proyectox jach’a ukat complejo ukhamawa
+
+00:12:36.160 --> 00:12:38.980
+¿Kawkhans mä dominio yatxatirix qhanañchañ qalltañapa?
+
+00:12:38.980 --> 00:12:40.380
+Inas chʼamächispa
+
+00:12:41.280 --> 00:12:43.300
+¿Kunsa mä administrador luraspa?
+
+00:12:43.300 --> 00:12:44.700
+Ukax walja irnaqawiwa
+
+00:12:44.700 --> 00:12:46.620
+Kunjamtï irpirit suyatäki ukhama
+
+00:12:47.620 --> 00:12:49.750
+Ukhamächi ukhaxa, ¿actoranakax subdividirsnati?
+
+00:12:49.750 --> 00:12:52.340
+Ukhamaraki, uñakipt’añax wali askiwa
+
+00:12:53.140 --> 00:12:54.790
+Qalltanjja, administrador sasaw sapjjetäna
+
+00:12:54.790 --> 00:12:57.400
+Inas lurañanakjam jaljañax wakischispa
+
+00:12:58.520 --> 00:13:00.820
+Ukat Sistema de Reserva de Películas uka apnaqasa
+
+00:13:00.820 --> 00:13:02.870
+Inas anqäx markan servicios ukanakax utjchispa
+
+00:13:03.660 --> 00:13:05.340
+Jiwasatix actoranakax ukham segmentarañäni ukhaxa,
+
+00:13:05.340 --> 00:13:09.420
+Dominio ukan yatxatirinakax juk’amp sistematico yatiyawinak churañ yatipxani.
+
+00:13:10.350 --> 00:13:14.000
+Chiqansa, akax mä uñacht’äwikiwa, mä complejo dominio uñakipañataki.
+
+00:13:14.540 --> 00:13:17.320
+Inas yaqha suma thakhinakax utjchispa
+
+00:13:17.960 --> 00:13:21.740
+Kuna jan walt’awis utji ukarjamaw jan mayjt’ir jaysañax wali aski.
+
+00:13:24.250 --> 00:13:25.060
+Ukaw tukuyañataki
+
+00:13:25.950 --> 00:13:29.170
+Jichha kutix mä diagrama de caso de uso ukampiw apnaqañäni
+
+00:13:29.170 --> 00:13:30.840
+Uka proyecto lurañatakejj amtanakam wakichtʼasim
+
+00:13:31.230 --> 00:13:33.700
+Nayax qallta etapas de análisis ukaruw sarawayta.
+
+00:13:34.880 --> 00:13:38.010
+Naya pachpatakixa, taqpacha nayraru sartawi lurawi taypina
+
+00:13:38.010 --> 00:13:40.060
+Nayax amuyta análisis ukax juk’amp ch’amawa
+
+00:13:40.570 --> 00:13:44.250
+Kunatix juk’amp abstracto ukat vago amuyunakax wakicht’añasawa.
+
+00:13:45.020 --> 00:13:47.650
+Jutïr kutix jach’a apnaqañ tuqit uñakipt’añäni
+
+00:13:47.650 --> 00:13:49.470
+Uka tuqit jukʼamp sum amuytʼañäni
+
+00:13:50.300 --> 00:13:52.100
+Jichhakamax wali ch’amampi irnaqapxatamat yuspajarapxsma.
+

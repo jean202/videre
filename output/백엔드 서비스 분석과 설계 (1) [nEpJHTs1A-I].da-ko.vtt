@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: da
+
+00:00:00.000 --> 00:00:02.020
+Hej, dette er Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Software er kompleks
+
+00:00:06.650 --> 00:00:08.890
+Først og fremmest er der en masse kode, der skal skrives.
+
+00:00:09.760 --> 00:00:12.710
+Bare de eksempelprojekter, jeg har lavet til denne serie
+
+00:00:12.710 --> 00:00:15.270
+Koden er over 12.000 linjer lang.
+
+00:00:16.330 --> 00:00:18.320
+Hvis det er en faktisk driftstjeneste
+
+00:00:18.320 --> 00:00:21.530
+Selv om det er en lille tjeneste, vil den nemt overstige 100.000 linjer.
+
+00:00:22.130 --> 00:00:25.300
+Hundrede tusinde linjer er nok til at fylde tyve romaner.
+
+00:00:26.870 --> 00:00:29.560
+At skrive lang kode betyder ikke, at det er [ __ ].
+
+00:00:30.330 --> 00:00:32.540
+Du skal blive ved med at rette den kode, du skriver.
+
+00:00:33.400 --> 00:00:35.800
+Hvis du reparerer A, går B i stykker.
+
+00:00:35.800 --> 00:00:39.130
+Hvis du reparerer B, vil A og C gå i stykker.
+
+00:00:41.090 --> 00:00:44.260
+For at bruge en analogi, det er som at være fanget i en Rasputica og græde.
+
+00:00:44.260 --> 00:00:46.360
+Man kan sige, at det er en lignende situation som med en hest.
+
+00:00:47.330 --> 00:00:50.550
+På dette tidspunkt vil du føle behovet for design.
+
+00:00:52.580 --> 00:00:55.010
+Men når du rent faktisk prøver at skrive et designdokument,
+
+00:00:55.500 --> 00:00:58.490
+At udtrykke tankerne i dit hoved konkret
+
+00:00:58.790 --> 00:01:01.260
+Du vil opdage, at det ikke er så nemt, som du tror.
+
+00:01:01.890 --> 00:01:05.600
+Selv nodeark, som er et dokument, der visuelt optager lyd eller musik,
+
+00:01:05.600 --> 00:01:06.700
+Det er så kompliceret
+
+00:01:07.520 --> 00:01:10.610
+Ikke kun musik, men også finans og logistik
+
+00:01:10.610 --> 00:01:14.060
+Mere forskelligartede koncepter og abstrakte brugerkrav
+
+00:01:14.060 --> 00:01:17.220
+Det vil ikke være nemt at udtrykke det i en specifik model.
+
+00:01:18.530 --> 00:01:19.490
+Heldigvis
+
+00:01:19.770 --> 00:01:23.200
+At overvinde vanskeligheden ved at modellere abstrakte begreber
+
+00:01:23.540 --> 00:01:26.860
+UML blev født i slutningen af ​​1990'erne.
+
+00:01:27.730 --> 00:01:30.120
+Den blev ledet af Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Vi bruger UML med forventning
+
+00:01:34.980 --> 00:01:36.990
+Tegn et klassediagram
+
+00:01:36.990 --> 00:01:38.760
+Lad os også tegne et sekvensdiagram
+
+00:01:39.430 --> 00:01:39.980
+imidlertid
+
+00:01:40.360 --> 00:01:43.160
+Da jeg rent faktisk prøvede at designe det, var det anderledes end at kode det direkte.
+
+00:01:43.160 --> 00:01:45.130
+Det ser ikke ud til at være meget anderledes
+
+00:01:45.590 --> 00:01:46.520
+Hvorfor er det sådan?
+
+00:01:47.350 --> 00:01:50.910
+Det skyldes, at tankeprocessen er vant til implementering.
+
+00:01:51.290 --> 00:01:54.170
+I stedet for at gøre abstrakte begreber mere konkrete,
+
+00:01:54.490 --> 00:01:57.590
+Fordi det oversætter implementeringsniveau-tænkning til UML.
+
+00:01:58.520 --> 00:02:00.270
+Bare fordi du kan læse noder
+
+00:02:00.270 --> 00:02:01.950
+Det er ikke som om jeg kan komponere det
+
+00:02:02.390 --> 00:02:03.850
+Bare fordi du har lært UML
+
+00:02:03.850 --> 00:02:06.170
+Det er ikke ligesom om, at man udvikler designfærdigheder.
+
+00:02:07.700 --> 00:02:09.300
+Så i denne serie
+
+00:02:09.300 --> 00:02:11.580
+Gennem konkrete projekter
+
+00:02:11.580 --> 00:02:14.420
+Sådan konkretiserer du abstrakte krav
+
+00:02:14.420 --> 00:02:16.290
+Kan du forbinde koden?
+
+00:02:16.290 --> 00:02:18.010
+Jeg vil gerne vise dig det personligt
+
+00:02:18.530 --> 00:02:20.930
+Jeg valgte at reservere biografbilletter efter domæne
+
+00:02:21.370 --> 00:02:25.200
+Reservationer af biografbilletter er lette at forstå, fordi de for det meste er velkendte domæner.
+
+00:02:25.200 --> 00:02:29.710
+Inkluderer forskellige funktioner såsom login, betaling og sædevalg.
+
+00:02:29.710 --> 00:02:31.580
+Det virker som et godt eksempel
+
+00:02:33.600 --> 00:02:36.890
+Grundlæggende er emnet for denne artikel softwaredesign, men
+
+00:02:36.890 --> 00:02:40.350
+Vi vil også dække testdrevet udvikling.
+
+00:02:41.210 --> 00:02:44.890
+Moderne udviklingsmiljøer understøtter native testværktøjer.
+
+00:02:45.600 --> 00:02:48.320
+Selv hvis man ser på berømte open source-projekter,
+
+00:02:48.320 --> 00:02:51.130
+Vi har et vist niveau af testning.
+
+00:02:51.740 --> 00:02:56.200
+Det betyder sandsynligvis, at testning er af så stor betydning og nytte.
+
+00:02:56.870 --> 00:02:58.120
+Men i virkeligheden
+
+00:02:58.120 --> 00:03:02.590
+I mange tilfælde er ikke kun TDD, men selv testautomatisering ikke korrekt implementeret.
+
+00:03:03.190 --> 00:03:06.260
+At skrive meningsfulde tests først uden nogen forberedelse er
+
+00:03:06.260 --> 00:03:07.540
+Det er aldrig nemt
+
+00:03:08.410 --> 00:03:12.340
+Dette er noget, der kræver softwaredesigns kombinerede evner.
+
+00:03:13.320 --> 00:03:16.270
+Så det er bedre at håndtere design og TDD sammen.
+
+00:03:16.270 --> 00:03:18.180
+Jeg vurderede det som effektivt
+
+00:03:20.120 --> 00:03:23.450
+Så lad os nu starte projektets første møde.
+
+00:03:24.150 --> 00:03:26.470
+Fordi dette er et lille projekt
+
+00:03:26.470 --> 00:03:28.090
+Der er to deltagere
+
+00:03:28.790 --> 00:03:32.340
+Den til venstre er domæneekspert, og den til højre er udvikler.
+
+00:03:34.550 --> 00:03:37.790
+Domæneeksperter har indflydelse på de systemer, vi skal bygge.
+
+00:03:37.790 --> 00:03:39.280
+Det fortæller mange historier
+
+00:03:40.340 --> 00:03:42.160
+Teatret vi driver
+
+00:03:42.160 --> 00:03:44.710
+Der er omkring fire tusinde af dem over hele landet.
+
+00:03:44.710 --> 00:03:47.220
+Det kan stige yderligere i fremtiden.
+
+00:03:47.220 --> 00:03:50.480
+I øjeblikket understøttes kun funktionen til reservation af biografbilletter.
+
+00:03:50.480 --> 00:03:54.510
+Vi planlægger at tilføje billetsalg til store forestillinger senere.
+
+00:03:54.510 --> 00:03:58.940
+Og det vigtige er, at du aldrig bør booke pladser dobbelt.
+
+00:03:58.940 --> 00:04:03.250
+Tidligere havde kundeservicecentre virkelig svært ved den slags problemer.
+
+00:04:03.250 --> 00:04:07.670
+Fordi der allerede er indsamlet en masse filminformation og anmeldelsesdata.
+
+00:04:07.670 --> 00:04:11.090
+Disse data skal forblive intakte.
+
+00:04:12.090 --> 00:04:14.730
+Her er samtalen velorganiseret, men
+
+00:04:14.890 --> 00:04:16.960
+Der er faktisk flere oplysninger
+
+00:04:16.960 --> 00:04:18.600
+Det vil blive leveret på en uorganiseret måde
+
+00:04:19.470 --> 00:04:22.110
+Men historien, der kommer frem i starten af ​​projektet, er
+
+00:04:22.110 --> 00:04:23.780
+Fordi det er det vigtigste krav
+
+00:04:23.780 --> 00:04:25.320
+Du skal lytte opmærksomt
+
+00:04:27.110 --> 00:04:29.810
+Udviklere lytter til domæneeksperter
+
+00:04:29.810 --> 00:04:31.290
+Jeg har et par spørgsmål
+
+00:04:32.290 --> 00:04:34.660
+Den store billetreservationsfunktion til forestillinger, du nævnte
+
+00:04:34.660 --> 00:04:36.910
+Hvornår bliver det tilføjet?
+
+00:04:36.910 --> 00:04:39.910
+Skal dette inkluderes i projektets omfang på forhånd?
+
+00:04:39.910 --> 00:04:43.590
+Eller jeg vil gerne vide, om jeg skal overveje det endnu
+
+00:04:43.590 --> 00:04:46.090
+Og behovet for at vedligeholde eksisterende data
+
+00:04:46.090 --> 00:04:48.940
+Betyder det, at vi ikke skal ændre DB-systemet?
+
+00:04:48.940 --> 00:04:51.950
+Er der andre tjenester, der i øjeblikket deler databasen?
+
+00:04:53.580 --> 00:04:54.980
+Som du kan se fra DB'en,
+
+00:04:54.980 --> 00:04:57.290
+Fordi domæneeksperter ikke er udviklere.
+
+00:04:57.290 --> 00:04:59.430
+Det tekniske udtryk er tvetydigt
+
+00:04:59.910 --> 00:05:02.890
+Udviklere skal kontrollere disse ting omhyggeligt.
+
+00:05:04.230 --> 00:05:07.450
+Domæneeksperter besvarer udvikleres spørgsmål således:
+
+00:05:08.330 --> 00:05:10.210
+Funktionen til billetreservation af store forestillinger
+
+00:05:10.210 --> 00:05:13.450
+Der er ingen specifik tidsplan endnu.
+
+00:05:13.450 --> 00:05:15.970
+Men når der tilføjes funktioner i fremtiden
+
+00:05:15.970 --> 00:05:18.700
+Så du kan opgradere uden større besvær
+
+00:05:18.700 --> 00:05:22.600
+Jeg synes, det ville være godt, hvis du kunne overveje det lidt denne gang.
+
+00:05:22.600 --> 00:05:27.050
+Vi bruger ikke DB til andet end vores egne tjenester.
+
+00:05:27.050 --> 00:05:32.840
+Det er ikke et stort problem at ændre selve systemet, så længe dataene vedligeholdes godt.
+
+00:05:33.840 --> 00:05:35.080
+Efter at have hørt historien
+
+00:05:35.080 --> 00:05:39.400
+Jeg tror ikke, du behøver at bekymre dig om det store show.
+
+00:05:39.400 --> 00:05:40.790
+Det er ikke projektets omfang
+
+00:05:40.790 --> 00:05:43.040
+Kravene er heller ikke klare
+
+00:05:43.040 --> 00:05:44.930
+Jeg ved ikke, hvornår jeg får brug for det, men
+
+00:05:44.930 --> 00:05:47.710
+Det er et problem, vi må gennemgå igen senere.
+
+00:05:48.920 --> 00:05:50.910
+Selv om det ikke er registreret i dokumentet
+
+00:05:50.910 --> 00:05:54.880
+Domæneeksperter vil også give et svar om, at de vil overveje storstilede præstationer.
+
+00:05:54.880 --> 00:05:55.960
+Du må ikke glemme
+
+00:05:56.740 --> 00:05:58.320
+Okay
+
+00:05:58.320 --> 00:06:00.630
+Derefter funktionen til reservation af billetter til storstilede forestillinger
+
+00:06:00.630 --> 00:06:04.500
+Jeg ville ikke sætte det blandt de højeste prioriteter for dette projekt.
+
+00:06:04.500 --> 00:06:08.220
+I stedet gør det det nemmere at udvide funktionaliteten senere i udviklingsprocessen.
+
+00:06:08.220 --> 00:06:10.190
+Jeg vil passe godt på det
+
+00:06:10.190 --> 00:06:12.840
+Bare rolig. Stol kun på mig
+
+00:06:13.840 --> 00:06:15.960
+Det er vigtigt at komme godt ud af det med hinanden
+
+00:06:17.980 --> 00:06:19.500
+Gennem vores samtale indtil videre
+
+00:06:19.500 --> 00:06:22.700
+De vigtigste prioriteter er opsummeret som følger:
+
+00:06:23.220 --> 00:06:25.890
+Dette er oplysninger leveret af domæneeksperter.
+
+00:06:25.890 --> 00:06:28.410
+Fortolkning og organisering fra et udviklerperspektiv
+
+00:06:28.410 --> 00:06:29.810
+Start projektet
+
+00:06:31.700 --> 00:06:32.860
+Med domæneeksperter
+
+00:06:32.860 --> 00:06:34.980
+Når du har besluttet dig for målene for dit projekt,
+
+00:06:35.620 --> 00:06:37.980
+Nu er det tid til at navngive dit projekt.
+
+00:06:38.750 --> 00:06:41.840
+Først skal du spørge en domæneekspert om deres mening.
+
+00:06:42.800 --> 00:06:45.540
+Hvad skal jeg kalde projektet?
+
+00:06:45.540 --> 00:06:47.680
+Det er et filmreservationssystem.
+
+00:06:47.680 --> 00:06:50.150
+Hvad med bare filmbookingsystemet?
+
+00:06:50.150 --> 00:06:51.430
+nej, jeg vil ikke
+
+00:06:51.430 --> 00:06:53.570
+Jeg tager mig af de store forestillinger
+
+00:06:53.570 --> 00:06:56.930
+Lad os gå i gang med filmbookingsystemet. ja?
+
+00:06:56.930 --> 00:06:58.180
+stor
+
+00:06:58.180 --> 00:06:59.950
+Mange tak
+
+00:07:01.000 --> 00:07:05.230
+Domæneeksperter ønsker måske projektnavne på koreansk.
+
+00:07:05.580 --> 00:07:07.680
+Men fra et udviklerperspektiv
+
+00:07:07.680 --> 00:07:09.990
+Alle termer inklusive projektnavne
+
+00:07:09.990 --> 00:07:12.180
+Fordi det er implementeret direkte i koden,
+
+00:07:12.600 --> 00:07:15.000
+Det er nemmere at definere det på engelsk, hvis det er muligt.
+
+00:07:15.540 --> 00:07:19.510
+Det er vigtigt for udviklere at følge domæneeksperternes behov trofast, men
+
+00:07:19.960 --> 00:07:21.430
+I betragtning af hele projektet
+
+00:07:21.430 --> 00:07:23.930
+Vi har også et ansvar for at styre tingene i en effektiv retning.
+
+00:07:25.850 --> 00:07:27.760
+Hvis du har besluttet dig for et navn til dit projekt
+
+00:07:27.760 --> 00:07:31.380
+Nu er det tid til at finde ud af, hvem der bruger filmbookingsystemet.
+
+00:07:32.020 --> 00:07:34.940
+Du bør selvfølgelig spørge en domæneekspert om information om dette.
+
+00:07:35.420 --> 00:07:38.740
+Og vi oplever, at vi har kunder og ledere.
+
+00:07:40.820 --> 00:07:43.280
+Et af de elementer, der er lette at overse i de tidlige designfaser, er
+
+00:07:43.280 --> 00:07:44.760
+Det er en ekstern afhængighed
+
+00:07:45.340 --> 00:07:46.580
+Eksterne afhængigheder er
+
+00:07:46.580 --> 00:07:49.210
+Det kunne være et eksisterende system,
+
+00:07:49.660 --> 00:07:51.420
+Det kunne være et betalingssystem
+
+00:07:52.020 --> 00:07:53.670
+Dette afhængighedsforhold er
+
+00:07:53.670 --> 00:07:56.760
+Fordi det kan have en stor indflydelse på det overordnede systemdesign.
+
+00:07:56.950 --> 00:08:00.150
+Det er vigtigt at identificere det så tidligt som muligt.
+
+00:08:00.570 --> 00:08:01.240
+heldigvis
+
+00:08:01.820 --> 00:08:04.990
+Elementer som betalingsgateways og ældre systemer
+
+00:08:05.270 --> 00:08:07.730
+Fordi det allerede bruges i eksisterende systemer
+
+00:08:07.990 --> 00:08:10.360
+Det kan relativt let forstås
+
+00:08:11.230 --> 00:08:14.410
+En af de ting, der er lette at overse i et afhængighedsforhold, er
+
+00:08:14.410 --> 00:08:16.090
+Der er eksterne miljøfaktorer
+
+00:08:16.900 --> 00:08:19.060
+Vores land er i samme tidszone
+
+00:08:19.060 --> 00:08:22.430
+I et land med et stort landareal har hvert teater et forskelligt tidsrum.
+
+00:08:23.190 --> 00:08:25.100
+Så filmbookingsystemet
+
+00:08:25.100 --> 00:08:28.900
+Det er uundgåeligt, at det vil blive påvirket af miljøfaktorer såsom tidszoner.
+
+00:08:29.410 --> 00:08:32.760
+Disse faktorer er ikke umiddelbart synlige, medmindre du spørger domæneeksperten direkte.
+
+00:08:32.760 --> 00:08:33.950
+Det er nemt at gå glip af
+
+00:08:34.740 --> 00:08:37.610
+Domæneeksperter har en tendens til at overse disse detaljer.
+
+00:08:37.610 --> 00:08:40.010
+Fordi forklaringen kan udelades
+
+00:08:41.680 --> 00:08:43.640
+Da afhængighedsforholdet var tydeligt angivet
+
+00:08:43.640 --> 00:08:47.500
+Lad os nu fokusere på filmbookingsystemets indre dele.
+
+00:08:48.430 --> 00:08:52.230
+Først og fremmest, hvad gør kunden i filmbookingsystemet?
+
+00:08:52.230 --> 00:08:54.230
+Lad os spørge domæneeksperterne
+
+00:08:55.800 --> 00:08:57.880
+Hvad gør kunderne?
+
+00:08:57.880 --> 00:08:59.970
+Kunder søger efter film,
+
+00:08:59.970 --> 00:09:01.450
+Se filmdetaljer,
+
+00:09:01.450 --> 00:09:02.910
+Vælg et screeningtidspunkt,
+
+00:09:02.910 --> 00:09:04.450
+Vælg din plads,
+
+00:09:04.450 --> 00:09:05.920
+Bestil biografbilletter,
+
+00:09:05.920 --> 00:09:07.610
+Tjek reservationsoplysninger,
+
+00:09:07.610 --> 00:09:10.180
+Gør ting som at annullere en reservation
+
+00:09:10.180 --> 00:09:15.750
+Er valg af forestillingstidspunkt og sæde en del af reservationsprocessen for biografbilletter?
+
+00:09:15.750 --> 00:09:18.880
+Og for at reservere biografbilletter, for at annullere reservationer
+
+00:09:18.880 --> 00:09:22.210
+Køber du ikke bare en billet og får pengene tilbage?
+
+00:09:22.210 --> 00:09:23.620
+du har ret
+
+00:09:23.620 --> 00:09:25.030
+Det er rigtigt
+
+00:09:25.480 --> 00:09:27.880
+Fordi det nu er et velkendt domæne
+
+00:09:27.880 --> 00:09:31.240
+Vælg et visningstidspunkt og vælg din plads
+
+00:09:31.240 --> 00:09:33.200
+Er dette en del af processen med at reservere biografbilletter?
+
+00:09:33.200 --> 00:09:34.530
+Jeg kunne spørge
+
+00:09:34.980 --> 00:09:37.220
+Men hvis det er et ukendt domæne,
+
+00:09:37.410 --> 00:09:40.160
+Detaljeret analyse af hver use case
+
+00:09:40.520 --> 00:09:43.330
+Du vil gentage raffineringsprocessen flere gange.
+
+00:09:43.790 --> 00:09:45.350
+Afhængigt af projektsituationen
+
+00:09:45.350 --> 00:09:48.080
+Du kan gentage denne proces flere gange,
+
+00:09:48.080 --> 00:09:50.580
+Jo mere du tager dig tid og analyserer omhyggeligt,
+
+00:09:50.580 --> 00:09:54.190
+Reducer forsøg og fejl i design- og implementeringsfaserne.
+
+00:09:55.850 --> 00:09:57.530
+Baseret på samtalen indtil videre
+
+00:09:57.530 --> 00:10:00.970
+Vi har organiseret vores kunders brugssager i fire kategorier:
+
+00:10:02.960 --> 00:10:04.470
+Næste er administratoren
+
+00:10:05.190 --> 00:10:08.850
+Administratoren kan se, at der er fem administrationselementer:
+
+00:10:09.440 --> 00:10:13.620
+Personligt er jeg forsigtig med at bruge ordet "administrere" i forbindelse med udvikling.
+
+00:10:14.360 --> 00:10:16.980
+Administrere er et for bredt udtryk
+
+00:10:16.980 --> 00:10:19.030
+Det er uklart, hvad du laver
+
+00:10:19.640 --> 00:10:20.950
+Det er også det samme her
+
+00:10:21.370 --> 00:10:23.760
+Hvordan styres det præcist?
+
+00:10:23.760 --> 00:10:24.810
+Jeg ved det ikke
+
+00:10:25.930 --> 00:10:27.620
+Ved at tale med domæneeksperter
+
+00:10:27.620 --> 00:10:31.220
+Hvert administrationselement er blevet udvidet til en specifik anvendelsesscenarie.
+
+00:10:31.900 --> 00:10:33.660
+Hvis det er et rigtigt projekt
+
+00:10:33.660 --> 00:10:35.890
+Der er sandsynligvis flere anvendelsesscenarier end dette.
+
+00:10:36.150 --> 00:10:39.000
+Her har jeg forenklet det for at forklare det.
+
+00:10:39.860 --> 00:10:42.700
+Det er vigtigt at bemærke her, at når du opretter en køretid,
+
+00:10:43.020 --> 00:10:45.900
+Du kan se, at billetten også er oprettet
+
+00:10:46.960 --> 00:10:49.200
+Og ved køb eller refusion af en billet
+
+00:10:49.490 --> 00:10:53.910
+Du kan også se, at vi bruger en ekstern tjeneste kaldet en betalingsgateway.
+
+00:10:55.890 --> 00:10:58.670
+Jeg kombinerede use cases fra kunder og ledere.
+
+00:10:59.350 --> 00:11:01.730
+Ser man på hele use casen på denne måde
+
+00:11:01.730 --> 00:11:02.900
+Noget føles tomt
+
+00:11:03.890 --> 00:11:05.840
+Der er mulighed for at tilføje et teater
+
+00:11:05.840 --> 00:11:08.720
+Jeg kan ikke se noget som Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Det ser ud til, at der er en del brugsscenarier, der bliver udeladt.
+
+00:11:12.770 --> 00:11:15.980
+Fordi fra en domæneeksperts perspektiv er der meget at forklare.
+
+00:11:15.980 --> 00:11:17.950
+Denne brugsscenarie, som virker så indlysende,
+
+00:11:18.150 --> 00:11:19.810
+Du kan udelade forklaringen
+
+00:11:20.770 --> 00:11:23.460
+Så hvad med fra et udviklerperspektiv?
+
+00:11:24.400 --> 00:11:28.290
+Det er bedre at udelade simple nyhedssager, såsom at søge efter en biograf.
+
+00:11:28.290 --> 00:11:30.700
+Ville dette ikke være mere nyttigt til dokumenthåndtering?
+
+00:11:31.720 --> 00:11:32.870
+Hvis det er backend-design
+
+00:11:32.870 --> 00:11:35.920
+Enkle brugsscenarier som at søge efter en biograf
+
+00:11:35.920 --> 00:11:37.760
+Jeg synes, det er okay at springe det over
+
+00:11:38.600 --> 00:11:41.570
+Det, jeg siger, er, at det ikke er for sent at reagere i implementeringsfasen.
+
+00:11:42.370 --> 00:11:44.310
+Men hvis det er et rigtigt projekt
+
+00:11:44.310 --> 00:11:48.450
+For skærmplanlæggere er disse use cases et godt udgangspunkt.
+
+00:11:49.250 --> 00:11:52.300
+Planlæggeren kiggede på anvendelsesscenariet for at søge efter en biograf.
+
+00:11:52.300 --> 00:11:55.300
+Hvordan skal jeg gøre det muligt at søge efter biografer?
+
+00:11:55.300 --> 00:11:56.600
+Du vil være i stand til at tænke
+
+00:11:58.000 --> 00:12:00.880
+Når man kombinerer diagrammerne til ét, ser det kompliceret ud.
+
+00:12:01.490 --> 00:12:05.150
+Hvis det var et rigtigt projekt, ville det være meget mere kompliceret.
+
+00:12:05.720 --> 00:12:08.240
+I dette tilfælde er der ingen grund til at gennemtvinge en sammenlægning.
+
+00:12:08.810 --> 00:12:13.910
+Jeg har lige slået dem sammen her for at afsløre, at der mangler sager.
+
+00:12:16.020 --> 00:12:18.490
+Jeg udfyldte alle de manglende felter
+
+00:12:19.200 --> 00:12:21.880
+Jeg har et use case, hvor forbindelsen til aktøren er udeladt.
+
+00:12:22.290 --> 00:12:25.720
+Dette gælder både for kunder og ledere.
+
+00:12:26.400 --> 00:12:29.480
+Og for at lette implementeringen skrev jeg det på engelsk.
+
+00:12:31.370 --> 00:12:34.160
+Det er okay nu, fordi det er et lille projekt
+
+00:12:34.160 --> 00:12:36.160
+Hvis projektet er stort og komplekst
+
+00:12:36.160 --> 00:12:38.980
+Hvor skal en domæneekspert begynde at forklare?
+
+00:12:38.980 --> 00:12:40.380
+Det kan være svært
+
+00:12:41.280 --> 00:12:43.300
+Hvad laver en administrator?
+
+00:12:43.300 --> 00:12:44.700
+Det er meget arbejde
+
+00:12:44.700 --> 00:12:46.620
+Som forventet af lederen
+
+00:12:47.620 --> 00:12:49.750
+Kan vi i dette tilfælde opdele aktørerne?
+
+00:12:49.750 --> 00:12:52.340
+Det er også en god idé at gennemgå
+
+00:12:53.140 --> 00:12:54.790
+Først blev jeg kaldt administrator
+
+00:12:54.790 --> 00:12:57.400
+Det kan være muligt at opdele efter rolle
+
+00:12:58.520 --> 00:13:00.820
+Og ved hjælp af filmbookingsystemet
+
+00:13:00.820 --> 00:13:02.870
+Der kan være eksterne tjenester
+
+00:13:03.660 --> 00:13:05.340
+Hvis vi opdeler aktørerne på denne måde,
+
+00:13:05.340 --> 00:13:09.420
+Domæneeksperter vil kunne give mere systematisk information.
+
+00:13:10.350 --> 00:13:14.000
+Dette er selvfølgelig blot ét eksempel på analyse af et komplekst domæne.
+
+00:13:14.540 --> 00:13:17.320
+Der kan være andre gode måder
+
+00:13:17.960 --> 00:13:21.740
+Det er vigtigt at reagere fleksibelt afhængigt af situationen.
+
+00:13:24.250 --> 00:13:25.060
+Dette er konklusionen
+
+00:13:25.950 --> 00:13:29.170
+Denne gang vil vi bruge et use case-diagram
+
+00:13:29.170 --> 00:13:30.840
+Sæt mål for projektet
+
+00:13:31.230 --> 00:13:33.700
+Jeg har gennemgået de indledende faser af analysen.
+
+00:13:34.880 --> 00:13:38.010
+Personligt, under hele udviklingsprocessen
+
+00:13:38.010 --> 00:13:40.060
+Jeg synes, analyse er det sværeste
+
+00:13:40.570 --> 00:13:44.250
+Fordi vi er nødt til at organisere de mest abstrakte og vage begreber.
+
+00:13:45.020 --> 00:13:47.650
+Næste gang vil vi se på de vigtigste anvendelsesscenarier
+
+00:13:47.650 --> 00:13:49.470
+Lad os analysere det mere detaljeret
+
+00:13:50.300 --> 00:13:52.100
+Tak for dit hårde arbejde indtil videre.
+

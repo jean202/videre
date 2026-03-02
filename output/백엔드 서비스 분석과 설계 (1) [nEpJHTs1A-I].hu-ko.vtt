@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:02.020
+Helló, ez a Manner Kód.
+
+00:00:03.290 --> 00:00:05.350
+A szoftver összetett
+
+00:00:06.650 --> 00:00:08.890
+Először is, rengeteg kódot kell megírni.
+
+00:00:09.760 --> 00:00:12.710
+Csak a sorozathoz készített példaprojektek
+
+00:00:12.710 --> 00:00:15.270
+A kód több mint 12 000 sor hosszú.
+
+00:00:16.330 --> 00:00:18.320
+Ha ténylegesen működő szolgáltatásról van szó
+
+00:00:18.320 --> 00:00:21.530
+Még ha egy kis szolgáltatásról is van szó, könnyen meghaladja a 100 000 vonalat.
+
+00:00:22.130 --> 00:00:25.300
+Százezer sor elég húsz regény megtöltésére.
+
+00:00:26.870 --> 00:00:29.560
+Hosszú kód írása nem jelenti azt, hogy vége.
+
+00:00:30.330 --> 00:00:32.540
+Folyamatosan javítanod kell a kódot, amit írsz.
+
+00:00:33.400 --> 00:00:35.800
+Ha A-t megjavítod, B elromlik.
+
+00:00:35.800 --> 00:00:39.130
+Ha megjavítod a B-t, az A és a C is eltörik.
+
+00:00:41.090 --> 00:00:44.260
+Egy hasonlattal élve, olyan, mintha egy Rasputicában csapdába esnél és sírnál.
+
+00:00:44.260 --> 00:00:46.360
+Mondhatni, hasonló a helyzet, mint egy ló esetében.
+
+00:00:47.330 --> 00:00:50.550
+Ezen a ponton érezni fogja a tervezés szükségességét.
+
+00:00:52.580 --> 00:00:55.010
+De amikor ténylegesen megpróbálsz megírni egy tervdokumentumot,
+
+00:00:55.500 --> 00:00:58.490
+A fejedben lévő gondolatok konkrét kifejezése
+
+00:00:58.790 --> 00:01:01.260
+Rá fogsz jönni, hogy nem is olyan könnyű, mint gondolnád.
+
+00:01:01.890 --> 00:01:05.600
+Még a kották is, amelyek egy olyan dokumentum, amely vizuálisan rögzíti a hangot vagy a zenét,
+
+00:01:05.600 --> 00:01:06.700
+Ez ilyen bonyolult
+
+00:01:07.520 --> 00:01:10.610
+Nem csak a zene, hanem a pénzügy és a logisztika is
+
+00:01:10.610 --> 00:01:14.060
+Sokszínűbb koncepciók és absztrakt felhasználói igények
+
+00:01:14.060 --> 00:01:17.220
+Nem lesz könnyű ezt egy konkrét modellben kifejezni.
+
+00:01:18.530 --> 00:01:19.490
+Szerencsére
+
+00:01:19.770 --> 00:01:23.200
+Az absztrakt fogalmak modellezésének nehézségeinek leküzdésére
+
+00:01:23.540 --> 00:01:26.860
+Az UML az 1990-es évek végén született.
+
+00:01:27.730 --> 00:01:30.120
+Grady Butch vezette.
+
+00:01:31.460 --> 00:01:34.390
+UML-t használunk az anticipációval
+
+00:01:34.980 --> 00:01:36.990
+Rajzolj egy osztálydiagramot
+
+00:01:36.990 --> 00:01:38.760
+Rajzoljunk egy szekvenciadiagramot is
+
+00:01:39.430 --> 00:01:39.980
+viszont
+
+00:01:40.360 --> 00:01:43.160
+Amikor ténylegesen megpróbáltam megtervezni, az más volt, mint közvetlenül kódolni.
+
+00:01:43.160 --> 00:01:45.130
+Nem tűnik sokkal másnak
+
+00:01:45.590 --> 00:01:46.520
+Miért van ez így?
+
+00:01:47.350 --> 00:01:50.910
+Ez azért van, mert a gondolkodási folyamat hozzászokott a megvalósításhoz.
+
+00:01:51.290 --> 00:01:54.170
+Ahelyett, hogy elvont fogalmakat tennénk konkrétabbá,
+
+00:01:54.490 --> 00:01:57.590
+Mert implementációs szintű gondolkodást fordít le UML-re.
+
+00:01:58.520 --> 00:02:00.270
+Csak azért, mert tudsz kottákat olvasni
+
+00:02:00.270 --> 00:02:01.950
+Nem mintha tudnám megírni
+
+00:02:02.390 --> 00:02:03.850
+Csak azért, mert megtanultad az UML-t
+
+00:02:03.850 --> 00:02:06.170
+Nem úgy van, hogy fejleszted a tervezési készségeidet.
+
+00:02:07.700 --> 00:02:09.300
+Tehát ebben a sorozatban
+
+00:02:09.300 --> 00:02:11.580
+Valós projekteken keresztül
+
+00:02:11.580 --> 00:02:14.420
+Hogyan lehet konkretizálni az absztrakt követelményeket?
+
+00:02:14.420 --> 00:02:16.290
+Be tudod linkelni a kódot?
+
+00:02:16.290 --> 00:02:18.010
+Szeretném személyesen megmutatni
+
+00:02:18.530 --> 00:02:20.930
+A mozijegyek domain szerinti foglalását választottam
+
+00:02:21.370 --> 00:02:25.200
+A mozijegy-foglalások könnyen érthetőek, mivel többnyire ismerős domainekről van szó.
+
+00:02:25.200 --> 00:02:29.710
+Különböző funkciókat tartalmaz, mint például a bejelentkezés, a fizetés és az ülőhely kiválasztása.
+
+00:02:29.710 --> 00:02:31.580
+Jó példának tűnik
+
+00:02:33.600 --> 00:02:36.890
+Alapvetően a cikk témája a szoftvertervezés, de
+
+00:02:36.890 --> 00:02:40.350
+Emellett a tesztvezérelt fejlesztéssel is foglalkozunk.
+
+00:02:41.210 --> 00:02:44.890
+A modern fejlesztői környezetek natívan támogatják a tesztelési eszközöket.
+
+00:02:45.600 --> 00:02:48.320
+Még ha híres nyílt forráskódú projekteket is nézünk,
+
+00:02:48.320 --> 00:02:51.130
+Van egy bizonyos szintű tesztelésünk.
+
+00:02:51.740 --> 00:02:56.200
+Ez valószínűleg azt jelenti, hogy a tesztelés ilyen nagy jelentőséggel és hasznossággal bír.
+
+00:02:56.870 --> 00:02:58.120
+De a valóságban
+
+00:02:58.120 --> 00:03:02.590
+Sok esetben nemcsak a TDD, de még a tesztautomatizálás sincs megfelelően megvalósítva.
+
+00:03:03.190 --> 00:03:06.260
+Értelmes tesztek írása mindenféle előkészület nélkül
+
+00:03:06.260 --> 00:03:07.540
+Sosem könnyű
+
+00:03:08.410 --> 00:03:12.340
+Ez olyasmi, amihez a szoftvertervezés egyesített képességeire van szükség.
+
+00:03:13.320 --> 00:03:16.270
+Tehát jobb a tervezést és a TDD-t együtt kezelni.
+
+00:03:16.270 --> 00:03:18.180
+Hatékonynak ítéltem
+
+00:03:20.120 --> 00:03:23.450
+Akkor most kezdjük el a projekt első találkozóját.
+
+00:03:24.150 --> 00:03:26.470
+Mert ez egy kis projekt
+
+00:03:26.470 --> 00:03:28.090
+Két résztvevő van
+
+00:03:28.790 --> 00:03:32.340
+A bal oldali egy domain szakértő, a jobb oldali pedig egy fejlesztő.
+
+00:03:34.550 --> 00:03:37.790
+A szakterületi szakértőknek beleszólásuk van abba, hogy milyen rendszereket kell építenünk.
+
+00:03:37.790 --> 00:03:39.280
+Sok történetet mesél el
+
+00:03:40.340 --> 00:03:42.160
+A színház, amit vezetünk
+
+00:03:42.160 --> 00:03:44.710
+Országszerte körülbelül négyezer van belőlük.
+
+00:03:44.710 --> 00:03:47.220
+A jövőben tovább növekedhet.
+
+00:03:47.220 --> 00:03:50.480
+Jelenleg csak a mozijegy-foglalási funkció támogatott.
+
+00:03:50.480 --> 00:03:54.510
+Később tervezzük a jegyértékesítés bevezetését a nagyobb előadásokra.
+
+00:03:54.510 --> 00:03:58.940
+És a lényeg az, hogy soha ne foglalj dupla ülőhelyet.
+
+00:03:58.940 --> 00:04:03.250
+A múltban az ügyfélszolgálatoknak nagyon nehéz dolguk volt az ilyen jellegű problémákkal.
+
+00:04:03.250 --> 00:04:07.670
+Mert rengeteg filmes információ és kritikai adat halmozódott már fel.
+
+00:04:07.670 --> 00:04:11.090
+Ezeknek az adatoknak érintetlennek kell maradniuk.
+
+00:04:12.090 --> 00:04:14.730
+Itt a beszélgetés jól szervezett, de
+
+00:04:14.890 --> 00:04:16.960
+Valójában több információ is van
+
+00:04:16.960 --> 00:04:18.600
+Rendezetlenül fogják kézbesíteni
+
+00:04:19.470 --> 00:04:22.110
+De a projekt elején kiderülő történet az, hogy
+
+00:04:22.110 --> 00:04:23.780
+Mert ez a legfontosabb követelmény
+
+00:04:23.780 --> 00:04:25.320
+Figyelmesen kell hallgatnod
+
+00:04:27.110 --> 00:04:29.810
+A fejlesztők meghallgatják a domain szakértőket
+
+00:04:29.810 --> 00:04:31.290
+Van néhány kérdésem
+
+00:04:32.290 --> 00:04:34.660
+Az Ön által említett nagyszabású előadásjegy-foglalási funkció
+
+00:04:34.660 --> 00:04:36.910
+Mikor lesz hozzáadva?
+
+00:04:36.910 --> 00:04:39.910
+Ezt előre bele kellene foglalni a projekt hatókörébe?
+
+00:04:39.910 --> 00:04:43.590
+Vagy szeretném tudni, hogy érdemes-e még megfontolnom
+
+00:04:43.590 --> 00:04:46.090
+És a meglévő adatok megőrzésének szükségessége
+
+00:04:46.090 --> 00:04:48.940
+Ez azt jelenti, hogy nem kellene megváltoztatnunk az adatbázis-rendszert?
+
+00:04:48.940 --> 00:04:51.950
+Vannak jelenleg más szolgáltatások, amelyek megosztják az adatbázist?
+
+00:04:53.580 --> 00:04:54.980
+Amint a DB-ből látható,
+
+00:04:54.980 --> 00:04:57.290
+Mivel a domain szakértők nem fejlesztők.
+
+00:04:57.290 --> 00:04:59.430
+A műszaki kifejezés kétértelmű
+
+00:04:59.910 --> 00:05:02.890
+A fejlesztőknek ezeket a dolgokat alaposan ellenőrizniük kell.
+
+00:05:04.230 --> 00:05:07.450
+A domain szakértők így válaszolnak a fejlesztők kérdéseire:
+
+00:05:08.330 --> 00:05:10.210
+A nagyszabású előadásjegy-foglalási funkció
+
+00:05:10.210 --> 00:05:13.450
+Még nincs konkrét menetrend.
+
+00:05:13.450 --> 00:05:15.970
+Azonban, amikor a jövőben funkciókat adnak hozzá
+
+00:05:15.970 --> 00:05:18.700
+Így könnyedén frissíthetsz
+
+00:05:18.700 --> 00:05:22.600
+Szerintem jó lenne, ha ezúttal egy kicsit átgondolnád.
+
+00:05:22.600 --> 00:05:27.050
+A DB-t a szolgáltatásainkon kívül semmilyen más célra nem használjuk.
+
+00:05:27.050 --> 00:05:32.840
+Magának a rendszernek a megváltoztatása nem nagy probléma, amíg az adatok megfelelően karbantartottak.
+
+00:05:33.840 --> 00:05:35.080
+Miután meghallotta a történetet
+
+00:05:35.080 --> 00:05:39.400
+Szerintem nem kell aggódnod a nagy műsor miatt.
+
+00:05:39.400 --> 00:05:40.790
+Ez nem a projekt hatóköre
+
+00:05:40.790 --> 00:05:43.040
+A követelmények sem egyértelműek
+
+00:05:43.040 --> 00:05:44.930
+Nem tudom, mikor lesz rá szükségem, de
+
+00:05:44.930 --> 00:05:47.710
+Ez egy olyan probléma, amit később újra meg kell vizsgálnunk.
+
+00:05:48.920 --> 00:05:50.910
+Még akkor is, ha ez nincs rögzítve a dokumentumban
+
+00:05:50.910 --> 00:05:54.880
+A területi szakértők azt is választ adják, hogy nagyszabású előadásokat fognak figyelembe venni.
+
+00:05:54.880 --> 00:05:55.960
+Nem szabad elfelejtened
+
+00:05:56.740 --> 00:05:58.320
+Minden rendben
+
+00:05:58.320 --> 00:06:00.630
+Ezután a nagyszabású előadásjegy-foglalási funkció
+
+00:06:00.630 --> 00:06:04.500
+Nem tenném a projekt kiemelt prioritásai közé.
+
+00:06:04.500 --> 00:06:08.220
+Ehelyett megkönnyíti a funkciók bővítését a fejlesztési folyamat későbbi szakaszában.
+
+00:06:08.220 --> 00:06:10.190
+Jól fogok rá vigyázni
+
+00:06:10.190 --> 00:06:12.840
+Ne aggódj. Csak bennem bízz
+
+00:06:13.840 --> 00:06:15.960
+Fontos, hogy jól kijöjjünk egymással
+
+00:06:17.980 --> 00:06:19.500
+Eddigi beszélgetésünk során
+
+00:06:19.500 --> 00:06:22.700
+A legfontosabb prioritásokat a következőképpen foglalhatjuk össze:
+
+00:06:23.220 --> 00:06:25.890
+Ezeket az információkat domain szakértők adták.
+
+00:06:25.890 --> 00:06:28.410
+Értelmezés és rendszerezés fejlesztői szemszögből
+
+00:06:28.410 --> 00:06:29.810
+Indítsa el a projektet
+
+00:06:31.700 --> 00:06:32.860
+Domain szakértőkkel
+
+00:06:32.860 --> 00:06:34.980
+Miután eldöntötted a projekted céljait,
+
+00:06:35.620 --> 00:06:37.980
+Most itt az ideje, hogy elnevezd a projektedet.
+
+00:06:38.750 --> 00:06:41.840
+Először is kérj ki egy domain szakértő véleményét.
+
+00:06:42.800 --> 00:06:45.540
+Milyen nevet adjak a projektnek?
+
+00:06:45.540 --> 00:06:47.680
+Ez egy filmfoglalási rendszer.
+
+00:06:47.680 --> 00:06:50.150
+Mi a helyzet csak a filmfoglalási rendszerrel?
+
+00:06:50.150 --> 00:06:51.430
+nem, nem akarom
+
+00:06:51.430 --> 00:06:53.570
+Gondoskodom a nagyszabású előadásokról
+
+00:06:53.570 --> 00:06:56.930
+Térjünk át a filmfoglalási rendszerre. igen?
+
+00:06:56.930 --> 00:06:58.180
+nagy
+
+00:06:58.180 --> 00:06:59.950
+Nagyon szépen köszönöm
+
+00:07:01.000 --> 00:07:05.230
+A domain szakértőknek koreai nyelvű projektnevekre lehet szükségük.
+
+00:07:05.580 --> 00:07:07.680
+De egy fejlesztő szemszögéből
+
+00:07:07.680 --> 00:07:09.990
+Minden kifejezés, beleértve a projektneveket is
+
+00:07:09.990 --> 00:07:12.180
+Mivel közvetlenül kódban van megvalósítva,
+
+00:07:12.600 --> 00:07:15.000
+Angolul könnyebb lenne definiálni, ha lehet.
+
+00:07:15.540 --> 00:07:19.510
+Fontos, hogy a fejlesztők hűen kövessék a szakterületi szakértők igényeit, de
+
+00:07:19.960 --> 00:07:21.430
+A teljes projektet figyelembe véve
+
+00:07:21.430 --> 00:07:23.930
+Felelősségünk van abban is, hogy a dolgokat hatékony irányba tereljük.
+
+00:07:25.850 --> 00:07:27.760
+Ha már eldöntötted a projekted nevét
+
+00:07:27.760 --> 00:07:31.380
+Most itt az ideje kideríteni, hogy kik használják a filmfoglalási rendszert.
+
+00:07:32.020 --> 00:07:34.940
+Természetesen érdemes erről egy domain szakértőtől érdeklődni.
+
+00:07:35.420 --> 00:07:38.740
+És azt tapasztaljuk, hogy vannak ügyfeleink és vezetőink.
+
+00:07:40.820 --> 00:07:43.280
+Az egyik olyan elem, amelyet a tervezés korai szakaszában könnyű figyelmen kívül hagyni, az
+
+00:07:43.280 --> 00:07:44.760
+Ez egy külső függőség
+
+00:07:45.340 --> 00:07:46.580
+A külső függőségek
+
+00:07:46.580 --> 00:07:49.210
+Lehet, hogy egy meglévő, örökölt rendszerről van szó,
+
+00:07:49.660 --> 00:07:51.420
+Ez lehet egy fizetési rendszer
+
+00:07:52.020 --> 00:07:53.670
+Ez a függőségi viszony
+
+00:07:53.670 --> 00:07:56.760
+Mert ez komoly hatással lehet a rendszer egészének kialakítására.
+
+00:07:56.950 --> 00:08:00.150
+Fontos, hogy a lehető leghamarabb azonosítsuk.
+
+00:08:00.570 --> 00:08:01.240
+szerencsére
+
+00:08:01.820 --> 00:08:04.990
+Olyan elemek, mint a fizetési átjárók és a régi rendszerek
+
+00:08:05.270 --> 00:08:07.730
+Mert már a meglévő rendszerekben is használják.
+
+00:08:07.990 --> 00:08:10.360
+Viszonylag könnyen megérthető
+
+00:08:11.230 --> 00:08:14.410
+Egy függő kapcsolatban az egyik dolog, amit könnyű figyelmen kívül hagyni, az az, hogy
+
+00:08:14.410 --> 00:08:16.090
+Vannak külső környezeti tényezők
+
+00:08:16.900 --> 00:08:19.060
+Az országunk ugyanabban az időzónában van
+
+00:08:19.060 --> 00:08:22.430
+Egy nagy területű országban minden színháznak más időpontja van.
+
+00:08:23.190 --> 00:08:25.100
+Aztán a filmfoglalási rendszer
+
+00:08:25.100 --> 00:08:28.900
+Elkerülhetetlen, hogy környezeti tényezők, például az időzónák befolyásolják.
+
+00:08:29.410 --> 00:08:32.760
+Ezek a tényezők nem egyértelműek, hacsak nem kérdezed meg közvetlenül a domain szakértőjét.
+
+00:08:32.760 --> 00:08:33.950
+Könnyű elmulasztani
+
+00:08:34.740 --> 00:08:37.610
+A domain szakértők hajlamosak figyelmen kívül hagyni ezeket a részleteket.
+
+00:08:37.610 --> 00:08:40.010
+Mert a magyarázat elmaradhat
+
+00:08:41.680 --> 00:08:43.640
+Mivel a függőségi viszony egyértelműen megfogalmazódott
+
+00:08:43.640 --> 00:08:47.500
+Most pedig térjünk át a filmfoglalási rendszer belső működésére.
+
+00:08:48.430 --> 00:08:52.230
+Először is, mit csinál az ügyfél a filmfoglalási rendszerben?
+
+00:08:52.230 --> 00:08:54.230
+Kérdezzük meg a domain szakértőket
+
+00:08:55.800 --> 00:08:57.880
+Mit tesznek az ügyfelek?
+
+00:08:57.880 --> 00:08:59.970
+A vásárlók filmeket keresnek,
+
+00:08:59.970 --> 00:09:01.450
+A film részleteinek megtekintése,
+
+00:09:01.450 --> 00:09:02.910
+Válasszon ki egy vetítési időpontot,
+
+00:09:02.910 --> 00:09:04.450
+Válaszd ki az ülésed,
+
+00:09:04.450 --> 00:09:05.920
+Mozijegyek foglalása,
+
+00:09:05.920 --> 00:09:07.610
+Ellenőrizze a foglalás részleteit,
+
+00:09:07.610 --> 00:09:10.180
+Olyan dolgokat tegyen, mint a foglalás lemondása
+
+00:09:10.180 --> 00:09:15.750
+A vetítési időpont és az ülőhely kiválasztása a mozijegy-foglalási folyamat része?
+
+00:09:15.750 --> 00:09:18.880
+És mozijegyeket foglalni, foglalásokat lemondani
+
+00:09:18.880 --> 00:09:22.210
+Végül is, nem csak veszel egy jegyet és visszakapod a pénzed?
+
+00:09:22.210 --> 00:09:23.620
+igazad van
+
+00:09:23.620 --> 00:09:25.030
+Így van
+
+00:09:25.480 --> 00:09:27.880
+Mert ez már egy ismerős domain
+
+00:09:27.880 --> 00:09:31.240
+Válasszon időpontot a vetítésre és válassza ki az ülőhelyét
+
+00:09:31.240 --> 00:09:33.200
+Ez a mozijegy-foglalási folyamat része?
+
+00:09:33.200 --> 00:09:34.530
+Megkérdezhetném
+
+00:09:34.980 --> 00:09:37.220
+De ha ismeretlen domainről van szó,
+
+00:09:37.410 --> 00:09:40.160
+Minden egyes felhasználási eset részletes elemzése
+
+00:09:40.520 --> 00:09:43.330
+A finomítási folyamatot többször meg kell ismételni.
+
+00:09:43.790 --> 00:09:45.350
+A projekt helyzetétől függően
+
+00:09:45.350 --> 00:09:48.080
+Ezt a folyamatot többször is megismételheti,
+
+00:09:48.080 --> 00:09:50.580
+Minél több időt szánsz az alapos elemzésre,
+
+00:09:50.580 --> 00:09:54.190
+Csökkentse a próbálkozások és hibák számát a tervezés és a megvalósítás szakaszában.
+
+00:09:55.850 --> 00:09:57.530
+Az eddigi beszélgetés alapján
+
+00:09:57.530 --> 00:10:00.970
+Ügyfeleink általi felhasználási eseteinket négy kategóriába soroltuk:
+
+00:10:02.960 --> 00:10:04.470
+Következő az adminisztrátor
+
+00:10:05.190 --> 00:10:08.850
+A rendszergazda láthatja, hogy öt kezelési elem van:
+
+00:10:09.440 --> 00:10:13.620
+Személy szerint óvatos vagyok a „kezelés” szó használatával a fejlesztés során.
+
+00:10:14.360 --> 00:10:16.980
+A „kezelés” kifejezés túl tág.
+
+00:10:16.980 --> 00:10:19.030
+Nem világos, hogy mit csinálsz
+
+00:10:19.640 --> 00:10:20.950
+Itt is ugyanígy van
+
+00:10:21.370 --> 00:10:23.760
+Pontosan hogyan menedzselhető?
+
+00:10:23.760 --> 00:10:24.810
+Nem tudom
+
+00:10:25.930 --> 00:10:27.620
+Domain szakértőkkel beszélgetve
+
+00:10:27.620 --> 00:10:31.220
+Minden egyes kezelési elemet kibővítettek egy adott használati esetre.
+
+00:10:31.900 --> 00:10:33.660
+Ha ez egy valódi projekt
+
+00:10:33.660 --> 00:10:35.890
+Valószínűleg ennél több felhasználási eset is van.
+
+00:10:36.150 --> 00:10:39.000
+Itt leegyszerűsítettem a magyarázat kedvéért.
+
+00:10:39.860 --> 00:10:42.700
+Fontos megjegyezni, hogy amikor futási időt hozunk létre,
+
+00:10:43.020 --> 00:10:45.900
+Látható, hogy a jegy is létrejött
+
+00:10:46.960 --> 00:10:49.200
+És jegyvásárlás vagy -visszatérítés esetén
+
+00:10:49.490 --> 00:10:53.910
+Azt is láthatja, hogy egy külső szolgáltatást, az úgynevezett fizetési átjárót használjuk.
+
+00:10:55.890 --> 00:10:58.670
+Kombináltam az ügyfelek és a vezetők használati eseteit.
+
+00:10:59.350 --> 00:11:01.730
+A teljes használati esetet így nézve
+
+00:11:01.730 --> 00:11:02.900
+Valami üresnek érződik
+
+00:11:03.890 --> 00:11:05.840
+Lehetőség van mozi hozzáadására
+
+00:11:05.840 --> 00:11:08.720
+Nem látok semmi olyat, mint a Search Theater.
+
+00:11:09.410 --> 00:11:12.130
+Úgy tűnik, elég sok felhasználási esetet kihagynak.
+
+00:11:12.770 --> 00:11:15.980
+Mert egy domain szakértő szemszögéből nézve sok mindent meg kell magyarázni.
+
+00:11:15.980 --> 00:11:17.950
+Ez a használati eset, ami annyira nyilvánvalónak tűnik,
+
+00:11:18.150 --> 00:11:19.810
+Kihagyhatod a magyarázatot
+
+00:11:20.770 --> 00:11:23.460
+Akkor mi a helyzet egy fejlesztő szemszögéből?
+
+00:11:24.400 --> 00:11:28.290
+Jobb kihagyni az olyan egyszerű híres eseteket, mint például a színház keresése.
+
+00:11:28.290 --> 00:11:30.700
+Nem lenne ez hasznosabb a dokumentumkezelés szempontjából?
+
+00:11:31.720 --> 00:11:32.870
+Ha backend designról van szó
+
+00:11:32.870 --> 00:11:35.920
+Egyszerű használati esetek, például mozi keresése
+
+00:11:35.920 --> 00:11:37.760
+Szerintem nyugodtan kihagyhatod
+
+00:11:38.600 --> 00:11:41.570
+Azt mondom, hogy a megvalósítási szakaszban még nem késő reagálni.
+
+00:11:42.370 --> 00:11:44.310
+De ha ez egy valódi projekt
+
+00:11:44.310 --> 00:11:48.450
+A képernyőtervezők számára ezek a használati esetek jó kiindulópontot jelentenek.
+
+00:11:49.250 --> 00:11:52.300
+A tervező megvizsgálta a színház keresésének felhasználási esetét.
+
+00:11:52.300 --> 00:11:55.300
+Hogyan tegyem lehetővé a mozik keresését?
+
+00:11:55.300 --> 00:11:56.600
+Képes leszel gondolkodni
+
+00:11:58.000 --> 00:12:00.880
+Ha a diagramokat egybeilleszted, bonyolultnak tűnik.
+
+00:12:01.490 --> 00:12:05.150
+Ha ez egy valódi projekt lenne, sokkal bonyolultabb lenne.
+
+00:12:05.720 --> 00:12:08.240
+Ebben az esetben nincs szükség az összevonás erőltetésére.
+
+00:12:08.810 --> 00:12:13.910
+Most vontam össze őket, hogy felfedjem a hiányzó eseteket.
+
+00:12:16.020 --> 00:12:18.490
+Kitöltöttem az összes hiányzó esetet
+
+00:12:19.200 --> 00:12:21.880
+Van egy használati esetem, ahol a szereplőhöz való kapcsolat kimarad.
+
+00:12:22.290 --> 00:12:25.720
+Ez vonatkozik mind az ügyfelekre, mind a vezetőkre.
+
+00:12:26.400 --> 00:12:29.480
+És a könnyebb megvalósítás érdekében angolul írtam.
+
+00:12:31.370 --> 00:12:34.160
+Most már rendben van, mert ez egy kis projekt.
+
+00:12:34.160 --> 00:12:36.160
+Ha a projekt nagy és összetett
+
+00:12:36.160 --> 00:12:38.980
+Hol kezdje egy domain szakértő a magyarázatot?
+
+00:12:38.980 --> 00:12:40.380
+Nehéz lehet
+
+00:12:41.280 --> 00:12:43.300
+Mit csinál egy adminisztrátor?
+
+00:12:43.300 --> 00:12:44.700
+Ez sok munka
+
+00:12:44.700 --> 00:12:46.620
+Ahogy az várható volt a vezetőtől
+
+00:12:47.620 --> 00:12:49.750
+Ebben az esetben feloszthatjuk a szereplőket?
+
+00:12:49.750 --> 00:12:52.340
+Az is jó ötlet, hogy átnézd
+
+00:12:53.140 --> 00:12:54.790
+Először adminisztrátornak hívtak
+
+00:12:54.790 --> 00:12:57.400
+Lehetséges szerepkörök szerinti felosztás
+
+00:12:58.520 --> 00:13:00.820
+És a filmfoglalási rendszer használata
+
+00:13:00.820 --> 00:13:02.870
+Lehetnek külső szolgáltatások
+
+00:13:03.660 --> 00:13:05.340
+Ha így csoportosítjuk a szereplőket,
+
+00:13:05.340 --> 00:13:09.420
+A területi szakértők szisztematikusabb információkat tudnak majd nyújtani.
+
+00:13:10.350 --> 00:13:14.000
+Természetesen ez csak egy példa egy összetett tartomány elemzésére.
+
+00:13:14.540 --> 00:13:17.320
+Lehetnek más jó módszerek is
+
+00:13:17.960 --> 00:13:21.740
+Fontos, hogy rugalmasan reagáljunk a helyzettől függően.
+
+00:13:24.250 --> 00:13:25.060
+Ez a következtetés
+
+00:13:25.950 --> 00:13:29.170
+Ezúttal egy használati eset diagramot fogunk használni.
+
+00:13:29.170 --> 00:13:30.840
+Tűzz ki célokat a projekthez
+
+00:13:31.230 --> 00:13:33.700
+Átmentem az elemzés kezdeti szakaszán.
+
+00:13:34.880 --> 00:13:38.010
+Személyesen, a teljes fejlesztési folyamat során
+
+00:13:38.010 --> 00:13:40.060
+Szerintem az elemzés a legnehezebb
+
+00:13:40.570 --> 00:13:44.250
+Mert a legelvontabb és leghomályosabb fogalmakat is rendszereznünk kell.
+
+00:13:45.020 --> 00:13:47.650
+Legközelebb a főbb felhasználási eseteket fogjuk megvizsgálni.
+
+00:13:47.650 --> 00:13:49.470
+Elemezzük részletesebben
+
+00:13:50.300 --> 00:13:52.100
+Köszönöm az eddigi kemény munkádat.
+

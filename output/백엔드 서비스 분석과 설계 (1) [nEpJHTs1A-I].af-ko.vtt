@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: af
+
+00:00:00.000 --> 00:00:02.020
+Hallo, dit is Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Sagteware is kompleks
+
+00:00:06.650 --> 00:00:08.890
+Eerstens is daar baie kode wat geskryf moet word.
+
+00:00:09.760 --> 00:00:12.710
+Net die voorbeeldprojekte wat ek vir hierdie reeks geskep het
+
+00:00:12.710 --> 00:00:15.270
+Die kode is meer as 12 000 reëls lank.
+
+00:00:16.330 --> 00:00:18.320
+Indien dit 'n werklike bedryfsdiens is
+
+00:00:18.320 --> 00:00:21.530
+Selfs al is dit 'n klein diens, sal dit maklik meer as 100 000 lyne oorskry.
+
+00:00:22.130 --> 00:00:25.300
+Een honderdduisend reëls is genoeg om twintig romans te vul.
+
+00:00:26.870 --> 00:00:29.560
+Om lang kode te skryf beteken nie dis verby nie.
+
+00:00:30.330 --> 00:00:32.540
+Jy moet aanhou om die kode wat jy skryf reg te stel.
+
+00:00:33.400 --> 00:00:35.800
+As jy A regmaak, breek B.
+
+00:00:35.800 --> 00:00:39.130
+As jy B regmaak, sal A en C breek.
+
+00:00:41.090 --> 00:00:44.260
+Om 'n analogie te gebruik, dis soos om in 'n Rasputica vasgevang te wees en te huil.
+
+00:00:44.260 --> 00:00:46.360
+Jy kan sê dis 'n soortgelyke situasie as 'n perd.
+
+00:00:47.330 --> 00:00:50.550
+Op hierdie stadium sal jy die behoefte aan ontwerp voel.
+
+00:00:52.580 --> 00:00:55.010
+Maar wanneer jy eintlik probeer om 'n ontwerpdokument te skryf,
+
+00:00:55.500 --> 00:00:58.490
+Om die gedagtes in jou kop konkreet uit te druk
+
+00:00:58.790 --> 00:01:01.260
+Jy sal uitvind dat dit nie so maklik is soos jy dink nie.
+
+00:01:01.890 --> 00:01:05.600
+Selfs bladmusiek, wat 'n dokument is wat klank of musiek visueel opneem,
+
+00:01:05.600 --> 00:01:06.700
+Dis so ingewikkeld
+
+00:01:07.520 --> 00:01:10.610
+Nie net musiek nie, maar ook finansies en logistiek
+
+00:01:10.610 --> 00:01:14.060
+Meer diverse konsepte en abstrakte gebruikersvereistes
+
+00:01:14.060 --> 00:01:17.220
+Dit sal nie maklik wees om dit in 'n spesifieke model uit te druk nie.
+
+00:01:18.530 --> 00:01:19.490
+Gelukkig
+
+00:01:19.770 --> 00:01:23.200
+Om die moeilikheid van die modellering van abstrakte konsepte te oorkom
+
+00:01:23.540 --> 00:01:26.860
+UML is in die laat 1990's gebore.
+
+00:01:27.730 --> 00:01:30.120
+Dit is gelei deur Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Ons gebruik UML met afwagting
+
+00:01:34.980 --> 00:01:36.990
+Teken 'n klasdiagram
+
+00:01:36.990 --> 00:01:38.760
+Kom ons teken ook 'n volgordediagram
+
+00:01:39.430 --> 00:01:39.980
+egter
+
+00:01:40.360 --> 00:01:43.160
+Toe ek dit eintlik probeer ontwerp het, was dit anders as om dit direk te kodeer.
+
+00:01:43.160 --> 00:01:45.130
+Dit lyk nie veel anders nie
+
+00:01:45.590 --> 00:01:46.520
+Waarom is dit so?
+
+00:01:47.350 --> 00:01:50.910
+Dit is omdat die denkproses gewoond is aan implementering.
+
+00:01:51.290 --> 00:01:54.170
+Eerder as om abstrakte konsepte meer konkreet te maak,
+
+00:01:54.490 --> 00:01:57.590
+Omdat dit implementeringsvlak-denke in UML vertaal.
+
+00:01:58.520 --> 00:02:00.270
+Net omdat jy bladmusiek kan lees
+
+00:02:00.270 --> 00:02:01.950
+Dis nie asof ek dit kan komponeer nie
+
+00:02:02.390 --> 00:02:03.850
+Net omdat jy UML geleer het
+
+00:02:03.850 --> 00:02:06.170
+Dis nie asof jy ontwerpvaardighede ontwikkel nie.
+
+00:02:07.700 --> 00:02:09.300
+So in hierdie reeks
+
+00:02:09.300 --> 00:02:11.580
+Deur middel van werklike projekte
+
+00:02:11.580 --> 00:02:14.420
+Hoe om abstrakte vereistes te konkretiseer
+
+00:02:14.420 --> 00:02:16.290
+Kan jy die kode koppel?
+
+00:02:16.290 --> 00:02:18.010
+Ek wil jou graag persoonlik wys
+
+00:02:18.530 --> 00:02:20.930
+Ek het gekies om fliekkaartjies per domein te bespreek
+
+00:02:21.370 --> 00:02:25.200
+Fliekkaartjiebesprekings is maklik om te verstaan, want dit is meestal bekende domeine.
+
+00:02:25.200 --> 00:02:29.710
+Sluit verskeie funksies in soos aanmelding, betaling en sitplekkeuse.
+
+00:02:29.710 --> 00:02:31.580
+Dit lyk soos 'n goeie voorbeeld
+
+00:02:33.600 --> 00:02:36.890
+Basies, die onderwerp van hierdie artikel is sagteware-ontwerp, maar
+
+00:02:36.890 --> 00:02:40.350
+Ons sal ook toetsgedrewe ontwikkeling dek.
+
+00:02:41.210 --> 00:02:44.890
+Moderne ontwikkelingsomgewings ondersteun toetsinstrumente inheems.
+
+00:02:45.600 --> 00:02:48.320
+Selfs as jy na bekende oopbronprojekte kyk,
+
+00:02:48.320 --> 00:02:51.130
+Ons het 'n sekere vlak van toetsing.
+
+00:02:51.740 --> 00:02:56.200
+Dit beteken waarskynlik dat toetsing van so 'n hoë belangrikheid en nut is.
+
+00:02:56.870 --> 00:02:58.120
+Maar in werklikheid
+
+00:02:58.120 --> 00:03:02.590
+In baie gevalle word nie net TDD nie, maar selfs toetsoutomatisering nie behoorlik geïmplementeer nie.
+
+00:03:03.190 --> 00:03:06.260
+Om eers betekenisvolle toetse te skryf sonder enige voorbereiding is
+
+00:03:06.260 --> 00:03:07.540
+Dit is nooit maklik nie
+
+00:03:08.410 --> 00:03:12.340
+Dit is iets wat die gekombineerde vermoëns van sagteware-ontwerp vereis.
+
+00:03:13.320 --> 00:03:16.270
+Dit is dus beter om ontwerp en TDD saam te hanteer.
+
+00:03:16.270 --> 00:03:18.180
+Ek het dit as doeltreffend beoordeel
+
+00:03:20.120 --> 00:03:23.450
+So laat ons nou die eerste vergadering van die projek begin.
+
+00:03:24.150 --> 00:03:26.470
+Omdat dit 'n klein projek is
+
+00:03:26.470 --> 00:03:28.090
+Daar is twee deelnemers
+
+00:03:28.790 --> 00:03:32.340
+Die een aan die linkerkant is 'n domeinkenner, en die een aan die regterkant is 'n ontwikkelaar.
+
+00:03:34.550 --> 00:03:37.790
+Domeinkundiges het 'n sê in die stelsels wat ons moet bou.
+
+00:03:37.790 --> 00:03:39.280
+Dit vertel baie stories
+
+00:03:40.340 --> 00:03:42.160
+Die teater wat ons bestuur
+
+00:03:42.160 --> 00:03:44.710
+Daar is omtrent vierduisend van hulle regoor die land.
+
+00:03:44.710 --> 00:03:47.220
+Dit kan in die toekoms verder toeneem.
+
+00:03:47.220 --> 00:03:50.480
+Tans word slegs die besprekingsfunksie vir fliekkaartjies ondersteun.
+
+00:03:50.480 --> 00:03:54.510
+Ons beplan om later kaartjieverkope vir grootskaalse vertonings by te voeg.
+
+00:03:54.510 --> 00:03:58.940
+En die belangrike ding is dat jy nooit sitplekke dubbel moet bespreek nie.
+
+00:03:58.940 --> 00:04:03.250
+In die verlede het kliëntedienssentrums 'n baie moeilike tyd met daardie soort probleem gehad.
+
+00:04:03.250 --> 00:04:07.670
+Omdat daar baie rolprentinligting en resensiedata is wat reeds versamel is.
+
+00:04:07.670 --> 00:04:11.090
+Hierdie data moet ongeskonde bly.
+
+00:04:12.090 --> 00:04:14.730
+Hier is die gesprek goed georganiseerd, maar
+
+00:04:14.890 --> 00:04:16.960
+Trouens, daar is meer inligting
+
+00:04:16.960 --> 00:04:18.600
+Dit sal op 'n ongeorganiseerde wyse afgelewer word
+
+00:04:19.470 --> 00:04:22.110
+Maar die storie wat aan die begin van die projek uitkom, is
+
+00:04:22.110 --> 00:04:23.780
+Omdat dit die belangrikste vereiste is
+
+00:04:23.780 --> 00:04:25.320
+Jy moet aandagtig luister
+
+00:04:27.110 --> 00:04:29.810
+Ontwikkelaars luister na domeinkundiges
+
+00:04:29.810 --> 00:04:31.290
+Ek het 'n paar vrae
+
+00:04:32.290 --> 00:04:34.660
+Die grootskaalse opvoeringskaartjiebesprekingsfunksie wat jy genoem het
+
+00:04:34.660 --> 00:04:36.910
+Wanneer sal dit bygevoeg word?
+
+00:04:36.910 --> 00:04:39.910
+Moet dit vooraf in die bestek van hierdie projek ingesluit word?
+
+00:04:39.910 --> 00:04:43.590
+Of ek wil graag weet of ek dit nog moet oorweeg
+
+00:04:43.590 --> 00:04:46.090
+En die behoefte om bestaande data te handhaaf
+
+00:04:46.090 --> 00:04:48.940
+Beteken dit dat ons nie die DB-stelsel moet verander nie?
+
+00:04:48.940 --> 00:04:51.950
+Is daar tans enige ander dienste wat die databasis deel?
+
+00:04:53.580 --> 00:04:54.980
+Soos jy uit die DB kan sien,
+
+00:04:54.980 --> 00:04:57.290
+Omdat domeinkundiges nie ontwikkelaars is nie
+
+00:04:57.290 --> 00:04:59.430
+Die tegniese uitdrukking is dubbelsinnig
+
+00:04:59.910 --> 00:05:02.890
+Ontwikkelaars moet hierdie dinge noukeurig nagaan.
+
+00:05:04.230 --> 00:05:07.450
+Domeinkundiges beantwoord ontwikkelaars se vrae soos volg:
+
+00:05:08.330 --> 00:05:10.210
+Die grootskaalse opvoeringskaartjiebesprekingsfunksie
+
+00:05:10.210 --> 00:05:13.450
+Daar is nog geen spesifieke skedule nie.
+
+00:05:13.450 --> 00:05:15.970
+Wanneer funksies egter in die toekoms bygevoeg word
+
+00:05:15.970 --> 00:05:18.700
+Sodat jy sonder veel moeite kan opgradeer
+
+00:05:18.700 --> 00:05:22.600
+Ek dink dit sal goed wees as jy dit hierdie keer bietjie kan oorweeg.
+
+00:05:22.600 --> 00:05:27.050
+Ons gebruik DB vir niks anders as ons dienste nie.
+
+00:05:27.050 --> 00:05:32.840
+Om die stelsel self te verander is nie 'n groot probleem solank die data goed onderhou word nie.
+
+00:05:33.840 --> 00:05:35.080
+Nadat ek die storie gehoor het
+
+00:05:35.080 --> 00:05:39.400
+Ek dink nie jy hoef jou oor die groot vertoning te bekommer nie.
+
+00:05:39.400 --> 00:05:40.790
+Dit is nie die omvang van die projek nie
+
+00:05:40.790 --> 00:05:43.040
+Die vereistes is ook nie duidelik nie
+
+00:05:43.040 --> 00:05:44.930
+Ek weet nie wanneer ek dit nodig sal hê nie, maar
+
+00:05:44.930 --> 00:05:47.710
+Dis 'n probleem wat ons later weer sal moet hersien.
+
+00:05:48.920 --> 00:05:50.910
+Selfs al is dit nie in die dokument aangeteken nie
+
+00:05:50.910 --> 00:05:54.880
+Domeinkundiges sal ook 'n antwoord gee dat hulle grootskaalse prestasies sal oorweeg.
+
+00:05:54.880 --> 00:05:55.960
+Jy moet nie vergeet nie
+
+00:05:56.740 --> 00:05:58.320
+Goed so
+
+00:05:58.320 --> 00:06:00.630
+Dan, die grootskaalse opvoeringskaartjiebesprekingsfunksie
+
+00:06:00.630 --> 00:06:04.500
+Ek sou dit nie onder die topprioriteite vir hierdie projek plaas nie.
+
+00:06:04.500 --> 00:06:08.220
+In plaas daarvan maak dit dit makliker om funksionaliteit later in die ontwikkelingsproses uit te brei.
+
+00:06:08.220 --> 00:06:10.190
+Ek sal goed daarna omsien
+
+00:06:10.190 --> 00:06:12.840
+Moenie bekommerd wees nie. Vertrou net my
+
+00:06:13.840 --> 00:06:15.960
+Dit is belangrik om goed oor die weg te kom
+
+00:06:17.980 --> 00:06:19.500
+Deur ons gesprek tot dusver
+
+00:06:19.500 --> 00:06:22.700
+Die topprioriteite word soos volg opgesom:
+
+00:06:23.220 --> 00:06:25.890
+Dit is die inligting wat deur domeinkundiges verskaf word.
+
+00:06:25.890 --> 00:06:28.410
+Interpretasie en organisering vanuit 'n ontwikkelaar se perspektief
+
+00:06:28.410 --> 00:06:29.810
+Begin die projek
+
+00:06:31.700 --> 00:06:32.860
+Met domeinkundiges
+
+00:06:32.860 --> 00:06:34.980
+Sodra jy besluit het oor die doelwitte van jou projek,
+
+00:06:35.620 --> 00:06:37.980
+Nou is dit tyd om jou projek 'n naam te gee.
+
+00:06:38.750 --> 00:06:41.840
+Vra eers 'n domeinkenner vir hul mening.
+
+00:06:42.800 --> 00:06:45.540
+Wat moet ek die projek noem?
+
+00:06:45.540 --> 00:06:47.680
+Dis 'n fliekbesprekingstelsel.
+
+00:06:47.680 --> 00:06:50.150
+Wat van net die fliekbesprekingstelsel?
+
+00:06:50.150 --> 00:06:51.430
+nee, ek wil nie
+
+00:06:51.430 --> 00:06:53.570
+Ek sal sorg vir die grootskaalse optredes
+
+00:06:53.570 --> 00:06:56.930
+Kom ons gaan met die fliekbesprekingstelsel. ja?
+
+00:06:56.930 --> 00:06:58.180
+wonderlik
+
+00:06:58.180 --> 00:06:59.950
+Baie dankie
+
+00:07:01.000 --> 00:07:05.230
+Domeinkundiges wil dalk projekname in Koreaans hê.
+
+00:07:05.580 --> 00:07:07.680
+Maar vanuit 'n ontwikkelaar se perspektief
+
+00:07:07.680 --> 00:07:09.990
+Alle terme, insluitend projekname
+
+00:07:09.990 --> 00:07:12.180
+Omdat dit direk in kode geïmplementeer word,
+
+00:07:12.600 --> 00:07:15.000
+Dit is makliker om dit in Engels te definieer indien moontlik.
+
+00:07:15.540 --> 00:07:19.510
+Dit is belangrik vir ontwikkelaars om die behoeftes van domeinkundiges getrou te volg, maar
+
+00:07:19.960 --> 00:07:21.430
+Met inagneming van die hele projek
+
+00:07:21.430 --> 00:07:23.930
+Ons het ook 'n verantwoordelikheid om dinge in 'n doeltreffende rigting te stuur.
+
+00:07:25.850 --> 00:07:27.760
+As jy op 'n naam vir jou projek besluit het
+
+00:07:27.760 --> 00:07:31.380
+Nou is dit tyd om uit te vind wie die Fliekbesprekingstelsel gebruik.
+
+00:07:32.020 --> 00:07:34.940
+Natuurlik moet jy 'n domeinkenner vir inligting hieroor vra.
+
+00:07:35.420 --> 00:07:38.740
+En ons vind dat ons kliënte en bestuurders het.
+
+00:07:40.820 --> 00:07:43.280
+Een van die elemente wat maklik is om in die vroeë stadiums van ontwerp mis te kyk, is
+
+00:07:43.280 --> 00:07:44.760
+Dit is 'n eksterne afhanklikheid
+
+00:07:45.340 --> 00:07:46.580
+Eksterne afhanklikhede is
+
+00:07:46.580 --> 00:07:49.210
+Dit kan 'n bestaande nalatenskapstelsel wees,
+
+00:07:49.660 --> 00:07:51.420
+Dit kan 'n betaalstelsel wees
+
+00:07:52.020 --> 00:07:53.670
+Hierdie afhanklikheidsverhouding is
+
+00:07:53.670 --> 00:07:56.760
+Omdat dit 'n groot impak op die algehele stelselontwerp kan hê.
+
+00:07:56.950 --> 00:08:00.150
+Dit is belangrik om dit so vroeg as moontlik te identifiseer.
+
+00:08:00.570 --> 00:08:01.240
+gelukkig
+
+00:08:01.820 --> 00:08:04.990
+Elemente soos betaalpoorte en ouer stelsels
+
+00:08:05.270 --> 00:08:07.730
+Omdat dit reeds in bestaande stelsels gebruik word
+
+00:08:07.990 --> 00:08:10.360
+Dit kan relatief maklik verstaan ​​word
+
+00:08:11.230 --> 00:08:14.410
+Een van die dinge wat maklik oor die hoof gesien kan word in 'n afhanklike verhouding is
+
+00:08:14.410 --> 00:08:16.090
+Daar is eksterne omgewingsfaktore
+
+00:08:16.900 --> 00:08:19.060
+Ons land is in dieselfde tydsone
+
+00:08:19.060 --> 00:08:22.430
+In 'n land met 'n groot landoppervlakte het elke teater 'n ander tydgleuf.
+
+00:08:23.190 --> 00:08:25.100
+Dan die fliekbesprekingstelsel
+
+00:08:25.100 --> 00:08:28.900
+Dit is onvermydelik dat dit deur omgewingsfaktore soos tydsones beïnvloed sal word.
+
+00:08:29.410 --> 00:08:32.760
+Hierdie faktore is nie geredelik sigbaar tensy jy die domeinkenner direk vra nie.
+
+00:08:32.760 --> 00:08:33.950
+Dis maklik om te mis
+
+00:08:34.740 --> 00:08:37.610
+Domeinkundiges is geneig om hierdie besonderhede oor die hoof te sien.
+
+00:08:37.610 --> 00:08:40.010
+Omdat die verduideliking dalk weggelaat kan word
+
+00:08:41.680 --> 00:08:43.640
+Aangesien die afhanklikheidsverhouding duidelik uiteengesit is
+
+00:08:43.640 --> 00:08:47.500
+Kom ons fokus nou op die interne aspekte van die rolprentbesprekingstelsel.
+
+00:08:48.430 --> 00:08:52.230
+Eerstens, wat doen die kliënt in die Fliekbesprekingstelsel?
+
+00:08:52.230 --> 00:08:54.230
+Kom ons vra die domeinkundiges
+
+00:08:55.800 --> 00:08:57.880
+Wat doen kliënte?
+
+00:08:57.880 --> 00:08:59.970
+Kliënte soek na flieks,
+
+00:08:59.970 --> 00:09:01.450
+Bekyk fliekbesonderhede,
+
+00:09:01.450 --> 00:09:02.910
+Kies 'n siftingstyd,
+
+00:09:02.910 --> 00:09:04.450
+Kies jou sitplek,
+
+00:09:04.450 --> 00:09:05.920
+Bespreek fliekkaartjies,
+
+00:09:05.920 --> 00:09:07.610
+Gaan besprekingsbesonderhede na,
+
+00:09:07.610 --> 00:09:10.180
+Doen dinge soos om 'n bespreking te kanselleer
+
+00:09:10.180 --> 00:09:15.750
+Is die keuse van 'n vertoningstyd en die keuse van 'n sitplek deel van die besprekingsproses vir fliekkaartjies?
+
+00:09:15.750 --> 00:09:18.880
+En om fliekkaartjies te bespreek, om besprekings te kanselleer
+
+00:09:18.880 --> 00:09:22.210
+Koop jy immers nie net 'n kaartjie en kry 'n terugbetaling nie?
+
+00:09:22.210 --> 00:09:23.620
+jy is reg
+
+00:09:23.620 --> 00:09:25.030
+Dis reg
+
+00:09:25.480 --> 00:09:27.880
+Omdat dit nou 'n bekende domein is
+
+00:09:27.880 --> 00:09:31.240
+Kies 'n vertoningstyd en kies jou sitplekke
+
+00:09:31.240 --> 00:09:33.200
+Is dit deel van die besprekingsproses vir fliekkaartjies?
+
+00:09:33.200 --> 00:09:34.530
+Ek kon vra
+
+00:09:34.980 --> 00:09:37.220
+Maar as dit 'n onbekende domein is,
+
+00:09:37.410 --> 00:09:40.160
+Ontleding van elke gebruiksgeval in detail
+
+00:09:40.520 --> 00:09:43.330
+Jy sal die verfyningsproses 'n paar keer herhaal.
+
+00:09:43.790 --> 00:09:45.350
+Afhangende van die projeksituasie
+
+00:09:45.350 --> 00:09:48.080
+Jy kan hierdie proses 'n paar keer herhaal,
+
+00:09:48.080 --> 00:09:50.580
+Hoe meer jy jou tyd neem en noukeurig analiseer,
+
+00:09:50.580 --> 00:09:54.190
+Verminder probeerslae tydens die ontwerp- en implementeringsfases.
+
+00:09:55.850 --> 00:09:57.530
+Gebaseer op die gesprek tot dusver
+
+00:09:57.530 --> 00:10:00.970
+Ons het ons kliënte se gebruiksgevalle in vier kategorieë georganiseer:
+
+00:10:02.960 --> 00:10:04.470
+Volgende is die administrateur
+
+00:10:05.190 --> 00:10:08.850
+Die administrateur kan sien dat daar vyf bestuursitems is:
+
+00:10:09.440 --> 00:10:13.620
+Persoonlik is ek versigtig om die woord "Bestuur" in ontwikkeling te gebruik.
+
+00:10:14.360 --> 00:10:16.980
+Bestuur is 'n te breë uitdrukking
+
+00:10:16.980 --> 00:10:19.030
+Dit is onduidelik wat jy doen
+
+00:10:19.640 --> 00:10:20.950
+Dis ook dieselfde hier
+
+00:10:21.370 --> 00:10:23.760
+Hoe presies word dit bestuur?
+
+00:10:23.760 --> 00:10:24.810
+Ek weet nie
+
+00:10:25.930 --> 00:10:27.620
+Deur met domeinkundiges te praat
+
+00:10:27.620 --> 00:10:31.220
+Elke bestuursitem is uitgebrei na 'n spesifieke gebruiksgeval.
+
+00:10:31.900 --> 00:10:33.660
+As dit 'n werklike projek is
+
+00:10:33.660 --> 00:10:35.890
+Daar is waarskynlik meer gebruiksgevalle as hierdie.
+
+00:10:36.150 --> 00:10:39.000
+Hier het ek dit vereenvoudig vir verduideliking.
+
+00:10:39.860 --> 00:10:42.700
+Wat belangrik is om hier op te let, is dat wanneer jy 'n looptyd skep,
+
+00:10:43.020 --> 00:10:45.900
+Jy kan sien dat die kaartjie ook geskep is
+
+00:10:46.960 --> 00:10:49.200
+En wanneer jy 'n kaartjie koop of terugbetaal
+
+00:10:49.490 --> 00:10:53.910
+Jy kan ook sien dat ons 'n eksterne diens genaamd 'n betalingsportaal gebruik.
+
+00:10:55.890 --> 00:10:58.670
+Ek het die gebruiksgevalle van kliënte en bestuurders gekombineer.
+
+00:10:59.350 --> 00:11:01.730
+As jy so na die hele gebruiksgeval kyk
+
+00:11:01.730 --> 00:11:02.900
+Iets voel leeg
+
+00:11:03.890 --> 00:11:05.840
+Daar is 'n opsie om 'n teater by te voeg
+
+00:11:05.840 --> 00:11:08.720
+Ek sien niks soos Search Theater nie.
+
+00:11:09.410 --> 00:11:12.130
+Dit lyk asof daar heelwat gebruiksgevalle is wat weggelaat word.
+
+00:11:12.770 --> 00:11:15.980
+Want vanuit 'n domeinkenner se perspektief is daar baie om te verduidelik.
+
+00:11:15.980 --> 00:11:17.950
+Hierdie gebruiksgeval, wat so voor die hand liggend lyk,
+
+00:11:18.150 --> 00:11:19.810
+Jy kan die verduideliking weglaat
+
+00:11:20.770 --> 00:11:23.460
+So, wat van vanuit 'n ontwikkelaar se perspektief?
+
+00:11:24.400 --> 00:11:28.290
+Dit is beter om eenvoudige nuusgevalle soos die soek na 'n teater weg te laat.
+
+00:11:28.290 --> 00:11:30.700
+Sou dit nie meer nuttig wees vir dokumentbestuur nie?
+
+00:11:31.720 --> 00:11:32.870
+As dit backend-ontwerp is
+
+00:11:32.870 --> 00:11:35.920
+Eenvoudige gebruiksgevalle soos om na 'n teater te soek
+
+00:11:35.920 --> 00:11:37.760
+Ek dink dis oukei om dit oor te slaan
+
+00:11:38.600 --> 00:11:41.570
+Wat ek sê, is dat dit nie te laat is om tydens die implementeringsfase te reageer nie.
+
+00:11:42.370 --> 00:11:44.310
+Maar as dit 'n regte projek is
+
+00:11:44.310 --> 00:11:48.450
+Vir skermbeplanners is hierdie gebruiksgevalle 'n goeie beginpunt.
+
+00:11:49.250 --> 00:11:52.300
+Die beplanner het gekyk na die gebruiksgeval van die soek na 'n teater.
+
+00:11:52.300 --> 00:11:55.300
+Hoe moet ek dit moontlik maak om na teaters te soek?
+
+00:11:55.300 --> 00:11:56.600
+Jy sal kan dink
+
+00:11:58.000 --> 00:12:00.880
+Wanneer jy die diagramme in een kombineer, lyk dit ingewikkeld.
+
+00:12:01.490 --> 00:12:05.150
+As dit 'n werklike projek was, sou dit baie meer ingewikkeld wees.
+
+00:12:05.720 --> 00:12:08.240
+In hierdie geval is daar geen nodigheid om 'n samesmelting te forseer nie.
+
+00:12:08.810 --> 00:12:13.910
+Ek het hulle so pas hier saamgevoeg om te wys dat daar ontbrekende gevalle is.
+
+00:12:16.020 --> 00:12:18.490
+Ek het al die ontbrekende gevalle ingevul
+
+00:12:19.200 --> 00:12:21.880
+Ek het 'n gebruiksgeval waar die verbinding met die akteur weggelaat word.
+
+00:12:22.290 --> 00:12:25.720
+Dit geld vir beide kliënte en bestuurders.
+
+00:12:26.400 --> 00:12:29.480
+En vir die gemak van implementering het ek dit in Engels geskryf.
+
+00:12:31.370 --> 00:12:34.160
+Dis nou oukei, want dis 'n klein projekkie.
+
+00:12:34.160 --> 00:12:36.160
+As die projek groot en kompleks is
+
+00:12:36.160 --> 00:12:38.980
+Waar moet 'n domeinkenner begin verduidelik?
+
+00:12:38.980 --> 00:12:40.380
+Dit mag dalk moeilik wees
+
+00:12:41.280 --> 00:12:43.300
+Wat doen 'n administrateur?
+
+00:12:43.300 --> 00:12:44.700
+Dis baie werk
+
+00:12:44.700 --> 00:12:46.620
+Soos verwag van die bestuurder
+
+00:12:47.620 --> 00:12:49.750
+In hierdie geval, kan ons die akteurs onderverdeel?
+
+00:12:49.750 --> 00:12:52.340
+Dit is ook 'n goeie idee om te hersien
+
+00:12:53.140 --> 00:12:54.790
+Aanvanklik is ek 'n administrateur genoem
+
+00:12:54.790 --> 00:12:57.400
+Dit mag moontlik wees om volgens rol te onderverdeel
+
+00:12:58.520 --> 00:13:00.820
+En die gebruik van die fliekbesprekingstelsel
+
+00:13:00.820 --> 00:13:02.870
+Daar mag dalk eksterne dienste wees
+
+00:13:03.660 --> 00:13:05.340
+As ons die akteurs so segmenteer,
+
+00:13:05.340 --> 00:13:09.420
+Domeinkundiges sal meer sistematiese inligting kan verskaf.
+
+00:13:10.350 --> 00:13:14.000
+Natuurlik, dit is slegs een voorbeeld van die ontleding van 'n komplekse domein.
+
+00:13:14.540 --> 00:13:17.320
+Daar mag dalk ander goeie maniere wees
+
+00:13:17.960 --> 00:13:21.740
+Dit is belangrik om buigsaam te reageer, afhangende van die situasie.
+
+00:13:24.250 --> 00:13:25.060
+Dit is die gevolgtrekking
+
+00:13:25.950 --> 00:13:29.170
+Hierdie keer sal ons 'n gebruiksgevaldiagram gebruik
+
+00:13:29.170 --> 00:13:30.840
+Stel doelwitte vir die projek
+
+00:13:31.230 --> 00:13:33.700
+Ek het deur die aanvanklike stadiums van analise gegaan.
+
+00:13:34.880 --> 00:13:38.010
+Persoonlik, gedurende die hele ontwikkelingsproses
+
+00:13:38.010 --> 00:13:40.060
+Ek dink ontleding is die moeilikste
+
+00:13:40.570 --> 00:13:44.250
+Omdat ons die mees abstrakte en vae konsepte moet organiseer.
+
+00:13:45.020 --> 00:13:47.650
+Volgende keer sal ons na die hoofgebruiksgevalle kyk
+
+00:13:47.650 --> 00:13:49.470
+Kom ons analiseer dit in meer besonderhede
+
+00:13:50.300 --> 00:13:52.100
+Dankie vir jou harde werk tot dusver.
+

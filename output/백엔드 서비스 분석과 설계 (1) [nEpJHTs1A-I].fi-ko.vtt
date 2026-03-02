@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: fi
+
+00:00:00.000 --> 00:00:02.020
+Hei, tämä on Manner-koodi.
+
+00:00:03.290 --> 00:00:05.350
+Ohjelmisto on monimutkaista
+
+00:00:06.650 --> 00:00:08.890
+Ensinnäkin on paljon koodia, joka pitää kirjoittaa.
+
+00:00:09.760 --> 00:00:12.710
+Vain esimerkkiprojektit, jotka loin tätä sarjaa varten
+
+00:00:12.710 --> 00:00:15.270
+Koodi on yli 12 000 riviä pitkä.
+
+00:00:16.330 --> 00:00:18.320
+Jos kyseessä on todellinen operatiivinen palvelu
+
+00:00:18.320 --> 00:00:21.530
+Vaikka kyseessä olisi pieni palvelu, se ylittää helposti 100 000 linjaa.
+
+00:00:22.130 --> 00:00:25.300
+Satatuhatta riviä riittää täyttämään kaksikymmentä romaania.
+
+00:00:26.870 --> 00:00:29.560
+Pitkän koodin kirjoittaminen ei tarkoita, että se olisi ohi.
+
+00:00:30.330 --> 00:00:32.540
+Sinun on jatkuvasti korjattava kirjoittamaasi koodia.
+
+00:00:33.400 --> 00:00:35.800
+Jos korjaat A:n, B hajoaa.
+
+00:00:35.800 --> 00:00:39.130
+Jos korjaat B:n, A ja C hajoavat.
+
+00:00:41.090 --> 00:00:44.260
+Analogisesti sanottuna se on kuin olisi jumissa Rasputicassa ja itkisi.
+
+00:00:44.260 --> 00:00:46.360
+Voisi sanoa, että tilanne on samanlainen kuin hevosen kohdalla.
+
+00:00:47.330 --> 00:00:50.550
+Tässä vaiheessa tunnet suunnittelun tarpeen.
+
+00:00:52.580 --> 00:00:55.010
+Mutta kun oikeasti yrität kirjoittaa suunnitteludokumenttia,
+
+00:00:55.500 --> 00:00:58.490
+Ilmaisee päässäsi olevat ajatukset konkreettisesti
+
+00:00:58.790 --> 00:01:01.260
+Tulet huomaamaan, ettei se olekaan niin helppoa kuin luulet.
+
+00:01:01.890 --> 00:01:05.600
+Jopa nuotit, jotka ovat ääntä tai musiikkia visuaalisesti tallentava dokumentti,
+
+00:01:05.600 --> 00:01:06.700
+Tämä on näin monimutkaista
+
+00:01:07.520 --> 00:01:10.610
+Ei vain musiikkia, vaan myös talous ja logistiikka
+
+00:01:10.610 --> 00:01:14.060
+Monipuolisempia käsitteitä ja abstrakteja käyttäjävaatimuksia
+
+00:01:14.060 --> 00:01:17.220
+Sitä ei ole helppo ilmaista tietyllä mallilla.
+
+00:01:18.530 --> 00:01:19.490
+Onneksi
+
+00:01:19.770 --> 00:01:23.200
+Abstraktien käsitteiden mallintamisen vaikeuden voittamiseksi
+
+00:01:23.540 --> 00:01:26.860
+UML syntyi 1990-luvun lopulla.
+
+00:01:27.730 --> 00:01:30.120
+Sitä johti Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Käytämme UML:ää ennakoinnin kanssa
+
+00:01:34.980 --> 00:01:36.990
+Piirrä luokkakaavio
+
+00:01:36.990 --> 00:01:38.760
+Piirretäänpä myös sekvenssikaavio
+
+00:01:39.430 --> 00:01:39.980
+kuitenkin
+
+00:01:40.360 --> 00:01:43.160
+Kun oikeasti yritin suunnitella sitä, se oli erilaista kuin sen suora koodaaminen.
+
+00:01:43.160 --> 00:01:45.130
+Ei se näytä olevan kovin erilaista
+
+00:01:45.590 --> 00:01:46.520
+Miksi niin?
+
+00:01:47.350 --> 00:01:50.910
+Tämä johtuu siitä, että ajatteluprosessi on tottunut toteutukseen.
+
+00:01:51.290 --> 00:01:54.170
+Sen sijaan, että abstrakteista käsitteistä tehtäisiin konkreettisempia,
+
+00:01:54.490 --> 00:01:57.590
+Koska se kääntää toteutustason ajattelun UML:ksi.
+
+00:01:58.520 --> 00:02:00.270
+Vain koska osaat lukea nuotteja
+
+00:02:00.270 --> 00:02:01.950
+Ei ole niin, että osaisin säveltää sitä
+
+00:02:02.390 --> 00:02:03.850
+Vain koska opit UML:n
+
+00:02:03.850 --> 00:02:06.170
+Ei siinä ole kyse suunnittelutaitojen kehittämisestä.
+
+00:02:07.700 --> 00:02:09.300
+Joten tässä sarjassa
+
+00:02:09.300 --> 00:02:11.580
+Todellisten projektien kautta
+
+00:02:11.580 --> 00:02:14.420
+Kuinka konkretisoida abstrakteja vaatimuksia
+
+00:02:14.420 --> 00:02:16.290
+Voitko yhdistää koodin?
+
+00:02:16.290 --> 00:02:18.010
+Haluaisin näyttää sinulle henkilökohtaisesti
+
+00:02:18.530 --> 00:02:20.930
+Valitsin elokuvalippujen varaamisen verkkotunnuksen perusteella
+
+00:02:21.370 --> 00:02:25.200
+Elokuvalippujen varaaminen on helppo ymmärtää, koska ne ovat enimmäkseen tuttuja verkkotunnuksia.
+
+00:02:25.200 --> 00:02:29.710
+Sisältää erilaisia ​​toimintoja, kuten kirjautumisen, maksamisen ja istumapaikan valinnan.
+
+00:02:29.710 --> 00:02:31.580
+Vaikuttaa hyvältä esimerkiltä
+
+00:02:33.600 --> 00:02:36.890
+Pohjimmiltaan tämän artikkelin aihe on ohjelmistosuunnittelu, mutta
+
+00:02:36.890 --> 00:02:40.350
+Käsittelemme myös testiohjattua kehitystä.
+
+00:02:41.210 --> 00:02:44.890
+Nykyaikaiset kehitysympäristöt tukevat natiivisti testaustyökaluja.
+
+00:02:45.600 --> 00:02:48.320
+Vaikka katsoisimmekin kuuluisia avoimen lähdekoodin projekteja,
+
+00:02:48.320 --> 00:02:51.130
+Meillä on tietty testaustaso.
+
+00:02:51.740 --> 00:02:56.200
+Tämä todennäköisesti tarkoittaa, että testaaminen on erittäin tärkeää ja hyödyllistä.
+
+00:02:56.870 --> 00:02:58.120
+Mutta todellisuudessa
+
+00:02:58.120 --> 00:03:02.590
+Monissa tapauksissa paitsi TDD, myös edes testiautomaatio ei ole toteutettu kunnolla.
+
+00:03:03.190 --> 00:03:06.260
+Merkityksellisten testien kirjoittaminen ensin ilman minkäänlaista valmistautumista on
+
+00:03:06.260 --> 00:03:07.540
+Se ei ole koskaan helppoa
+
+00:03:08.410 --> 00:03:12.340
+Tämä vaatii ohjelmistosuunnittelun yhdistettyjä kykyjä.
+
+00:03:13.320 --> 00:03:16.270
+Joten on parempi käsitellä suunnittelua ja TDD:tä yhdessä.
+
+00:03:16.270 --> 00:03:18.180
+Pidin sitä tehokkaana
+
+00:03:20.120 --> 00:03:23.450
+Aloitetaanpa siis projektin ensimmäinen tapaaminen.
+
+00:03:24.150 --> 00:03:26.470
+Koska tämä on pieni projekti
+
+00:03:26.470 --> 00:03:28.090
+Mukana on kaksi osallistujaa
+
+00:03:28.790 --> 00:03:32.340
+Vasemmalla oleva on verkkotunnusasiantuntija ja oikealla oleva kehittäjä.
+
+00:03:34.550 --> 00:03:37.790
+Asiantuntijoilla on sananvaltaa järjestelmissä, joita meidän on rakennettava.
+
+00:03:37.790 --> 00:03:39.280
+Se kertoo paljon tarinoita
+
+00:03:40.340 --> 00:03:42.160
+Teatteri, jota pyöritämme
+
+00:03:42.160 --> 00:03:44.710
+Heitä on noin neljätuhatta eri puolilla maata.
+
+00:03:44.710 --> 00:03:47.220
+Se saattaa tulevaisuudessa entisestään kasvaa.
+
+00:03:47.220 --> 00:03:50.480
+Tällä hetkellä vain elokuvalippujen varaustoimintoa tuetaan.
+
+00:03:50.480 --> 00:03:54.510
+Aiomme lisätä lipunmyyntiä suurempiin esityksiin myöhemmin.
+
+00:03:54.510 --> 00:03:58.940
+Ja tärkeintä on, että sinun ei pitäisi koskaan varata paikkoja kahdesti.
+
+00:03:58.940 --> 00:04:03.250
+Aiemmin asiakaspalvelukeskuksilla oli todella vaikeuksia tällaisten ongelmien kanssa.
+
+00:04:03.250 --> 00:04:07.670
+Koska elokuvatietoa ja arvosteludataa on jo kertynyt paljon.
+
+00:04:07.670 --> 00:04:11.090
+Näiden tietojen on pysyttävä ehjinä.
+
+00:04:12.090 --> 00:04:14.730
+Keskustelu on täällä hyvin järjestettyä, mutta
+
+00:04:14.890 --> 00:04:16.960
+Itse asiassa tietoa on enemmänkin
+
+00:04:16.960 --> 00:04:18.600
+Se toimitetaan epäjärjestyksessä
+
+00:04:19.470 --> 00:04:22.110
+Mutta tarina, joka paljastuu projektin alussa, on
+
+00:04:22.110 --> 00:04:23.780
+Koska se on tärkein vaatimus
+
+00:04:23.780 --> 00:04:25.320
+Sinun täytyy kuunnella tarkkaan
+
+00:04:27.110 --> 00:04:29.810
+Kehittäjät kuuntelevat verkkotunnusasiantuntijoita
+
+00:04:29.810 --> 00:04:31.290
+Minulla on muutamia kysymyksiä
+
+00:04:32.290 --> 00:04:34.660
+Mainitsemasi laajamittainen esityslippujen varaustoiminto
+
+00:04:34.660 --> 00:04:36.910
+Milloin se lisätään?
+
+00:04:36.910 --> 00:04:39.910
+Pitäisikö tämä sisällyttää projektin sisältöön etukäteen?
+
+00:04:39.910 --> 00:04:43.590
+Tai haluaisin tietää, pitäisikö minun harkita sitä vielä
+
+00:04:43.590 --> 00:04:46.090
+Ja tarve ylläpitää olemassa olevia tietoja
+
+00:04:46.090 --> 00:04:48.940
+Tarkoittaako tämä, ettei tietokantajärjestelmää pitäisi muuttaa?
+
+00:04:48.940 --> 00:04:51.950
+Jakaako tietokantaa tällä hetkellä muut palvelut?
+
+00:04:53.580 --> 00:04:54.980
+Kuten DB:stä näkee,
+
+00:04:54.980 --> 00:04:57.290
+Koska verkkotunnusasiantuntijat eivät ole kehittäjiä.
+
+00:04:57.290 --> 00:04:59.430
+Tekninen ilmaus on epäselvä
+
+00:04:59.910 --> 00:05:02.890
+Kehittäjien kannattaa tarkistaa nämä asiat huolellisesti.
+
+00:05:04.230 --> 00:05:07.450
+Verkkotunnusasiantuntijat vastaavat kehittäjien kysymyksiin näin:
+
+00:05:08.330 --> 00:05:10.210
+Laajamittainen esityslippujen varaustoiminto
+
+00:05:10.210 --> 00:05:13.450
+Tarkkaa aikataulua ei vielä ole.
+
+00:05:13.450 --> 00:05:15.970
+Kuitenkin, kun ominaisuuksia lisätään tulevaisuudessa
+
+00:05:15.970 --> 00:05:18.700
+Jotta voit päivittää ilman suurempia vaikeuksia
+
+00:05:18.700 --> 00:05:22.600
+Mielestäni olisi hyvä, jos voisit tällä kertaa ottaa sen huomioon.
+
+00:05:22.600 --> 00:05:27.050
+Emme käytä tietokantaa mihinkään muuhun kuin palveluihimme.
+
+00:05:27.050 --> 00:05:32.840
+Järjestelmän vaihtaminen itsessään ei ole suuri ongelma, kunhan tiedot säilytetään hyvin.
+
+00:05:33.840 --> 00:05:35.080
+Kuultuaan tarinan
+
+00:05:35.080 --> 00:05:39.400
+En usko, että sinun tarvitsee huolehtia isosta show'sta.
+
+00:05:39.400 --> 00:05:40.790
+Se ei ole projektin laajuus
+
+00:05:40.790 --> 00:05:43.040
+Vaatimuksetkaan eivät ole selvät
+
+00:05:43.040 --> 00:05:44.930
+En tiedä milloin sitä tarvitsen, mutta
+
+00:05:44.930 --> 00:05:47.710
+Se on ongelma, jota meidän on tarkasteltava myöhemmin uudelleen.
+
+00:05:48.920 --> 00:05:50.910
+Vaikka sitä ei olisi kirjattu asiakirjaan
+
+00:05:50.910 --> 00:05:54.880
+Asiantuntijat antavat myös vastauksen, että he harkitsevat laajamittaisia ​​esityksiä.
+
+00:05:54.880 --> 00:05:55.960
+Et saa unohtaa
+
+00:05:56.740 --> 00:05:58.320
+Kunnossa
+
+00:05:58.320 --> 00:06:00.630
+Sitten laajamittainen esityslippujen varaustoiminto
+
+00:06:00.630 --> 00:06:04.500
+En asettaisi sitä tämän projektin tärkeimpien prioriteettien joukkoon.
+
+00:06:04.500 --> 00:06:08.220
+Sen sijaan se helpottaa toiminnallisuuden laajentamista myöhemmin kehitysprosessissa.
+
+00:06:08.220 --> 00:06:10.190
+Pidän siitä hyvää huolta
+
+00:06:10.190 --> 00:06:12.840
+Älä huoli. Luota vain minuun
+
+00:06:13.840 --> 00:06:15.960
+On tärkeää tulla hyvin toimeen
+
+00:06:17.980 --> 00:06:19.500
+Tähänastisen keskustelumme perusteella
+
+00:06:19.500 --> 00:06:22.700
+Tärkeimmät prioriteetit on tiivistetty seuraavasti:
+
+00:06:23.220 --> 00:06:25.890
+Nämä ovat verkkotunnusasiantuntijoiden toimittamia tietoja.
+
+00:06:25.890 --> 00:06:28.410
+Tulkinta ja organisointi kehittäjän näkökulmasta
+
+00:06:28.410 --> 00:06:29.810
+Aloita projekti
+
+00:06:31.700 --> 00:06:32.860
+Verkkotunnusasiantuntijoiden kanssa
+
+00:06:32.860 --> 00:06:34.980
+Kun olet päättänyt projektisi tavoitteista,
+
+00:06:35.620 --> 00:06:37.980
+Nyt on aika nimetä projektisi.
+
+00:06:38.750 --> 00:06:41.840
+Kysy ensin mielipidettä verkkotunnusasiantuntijalta.
+
+00:06:42.800 --> 00:06:45.540
+Millä nimellä projektin pitäisi nimetä?
+
+00:06:45.540 --> 00:06:47.680
+Se on elokuvien varausjärjestelmä.
+
+00:06:47.680 --> 00:06:50.150
+Entäpä pelkkä elokuvien varausjärjestelmä?
+
+00:06:50.150 --> 00:06:51.430
+ei, en halua
+
+00:06:51.430 --> 00:06:53.570
+Minä hoidan laajat esitykset
+
+00:06:53.570 --> 00:06:56.930
+Käydään läpi elokuvien varausjärjestelmä. kyllä?
+
+00:06:56.930 --> 00:06:58.180
+mahtava
+
+00:06:58.180 --> 00:06:59.950
+Kiitos paljon
+
+00:07:01.000 --> 00:07:05.230
+Asiantuntijat saattavat haluta projektien nimet koreaksi.
+
+00:07:05.580 --> 00:07:07.680
+Mutta kehittäjän näkökulmasta
+
+00:07:07.680 --> 00:07:09.990
+Kaikki termit, mukaan lukien projektien nimet
+
+00:07:09.990 --> 00:07:12.180
+Koska se toteutetaan suoraan koodissa,
+
+00:07:12.600 --> 00:07:15.000
+Englanniksi se on helpompi määritellä, jos mahdollista.
+
+00:07:15.540 --> 00:07:19.510
+On tärkeää, että kehittäjät seuraavat tarkasti toimialueen asiantuntijoiden tarpeita, mutta
+
+00:07:19.960 --> 00:07:21.430
+Koko projektin huomioon ottaen
+
+00:07:21.430 --> 00:07:23.930
+Meillä on myös vastuu ohjata asioita tehokkaaseen suuntaan.
+
+00:07:25.850 --> 00:07:27.760
+Jos olet jo päättänyt projektille nimen
+
+00:07:27.760 --> 00:07:31.380
+Nyt on aika selvittää, ketkä käyttävät elokuvavarausjärjestelmää.
+
+00:07:32.020 --> 00:07:34.940
+Tietenkin sinun kannattaa kysyä tästä verkkotunnusasiantuntijalta.
+
+00:07:35.420 --> 00:07:38.740
+Ja huomaamme, että meillä on asiakkaita ja johtajia.
+
+00:07:40.820 --> 00:07:43.280
+Yksi suunnittelun alkuvaiheessa helposti unohtuvista tekijöistä on
+
+00:07:43.280 --> 00:07:44.760
+Se on ulkoinen riippuvuus
+
+00:07:45.340 --> 00:07:46.580
+Ulkoiset riippuvuudet ovat
+
+00:07:46.580 --> 00:07:49.210
+Se voi olla olemassa oleva vanha järjestelmä,
+
+00:07:49.660 --> 00:07:51.420
+Se voisi olla maksujärjestelmä
+
+00:07:52.020 --> 00:07:53.670
+Tämä riippuvuussuhde on
+
+00:07:53.670 --> 00:07:56.760
+Koska sillä voi olla suuri vaikutus koko järjestelmän suunnitteluun.
+
+00:07:56.950 --> 00:08:00.150
+On tärkeää tunnistaa se mahdollisimman varhaisessa vaiheessa.
+
+00:08:00.570 --> 00:08:01.240
+onneksi
+
+00:08:01.820 --> 00:08:04.990
+Elementtejä, kuten maksuyhdyskäytäviä ja perinteisiä järjestelmiä
+
+00:08:05.270 --> 00:08:07.730
+Koska sitä käytetään jo olemassa olevissa järjestelmissä.
+
+00:08:07.990 --> 00:08:10.360
+Se on suhteellisen helposti ymmärrettävissä
+
+00:08:11.230 --> 00:08:14.410
+Yksi asia, joka riippuvuussuhteessa on helppo unohtaa, on
+
+00:08:14.410 --> 00:08:16.090
+On olemassa ulkoisia ympäristötekijöitä
+
+00:08:16.900 --> 00:08:19.060
+Maamme on samassa aikavyöhykkeessä
+
+00:08:19.060 --> 00:08:22.430
+Laajapinta-alaisessa maassa jokaisella teatterilla on eri aikaväli.
+
+00:08:23.190 --> 00:08:25.100
+Sitten elokuvien varausjärjestelmä
+
+00:08:25.100 --> 00:08:28.900
+On väistämätöntä, että siihen vaikuttavat ympäristötekijät, kuten aikavyöhykkeet.
+
+00:08:29.410 --> 00:08:32.760
+Nämä tekijät eivät ole helposti ilmeisiä, ellet kysy niitä suoraan verkkotunnusasiantuntijalta.
+
+00:08:32.760 --> 00:08:33.950
+On helppo olla huomaamatta
+
+00:08:34.740 --> 00:08:37.610
+Verkkotunnusasiantuntijat usein jättävät nämä yksityiskohdat huomiotta.
+
+00:08:37.610 --> 00:08:40.010
+Koska selitys voi jäädä pois
+
+00:08:41.680 --> 00:08:43.640
+Koska riippuvuussuhde oli selvästi ilmaistu
+
+00:08:43.640 --> 00:08:47.500
+Keskitytään nyt elokuvan varausjärjestelmän sisäisiin osiin.
+
+00:08:48.430 --> 00:08:52.230
+Ensinnäkin, mitä asiakas tekee elokuvavarausjärjestelmässä?
+
+00:08:52.230 --> 00:08:54.230
+Kysytään asiaa verkkotunnusasiantuntijoilta
+
+00:08:55.800 --> 00:08:57.880
+Mitä asiakkaat tekevät?
+
+00:08:57.880 --> 00:08:59.970
+Asiakkaat etsivät elokuvia,
+
+00:08:59.970 --> 00:09:01.450
+Katso elokuvan tiedot,
+
+00:09:01.450 --> 00:09:02.910
+Valitse seulonta-aika,
+
+00:09:02.910 --> 00:09:04.450
+Valitse istumapaikkasi,
+
+00:09:04.450 --> 00:09:05.920
+Varaa elokuvaliput,
+
+00:09:05.920 --> 00:09:07.610
+Tarkista varauksen tiedot,
+
+00:09:07.610 --> 00:09:10.180
+Tee asioita, kuten peruuta varaus
+
+00:09:10.180 --> 00:09:15.750
+Ovatko esitysajan ja istumapaikan valitseminen osa elokuvalippujen varausprosessia?
+
+00:09:15.750 --> 00:09:18.880
+Ja varata elokuvalippuja, peruuttaa varauksia
+
+00:09:18.880 --> 00:09:22.210
+Eiköhän se ole vain lipun ostamista ja rahan palauttamista?
+
+00:09:22.210 --> 00:09:23.620
+olet oikeassa
+
+00:09:23.620 --> 00:09:25.030
+Aivan oikein
+
+00:09:25.480 --> 00:09:27.880
+Koska se on nyt tuttu verkkotunnus
+
+00:09:27.880 --> 00:09:31.240
+Valitse näytösaika ja valitse paikkasi
+
+00:09:31.240 --> 00:09:33.200
+Onko tämä osa elokuvalippujen varausprosessia?
+
+00:09:33.200 --> 00:09:34.530
+Voisin kysyä
+
+00:09:34.980 --> 00:09:37.220
+Mutta jos kyseessä on tuntematon verkkotunnus,
+
+00:09:37.410 --> 00:09:40.160
+Kunkin käyttötapauksen yksityiskohtainen analysointi
+
+00:09:40.520 --> 00:09:43.330
+Toistat jalostusprosessin useita kertoja.
+
+00:09:43.790 --> 00:09:45.350
+Projektin tilanteesta riippuen
+
+00:09:45.350 --> 00:09:48.080
+Voit toistaa tämän prosessin useita kertoja,
+
+00:09:48.080 --> 00:09:50.580
+Mitä enemmän käytät aikaa ja analysoit huolellisesti,
+
+00:09:50.580 --> 00:09:54.190
+Vähennä kokeiluja ja erehdyksiä suunnittelu- ja toteutusvaiheissa.
+
+00:09:55.850 --> 00:09:57.530
+Tähänastisen keskustelun perusteella
+
+00:09:57.530 --> 00:10:00.970
+Olemme järjestäneet asiakkaidemme käyttötapaukset neljään luokkaan:
+
+00:10:02.960 --> 00:10:04.470
+Seuraavaksi on järjestelmänvalvoja
+
+00:10:05.190 --> 00:10:08.850
+Ylläpitäjä näkee, että hallintakohteita on viisi:
+
+00:10:09.440 --> 00:10:13.620
+Henkilökohtaisesti olen varovainen sanan "hallitse" käyttämisessä kehitystyössä.
+
+00:10:14.360 --> 00:10:16.980
+Hallinta on liian laaja ilmaus
+
+00:10:16.980 --> 00:10:19.030
+On epäselvää, mitä teet
+
+00:10:19.640 --> 00:10:20.950
+Sama juttu täälläkin
+
+00:10:21.370 --> 00:10:23.760
+Miten sitä tarkalleen ottaen hallitaan?
+
+00:10:23.760 --> 00:10:24.810
+En tiedä
+
+00:10:25.930 --> 00:10:27.620
+Keskustelemalla verkkotunnusasiantuntijoiden kanssa
+
+00:10:27.620 --> 00:10:31.220
+Jokainen hallintakohta on laajennettu tiettyyn käyttötapaukseen.
+
+00:10:31.900 --> 00:10:33.660
+Jos kyseessä on oikea projekti
+
+00:10:33.660 --> 00:10:35.890
+Käyttötapauksia on luultavasti enemmänkin kuin tämä.
+
+00:10:36.150 --> 00:10:39.000
+Tässä olen yksinkertaistanut sen selityksen vuoksi.
+
+00:10:39.860 --> 00:10:42.700
+Tärkeää on huomata, että kun luot suoritusaikaa,
+
+00:10:43.020 --> 00:10:45.900
+Näet, että tiketti on myös luotu
+
+00:10:46.960 --> 00:10:49.200
+Ja lippua ostettaessa tai palautettaessa
+
+00:10:49.490 --> 00:10:53.910
+Näet myös, että käytämme ulkoista palvelua, jota kutsutaan maksuyhdyskäytäväksi.
+
+00:10:55.890 --> 00:10:58.670
+Yhdistin asiakkaiden ja esimiesten käyttötapaukset.
+
+00:10:59.350 --> 00:11:01.730
+Tarkastelemalla koko käyttötapausta näin
+
+00:11:01.730 --> 00:11:02.900
+Jokin tuntuu tyhjältä
+
+00:11:03.890 --> 00:11:05.840
+On mahdollisuus lisätä teatteri
+
+00:11:05.840 --> 00:11:08.720
+En näe mitään Search Theaterin kaltaista
+
+00:11:09.410 --> 00:11:12.130
+Näyttää siltä, ​​että käyttötapauksia on jätetty melko monta pois.
+
+00:11:12.770 --> 00:11:15.980
+Koska verkkotunnusasiantuntijan näkökulmasta selitettävää on paljon.
+
+00:11:15.980 --> 00:11:17.950
+Tämä käyttötapaus, joka vaikuttaa niin itsestään selvältä,
+
+00:11:18.150 --> 00:11:19.810
+Voit jättää selityksen pois
+
+00:11:20.770 --> 00:11:23.460
+Entä sitten kehittäjän näkökulmasta?
+
+00:11:24.400 --> 00:11:28.290
+On parempi jättää pois yksinkertaiset uutiset, kuten teatterin etsiminen.
+
+00:11:28.290 --> 00:11:30.700
+Eikö tämä olisi hyödyllisempää dokumenttienhallinnan kannalta?
+
+00:11:31.720 --> 00:11:32.870
+Jos kyseessä on taustajärjestelmän suunnittelu
+
+00:11:32.870 --> 00:11:35.920
+Yksinkertaiset käyttötapaukset, kuten teatterin etsiminen
+
+00:11:35.920 --> 00:11:37.760
+Mielestäni on ihan okei jättää se väliin
+
+00:11:38.600 --> 00:11:41.570
+Sanon siis, että ei ole liian myöhäistä reagoida toteutusvaiheessa.
+
+00:11:42.370 --> 00:11:44.310
+Mutta jos kyseessä on oikea projekti
+
+00:11:44.310 --> 00:11:48.450
+Näytön suunnittelijoille nämä käyttötapaukset ovat hyvä lähtökohta.
+
+00:11:49.250 --> 00:11:52.300
+Suunnittelija tarkasteli teatterin etsimisen käyttötapausta.
+
+00:11:52.300 --> 00:11:55.300
+Miten minun pitäisi mahdollistaa teattereiden hakeminen?
+
+00:11:55.300 --> 00:11:56.600
+Pystyt ajattelemaan
+
+00:11:58.000 --> 00:12:00.880
+Kun kaaviot yhdistetään yhdeksi, se näyttää monimutkaiselta.
+
+00:12:01.490 --> 00:12:05.150
+Jos kyseessä olisi todellinen projekti, se olisi paljon monimutkaisempi.
+
+00:12:05.720 --> 00:12:08.240
+Tässä tapauksessa yhdistämistä ei tarvitse pakottaa.
+
+00:12:08.810 --> 00:12:13.910
+Yhdistin ne tähän paljastaakseni, että tapauksia puuttuu.
+
+00:12:16.020 --> 00:12:18.490
+Täytin kaikki puuttuvat tapaukset
+
+00:12:19.200 --> 00:12:21.880
+Minulla on käyttötapaus, jossa yhteys toimijaan jätetään pois.
+
+00:12:22.290 --> 00:12:25.720
+Tämä koskee sekä asiakkaita että esimiestä.
+
+00:12:26.400 --> 00:12:29.480
+Ja toteutuksen helpottamiseksi kirjoitin sen englanniksi.
+
+00:12:31.370 --> 00:12:34.160
+Se on nyt ihan ok, koska kyseessä on pieni projekti.
+
+00:12:34.160 --> 00:12:36.160
+Jos projekti on suuri ja monimutkainen
+
+00:12:36.160 --> 00:12:38.980
+Mistä verkkotunnusasiantuntijan tulisi aloittaa selittäminen?
+
+00:12:38.980 --> 00:12:40.380
+Se voi olla vaikeaa
+
+00:12:41.280 --> 00:12:43.300
+Mitä järjestelmänvalvoja tekee?
+
+00:12:43.300 --> 00:12:44.700
+Se on paljon työtä
+
+00:12:44.700 --> 00:12:46.620
+Kuten johtajalta odotettiinkin
+
+00:12:47.620 --> 00:12:49.750
+Voimmeko tässä tapauksessa jakaa toimijat osiin?
+
+00:12:49.750 --> 00:12:52.340
+On myös hyvä idea tarkastella
+
+00:12:53.140 --> 00:12:54.790
+Aluksi minua kutsuttiin ylläpitäjäksi
+
+00:12:54.790 --> 00:12:57.400
+Se voi olla mahdollista jakaa roolin mukaan
+
+00:12:58.520 --> 00:13:00.820
+Ja käyttämällä elokuvavarausjärjestelmää
+
+00:13:00.820 --> 00:13:02.870
+Ulkopuolisia palveluita voi olla
+
+00:13:03.660 --> 00:13:05.340
+Jos jaamme toimijat tällä tavalla,
+
+00:13:05.340 --> 00:13:09.420
+Alan asiantuntijat pystyvät tarjoamaan systemaattisempaa tietoa.
+
+00:13:10.350 --> 00:13:14.000
+Tämä on tietenkin vain yksi esimerkki monimutkaisen alueen analysoinnista.
+
+00:13:14.540 --> 00:13:17.320
+Voi olla muitakin hyviä tapoja
+
+00:13:17.960 --> 00:13:21.740
+On tärkeää reagoida joustavasti tilanteen mukaan.
+
+00:13:24.250 --> 00:13:25.060
+Tämä on johtopäätös
+
+00:13:25.950 --> 00:13:29.170
+Tällä kertaa käytämme käyttötapauskaaviota
+
+00:13:29.170 --> 00:13:30.840
+Aseta projektille tavoitteet
+
+00:13:31.230 --> 00:13:33.700
+Olen käynyt läpi analyysin alkuvaiheet.
+
+00:13:34.880 --> 00:13:38.010
+Henkilökohtaisesti koko kehitysprosessin ajan
+
+00:13:38.010 --> 00:13:40.060
+Mielestäni analyysi on vaikeinta
+
+00:13:40.570 --> 00:13:44.250
+Koska meidän on järjestettävä abstrakteimmat ja epämääräisimmät käsitteet.
+
+00:13:45.020 --> 00:13:47.650
+Seuraavalla kerralla tarkastelemme tärkeimpiä käyttötapauksia
+
+00:13:47.650 --> 00:13:49.470
+Analysoidaan sitä tarkemmin
+
+00:13:50.300 --> 00:13:52.100
+Kiitos ahkerasta työstäsi tähän mennessä.
+

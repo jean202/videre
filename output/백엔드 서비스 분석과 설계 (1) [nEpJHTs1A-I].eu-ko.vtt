@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: eu
+
+00:00:00.000 --> 00:00:02.020
+Kaixo, hau Manner Code da.
+
+00:00:03.290 --> 00:00:05.350
+Softwarea konplexua da
+
+00:00:06.650 --> 00:00:08.890
+Lehenik eta behin, idatzi beharreko kode asko dago.
+
+00:00:09.760 --> 00:00:12.710
+Serie honetarako sortu ditudan adibide proiektuak besterik ez
+
+00:00:12.710 --> 00:00:15.270
+Kodeak 12.000 lerro baino gehiago ditu.
+
+00:00:16.330 --> 00:00:18.320
+Benetako zerbitzu operatiboa bada
+
+00:00:18.320 --> 00:00:21.530
+Zerbitzu txikia bada ere, erraz gaindituko ditu 100.000 lerroak.
+
+00:00:22.130 --> 00:00:25.300
+Ehun mila lerro nahikoa dira hogei eleberri betetzeko.
+
+00:00:26.870 --> 00:00:29.560
+Kode luzea idazteak ez du esan nahi amaitu denik.
+
+00:00:30.330 --> 00:00:32.540
+Idazten duzun kodea konpontzen jarraitu behar duzu.
+
+00:00:33.400 --> 00:00:35.800
+A konpontzen baduzu, B hautsi egiten da.
+
+00:00:35.800 --> 00:00:39.130
+B konpontzen baduzu, A eta C hautsi egingo dira.
+
+00:00:41.090 --> 00:00:44.260
+Analogia bat erabiltzeko, Rasputica batean harrapatuta egotea eta negar egitea bezala da.
+
+00:00:44.260 --> 00:00:46.360
+Zaldi baten egoeraren antzekoa dela esan liteke.
+
+00:00:47.330 --> 00:00:50.550
+Puntu honetan, diseinuaren beharra sentituko duzu.
+
+00:00:52.580 --> 00:00:55.010
+Baina diseinu dokumentu bat idazten saiatzen zarenean,
+
+00:00:55.500 --> 00:00:58.490
+Buruan dituzun pentsamenduak zehatz-mehatz adieraztea
+
+00:00:58.790 --> 00:01:01.260
+Uste bezain erraza ez dela konturatuko zara.
+
+00:01:01.890 --> 00:01:05.600
+Partitura ere, hau da, soinua edo musika bisualki grabatzen duen dokumentua,
+
+00:01:05.600 --> 00:01:06.700
+Hain konplikatua da
+
+00:01:07.520 --> 00:01:10.610
+Ez musika bakarrik, baita finantzak eta logistika ere
+
+00:01:10.610 --> 00:01:14.060
+Kontzeptu anitzagoak eta erabiltzaileen eskakizun abstraktuak
+
+00:01:14.060 --> 00:01:17.220
+Ez da erraza izango eredu zehatz batean adieraztea.
+
+00:01:18.530 --> 00:01:19.490
+Zorionez
+
+00:01:19.770 --> 00:01:23.200
+Kontzeptu abstraktuak modelatzearen zailtasuna gainditzeko
+
+00:01:23.540 --> 00:01:26.860
+UML 1990eko hamarkadaren amaieran sortu zen.
+
+00:01:27.730 --> 00:01:30.120
+Grady Butchek zuzendu zuen.
+
+00:01:31.460 --> 00:01:34.390
+UML aurreikuspenarekin erabiltzen dugu
+
+00:01:34.980 --> 00:01:36.990
+Klase diagrama bat marraztu
+
+00:01:36.990 --> 00:01:38.760
+Marraztu dezagun sekuentzia-diagrama bat ere
+
+00:01:39.430 --> 00:01:39.980
+hala ere
+
+00:01:40.360 --> 00:01:43.160
+Benetan diseinatzen saiatu nintzenean, zuzenean kodetzea baino desberdina zen.
+
+00:01:43.160 --> 00:01:45.130
+Ez dirudi oso desberdina denik
+
+00:01:45.590 --> 00:01:46.520
+Zergatik da hori?
+
+00:01:47.350 --> 00:01:50.910
+Hori da pentsamendu-prozesua inplementaziora ohituta dagoelako.
+
+00:01:51.290 --> 00:01:54.170
+Kontzeptu abstraktuak zehatzago bihurtu beharrean,
+
+00:01:54.490 --> 00:01:57.590
+Inplementazio-mailako pentsamendua UMLra itzultzen duelako.
+
+00:01:58.520 --> 00:02:00.270
+Partitura irakurtzen dakizulako bakarrik
+
+00:02:00.270 --> 00:02:01.950
+Ez da gai konposatzeko
+
+00:02:02.390 --> 00:02:03.850
+UML ikasi duzulako bakarrik
+
+00:02:03.850 --> 00:02:06.170
+Ez da diseinu trebetasunak garatzen dituzun bezala.
+
+00:02:07.700 --> 00:02:09.300
+Beraz, serie honetan
+
+00:02:09.300 --> 00:02:11.580
+Benetako proiektuen bidez
+
+00:02:11.580 --> 00:02:14.420
+Nola konkretatu eskakizun abstraktuak
+
+00:02:14.420 --> 00:02:16.290
+Kodea konektatu al dezakezu?
+
+00:02:16.290 --> 00:02:18.010
+Pertsonalki erakutsi nahi nizuke
+
+00:02:18.530 --> 00:02:20.930
+Domeinuaren arabera zinema sarrerak erreserbatzea aukeratu dut
+
+00:02:21.370 --> 00:02:25.200
+Zinema sarreren erreserbak erraz ulertzen dira, gehienetan domeinu ezagunak direlako.
+
+00:02:25.200 --> 00:02:29.710
+Hainbat funtzio ditu, hala nola saioa hasteko, ordainketa egiteko eta eserlekuen hautaketa egiteko.
+
+00:02:29.710 --> 00:02:31.580
+Adibide ona dirudi.
+
+00:02:33.600 --> 00:02:36.890
+Funtsean, artikulu honen gaia software diseinua da, baina
+
+00:02:36.890 --> 00:02:40.350
+Probetan oinarritutako garapena ere landuko dugu.
+
+00:02:41.210 --> 00:02:44.890
+Garapen-ingurune modernoek probak egiteko tresnak onartzen dituzte modu natiboan.
+
+00:02:45.600 --> 00:02:48.320
+Kode irekiko proiektu ospetsuak aztertu arren,
+
+00:02:48.320 --> 00:02:51.130
+Proba maila jakin bat dugu.
+
+00:02:51.740 --> 00:02:56.200
+Horrek esan nahi du ziurrenik probak hain garrantzitsuak eta erabilgarriak direla.
+
+00:02:56.870 --> 00:02:58.120
+Baina errealitatean
+
+00:02:58.120 --> 00:03:02.590
+Kasu askotan, TDD ez ezik, proben automatizazioa ere ez dago behar bezala inplementatuta.
+
+00:03:03.190 --> 00:03:06.260
+Prestaketarik gabe lehenik proba esanguratsuak idaztea da
+
+00:03:06.260 --> 00:03:07.540
+Inoiz ez da erraza.
+
+00:03:08.410 --> 00:03:12.340
+Honek software diseinuaren gaitasun konbinatuak behar dituen zerbait da.
+
+00:03:13.320 --> 00:03:16.270
+Beraz, hobe da diseinua eta TDD elkarrekin jorratzea.
+
+00:03:16.270 --> 00:03:18.180
+Eraginkorra zela iritzi nion
+
+00:03:20.120 --> 00:03:23.450
+Beraz, orain proiektuaren lehen bilera hasiko dugu.
+
+00:03:24.150 --> 00:03:26.470
+Proiektu txiki bat delako hau
+
+00:03:26.470 --> 00:03:28.090
+Bi parte-hartzaile daude
+
+00:03:28.790 --> 00:03:32.340
+Ezkerrekoa domeinu-aditua da, eta eskuinekoa garatzailea.
+
+00:03:34.550 --> 00:03:37.790
+Domeinu-adituek eraiki behar ditugun sistemetan eragina dute.
+
+00:03:37.790 --> 00:03:39.280
+Istorio asko kontatzen ditu
+
+00:03:40.340 --> 00:03:42.160
+Guk zuzentzen dugun antzokia
+
+00:03:42.160 --> 00:03:44.710
+Lau mila inguru daude herrialde osoan.
+
+00:03:44.710 --> 00:03:47.220
+Etorkizunean gehiago handitu daiteke.
+
+00:03:47.220 --> 00:03:50.480
+Gaur egun, zinema-txartelen erreserba-funtzioa bakarrik onartzen da.
+
+00:03:50.480 --> 00:03:54.510
+Emanaldi handietarako sarreren salmenta gehitzeko asmoa dugu geroago.
+
+00:03:54.510 --> 00:03:58.940
+Eta garrantzitsuena da inoiz ez dituzula eserlekuak bikoiztu behar.
+
+00:03:58.940 --> 00:04:03.250
+Iraganean, bezeroarentzako arreta-zentroek oso zailtasunak izan zituzten arazo mota horrekin.
+
+00:04:03.250 --> 00:04:07.670
+Zinema-informazio eta kritika-datu asko pilatu direlako dagoeneko.
+
+00:04:07.670 --> 00:04:11.090
+Datu hauek osorik mantendu behar dira.
+
+00:04:12.090 --> 00:04:14.730
+Hemen elkarrizketa ondo antolatuta dago, baina
+
+00:04:14.890 --> 00:04:16.960
+Egia esan, informazio gehiago dago
+
+00:04:16.960 --> 00:04:18.600
+Modu desantolatuan emango da
+
+00:04:19.470 --> 00:04:22.110
+Baina proiektuaren hasieran ateratzen den istorioa da
+
+00:04:22.110 --> 00:04:23.780
+Baldintzarik garrantzitsuena delako
+
+00:04:23.780 --> 00:04:25.320
+Arretaz entzun behar duzu.
+
+00:04:27.110 --> 00:04:29.810
+Garatzaileek domeinu-adituei entzuten diete
+
+00:04:29.810 --> 00:04:31.290
+Galdera batzuk ditut
+
+00:04:32.290 --> 00:04:34.660
+Aipatu duzun emanaldi handiko sarreren erreserba funtzioa
+
+00:04:34.660 --> 00:04:36.910
+Noiz gehituko da?
+
+00:04:36.910 --> 00:04:39.910
+Proiektu honen esparruan sartu beharko litzateke hau aldez aurretik?
+
+00:04:39.910 --> 00:04:43.590
+Edo jakin nahiko nuke ea kontuan hartu behar dudan oraindik
+
+00:04:43.590 --> 00:04:46.090
+Eta dauden datuak mantentzeko beharra
+
+00:04:46.090 --> 00:04:48.940
+Horrek esan nahi al du ez dugula DB sistema aldatu behar?
+
+00:04:48.940 --> 00:04:51.950
+Ba al dago beste zerbitzurik DB partekatzen gaur egun?
+
+00:04:53.580 --> 00:04:54.980
+DBtik ikus dezakezuenez,
+
+00:04:54.980 --> 00:04:57.290
+Domeinu adituak ez direlako garatzaileak
+
+00:04:57.290 --> 00:04:59.430
+Adierazpen teknikoa anbiguoa da
+
+00:04:59.910 --> 00:05:02.890
+Garatzaileek gauza hauek arretaz egiaztatu behar dituzte.
+
+00:05:04.230 --> 00:05:07.450
+Domeinu-adituek garatzaileen galderei honela erantzuten diete:
+
+00:05:08.330 --> 00:05:10.210
+Eskala handiko emanaldietarako sarreren erreserba funtzioa
+
+00:05:10.210 --> 00:05:13.450
+Ez dago ordutegi zehatzik oraindik.
+
+00:05:13.450 --> 00:05:15.970
+Hala ere, etorkizunean funtzioak gehitzen direnean
+
+00:05:15.970 --> 00:05:18.700
+Beraz, zailtasun handirik gabe berritu ahal izateko
+
+00:05:18.700 --> 00:05:22.600
+Uste dut ondo legokeela oraingoan kontuan hartuko bazenu.
+
+00:05:22.600 --> 00:05:27.050
+Ez dugu DB erabiltzen gure zerbitzuetarako ez den beste ezertarako.
+
+00:05:27.050 --> 00:05:32.840
+Sistema bera aldatzea ez da arazo handi bat, datuak ondo mantentzen badira.
+
+00:05:33.840 --> 00:05:35.080
+Istorioa entzun ondoren
+
+00:05:35.080 --> 00:05:39.400
+Ez dut uste ikuskizun handiaz kezkatu behar duzunik.
+
+00:05:39.400 --> 00:05:40.790
+Ez da proiektuaren esparrua
+
+00:05:40.790 --> 00:05:43.040
+Baldintzak ere ez daude argi
+
+00:05:43.040 --> 00:05:44.930
+Ez dakit noiz beharko dudan, baina
+
+00:05:44.930 --> 00:05:47.710
+Hori geroago berriro aztertu beharko dugun arazoa da.
+
+00:05:48.920 --> 00:05:50.910
+Dokumentuan jasota ez badago ere
+
+00:05:50.910 --> 00:05:54.880
+Domeinuko adituek ere erantzungo dute eskala handiko emanaldiak kontuan hartuko dituztela.
+
+00:05:54.880 --> 00:05:55.960
+Ez ahaztu behar duzu.
+
+00:05:56.740 --> 00:05:58.320
+Ondo da
+
+00:05:58.320 --> 00:06:00.630
+Ondoren, eskala handiko emanaldi-txartelen erreserba-funtzioa
+
+00:06:00.630 --> 00:06:04.500
+Ez nuke proiektu honen lehentasun nagusien artean jarriko.
+
+00:06:04.500 --> 00:06:08.220
+Horren ordez, funtzionaltasuna garapen-prozesuan geroago zabaltzea errazten du.
+
+00:06:08.220 --> 00:06:10.190
+Ondo zainduko dut
+
+00:06:10.190 --> 00:06:12.840
+Ez kezkatu. Fidatu nirekin bakarrik
+
+00:06:13.840 --> 00:06:15.960
+Garrantzitsua da ondo moldatzea
+
+00:06:17.980 --> 00:06:19.500
+Orain arteko elkarrizketaren bidez
+
+00:06:19.500 --> 00:06:22.700
+Lehentasun nagusiak honela laburbiltzen dira:
+
+00:06:23.220 --> 00:06:25.890
+Hau da domeinu-adituek emandako informazioa.
+
+00:06:25.890 --> 00:06:28.410
+Garatzaile baten ikuspuntutik interpretatzea eta antolatzea
+
+00:06:28.410 --> 00:06:29.810
+Proiektua hasi
+
+00:06:31.700 --> 00:06:32.860
+Domeinu adituekin
+
+00:06:32.860 --> 00:06:34.980
+Behin zure proiektuaren helburuak erabaki ondoren,
+
+00:06:35.620 --> 00:06:37.980
+Orain zure proiektuari izena jartzeko garaia da.
+
+00:06:38.750 --> 00:06:41.840
+Lehenik eta behin, galdetu domeinu-aditu bati bere iritzia.
+
+00:06:42.800 --> 00:06:45.540
+Zer izen jarri behar diot proiektuari?
+
+00:06:45.540 --> 00:06:47.680
+Filmak erreserbatzeko sistema bat da.
+
+00:06:47.680 --> 00:06:50.150
+Zer moduz Filmen Erreserba Sistema soilik?
+
+00:06:50.150 --> 00:06:51.430
+ez, ez dut nahi
+
+00:06:51.430 --> 00:06:53.570
+Eskala handiko emanaldiez arduratuko naiz
+
+00:06:53.570 --> 00:06:56.930
+Goazen Film Erreserba Sistemarekin. bai?
+
+00:06:56.930 --> 00:06:58.180
+bikaina
+
+00:06:58.180 --> 00:06:59.950
+Mila esker
+
+00:07:01.000 --> 00:07:05.230
+Domeinu-adituek proiektuen izenak koreeraz nahi izan ditzakete.
+
+00:07:05.580 --> 00:07:07.680
+Baina garatzaile baten ikuspuntutik
+
+00:07:07.680 --> 00:07:09.990
+Proiektuen izenak barne hartzen dituzten termino guztiak
+
+00:07:09.990 --> 00:07:12.180
+Kodean zuzenean inplementatzen delako,
+
+00:07:12.600 --> 00:07:15.000
+Ahal bada, errazagoa da ingelesez definitzea.
+
+00:07:15.540 --> 00:07:19.510
+Garrantzitsua da garatzaileek domeinu-adituek dituzten beharrak zehatz-mehatz jarraitzea, baina
+
+00:07:19.960 --> 00:07:21.430
+Proiektu osoa kontuan hartuta
+
+00:07:21.430 --> 00:07:23.930
+Gauzak norabide eraginkor batean bideratzeko ardura ere badugu.
+
+00:07:25.850 --> 00:07:27.760
+Zure proiektuarentzako izena erabaki baduzu
+
+00:07:27.760 --> 00:07:31.380
+Orain, Movie Booking System nork erabiltzen duen jakiteko garaia da.
+
+00:07:32.020 --> 00:07:34.940
+Noski, domeinu-aditu bati galdetu beharko zenioke horri buruzko informazioa.
+
+00:07:35.420 --> 00:07:38.740
+Eta bezeroak eta kudeatzaileak ditugula ikusten dugu.
+
+00:07:40.820 --> 00:07:43.280
+Diseinuaren hasierako faseetan erraz oharkabean pasatzen den elementuetako bat da
+
+00:07:43.280 --> 00:07:44.760
+Kanpoko menpekotasuna da.
+
+00:07:45.340 --> 00:07:46.580
+Kanpoko mendekotasunak dira
+
+00:07:46.580 --> 00:07:49.210
+Lehendik dagoen sistema zahar bat izan liteke,
+
+00:07:49.660 --> 00:07:51.420
+Ordainketa sistema bat izan liteke
+
+00:07:52.020 --> 00:07:53.670
+Mendekotasun harreman hau da
+
+00:07:53.670 --> 00:07:56.760
+Sistemaren diseinu orokorrean eragin handia izan dezakeelako.
+
+00:07:56.950 --> 00:08:00.150
+Garrantzitsua da ahalik eta azkarren identifikatzea.
+
+00:08:00.570 --> 00:08:01.240
+zorionez
+
+00:08:01.820 --> 00:08:04.990
+Ordainketa-pasabideak eta sistema zaharrak bezalako elementuak
+
+00:08:05.270 --> 00:08:07.730
+Dagoeneko dauden sistemetan erabiltzen ari delako
+
+00:08:07.990 --> 00:08:10.360
+Nahiko erraz uler daiteke
+
+00:08:11.230 --> 00:08:14.410
+Mendeko harreman batean erraz ahaztu daitekeen gauzetako bat da
+
+00:08:14.410 --> 00:08:16.090
+Kanpoko ingurumen faktoreak daude
+
+00:08:16.900 --> 00:08:19.060
+Gure herrialdea ordu-zona berean dago
+
+00:08:19.060 --> 00:08:22.430
+Lur eremu handia duen herrialde batean, antzoki bakoitzak ordutegi-tarte desberdina du.
+
+00:08:23.190 --> 00:08:25.100
+Ondoren, filmak erreserbatzeko sistema
+
+00:08:25.100 --> 00:08:28.900
+Saihestezina da ingurumen-faktoreek, hala nola ordu-eremuek, eragina izatea.
+
+00:08:29.410 --> 00:08:32.760
+Faktore hauek ez dira erraz agerikoak domeinu-adituari zuzenean galdetu ezean.
+
+00:08:32.760 --> 00:08:33.950
+Erraza da galtzea.
+
+00:08:34.740 --> 00:08:37.610
+Domeinu adituek xehetasun hauek alde batera uzten dituzte normalean.
+
+00:08:37.610 --> 00:08:40.010
+Azalpena kendu daitekeelako
+
+00:08:41.680 --> 00:08:43.640
+Mendekotasun harremana argi eta garbi adierazi zenez gero
+
+00:08:43.640 --> 00:08:47.500
+Orain, zinema erreserba sistemaren barne-funtsean zentratuko gara.
+
+00:08:48.430 --> 00:08:52.230
+Lehenik eta behin, zer egiten du bezeroak Zinema Erreserba Sisteman?
+
+00:08:52.230 --> 00:08:54.230
+Galde diezaiegun domeinu-adituei
+
+00:08:55.800 --> 00:08:57.880
+Zer egiten dute bezeroek?
+
+00:08:57.880 --> 00:08:59.970
+Bezeroek filmak bilatzen dituzte,
+
+00:08:59.970 --> 00:09:01.450
+Ikusi filmaren xehetasunak,
+
+00:09:01.450 --> 00:09:02.910
+Aukeratu emanaldi ordua,
+
+00:09:02.910 --> 00:09:04.450
+Aukeratu zure eserlekua,
+
+00:09:04.450 --> 00:09:05.920
+Erreserbatu zinema sarrerak,
+
+00:09:05.920 --> 00:09:07.610
+Erreserbaren xehetasunak egiaztatu,
+
+00:09:07.610 --> 00:09:10.180
+Erreserba bat bertan behera uztea bezalako gauzak egin
+
+00:09:10.180 --> 00:09:15.750
+Emanaldiaren ordua eta eserlekua aukeratzea zinema-sarrerak erreserbatzeko prozesuaren parte al dira?
+
+00:09:15.750 --> 00:09:18.880
+Eta zinema sarrerak erreserbatzeko, erreserbak bertan behera uzteko
+
+00:09:18.880 --> 00:09:22.210
+Azken finean, ez al zara txartela erosi eta dirua itzuliko?
+
+00:09:22.210 --> 00:09:23.620
+arrazoi duzu
+
+00:09:23.620 --> 00:09:25.030
+Hori da
+
+00:09:25.480 --> 00:09:27.880
+Domeinu ezaguna delako orain
+
+00:09:27.880 --> 00:09:31.240
+Aukeratu emanaldi ordua eta aukeratu zure eserlekuak
+
+00:09:31.240 --> 00:09:33.200
+Zinema-txartelen erreserba-prozesuaren parte al da hau?
+
+00:09:33.200 --> 00:09:34.530
+Galdetu nezake.
+
+00:09:34.980 --> 00:09:37.220
+Baina domeinu ezezaguna bada,
+
+00:09:37.410 --> 00:09:40.160
+Erabilera kasu bakoitza xehetasunez aztertzea
+
+00:09:40.520 --> 00:09:43.330
+Fintze prozesua hainbat aldiz errepikatuko duzu.
+
+00:09:43.790 --> 00:09:45.350
+Proiektuaren egoeraren araberakoa
+
+00:09:45.350 --> 00:09:48.080
+Prozesu hau hainbat aldiz errepika dezakezu,
+
+00:09:48.080 --> 00:09:50.580
+Zenbat eta denbora gehiago hartu eta arretaz aztertu,
+
+00:09:50.580 --> 00:09:54.190
+Diseinu eta inplementazio faseetan probak eta akatsak murriztea.
+
+00:09:55.850 --> 00:09:57.530
+Orain arteko elkarrizketan oinarrituta
+
+00:09:57.530 --> 00:10:00.970
+Bezeroen erabilera kasuak lau kategoriatan antolatu ditugu:
+
+00:10:02.960 --> 00:10:04.470
+Hurrengoa administratzailea da
+
+00:10:05.190 --> 00:10:08.850
+Administratzaileak bost kudeaketa-elementu daudela ikus dezake:
+
+00:10:09.440 --> 00:10:13.620
+Pertsonalki, kontuz ibiltzen naiz "Kudeatu" hitza garapenean erabiltzean.
+
+00:10:14.360 --> 00:10:16.980
+Kudeatu esamolde zabalegia da
+
+00:10:16.980 --> 00:10:19.030
+Ez dago argi zer egiten ari zaren
+
+00:10:19.640 --> 00:10:20.950
+Hemen ere berdin da
+
+00:10:21.370 --> 00:10:23.760
+Nola kudeatzen da zehazki?
+
+00:10:23.760 --> 00:10:24.810
+Ez dakit
+
+00:10:25.930 --> 00:10:27.620
+Domeinu-adituekin hitz eginez
+
+00:10:27.620 --> 00:10:31.220
+Kudeaketa-elementu bakoitza erabilera-kasu espezifiko batera zabaldu da.
+
+00:10:31.900 --> 00:10:33.660
+Benetako proiektua bada.
+
+00:10:33.660 --> 00:10:35.890
+Seguruenik erabilera kasu gehiago daude hau baino.
+
+00:10:36.150 --> 00:10:39.000
+Hemen azalpena emateko sinplifikatu dut.
+
+00:10:39.860 --> 00:10:42.700
+Garrantzitsua da hemen kontuan hartzea denbora-tarte bat sortzen duzunean,
+
+00:10:43.020 --> 00:10:45.900
+Txartela ere sortu dela ikus dezakezu
+
+00:10:46.960 --> 00:10:49.200
+Eta txartela erostean edo dirua itzultzean
+
+00:10:49.490 --> 00:10:53.910
+Ordainketa-pasabidea izeneko kanpoko zerbitzu bat erabiltzen dugula ere ikus dezakezu.
+
+00:10:55.890 --> 00:10:58.670
+Bezeroen eta kudeatzaileen erabilera kasuak konbinatu nituen.
+
+00:10:59.350 --> 00:11:01.730
+Erabilera kasu osoa honela aztertuta
+
+00:11:01.730 --> 00:11:02.900
+Zerbait hutsik sentitzen da
+
+00:11:03.890 --> 00:11:05.840
+Antzoki bat gehitzeko aukera dago
+
+00:11:05.840 --> 00:11:08.720
+Ez dut Search Theater bezalako ezer ikusten.
+
+00:11:09.410 --> 00:11:12.130
+Badirudi erabilera kasu dezente baztertzen ari direla.
+
+00:11:12.770 --> 00:11:15.980
+Zeren domeinu-aditu baten ikuspuntutik, azaldu beharreko gauza asko baitaude.
+
+00:11:15.980 --> 00:11:17.950
+Erabilera kasu hau, hain agerikoa dirudiena,
+
+00:11:18.150 --> 00:11:19.810
+Azalpena kendu dezakezu
+
+00:11:20.770 --> 00:11:23.460
+Beraz, zer gertatzen da garatzaile baten ikuspuntutik?
+
+00:11:24.400 --> 00:11:28.290
+Hobe da zinema bat bilatzea bezalako albiste kasu sinpleak alde batera uztea.
+
+00:11:28.290 --> 00:11:30.700
+Ez al litzateke hau lagungarriagoa izango dokumentuen kudeaketarako?
+
+00:11:31.720 --> 00:11:32.870
+Atzeko planoaren diseinua bada
+
+00:11:32.870 --> 00:11:35.920
+Erabilera kasu sinpleak, hala nola zinema bat bilatzea
+
+00:11:35.920 --> 00:11:37.760
+Uste dut ondo dagoela saltatzea
+
+00:11:38.600 --> 00:11:41.570
+Esaten ari naizena da ez dela beranduegi erantzuteko inplementazio fasean.
+
+00:11:42.370 --> 00:11:44.310
+Baina benetako proiektua bada
+
+00:11:44.310 --> 00:11:48.450
+Pantaila-planifikatzaileentzat, erabilera-kasu hauek abiapuntu ona dira.
+
+00:11:49.250 --> 00:11:52.300
+Planifikatzaileak antzoki bat bilatzeko erabilera-kasua aztertu zuen.
+
+00:11:52.300 --> 00:11:55.300
+Nola egin behar dut posible antzokiak bilatzea?
+
+00:11:55.300 --> 00:11:56.600
+Pentsatzeko gai izango zara.
+
+00:11:58.000 --> 00:12:00.880
+Diagramak batean konbinatzen dituzunean, konplikatua dirudi.
+
+00:12:01.490 --> 00:12:05.150
+Benetako proiektua balitz, askoz konplexuagoa izango litzateke.
+
+00:12:05.720 --> 00:12:08.240
+Kasu honetan, ez dago batuketa behartu beharrik.
+
+00:12:08.810 --> 00:12:13.910
+Kasu falta direla agerian uzteko, hemen batu berri ditut.
+
+00:12:16.020 --> 00:12:18.490
+Falta ziren kasu guztiak bete nituen
+
+00:12:19.200 --> 00:12:21.880
+Aktorearekiko lotura ezabatzen den erabilera-kasu bat daukat.
+
+00:12:22.290 --> 00:12:25.720
+Hau bezeroei zein kudeatzaileei aplikatzen zaie.
+
+00:12:26.400 --> 00:12:29.480
+Eta errazteko, ingelesez idatzi dut.
+
+00:12:31.370 --> 00:12:34.160
+Orain ondo dago, proiektu txikia delako
+
+00:12:34.160 --> 00:12:36.160
+Proiektua handia eta konplexua bada
+
+00:12:36.160 --> 00:12:38.980
+Nondik hasi beharko luke domeinu-aditu batek azaltzen?
+
+00:12:38.980 --> 00:12:40.380
+Zaila izan daiteke
+
+00:12:41.280 --> 00:12:43.300
+Zer egiten du administratzaile batek?
+
+00:12:43.300 --> 00:12:44.700
+Lan handia da.
+
+00:12:44.700 --> 00:12:46.620
+Zuzendariarengandik espero bezala
+
+00:12:47.620 --> 00:12:49.750
+Kasu honetan, aktoreak zatitu ditzakegu?
+
+00:12:49.750 --> 00:12:52.340
+Ideia ona da berrikustea ere
+
+00:12:53.140 --> 00:12:54.790
+Hasieran administratzaile deitzen ninduten
+
+00:12:54.790 --> 00:12:57.400
+Baliteke rolaren arabera zatitzea
+
+00:12:58.520 --> 00:13:00.820
+Eta Zinema Erreserba Sistema erabiliz
+
+00:13:00.820 --> 00:13:02.870
+Kanpoko zerbitzuak egon daitezke
+
+00:13:03.660 --> 00:13:05.340
+Aktoreak horrela segmentatzen baditugu,
+
+00:13:05.340 --> 00:13:09.420
+Domeinu-adituek informazio sistematikoagoa eman ahal izango dute.
+
+00:13:10.350 --> 00:13:14.000
+Noski, hau domeinu konplexu bat aztertzeko adibide bat besterik ez da.
+
+00:13:14.540 --> 00:13:17.320
+Baliteke beste modu on batzuk egotea
+
+00:13:17.960 --> 00:13:21.740
+Garrantzitsua da egoeraren arabera malgutasunez erantzutea.
+
+00:13:24.250 --> 00:13:25.060
+Hau da ondorioa
+
+00:13:25.950 --> 00:13:29.170
+Oraingoan, erabilera kasuen diagrama bat erabiliko dugu
+
+00:13:29.170 --> 00:13:30.840
+Proiektuaren helburuak ezarri
+
+00:13:31.230 --> 00:13:33.700
+Analisiaren hasierako faseak igaro ditut.
+
+00:13:34.880 --> 00:13:38.010
+Pertsonalki, garapen prozesu osoan zehar
+
+00:13:38.010 --> 00:13:40.060
+Uste dut analisia dela zailena
+
+00:13:40.570 --> 00:13:44.250
+Kontzeptu abstraktuen eta lausoenenak antolatu behar ditugulako.
+
+00:13:45.020 --> 00:13:47.650
+Hurrengoan erabilera kasu nagusiak aztertuko ditugu
+
+00:13:47.650 --> 00:13:49.470
+Azter dezagun xehetasun gehiagorekin
+
+00:13:50.300 --> 00:13:52.100
+Eskerrik asko orain arteko lan gogorragatik.
+

@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: eo
+
+00:00:00.000 --> 00:00:02.020
+Saluton, jen Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Programaro estas kompleksa
+
+00:00:06.650 --> 00:00:08.890
+Unue, estas multe da kodo, kiun oni devas skribi.
+
+00:00:09.760 --> 00:00:12.710
+Nur la ekzemplaj projektoj, kiujn mi kreis por ĉi tiu serio
+
+00:00:12.710 --> 00:00:15.270
+La kodo longas pli ol 12 000 liniojn.
+
+00:00:16.330 --> 00:00:18.320
+Se ĝi estas efektiva funkciiga servo
+
+00:00:18.320 --> 00:00:21.530
+Eĉ se temas pri malgranda servo, ĝi facile superos 100 000 liniojn.
+
+00:00:22.130 --> 00:00:25.300
+Cent mil linioj sufiĉas por plenigi dudek romanojn.
+
+00:00:26.870 --> 00:00:29.560
+Skribi longan kodon ne signifas, ke ĝi finiĝis.
+
+00:00:30.330 --> 00:00:32.540
+Vi devas daŭre korekti la kodon, kiun vi skribas.
+
+00:00:33.400 --> 00:00:35.800
+Se vi riparas A-on, B rompiĝas.
+
+00:00:35.800 --> 00:00:39.130
+Se vi riparos B, A kaj C rompiĝos.
+
+00:00:41.090 --> 00:00:44.260
+Por uzi analogion, ĝi estas kvazaŭ esti kaptita en Rasputica kaj ploradi.
+
+00:00:44.260 --> 00:00:46.360
+Oni povus diri, ke ĝi estas simila situacio al ĉevalo.
+
+00:00:47.330 --> 00:00:50.550
+Je ĉi tiu punkto, vi sentos la bezonon por dezajno.
+
+00:00:52.580 --> 00:00:55.010
+Sed kiam vi efektive provas verki dezajnan dokumenton,
+
+00:00:55.500 --> 00:00:58.490
+Esprimante la pensojn en via kapo konkrete
+
+00:00:58.790 --> 00:01:01.260
+Vi malkovros, ke ĝi ne estas tiel facila, kiel vi pensas.
+
+00:01:01.890 --> 00:01:05.600
+Eĉ partituro, kiu estas dokumento kiu vide registras sonon aŭ muzikon,
+
+00:01:05.600 --> 00:01:06.700
+Ĝi estas tiel komplika
+
+00:01:07.520 --> 00:01:10.610
+Ne nur muziko, sed ankaŭ financo kaj loĝistiko
+
+00:01:10.610 --> 00:01:14.060
+Pli diversaj konceptoj kaj abstraktaj uzantopostuloj
+
+00:01:14.060 --> 00:01:17.220
+Ne estos facile esprimi ĝin per specifa modelo.
+
+00:01:18.530 --> 00:01:19.490
+Bonŝance
+
+00:01:19.770 --> 00:01:23.200
+Por superi la malfacilecon de modelado de abstraktaj konceptoj
+
+00:01:23.540 --> 00:01:26.860
+UML naskiĝis fine de la 1990-aj jaroj.
+
+00:01:27.730 --> 00:01:30.120
+Ĝin gvidis Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Ni uzas UML kun antaŭĝojo
+
+00:01:34.980 --> 00:01:36.990
+Desegnu klasdiagramon
+
+00:01:36.990 --> 00:01:38.760
+Ni ankaŭ desegnu sekvencdiagramon
+
+00:01:39.430 --> 00:01:39.980
+tamen
+
+00:01:40.360 --> 00:01:43.160
+Kiam mi efektive provis ĝin desegni, ĝi estis malsama ol rekte kodi ĝin.
+
+00:01:43.160 --> 00:01:45.130
+Ĝi ne ŝajnas esti multe malsama
+
+00:01:45.590 --> 00:01:46.520
+Kial tio estas?
+
+00:01:47.350 --> 00:01:50.910
+Tio estas ĉar la pensmaniero estas kutimita al efektivigo.
+
+00:01:51.290 --> 00:01:54.170
+Anstataŭ pli konkretigi abstraktajn konceptojn,
+
+00:01:54.490 --> 00:01:57.590
+Ĉar ĝi tradukas efektivig-nivelan pensadon en UML.
+
+00:01:58.520 --> 00:02:00.270
+Nur ĉar vi povas legi partiturojn
+
+00:02:00.270 --> 00:02:01.950
+Ne estas kvazaŭ mi povus komponi ĝin
+
+00:02:02.390 --> 00:02:03.850
+Nur ĉar vi lernis UML
+
+00:02:03.850 --> 00:02:06.170
+Ne estas kvazaŭ vi evoluigas dezajnajn kapablojn.
+
+00:02:07.700 --> 00:02:09.300
+Do en ĉi tiu serio
+
+00:02:09.300 --> 00:02:11.580
+Per faktaj projektoj
+
+00:02:11.580 --> 00:02:14.420
+Kiel konkretigi abstraktajn postulojn
+
+00:02:14.420 --> 00:02:16.290
+Ĉu vi povas konekti la kodon?
+
+00:02:16.290 --> 00:02:18.010
+Mi ŝatus montri al vi persone
+
+00:02:18.530 --> 00:02:20.930
+Mi elektis rezervi kinbiletojn laŭ domajno
+
+00:02:21.370 --> 00:02:25.200
+Rezervi kinejajn biletojn estas facile kompreni ĉar ili plejparte estas konataj domajnoj.
+
+00:02:25.200 --> 00:02:29.710
+Inkludas diversajn funkciojn kiel ensaluto, pago kaj elekto de sidloko.
+
+00:02:29.710 --> 00:02:31.580
+Ĝi ŝajnas bona ekzemplo
+
+00:02:33.600 --> 00:02:36.890
+Esence, la temo de ĉi tiu artikolo estas programara dezajno, sed
+
+00:02:36.890 --> 00:02:40.350
+Ni ankaŭ traktos test-movitan disvolviĝon.
+
+00:02:41.210 --> 00:02:44.890
+Modernaj evoluigaj medioj native subtenas testajn ilojn.
+
+00:02:45.600 --> 00:02:48.320
+Eĉ se vi rigardas famajn malfermitkodajn projektojn,
+
+00:02:48.320 --> 00:02:51.130
+Ni havas certan nivelon de testado.
+
+00:02:51.740 --> 00:02:56.200
+Tio verŝajne signifas, ke testado estas de tia alta graveco kaj utileco.
+
+00:02:56.870 --> 00:02:58.120
+Sed en realeco
+
+00:02:58.120 --> 00:03:02.590
+En multaj kazoj, ne nur TDD, sed eĉ testaŭtomatigo ne estas ĝuste efektivigita.
+
+00:03:03.190 --> 00:03:06.260
+Skribi senchavajn testojn unue sen ia preparo estas
+
+00:03:06.260 --> 00:03:07.540
+Neniam estas facile
+
+00:03:08.410 --> 00:03:12.340
+Ĉi tio estas io, kio postulas la kombinitajn kapablojn de programara dezajno.
+
+00:03:13.320 --> 00:03:16.270
+Do, estas pli bone trakti dezajnon kaj TDD kune.
+
+00:03:16.270 --> 00:03:18.180
+Mi taksis ĝin efika
+
+00:03:20.120 --> 00:03:23.450
+Do nun ni komencu la unuan kunvenon de la projekto.
+
+00:03:24.150 --> 00:03:26.470
+Ĉar ĉi tio estas malgranda projekto
+
+00:03:26.470 --> 00:03:28.090
+Estas du ĉeestantoj
+
+00:03:28.790 --> 00:03:32.340
+Tiu maldekstre estas domajna fakulo, kaj tiu dekstre estas programisto.
+
+00:03:34.550 --> 00:03:37.790
+Domajnaj fakuloj havas voĉdonrajton pri la sistemoj, kiujn ni bezonas konstrui.
+
+00:03:37.790 --> 00:03:39.280
+Ĝi rakontas multajn historiojn
+
+00:03:40.340 --> 00:03:42.160
+La teatro, kiun ni administras
+
+00:03:42.160 --> 00:03:44.710
+Estas ĉirkaŭ kvar mil da ili tra la tuta lando.
+
+00:03:44.710 --> 00:03:47.220
+Ĝi eble plu pliiĝos en la estonteco.
+
+00:03:47.220 --> 00:03:50.480
+Nuntempe, nur la funkcio por rezervi kinbiletojn estas subtenata.
+
+00:03:50.480 --> 00:03:54.510
+Ni planas aldoni biletvendadon por grandskalaj prezentadoj poste.
+
+00:03:54.510 --> 00:03:58.940
+Kaj la grava afero estas, ke vi neniam mendu sidlokojn duoble.
+
+00:03:58.940 --> 00:04:03.250
+En la pasinteco, klientservaj centroj havis vere malfacilaĵojn kun tia problemo.
+
+00:04:03.250 --> 00:04:07.670
+Ĉar jam akumuliĝis multaj filminformoj kaj recenzoj.
+
+00:04:07.670 --> 00:04:11.090
+Ĉi tiuj datumoj devas resti sendifektaj.
+
+00:04:12.090 --> 00:04:14.730
+Ĉi tie la konversacio estas bone organizita, sed
+
+00:04:14.890 --> 00:04:16.960
+Fakte, estas pli da informoj
+
+00:04:16.960 --> 00:04:18.600
+Ĝi estos liverita malorganize
+
+00:04:19.470 --> 00:04:22.110
+Sed la rakonto, kiu aperas komence de la projekto, estas
+
+00:04:22.110 --> 00:04:23.780
+Ĉar ĝi estas la plej grava postulo
+
+00:04:23.780 --> 00:04:25.320
+Vi devas atente aŭskulti
+
+00:04:27.110 --> 00:04:29.810
+Programistoj aŭskultas domajnajn fakulojn
+
+00:04:29.810 --> 00:04:31.290
+Mi havas kelkajn demandojn
+
+00:04:32.290 --> 00:04:34.660
+La grandskala bileta rezervada funkcio, kiun vi menciis
+
+00:04:34.660 --> 00:04:36.910
+Kiam ĝi estos aldonita?
+
+00:04:36.910 --> 00:04:39.910
+Ĉu ĉi tio devus esti inkludita en la amplekson de ĉi tiu projekto anticipe?
+
+00:04:39.910 --> 00:04:43.590
+Aŭ mi ŝatus scii ĉu mi devus konsideri ĝin jam
+
+00:04:43.590 --> 00:04:46.090
+Kaj la bezono konservi ekzistantajn datumojn
+
+00:04:46.090 --> 00:04:48.940
+Ĉu tio signifas, ke ni ne devus ŝanĝi la datumbazan sistemon?
+
+00:04:48.940 --> 00:04:51.950
+Ĉu estas aliaj servoj, kiuj nuntempe kunhavas la datumbazon?
+
+00:04:53.580 --> 00:04:54.980
+Kiel vi povas vidi el la datumbazo,
+
+00:04:54.980 --> 00:04:57.290
+Ĉar domajnaj fakuloj ne estas programistoj.
+
+00:04:57.290 --> 00:04:59.430
+La teknika esprimo estas ambigua
+
+00:04:59.910 --> 00:05:02.890
+Programistoj devas zorge kontroli ĉi tiujn aferojn.
+
+00:05:04.230 --> 00:05:07.450
+Domajnaj fakuloj respondas demandojn de programistoj jene:
+
+00:05:08.330 --> 00:05:10.210
+La grandskala funkcio por rezervado de biletoj por spektakloj
+
+00:05:10.210 --> 00:05:13.450
+Ankoraŭ ne estas specifa horaro.
+
+00:05:13.450 --> 00:05:15.970
+Tamen, kiam funkcioj estos aldonitaj estonte
+
+00:05:15.970 --> 00:05:18.700
+Por ke vi povu ĝisdatigi sen multe da malfacilaĵo
+
+00:05:18.700 --> 00:05:22.600
+Mi opinias, ke estus bone, se vi povus konsideri ĝin ĉi-foje.
+
+00:05:22.600 --> 00:05:27.050
+Ni ne uzas datumbazon por io ajn krom niaj servoj.
+
+00:05:27.050 --> 00:05:32.840
+Ŝanĝi la sistemon mem ne estas granda problemo, kondiĉe ke la datumoj estas bone prizorgataj.
+
+00:05:33.840 --> 00:05:35.080
+Post aŭdado de la rakonto
+
+00:05:35.080 --> 00:05:39.400
+Mi ne opinias, ke vi devas zorgi pri la granda spektaklo.
+
+00:05:39.400 --> 00:05:40.790
+Ĝi ne estas la amplekso de la projekto
+
+00:05:40.790 --> 00:05:43.040
+La postuloj ankaŭ ne estas klaraj
+
+00:05:43.040 --> 00:05:44.930
+Mi ne scias kiam mi bezonos ĝin, sed
+
+00:05:44.930 --> 00:05:47.710
+Tio estas problemo, kiun ni devos revizii denove poste.
+
+00:05:48.920 --> 00:05:50.910
+Eĉ se ĝi ne estas registrita en la dokumento
+
+00:05:50.910 --> 00:05:54.880
+Domajnaj fakuloj ankaŭ respondos, ke ili konsideros grandskalajn prezentojn.
+
+00:05:54.880 --> 00:05:55.960
+Vi ne devas forgesi
+
+00:05:56.740 --> 00:05:58.320
+Bone
+
+00:05:58.320 --> 00:06:00.630
+Tiam, la grandskala funkcio por rezervado de biletoj por spektakloj
+
+00:06:00.630 --> 00:06:04.500
+Mi ne metus ĝin inter la ĉefajn prioritatojn por ĉi tiu projekto.
+
+00:06:04.500 --> 00:06:08.220
+Anstataŭe, ĝi faciligas vastigadon de funkcioj poste en la evoluiga procezo.
+
+00:06:08.220 --> 00:06:10.190
+Mi bone prizorgos ĝin
+
+00:06:10.190 --> 00:06:12.840
+Ne zorgu. Fidu nur min
+
+00:06:13.840 --> 00:06:15.960
+Gravas bone interkonsenti
+
+00:06:17.980 --> 00:06:19.500
+Tra nia konversacio ĝis nun
+
+00:06:19.500 --> 00:06:22.700
+La ĉefaj prioritatoj estas resumitaj jene:
+
+00:06:23.220 --> 00:06:25.890
+Jen la informoj donitaj de domajnaj fakuloj.
+
+00:06:25.890 --> 00:06:28.410
+Interpretado kaj organizado el la perspektivo de programisto
+
+00:06:28.410 --> 00:06:29.810
+Komencu la projekton
+
+00:06:31.700 --> 00:06:32.860
+Kun domajnaj fakuloj
+
+00:06:32.860 --> 00:06:34.980
+Post kiam vi decidis pri la celoj de via projekto,
+
+00:06:35.620 --> 00:06:37.980
+Nun estas tempo nomi vian projekton.
+
+00:06:38.750 --> 00:06:41.840
+Unue, petu domajnan fakulo pri ilia opinio.
+
+00:06:42.800 --> 00:06:45.540
+Kiel mi nomu la projekton?
+
+00:06:45.540 --> 00:06:47.680
+Ĝi estas sistemo por rezervi filmojn.
+
+00:06:47.680 --> 00:06:50.150
+Kiel pri nur la Filma Rezervsistemo?
+
+00:06:50.150 --> 00:06:51.430
+ne, mi ne volas
+
+00:06:51.430 --> 00:06:53.570
+Mi prizorgos la grandskalajn prezentadojn
+
+00:06:53.570 --> 00:06:56.930
+Ni komencu la Filman Rezervosistemon. jes?
+
+00:06:56.930 --> 00:06:58.180
+bonega
+
+00:06:58.180 --> 00:06:59.950
+Dankon multege
+
+00:07:01.000 --> 00:07:05.230
+Domajnaj fakuloj eble volos projektajn nomojn en la korea lingvo.
+
+00:07:05.580 --> 00:07:07.680
+Sed el la perspektivo de programisto
+
+00:07:07.680 --> 00:07:09.990
+Ĉiuj terminoj inkluzive de projektaj nomoj
+
+00:07:09.990 --> 00:07:12.180
+Ĉar ĝi estas efektivigita rekte en kodo,
+
+00:07:12.600 --> 00:07:15.000
+Estas pli facile difini ĝin en la angla, se eble.
+
+00:07:15.540 --> 00:07:19.510
+Gravas ke programistoj fidele sekvu la bezonojn de domajnaj fakuloj, sed
+
+00:07:19.960 --> 00:07:21.430
+Konsiderante la tutan projekton
+
+00:07:21.430 --> 00:07:23.930
+Ni ankaŭ havas respondecon stiri aferojn en efika direkto.
+
+00:07:25.850 --> 00:07:27.760
+Se vi jam decidis pri nomo por via projekto
+
+00:07:27.760 --> 00:07:31.380
+Nun estas tempo ekscii, kiu uzas la Filmrezervan Sistemon.
+
+00:07:32.020 --> 00:07:34.940
+Kompreneble, vi devus peti informojn pri tio de domajna fakulo.
+
+00:07:35.420 --> 00:07:38.740
+Kaj ni trovas, ke ni havas klientojn kaj manaĝerojn.
+
+00:07:40.820 --> 00:07:43.280
+Unu el la elementoj, kiujn oni facile preteratentas en la fruaj stadioj de la dizajnado, estas
+
+00:07:43.280 --> 00:07:44.760
+Ĝi estas ekstera dependeco
+
+00:07:45.340 --> 00:07:46.580
+Eksteraj dependecoj estas
+
+00:07:46.580 --> 00:07:49.210
+Ĝi povus esti ekzistanta heredaĵa sistemo,
+
+00:07:49.660 --> 00:07:51.420
+Ĝi povus esti pagsistemo
+
+00:07:52.020 --> 00:07:53.670
+Ĉi tiu dependeca rilato estas
+
+00:07:53.670 --> 00:07:56.760
+Ĉar ĝi povas havi gravan efikon sur la ĝeneralan sistemdezajnon.
+
+00:07:56.950 --> 00:08:00.150
+Gravas identigi ĝin kiel eble plej frue.
+
+00:08:00.570 --> 00:08:01.240
+bonŝance
+
+00:08:01.820 --> 00:08:04.990
+Elementoj kiel pagpordegoj kaj heredaĵaj sistemoj
+
+00:08:05.270 --> 00:08:07.730
+Ĉar ĝi jam estas uzata en ekzistantaj sistemoj
+
+00:08:07.990 --> 00:08:10.360
+Ĝi estas komprenebla relative facile
+
+00:08:11.230 --> 00:08:14.410
+Unu el la aferoj, kiujn oni facile preteratentas en dependa rilato, estas
+
+00:08:14.410 --> 00:08:16.090
+Ekzistas eksteraj mediaj faktoroj
+
+00:08:16.900 --> 00:08:19.060
+Nia lando estas en la sama horzono
+
+00:08:19.060 --> 00:08:22.430
+En lando kun granda terregiono, ĉiu teatro havas malsaman horintervalon.
+
+00:08:23.190 --> 00:08:25.100
+Tiam la Filma Rezerva Sistemo
+
+00:08:25.100 --> 00:08:28.900
+Estas neeviteble, ke ĝin influos mediaj faktoroj kiel ekzemple horzonoj.
+
+00:08:29.410 --> 00:08:32.760
+Ĉi tiuj faktoroj ne estas facile evidentaj krom se vi demandas rekte la domajnan spertulon.
+
+00:08:32.760 --> 00:08:33.950
+Estas facile maltrafi
+
+00:08:34.740 --> 00:08:37.610
+Domajnaj fakuloj emas preteratenti ĉi tiujn detalojn.
+
+00:08:37.610 --> 00:08:40.010
+Ĉar la klarigo povas esti preterlasita
+
+00:08:41.680 --> 00:08:43.640
+Ĉar la dependeca rilato estis klare deklarita
+
+00:08:43.640 --> 00:08:47.500
+Nun ni koncentriĝu pri la internaĵoj de la Filma Rezerva Sistemo.
+
+00:08:48.430 --> 00:08:52.230
+Unue, kion faras la kliento en la Filma Rezervsistemo?
+
+00:08:52.230 --> 00:08:54.230
+Ni demandu la domajnajn fakulojn
+
+00:08:55.800 --> 00:08:57.880
+Kion faras klientoj?
+
+00:08:57.880 --> 00:08:59.970
+Klientoj serĉas filmojn,
+
+00:08:59.970 --> 00:09:01.450
+Vidi detalojn pri la filmo,
+
+00:09:01.450 --> 00:09:02.910
+Elektu ekzamenan tempon,
+
+00:09:02.910 --> 00:09:04.450
+Elektu vian sidlokon,
+
+00:09:04.450 --> 00:09:05.920
+Rezervi kinbiletojn,
+
+00:09:05.920 --> 00:09:07.610
+Kontrolu la detalojn de la rezervo,
+
+00:09:07.610 --> 00:09:10.180
+Faru aferojn kiel nuligi rezervon
+
+00:09:10.180 --> 00:09:15.750
+Ĉu la elekto de spektaklohoro kaj la elekto de sidloko estas parto de la procezo de mendado de kinejobiletoj?
+
+00:09:15.750 --> 00:09:18.880
+Kaj por rezervi kinbiletojn, por nuligi rezervojn
+
+00:09:18.880 --> 00:09:22.210
+Finfine, ĉu vi ne nur aĉetas bileton kaj ricevas repagon?
+
+00:09:22.210 --> 00:09:23.620
+vi pravas
+
+00:09:23.620 --> 00:09:25.030
+Tio pravas
+
+00:09:25.480 --> 00:09:27.880
+Ĉar ĝi estas konata domajno nun
+
+00:09:27.880 --> 00:09:31.240
+Elektu projekcian tempon kaj elektu vian sidlokon
+
+00:09:31.240 --> 00:09:33.200
+Ĉu ĉi tio estas parto de la procezo de mendado de kinejaj biletoj?
+
+00:09:33.200 --> 00:09:34.530
+Mi povus demandi
+
+00:09:34.980 --> 00:09:37.220
+Sed se temas pri nekonata domajno,
+
+00:09:37.410 --> 00:09:40.160
+Detale analizante ĉiun uzkazon
+
+00:09:40.520 --> 00:09:43.330
+Vi ripetos la rafinadprocezon plurfoje.
+
+00:09:43.790 --> 00:09:45.350
+Depende de la projekta situacio
+
+00:09:45.350 --> 00:09:48.080
+Vi povas ripeti ĉi tiun procezon plurfoje,
+
+00:09:48.080 --> 00:09:50.580
+Ju pli vi prenas vian tempon kaj analizas zorge,
+
+00:09:50.580 --> 00:09:54.190
+Reduktu provojn kaj erarojn dum la projektaj kaj efektivigaj stadioj.
+
+00:09:55.850 --> 00:09:57.530
+Bazita sur la konversacio ĝis nun
+
+00:09:57.530 --> 00:10:00.970
+Ni organizis niajn klientajn uzokazojn en kvar kategoriojn:
+
+00:10:02.960 --> 00:10:04.470
+Sekva estas la administranto
+
+00:10:05.190 --> 00:10:08.850
+La administranto povas vidi, ke estas kvin administraj eroj:
+
+00:10:09.440 --> 00:10:13.620
+Persone, mi estas singarda pri uzado de la vorto "Administri" en disvolviĝo.
+
+00:10:14.360 --> 00:10:16.980
+Administri estas tro larĝa esprimo
+
+00:10:16.980 --> 00:10:19.030
+Ne estas klare, kion vi faras
+
+00:10:19.640 --> 00:10:20.950
+Estas same ankaŭ ĉi tie
+
+00:10:21.370 --> 00:10:23.760
+Kiel precize ĝi estas administrata?
+
+00:10:23.760 --> 00:10:24.810
+Mi ne scias
+
+00:10:25.930 --> 00:10:27.620
+Per parolado kun domajnaj fakuloj
+
+00:10:27.620 --> 00:10:31.220
+Ĉiu administrada elemento estis vastigita al specifa uzkazo.
+
+00:10:31.900 --> 00:10:33.660
+Se ĝi estas vera projekto
+
+00:10:33.660 --> 00:10:35.890
+Verŝajne ekzistas pli da uzkazoj ol ĉi tio.
+
+00:10:36.150 --> 00:10:39.000
+Jen mi simpligis ĝin por klarigo.
+
+00:10:39.860 --> 00:10:42.700
+Gravas rimarki ĉi tie, ke kiam vi kreas kurtempon,
+
+00:10:43.020 --> 00:10:45.900
+Vi povas vidi, ke la bileto ankaŭ estas kreita
+
+00:10:46.960 --> 00:10:49.200
+Kaj kiam oni aĉetas aŭ repagadas bileton
+
+00:10:49.490 --> 00:10:53.910
+Vi ankaŭ povas vidi, ke ni uzas eksteran servon nomatan pagpordego.
+
+00:10:55.890 --> 00:10:58.670
+Mi kombinis la uzkazojn de klientoj kaj manaĝeroj.
+
+00:10:59.350 --> 00:11:01.730
+Rigardante la tutan uzkazon tiel
+
+00:11:01.730 --> 00:11:02.900
+Io sentas malplena
+
+00:11:03.890 --> 00:11:05.840
+Ekzistas eblo aldoni teatron
+
+00:11:05.840 --> 00:11:08.720
+Mi ne vidas ion similan al Serĉteatro
+
+00:11:09.410 --> 00:11:12.130
+Ŝajnas, ke estas sufiĉe multaj uzkazoj, kiuj estas preterlasataj.
+
+00:11:12.770 --> 00:11:15.980
+Ĉar el la perspektivo de domajna fakulo, estas multe por klarigi.
+
+00:11:15.980 --> 00:11:17.950
+Ĉi tiu uzokazo, kiu ŝajnas tiel evidenta,
+
+00:11:18.150 --> 00:11:19.810
+Vi povas preterlasi la klarigon
+
+00:11:20.770 --> 00:11:23.460
+Do kio pri el la perspektivo de programisto?
+
+00:11:24.400 --> 00:11:28.290
+Estas pli bone preterlasi simplajn novaĵajn kazojn kiel serĉado de teatro.
+
+00:11:28.290 --> 00:11:30.700
+Ĉu tio ne estus pli helpema por dokumentadministrado?
+
+00:11:31.720 --> 00:11:32.870
+Se temas pri malantaŭa dezajno
+
+00:11:32.870 --> 00:11:35.920
+Simplaj uzkazoj kiel serĉi kinejon
+
+00:11:35.920 --> 00:11:37.760
+Mi opinias, ke estas bone preterlasi ĝin
+
+00:11:38.600 --> 00:11:41.570
+Kion mi diras estas, ke ne estas tro malfrue por respondi dum la efektiviga fazo.
+
+00:11:42.370 --> 00:11:44.310
+Sed se temas pri vera projekto
+
+00:11:44.310 --> 00:11:48.450
+Por ekranplanistoj, ĉi tiuj uzkazoj estas bona deirpunkto.
+
+00:11:49.250 --> 00:11:52.300
+La planisto rigardis la uzkazon de serĉado de teatro.
+
+00:11:52.300 --> 00:11:55.300
+Kiel mi ebligu serĉi kinejojn?
+
+00:11:55.300 --> 00:11:56.600
+Vi povos pensi
+
+00:11:58.000 --> 00:12:00.880
+Kiam oni kombinas la diagramojn en unu, ĝi aspektas komplika.
+
+00:12:01.490 --> 00:12:05.150
+Se ĝi estus vera projekto, ĝi estus multe pli komplika.
+
+00:12:05.720 --> 00:12:08.240
+En ĉi tiu kazo, ne necesas devigi kunfandiĝon.
+
+00:12:08.810 --> 00:12:13.910
+Mi ĵus kunigis ilin ĉi tie por malkaŝi, ke mankas kazoj.
+
+00:12:16.020 --> 00:12:18.490
+Mi plenigis ĉiujn mankantajn kazojn
+
+00:12:19.200 --> 00:12:21.880
+Mi havas uzkazon kie la ligo al la aktoro estas preterlasita.
+
+00:12:22.290 --> 00:12:25.720
+Tio validas kaj por klientoj kaj por manaĝeroj.
+
+00:12:26.400 --> 00:12:29.480
+Kaj por faciligi la efektivigon, mi skribis ĝin en la angla.
+
+00:12:31.370 --> 00:12:34.160
+Nun estas bone ĉar ĝi estas malgranda projekto
+
+00:12:34.160 --> 00:12:36.160
+Se la projekto estas granda kaj kompleksa
+
+00:12:36.160 --> 00:12:38.980
+Kie domajna fakulo devus komenci klarigi?
+
+00:12:38.980 --> 00:12:40.380
+Povas esti malfacile
+
+00:12:41.280 --> 00:12:43.300
+Kion faras administranto?
+
+00:12:43.300 --> 00:12:44.700
+Estas multe da laboro
+
+00:12:44.700 --> 00:12:46.620
+Kiel atendite de la manaĝero
+
+00:12:47.620 --> 00:12:49.750
+En ĉi tiu kazo, ĉu ni povas subdividi la aktorojn?
+
+00:12:49.750 --> 00:12:52.340
+Estas ankaŭ bona ideo revizii
+
+00:12:53.140 --> 00:12:54.790
+Komence mi estis nomata administranto
+
+00:12:54.790 --> 00:12:57.400
+Eble eblas subdividi laŭ rolo
+
+00:12:58.520 --> 00:13:00.820
+Kaj uzante la Filman Rezervosistemon
+
+00:13:00.820 --> 00:13:02.870
+Povas esti eksteraj servoj
+
+00:13:03.660 --> 00:13:05.340
+Se ni segmentas la aktorojn tiel,
+
+00:13:05.340 --> 00:13:09.420
+Domajnaj fakuloj povos provizi pli sistemajn informojn.
+
+00:13:10.350 --> 00:13:14.000
+Kompreneble, ĉi tio estas nur unu ekzemplo de analizo de kompleksa domajno.
+
+00:13:14.540 --> 00:13:17.320
+Eble ekzistas aliaj bonaj manieroj
+
+00:13:17.960 --> 00:13:21.740
+Gravas respondi flekseble depende de la situacio.
+
+00:13:24.250 --> 00:13:25.060
+Jen la konkludo
+
+00:13:25.950 --> 00:13:29.170
+Ĉi-foje, ni uzos uzkazan diagramon
+
+00:13:29.170 --> 00:13:30.840
+Fiksu celojn por la projekto
+
+00:13:31.230 --> 00:13:33.700
+Mi trairis la komencajn stadiojn de analizo.
+
+00:13:34.880 --> 00:13:38.010
+Persone, dum la tuta disvolviĝoprocezo
+
+00:13:38.010 --> 00:13:40.060
+Mi opinias, ke analizo estas la plej malfacila
+
+00:13:40.570 --> 00:13:44.250
+Ĉar ni devas organizi la plej abstraktajn kaj neklarajn konceptojn.
+
+00:13:45.020 --> 00:13:47.650
+Venontfoje ni rigardos la ĉefajn uzokazojn
+
+00:13:47.650 --> 00:13:49.470
+Ni analizu ĝin pli detale
+
+00:13:50.300 --> 00:13:52.100
+Dankon pro via malfacila laboro ĝis nun.
+

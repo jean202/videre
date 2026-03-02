@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: gn
+
+00:00:00.000 --> 00:00:02.020
+Maitei, kóva ha'e Código de Manera.
+
+00:00:03.290 --> 00:00:05.350
+Software ningo ikomplikado
+
+00:00:06.650 --> 00:00:08.890
+Tenonderãite, oĩ hetaiterei código tekotevẽva ojehai.
+
+00:00:09.760 --> 00:00:12.710
+Umi proyecto techapyrãnte amoheñóiva ko serie-pe guarã
+
+00:00:12.710 --> 00:00:15.270
+Pe código ipuku 12.000 línea ári.
+
+00:00:16.330 --> 00:00:18.320
+Ha’éramo peteĩ servicio operativo añeteguáva
+
+00:00:18.320 --> 00:00:21.530
+Jepe ha'e peteî servicio michîva, fácilmente ohasáta 100.000 línea.
+
+00:00:22.130 --> 00:00:25.300
+Cien mil línea ha’e suficiente omyenyhẽ haguã veinte novela.
+
+00:00:26.870 --> 00:00:29.560
+Ojehai jave código ipukúva nde’iséi opamaha.
+
+00:00:30.330 --> 00:00:32.540
+Remyatyrõ meme vaʼerã pe kódigo rehaíva.
+
+00:00:33.400 --> 00:00:35.800
+Remyatyrõramo A, B oñembyai.
+
+00:00:35.800 --> 00:00:39.130
+Remyatyrõramo B, A ha C oñembyaíta.
+
+00:00:41.090 --> 00:00:44.260
+Jaipuru haĝua peteĩ analogía, ha’ete ku ñaimeva’ekue atrapado peteĩ Rasputa-pe ha hasẽ.
+
+00:00:44.260 --> 00:00:46.360
+Ikatu ere haʼeha peteĩ situasión ojoguáva peteĩ kavajupe.
+
+00:00:47.330 --> 00:00:50.550
+Ko’ã momento-pe, reñandu tekotevẽha ojejapo diseño.
+
+00:00:52.580 --> 00:00:55.010
+Péro añetehápe reñehaʼã jave rehai peteĩ dokuménto de diseño,
+
+00:00:55.500 --> 00:00:58.490
+Reikuaaukávo umi pensamiento oĩva nde akãme concretamente
+
+00:00:58.790 --> 00:01:01.260
+Rehechakuaáta ndahaʼeiha ndahasýiva repensaháicha.
+
+00:01:01.890 --> 00:01:05.600
+Partitura jepe, haʼéva peteĩ kuatia ograváva hesa rupive tyapu térã purahéi,
+
+00:01:05.600 --> 00:01:06.700
+Ha'e péva complicado
+
+00:01:07.520 --> 00:01:10.610
+Ndaha'éi música añónte, sino avei finanzas ha logística
+
+00:01:10.610 --> 00:01:14.060
+Hetave concepto opaichagua ha umi mba’e ojejeruréva puruhára abstracto-pe
+
+00:01:14.060 --> 00:01:17.220
+Ndahasýi mo'ãi oje'e haguã peteî modelo específico-pe.
+
+00:01:18.530 --> 00:01:19.490
+Ha'etépe
+
+00:01:19.770 --> 00:01:23.200
+Ojesupera hagua pe dificultad ojejapo hagua modelado umi concepto abstracto rehegua
+
+00:01:23.540 --> 00:01:26.860
+UML heñóikuri ary 1990 paha rupi.
+
+00:01:27.730 --> 00:01:30.120
+Omotenonde Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Jaipuru UML ñeha’arõ reheve
+
+00:01:34.980 --> 00:01:36.990
+Jajapo petet diagrama clase rehegua
+
+00:01:36.990 --> 00:01:38.760
+Jajapo avei petet diagrama secuencia rehegua
+
+00:01:39.430 --> 00:01:39.980
+upéicharamo jepe
+
+00:01:40.360 --> 00:01:43.160
+Añetehápe añeha’ãrõ guare adiseña, iñambue acodifica haguére directamente.
+
+00:01:43.160 --> 00:01:45.130
+Haʼete ku ndahaʼéiva tuicha idiferénteva
+
+00:01:45.590 --> 00:01:46.520
+Mbaʼérepa upéva?
+
+00:01:47.350 --> 00:01:50.910
+Upéva ojepokuaa haguére proceso de pensamiento implementación rehe.
+
+00:01:51.290 --> 00:01:54.170
+Ojejapo rangue umi concepto abstracto-gui concretove, .
+
+00:01:54.490 --> 00:01:57.590
+Ombohaságui pensamiento nivel de implementación UML-pe.
+
+00:01:58.520 --> 00:02:00.270
+Ikatu haguérente relee partitura
+
+00:02:00.270 --> 00:02:01.950
+Ndaha'éi ikatuháicha acompone
+
+00:02:02.390 --> 00:02:03.850
+Reaprende haguérente UML
+
+00:02:03.850 --> 00:02:06.170
+Ndaha’éi ningo redesarrollaháicha katupyry diseño-pe.
+
+00:02:07.700 --> 00:02:09.300
+Upéicha ko serie-pe
+
+00:02:09.300 --> 00:02:11.580
+Umi proyecto añeteguáva rupive
+
+00:02:11.580 --> 00:02:14.420
+Mba’éichapa ojejapo concretiza umi requisito abstracto
+
+00:02:14.420 --> 00:02:16.290
+Ikatúpa rembojoaju pe código?
+
+00:02:16.290 --> 00:02:18.010
+Ahechaukase peẽme en persona
+
+00:02:18.530 --> 00:02:20.930
+Aiporavo arreserva umi boleto de cine por dominio
+
+00:02:21.370 --> 00:02:25.200
+Umi reserva de boleto de película ndahasýi oñentende ha’égui hetave dominio ojekuaáva.
+
+00:02:25.200 --> 00:02:29.710
+Oike opaichagua tembiaporã ha’eháicha jeike, jehepyme’ẽ ha apyka jeporavo.
+
+00:02:29.710 --> 00:02:31.580
+Haʼete voi peteĩ ehémplo iporãva
+
+00:02:33.600 --> 00:02:36.890
+Básicamente, tema ko artículo-pe ha’e diseño software, ha katu
+
+00:02:36.890 --> 00:02:40.350
+Avei rocubrita desarrollo impulsado prueba rupive.
+
+00:02:41.210 --> 00:02:44.890
+Umi entorno desarrollo moderno oipytyvõ nativamente umi tembipuru prueba rehegua.
+
+00:02:45.600 --> 00:02:48.320
+Jepe remañáramo umi proyecto código abierto herakuãitévare, .
+
+00:02:48.320 --> 00:02:51.130
+Ore roguereko peteĩ cierto nivel de prueba.
+
+00:02:51.740 --> 00:02:56.200
+Oiméne upéva heʼise umi pruéva tuicha mbaʼeha ha ideprovechoha.
+
+00:02:56.870 --> 00:02:58.120
+Péro añetehápe
+
+00:02:58.120 --> 00:03:02.590
+Heta jey, ndahaꞌei TDD añónte, ha katu automatización prueba rehegua jepe noñemoañetéi hekopete.
+
+00:03:03.190 --> 00:03:06.260
+Ohai raẽ umi prueba orekóva sentido mba’eveichagua preparación’ỹre ha’e
+
+00:03:06.260 --> 00:03:07.540
+Araka'eve ndaha'éi ndahasýiva
+
+00:03:08.410 --> 00:03:12.340
+Kóva haꞌehína peteĩ mbaꞌe oikotevẽva umi mbaꞌekuaarã oñembojoajúva software diseño rehegua.
+
+00:03:13.320 --> 00:03:16.270
+Upéicharõ, iporãve oñembohovái diseño ha TDD oñondive.
+
+00:03:16.270 --> 00:03:18.180
+Che ahuzga ha’eha eficiente
+
+00:03:20.120 --> 00:03:23.450
+Upévare koʼág̃a ñañepyrũ pe primera rreunión pe projékto rehegua.
+
+00:03:24.150 --> 00:03:26.470
+Pórke kóva haʼe peteĩ projékto michĩva
+
+00:03:26.470 --> 00:03:28.090
+Oĩ mokõi tapicha ohóva
+
+00:03:28.790 --> 00:03:32.340
+Pe oĩva ijasu gotyo ha’e peteĩ tapicha katupyry dominio rehegua, ha pe oĩva ijakatúape ha’e peteĩ desarrollador.
+
+00:03:34.550 --> 00:03:37.790
+Umi tapicha katupyry dominio rehegua oguereko iñe’ẽ umi sistema ñaikotevẽva ñamopu’ã.
+
+00:03:37.790 --> 00:03:39.280
+Heta mombe’upy omombe’u
+
+00:03:40.340 --> 00:03:42.160
+Pe ñoha’ãnga ñamotenondéva
+
+00:03:42.160 --> 00:03:44.710
+Oĩ irundy mil rupi umíva tetã tuichakue javeve.
+
+00:03:44.710 --> 00:03:47.220
+Ikatu oñembohetave amo gotyove.
+
+00:03:47.220 --> 00:03:50.480
+Ko’áĝa, oñepytyvõ función reserva de boleto de cine añoite.
+
+00:03:50.480 --> 00:03:54.510
+Roplanea romoĩve haĝua venta de boletos umi actuación tuicha escala-pe ĝuarã upe rire.
+
+00:03:54.510 --> 00:03:58.940
+Ha pe iñimportánteva haʼe arakaʼeve ndaperreservái vaʼerãha pe apyka.
+
+00:03:58.940 --> 00:04:03.250
+Ymave, umi centro de servicio al cliente añetehápe hasy upeichagua problema reheve.
+
+00:04:03.250 --> 00:04:07.670
+Oĩgui hetaiterei marandu película rehegua ha dato revisión rehegua oñembyatýmava.
+
+00:04:07.670 --> 00:04:11.090
+Ko'ã dato opyta va'erã intacto.
+
+00:04:12.090 --> 00:04:14.730
+Ko’ápe oñembosako’i porã pe ñomongeta, ha katu
+
+00:04:14.890 --> 00:04:16.960
+Añetehápe, oĩve marandu
+
+00:04:16.960 --> 00:04:18.600
+Oñemoguahêta de manera desorganizada-pe
+
+00:04:19.470 --> 00:04:22.110
+Ha katu pe tembiasakue osẽva oñepyrũvo pe proyecto ha’e
+
+00:04:22.110 --> 00:04:23.780
+Pórke haʼe pe mbaʼe iñimportantevéva ojejeruréva
+
+00:04:23.780 --> 00:04:25.320
+Rehendu porã vaʼerã
+
+00:04:27.110 --> 00:04:29.810
+Umi moheñóiharakuéra ohendu umi tapicha katupyry dominio rehegua
+
+00:04:29.810 --> 00:04:31.290
+Che areko mbovymi porandu
+
+00:04:32.290 --> 00:04:34.660
+Pe función reserva boleto de actuación tuicha escala rehegua reñe’ẽva’ekue
+
+00:04:34.660 --> 00:04:36.910
+Araka’épa oñembojoapýta?
+
+00:04:36.910 --> 00:04:39.910
+¿Oñemoĩvaʼerãpa upéva ko projékto ámbitope de antemano?
+
+00:04:39.910 --> 00:04:43.590
+Térã aikuaase ahesaʼỹijovaʼerãpa gueteri upéva
+
+00:04:43.590 --> 00:04:46.090
+Ha tekotevêha oñemantene umi dato oîva
+
+00:04:46.090 --> 00:04:48.940
+¿He’isépa péva nañamoambueiva’erãha pe sistema DB rehegua?
+
+00:04:48.940 --> 00:04:51.950
+Oĩpa ambue servicio okompartiva ko’áĝa DB?
+
+00:04:53.580 --> 00:04:54.980
+Jahechaháicha DB-gui,
+
+00:04:54.980 --> 00:04:57.290
+Umi tapicha katupyry dominio rehegua ndaha’éigui desarrollador.
+
+00:04:57.290 --> 00:04:59.430
+Pe expresión técnica ha’e ambigua
+
+00:04:59.910 --> 00:05:02.890
+Umi moheñóiharakuéra tekotevẽ ohecha porã ko’ã mba’e.
+
+00:05:04.230 --> 00:05:07.450
+Umi tapicha katupyry dominio rehegua ombohovái moheñóiharakuéra porandu kóicha:
+
+00:05:08.330 --> 00:05:10.210
+Ko función reserva boleto desempeño tuicha escala-pe
+
+00:05:10.210 --> 00:05:13.450
+Ndaipóri gueteri horario específico.
+
+00:05:13.450 --> 00:05:15.970
+Ha katu, oñembojoapývo umi mba’ekuaarã tenonderãme
+
+00:05:15.970 --> 00:05:18.700
+Ikatu hag̃uáicha rembopyahu heta apañuãi’ỹre
+
+00:05:18.700 --> 00:05:22.600
+Che apensa iporãtaha ikatúramo peme’ẽ algún consideración ko’áĝa.
+
+00:05:22.600 --> 00:05:27.050
+Ndoroiporúi DB ambue mba’épe ndaha’éiva ore servicio-kuéra.
+
+00:05:27.050 --> 00:05:32.840
+Oñemoambuévo sistema ijehegui ndahaꞌei peteĩ apañuãi tuicháva oñeñangareko porã aja umi dato rehe.
+
+00:05:33.840 --> 00:05:35.080
+Ohendu rire pe tembiasakue
+
+00:05:35.080 --> 00:05:39.400
+Che ndaha’éi aimo’ãva tekotevẽha rejepy’apy pe espectáculo tuicháva rehe.
+
+00:05:39.400 --> 00:05:40.790
+Ndaha'éi alcance orekóva proyecto
+
+00:05:40.790 --> 00:05:43.040
+Umi mba'e ojejeruréva nahesakãi avei
+
+00:05:43.040 --> 00:05:44.930
+Ndaikuaái araka'épa aikotevẽta, ha katu
+
+00:05:44.930 --> 00:05:47.710
+Upéva ha’e peteĩ problema jahecha jeyva’erã upe rire.
+
+00:05:48.920 --> 00:05:50.910
+Jepémo ndojehai kuatiápe
+
+00:05:50.910 --> 00:05:54.880
+Umi experto dominio rehegua ome’ẽta avei peteĩ ñembohovái ohesa’ỹijótaha hikuái umi rendimiento tuicha escala-pe.
+
+00:05:54.880 --> 00:05:55.960
+Nderesarái vaʼerã
+
+00:05:56.740 --> 00:05:58.320
+Iporãmba
+
+00:05:58.320 --> 00:06:00.630
+Upéi, pe función reserva boleto de actuación tuicha escala-pe
+
+00:06:00.630 --> 00:06:04.500
+Namoĩmo’ãi umi prioridad máxima apytépe ko proyecto-pe ĝuarã.
+
+00:06:04.500 --> 00:06:08.220
+Upéva rangue, ombohape oñembotuichave hag̃ua funcionalidad upe rire proceso desarrollo-pe.
+
+00:06:08.220 --> 00:06:10.190
+Añangareko porãta hese
+
+00:06:10.190 --> 00:06:12.840
+Ani rejepy'apy. Pejerovia cherehe añoite
+
+00:06:13.840 --> 00:06:15.960
+Iñimportánte jajogueraha porã
+
+00:06:17.980 --> 00:06:19.500
+Ore ñomongeta rupive ko’áĝa peve
+
+00:06:19.500 --> 00:06:22.700
+Umi mba’e tenondegua tenondegua oñembohysýi kóicha:
+
+00:06:23.220 --> 00:06:25.890
+Péva ha’e marandu ome’ẽva umi tapicha katupyry dominio rehegua.
+
+00:06:25.890 --> 00:06:28.410
+Oñeinterpreta ha omohenda peteĩ desarrollador resa guive
+
+00:06:28.410 --> 00:06:29.810
+Eñepyrũ pe tembiapo
+
+00:06:31.700 --> 00:06:32.860
+Umi tapicha katupyry dominio rehegua ndive
+
+00:06:32.860 --> 00:06:34.980
+Redesidi rire mbaʼépa rehupytyse nde projékto,
+
+00:06:35.620 --> 00:06:37.980
+Ko'ágã og̃uahẽma ára rembohéra hag̃ua nde proyecto.
+
+00:06:38.750 --> 00:06:41.840
+Primero, eporandu peteĩ experto dominio-pe hemiandu.
+
+00:06:42.800 --> 00:06:45.540
+Mba’éichapa ambohérava’erã pe proyecto.
+
+00:06:45.540 --> 00:06:47.680
+Ha'e peteî sistema de reserva de películas.
+
+00:06:47.680 --> 00:06:50.150
+Mba’éichapa pe Sistema de Reserva de Películas añónte?
+
+00:06:50.150 --> 00:06:51.430
+nahániri, ndaipotái
+
+00:06:51.430 --> 00:06:53.570
+Che añangarekóta umi actuación tuicha escala-pe
+
+00:06:53.570 --> 00:06:56.930
+Jaha pe Sistema de Reserva de Películas reheve. heẽ?
+
+00:06:56.930 --> 00:06:58.180
+iporã
+
+00:06:58.180 --> 00:06:59.950
+Aguyjevete
+
+00:07:01.000 --> 00:07:05.230
+Umi tapicha katupyry dominio rehegua ikatu oipota proyecto réra coreano-pe.
+
+00:07:05.580 --> 00:07:07.680
+Ha katu peteĩ desarrollador perspectiva guive
+
+00:07:07.680 --> 00:07:09.990
+Opaite término oikehápe proyecto réra
+
+00:07:09.990 --> 00:07:12.180
+Oñemoañetégui directamente código-pe,
+
+00:07:12.600 --> 00:07:15.000
+Ndahasýi ojedefini haguã inglés-pe ikatúramo.
+
+00:07:15.540 --> 00:07:19.510
+Tuicha mba’e umi desarrollador-pe g̃uarã osegi jeroviahápe umi tapicha katupyry dominio rehegua remikotevẽ, ha katu
+
+00:07:19.960 --> 00:07:21.430
+Ojehechávo pe proyecto pukukue
+
+00:07:21.430 --> 00:07:23.930
+Avei roguereko responsabilidad rodirigi haĝua umi mba’e peteĩ dirección eficiente-pe.
+
+00:07:25.850 --> 00:07:27.760
+Oiméramo redesidi peteĩ téra nde proyecto-pe g̃uarã
+
+00:07:27.760 --> 00:07:31.380
+Ko’áğa og̃uahẽma ára jaikuaa hag̃ua mávapa oipuru pe Sistema de Reserva de Películas.
+
+00:07:32.020 --> 00:07:34.940
+Añetehápe, rejerureva’erã peteĩ tapicha katupyry dominio rehegua marandu ko mba’ére.
+
+00:07:35.420 --> 00:07:38.740
+Ha jajuhu jaguerekoha cliente ha gerente.
+
+00:07:40.820 --> 00:07:43.280
+Peteĩva umi elemento ndahasýiva ojeperde umi etapa ñepyrũme diseño-pe ha’e
+
+00:07:43.280 --> 00:07:44.760
+Ha’e peteĩ dependencia externa
+
+00:07:45.340 --> 00:07:46.580
+Umi dependencia okapegua ha’e
+
+00:07:46.580 --> 00:07:49.210
+Ikatu ha'e peteî sistema legado oîva,
+
+00:07:49.660 --> 00:07:51.420
+Ikatu ha'e peteî sistema de pago
+
+00:07:52.020 --> 00:07:53.670
+Ko relación dependencia rehegua ha’e
+
+00:07:53.670 --> 00:07:56.760
+Ikatu haguére oguereko tuicha impacto diseño sistema general rehe.
+
+00:07:56.950 --> 00:08:00.150
+Iñimportánte jaikuaa pyaʼe ikatuháicha.
+
+00:08:00.570 --> 00:08:01.240
+Ha'etépe
+
+00:08:01.820 --> 00:08:04.990
+Umi elemento ha'eháicha umi puerta de pago ha sistema legado
+
+00:08:05.270 --> 00:08:07.730
+Ojeporúmagui umi sistema oĩmavape
+
+00:08:07.990 --> 00:08:10.360
+Ikatu oñentende ndahasyiete
+
+00:08:11.230 --> 00:08:14.410
+Peteĩ mba’e ndahasýiva ojehecha’ỹ haĝua peteĩ relación dependiente-pe ha’e
+
+00:08:14.410 --> 00:08:16.090
+Oĩ umi mba’e tekoha okapegua
+
+00:08:16.900 --> 00:08:19.060
+Ñane retã oime peteî zona horaria-pe
+
+00:08:19.060 --> 00:08:22.430
+Peteĩ tetã oguerekóva tuicha yvy, káda teatro oguereko peteĩ tiempo iñambuéva.
+
+00:08:23.190 --> 00:08:25.100
+Upéi pe Sistema de Reserva de Películas
+
+00:08:25.100 --> 00:08:28.900
+Inevitable ojeafectáta umi factor ambiental ha'eháicha zona horaria.
+
+00:08:29.410 --> 00:08:32.760
+Ko’ã mba’e ndojehechái pya’e ndaha’éiramo reporandúva directamente pe experto dominio rehegua.
+
+00:08:32.760 --> 00:08:33.950
+Ndahasýi ningo japerde
+
+00:08:34.740 --> 00:08:37.610
+Umi experto dominio rehegua ohecha’ỹ jepi ko’ã detalle.
+
+00:08:37.610 --> 00:08:40.010
+Pórke ikatu ojeheja rei pe explicación
+
+00:08:41.680 --> 00:08:43.640
+Oje’e porã guive pe relación dependencia rehegua
+
+00:08:43.640 --> 00:08:47.500
+Ko’áğa ñañecentra umi interna Sistema de Reserva de Películas-pe.
+
+00:08:48.430 --> 00:08:52.230
+Tenonderãite, mba’épa ojapo pe cliente Sistema de Reserva de Películas-pe?
+
+00:08:52.230 --> 00:08:54.230
+Ñaporandu umi experto dominio rehegua
+
+00:08:55.800 --> 00:08:57.880
+Mba’épa ojapo umi cliente.
+
+00:08:57.880 --> 00:08:59.970
+Umi cliente oheka pelíkula, .
+
+00:08:59.970 --> 00:09:01.450
+Ehecha umi detalle pelíkula rehegua,
+
+00:09:01.450 --> 00:09:02.910
+Eiporavo peteĩ aravo ojehechauka hag̃ua, .
+
+00:09:02.910 --> 00:09:04.450
+Eiporavo nde apyka, .
+
+00:09:04.450 --> 00:09:05.920
+Reserva boleto de película, .
+
+00:09:05.920 --> 00:09:07.610
+Ehecháke umi detalle reserva rehegua,
+
+00:09:07.610 --> 00:09:10.180
+Ejapo umi mbaʼe por ehémplo rekansela hag̃ua peteĩ rreservasión
+
+00:09:10.180 --> 00:09:15.750
+¿Oiporavópa peteĩ hora de espectáculo ha oiporavo peteĩ asiento parte pe proceso de reserva de boleto de cine-pe?
+
+00:09:15.750 --> 00:09:18.880
+Ha ojerreserva hag̃ua boleto de cine, oñekansela hag̃ua umi reserva
+
+00:09:18.880 --> 00:09:22.210
+Añetehápe, ¿ndahaʼéi piko rejoguánte peteĩ boleto ha rerrevolve?
+
+00:09:22.210 --> 00:09:23.620
+nde ere porã
+
+00:09:23.620 --> 00:09:25.030
+Upéva ningo añete
+
+00:09:25.480 --> 00:09:27.880
+Pórke haʼe peteĩ dominio ojekuaáva koʼág̃a
+
+00:09:27.880 --> 00:09:31.240
+Eiporavo peteĩ óra ojejapo hag̃ua proyección ha eiporavo nde apyka
+
+00:09:31.240 --> 00:09:33.200
+¿Oĩpa kóva pe proceso de reserva de boleto de cine-pe?
+
+00:09:33.200 --> 00:09:34.530
+Ikatu aporandu
+
+00:09:34.980 --> 00:09:37.220
+Ha katu ha’éramo peteĩ dominio ndoikuaáiva, .
+
+00:09:37.410 --> 00:09:40.160
+Oñeanalisávo peteĩteĩ káso jeporu rehegua detalle reheve
+
+00:09:40.520 --> 00:09:43.330
+Heta jey rejapo jeýta pe proceso de refinación.
+
+00:09:43.790 --> 00:09:45.350
+Odepende pe situación proyecto rehegua
+
+00:09:45.350 --> 00:09:48.080
+Ikatu rejapo jey ko proceso heta jey, .
+
+00:09:48.080 --> 00:09:50.580
+Amáske reñemotiémpo ha reanalisa porã,
+
+00:09:50.580 --> 00:09:54.190
+Oñemboguejy ensayo ha error umi etapa diseño ha implementación aja.
+
+00:09:55.850 --> 00:09:57.530
+Oñemopyendáva ñomongeta ko'ágã peve
+
+00:09:57.530 --> 00:10:00.970
+Romohenda ore káso cliente jeporu rehegua irundy categoría-pe:
+
+00:10:02.960 --> 00:10:04.470
+Upe rire oĩ pe administrador
+
+00:10:05.190 --> 00:10:08.850
+Pe mohendahára ikatu ohecha oĩha po mba’e jesarekorã:
+
+00:10:09.440 --> 00:10:13.620
+Personalmente, aime cauteloso aiporúvo ñe'ẽ "Gestión" desarrollo-pe.
+
+00:10:14.360 --> 00:10:16.980
+Gestionar ha’e peteĩ expresión tuichaitereíva
+
+00:10:16.980 --> 00:10:19.030
+Ndojekuaái mba'épa rejapo
+
+00:10:19.640 --> 00:10:20.950
+Péicha avei ko'ápe avei
+
+00:10:21.370 --> 00:10:23.760
+Mbaʼéichapa añetehápe oñemaneha?
+
+00:10:23.760 --> 00:10:24.810
+Ndaikuaái
+
+00:10:25.930 --> 00:10:27.620
+Oñe’ẽvo umi experto dominio rehegua ndive
+
+00:10:27.620 --> 00:10:31.220
+Káda elemento gestión rehegua oñembotuichave peteĩ káso jeporu específico-pe.
+
+00:10:31.900 --> 00:10:33.660
+Ha'éramo peteî proyecto añeteguáva
+
+00:10:33.660 --> 00:10:35.890
+Oiméne oĩ hetave káso jeporu rehegua kóvagui.
+
+00:10:36.150 --> 00:10:39.000
+Ko’ápe a’simplifikáma amyesakã haĝua.
+
+00:10:39.860 --> 00:10:42.700
+Pe iñimportánteva ojehechakuaa ko’ápe ha’e remoheñóivo peteĩ tiempo de ejecución, .
+
+00:10:43.020 --> 00:10:45.900
+Ikatu ojehecha pe boleto ojejapoha avei
+
+00:10:46.960 --> 00:10:49.200
+Ha ojejoguáramo térã ojedevolve jave peteĩ boleto
+
+00:10:49.490 --> 00:10:53.910
+Ikatu avei rehecha jaipuruha peteĩ servicio okapegua hérava gateway de pago.
+
+00:10:55.890 --> 00:10:58.670
+Ambojoaju umi káso jeporu cliente ha gerente-kuéra rehegua.
+
+00:10:59.350 --> 00:11:01.730
+Ojesarekóva káso jeporu pukukue péicha
+
+00:11:01.730 --> 00:11:02.900
+Peteĩ mba’e oñeñandu nandi
+
+00:11:03.890 --> 00:11:05.840
+Oî opción omoî haguã teatro
+
+00:11:05.840 --> 00:11:08.720
+Ndahechái mba'eve ojoguáva Teatro de Busqueda-pe
+
+00:11:09.410 --> 00:11:12.130
+Ha’ete ku oĩva hetaiterei káso jeporu oñemboykéva hína.
+
+00:11:12.770 --> 00:11:15.980
+Pórke peteĩ experto dominio rehegua perspectiva guive, heta mba’e oĩ oñemyesakãva’erã.
+
+00:11:15.980 --> 00:11:17.950
+Ko káso jeporu rehegua, ha’etévaicha ojehecharamoitereíva,
+
+00:11:18.150 --> 00:11:19.810
+Ikatu remboyke pe explicación
+
+00:11:20.770 --> 00:11:23.460
+Upéicharõ, mba’épa oje’e peteĩ desarrollador perspectiva-gui?
+
+00:11:24.400 --> 00:11:28.290
+Iporãve ojeheja rei umi káso noticia simple ha'eháicha ojehekávo teatro.
+
+00:11:28.290 --> 00:11:30.700
+¿Ndaha’emo’ãipa kóva oipytyvõvéta kuatia ñemboguatarã?
+
+00:11:31.720 --> 00:11:32.870
+Ha'éramo diseño backend rehegua
+
+00:11:32.870 --> 00:11:35.920
+Umi káso jepuru hasy’ỹva ha’eháicha ojeheka peteĩ teatro
+
+00:11:35.920 --> 00:11:37.760
+Che aimo'ã oĩ porãha ojesalta haguã
+
+00:11:38.600 --> 00:11:41.570
+Che ha'éva ndaha'éi tardeiterei ombohovái haguã fase de implementación jave.
+
+00:11:42.370 --> 00:11:44.310
+Pero ha'éramo peteî proyecto añeteguáva
+
+00:11:44.310 --> 00:11:48.450
+Umi pantalla planificador-pe g̃uarã, ko’ã káso jepuru ha’e peteĩ punto iporãva oñepyrũ hag̃ua.
+
+00:11:49.250 --> 00:11:52.300
+Pe planificador omaña pe káso de uso rehe ohekávo peteĩ teatro.
+
+00:11:52.300 --> 00:11:55.300
+Mba’éichapa ajapova’erã ikatu haguã aheka umi teatro?
+
+00:11:55.300 --> 00:11:56.600
+Ikatúta repensa
+
+00:11:58.000 --> 00:12:00.880
+Rembojoajúramo umi diagrama peteĩme, ojehecha ikomplikadoha.
+
+00:12:01.490 --> 00:12:05.150
+Haʼérire peteĩ projékto añetegua, tuicha ikomplikadovéta kuri.
+
+00:12:05.720 --> 00:12:08.240
+Ko kásope, natekotevêi ojeforsa fusión.
+
+00:12:08.810 --> 00:12:13.910
+Ambojoaju ramoite ko'ápe aikuaauka haguã oîha káso ofaltáva.
+
+00:12:16.020 --> 00:12:18.490
+Amyenyhẽmbaite umi káso ofaltáva
+
+00:12:19.200 --> 00:12:21.880
+Che areko peteĩ káso jepuru ojeheja reihápe pe conexión actor ndive.
+
+00:12:22.290 --> 00:12:25.720
+Péva ojeporu cliente ha gerente-kuérape.
+
+00:12:26.400 --> 00:12:29.480
+Ha ndahasýi haguã implementación, ahai inglés-pe.
+
+00:12:31.370 --> 00:12:34.160
+Oĩ porã ko'ágã ha'égui peteî proyecto michîmi
+
+00:12:34.160 --> 00:12:36.160
+Pe proyecto tuicha ha ikomplikado ramo
+
+00:12:36.160 --> 00:12:38.980
+Moõpa oñepyrũva’erã omyesakã peteĩ experto dominio rehegua?
+
+00:12:38.980 --> 00:12:40.380
+Ikatu ijetuʼu
+
+00:12:41.280 --> 00:12:43.300
+Mba’épa ojapo peteĩ administrador.
+
+00:12:43.300 --> 00:12:44.700
+Heta tembiapo ningo
+
+00:12:44.700 --> 00:12:46.620
+Oñeha'ãrõháicha gerente-gui
+
+00:12:47.620 --> 00:12:49.750
+Ko kásope, ikatúpa jasubdividi umi actor-kuérape?
+
+00:12:49.750 --> 00:12:52.340
+Avei iporã jahecha jey
+
+00:12:53.140 --> 00:12:54.790
+Ñepyrũrã cherenói administrador
+
+00:12:54.790 --> 00:12:57.400
+Ikatu ikatu oñemboja’o rol rupive
+
+00:12:58.520 --> 00:13:00.820
+Ha oiporúvo Sistema de Reserva de Películas
+
+00:13:00.820 --> 00:13:02.870
+Ikatu oî servicio okapegua
+
+00:13:03.660 --> 00:13:05.340
+Ñasegmentáramo umi actor-kuérape péicha,
+
+00:13:05.340 --> 00:13:09.420
+Umi tapicha katupyry dominio rehegua ikatúta ome’ẽ marandu sistemáticove.
+
+00:13:10.350 --> 00:13:14.000
+Añetehápe, kóva ha’e peteĩ techapyrãnte oñeanalisávo peteĩ dominio complejo.
+
+00:13:14.540 --> 00:13:17.320
+Ikatu oĩ ambue tape iporãva
+
+00:13:17.960 --> 00:13:21.740
+Iñimportánte ñambohovái flexiblemente odependévo pe situasiónre.
+
+00:13:24.250 --> 00:13:25.060
+Péva ha’e pe conclusión
+
+00:13:25.950 --> 00:13:29.170
+Ko jey, jaipurúta peteĩ diagrama káso jeporu rehegua
+
+00:13:29.170 --> 00:13:30.840
+Emoĩ umi méta pe projéktope g̃uarã
+
+00:13:31.230 --> 00:13:33.700
+Che ahasa umi etapa inicial análisis rehegua.
+
+00:13:34.880 --> 00:13:38.010
+Personalmente, opaite proceso desarrollo aja
+
+00:13:38.010 --> 00:13:40.060
+Che aimo’ã análisis ha’eha pe hasyvéva
+
+00:13:40.570 --> 00:13:44.250
+Pórke ñamohendava’erã umi concepto abstracto ha vagovéva.
+
+00:13:45.020 --> 00:13:47.650
+Ág̃a ambue jey jahecháta umi káso jepuru tenondegua rehe
+
+00:13:47.650 --> 00:13:49.470
+Ñaanalisákena detalladamente
+
+00:13:50.300 --> 00:13:52.100
+Aguyje pemba’apo mbarete haguére ko’áĝa peve.
+

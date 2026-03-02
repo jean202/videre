@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:02.020
+Salve, sono Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Il software è complesso
+
+00:00:06.650 --> 00:00:08.890
+Innanzitutto c'è molto codice da scrivere.
+
+00:00:09.760 --> 00:00:12.710
+Solo i progetti di esempio che ho creato per questa serie
+
+00:00:12.710 --> 00:00:15.270
+Il codice è lungo oltre 12.000 righe.
+
+00:00:16.330 --> 00:00:18.320
+Se si tratta di un servizio operativo effettivo
+
+00:00:18.320 --> 00:00:21.530
+Anche se si tratta di un servizio di piccole dimensioni, supererà facilmente le 100.000 linee.
+
+00:00:22.130 --> 00:00:25.300
+Centomila righe bastano per riempire venti romanzi.
+
+00:00:26.870 --> 00:00:29.560
+Scrivere codice lungo non significa che sia finita.
+
+00:00:30.330 --> 00:00:32.540
+Devi continuare a correggere il codice che scrivi.
+
+00:00:33.400 --> 00:00:35.800
+Se aggiusti A, B si rompe.
+
+00:00:35.800 --> 00:00:39.130
+Se si ripara B, A e C si romperanno.
+
+00:00:41.090 --> 00:00:44.260
+Per usare un'analogia, è come essere intrappolati in una Rasputica e piangere.
+
+00:00:44.260 --> 00:00:46.360
+Si potrebbe dire che la situazione è simile a quella di un cavallo.
+
+00:00:47.330 --> 00:00:50.550
+A questo punto sentirai il bisogno di un design.
+
+00:00:52.580 --> 00:00:55.010
+Ma quando si tenta effettivamente di scrivere un documento di progettazione,
+
+00:00:55.500 --> 00:00:58.490
+Esprimere concretamente i pensieri nella tua testa
+
+00:00:58.790 --> 00:01:01.260
+Scoprirai che non è così facile come pensi.
+
+00:01:01.890 --> 00:01:05.600
+Anche gli spartiti musicali, che sono documenti che registrano visivamente suoni o musica,
+
+00:01:05.600 --> 00:01:06.700
+È così complicato
+
+00:01:07.520 --> 00:01:10.610
+Non solo musica, ma anche finanza e logistica
+
+00:01:10.610 --> 00:01:14.060
+Concetti più diversificati e requisiti utente astratti
+
+00:01:14.060 --> 00:01:17.220
+Non sarà facile esprimerlo in un modello specifico.
+
+00:01:18.530 --> 00:01:19.490
+Fortunatamente
+
+00:01:19.770 --> 00:01:23.200
+Per superare la difficoltà di modellare concetti astratti
+
+00:01:23.540 --> 00:01:26.860
+L'UML è nato alla fine degli anni '90.
+
+00:01:27.730 --> 00:01:30.120
+Era guidato da Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Utilizziamo UML con anticipazione
+
+00:01:34.980 --> 00:01:36.990
+Disegna un diagramma di classe
+
+00:01:36.990 --> 00:01:38.760
+Disegniamo anche un diagramma di sequenza
+
+00:01:39.430 --> 00:01:39.980
+Tuttavia
+
+00:01:40.360 --> 00:01:43.160
+Quando ho provato a progettarlo, è stato diverso dal codificarlo direttamente.
+
+00:01:43.160 --> 00:01:45.130
+Non sembra essere molto diverso
+
+00:01:45.590 --> 00:01:46.520
+Perché?
+
+00:01:47.350 --> 00:01:50.910
+Questo perché il processo di pensiero è abituato all'implementazione.
+
+00:01:51.290 --> 00:01:54.170
+Piuttosto che rendere i concetti astratti più concreti,
+
+00:01:54.490 --> 00:01:57.590
+Perché traduce il pensiero a livello di implementazione in UML.
+
+00:01:58.520 --> 00:02:00.270
+Solo perché sai leggere gli spartiti
+
+00:02:00.270 --> 00:02:01.950
+Non è che io possa comporlo
+
+00:02:02.390 --> 00:02:03.850
+Solo perché hai imparato UML
+
+00:02:03.850 --> 00:02:06.170
+Non è che si sviluppino capacità di progettazione.
+
+00:02:07.700 --> 00:02:09.300
+Quindi in questa serie
+
+00:02:09.300 --> 00:02:11.580
+Attraverso progetti concreti
+
+00:02:11.580 --> 00:02:14.420
+Come concretizzare requisiti astratti
+
+00:02:14.420 --> 00:02:16.290
+Riesci a collegare il codice?
+
+00:02:16.290 --> 00:02:18.010
+Vorrei mostrartelo di persona
+
+00:02:18.530 --> 00:02:20.930
+Ho scelto di prenotare i biglietti del cinema per dominio
+
+00:02:21.370 --> 00:02:25.200
+Le prenotazioni dei biglietti del cinema sono facili da capire perché riguardano per lo più ambiti familiari.
+
+00:02:25.200 --> 00:02:29.710
+Include varie funzioni come l'accesso, il pagamento e la scelta del posto.
+
+00:02:29.710 --> 00:02:31.580
+Sembra un buon esempio
+
+00:02:33.600 --> 00:02:36.890
+Fondamentalmente, l'argomento di questo articolo è la progettazione del software, ma
+
+00:02:36.890 --> 00:02:40.350
+Parleremo anche dello sviluppo basato sui test.
+
+00:02:41.210 --> 00:02:44.890
+Gli ambienti di sviluppo moderni supportano nativamente gli strumenti di test.
+
+00:02:45.600 --> 00:02:48.320
+Anche se si guardano i famosi progetti open source,
+
+00:02:48.320 --> 00:02:51.130
+Abbiamo un certo livello di test.
+
+00:02:51.740 --> 00:02:56.200
+Ciò probabilmente significa che i test sono di grande importanza e utilità.
+
+00:02:56.870 --> 00:02:58.120
+Ma in realtà
+
+00:02:58.120 --> 00:03:02.590
+In molti casi, non solo il TDD, ma anche l'automazione dei test non viene implementata correttamente.
+
+00:03:03.190 --> 00:03:06.260
+Scrivere test significativi prima senza alcuna preparazione è
+
+00:03:06.260 --> 00:03:07.540
+Non è mai facile
+
+00:03:08.410 --> 00:03:12.340
+Si tratta di qualcosa che richiede le capacità combinate della progettazione del software.
+
+00:03:13.320 --> 00:03:16.270
+Quindi è meglio occuparsi di progettazione e TDD insieme.
+
+00:03:16.270 --> 00:03:18.180
+L'ho giudicato efficiente
+
+00:03:20.120 --> 00:03:23.450
+Ora diamo inizio al primo incontro del progetto.
+
+00:03:24.150 --> 00:03:26.470
+Perché questo è un piccolo progetto
+
+00:03:26.470 --> 00:03:28.090
+Ci sono due partecipanti
+
+00:03:28.790 --> 00:03:32.340
+Quello a sinistra è un esperto del settore, quello a destra è uno sviluppatore.
+
+00:03:34.550 --> 00:03:37.790
+Gli esperti del settore hanno voce in capitolo nella scelta dei sistemi che dobbiamo realizzare.
+
+00:03:37.790 --> 00:03:39.280
+Racconta molte storie
+
+00:03:40.340 --> 00:03:42.160
+Il teatro che gestiamo
+
+00:03:42.160 --> 00:03:44.710
+Ce ne sono circa quattromila in tutto il Paese.
+
+00:03:44.710 --> 00:03:47.220
+Potrebbe aumentare ulteriormente in futuro.
+
+00:03:47.220 --> 00:03:50.480
+Attualmente è supportata solo la funzione di prenotazione dei biglietti del cinema.
+
+00:03:50.480 --> 00:03:54.510
+In futuro prevediamo di aggiungere la vendita dei biglietti per spettacoli di grandi dimensioni.
+
+00:03:54.510 --> 00:03:58.940
+E la cosa importante è non prenotare mai due volte i posti.
+
+00:03:58.940 --> 00:04:03.250
+In passato, i centri di assistenza clienti avevano davvero difficoltà a risolvere questo tipo di problemi.
+
+00:04:03.250 --> 00:04:07.670
+Perché sono già state accumulate molte informazioni sui film e dati sulle recensioni.
+
+00:04:07.670 --> 00:04:11.090
+Questi dati devono rimanere intatti.
+
+00:04:12.090 --> 00:04:14.730
+Qui la conversazione è ben organizzata, ma
+
+00:04:14.890 --> 00:04:16.960
+In realtà ci sono più informazioni
+
+00:04:16.960 --> 00:04:18.600
+Sarà consegnato in modo disorganizzato
+
+00:04:19.470 --> 00:04:22.110
+Ma la storia che emerge all'inizio del progetto è
+
+00:04:22.110 --> 00:04:23.780
+Perché è il requisito più importante
+
+00:04:23.780 --> 00:04:25.320
+Devi ascoltare attentamente
+
+00:04:27.110 --> 00:04:29.810
+Gli sviluppatori ascoltano gli esperti del settore
+
+00:04:29.810 --> 00:04:31.290
+Ho alcune domande
+
+00:04:32.290 --> 00:04:34.660
+La funzione di prenotazione dei biglietti per spettacoli su larga scala che hai menzionato
+
+00:04:34.660 --> 00:04:36.910
+Quando verrà aggiunto?
+
+00:04:36.910 --> 00:04:39.910
+Questo aspetto dovrebbe essere incluso in anticipo nell'ambito di questo progetto?
+
+00:04:39.910 --> 00:04:43.590
+Oppure vorrei sapere se dovrei ancora prenderlo in considerazione
+
+00:04:43.590 --> 00:04:46.090
+E la necessità di mantenere i dati esistenti
+
+00:04:46.090 --> 00:04:48.940
+Ciò significa che non dovremmo modificare il sistema DB?
+
+00:04:48.940 --> 00:04:51.950
+Ci sono altri servizi che attualmente condividono il DB?
+
+00:04:53.580 --> 00:04:54.980
+Come puoi vedere dal DB,
+
+00:04:54.980 --> 00:04:57.290
+Perché gli esperti di settore non sono sviluppatori.
+
+00:04:57.290 --> 00:04:59.430
+L'espressione tecnica è ambigua
+
+00:04:59.910 --> 00:05:02.890
+Gli sviluppatori devono controllare attentamente queste cose.
+
+00:05:04.230 --> 00:05:07.450
+Gli esperti del settore rispondono alle domande degli sviluppatori in questo modo:
+
+00:05:08.330 --> 00:05:10.210
+La funzione di prenotazione dei biglietti per spettacoli su larga scala
+
+00:05:10.210 --> 00:05:13.450
+Non c'è ancora un programma specifico.
+
+00:05:13.450 --> 00:05:15.970
+Tuttavia, quando in futuro verranno aggiunte delle funzionalità
+
+00:05:15.970 --> 00:05:18.700
+In modo che tu possa effettuare l'aggiornamento senza troppe difficoltà
+
+00:05:18.700 --> 00:05:22.600
+Penso che sarebbe una buona idea se questa volta potessi prenderlo in considerazione.
+
+00:05:22.600 --> 00:05:27.050
+Non utilizziamo DB per scopi diversi dai nostri servizi.
+
+00:05:27.050 --> 00:05:32.840
+Modificare il sistema in sé non è un grosso problema, purché i dati siano ben conservati.
+
+00:05:33.840 --> 00:05:35.080
+Dopo aver ascoltato la storia
+
+00:05:35.080 --> 00:05:39.400
+Non credo che tu debba preoccuparti del grande spettacolo.
+
+00:05:39.400 --> 00:05:40.790
+Non è la portata del progetto
+
+00:05:40.790 --> 00:05:43.040
+Anche i requisiti non sono chiari
+
+00:05:43.040 --> 00:05:44.930
+Non so quando ne avrò bisogno, ma
+
+00:05:44.930 --> 00:05:47.710
+Questo è un problema che dovremo rivedere più avanti.
+
+00:05:48.920 --> 00:05:50.910
+Anche se non è registrato nel documento
+
+00:05:50.910 --> 00:05:54.880
+Anche gli esperti del settore risponderanno che prenderanno in considerazione le performance su larga scala.
+
+00:05:54.880 --> 00:05:55.960
+Non devi dimenticare
+
+00:05:56.740 --> 00:05:58.320
+Va bene
+
+00:05:58.320 --> 00:06:00.630
+Quindi, la funzione di prenotazione dei biglietti per spettacoli su larga scala
+
+00:06:00.630 --> 00:06:04.500
+Non lo metterei tra le massime priorità di questo progetto.
+
+00:06:04.500 --> 00:06:08.220
+Al contrario, rende più semplice espandere le funzionalità in una fase successiva del processo di sviluppo.
+
+00:06:08.220 --> 00:06:10.190
+Me ne prenderò cura bene
+
+00:06:10.190 --> 00:06:12.840
+Non preoccuparti. Fidati solo di me
+
+00:06:13.840 --> 00:06:15.960
+È importante andare d'accordo
+
+00:06:17.980 --> 00:06:19.500
+Attraverso la nostra conversazione finora
+
+00:06:19.500 --> 00:06:22.700
+Le principali priorità sono riassunte come segue:
+
+00:06:23.220 --> 00:06:25.890
+Queste sono le informazioni fornite dagli esperti del settore.
+
+00:06:25.890 --> 00:06:28.410
+Interpretazione e organizzazione dal punto di vista dello sviluppatore
+
+00:06:28.410 --> 00:06:29.810
+Avvia il progetto
+
+00:06:31.700 --> 00:06:32.860
+Con esperti del settore
+
+00:06:32.860 --> 00:06:34.980
+Una volta decisi gli obiettivi del tuo progetto,
+
+00:06:35.620 --> 00:06:37.980
+Adesso è il momento di dare un nome al tuo progetto.
+
+00:06:38.750 --> 00:06:41.840
+Per prima cosa, chiedi il parere di un esperto del settore.
+
+00:06:42.800 --> 00:06:45.540
+Come dovrei chiamare il progetto?
+
+00:06:45.540 --> 00:06:47.680
+È un sistema di prenotazione di film.
+
+00:06:47.680 --> 00:06:50.150
+Che ne dici solo del sistema di prenotazione dei film?
+
+00:06:50.150 --> 00:06:51.430
+no, non voglio
+
+00:06:51.430 --> 00:06:53.570
+Mi occuperò delle grandi performance
+
+00:06:53.570 --> 00:06:56.930
+Passiamo al sistema di prenotazione dei film. SÌ?
+
+00:06:56.930 --> 00:06:58.180
+Grande
+
+00:06:58.180 --> 00:06:59.950
+Grazie mille
+
+00:07:01.000 --> 00:07:05.230
+Gli esperti del settore potrebbero volere nomi di progetto in coreano.
+
+00:07:05.580 --> 00:07:07.680
+Ma dal punto di vista di uno sviluppatore
+
+00:07:07.680 --> 00:07:09.990
+Tutti i termini, compresi i nomi dei progetti
+
+00:07:09.990 --> 00:07:12.180
+Poiché è implementato direttamente nel codice,
+
+00:07:12.600 --> 00:07:15.000
+Se possibile, è più facile definirlo in inglese.
+
+00:07:15.540 --> 00:07:19.510
+È importante che gli sviluppatori seguano fedelmente le esigenze degli esperti del settore, ma
+
+00:07:19.960 --> 00:07:21.430
+Considerando l'intero progetto
+
+00:07:21.430 --> 00:07:23.930
+Abbiamo anche la responsabilità di indirizzare le cose nella direzione più efficiente.
+
+00:07:25.850 --> 00:07:27.760
+Se hai deciso un nome per il tuo progetto
+
+00:07:27.760 --> 00:07:31.380
+Adesso è il momento di scoprire chi utilizza il Movie Booking System.
+
+00:07:32.020 --> 00:07:34.940
+Naturalmente, per informazioni al riguardo dovresti chiedere a un esperto del settore.
+
+00:07:35.420 --> 00:07:38.740
+E scopriamo di avere clienti e manager.
+
+00:07:40.820 --> 00:07:43.280
+Uno degli elementi che è facile trascurare nelle prime fasi della progettazione è
+
+00:07:43.280 --> 00:07:44.760
+È una dipendenza esterna
+
+00:07:45.340 --> 00:07:46.580
+Le dipendenze esterne sono
+
+00:07:46.580 --> 00:07:49.210
+Potrebbe trattarsi di un sistema legacy esistente,
+
+00:07:49.660 --> 00:07:51.420
+Potrebbe essere un sistema di pagamento
+
+00:07:52.020 --> 00:07:53.670
+Questa relazione di dipendenza è
+
+00:07:53.670 --> 00:07:56.760
+Perché può avere un impatto notevole sulla progettazione complessiva del sistema.
+
+00:07:56.950 --> 00:08:00.150
+È importante identificarlo il prima possibile.
+
+00:08:00.570 --> 00:08:01.240
+fortunatamente
+
+00:08:01.820 --> 00:08:04.990
+Elementi quali gateway di pagamento e sistemi legacy
+
+00:08:05.270 --> 00:08:07.730
+Perché è già utilizzato nei sistemi esistenti
+
+00:08:07.990 --> 00:08:10.360
+Può essere compreso in modo relativamente semplice
+
+00:08:11.230 --> 00:08:14.410
+Una delle cose che è facile trascurare in una relazione di dipendenza è
+
+00:08:14.410 --> 00:08:16.090
+Ci sono fattori ambientali esterni
+
+00:08:16.900 --> 00:08:19.060
+Il nostro paese è nello stesso fuso orario
+
+00:08:19.060 --> 00:08:22.430
+In un paese con una superficie così estesa, ogni cinema ha una fascia oraria diversa.
+
+00:08:23.190 --> 00:08:25.100
+Poi il sistema di prenotazione dei film
+
+00:08:25.100 --> 00:08:28.900
+È inevitabile che sia influenzato da fattori ambientali come i fusi orari.
+
+00:08:29.410 --> 00:08:32.760
+Questi fattori non sono immediatamente evidenti se non si chiede direttamente all'esperto del settore.
+
+00:08:32.760 --> 00:08:33.950
+È facile perderlo
+
+00:08:34.740 --> 00:08:37.610
+Gli esperti del settore tendono a trascurare questi dettagli.
+
+00:08:37.610 --> 00:08:40.010
+Perché la spiegazione potrebbe essere omessa
+
+00:08:41.680 --> 00:08:43.640
+Poiché la relazione di dipendenza è stata chiaramente affermata
+
+00:08:43.640 --> 00:08:47.500
+Ora concentriamoci sugli aspetti interni del Movie Booking System.
+
+00:08:48.430 --> 00:08:52.230
+Innanzitutto, cosa fa il cliente nel Movie Booking System?
+
+00:08:52.230 --> 00:08:54.230
+Chiediamo agli esperti del settore
+
+00:08:55.800 --> 00:08:57.880
+Cosa fanno i clienti?
+
+00:08:57.880 --> 00:08:59.970
+I clienti cercano film,
+
+00:08:59.970 --> 00:09:01.450
+Visualizza i dettagli del film,
+
+00:09:01.450 --> 00:09:02.910
+Seleziona un orario di proiezione,
+
+00:09:02.910 --> 00:09:04.450
+Seleziona il tuo posto,
+
+00:09:04.450 --> 00:09:05.920
+Prenota i biglietti del cinema,
+
+00:09:05.920 --> 00:09:07.610
+Controlla i dettagli della prenotazione,
+
+00:09:07.610 --> 00:09:10.180
+Eseguire operazioni come annullare una prenotazione
+
+00:09:10.180 --> 00:09:15.750
+La scelta dell'orario dello spettacolo e del posto a sedere fanno parte del processo di prenotazione del biglietto del cinema?
+
+00:09:15.750 --> 00:09:18.880
+E per prenotare biglietti del cinema, per annullare prenotazioni
+
+00:09:18.880 --> 00:09:22.210
+Dopotutto, non stai semplicemente acquistando un biglietto e ottenendo un rimborso?
+
+00:09:22.210 --> 00:09:23.620
+hai ragione
+
+00:09:23.620 --> 00:09:25.030
+Giusto
+
+00:09:25.480 --> 00:09:27.880
+Perché ormai è un dominio familiare
+
+00:09:27.880 --> 00:09:31.240
+Seleziona un orario di proiezione e scegli il tuo posto
+
+00:09:31.240 --> 00:09:33.200
+Fa parte del processo di prenotazione dei biglietti del cinema?
+
+00:09:33.200 --> 00:09:34.530
+Potrei chiedere
+
+00:09:34.980 --> 00:09:37.220
+Ma se si tratta di un dominio sconosciuto,
+
+00:09:37.410 --> 00:09:40.160
+Analizzare ogni caso d'uso in dettaglio
+
+00:09:40.520 --> 00:09:43.330
+Il processo di raffinazione verrà ripetuto più volte.
+
+00:09:43.790 --> 00:09:45.350
+A seconda della situazione del progetto
+
+00:09:45.350 --> 00:09:48.080
+Puoi ripetere questo processo più volte,
+
+00:09:48.080 --> 00:09:50.580
+Più ti prendi il tuo tempo e analizzi attentamente,
+
+00:09:50.580 --> 00:09:54.190
+Ridurre i tentativi ed errori durante le fasi di progettazione e implementazione.
+
+00:09:55.850 --> 00:09:57.530
+Sulla base della conversazione finora
+
+00:09:57.530 --> 00:10:00.970
+Abbiamo organizzato i casi d'uso dei nostri clienti in quattro categorie:
+
+00:10:02.960 --> 00:10:04.470
+Il prossimo è l'amministratore
+
+00:10:05.190 --> 00:10:08.850
+L'amministratore può vedere che ci sono cinque elementi di gestione:
+
+00:10:09.440 --> 00:10:13.620
+Personalmente, sono cauto nell'usare la parola "gestire" nello sviluppo.
+
+00:10:14.360 --> 00:10:16.980
+Gestire è un'espressione troppo ampia
+
+00:10:16.980 --> 00:10:19.030
+Non è chiaro cosa stai facendo
+
+00:10:19.640 --> 00:10:20.950
+Anche qui è lo stesso
+
+00:10:21.370 --> 00:10:23.760
+Come viene gestito esattamente?
+
+00:10:23.760 --> 00:10:24.810
+Non lo so
+
+00:10:25.930 --> 00:10:27.620
+Parlando con esperti del settore
+
+00:10:27.620 --> 00:10:31.220
+Ogni elemento di gestione è stato esteso a un caso d'uso specifico.
+
+00:10:31.900 --> 00:10:33.660
+Se è un progetto reale
+
+00:10:33.660 --> 00:10:35.890
+Probabilmente ci sono più casi d'uso di questi.
+
+00:10:36.150 --> 00:10:39.000
+Qui l'ho semplificato per facilitarne la spiegazione.
+
+00:10:39.860 --> 00:10:42.700
+Ciò che è importante notare qui è che quando si crea un tempo di esecuzione,
+
+00:10:43.020 --> 00:10:45.900
+Puoi vedere che anche il biglietto è stato creato
+
+00:10:46.960 --> 00:10:49.200
+E quando si acquista o si rimborsa un biglietto
+
+00:10:49.490 --> 00:10:53.910
+Puoi anche vedere che utilizziamo un servizio esterno chiamato gateway di pagamento.
+
+00:10:55.890 --> 00:10:58.670
+Ho combinato i casi d'uso dei clienti e dei manager.
+
+00:10:59.350 --> 00:11:01.730
+Considerando l'intero caso d'uso in questo modo
+
+00:11:01.730 --> 00:11:02.900
+Qualcosa sembra vuoto
+
+00:11:03.890 --> 00:11:05.840
+C'è un'opzione per aggiungere un teatro
+
+00:11:05.840 --> 00:11:08.720
+Non vedo niente di simile a Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Sembra che ci siano parecchi casi d'uso che vengono omessi.
+
+00:11:12.770 --> 00:11:15.980
+Perché dal punto di vista di un esperto del settore, c'è molto da spiegare.
+
+00:11:15.980 --> 00:11:17.950
+Questo caso d'uso, che sembra così ovvio,
+
+00:11:18.150 --> 00:11:19.810
+Puoi omettere la spiegazione
+
+00:11:20.770 --> 00:11:23.460
+E cosa dire dal punto di vista di uno sviluppatore?
+
+00:11:24.400 --> 00:11:28.290
+È meglio omettere casi di cronaca semplici come la ricerca di un teatro.
+
+00:11:28.290 --> 00:11:30.700
+Non sarebbe più utile per la gestione dei documenti?
+
+00:11:31.720 --> 00:11:32.870
+Se si tratta di progettazione backend
+
+00:11:32.870 --> 00:11:35.920
+Casi d'uso semplici come la ricerca di un teatro
+
+00:11:35.920 --> 00:11:37.760
+Penso che sia giusto saltarlo
+
+00:11:38.600 --> 00:11:41.570
+Quello che voglio dire è che non è troppo tardi per reagire durante la fase di implementazione.
+
+00:11:42.370 --> 00:11:44.310
+Ma se è un progetto reale
+
+00:11:44.310 --> 00:11:48.450
+Per chi pianifica schermate, questi casi d'uso rappresentano un buon punto di partenza.
+
+00:11:49.250 --> 00:11:52.300
+Il pianificatore ha preso in considerazione il caso d'uso della ricerca di un teatro.
+
+00:11:52.300 --> 00:11:55.300
+Come posso rendere possibile la ricerca dei cinema?
+
+00:11:55.300 --> 00:11:56.600
+Sarai in grado di pensare
+
+00:11:58.000 --> 00:12:00.880
+Se si uniscono i diagrammi in uno solo, il risultato appare complicato.
+
+00:12:01.490 --> 00:12:05.150
+Se fosse un progetto reale, sarebbe molto più complicato.
+
+00:12:05.720 --> 00:12:08.240
+In questo caso non è necessario forzare l'unione.
+
+00:12:08.810 --> 00:12:13.910
+Li ho appena uniti qui per rivelare che ci sono casi mancanti.
+
+00:12:16.020 --> 00:12:18.490
+Ho compilato tutti i casi mancanti
+
+00:12:19.200 --> 00:12:21.880
+Ho un caso d'uso in cui la connessione all'attore viene omessa.
+
+00:12:22.290 --> 00:12:25.720
+Ciò vale sia per i clienti che per i manager.
+
+00:12:26.400 --> 00:12:29.480
+E per facilitarne l'implementazione, l'ho scritto in inglese.
+
+00:12:31.370 --> 00:12:34.160
+Ora va bene perché è un piccolo progetto
+
+00:12:34.160 --> 00:12:36.160
+Se il progetto è grande e complesso
+
+00:12:36.160 --> 00:12:38.980
+Da dove dovrebbe iniziare a spiegare un esperto del settore?
+
+00:12:38.980 --> 00:12:40.380
+Potrebbe essere difficile
+
+00:12:41.280 --> 00:12:43.300
+Cosa fa un amministratore?
+
+00:12:43.300 --> 00:12:44.700
+È un sacco di lavoro
+
+00:12:44.700 --> 00:12:46.620
+Come previsto dal manager
+
+00:12:47.620 --> 00:12:49.750
+In questo caso, possiamo suddividere gli attori?
+
+00:12:49.750 --> 00:12:52.340
+È anche una buona idea rivedere
+
+00:12:53.140 --> 00:12:54.790
+All'inizio mi chiamavano amministratore
+
+00:12:54.790 --> 00:12:57.400
+Potrebbe essere possibile suddividere per ruolo
+
+00:12:58.520 --> 00:13:00.820
+E utilizzando il sistema di prenotazione dei film
+
+00:13:00.820 --> 00:13:02.870
+Potrebbero esserci servizi esterni
+
+00:13:03.660 --> 00:13:05.340
+Se segmentiamo gli attori in questo modo,
+
+00:13:05.340 --> 00:13:09.420
+Gli esperti del settore saranno in grado di fornire informazioni più sistematiche.
+
+00:13:10.350 --> 00:13:14.000
+Naturalmente, questo è solo un esempio di analisi di un dominio complesso.
+
+00:13:14.540 --> 00:13:17.320
+Potrebbero esserci altri buoni modi
+
+00:13:17.960 --> 00:13:21.740
+È importante rispondere in modo flessibile a seconda della situazione.
+
+00:13:24.250 --> 00:13:25.060
+Questa è la conclusione
+
+00:13:25.950 --> 00:13:29.170
+Questa volta useremo un diagramma dei casi d'uso
+
+00:13:29.170 --> 00:13:30.840
+Stabilire gli obiettivi per il progetto
+
+00:13:31.230 --> 00:13:33.700
+Ho superato le fasi iniziali dell'analisi.
+
+00:13:34.880 --> 00:13:38.010
+Personalmente, durante l'intero processo di sviluppo
+
+00:13:38.010 --> 00:13:40.060
+Penso che l'analisi sia la cosa più difficile
+
+00:13:40.570 --> 00:13:44.250
+Perché dobbiamo organizzare i concetti più astratti e vaghi.
+
+00:13:45.020 --> 00:13:47.650
+La prossima volta esamineremo i principali casi d'uso
+
+00:13:47.650 --> 00:13:49.470
+Analizziamolo più in dettaglio
+
+00:13:50.300 --> 00:13:52.100
+Grazie per il duro lavoro svolto finora.
+

@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: fil
+
+00:00:00.000 --> 00:00:02.020
+Kumusta, ito ang Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Komplikado ang software
+
+00:00:06.650 --> 00:00:08.890
+Una sa lahat, maraming code ang kailangang isulat.
+
+00:00:09.760 --> 00:00:12.710
+Mga halimbawang proyekto lamang na aking ginawa para sa seryeng ito
+
+00:00:12.710 --> 00:00:15.270
+Ang code ay may haba na mahigit 12,000 linya.
+
+00:00:16.330 --> 00:00:18.320
+Kung ito ay isang aktwal na serbisyo sa pagpapatakbo
+
+00:00:18.320 --> 00:00:21.530
+Kahit maliit lang ang serbisyong ito, madali lang itong lalampas sa 100,000 linya.
+
+00:00:22.130 --> 00:00:25.300
+Ang isang daang libong linya ay sapat na upang punan ang dalawampung nobela.
+
+00:00:26.870 --> 00:00:29.560
+Ang pagsulat ng mahabang code ay hindi nangangahulugang tapos na.
+
+00:00:30.330 --> 00:00:32.540
+Kailangan mong patuloy na ayusin ang code na isinusulat mo.
+
+00:00:33.400 --> 00:00:35.800
+Kung aayusin mo ang A, masisira ang B.
+
+00:00:35.800 --> 00:00:39.130
+Kung aayusin mo ang B, masisira ang A at C.
+
+00:00:41.090 --> 00:00:44.260
+Kung gagamit ng analohiya, parang nakulong sa isang Rasputica at umiiyak.
+
+00:00:44.260 --> 00:00:46.360
+Masasabi mong katulad ito ng sitwasyon sa isang kabayo.
+
+00:00:47.330 --> 00:00:50.550
+Sa puntong ito, mararamdaman mo ang pangangailangan para sa disenyo.
+
+00:00:52.580 --> 00:00:55.010
+Pero kapag sinubukan mo talagang magsulat ng isang dokumento ng disenyo,
+
+00:00:55.500 --> 00:00:58.490
+Konkretong pagpapahayag ng mga iniisip sa iyong isipan
+
+00:00:58.790 --> 00:01:01.260
+Matutuklasan mo na hindi pala ito kasingdali ng iniisip mo.
+
+00:01:01.890 --> 00:01:05.600
+Kahit ang sheet music, na isang dokumento na biswal na nagtatala ng tunog o musika,
+
+00:01:05.600 --> 00:01:06.700
+Ganito ito kakomplikado
+
+00:01:07.520 --> 00:01:10.610
+Hindi lamang musika, kundi pati na rin sa pananalapi at logistik
+
+00:01:10.610 --> 00:01:14.060
+Mas magkakaibang konsepto at abstraktong mga kinakailangan ng gumagamit
+
+00:01:14.060 --> 00:01:17.220
+Hindi magiging madaling ipahayag ito sa isang partikular na modelo.
+
+00:01:18.530 --> 00:01:19.490
+Mabuti na lang
+
+00:01:19.770 --> 00:01:23.200
+Upang malampasan ang kahirapan ng pagmomodelo ng mga abstraktong konsepto
+
+00:01:23.540 --> 00:01:26.860
+Ang UML ay isinilang noong huling bahagi ng dekada 1990.
+
+00:01:27.730 --> 00:01:30.120
+Pinangunahan ito ni Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Ginagamit namin ang UML nang may pananabik
+
+00:01:34.980 --> 00:01:36.990
+Gumuhit ng diagram ng klase
+
+00:01:36.990 --> 00:01:38.760
+Gumuhit din tayo ng sequence diagram
+
+00:01:39.430 --> 00:01:39.980
+gayunpaman
+
+00:01:40.360 --> 00:01:43.160
+Noong sinubukan ko talaga itong idisenyo, iba ito sa direktang pag-code nito.
+
+00:01:43.160 --> 00:01:45.130
+Parang hindi naman gaanong naiiba
+
+00:01:45.590 --> 00:01:46.520
+Bakit ganoon?
+
+00:01:47.350 --> 00:01:50.910
+Iyon ay dahil ang proseso ng pag-iisip ay sanay sa pagpapatupad.
+
+00:01:51.290 --> 00:01:54.170
+Sa halip na gawing mas konkreto ang mga abstraktong konsepto,
+
+00:01:54.490 --> 00:01:57.590
+Dahil isinasalin nito ang pag-iisip sa antas ng implementasyon tungo sa UML.
+
+00:01:58.520 --> 00:02:00.270
+Dahil lang marunong kang magbasa ng sheet music
+
+00:02:00.270 --> 00:02:01.950
+Parang hindi ko kaya itong isulat
+
+00:02:02.390 --> 00:02:03.850
+Dahil lang sa natutunan mo ang UML
+
+00:02:03.850 --> 00:02:06.170
+Hindi naman sa nagkakaroon ka ng mga kasanayan sa pagdidisenyo.
+
+00:02:07.700 --> 00:02:09.300
+Kaya sa seryeng ito
+
+00:02:09.300 --> 00:02:11.580
+Sa pamamagitan ng mga aktwal na proyekto
+
+00:02:11.580 --> 00:02:14.420
+Paano gawing konkreto ang mga abstraktong kinakailangan
+
+00:02:14.420 --> 00:02:16.290
+Maaari mo bang ikonekta ang code?
+
+00:02:16.290 --> 00:02:18.010
+Gusto kong ipakita sa iyo nang personal
+
+00:02:18.530 --> 00:02:20.930
+Pinili kong magpareserba ng mga tiket sa pelikula ayon sa domain
+
+00:02:21.370 --> 00:02:25.200
+Madaling maunawaan ang mga reserbasyon ng tiket sa sinehan dahil kadalasan ay pamilyar na ang mga ito sa mga larangan.
+
+00:02:25.200 --> 00:02:29.710
+May kasamang iba't ibang mga function tulad ng pag-login, pagbabayad, at pagpili ng upuan.
+
+00:02:29.710 --> 00:02:31.580
+Mukhang magandang halimbawa ito
+
+00:02:33.600 --> 00:02:36.890
+Sa madaling salita, ang paksa ng artikulong ito ay disenyo ng software, ngunit
+
+00:02:36.890 --> 00:02:40.350
+Tatalakayin din namin ang test-driven development.
+
+00:02:41.210 --> 00:02:44.890
+Katutubong sinusuportahan ng mga modernong kapaligiran sa pag-unlad ang mga tool sa pagsubok.
+
+00:02:45.600 --> 00:02:48.320
+Kahit na tingnan mo ang mga sikat na open source na proyekto,
+
+00:02:48.320 --> 00:02:51.130
+Mayroon tayong isang tiyak na antas ng pagsubok.
+
+00:02:51.740 --> 00:02:56.200
+Malamang na nangangahulugan ito na ang pagsusuri ay may napakahalaga at kapaki-pakinabang na epekto.
+
+00:02:56.870 --> 00:02:58.120
+Ngunit sa katotohanan
+
+00:02:58.120 --> 00:03:02.590
+Sa maraming pagkakataon, hindi lamang ang TDD, kundi maging ang automation ng pagsubok ay hindi maayos na naipatupad.
+
+00:03:03.190 --> 00:03:06.260
+Ang pagsulat muna ng mga makabuluhang pagsusulit nang walang anumang paghahanda ay
+
+00:03:06.260 --> 00:03:07.540
+Hindi ito kailanman madali
+
+00:03:08.410 --> 00:03:12.340
+Ito ay isang bagay na nangangailangan ng pinagsamang kakayahan ng disenyo ng software.
+
+00:03:13.320 --> 00:03:16.270
+Kaya, mas mainam na harapin nang magkasama ang disenyo at TDD.
+
+00:03:16.270 --> 00:03:18.180
+Itinuring ko itong epektibo
+
+00:03:20.120 --> 00:03:23.450
+Kaya ngayon simulan na natin ang unang pagpupulong ng proyekto.
+
+00:03:24.150 --> 00:03:26.470
+Dahil maliit na proyekto lang ito
+
+00:03:26.470 --> 00:03:28.090
+May dalawang dadalo
+
+00:03:28.790 --> 00:03:32.340
+Ang nasa kaliwa ay isang eksperto sa domain, at ang nasa kanan ay isang developer.
+
+00:03:34.550 --> 00:03:37.790
+May kapangyarihan ang mga eksperto sa domain na magdesisyon sa mga sistemang kailangan nating itayo.
+
+00:03:37.790 --> 00:03:39.280
+Maraming kwento ang ikinukwento nito
+
+00:03:40.340 --> 00:03:42.160
+Ang teatro na aming pinapatakbo
+
+00:03:42.160 --> 00:03:44.710
+Mayroong humigit-kumulang apat na libo sa kanila sa buong bansa.
+
+00:03:44.710 --> 00:03:47.220
+Maaari pa itong tumaas sa hinaharap.
+
+00:03:47.220 --> 00:03:50.480
+Sa kasalukuyan, tanging ang function ng pag-reserve ng tiket sa sinehan ang sinusuportahan.
+
+00:03:50.480 --> 00:03:54.510
+Plano naming magdagdag ng benta ng tiket para sa malalaking pagtatanghal mamaya.
+
+00:03:54.510 --> 00:03:58.940
+At ang mahalaga ay hindi ka dapat mag-double book ng upuan.
+
+00:03:58.940 --> 00:04:03.250
+Dati, nahihirapan talaga ang mga customer service center sa ganitong uri ng problema.
+
+00:04:03.250 --> 00:04:07.670
+Dahil maraming impormasyon tungkol sa pelikula at datos ng mga rebyu ang naipon na.
+
+00:04:07.670 --> 00:04:11.090
+Ang mga datos na ito ay dapat manatiling buo.
+
+00:04:12.090 --> 00:04:14.730
+Dito ay maayos ang pagkakaayos ng usapan, ngunit
+
+00:04:14.890 --> 00:04:16.960
+Sa totoo lang, may karagdagang impormasyon
+
+00:04:16.960 --> 00:04:18.600
+Ihahatid ito sa hindi organisadong paraan
+
+00:04:19.470 --> 00:04:22.110
+Ngunit ang kuwentong lumalabas sa simula ng proyekto ay
+
+00:04:22.110 --> 00:04:23.780
+Dahil ito ang pinakamahalagang pangangailangan
+
+00:04:23.780 --> 00:04:25.320
+Kailangan mong makinig nang mabuti
+
+00:04:27.110 --> 00:04:29.810
+Nakikinig ang mga developer sa mga eksperto sa domain
+
+00:04:29.810 --> 00:04:31.290
+Mayroon akong ilang mga katanungan
+
+00:04:32.290 --> 00:04:34.660
+Ang malaking tungkulin ng pag-reserve ng tiket sa pagtatanghal na iyong nabanggit
+
+00:04:34.660 --> 00:04:36.910
+Kailan ito idadagdag?
+
+00:04:36.910 --> 00:04:39.910
+Dapat ba itong isama sa saklaw ng proyektong ito nang maaga?
+
+00:04:39.910 --> 00:04:43.590
+O gusto ko sanang malaman kung dapat ko pa ba itong isaalang-alang
+
+00:04:43.590 --> 00:04:46.090
+At ang pangangailangang panatilihin ang umiiral na datos
+
+00:04:46.090 --> 00:04:48.940
+Ibig bang sabihin nito ay hindi natin dapat baguhin ang sistema ng DB?
+
+00:04:48.940 --> 00:04:51.950
+Mayroon bang ibang mga serbisyo na kasalukuyang nagbabahagi ng DB?
+
+00:04:53.580 --> 00:04:54.980
+Gaya ng makikita mo mula sa DB,
+
+00:04:54.980 --> 00:04:57.290
+Dahil ang mga eksperto sa domain ay hindi mga developer.
+
+00:04:57.290 --> 00:04:59.430
+Malabo ang teknikal na ekspresyon
+
+00:04:59.910 --> 00:05:02.890
+Kailangang maingat na suriin ng mga developer ang mga bagay na ito.
+
+00:05:04.230 --> 00:05:07.450
+Ganito ang sagot ng mga eksperto sa domain sa mga tanong ng mga developer:
+
+00:05:08.330 --> 00:05:10.210
+Ang malawakang tungkulin ng pag-reserve ng tiket sa pagtatanghal
+
+00:05:10.210 --> 00:05:13.450
+Wala pang tiyak na iskedyul.
+
+00:05:13.450 --> 00:05:15.970
+Gayunpaman, kapag may mga idinagdag na feature sa hinaharap
+
+00:05:15.970 --> 00:05:18.700
+Para makapag-upgrade ka nang walang gaanong kahirap-hirap
+
+00:05:18.700 --> 00:05:22.600
+Sa tingin ko ay mabuti kung maaari mo itong pag-isipan nang mabuti sa pagkakataong ito.
+
+00:05:22.600 --> 00:05:27.050
+Hindi namin ginagamit ang DB para sa anumang bagay maliban sa aming mga serbisyo.
+
+00:05:27.050 --> 00:05:32.840
+Ang pagpapalit ng sistema mismo ay hindi isang malaking problema basta't maayos na napapanatili ang datos.
+
+00:05:33.840 --> 00:05:35.080
+Matapos marinig ang kwento
+
+00:05:35.080 --> 00:05:39.400
+Sa tingin ko hindi mo kailangang mag-alala tungkol sa malaking palabas.
+
+00:05:39.400 --> 00:05:40.790
+Hindi ito ang saklaw ng proyekto
+
+00:05:40.790 --> 00:05:43.040
+Hindi rin malinaw ang mga kinakailangan
+
+00:05:43.040 --> 00:05:44.930
+Hindi ko alam kung kailan ko ito kakailanganin, pero
+
+00:05:44.930 --> 00:05:47.710
+Problema iyan na kailangan nating suriin muli mamaya.
+
+00:05:48.920 --> 00:05:50.910
+Kahit hindi ito nakatala sa dokumento
+
+00:05:50.910 --> 00:05:54.880
+Magbibigay din ng tugon ang mga eksperto sa domain na isasaalang-alang nila ang malawakang pagganap.
+
+00:05:54.880 --> 00:05:55.960
+Hindi mo dapat kalimutan
+
+00:05:56.740 --> 00:05:58.320
+Sige
+
+00:05:58.320 --> 00:06:00.630
+Pagkatapos, ang malawakang tungkulin ng pag-reserve ng tiket sa pagtatanghal
+
+00:06:00.630 --> 00:06:04.500
+Hindi ko ito isasama sa mga pangunahing prayoridad para sa proyektong ito.
+
+00:06:04.500 --> 00:06:08.220
+Sa halip, ginagawang mas madali nitong mapalawak ang functionality sa bandang huli ng proseso ng pag-develop.
+
+00:06:08.220 --> 00:06:10.190
+Aalagaan ko itong mabuti
+
+00:06:10.190 --> 00:06:12.840
+Huwag kang mag-alala. Magtiwala ka lang sa akin
+
+00:06:13.840 --> 00:06:15.960
+Mahalagang makisama nang maayos
+
+00:06:17.980 --> 00:06:19.500
+Sa ating pag-uusap hanggang ngayon
+
+00:06:19.500 --> 00:06:22.700
+Ang mga pangunahing prayoridad ay ibubuod tulad ng sumusunod:
+
+00:06:23.220 --> 00:06:25.890
+Ito ang impormasyong ibinigay ng mga eksperto sa domain.
+
+00:06:25.890 --> 00:06:28.410
+Pagbibigay-kahulugan at pag-oorganisa mula sa pananaw ng isang developer
+
+00:06:28.410 --> 00:06:29.810
+Simulan ang proyekto
+
+00:06:31.700 --> 00:06:32.860
+Kasama ang mga eksperto sa domain
+
+00:06:32.860 --> 00:06:34.980
+Kapag napagdesisyunan mo na ang mga layunin ng iyong proyekto,
+
+00:06:35.620 --> 00:06:37.980
+Ngayon na ang oras para pangalanan ang iyong proyekto.
+
+00:06:38.750 --> 00:06:41.840
+Una, humingi ng opinyon sa isang eksperto sa domain.
+
+00:06:42.800 --> 00:06:45.540
+Ano ang dapat kong ipangalan sa proyekto?
+
+00:06:45.540 --> 00:06:47.680
+Isa itong sistema ng pagreserba ng pelikula.
+
+00:06:47.680 --> 00:06:50.150
+Paano na lang ang Movie Booking System?
+
+00:06:50.150 --> 00:06:51.430
+hindi, ayaw ko
+
+00:06:51.430 --> 00:06:53.570
+Ako na ang bahala sa mga malalaking pagtatanghal.
+
+00:06:53.570 --> 00:06:56.930
+Gamitin natin ang Movie Booking System. oo?
+
+00:06:56.930 --> 00:06:58.180
+mahusay
+
+00:06:58.180 --> 00:06:59.950
+Maraming salamat
+
+00:07:01.000 --> 00:07:05.230
+Maaaring gusto ng mga eksperto sa domain na gamitin ang mga pangalan ng proyekto sa wikang Korean.
+
+00:07:05.580 --> 00:07:07.680
+Ngunit mula sa pananaw ng isang developer
+
+00:07:07.680 --> 00:07:09.990
+Lahat ng termino kasama ang mga pangalan ng proyekto
+
+00:07:09.990 --> 00:07:12.180
+Dahil direktang ipinapatupad ito sa code,
+
+00:07:12.600 --> 00:07:15.000
+Mas madaling bigyang-kahulugan ito sa Ingles kung maaari.
+
+00:07:15.540 --> 00:07:19.510
+Mahalaga para sa mga developer na tapat na sundin ang mga pangangailangan ng mga eksperto sa domain, ngunit
+
+00:07:19.960 --> 00:07:21.430
+Isinasaalang-alang ang buong proyekto
+
+00:07:21.430 --> 00:07:23.930
+Responsibilidad din nating gabayan ang mga bagay-bagay sa isang mahusay na direksyon.
+
+00:07:25.850 --> 00:07:27.760
+Kung nakapagdesisyon ka na ng pangalan para sa iyong proyekto
+
+00:07:27.760 --> 00:07:31.380
+Ngayon na ang oras para alamin kung sino ang gumagamit ng Movie Booking System.
+
+00:07:32.020 --> 00:07:34.940
+Siyempre, dapat kang humingi ng impormasyon tungkol dito sa isang eksperto sa domain.
+
+00:07:35.420 --> 00:07:38.740
+At nalaman naming mayroon kaming mga customer at manager.
+
+00:07:40.820 --> 00:07:43.280
+Isa sa mga elementong madaling makaligtaan sa mga unang yugto ng disenyo ay
+
+00:07:43.280 --> 00:07:44.760
+Ito ay isang panlabas na pagdepende
+
+00:07:45.340 --> 00:07:46.580
+Ang mga panlabas na dependency ay
+
+00:07:46.580 --> 00:07:49.210
+Maaaring ito ay isang umiiral na sistemang luma,
+
+00:07:49.660 --> 00:07:51.420
+Maaari itong maging isang sistema ng pagbabayad
+
+00:07:52.020 --> 00:07:53.670
+Ang ugnayang ito ng pagiging umaasa ay
+
+00:07:53.670 --> 00:07:56.760
+Dahil maaari itong magkaroon ng malaking epekto sa pangkalahatang disenyo ng sistema.
+
+00:07:56.950 --> 00:08:00.150
+Mahalagang matukoy ito nang maaga hangga't maaari.
+
+00:08:00.570 --> 00:08:01.240
+sa kabutihang palad
+
+00:08:01.820 --> 00:08:04.990
+Mga elemento tulad ng mga payment gateway at mga legacy system
+
+00:08:05.270 --> 00:08:07.730
+Dahil ginagamit na ito sa mga umiiral na sistema
+
+00:08:07.990 --> 00:08:10.360
+Ito ay maaaring maunawaan nang medyo madali
+
+00:08:11.230 --> 00:08:14.410
+Isa sa mga bagay na madaling makaligtaan sa isang relasyong umaasa ay
+
+00:08:14.410 --> 00:08:16.090
+May mga panlabas na salik sa kapaligiran
+
+00:08:16.900 --> 00:08:19.060
+Ang ating bansa ay nasa parehong time zone
+
+00:08:19.060 --> 00:08:22.430
+Sa isang bansang may malawak na lawak ng lupain, ang bawat teatro ay may iba't ibang oras ng pagtatanghal.
+
+00:08:23.190 --> 00:08:25.100
+Pagkatapos ay ang Sistema ng Pag-book ng Pelikula
+
+00:08:25.100 --> 00:08:28.900
+Hindi maiiwasan na maapektuhan ito ng mga salik sa kapaligiran tulad ng mga time zone.
+
+00:08:29.410 --> 00:08:32.760
+Ang mga salik na ito ay hindi madaling makita maliban kung direktang magtanong sa eksperto sa domain.
+
+00:08:32.760 --> 00:08:33.950
+Madaling makaligtaan
+
+00:08:34.740 --> 00:08:37.610
+May posibilidad na hindi pansinin ng mga eksperto sa domain ang mga detalyeng ito.
+
+00:08:37.610 --> 00:08:40.010
+Dahil maaaring hindi maintindihan ang paliwanag
+
+00:08:41.680 --> 00:08:43.640
+Dahil malinaw na nakasaad ang ugnayang dependency
+
+00:08:43.640 --> 00:08:47.500
+Ngayon, magtuon tayo sa mga panloob na bahagi ng Movie Booking System.
+
+00:08:48.430 --> 00:08:52.230
+Una sa lahat, ano ang ginagawa ng customer sa Movie Booking System?
+
+00:08:52.230 --> 00:08:54.230
+Tanungin natin ang mga eksperto sa domain
+
+00:08:55.800 --> 00:08:57.880
+Ano ang ginagawa ng mga customer?
+
+00:08:57.880 --> 00:08:59.970
+Naghahanap ang mga customer ng mga pelikula,
+
+00:08:59.970 --> 00:09:01.450
+Tingnan ang mga detalye ng pelikula,
+
+00:09:01.450 --> 00:09:02.910
+Pumili ng oras ng screening,
+
+00:09:02.910 --> 00:09:04.450
+Pumili ng iyong upuan,
+
+00:09:04.450 --> 00:09:05.920
+Mag-book ng mga tiket sa sine,
+
+00:09:05.920 --> 00:09:07.610
+Suriin ang mga detalye ng reserbasyon,
+
+00:09:07.610 --> 00:09:10.180
+Gumawa ng mga bagay tulad ng pagkansela ng reserbasyon
+
+00:09:10.180 --> 00:09:15.750
+Bahagi ba ng proseso ng pagpapareserba ng tiket sa sinehan ang pagpili ng oras ng palabas at pagpili ng upuan?
+
+00:09:15.750 --> 00:09:18.880
+At para magpareserba ng mga tiket sa sine, para kanselahin ang mga reserbasyon
+
+00:09:18.880 --> 00:09:22.210
+Tutal, hindi ba't bibili ka lang ng tiket at ibabalik ang bayad?
+
+00:09:22.210 --> 00:09:23.620
+tama ka
+
+00:09:23.620 --> 00:09:25.030
+Tama iyan
+
+00:09:25.480 --> 00:09:27.880
+Dahil isa na itong pamilyar na domain ngayon
+
+00:09:27.880 --> 00:09:31.240
+Pumili ng oras ng palabas at piliin ang iyong upuan
+
+00:09:31.240 --> 00:09:33.200
+Bahagi ba ito ng proseso ng pagpapareserba ng tiket sa sinehan?
+
+00:09:33.200 --> 00:09:34.530
+Maaari akong magtanong
+
+00:09:34.980 --> 00:09:37.220
+Pero kung ito ay isang hindi pamilyar na domain,
+
+00:09:37.410 --> 00:09:40.160
+Detalyadong pagsusuri sa bawat kaso ng paggamit
+
+00:09:40.520 --> 00:09:43.330
+Uulitin mo ang proseso ng pagpipino nang ilang beses.
+
+00:09:43.790 --> 00:09:45.350
+Depende sa sitwasyon ng proyekto
+
+00:09:45.350 --> 00:09:48.080
+Maaari mong ulitin ang prosesong ito nang ilang beses,
+
+00:09:48.080 --> 00:09:50.580
+Kung mas maglalaan ka ng oras at maingat na susuriin,
+
+00:09:50.580 --> 00:09:54.190
+Bawasan ang pagsubok at pagkakamali sa mga yugto ng disenyo at pagpapatupad.
+
+00:09:55.850 --> 00:09:57.530
+Batay sa naging usapan hanggang ngayon
+
+00:09:57.530 --> 00:10:00.970
+Inayos namin ang mga kaso ng paggamit ng aming mga customer sa apat na kategorya:
+
+00:10:02.960 --> 00:10:04.470
+Ang susunod ay ang administrador
+
+00:10:05.190 --> 00:10:08.850
+Makikita ng administrador na mayroong limang aytem sa pamamahala:
+
+00:10:09.440 --> 00:10:13.620
+Sa personal, maingat ako sa paggamit ng salitang "Pamahalaan" sa pag-develop.
+
+00:10:14.360 --> 00:10:16.980
+Masyadong malawak ang ekspresyon ng pamamahala
+
+00:10:16.980 --> 00:10:19.030
+Hindi malinaw kung ano ang ginagawa mo
+
+00:10:19.640 --> 00:10:20.950
+Ganun din dito
+
+00:10:21.370 --> 00:10:23.760
+Paano nga ba ito eksaktong pinamamahalaan?
+
+00:10:23.760 --> 00:10:24.810
+Hindi ko alam
+
+00:10:25.930 --> 00:10:27.620
+Sa pamamagitan ng pakikipag-usap sa mga eksperto sa domain
+
+00:10:27.620 --> 00:10:31.220
+Ang bawat aytem sa pamamahala ay pinalawak sa isang partikular na kaso ng paggamit.
+
+00:10:31.900 --> 00:10:33.660
+Kung ito ay isang tunay na proyekto
+
+00:10:33.660 --> 00:10:35.890
+Malamang na mas marami pang mga pagkakataon ng paggamit kaysa dito.
+
+00:10:36.150 --> 00:10:39.000
+Dito ko ito pinasimple para sa paliwanag.
+
+00:10:39.860 --> 00:10:42.700
+Ang mahalagang tandaan dito ay kapag lumikha ka ng oras ng pagpapatakbo,
+
+00:10:43.020 --> 00:10:45.900
+Makikita mo na ang tiket ay ginawa rin
+
+00:10:46.960 --> 00:10:49.200
+At kapag bumibili o nag-refund ng tiket
+
+00:10:49.490 --> 00:10:53.910
+Makikita mo rin na gumagamit kami ng panlabas na serbisyo na tinatawag na payment gateway.
+
+00:10:55.890 --> 00:10:58.670
+Pinagsama ko ang mga pagkakataon ng paggamit ng mga customer at manager.
+
+00:10:59.350 --> 00:11:01.730
+Kung titingnan ang buong use case tulad nito
+
+00:11:01.730 --> 00:11:02.900
+Parang may kulang
+
+00:11:03.890 --> 00:11:05.840
+May opsyon na magdagdag ng sinehan
+
+00:11:05.840 --> 00:11:08.720
+Wala akong nakikitang katulad ng Search Theater.
+
+00:11:09.410 --> 00:11:12.130
+Mukhang maraming mga pagkakataon ng paggamit ang hindi naisasama.
+
+00:11:12.770 --> 00:11:15.980
+Dahil mula sa pananaw ng isang eksperto sa larangan, maraming kailangang ipaliwanag.
+
+00:11:15.980 --> 00:11:17.950
+Ang ganitong paggamit, na tila napakalinaw,
+
+00:11:18.150 --> 00:11:19.810
+Maaari mong alisin ang paliwanag
+
+00:11:20.770 --> 00:11:23.460
+Kaya paano naman mula sa pananaw ng isang developer?
+
+00:11:24.400 --> 00:11:28.290
+Mas mainam na alisin ang mga simpleng balita tulad ng paghahanap ng sinehan.
+
+00:11:28.290 --> 00:11:30.700
+Hindi ba't mas makakatulong ito para sa pamamahala ng dokumento?
+
+00:11:31.720 --> 00:11:32.870
+Kung ito ay disenyo ng backend
+
+00:11:32.870 --> 00:11:35.920
+Mga simpleng gamit tulad ng paghahanap ng sinehan
+
+00:11:35.920 --> 00:11:37.760
+Sa tingin ko ayos lang na laktawan ito
+
+00:11:38.600 --> 00:11:41.570
+Ang sinasabi ko ay hindi pa huli ang lahat para tumugon sa panahon ng yugto ng implementasyon.
+
+00:11:42.370 --> 00:11:44.310
+Pero kung totoong proyekto ito.
+
+00:11:44.310 --> 00:11:48.450
+Para sa mga screen planner, ang mga use case na ito ay isang magandang panimula.
+
+00:11:49.250 --> 00:11:52.300
+Tiningnan ng tagaplano ang gamit ng paghahanap ng isang sinehan.
+
+00:11:52.300 --> 00:11:55.300
+Paano ko gagawing posible ang paghahanap ng mga sinehan?
+
+00:11:55.300 --> 00:11:56.600
+Magagawa mong mag-isip
+
+00:11:58.000 --> 00:12:00.880
+Kapag pinagsama mo ang mga diagram sa isa, mukhang kumplikado ito.
+
+00:12:01.490 --> 00:12:05.150
+Kung totoong proyekto ito, mas magiging komplikado sana ito.
+
+00:12:05.720 --> 00:12:08.240
+Sa kasong ito, hindi na kailangang pilitin ang pagsasama.
+
+00:12:08.810 --> 00:12:13.910
+Pinagsama ko lang ang mga ito dito para ipakita na may mga nawawalang kaso.
+
+00:12:16.020 --> 00:12:18.490
+Pinuno ko lahat ng nawawalang kaso
+
+00:12:19.200 --> 00:12:21.880
+Mayroon akong isang kaso ng paggamit kung saan ang koneksyon sa aktor ay tinanggal.
+
+00:12:22.290 --> 00:12:25.720
+Nalalapat ito sa parehong mga customer at mga tagapamahala.
+
+00:12:26.400 --> 00:12:29.480
+At para sa madaling pagpapatupad, isinulat ko ito sa Ingles.
+
+00:12:31.370 --> 00:12:34.160
+Ayos lang ngayon dahil maliit na proyekto lang naman ito.
+
+00:12:34.160 --> 00:12:36.160
+Kung ang proyekto ay malaki at kumplikado
+
+00:12:36.160 --> 00:12:38.980
+Saan dapat magsimulang magpaliwanag ang isang eksperto sa domain?
+
+00:12:38.980 --> 00:12:40.380
+Maaaring mahirap ito
+
+00:12:41.280 --> 00:12:43.300
+Ano ang ginagawa ng isang administrador?
+
+00:12:43.300 --> 00:12:44.700
+Maraming trabaho
+
+00:12:44.700 --> 00:12:46.620
+Gaya ng inaasahan mula sa tagapamahala
+
+00:12:47.620 --> 00:12:49.750
+Sa kasong ito, maaari ba nating hatiin ang mga aktor?
+
+00:12:49.750 --> 00:12:52.340
+Magandang ideya rin na suriin
+
+00:12:53.140 --> 00:12:54.790
+Noong una ay tinawag akong administrador
+
+00:12:54.790 --> 00:12:57.400
+Maaaring hatiin ayon sa tungkulin
+
+00:12:58.520 --> 00:13:00.820
+At gamit ang Movie Booking System
+
+00:13:00.820 --> 00:13:02.870
+Maaaring may mga panlabas na serbisyo
+
+00:13:03.660 --> 00:13:05.340
+Kung hahatiin natin ang mga aktor nang ganito,
+
+00:13:05.340 --> 00:13:09.420
+Makakapagbigay ang mga eksperto sa domain ng mas sistematikong impormasyon.
+
+00:13:10.350 --> 00:13:14.000
+Siyempre, isa lamang itong halimbawa ng pagsusuri ng isang kumplikadong domain.
+
+00:13:14.540 --> 00:13:17.320
+Maaaring may iba pang mabubuting paraan
+
+00:13:17.960 --> 00:13:21.740
+Mahalagang tumugon nang may kakayahang umangkop depende sa sitwasyon.
+
+00:13:24.250 --> 00:13:25.060
+Ito ang konklusyon
+
+00:13:25.950 --> 00:13:29.170
+Sa pagkakataong ito, gagamit tayo ng isang use case diagram
+
+00:13:29.170 --> 00:13:30.840
+Magtakda ng mga layunin para sa proyekto
+
+00:13:31.230 --> 00:13:33.700
+Dumaan na ako sa mga unang yugto ng pagsusuri.
+
+00:13:34.880 --> 00:13:38.010
+Personal, sa buong proseso ng pag-unlad
+
+00:13:38.010 --> 00:13:40.060
+Sa tingin ko ang pagsusuri ang pinakamahirap
+
+00:13:40.570 --> 00:13:44.250
+Dahil kailangan nating isaayos ang mga pinaka-abstract at malabong konsepto.
+
+00:13:45.020 --> 00:13:47.650
+Sa susunod na pagkakataon, titingnan natin ang mga pangunahing gamit
+
+00:13:47.650 --> 00:13:49.470
+Suriin natin ito nang mas detalyado
+
+00:13:50.300 --> 00:13:52.100
+Salamat sa iyong pagsusumikap hanggang ngayon.
+

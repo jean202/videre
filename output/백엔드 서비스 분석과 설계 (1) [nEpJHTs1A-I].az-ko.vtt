@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: az
+
+00:00:00.000 --> 00:00:02.020
+Salam, bu Davranış Kodudur.
+
+00:00:03.290 --> 00:00:05.350
+Proqram təminatı mürəkkəbdir
+
+00:00:06.650 --> 00:00:08.890
+Əvvəla, yazılması lazım olan çoxlu kod var.
+
+00:00:09.760 --> 00:00:12.710
+Sadəcə bu seriya üçün yaratdığım nümunə layihələr
+
+00:00:12.710 --> 00:00:15.270
+Kod 12.000-dən çox sətir uzunluğundadır.
+
+00:00:16.330 --> 00:00:18.320
+Əgər bu, faktiki əməliyyat xidmətidirsə
+
+00:00:18.320 --> 00:00:21.530
+Kiçik bir xidmət olsa belə, asanlıqla 100.000 xətti keçə bilər.
+
+00:00:22.130 --> 00:00:25.300
+Yüz min sətir iyirmi romanı doldurmaq üçün kifayətdir.
+
+00:00:26.870 --> 00:00:29.560
+Uzun kod yazmaq, bitdiyi anlamına gəlmir.
+
+00:00:30.330 --> 00:00:32.540
+Yazdığınız kodu düzəltməyə davam etməlisiniz.
+
+00:00:33.400 --> 00:00:35.800
+Əgər A, B fasilələrini düzəldirsinizsə.
+
+00:00:35.800 --> 00:00:39.130
+B-ni düzəltsəniz, A və C qırılacaq.
+
+00:00:41.090 --> 00:00:44.260
+Bir bənzətmə ilə desək, bu, Rasputikada ilişib ağlamaq kimidir.
+
+00:00:44.260 --> 00:00:46.360
+Deyə bilərsiniz ki, bu, ata bənzər bir vəziyyətdir.
+
+00:00:47.330 --> 00:00:50.550
+Bu mərhələdə dizayna ehtiyac hiss edəcəksiniz.
+
+00:00:52.580 --> 00:00:55.010
+Amma əslində dizayn sənədi yazmağa çalışdığınız zaman,
+
+00:00:55.500 --> 00:00:58.490
+Başınızdakı fikirləri konkret şəkildə ifadə edin
+
+00:00:58.790 --> 00:01:01.260
+Düşündüyünüz qədər asan olmadığını görəcəksiniz.
+
+00:01:01.890 --> 00:01:05.600
+Hətta səs və ya musiqini vizual olaraq qeyd edən sənəd olan not yazıları belə,
+
+00:01:05.600 --> 00:01:06.700
+Bu qədər mürəkkəbdir
+
+00:01:07.520 --> 00:01:10.610
+Təkcə musiqi deyil, həm də maliyyə və logistika
+
+00:01:10.610 --> 00:01:14.060
+Daha müxtəlif anlayışlar və mücərrəd istifadəçi tələbləri
+
+00:01:14.060 --> 00:01:17.220
+Bunu müəyyən bir modeldə ifadə etmək asan olmayacaq.
+
+00:01:18.530 --> 00:01:19.490
+Xoşbəxtlikdən
+
+00:01:19.770 --> 00:01:23.200
+Mücərrəd anlayışları modelləşdirməyin çətinliyini aradan qaldırmaq üçün
+
+00:01:23.540 --> 00:01:26.860
+UML 1990-cı illərin sonlarında yaranıb.
+
+00:01:27.730 --> 00:01:30.120
+Ona Qredi Buç rəhbərlik edirdi.
+
+00:01:31.460 --> 00:01:34.390
+Biz UML-dən gözlənti ilə istifadə edirik
+
+00:01:34.980 --> 00:01:36.990
+Sinif diaqramı çəkin
+
+00:01:36.990 --> 00:01:38.760
+Gəlin ardıcıllıq diaqramını da çəkək
+
+00:01:39.430 --> 00:01:39.980
+lakin
+
+00:01:40.360 --> 00:01:43.160
+Əslində onu dizayn etməyə çalışanda, birbaşa kodlaşdırmaqdan fərqli idi.
+
+00:01:43.160 --> 00:01:45.130
+Çox da fərqli görünmür
+
+00:01:45.590 --> 00:01:46.520
+Niyə belədir?
+
+00:01:47.350 --> 00:01:50.910
+Çünki düşüncə prosesi tətbiqə öyrəşib.
+
+00:01:51.290 --> 00:01:54.170
+Mücərrəd anlayışları daha konkret etmək əvəzinə,
+
+00:01:54.490 --> 00:01:57.590
+Çünki bu, tətbiq səviyyəli düşüncəni UML-ə çevirir.
+
+00:01:58.520 --> 00:02:00.270
+Sadəcə notları oxuya bildiyiniz üçün
+
+00:02:00.270 --> 00:02:01.950
+Mən onu bəstələyə bilmirəm
+
+00:02:02.390 --> 00:02:03.850
+Sadəcə UML öyrəndiyiniz üçün
+
+00:02:03.850 --> 00:02:06.170
+Dizayn bacarıqlarını inkişaf etdirmək kimi deyil.
+
+00:02:07.700 --> 00:02:09.300
+Beləliklə, bu seriyada
+
+00:02:09.300 --> 00:02:11.580
+Həqiqi layihələr vasitəsilə
+
+00:02:11.580 --> 00:02:14.420
+Abstrakt tələbləri necə konkretləşdirmək olar
+
+00:02:14.420 --> 00:02:16.290
+Kodu qoşa bilərsinizmi?
+
+00:02:16.290 --> 00:02:18.010
+Sizə şəxsən göstərmək istərdim
+
+00:02:18.530 --> 00:02:20.930
+Film biletlərini domen üzrə sifariş etməyi seçdim
+
+00:02:21.370 --> 00:02:25.200
+Film biletləri sifarişlərini başa düşmək asandır, çünki onlar əsasən tanış sahələrdir.
+
+00:02:25.200 --> 00:02:29.710
+Giriş, ödəniş və yer seçimi kimi müxtəlif funksiyaları əhatə edir.
+
+00:02:29.710 --> 00:02:31.580
+Yaxşı bir nümunə kimi görünür
+
+00:02:33.600 --> 00:02:36.890
+Əsasən, bu məqalənin mövzusu proqram təminatı dizaynıdır, amma
+
+00:02:36.890 --> 00:02:40.350
+Həmçinin test əsaslı inkişafa da toxunacağıq.
+
+00:02:41.210 --> 00:02:44.890
+Müasir inkişaf mühitləri test alətlərini yerli olaraq dəstəkləyir.
+
+00:02:45.600 --> 00:02:48.320
+Məşhur açıq mənbəli layihələrə baxsanız belə,
+
+00:02:48.320 --> 00:02:51.130
+Müəyyən səviyyədə testlərimiz var.
+
+00:02:51.740 --> 00:02:56.200
+Bu, çox güman ki, testin bu qədər vacib və faydalı olduğu anlamına gəlir.
+
+00:02:56.870 --> 00:02:58.120
+Amma reallıqda
+
+00:02:58.120 --> 00:03:02.590
+Bir çox hallarda, təkcə TDD deyil, hətta test avtomatlaşdırması da düzgün tətbiq olunmur.
+
+00:03:03.190 --> 00:03:06.260
+Əvvəlcə heç bir hazırlıq olmadan mənalı testlər yazmaq
+
+00:03:06.260 --> 00:03:07.540
+Heç vaxt asan deyil
+
+00:03:08.410 --> 00:03:12.340
+Bu, proqram təminatı dizaynının birləşdirilmiş imkanlarını tələb edən bir şeydir.
+
+00:03:13.320 --> 00:03:16.270
+Beləliklə, dizayn və TDD ilə birlikdə məşğul olmaq daha yaxşıdır.
+
+00:03:16.270 --> 00:03:18.180
+Mən bunu səmərəli hesab etdim
+
+00:03:20.120 --> 00:03:23.450
+Beləliklə, indi layihənin ilk iclasına başlayaq.
+
+00:03:24.150 --> 00:03:26.470
+Çünki bu, kiçik bir layihədir
+
+00:03:26.470 --> 00:03:28.090
+İki iştirakçı var
+
+00:03:28.790 --> 00:03:32.340
+Soldakı şəxs domen mütəxəssisi, sağdakı şəxs isə geliştiricidir.
+
+00:03:34.550 --> 00:03:37.790
+Domen mütəxəssisləri qurmalı olduğumuz sistemlərdə söz sahibidirlər.
+
+00:03:37.790 --> 00:03:39.280
+Çoxlu hekayə danışır
+
+00:03:40.340 --> 00:03:42.160
+İdarə etdiyimiz teatr
+
+00:03:42.160 --> 00:03:44.710
+Ölkə daxilində onlardan təxminən dörd min nəfər var.
+
+00:03:44.710 --> 00:03:47.220
+Gələcəkdə daha da arta bilər.
+
+00:03:47.220 --> 00:03:50.480
+Hazırda yalnız film biletlərinin sifarişi funksiyası dəstəklənir.
+
+00:03:50.480 --> 00:03:54.510
+Daha sonra genişmiqyaslı tamaşalar üçün bilet satışlarını da əlavə etməyi planlaşdırırıq.
+
+00:03:54.510 --> 00:03:58.940
+Və ən əsası odur ki, heç vaxt ikiqat yer sifariş etməməlisiniz.
+
+00:03:58.940 --> 00:04:03.250
+Əvvəllər müştəri xidmətləri mərkəzləri bu cür problemlə çox çətinlik çəkirdilər.
+
+00:04:03.250 --> 00:04:07.670
+Çünki artıq çoxlu sayda film məlumatı və rəy məlumatları toplanıb.
+
+00:04:07.670 --> 00:04:11.090
+Bu məlumatlar bütöv qalmalıdır.
+
+00:04:12.090 --> 00:04:14.730
+Burada söhbət yaxşı təşkil olunub, amma
+
+00:04:14.890 --> 00:04:16.960
+Əslində, daha çox məlumat var
+
+00:04:16.960 --> 00:04:18.600
+Bu, nizamsız şəkildə çatdırılacaq
+
+00:04:19.470 --> 00:04:22.110
+Amma layihənin əvvəlində ortaya çıxan hekayə budur ki,
+
+00:04:22.110 --> 00:04:23.780
+Çünki bu, ən vacib tələbdir
+
+00:04:23.780 --> 00:04:25.320
+Diqqətlə qulaq asmalısan
+
+00:04:27.110 --> 00:04:29.810
+Tərtibatçılar domen mütəxəssislərini dinləyirlər
+
+00:04:29.810 --> 00:04:31.290
+Bir neçə sualım var
+
+00:04:32.290 --> 00:04:34.660
+Qeyd etdiyiniz genişmiqyaslı tamaşa biletlərinin sifarişi funksiyası
+
+00:04:34.660 --> 00:04:36.910
+Nə vaxt əlavə olunacaq?
+
+00:04:36.910 --> 00:04:39.910
+Bu, əvvəlcədən layihənin əhatə dairəsinə daxil edilməlidirmi?
+
+00:04:39.910 --> 00:04:43.590
+Yoxsa hələ də bunu nəzərdən keçirməli olub-olmadığımı bilmək istərdim
+
+00:04:43.590 --> 00:04:46.090
+Və mövcud məlumatların saxlanmasına ehtiyac
+
+00:04:46.090 --> 00:04:48.940
+Bu o deməkdirmi ki, biz DB sistemini dəyişdirməməliyik?
+
+00:04:48.940 --> 00:04:51.950
+Hazırda məlumat bazasını paylaşan başqa xidmətlər varmı?
+
+00:04:53.580 --> 00:04:54.980
+DB-dən göründüyü kimi,
+
+00:04:54.980 --> 00:04:57.290
+Çünki domen mütəxəssisləri inkişaf etdirici deyillər.
+
+00:04:57.290 --> 00:04:59.430
+Texniki ifadə qeyri-müəyyəndir
+
+00:04:59.910 --> 00:05:02.890
+Tərtibatçılar bu məsələləri diqqətlə yoxlamalıdırlar.
+
+00:05:04.230 --> 00:05:07.450
+Domen mütəxəssisləri geliştiricilərin suallarını bu kimi cavablandırırlar:
+
+00:05:08.330 --> 00:05:10.210
+Genişmiqyaslı tamaşa biletlərinin sifarişi funksiyası
+
+00:05:10.210 --> 00:05:13.450
+Hələlik konkret bir cədvəl yoxdur.
+
+00:05:13.450 --> 00:05:15.970
+Lakin, gələcəkdə xüsusiyyətlər əlavə edildikdə
+
+00:05:15.970 --> 00:05:18.700
+Beləliklə, çox çətinlik çəkmədən təkmilləşdirə bilərsiniz
+
+00:05:18.700 --> 00:05:22.600
+Məncə, bu dəfə bir az nəzərə alsanız yaxşı olar.
+
+00:05:22.600 --> 00:05:27.050
+Biz DB-dən xidmətlərimizdən başqa heç bir məqsəd üçün istifadə etmirik.
+
+00:05:27.050 --> 00:05:32.840
+Məlumatlar yaxşı saxlanıldığı müddətcə sistemin özünü dəyişdirmək böyük bir problem deyil.
+
+00:05:33.840 --> 00:05:35.080
+Hekayəni dinlədikdən sonra
+
+00:05:35.080 --> 00:05:39.400
+Düşünmürəm ki, böyük şou barədə narahat olmağa ehtiyac var.
+
+00:05:39.400 --> 00:05:40.790
+Bu, layihənin əhatə dairəsi deyil
+
+00:05:40.790 --> 00:05:43.040
+Tələblər də aydın deyil
+
+00:05:43.040 --> 00:05:44.930
+Nə vaxt ehtiyacım olacağını bilmirəm, amma
+
+00:05:44.930 --> 00:05:47.710
+Bu, sonradan yenidən nəzərdən keçirməli olduğumuz bir problemdir.
+
+00:05:48.920 --> 00:05:50.910
+Sənəddə qeyd olunmasa belə
+
+00:05:50.910 --> 00:05:54.880
+Sahə mütəxəssisləri də genişmiqyaslı çıxışları nəzərdən keçirəcəklərinə dair cavab verəcəklər.
+
+00:05:54.880 --> 00:05:55.960
+Unutmamalısan
+
+00:05:56.740 --> 00:05:58.320
+Yaxşı
+
+00:05:58.320 --> 00:06:00.630
+Daha sonra, genişmiqyaslı tamaşa biletlərinin sifarişi funksiyası
+
+00:06:00.630 --> 00:06:04.500
+Mən bunu bu layihə üçün əsas prioritetlər sırasına daxil etməzdim.
+
+00:06:04.500 --> 00:06:08.220
+Bunun əvəzinə, inkişaf prosesinin sonrakı mərhələlərində funksionallığı genişləndirməyi asanlaşdırır.
+
+00:06:08.220 --> 00:06:10.190
+Mən ona yaxşı baxacağam
+
+00:06:10.190 --> 00:06:12.840
+Narahat olma. Yalnız mənə etibar et
+
+00:06:13.840 --> 00:06:15.960
+Yaxşı yola getmək vacibdir
+
+00:06:17.980 --> 00:06:19.500
+İndiyə qədərki söhbətimizdə
+
+00:06:19.500 --> 00:06:22.700
+Əsas prioritetlər aşağıdakı kimi ümumiləşdirilir:
+
+00:06:23.220 --> 00:06:25.890
+Bu, domen mütəxəssisləri tərəfindən verilən məlumatdır.
+
+00:06:25.890 --> 00:06:28.410
+Tərtibatçının baxış bucağından şərh və təşkil
+
+00:06:28.410 --> 00:06:29.810
+Layihəyə başlayın
+
+00:06:31.700 --> 00:06:32.860
+Domen mütəxəssisləri ilə
+
+00:06:32.860 --> 00:06:34.980
+Layihənizin məqsədləri barədə qərar verdikdən sonra,
+
+00:06:35.620 --> 00:06:37.980
+İndi layihənizə ad verməyin vaxtıdır.
+
+00:06:38.750 --> 00:06:41.840
+Əvvəlcə domen mütəxəssisindən rəyini soruşun.
+
+00:06:42.800 --> 00:06:45.540
+Layihəyə nə ad verməliyəm?
+
+00:06:45.540 --> 00:06:47.680
+Bu, film sifariş sistemidir.
+
+00:06:47.680 --> 00:06:50.150
+Bəs sadəcə Film Sifariş Sistemi necədir?
+
+00:06:50.150 --> 00:06:51.430
+yox, istəmirəm
+
+00:06:51.430 --> 00:06:53.570
+Genişmiqyaslı tamaşalara nəzarət edəcəyəm
+
+00:06:53.570 --> 00:06:56.930
+Gəlin Film Sifariş Sisteminə keçək. bəli?
+
+00:06:56.930 --> 00:06:58.180
+əla
+
+00:06:58.180 --> 00:06:59.950
+Çox sağ olun
+
+00:07:01.000 --> 00:07:05.230
+Domen mütəxəssisləri layihə adlarının Koreya dilində olmasını istəyə bilərlər.
+
+00:07:05.580 --> 00:07:07.680
+Amma geliştiricinin nöqteyi-nəzərindən
+
+00:07:07.680 --> 00:07:09.990
+Layihə adları da daxil olmaqla bütün terminlər
+
+00:07:09.990 --> 00:07:12.180
+Çünki birbaşa kodda tətbiq olunur,
+
+00:07:12.600 --> 00:07:15.000
+Mümkünsə, bunu ingilis dilində təyin etmək daha asandır.
+
+00:07:15.540 --> 00:07:19.510
+Tərtibatçıların domen mütəxəssislərinin ehtiyaclarını sədaqətlə yerinə yetirməsi vacibdir, lakin
+
+00:07:19.960 --> 00:07:21.430
+Bütün layihəni nəzərə alaraq
+
+00:07:21.430 --> 00:07:23.930
+Həmçinin işləri səmərəli istiqamətə yönəltmək məsuliyyətimiz var.
+
+00:07:25.850 --> 00:07:27.760
+Layihəniz üçün bir ad seçmisinizsə
+
+00:07:27.760 --> 00:07:31.380
+İndi Film Sifariş Sistemindən kimin istifadə etdiyini öyrənməyin vaxtıdır.
+
+00:07:32.020 --> 00:07:34.940
+Əlbəttə ki, bu barədə məlumat üçün domen mütəxəssisinə müraciət etməlisiniz.
+
+00:07:35.420 --> 00:07:38.740
+Və müştərilərimizin və menecerlərimizin olduğunu görürük.
+
+00:07:40.820 --> 00:07:43.280
+Dizaynın erkən mərhələlərində asanlıqla gözardı edilə bilən elementlərdən biri də
+
+00:07:43.280 --> 00:07:44.760
+Bu, xarici asılılıqdır
+
+00:07:45.340 --> 00:07:46.580
+Xarici asılılıqlar
+
+00:07:46.580 --> 00:07:49.210
+Bu, mövcud bir miras sistemi ola bilər,
+
+00:07:49.660 --> 00:07:51.420
+Bu, ödəniş sistemi ola bilər
+
+00:07:52.020 --> 00:07:53.670
+Bu asılılıq əlaqəsi
+
+00:07:53.670 --> 00:07:56.760
+Çünki bu, ümumi sistem dizaynına böyük təsir göstərə bilər.
+
+00:07:56.950 --> 00:08:00.150
+Bunu mümkün qədər erkən müəyyən etmək vacibdir.
+
+00:08:00.570 --> 00:08:01.240
+xoşbəxtlikdən
+
+00:08:01.820 --> 00:08:04.990
+Ödəniş şlüzləri və köhnə sistemlər kimi elementlər
+
+00:08:05.270 --> 00:08:07.730
+Çünki artıq mövcud sistemlərdə istifadə olunur.
+
+00:08:07.990 --> 00:08:10.360
+Bunu nisbətən asanlıqla başa düşmək olar
+
+00:08:11.230 --> 00:08:14.410
+Asılı münasibətlərdə asanlıqla gözardı edilə bilən şeylərdən biri də budur
+
+00:08:14.410 --> 00:08:16.090
+Xarici mühit amilləri var
+
+00:08:16.900 --> 00:08:19.060
+Ölkəmiz eyni saat qurşağındadır
+
+00:08:19.060 --> 00:08:22.430
+Böyük bir əraziyə malik bir ölkədə hər teatrın fərqli vaxt intervalları var.
+
+00:08:23.190 --> 00:08:25.100
+Sonra Film Sifariş Sistemi
+
+00:08:25.100 --> 00:08:28.900
+Bunun zaman qurşaqları kimi ətraf mühit amillərindən təsirlənməsi qaçılmazdır.
+
+00:08:29.410 --> 00:08:32.760
+Bu amillər birbaşa domen mütəxəssisindən soruşmadığınız təqdirdə asanlıqla aydın deyil.
+
+00:08:32.760 --> 00:08:33.950
+Qaçırmaq asandır
+
+00:08:34.740 --> 00:08:37.610
+Domen mütəxəssisləri bu detalları görməzdən gəlməyə meyllidirlər.
+
+00:08:37.610 --> 00:08:40.010
+Çünki izahat buraxıla bilər
+
+00:08:41.680 --> 00:08:43.640
+Asılılıq əlaqəsi açıq şəkildə ifadə edildiyi üçün
+
+00:08:43.640 --> 00:08:47.500
+İndi isə Film Sifarişi Sisteminin daxili sistemlərinə diqqət yetirək.
+
+00:08:48.430 --> 00:08:52.230
+Əvvəla, müştəri Film Sifarişi Sistemində nə edir?
+
+00:08:52.230 --> 00:08:54.230
+Gəlin domen mütəxəssislərindən soruşaq
+
+00:08:55.800 --> 00:08:57.880
+Müştərilər nə edirlər?
+
+00:08:57.880 --> 00:08:59.970
+Müştərilər film axtarır,
+
+00:08:59.970 --> 00:09:01.450
+Film detallarına baxın,
+
+00:09:01.450 --> 00:09:02.910
+Seçim vaxtını seçin,
+
+00:09:02.910 --> 00:09:04.450
+Oturacağınız yeri seçin,
+
+00:09:04.450 --> 00:09:05.920
+Film biletlərini sifariş edin,
+
+00:09:05.920 --> 00:09:07.610
+Rezervasiya məlumatlarını yoxlayın,
+
+00:09:07.610 --> 00:09:10.180
+Rezervasiyanı ləğv etmək kimi şeylər edin
+
+00:09:10.180 --> 00:09:15.750
+Seans vaxtı və yer seçimi film bileti sifariş prosesinin bir hissəsidirmi?
+
+00:09:15.750 --> 00:09:18.880
+Və film biletlərini sifariş etmək, rezervasiyaları ləğv etmək
+
+00:09:18.880 --> 00:09:22.210
+Axı, sadəcə bilet alıb pulunuzu geri almırsınız?
+
+00:09:22.210 --> 00:09:23.620
+haqlısan
+
+00:09:23.620 --> 00:09:25.030
+Düz deyirsən
+
+00:09:25.480 --> 00:09:27.880
+Çünki bu artıq tanış bir sahədir
+
+00:09:27.880 --> 00:09:31.240
+Seans vaxtını seçin və yerinizi seçin
+
+00:09:31.240 --> 00:09:33.200
+Bu, film bileti sifariş prosesinin bir hissəsidirmi?
+
+00:09:33.200 --> 00:09:34.530
+Soruşa bilərdim
+
+00:09:34.980 --> 00:09:37.220
+Amma əgər bu, tanımadığı bir sahədirsə,
+
+00:09:37.410 --> 00:09:40.160
+Hər bir istifadə halının ətraflı təhlili
+
+00:09:40.520 --> 00:09:43.330
+Təmizləmə prosesini bir neçə dəfə təkrarlayacaqsınız.
+
+00:09:43.790 --> 00:09:45.350
+Layihənin vəziyyətindən asılı olaraq
+
+00:09:45.350 --> 00:09:48.080
+Bu prosesi bir neçə dəfə təkrarlaya bilərsiniz,
+
+00:09:48.080 --> 00:09:50.580
+Nə qədər çox vaxt ayırıb diqqətlə təhlil etsəniz,
+
+00:09:50.580 --> 00:09:54.190
+Dizayn və tətbiq mərhələlərində sınaq və səhvləri azaldın.
+
+00:09:55.850 --> 00:09:57.530
+İndiyə qədərki söhbətə əsasən
+
+00:09:57.530 --> 00:10:00.970
+Müştəri istifadə hallarımızı dörd kateqoriyaya ayırdıq:
+
+00:10:02.960 --> 00:10:04.470
+Növbəti administratordur
+
+00:10:05.190 --> 00:10:08.850
+Administrator beş idarəetmə elementinin olduğunu görə bilər:
+
+00:10:09.440 --> 00:10:13.620
+Şəxsən mən inkişafda "İdarəetmə" sözünü istifadə etməkdə ehtiyatlıyam.
+
+00:10:14.360 --> 00:10:16.980
+İdarəetmə çox geniş bir ifadədir
+
+00:10:16.980 --> 00:10:19.030
+Nə etdiyiniz bəlli deyil
+
+00:10:19.640 --> 00:10:20.950
+Burada da eynidir
+
+00:10:21.370 --> 00:10:23.760
+Tam olaraq necə idarə olunur?
+
+00:10:23.760 --> 00:10:24.810
+Bilmirəm
+
+00:10:25.930 --> 00:10:27.620
+Domen mütəxəssisləri ilə danışaraq
+
+00:10:27.620 --> 00:10:31.220
+Hər bir idarəetmə elementi müəyyən bir istifadə halına genişləndirilmişdir.
+
+00:10:31.900 --> 00:10:33.660
+Əgər bu, real bir layihədirsə
+
+00:10:33.660 --> 00:10:35.890
+Yəqin ki, bundan daha çox istifadə halları var.
+
+00:10:36.150 --> 00:10:39.000
+Burada izahat üçün sadələşdirdim.
+
+00:10:39.860 --> 00:10:42.700
+Burada qeyd etmək vacib olan odur ki, işləmə müddəti yaratdığınız zaman,
+
+00:10:43.020 --> 00:10:45.900
+Biletin də yaradıldığını görə bilərsiniz
+
+00:10:46.960 --> 00:10:49.200
+Və bilet alarkən və ya pulu geri qaytararkən
+
+00:10:49.490 --> 00:10:53.910
+Həmçinin ödəniş qapısı adlanan xarici xidmətdən istifadə etdiyimizi görə bilərsiniz.
+
+00:10:55.890 --> 00:10:58.670
+Müştərilərin və menecerlərin istifadə hallarını birləşdirdim.
+
+00:10:59.350 --> 00:11:01.730
+Bütün istifadə halına belə baxırıq
+
+00:11:01.730 --> 00:11:02.900
+Nəsə boşluq hiss olunur
+
+00:11:03.890 --> 00:11:05.840
+Teatr əlavə etmək imkanı var
+
+00:11:05.840 --> 00:11:08.720
+Axtarış Teatrı kimi bir [ __ ] görmürəm
+
+00:11:09.410 --> 00:11:12.130
+Görünür, bir çox istifadə halları buraxılıb.
+
+00:11:12.770 --> 00:11:15.980
+Çünki bir sahə mütəxəssisi baxımından izah ediləcək çox [ __ ] var.
+
+00:11:15.980 --> 00:11:17.950
+Bu istifadə halı, çox açıq-aydın görünür,
+
+00:11:18.150 --> 00:11:19.810
+İzahatı buraxa bilərsiniz
+
+00:11:20.770 --> 00:11:23.460
+Bəs geliştiricinin nöqteyi-nəzərindən necə?
+
+00:11:24.400 --> 00:11:28.290
+Kinoteatr axtarmaq kimi sadə xəbər hallarını istisna etmək daha yaxşıdır.
+
+00:11:28.290 --> 00:11:30.700
+Bu, sənəd idarəetməsi üçün daha faydalı olmazdımı?
+
+00:11:31.720 --> 00:11:32.870
+Əgər bu arxa plan dizaynıdırsa
+
+00:11:32.870 --> 00:11:35.920
+Kinoteatr axtarmaq kimi sadə istifadə halları
+
+00:11:35.920 --> 00:11:37.760
+Məncə, bunu keçməkdə problem yoxdur
+
+00:11:38.600 --> 00:11:41.570
+Demək istədiyim odur ki, tətbiq mərhələsində cavab vermək üçün hələ gec deyil.
+
+00:11:42.370 --> 00:11:44.310
+Amma əgər bu, real bir layihədirsə
+
+00:11:44.310 --> 00:11:48.450
+Ekran planlayıcıları üçün bu istifadə halları yaxşı bir başlanğıc nöqtəsidir.
+
+00:11:49.250 --> 00:11:52.300
+Planlayıcı teatr axtarmağın istifadə halına baxdı.
+
+00:11:52.300 --> 00:11:55.300
+Kinoteatrları necə axtarmağı mümkün etməliyəm?
+
+00:11:55.300 --> 00:11:56.600
+Düşünə biləcəksiniz
+
+00:11:58.000 --> 00:12:00.880
+Diaqramları bir yerə birləşdirəndə mürəkkəb görünür.
+
+00:12:01.490 --> 00:12:05.150
+Əgər bu, real bir layihə olsaydı, daha mürəkkəb olardı.
+
+00:12:05.720 --> 00:12:08.240
+Bu halda, birləşməni məcbur etməyə ehtiyac yoxdur.
+
+00:12:08.810 --> 00:12:13.910
+İtkin düşmüş halların olduğunu göstərmək üçün onları burada birləşdirdim.
+
+00:12:16.020 --> 00:12:18.490
+Bütün çatışmayan halları doldurdum
+
+00:12:19.200 --> 00:12:21.880
+Aktyorla əlaqənin buraxıldığı bir istifadə halım var.
+
+00:12:22.290 --> 00:12:25.720
+Bu, həm müştərilərə, həm də menecerlərə aiddir.
+
+00:12:26.400 --> 00:12:29.480
+Və tətbiqi asanlaşdırmaq üçün onu ingilis dilində yazdım.
+
+00:12:31.370 --> 00:12:34.160
+İndi problem deyil, çünki bu kiçik bir layihədir
+
+00:12:34.160 --> 00:12:36.160
+Əgər layihə böyük və mürəkkəbdirsə
+
+00:12:36.160 --> 00:12:38.980
+Domen mütəxəssisi izahata haradan başlamalıdır?
+
+00:12:38.980 --> 00:12:40.380
+Çətin ola bilər
+
+00:12:41.280 --> 00:12:43.300
+Administrator nə edir?
+
+00:12:43.300 --> 00:12:44.700
+Bu çox işdir
+
+00:12:44.700 --> 00:12:46.620
+Menecerdən gözlənildiyi kimi
+
+00:12:47.620 --> 00:12:49.750
+Bu halda, aktyorları bölmək olarmı?
+
+00:12:49.750 --> 00:12:52.340
+Həmçinin nəzərdən keçirmək yaxşı bir fikirdir
+
+00:12:53.140 --> 00:12:54.790
+Əvvəlcə mənə administrator deyirdilər
+
+00:12:54.790 --> 00:12:57.400
+Rola görə bölmək mümkün ola bilər
+
+00:12:58.520 --> 00:13:00.820
+Və Film Sifariş Sistemindən istifadə etməklə
+
+00:13:00.820 --> 00:13:02.870
+Xarici xidmətlər ola bilər
+
+00:13:03.660 --> 00:13:05.340
+Əgər aktyorları bu şəkildə bölsək,
+
+00:13:05.340 --> 00:13:09.420
+Domen mütəxəssisləri daha sistemli məlumat verə biləcəklər.
+
+00:13:10.350 --> 00:13:14.000
+Əlbəttə ki, bu, mürəkkəb bir sahənin təhlilinin yalnız bir nümunəsidir.
+
+00:13:14.540 --> 00:13:17.320
+Başqa yaxşı yollar da ola bilər
+
+00:13:17.960 --> 00:13:21.740
+Vəziyyətdən asılı olaraq çevik reaksiya vermək vacibdir.
+
+00:13:24.250 --> 00:13:25.060
+Bu nəticədir
+
+00:13:25.950 --> 00:13:29.170
+Bu dəfə istifadə halları diaqramından istifadə edəcəyik
+
+00:13:29.170 --> 00:13:30.840
+Layihə üçün məqsədlər təyin edin
+
+00:13:31.230 --> 00:13:33.700
+İlkin təhlil mərhələlərindən keçdim.
+
+00:13:34.880 --> 00:13:38.010
+Şəxsən, bütün inkişaf prosesi ərzində
+
+00:13:38.010 --> 00:13:40.060
+Məncə, təhlil ən çətinidir
+
+00:13:40.570 --> 00:13:44.250
+Çünki ən mücərrəd və qeyri-müəyyən anlayışları təşkil etməliyik.
+
+00:13:45.020 --> 00:13:47.650
+Növbəti dəfə əsas istifadə hallarına nəzər salacağıq
+
+00:13:47.650 --> 00:13:49.470
+Gəlin bunu daha ətraflı təhlil edək
+
+00:13:50.300 --> 00:13:52.100
+İndiyə qədər çəkdiyiniz zəhmətə görə təşəkkür edirəm.
+

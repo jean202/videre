@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: rw
+
+00:00:00.000 --> 00:00:02.020
+Muraho, iyi ni Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Porogaramu iragoye
+
+00:00:06.650 --> 00:00:08.890
+Mbere na mbere, hari kode nyinshi zigomba kwandikwa.
+
+00:00:09.760 --> 00:00:12.710
+Urugero rw'imishinga nakoreye uru rukurikirane gusa
+
+00:00:12.710 --> 00:00:15.270
+Kode ifite imirongo irenga 12.000.
+
+00:00:16.330 --> 00:00:18.320
+Niba ari serivisi ikora
+
+00:00:18.320 --> 00:00:21.530
+Nubwo ari serivisi ntoya, byoroshye kurenza imirongo 100.000.
+
+00:00:22.130 --> 00:00:25.300
+Imirongo ibihumbi ijana irahagije kugira ngo yuzuze ibitabo makumyabiri.
+
+00:00:26.870 --> 00:00:29.560
+Kwandika kode ndende ntibivuze ko byarangiye.
+
+00:00:30.330 --> 00:00:32.540
+Ugomba gukomeza gukosora kode wanditse.
+
+00:00:33.400 --> 00:00:35.800
+Iyo ukoze A, B iracika.
+
+00:00:35.800 --> 00:00:39.130
+Nukosora B, A na C bizacika.
+
+00:00:41.090 --> 00:00:44.260
+Dukoresheje ikigereranyo, ni nko kuba warafashwe mu mutego wa Rasputica ukarira.
+
+00:00:44.260 --> 00:00:46.360
+Ushobora kuvuga ko ibintu bisa n'ifarashi.
+
+00:00:47.330 --> 00:00:50.550
+Muri iki gihe, uzumva ukeneye gushushanya.
+
+00:00:52.580 --> 00:00:55.010
+Ariko iyo ugerageje kwandika inyandiko y'igishushanyo mbonera,
+
+00:00:55.500 --> 00:00:58.490
+Gusobanura ibitekerezo mu mutwe wawe mu buryo bufatika
+
+00:00:58.790 --> 00:01:01.260
+Uzasanga atari byoroshye nkuko ubyibwira.
+
+00:01:01.890 --> 00:01:05.600
+Ndetse n'umuziki w'urupapuro, ari wo nyandiko ifata amajwi cyangwa umuziki mu buryo bw'amashusho,
+
+00:01:05.600 --> 00:01:06.700
+Biragoye cyane
+
+00:01:07.520 --> 00:01:10.610
+Si umuziki gusa, ahubwo n'imari n'ibikoresho
+
+00:01:10.610 --> 00:01:14.060
+Ibitekerezo byinshi bitandukanye n'ibisabwa n'abakoresha mu buryo bufatika
+
+00:01:14.060 --> 00:01:17.220
+Ntibizaba byoroshye kubigaragaza mu buryo bwihariye.
+
+00:01:18.530 --> 00:01:19.490
+Ku bw'amahirwe
+
+00:01:19.770 --> 00:01:23.200
+Kugira ngo dutsinde ingorane zo kugaragaza ibitekerezo bifatika
+
+00:01:23.540 --> 00:01:26.860
+UML yavutse mu mpera z'imyaka ya 1990.
+
+00:01:27.730 --> 00:01:30.120
+Yayobowe na Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Dukoresha UML dutegereje
+
+00:01:34.980 --> 00:01:36.990
+Shushanya igishushanyo mbonera cy'ishuri
+
+00:01:36.990 --> 00:01:38.760
+Reka kandi dushushanye igishushanyo mbonera cy'uruhererekane
+
+00:01:39.430 --> 00:01:39.980
+icyakora
+
+00:01:40.360 --> 00:01:43.160
+Ubwo nageragezaga kuyishushanya, byari bitandukanye no kuyishyiraho inyandiko mu buryo butaziguye.
+
+00:01:43.160 --> 00:01:45.130
+Bisa nkaho bitatandukanye cyane
+
+00:01:45.590 --> 00:01:46.520
+Kuki ari uko bimeze?
+
+00:01:47.350 --> 00:01:50.910
+Ibyo biterwa nuko inzira yo gutekereza isanzwe ikoreshwa mu gushyira mu bikorwa.
+
+00:01:51.290 --> 00:01:54.170
+Aho kugira ngo ibitekerezo bidafatika birusheho kuba bifatika,
+
+00:01:54.490 --> 00:01:57.590
+Kubera ko bihindura imitekerereze yo mu rwego rwo gushyira mu bikorwa muri UML.
+
+00:01:58.520 --> 00:02:00.270
+Kubera ko ushobora gusoma indirimbo z'urupapuro
+
+00:02:00.270 --> 00:02:01.950
+Si uko nshobora kuyihimba
+
+00:02:02.390 --> 00:02:03.850
+Kubera ko wize UML gusa
+
+00:02:03.850 --> 00:02:06.170
+Si nk'aho uteza imbere ubuhanga bwo gushushanya.
+
+00:02:07.700 --> 00:02:09.300
+Muri uru rukurikirane rero
+
+00:02:09.300 --> 00:02:11.580
+Binyuze mu mishinga nyayo
+
+00:02:11.580 --> 00:02:14.420
+Uburyo bwo gushushanya ibisabwa mu buryo bw'incamake
+
+00:02:14.420 --> 00:02:16.290
+Ushobora guhuza kode?
+
+00:02:16.290 --> 00:02:18.010
+Ndashaka kukwereka imbonankubone
+
+00:02:18.530 --> 00:02:20.930
+Nahisemo kubika amatike ya filime hakurikijwe domaine
+
+00:02:21.370 --> 00:02:25.200
+Gusaba amatike yo kureba filime biroroshye kubyumva kuko ahanini ari ahantu hazwi cyane.
+
+00:02:25.200 --> 00:02:29.710
+Harimo imirimo itandukanye nko kwinjira, kwishyura, no guhitamo imyanya.
+
+00:02:29.710 --> 00:02:31.580
+Bisa nkaho ari urugero rwiza
+
+00:02:33.600 --> 00:02:36.890
+Muri make, insanganyamatsiko y'iyi nkuru ni igishushanyo mbonera cya porogaramu, ariko
+
+00:02:36.890 --> 00:02:40.350
+Tuzaganira kandi ku iterambere rishingiye ku igeragezwa.
+
+00:02:41.210 --> 00:02:44.890
+Imiterere y'iterambere rya none ishyigikira ibikoresho byo gupima.
+
+00:02:45.600 --> 00:02:48.320
+Nubwo wareba imishinga izwi cyane ifunguye,
+
+00:02:48.320 --> 00:02:51.130
+Dufite urwego runaka rw'ibizamini.
+
+00:02:51.740 --> 00:02:56.200
+Ibi bishobora kuba bivuze ko ibizamini ari ingenzi cyane kandi bifite akamaro.
+
+00:02:56.870 --> 00:02:58.120
+Ariko mu by'ukuri
+
+00:02:58.120 --> 00:03:02.590
+Mu bihe byinshi, si TDD gusa, ahubwo no mu buryo bwikora bwo gusuzuma imikorere ntibwashyirwa mu bikorwa neza.
+
+00:03:03.190 --> 00:03:06.260
+Kwandika ibizamini bifite ishingiro mbere nta kwitegura ni
+
+00:03:06.260 --> 00:03:07.540
+Ntibijya byoroha na gato
+
+00:03:08.410 --> 00:03:12.340
+Iki ni ikintu gisaba ubushobozi bwo gushushanya porogaramu hamwe.
+
+00:03:13.320 --> 00:03:16.270
+Rero, ni byiza gukorana n'igishushanyo mbonera na TDD.
+
+00:03:16.270 --> 00:03:18.180
+Nasanze ari ingirakamaro
+
+00:03:20.120 --> 00:03:23.450
+Noneho reka dutangire inama ya mbere y'umushinga.
+
+00:03:24.150 --> 00:03:26.470
+Kubera ko uyu ari umushinga muto
+
+00:03:26.470 --> 00:03:28.090
+Hari abitabiriye babiri
+
+00:03:28.790 --> 00:03:32.340
+Uwuri ibumoso ni inzobere mu by’ikoranabuhanga, naho iburyo ni umuhanga mu by’ikoranabuhanga.
+
+00:03:34.550 --> 00:03:37.790
+Impuguke mu by’ikoranabuhanga zifite ijambo muri sisitemu tugomba kubaka.
+
+00:03:37.790 --> 00:03:39.280
+Ivuga inkuru nyinshi
+
+00:03:40.340 --> 00:03:42.160
+Ikinamico dukoresha
+
+00:03:42.160 --> 00:03:44.710
+Hari abagera ku bihumbi bine mu gihugu hose.
+
+00:03:44.710 --> 00:03:47.220
+Bishobora kwiyongera kurushaho mu gihe kizaza.
+
+00:03:47.220 --> 00:03:50.480
+Ubu, uburyo bwo gufatira amatike ya sinema ni bwo bwonyine bushyigikiwe.
+
+00:03:50.480 --> 00:03:54.510
+Turateganya kongeramo kugurisha amatike ku bitaramo binini nyuma.
+
+00:03:54.510 --> 00:03:58.940
+Kandi icy'ingenzi ni uko utagomba na rimwe gukuba imyanya ibiri.
+
+00:03:58.940 --> 00:04:03.250
+Mu bihe byashize, ibigo bitanga serivisi ku bakiliya byagorwaga cyane n'ubwo bwoko bw'ikibazo.
+
+00:04:03.250 --> 00:04:07.670
+Kubera ko hari amakuru menshi ya filime n'amakuru y'isuzuma yamaze gukusanywa.
+
+00:04:07.670 --> 00:04:11.090
+Aya makuru agomba kuguma ari yose.
+
+00:04:12.090 --> 00:04:14.730
+Aha ngaha ikiganiro cyateguwe neza, ariko
+
+00:04:14.890 --> 00:04:16.960
+Mu by'ukuri, hari amakuru menshi
+
+00:04:16.960 --> 00:04:18.600
+Bizatangwa mu buryo butari bwo
+
+00:04:19.470 --> 00:04:22.110
+Ariko inkuru isohoka mu ntangiriro z'umushinga ni
+
+00:04:22.110 --> 00:04:23.780
+Kubera ko ari cyo gisabwa cy'ingenzi cyane
+
+00:04:23.780 --> 00:04:25.320
+Ugomba gutega amatwi witonze
+
+00:04:27.110 --> 00:04:29.810
+Abakora porogaramu bumva abahanga mu by'ikoranabuhanga
+
+00:04:29.810 --> 00:04:31.290
+Mfite ibibazo bike
+
+00:04:32.290 --> 00:04:34.660
+Igikorwa cyo gukusanya amatike y'ibitaramo byinshi wavuze
+
+00:04:34.660 --> 00:04:36.910
+Bizongerwaho ryari?
+
+00:04:36.910 --> 00:04:39.910
+Ese ibi bigomba gushyirwa mu bikorwa by'uyu mushinga mbere y'igihe?
+
+00:04:39.910 --> 00:04:43.590
+Cyangwa ndifuza kumenya niba nkwiye kubitekerezaho
+
+00:04:43.590 --> 00:04:46.090
+Kandi hakenewe kubungabunga amakuru asanzweho
+
+00:04:46.090 --> 00:04:48.940
+Ese ibi bivuze ko tudakwiye guhindura sisitemu ya DB?
+
+00:04:48.940 --> 00:04:51.950
+Ese hari izindi serivisi zisangiye DB muri iki gihe?
+
+00:04:53.580 --> 00:04:54.980
+Nkuko mubibona muri DB,
+
+00:04:54.980 --> 00:04:57.290
+Kubera ko abahanga mu bya domaine atari abakora porogaramu.
+
+00:04:57.290 --> 00:04:59.430
+Imvugo ya tekiniki irasobanutse neza
+
+00:04:59.910 --> 00:05:02.890
+Abashinzwe iterambere bagomba kugenzura ibi bintu neza.
+
+00:05:04.230 --> 00:05:07.450
+Impuguke mu by’ikoranabuhanga zisubiza ibibazo by’abakora porogaramu nk’ibi:
+
+00:05:08.330 --> 00:05:10.210
+Igikorwa cyo gukusanya amatike y'ibitaramo ku rwego runini
+
+00:05:10.210 --> 00:05:13.450
+Nta gahunda yihariye irahari kugeza ubu.
+
+00:05:13.450 --> 00:05:15.970
+Ariko, iyo ibintu byongewemo mu gihe kizaza
+
+00:05:15.970 --> 00:05:18.700
+Kugira ngo ubashe kuvugurura nta ngorane nyinshi
+
+00:05:18.700 --> 00:05:22.600
+Ndatekereza ko byaba byiza uramutse ubitekerejeho kuri iyi nshuro.
+
+00:05:22.600 --> 00:05:27.050
+Nta kindi dukoresha DB kitari serivisi zacu.
+
+00:05:27.050 --> 00:05:32.840
+Guhindura sisitemu ubwabyo si ikibazo gikomeye igihe cyose amakuru abungabunzwe neza.
+
+00:05:33.840 --> 00:05:35.080
+Nyuma yo kumva inkuru
+
+00:05:35.080 --> 00:05:39.400
+Ndatekereza ko nta mpamvu yo guhangayikishwa n'igitaramo kinini.
+
+00:05:39.400 --> 00:05:40.790
+Ntabwo ari cyo gikorwa cy'umushinga
+
+00:05:40.790 --> 00:05:43.040
+Ibisabwa nabyo ntibisobanutse neza
+
+00:05:43.040 --> 00:05:44.930
+Sinzi igihe nzabikenera, ariko
+
+00:05:44.930 --> 00:05:47.710
+Icyo ni ikibazo tugomba kongera gusuzuma nyuma.
+
+00:05:48.920 --> 00:05:50.910
+Nubwo bitanditswe mu nyandiko
+
+00:05:50.910 --> 00:05:54.880
+Impuguke mu bijyanye n'urubuga zizatanga igisubizo cy'uko zizasuzuma imikorere minini.
+
+00:05:54.880 --> 00:05:55.960
+Ntugomba kwibagirwa
+
+00:05:56.740 --> 00:05:58.320
+Nibyo
+
+00:05:58.320 --> 00:06:00.630
+Hanyuma, akazi ko gukusanya amatike y'ibitaramo ku rwego runini
+
+00:06:00.630 --> 00:06:04.500
+Sinabishyira mu by'ingenzi kuri uyu mushinga.
+
+00:06:04.500 --> 00:06:08.220
+Ahubwo, byoroshya kwagura imikorere nyuma mu gikorwa cyo guteza imbere.
+
+00:06:08.220 --> 00:06:10.190
+Nzabyitwaramo neza
+
+00:06:10.190 --> 00:06:12.840
+Ntugire ikibazo. Nyizere gusa
+
+00:06:13.840 --> 00:06:15.960
+Ni ngombwa kubana neza
+
+00:06:17.980 --> 00:06:19.500
+Binyuze mu kiganiro cyacu kugeza ubu
+
+00:06:19.500 --> 00:06:22.700
+Ibyihutirwa cyane ni ibi bikurikira:
+
+00:06:23.220 --> 00:06:25.890
+Aya ni amakuru atangwa n'impuguke mu bijyanye n'urubuga.
+
+00:06:25.890 --> 00:06:28.410
+Gusobanura no gutunganya ibintu ukurikije uko umuhanga mu by'ubwubatsi abibona
+
+00:06:28.410 --> 00:06:29.810
+Tangira umushinga
+
+00:06:31.700 --> 00:06:32.860
+Hamwe n'inzobere mu by'imbuga
+
+00:06:32.860 --> 00:06:34.980
+Umaze gufata icyemezo ku ntego z'umushinga wawe,
+
+00:06:35.620 --> 00:06:37.980
+Noneho igihe kirageze cyo kwita umushinga wawe izina.
+
+00:06:38.750 --> 00:06:41.840
+Banza ubaze impuguke mu bijyanye n'urubuga rwa interineti igitekerezo cyayo.
+
+00:06:42.800 --> 00:06:45.540
+Ni irihe zina ngomba kwita umushinga?
+
+00:06:45.540 --> 00:06:47.680
+Ni uburyo bwo kubika filime.
+
+00:06:47.680 --> 00:06:50.150
+Bite ho kuri sisitemu yo gutanga filime gusa?
+
+00:06:50.150 --> 00:06:51.430
+oya, sinshaka
+
+00:06:51.430 --> 00:06:53.570
+Nzakora ku buryo bunini bw'ibitaramo
+
+00:06:53.570 --> 00:06:56.930
+Reka tujye muri sisitemu yo gutanga filime. yego?
+
+00:06:56.930 --> 00:06:58.180
+byiza cyane
+
+00:06:58.180 --> 00:06:59.950
+Urakoze cyane
+
+00:07:01.000 --> 00:07:05.230
+Impuguke mu by'ikoranabuhanga zishobora gushaka amazina y'imishinga mu rurimi rw'Igikoreya.
+
+00:07:05.580 --> 00:07:07.680
+Ariko ukurikije uko umuhanga mu by'ubwubatsi abibona
+
+00:07:07.680 --> 00:07:09.990
+Amagambo yose harimo n'amazina y'umushinga
+
+00:07:09.990 --> 00:07:12.180
+Kubera ko ishyirwa mu bikorwa mu buryo butaziguye muri kode,
+
+00:07:12.600 --> 00:07:15.000
+Biroroshye kubisobanura mu Cyongereza niba bishoboka.
+
+00:07:15.540 --> 00:07:19.510
+Ni ngombwa ko abakora porogaramu bakurikiza mu buryo buhamye ibyo abahanga mu by'ikoranabuhanga bakeneye, ariko
+
+00:07:19.960 --> 00:07:21.430
+Urebye umushinga wose
+
+00:07:21.430 --> 00:07:23.930
+Dufite kandi inshingano zo kuyobora ibintu mu cyerekezo cyiza.
+
+00:07:25.850 --> 00:07:27.760
+Niba warahisemo izina ry'umushinga wawe
+
+00:07:27.760 --> 00:07:31.380
+Noneho igihe kirageze cyo kumenya abakoresha sisitemu yo kubika amafilimi.
+
+00:07:32.020 --> 00:07:34.940
+Birumvikana ko ugomba kubaza impuguke mu bijyanye n'urubuga kugira ngo ikumenyeshe amakuru kuri ibi.
+
+00:07:35.420 --> 00:07:38.740
+Kandi dusanga dufite abakiriya n'abayobozi.
+
+00:07:40.820 --> 00:07:43.280
+Kimwe mu bintu byoroshye kubura mu ntangiriro z'igishushanyo ni
+
+00:07:43.280 --> 00:07:44.760
+Ni ukwishingikiriza ku byo hanze
+
+00:07:45.340 --> 00:07:46.580
+Ibikoresho byo hanze ni
+
+00:07:46.580 --> 00:07:49.210
+Bishobora kuba ari sisitemu isanzweho,
+
+00:07:49.660 --> 00:07:51.420
+Bishobora kuba uburyo bwo kwishyurana
+
+00:07:52.020 --> 00:07:53.670
+Iyi sano yo kwishingikiriza ku bandi ni
+
+00:07:53.670 --> 00:07:56.760
+Kubera ko bishobora kugira ingaruka zikomeye ku miterere ya sisitemu muri rusange.
+
+00:07:56.950 --> 00:08:00.150
+Ni ngombwa kuyimenya hakiri kare bishoboka.
+
+00:08:00.570 --> 00:08:01.240
+ku bw'amahirwe
+
+00:08:01.820 --> 00:08:04.990
+Ibintu nk'inzira zo kwishyurana na sisitemu zishaje
+
+00:08:05.270 --> 00:08:07.730
+Kubera ko isanzwe ikoreshwa muri sisitemu zisanzweho
+
+00:08:07.990 --> 00:08:10.360
+Bishobora kumvikana byoroshye cyane
+
+00:08:11.230 --> 00:08:14.410
+Kimwe mu bintu byoroshye kwirengagiza mu mibanire y'abantu bafitanye isano ni
+
+00:08:14.410 --> 00:08:16.090
+Hari ibintu bituruka hanze y'ibidukikije
+
+00:08:16.900 --> 00:08:19.060
+Igihugu cyacu kiri mu gihe kimwe
+
+00:08:19.060 --> 00:08:22.430
+Mu gihugu gifite ubuso bunini bw'ubutaka, buri kinamico igira igihe cyayo gitandukanye.
+
+00:08:23.190 --> 00:08:25.100
+Hanyuma Sisitemu yo Gutanga Amafilimi
+
+00:08:25.100 --> 00:08:28.900
+Ntibishoboka ko bizagerwaho n’ingaruka z’ibidukikije nk’ahantu habera ibihe.
+
+00:08:29.410 --> 00:08:32.760
+Ibi bintu ntibigaragara neza keretse ubajije impuguke mu by’urubuga.
+
+00:08:32.760 --> 00:08:33.950
+Biroroshye kubura
+
+00:08:34.740 --> 00:08:37.610
+Impuguke mu by’ikoranabuhanga zikunze kwirengagiza aya makuru.
+
+00:08:37.610 --> 00:08:40.010
+Kubera ko ibisobanuro bishobora gusibwa
+
+00:08:41.680 --> 00:08:43.640
+Kubera ko isano yo gushingira ku bandi yagaragajwe neza
+
+00:08:43.640 --> 00:08:47.500
+Noneho reka twibande ku bintu by'ingenzi bigize sisitemu yo kubika filime.
+
+00:08:48.430 --> 00:08:52.230
+Mbere ya byose, ni iki umukiriya akora muri Sisitemu yo Gutanga Amafilimi?
+
+00:08:52.230 --> 00:08:54.230
+Reka tubaze abahanga mu bijyanye n'urubuga
+
+00:08:55.800 --> 00:08:57.880
+Abakiriya bakora iki?
+
+00:08:57.880 --> 00:08:59.970
+Abakiriya bashakisha filime,
+
+00:08:59.970 --> 00:09:01.450
+Reba amakuru arambuye kuri filime,
+
+00:09:01.450 --> 00:09:02.910
+Hitamo igihe cyo gusuzuma,
+
+00:09:02.910 --> 00:09:04.450
+Hitamo intebe yawe,
+
+00:09:04.450 --> 00:09:05.920
+Gutanga amatike ya filime,
+
+00:09:05.920 --> 00:09:07.610
+Reba amakuru ajyanye no kubika,
+
+00:09:07.610 --> 00:09:10.180
+Kora ibintu nko guhagarika igihe cyo kubika
+
+00:09:10.180 --> 00:09:15.750
+Ese guhitamo igihe cyo kwerekana no guhitamo umwanya ni kimwe mu bigize gahunda yo gutanga amatike ya sinema?
+
+00:09:15.750 --> 00:09:18.880
+No kubitsa amatike ya sinema, guhagarika kubitsa
+
+00:09:18.880 --> 00:09:22.210
+N'ubundi se, ntabwo ugura itike gusa hanyuma ukabona amafaranga yawe?
+
+00:09:22.210 --> 00:09:23.620
+Ufite ukuri
+
+00:09:23.620 --> 00:09:25.030
+Nibyo koko
+
+00:09:25.480 --> 00:09:27.880
+Kubera ko ubu ari domaine isanzwe imenyerewe
+
+00:09:27.880 --> 00:09:31.240
+Hitamo igihe cyo kwiyerekana hanyuma uhitemo umwanya wawe
+
+00:09:31.240 --> 00:09:33.200
+Ese iki ni kimwe mu bigize gahunda yo gukusanya amatike ya sinema?
+
+00:09:33.200 --> 00:09:34.530
+Nashoboraga kubaza
+
+00:09:34.980 --> 00:09:37.220
+Ariko niba ari domaine itazwi,
+
+00:09:37.410 --> 00:09:40.160
+Gusesengura buri ngero ry'ikoreshwa mu buryo burambuye
+
+00:09:40.520 --> 00:09:43.330
+Uzasubiramo inzira yo gutunganya inshuro nyinshi.
+
+00:09:43.790 --> 00:09:45.350
+Bitewe n'uko umushinga umeze
+
+00:09:45.350 --> 00:09:48.080
+Ushobora gusubiramo iki gikorwa inshuro nyinshi,
+
+00:09:48.080 --> 00:09:50.580
+Uko urushaho gufata umwanya wawe no gusesengura witonze,
+
+00:09:50.580 --> 00:09:54.190
+Gabanya igerageza n'amakosa mu gihe cyo gushushanya no gushyira mu bikorwa.
+
+00:09:55.850 --> 00:09:57.530
+Hashingiwe ku kiganiro cyatanzwe kugeza ubu
+
+00:09:57.530 --> 00:10:00.970
+Twashyize hamwe uburyo abakiriya bacu bakoresha mu byiciro bine:
+
+00:10:02.960 --> 00:10:04.470
+Ukurikiraho ni umuyobozi
+
+00:10:05.190 --> 00:10:08.850
+Umuyobozi ashobora kubona ko hari ibintu bitanu by'ubuyobozi:
+
+00:10:09.440 --> 00:10:13.620
+Ku giti cyanjye, nditondera gukoresha ijambo "Gucunga" mu iterambere.
+
+00:10:14.360 --> 00:10:16.980
+Gucunga ni imvugo yagutse cyane
+
+00:10:16.980 --> 00:10:19.030
+Ntabwo birasobanutse neza icyo urimo gukora
+
+00:10:19.640 --> 00:10:20.950
+Ni kimwe n'aha hantu
+
+00:10:21.370 --> 00:10:23.760
+Bicungwa bite neza neza?
+
+00:10:23.760 --> 00:10:24.810
+Simbizi
+
+00:10:25.930 --> 00:10:27.620
+Mu kuganira n'inzobere mu by'imbuga
+
+00:10:27.620 --> 00:10:31.220
+Buri kintu cyo gucunga cyaguwe kugira ngo gikoreshwe mu buryo bwihariye.
+
+00:10:31.900 --> 00:10:33.660
+Niba ari umushinga nyakuri
+
+00:10:33.660 --> 00:10:35.890
+Birashoboka ko hari uburyo bwinshi bwo gukoresha kurusha ubu.
+
+00:10:36.150 --> 00:10:39.000
+Aha nabyorohereje kugira ngo bisobanuke.
+
+00:10:39.860 --> 00:10:42.700
+Icy'ingenzi kumenya hano ni uko iyo ushyizeho igihe cyo gukora,
+
+00:10:43.020 --> 00:10:45.900
+Urabona ko itike nayo yakozwe
+
+00:10:46.960 --> 00:10:49.200
+Kandi iyo uguze cyangwa usubiza amafaranga y'itike
+
+00:10:49.490 --> 00:10:53.910
+Urashobora kandi kubona ko dukoresha serivisi yo hanze yitwa inzira yo kwishyura.
+
+00:10:55.890 --> 00:10:58.670
+Nahuje ikoreshwa ry'abakiriya n'abayobozi.
+
+00:10:59.350 --> 00:11:01.730
+Urebye ikoreshwa ryose nk'iri
+
+00:11:01.730 --> 00:11:02.900
+Hari ikintu gisa n'aho kirimo ubusa
+
+00:11:03.890 --> 00:11:05.840
+Hari amahitamo yo kongeramo ikinamico
+
+00:11:05.840 --> 00:11:08.720
+Nta kintu na kimwe mbona nka Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Bisa nkaho hari uburyo bwinshi bwo gukoresha burimo gusibwa.
+
+00:11:12.770 --> 00:11:15.980
+Kubera ko ukurikije uko impuguke mu by'ibanga rihagaze, hari byinshi byo gusobanura.
+
+00:11:15.980 --> 00:11:17.950
+Uru rugero rw'ikoreshwa, rusa n'aho rugaragara cyane,
+
+00:11:18.150 --> 00:11:19.810
+Ushobora gukuramo ibisobanuro
+
+00:11:20.770 --> 00:11:23.460
+None se ukurikije uko umuhanga mu by'ikoranabuhanga abibona, bite?
+
+00:11:24.400 --> 00:11:28.290
+Ni byiza kwirengagiza inkuru zoroheje nko gushakisha ikinamico.
+
+00:11:28.290 --> 00:11:30.700
+Ese ibi ntibyaba ari ingirakamaro kurushaho mu gucunga inyandiko?
+
+00:11:31.720 --> 00:11:32.870
+Niba ari igishushanyo mbonera cy'inyuma
+
+00:11:32.870 --> 00:11:35.920
+Uburyo bworoshye bwo gukoresha nko gushakisha ikinamico
+
+00:11:35.920 --> 00:11:37.760
+Ndatekereza ko nta kibazo kubyirengagiza
+
+00:11:38.600 --> 00:11:41.570
+Icyo mvuga ni uko bitarakererwa kugira ngo umuntu asubize mu gihe cyo gushyira mu bikorwa.
+
+00:11:42.370 --> 00:11:44.310
+Ariko niba ari umushinga nyakuri
+
+00:11:44.310 --> 00:11:48.450
+Ku bategura porogaramu, izi ngero zo gukoresha ni ahantu heza ho gutangirira.
+
+00:11:49.250 --> 00:11:52.300
+Umutegura yarebye uko ibintu byakoreshejwe mu gushakisha ikinamico.
+
+00:11:52.300 --> 00:11:55.300
+Nigute nakora ibishoboka byose kugira ngo nshobore gushakisha amasinema?
+
+00:11:55.300 --> 00:11:56.600
+Uzashobora gutekereza
+
+00:11:58.000 --> 00:12:00.880
+Iyo uhuje ibishushanyo mbonera mu kimwe, bisa nkaho bigoye.
+
+00:12:01.490 --> 00:12:05.150
+Iyo biba umushinga nyakuri, byari kuba bigoye cyane.
+
+00:12:05.720 --> 00:12:08.240
+Muri iki gihe, nta mpamvu yo gushyira ku ngufu guhuza.
+
+00:12:08.810 --> 00:12:13.910
+Nabihuje hano kugira ngo nerekane ko hari ababura.
+
+00:12:16.020 --> 00:12:18.490
+Narangije imanza zose zabuze
+
+00:12:19.200 --> 00:12:21.880
+Mfite ikibazo cyo gukoresha aho isano iri hagati yanjye n'umukinnyi idahari.
+
+00:12:22.290 --> 00:12:25.720
+Ibi bireba abakiriya ndetse n'abayobozi.
+
+00:12:26.400 --> 00:12:29.480
+Kandi kugira ngo byorohere gushyira mu bikorwa, nabyanditse mu Cyongereza.
+
+00:12:31.370 --> 00:12:34.160
+Ubu nta kibazo kuko ari umushinga muto
+
+00:12:34.160 --> 00:12:36.160
+Niba umushinga ari munini kandi ugoye
+
+00:12:36.160 --> 00:12:38.980
+Impuguke mu by'amakuru (domaine) igomba gutangirira he gusobanura?
+
+00:12:38.980 --> 00:12:40.380
+Bishobora kugorana
+
+00:12:41.280 --> 00:12:43.300
+Umuyobozi akora iki?
+
+00:12:43.300 --> 00:12:44.700
+Ni akazi kenshi
+
+00:12:44.700 --> 00:12:46.620
+Nkuko byari byitezwe n'umuyobozi
+
+00:12:47.620 --> 00:12:49.750
+Muri iki gihe, dushobora kugabanya abakinnyi?
+
+00:12:49.750 --> 00:12:52.340
+Ni byiza kandi gusuzuma
+
+00:12:53.140 --> 00:12:54.790
+Mbere na mbere banyitaga umuyobozi
+
+00:12:54.790 --> 00:12:57.400
+Birashoboka ko umuntu yagabanyijemo ibice bitewe n'uruhare
+
+00:12:58.520 --> 00:13:00.820
+No gukoresha sisitemu yo kubika filime
+
+00:13:00.820 --> 00:13:02.870
+Hashobora kuba hari serivisi zo hanze
+
+00:13:03.660 --> 00:13:05.340
+Iyo tugabanyije abakinnyi mu byiciro gutya,
+
+00:13:05.340 --> 00:13:09.420
+Impuguke mu by'ikoranabuhanga zizashobora gutanga amakuru arambuye kuri gahunda.
+
+00:13:10.350 --> 00:13:14.000
+Birumvikana ko uru ari urugero rumwe gusa rwo gusesengura urwego rugoye.
+
+00:13:14.540 --> 00:13:17.320
+Hashobora kubaho ubundi buryo bwiza
+
+00:13:17.960 --> 00:13:21.740
+Ni ngombwa gusubiza mu buryo bworoshye bitewe n'imimerere.
+
+00:13:24.250 --> 00:13:25.060
+Uyu ni wo mwanzuro
+
+00:13:25.950 --> 00:13:29.170
+Kuri iyi nshuro, tuzakoresha igishushanyo mbonera cy'ikoreshwa
+
+00:13:29.170 --> 00:13:30.840
+Shyiraho intego z'umushinga
+
+00:13:31.230 --> 00:13:33.700
+Nanyuze mu byiciro bya mbere by'isesengura.
+
+00:13:34.880 --> 00:13:38.010
+Ku giti cyanjye, mu gihe cyose cy'iterambere
+
+00:13:38.010 --> 00:13:40.060
+Ndatekereza ko isesengura ari ryo rigoye cyane
+
+00:13:40.570 --> 00:13:44.250
+Kubera ko tugomba gutunganya ibitekerezo bidafite ishingiro kandi bidasobanutse neza.
+
+00:13:45.020 --> 00:13:47.650
+Ubutaha tuzareba uburyo bw'ingenzi bwo gukoresha
+
+00:13:47.650 --> 00:13:49.470
+Reka tubisesengure birambuye
+
+00:13:50.300 --> 00:13:52.100
+Urakoze ku bw'umuhate wakoze kugeza ubu.
+

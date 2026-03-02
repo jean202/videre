@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: et
+
+00:00:00.000 --> 00:00:02.020
+Tere, see on Manneri kood.
+
+00:00:03.290 --> 00:00:05.350
+Tarkvara on keeruline
+
+00:00:06.650 --> 00:00:08.890
+Esiteks on vaja kirjutada palju koodi.
+
+00:00:09.760 --> 00:00:12.710
+Ainult näidisprojektid, mille ma selle sarja jaoks lõin
+
+00:00:12.710 --> 00:00:15.270
+Kood on üle 12 000 rea pikk.
+
+00:00:16.330 --> 00:00:18.320
+Kui tegemist on tegeliku tegutseva teenusega
+
+00:00:18.320 --> 00:00:21.530
+Isegi kui tegemist on väikese teenusega, ületab see kergesti 100 000 liini.
+
+00:00:22.130 --> 00:00:25.300
+Sajast tuhandest reast piisab kahekümne romaani täitmiseks.
+
+00:00:26.870 --> 00:00:29.560
+Pika koodi kirjutamine ei tähenda, et kõik on läbi.
+
+00:00:30.330 --> 00:00:32.540
+Sa pead pidevalt parandama koodi, mida sa kirjutad.
+
+00:00:33.400 --> 00:00:35.800
+Kui sa parandad A, siis B katki läheb.
+
+00:00:35.800 --> 00:00:39.130
+Kui sa B parandad, lähevad A ja C katki.
+
+00:00:41.090 --> 00:00:44.260
+Analoogia abil on see nagu Rasputicas lõksus olemine ja nutmine.
+
+00:00:44.260 --> 00:00:46.360
+Võiks öelda, et olukord on sarnane hobusega.
+
+00:00:47.330 --> 00:00:50.550
+Sel hetkel tunned vajadust disaini järele.
+
+00:00:52.580 --> 00:00:55.010
+Aga kui sa tegelikult proovid disainidokumenti kirjutada,
+
+00:00:55.500 --> 00:00:58.490
+Oma mõtete konkreetse väljendamine
+
+00:00:58.790 --> 00:01:01.260
+Sa saad teada, et see pole nii lihtne, kui arvad.
+
+00:01:01.890 --> 00:01:05.600
+Isegi noodid, mis on heli või muusikat visuaalselt salvestav dokument,
+
+00:01:05.600 --> 00:01:06.700
+See on nii keeruline
+
+00:01:07.520 --> 00:01:10.610
+Mitte ainult muusika, vaid ka rahandus ja logistika
+
+00:01:10.610 --> 00:01:14.060
+Mitmekesisemad kontseptsioonid ja abstraktsed kasutajanõuded
+
+00:01:14.060 --> 00:01:17.220
+Seda ei ole lihtne konkreetse mudeli abil väljendada.
+
+00:01:18.530 --> 00:01:19.490
+Õnneks
+
+00:01:19.770 --> 00:01:23.200
+Abstraktsete kontseptsioonide modelleerimise raskuste ületamiseks
+
+00:01:23.540 --> 00:01:26.860
+UML sündis 1990. aastate lõpus.
+
+00:01:27.730 --> 00:01:30.120
+Seda juhtis Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Me kasutame UML-i ootusega
+
+00:01:34.980 --> 00:01:36.990
+Joonista klassidiagramm
+
+00:01:36.990 --> 00:01:38.760
+Joonistame ka järjestusskeemi
+
+00:01:39.430 --> 00:01:39.980
+aga
+
+00:01:40.360 --> 00:01:43.160
+Kui ma seda tegelikult kujundama hakkasin, oli see hoopis teistsugune kui otse kodeerimine.
+
+00:01:43.160 --> 00:01:45.130
+See ei tundu olevat väga erinev
+
+00:01:45.590 --> 00:01:46.520
+Miks see nii on?
+
+00:01:47.350 --> 00:01:50.910
+Seda seetõttu, et mõtteprotsess on rakendamisega harjunud.
+
+00:01:51.290 --> 00:01:54.170
+Selle asemel, et muuta abstraktsed mõisted konkreetsemaks,
+
+00:01:54.490 --> 00:01:57.590
+Sest see tõlgib rakendustasandi mõtlemise UML-i.
+
+00:01:58.520 --> 00:02:00.270
+Lihtsalt sellepärast, et sa oskad noote lugeda
+
+00:02:00.270 --> 00:02:01.950
+Ma ei oska seda komponeerida
+
+00:02:02.390 --> 00:02:03.850
+Lihtsalt sellepärast, et sa õppisid UML-i
+
+00:02:03.850 --> 00:02:06.170
+See pole nii, et sa arendad disainioskusi.
+
+00:02:07.700 --> 00:02:09.300
+Seega selles sarjas
+
+00:02:09.300 --> 00:02:11.580
+Läbi tegelike projektide
+
+00:02:11.580 --> 00:02:14.420
+Kuidas abstraktseid nõudeid konkretiseerida
+
+00:02:14.420 --> 00:02:16.290
+Kas sa saad koodi ühendada?
+
+00:02:16.290 --> 00:02:18.010
+Tahaksin sulle isiklikult näidata
+
+00:02:18.530 --> 00:02:20.930
+Valisin kinopiletite broneerimise domeeni järgi
+
+00:02:21.370 --> 00:02:25.200
+Kinopiletite broneerimine on lihtne mõista, sest need on enamasti tuttavad domeenid.
+
+00:02:25.200 --> 00:02:29.710
+Sisaldab mitmesuguseid funktsioone, nagu sisselogimine, maksmine ja istekoha valik.
+
+00:02:29.710 --> 00:02:31.580
+Tundub hea eeskujuna
+
+00:02:33.600 --> 00:02:36.890
+Põhimõtteliselt on selle artikli teema tarkvara disain, aga
+
+00:02:36.890 --> 00:02:40.350
+Samuti käsitleme testipõhist arendust.
+
+00:02:41.210 --> 00:02:44.890
+Kaasaegsed arenduskeskkonnad toetavad natiivselt testimistööriistu.
+
+00:02:45.600 --> 00:02:48.320
+Isegi kui vaadata kuulsaid avatud lähtekoodiga projekte,
+
+00:02:48.320 --> 00:02:51.130
+Meil on teatud testimise tase.
+
+00:02:51.740 --> 00:02:56.200
+See tähendab tõenäoliselt, et testimine on nii oluline ja kasulik.
+
+00:02:56.870 --> 00:02:58.120
+Aga tegelikkuses
+
+00:02:58.120 --> 00:03:02.590
+Paljudel juhtudel pole mitte ainult testimisautomaatika, vaid isegi testimisautomaatika korralikult rakendatud.
+
+00:03:03.190 --> 00:03:06.260
+Sisukate testide kirjutamine ilma igasuguse ettevalmistuseta on
+
+00:03:06.260 --> 00:03:07.540
+See pole kunagi lihtne
+
+00:03:08.410 --> 00:03:12.340
+See on midagi, mis nõuab tarkvaradisaini kombineeritud võimekust.
+
+00:03:13.320 --> 00:03:16.270
+Seega on parem tegeleda disaini ja TDD-ga koos.
+
+00:03:16.270 --> 00:03:18.180
+Hindasin seda tõhusaks
+
+00:03:20.120 --> 00:03:23.450
+Alustame nüüd projekti esimest kohtumist.
+
+00:03:24.150 --> 00:03:26.470
+Sest see on väike projekt
+
+00:03:26.470 --> 00:03:28.090
+Kohal on kaks osalejat
+
+00:03:28.790 --> 00:03:32.340
+Vasakpoolne on domeeniekspert ja parempoolne arendaja.
+
+00:03:34.550 --> 00:03:37.790
+Valdkonna ekspertidel on sõnaõigus süsteemide osas, mida peame ehitama.
+
+00:03:37.790 --> 00:03:39.280
+See jutustab palju lugusid
+
+00:03:40.340 --> 00:03:42.160
+Teater, mida me juhime
+
+00:03:42.160 --> 00:03:44.710
+Neid on üle riigi umbes neli tuhat.
+
+00:03:44.710 --> 00:03:47.220
+See võib tulevikus veelgi suureneda.
+
+00:03:47.220 --> 00:03:50.480
+Praegu toetatakse ainult kinopiletite broneerimise funktsiooni.
+
+00:03:50.480 --> 00:03:54.510
+Plaanime hiljem lisada piletimüüki suuremahulistele etendustele.
+
+00:03:54.510 --> 00:03:58.940
+Ja oluline on see, et te ei tohiks kunagi istekohti kahekordselt broneerida.
+
+00:03:58.940 --> 00:04:03.250
+Varem oli klienditeeninduskeskustel sellise probleemiga tõesti raske.
+
+00:04:03.250 --> 00:04:07.670
+Sest filmiinfot ja arvustusandmeid on juba palju kogunenud.
+
+00:04:07.670 --> 00:04:11.090
+Need andmed peavad jääma puutumatuks.
+
+00:04:12.090 --> 00:04:14.730
+Siin on vestlus hästi korraldatud, aga
+
+00:04:14.890 --> 00:04:16.960
+Tegelikult on seal rohkem infot
+
+00:04:16.960 --> 00:04:18.600
+See toimetatakse kohale korrapäratult
+
+00:04:19.470 --> 00:04:22.110
+Aga lugu, mis projekti alguses välja tuleb, on
+
+00:04:22.110 --> 00:04:23.780
+Sest see on kõige olulisem nõue
+
+00:04:23.780 --> 00:04:25.320
+Sa pead tähelepanelikult kuulama
+
+00:04:27.110 --> 00:04:29.810
+Arendajad kuulavad domeenieksperte
+
+00:04:29.810 --> 00:04:31.290
+Mul on paar küsimust
+
+00:04:32.290 --> 00:04:34.660
+See suuremahuline etenduspiletite broneerimise funktsioon, mida te mainisite
+
+00:04:34.660 --> 00:04:36.910
+Millal see lisatakse?
+
+00:04:36.910 --> 00:04:39.910
+Kas see peaks olema eelnevalt selle projekti ulatusse lisatud?
+
+00:04:39.910 --> 00:04:43.590
+Või tahaksin teada, kas peaksin seda juba kaaluma
+
+00:04:43.590 --> 00:04:46.090
+Ja vajadus säilitada olemasolevaid andmeid
+
+00:04:46.090 --> 00:04:48.940
+Kas see tähendab, et me ei peaks andmebaasisüsteemi muutma?
+
+00:04:48.940 --> 00:04:51.950
+Kas andmebaasi jagatakse praegu veel mingeid teenuseid?
+
+00:04:53.580 --> 00:04:54.980
+Nagu andmebaasist näha,
+
+00:04:54.980 --> 00:04:57.290
+Sest domeenieksperdid ei ole arendajad.
+
+00:04:57.290 --> 00:04:59.430
+Tehniline väljend on mitmetähenduslik
+
+00:04:59.910 --> 00:05:02.890
+Arendajad peaksid neid asju hoolikalt kontrollima.
+
+00:05:04.230 --> 00:05:07.450
+Domeenieksperdid vastavad arendajate küsimustele järgmiselt:
+
+00:05:08.330 --> 00:05:10.210
+Suuremahulise etenduspiletite broneerimise funktsioon
+
+00:05:10.210 --> 00:05:13.450
+Kindlat ajakava veel pole.
+
+00:05:13.450 --> 00:05:15.970
+Kui aga tulevikus funktsioone lisatakse
+
+00:05:15.970 --> 00:05:18.700
+Et saaksite ilma suuremate raskusteta uuendada
+
+00:05:18.700 --> 00:05:22.600
+Ma arvan, et oleks hea, kui sa seekord sellele mõtleksid.
+
+00:05:22.600 --> 00:05:27.050
+Me ei kasuta andmebaasi millekski muuks peale oma teenuste osutamise.
+
+00:05:27.050 --> 00:05:32.840
+Süsteemi enda muutmine pole suur probleem, kui andmeid hästi hooldatakse.
+
+00:05:33.840 --> 00:05:35.080
+Pärast loo kuulamist
+
+00:05:35.080 --> 00:05:39.400
+Ma ei arva, et sa peaksid suure show pärast muretsema.
+
+00:05:39.400 --> 00:05:40.790
+See ei ole projekti ulatus
+
+00:05:40.790 --> 00:05:43.040
+Nõuded pole samuti selged
+
+00:05:43.040 --> 00:05:44.930
+Ma ei tea, millal mul seda vaja läheb, aga
+
+00:05:44.930 --> 00:05:47.710
+See on probleem, mida peame hiljem uuesti üle vaatama.
+
+00:05:48.920 --> 00:05:50.910
+Isegi kui seda dokumendis kirjas pole
+
+00:05:50.910 --> 00:05:54.880
+Valdkonna eksperdid annavad samuti vastuse, et nad kaaluvad suuremahulisi etendusi.
+
+00:05:54.880 --> 00:05:55.960
+Sa ei tohi unustada
+
+00:05:56.740 --> 00:05:58.320
+Olgu pealegi
+
+00:05:58.320 --> 00:06:00.630
+Seejärel suuremahulise etenduspiletite broneerimise funktsioon
+
+00:06:00.630 --> 00:06:04.500
+Ma ei paneks seda selle projekti prioriteetide hulka.
+
+00:06:04.500 --> 00:06:08.220
+Selle asemel lihtsustab see funktsionaalsuse laiendamist hilisemas arendusprotsessis.
+
+00:06:08.220 --> 00:06:10.190
+Ma hoolitsen selle eest hästi
+
+00:06:10.190 --> 00:06:12.840
+Ära muretse. Usalda ainult mind
+
+00:06:13.840 --> 00:06:15.960
+Oluline on hästi läbi saada
+
+00:06:17.980 --> 00:06:19.500
+Meie senise vestluse kaudu
+
+00:06:19.500 --> 00:06:22.700
+Peamised prioriteedid on kokku võetud järgmiselt:
+
+00:06:23.220 --> 00:06:25.890
+Selle teabe on esitanud domeenieksperdid.
+
+00:06:25.890 --> 00:06:28.410
+Arendaja vaatenurgast tõlgendamine ja korraldamine
+
+00:06:28.410 --> 00:06:29.810
+Alusta projekti
+
+00:06:31.700 --> 00:06:32.860
+Domeeniekspertidega
+
+00:06:32.860 --> 00:06:34.980
+Kui olete oma projekti eesmärgid kindlaks määranud,
+
+00:06:35.620 --> 00:06:37.980
+Nüüd on aeg oma projektile nimi panna.
+
+00:06:38.750 --> 00:06:41.840
+Esmalt küsige domeenieksperdilt arvamust.
+
+00:06:42.800 --> 00:06:45.540
+Mis nime peaksin projektile panema?
+
+00:06:45.540 --> 00:06:47.680
+See on filmide broneerimissüsteem.
+
+00:06:47.680 --> 00:06:50.150
+Kuidas oleks ainult filmide broneerimise süsteemiga?
+
+00:06:50.150 --> 00:06:51.430
+ei, ma ei taha
+
+00:06:51.430 --> 00:06:53.570
+Ma hoolitsen suuremahuliste etenduste eest
+
+00:06:53.570 --> 00:06:56.930
+Läheme filmide broneerimise süsteemi juurde. jah?
+
+00:06:56.930 --> 00:06:58.180
+suurepärane
+
+00:06:58.180 --> 00:06:59.950
+Suur aitäh
+
+00:07:01.000 --> 00:07:05.230
+Domeenieksperdid võivad soovida projektinimesid korea keeles.
+
+00:07:05.580 --> 00:07:07.680
+Aga arendaja vaatenurgast
+
+00:07:07.680 --> 00:07:09.990
+Kõik terminid, sh projektide nimed
+
+00:07:09.990 --> 00:07:12.180
+Kuna see on otse koodis rakendatud,
+
+00:07:12.600 --> 00:07:15.000
+Võimaluse korral on seda inglise keeles lihtsam defineerida.
+
+00:07:15.540 --> 00:07:19.510
+Arendajate jaoks on oluline täpselt järgida valdkonnaekspertide vajadusi, aga
+
+00:07:19.960 --> 00:07:21.430
+Kogu projekti arvestades
+
+00:07:21.430 --> 00:07:23.930
+Meil on ka kohustus asju tõhusas suunas suunata.
+
+00:07:25.850 --> 00:07:27.760
+Kui olete oma projektile nime valinud
+
+00:07:27.760 --> 00:07:31.380
+Nüüd on aeg välja selgitada, kes filmide broneerimissüsteemi kasutab.
+
+00:07:32.020 --> 00:07:34.940
+Loomulikult peaksite selle kohta teavet küsima domeenieksperdilt.
+
+00:07:35.420 --> 00:07:38.740
+Ja me avastame, et meil on kliendid ja juhid.
+
+00:07:40.820 --> 00:07:43.280
+Üks element, mida disaini algstaadiumis on lihtne kahe silma vahele jätta, on
+
+00:07:43.280 --> 00:07:44.760
+See on väline sõltuvus
+
+00:07:45.340 --> 00:07:46.580
+Välised sõltuvused on
+
+00:07:46.580 --> 00:07:49.210
+See võib olla olemasolev pärandsüsteem,
+
+00:07:49.660 --> 00:07:51.420
+See võib olla maksesüsteem
+
+00:07:52.020 --> 00:07:53.670
+See sõltuvussuhe on
+
+00:07:53.670 --> 00:07:56.760
+Sest see võib oluliselt mõjutada kogu süsteemi ülesehitust.
+
+00:07:56.950 --> 00:08:00.150
+Oluline on see võimalikult varakult tuvastada.
+
+00:08:00.570 --> 00:08:01.240
+õnneks
+
+00:08:01.820 --> 00:08:04.990
+Elemendid nagu makseväravad ja pärandsüsteemid
+
+00:08:05.270 --> 00:08:07.730
+Sest seda kasutatakse juba olemasolevates süsteemides.
+
+00:08:07.990 --> 00:08:10.360
+Seda saab suhteliselt kergesti mõista
+
+00:08:11.230 --> 00:08:14.410
+Üks asi, mida sõltuvussuhtes on lihtne unustada, on
+
+00:08:14.410 --> 00:08:16.090
+On olemas välised keskkonnategurid
+
+00:08:16.900 --> 00:08:19.060
+Meie riik asub samas ajavööndis
+
+00:08:19.060 --> 00:08:22.430
+Suure maa-alaga riigis on igal teatril erinev ajapilu.
+
+00:08:23.190 --> 00:08:25.100
+Seejärel filmide broneerimise süsteem
+
+00:08:25.100 --> 00:08:28.900
+On vältimatu, et seda mõjutavad keskkonnategurid, näiteks ajavööndid.
+
+00:08:29.410 --> 00:08:32.760
+Need tegurid ei ole kergesti märgatavad, kui te ei küsi otse domeenieksperdilt.
+
+00:08:32.760 --> 00:08:33.950
+Seda on lihtne mööda vaadata
+
+00:08:34.740 --> 00:08:37.610
+Domeenieksperdid kipuvad neid detaile tähelepanuta jätma.
+
+00:08:37.610 --> 00:08:40.010
+Sest selgitus võib puududa
+
+00:08:41.680 --> 00:08:43.640
+Kuna sõltuvussuhe oli selgelt välja toodud
+
+00:08:43.640 --> 00:08:47.500
+Nüüd keskendume filmide broneerimise süsteemi sisemusele.
+
+00:08:48.430 --> 00:08:52.230
+Esiteks, mida klient filmide broneerimissüsteemis teeb?
+
+00:08:52.230 --> 00:08:54.230
+Küsime domeeniekspertidelt
+
+00:08:55.800 --> 00:08:57.880
+Mida kliendid teevad?
+
+00:08:57.880 --> 00:08:59.970
+Kliendid otsivad filme,
+
+00:08:59.970 --> 00:09:01.450
+Vaadake filmi üksikasju,
+
+00:09:01.450 --> 00:09:02.910
+Valige linastusaeg,
+
+00:09:02.910 --> 00:09:04.450
+Vali oma istekoht,
+
+00:09:04.450 --> 00:09:05.920
+Broneeri kinopileteid,
+
+00:09:05.920 --> 00:09:07.610
+Kontrollige broneeringu üksikasju,
+
+00:09:07.610 --> 00:09:10.180
+Tehke selliseid asju nagu broneeringu tühistamine
+
+00:09:10.180 --> 00:09:15.750
+Kas kinopiletite broneerimise protsessi osaks on nii seansiaja kui ka istekoha valimine?
+
+00:09:15.750 --> 00:09:18.880
+Ja kinopiletite broneerimiseks, broneeringute tühistamiseks
+
+00:09:18.880 --> 00:09:22.210
+Kas sa ju ei osta lihtsalt piletit ja saa raha tagasi?
+
+00:09:22.210 --> 00:09:23.620
+sul on õigus
+
+00:09:23.620 --> 00:09:25.030
+Täpselt nii
+
+00:09:25.480 --> 00:09:27.880
+Sest see on nüüd tuttav domeen
+
+00:09:27.880 --> 00:09:31.240
+Valige linastusaeg ja valige oma istekoht
+
+00:09:31.240 --> 00:09:33.200
+Kas see on osa kinopiletite broneerimise protsessist?
+
+00:09:33.200 --> 00:09:34.530
+Ma võiksin küsida
+
+00:09:34.980 --> 00:09:37.220
+Aga kui tegemist on tundmatu domeeniga,
+
+00:09:37.410 --> 00:09:40.160
+Iga kasutusjuhtumi üksikasjalik analüüs
+
+00:09:40.520 --> 00:09:43.330
+Te kordate rafineerimisprotsessi mitu korda.
+
+00:09:43.790 --> 00:09:45.350
+Sõltuvalt projekti olukorrast
+
+00:09:45.350 --> 00:09:48.080
+Võite seda protsessi mitu korda korrata,
+
+00:09:48.080 --> 00:09:50.580
+Mida rohkem sa aega võtad ja hoolikalt analüüsid,
+
+00:09:50.580 --> 00:09:54.190
+Vähendage katse-eksituse meetodit disaini ja rakendamise etapis.
+
+00:09:55.850 --> 00:09:57.530
+Senise vestluse põhjal
+
+00:09:57.530 --> 00:10:00.970
+Oleme oma klientide kasutusjuhtumid jaganud nelja kategooriasse:
+
+00:10:02.960 --> 00:10:04.470
+Järgmine on administraator
+
+00:10:05.190 --> 00:10:08.850
+Administraator näeb, et haldusüksusi on viis:
+
+00:10:09.440 --> 00:10:13.620
+Isiklikult olen ettevaatlik sõna "haldamine" kasutamise suhtes arenduses.
+
+00:10:14.360 --> 00:10:16.980
+„Haldamine” on liiga lai väljend
+
+00:10:16.980 --> 00:10:19.030
+Pole selge, mida sa teed
+
+00:10:19.640 --> 00:10:20.950
+Sama on ka siin
+
+00:10:21.370 --> 00:10:23.760
+Kuidas seda täpselt hallatakse?
+
+00:10:23.760 --> 00:10:24.810
+Ma ei tea
+
+00:10:25.930 --> 00:10:27.620
+Domeeniekspertidega vesteldes
+
+00:10:27.620 --> 00:10:31.220
+Iga haldusüksust on laiendatud konkreetsele kasutusjuhule.
+
+00:10:31.900 --> 00:10:33.660
+Kui see on päris projekt
+
+00:10:33.660 --> 00:10:35.890
+Kasutusjuhtumeid on ilmselt rohkem kui see.
+
+00:10:36.150 --> 00:10:39.000
+Siin olen ma selgituse mõttes lihtsustanud.
+
+00:10:39.860 --> 00:10:42.700
+Oluline on siinkohal märkida, et tööaja loomisel
+
+00:10:43.020 --> 00:10:45.900
+Näete, et ka pilet on loodud
+
+00:10:46.960 --> 00:10:49.200
+Ja pileti ostmisel või raha tagastamisel
+
+00:10:49.490 --> 00:10:53.910
+Samuti näete, et me kasutame välist teenust, mida nimetatakse makseväravaks.
+
+00:10:55.890 --> 00:10:58.670
+Ma kombineerisin klientide ja juhtide kasutusjuhtumeid.
+
+00:10:59.350 --> 00:11:01.730
+Vaadates kogu kasutusjuhtu nii
+
+00:11:01.730 --> 00:11:02.900
+Miski tundub tühi
+
+00:11:03.890 --> 00:11:05.840
+On võimalus lisada kino
+
+00:11:05.840 --> 00:11:08.720
+Ma ei näe midagi Search Theateri sarnast.
+
+00:11:09.410 --> 00:11:12.130
+Paistab, et üsna palju kasutusjuhtumeid jäetakse välja.
+
+00:11:12.770 --> 00:11:15.980
+Sest domeenieksperdi vaatenurgast on palju seletada.
+
+00:11:15.980 --> 00:11:17.950
+See kasutusjuhtum, mis tundub nii ilmselge,
+
+00:11:18.150 --> 00:11:19.810
+Võite selgituse vahele jätta
+
+00:11:20.770 --> 00:11:23.460
+Kuidas on lood siis arendaja vaatenurgast?
+
+00:11:24.400 --> 00:11:28.290
+Lihtsamad uudisjuhtumid, näiteks teatri otsimine, on parem välja jätta.
+
+00:11:28.290 --> 00:11:30.700
+Kas see poleks dokumendihalduse jaoks kasulikum?
+
+00:11:31.720 --> 00:11:32.870
+Kui see on taustadisain
+
+00:11:32.870 --> 00:11:35.920
+Lihtsad kasutusjuhud, näiteks kino otsimine
+
+00:11:35.920 --> 00:11:37.760
+Ma arvan, et on okei see vahele jätta
+
+00:11:38.600 --> 00:11:41.570
+Ma ütlen seda, et rakendamise etapis pole veel hilja reageerida.
+
+00:11:42.370 --> 00:11:44.310
+Aga kui see on päris projekt
+
+00:11:44.310 --> 00:11:48.450
+Ekraaniplaneerijate jaoks on need kasutusjuhud heaks alguspunktiks.
+
+00:11:49.250 --> 00:11:52.300
+Planeerija vaatas teatri otsimise kasutusjuhtu.
+
+00:11:52.300 --> 00:11:55.300
+Kuidas peaksin ma tegema võimalikuks kinode otsimise?
+
+00:11:55.300 --> 00:11:56.600
+Sa suudad mõelda
+
+00:11:58.000 --> 00:12:00.880
+Kui diagrammid üheks ühendada, näeb see keeruline välja.
+
+00:12:01.490 --> 00:12:05.150
+Kui see oleks päris projekt, oleks see palju keerulisem.
+
+00:12:05.720 --> 00:12:08.240
+Sellisel juhul pole vaja ühinemist sundida.
+
+00:12:08.810 --> 00:12:13.910
+Ma lihtsalt liitsin need siia, et näidata, et mõned juhtumid on puudu.
+
+00:12:16.020 --> 00:12:18.490
+Täitsin kõik puuduvad juhtumid
+
+00:12:19.200 --> 00:12:21.880
+Mul on kasutusjuhtum, kus ühendus näitlejaga jäetakse välja.
+
+00:12:22.290 --> 00:12:25.720
+See kehtib nii klientide kui ka juhtide kohta.
+
+00:12:26.400 --> 00:12:29.480
+Ja lihtsustamaks rakendamist, kirjutasin selle inglise keeles.
+
+00:12:31.370 --> 00:12:34.160
+Nüüd on kõik korras, sest see on väike projekt.
+
+00:12:34.160 --> 00:12:36.160
+Kui projekt on mahukas ja keerukas
+
+00:12:36.160 --> 00:12:38.980
+Kust peaks domeeniekspert selgitama hakkama?
+
+00:12:38.980 --> 00:12:40.380
+See võib olla keeruline
+
+00:12:41.280 --> 00:12:43.300
+Mida administraator teeb?
+
+00:12:43.300 --> 00:12:44.700
+See on palju tööd
+
+00:12:44.700 --> 00:12:46.620
+Nagu juhilt oodatagi
+
+00:12:47.620 --> 00:12:49.750
+Kas me saame sel juhul näitlejad alamrühmadesse jagada?
+
+00:12:49.750 --> 00:12:52.340
+Samuti on hea mõte üle vaadata
+
+00:12:53.140 --> 00:12:54.790
+Alguses kutsuti mind administraatoriks
+
+00:12:54.790 --> 00:12:57.400
+Võib olla võimalik jagada rollide kaupa
+
+00:12:58.520 --> 00:13:00.820
+Ja filmide broneerimise süsteemi kasutamine
+
+00:13:00.820 --> 00:13:02.870
+Võib olla väliseid teenuseid
+
+00:13:03.660 --> 00:13:05.340
+Kui me osatäitjad niimoodi segmenteerime,
+
+00:13:05.340 --> 00:13:09.420
+Valdkonna eksperdid suudavad pakkuda süstemaatilisemat teavet.
+
+00:13:10.350 --> 00:13:14.000
+Muidugi on see vaid üks näide keerulise valdkonna analüüsimisest.
+
+00:13:14.540 --> 00:13:17.320
+Võib olla ka teisi häid viise
+
+00:13:17.960 --> 00:13:21.740
+Oluline on reageerida paindlikult vastavalt olukorrale.
+
+00:13:24.250 --> 00:13:25.060
+See on järeldus
+
+00:13:25.950 --> 00:13:29.170
+Seekord kasutame kasutusjuhtude diagrammi
+
+00:13:29.170 --> 00:13:30.840
+Seadke projekti eesmärgid
+
+00:13:31.230 --> 00:13:33.700
+Olen läbinud analüüsi esialgsed etapid.
+
+00:13:34.880 --> 00:13:38.010
+Isiklikult kogu arendusprotsessi vältel
+
+00:13:38.010 --> 00:13:40.060
+Ma arvan, et analüüs on kõige keerulisem
+
+00:13:40.570 --> 00:13:44.250
+Sest me peame korrastama kõige abstraktsemaid ja ebamäärasemaid mõisteid.
+
+00:13:45.020 --> 00:13:47.650
+Järgmisel korral vaatleme peamisi kasutusjuhtumeid.
+
+00:13:47.650 --> 00:13:49.470
+Analüüsime seda üksikasjalikumalt
+
+00:13:50.300 --> 00:13:52.100
+Tänan teid senise raske töö eest.
+

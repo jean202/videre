@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: hmn
+
+00:00:00.000 --> 00:00:02.020
+Nyob zoo, qhov no yog Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Software nyuaj heev
+
+00:00:06.650 --> 00:00:08.890
+Ua ntej tshaj plaws, muaj ntau cov code uas yuav tsum tau sau.
+
+00:00:09.760 --> 00:00:12.710
+Tsuas yog cov piv txwv projects uas kuv tau tsim rau cov series no
+
+00:00:12.710 --> 00:00:15.270
+Cov lej ntev tshaj 12,000 kab.
+
+00:00:16.330 --> 00:00:18.320
+Yog tias nws yog ib qho kev pabcuam ua haujlwm tiag tiag
+
+00:00:18.320 --> 00:00:21.530
+Txawm tias nws yog ib qho kev pabcuam me me los xij, nws yuav yooj yim tshaj 100,000 kab.
+
+00:00:22.130 --> 00:00:25.300
+Ib puas txhiab kab txaus kom sau tau nees nkaum phau ntawv.
+
+00:00:26.870 --> 00:00:29.560
+Sau cov code ntev tsis tau txhais hais tias nws tas lawm.
+
+00:00:30.330 --> 00:00:32.540
+Koj yuav tsum tau kho cov code uas koj sau.
+
+00:00:33.400 --> 00:00:35.800
+Yog koj kho qhov tawg A, B.
+
+00:00:35.800 --> 00:00:39.130
+Yog koj kho B, A thiab C yuav tawg.
+
+00:00:41.090 --> 00:00:44.260
+Yog siv piv txwv li no, nws zoo li raug kaw hauv Rasputica thiab quaj.
+
+00:00:44.260 --> 00:00:46.360
+Koj tuaj yeem hais tias nws yog ib qho xwm txheej zoo sib xws rau nees.
+
+00:00:47.330 --> 00:00:50.550
+Txij ntawm no mus, koj yuav xav tias xav tau kev tsim qauv.
+
+00:00:52.580 --> 00:00:55.010
+Tiam sis thaum koj sim sau ib daim ntawv tsim qauv,
+
+00:00:55.500 --> 00:00:58.490
+Qhia cov kev xav hauv koj lub taub hau kom meej meej
+
+00:00:58.790 --> 00:01:01.260
+Koj yuav pom tias nws tsis yooj yim li koj xav.
+
+00:01:01.890 --> 00:01:05.600
+Txawm tias daim ntawv suab paj nruag, uas yog daim ntawv uas kaw cov suab lossis suab paj nruag,
+
+00:01:05.600 --> 00:01:06.700
+Nws nyuaj ua luaj li no
+
+00:01:07.520 --> 00:01:10.610
+Tsis yog tsuas yog suab paj nruag xwb, tab sis kuj yog nyiaj txiag thiab kev xa khoom
+
+00:01:10.610 --> 00:01:14.060
+Ntau lub tswv yim sib txawv thiab cov kev xav tau ntawm tus neeg siv
+
+00:01:14.060 --> 00:01:17.220
+Nws yuav tsis yooj yim los qhia nws hauv ib qho qauv tshwj xeeb.
+
+00:01:18.530 --> 00:01:19.490
+Zoo hmoo
+
+00:01:19.770 --> 00:01:23.200
+Txhawm rau kov yeej qhov nyuaj ntawm kev ua qauv qhia txog cov ntsiab lus abstract
+
+00:01:23.540 --> 00:01:26.860
+UML tau yug los rau xyoo 1990s.
+
+00:01:27.730 --> 00:01:30.120
+Nws tau coj los ntawm Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Peb siv UML nrog kev cia siab
+
+00:01:34.980 --> 00:01:36.990
+Kos ib daim duab qhia txog chav kawm
+
+00:01:36.990 --> 00:01:38.760
+Cia peb kos ib daim duab qhia txog qhov sib lawv liag
+
+00:01:39.430 --> 00:01:39.980
+txawm li cas los xij
+
+00:01:40.360 --> 00:01:43.160
+Thaum kuv sim tsim nws tiag tiag, nws txawv ntawm kev sau code ncaj qha.
+
+00:01:43.160 --> 00:01:45.130
+Zoo li tsis txawv ntau
+
+00:01:45.590 --> 00:01:46.520
+Yog vim li cas?
+
+00:01:47.350 --> 00:01:50.910
+Qhov ntawd yog vim tias txoj kev xav tau siv rau kev siv.
+
+00:01:51.290 --> 00:01:54.170
+Es tsis txhob ua kom cov ntsiab lus abstract pom tseeb dua,
+
+00:01:54.490 --> 00:01:57.590
+Vim tias nws txhais cov kev xav theem kev siv rau hauv UML.
+
+00:01:58.520 --> 00:02:00.270
+Tsuas yog vim koj tuaj yeem nyeem cov ntawv nkauj
+
+00:02:00.270 --> 00:02:01.950
+Nws tsis zoo li kuv tuaj yeem sau nws
+
+00:02:02.390 --> 00:02:03.850
+Tsuas yog vim koj tau kawm UML xwb
+
+00:02:03.850 --> 00:02:06.170
+Nws tsis zoo li koj txhim kho cov txuj ci tsim qauv.
+
+00:02:07.700 --> 00:02:09.300
+Yog li ntawd, nyob rau hauv no series
+
+00:02:09.300 --> 00:02:11.580
+Los ntawm cov haujlwm tiag tiag
+
+00:02:11.580 --> 00:02:14.420
+Yuav ua li cas los ua kom cov kev xav tau abstract meej
+
+00:02:14.420 --> 00:02:16.290
+Koj puas txuas tau tus lej?
+
+00:02:16.290 --> 00:02:18.010
+Kuv xav qhia koj tus kheej
+
+00:02:18.530 --> 00:02:20.930
+Kuv xaiv los book daim pib saib yeeb yaj kiab los ntawm thaj chaw
+
+00:02:21.370 --> 00:02:25.200
+Kev tseg daim pib ua yeeb yaj kiab yooj yim to taub vim tias feem ntau lawv yog cov chaw paub zoo.
+
+00:02:25.200 --> 00:02:29.710
+Suav nrog ntau yam haujlwm xws li nkag mus, them nyiaj, thiab xaiv lub rooj zaum.
+
+00:02:29.710 --> 00:02:31.580
+Zoo li yog ib qho piv txwv zoo
+
+00:02:33.600 --> 00:02:36.890
+Yeej, lub ntsiab lus ntawm tsab xov xwm no yog kev tsim software, tab sis
+
+00:02:36.890 --> 00:02:40.350
+Peb kuj tseem yuav tham txog kev tsim kho uas tsav los ntawm kev sim.
+
+00:02:41.210 --> 00:02:44.890
+Cov chaw tsim kho niaj hnub no txhawb nqa cov cuab yeej sim.
+
+00:02:45.600 --> 00:02:48.320
+Txawm tias koj saib cov project qhib qhov chaw nto moo los xij,
+
+00:02:48.320 --> 00:02:51.130
+Peb muaj ib qib kev sim.
+
+00:02:51.740 --> 00:02:56.200
+Qhov no txhais tau tias kev sim yog qhov tseem ceeb heev thiab muaj txiaj ntsig.
+
+00:02:56.870 --> 00:02:58.120
+Tiam sis qhov tseeb tiag
+
+00:02:58.120 --> 00:03:02.590
+Feem ntau, tsis yog TDD xwb, tab sis txawm tias kev sim ua haujlwm tsis raug cai kuj tsis tau siv zoo.
+
+00:03:03.190 --> 00:03:06.260
+Sau cov kev xeem tseem ceeb ua ntej yam tsis tau npaj dab tsi yog
+
+00:03:06.260 --> 00:03:07.540
+Nws yeej tsis yooj yim
+
+00:03:08.410 --> 00:03:12.340
+Qhov no yog ib yam dab tsi uas xav tau kev sib koom ua ke ntawm cov peev xwm tsim software.
+
+00:03:13.320 --> 00:03:16.270
+Yog li, nws yog qhov zoo dua los daws teeb meem nrog kev tsim qauv thiab TDD ua ke.
+
+00:03:16.270 --> 00:03:18.180
+Kuv xav tias nws ua haujlwm tau zoo
+
+00:03:20.120 --> 00:03:23.450
+Yog li tam sim no cia peb pib lub rooj sib tham thawj zaug ntawm qhov project.
+
+00:03:24.150 --> 00:03:26.470
+Vim tias qhov no yog ib qhov project me me
+
+00:03:26.470 --> 00:03:28.090
+Muaj ob tug neeg tuaj koom
+
+00:03:28.790 --> 00:03:32.340
+Tus neeg sab laug yog tus kws tshaj lij hauv domain, thiab tus neeg sab xis yog tus tsim tawm.
+
+00:03:34.550 --> 00:03:37.790
+Cov kws tshaj lij hauv thaj chaw muaj lus hais hauv cov txheej txheem uas peb xav tau los tsim.
+
+00:03:37.790 --> 00:03:39.280
+Nws qhia ntau zaj dab neeg
+
+00:03:40.340 --> 00:03:42.160
+Lub tsev ua yeeb yam uas peb khiav
+
+00:03:42.160 --> 00:03:44.710
+Muaj li plaub txhiab tus ntawm lawv thoob plaws lub tebchaws.
+
+00:03:44.710 --> 00:03:47.220
+Nws yuav nce ntxiv rau yav tom ntej.
+
+00:03:47.220 --> 00:03:50.480
+Tam sim no, tsuas yog muaj kev txhawb nqa rau kev tseg daim pib saib yeeb yaj kiab xwb.
+
+00:03:50.480 --> 00:03:54.510
+Peb npaj yuav ntxiv kev muag daim pib rau kev ua yeeb yam loj tom qab.
+
+00:03:54.510 --> 00:03:58.940
+Thiab qhov tseem ceeb yog tias koj yuav tsum tsis txhob book ob lub rooj zaum.
+
+00:03:58.940 --> 00:04:03.250
+Yav dhau los, cov chaw pabcuam cov neeg siv khoom tau muaj teeb meem heev nrog hom teeb meem ntawd.
+
+00:04:03.250 --> 00:04:07.670
+Vim tias muaj ntau cov ntaub ntawv yeeb yaj kiab thiab cov ntaub ntawv tshuaj xyuas uas twb tau khaws cia lawm.
+
+00:04:07.670 --> 00:04:11.090
+Cov ntaub ntawv no yuav tsum nyob ruaj khov.
+
+00:04:12.090 --> 00:04:14.730
+Ntawm no qhov kev sib tham tau teeb tsa zoo, tab sis
+
+00:04:14.890 --> 00:04:16.960
+Ua li cas los xij, muaj ntau cov ntaub ntawv ntxiv
+
+00:04:16.960 --> 00:04:18.600
+Nws yuav raug xa mus rau hauv txoj kev tsis muaj kev teeb tsa
+
+00:04:19.470 --> 00:04:22.110
+Tiam sis zaj dab neeg uas tawm los thaum pib ntawm qhov project yog
+
+00:04:22.110 --> 00:04:23.780
+Vim nws yog qhov tseem ceeb tshaj plaws uas yuav tsum tau ua
+
+00:04:23.780 --> 00:04:25.320
+Koj yuav tsum mloog zoo zoo
+
+00:04:27.110 --> 00:04:29.810
+Cov neeg tsim khoom mloog cov kws tshaj lij hauv thaj chaw
+
+00:04:29.810 --> 00:04:31.290
+Kuv muaj ob peb lo lus nug
+
+00:04:32.290 --> 00:04:34.660
+Lub luag haujlwm loj ntawm kev tseg daim pib ua yeeb yam uas koj tau hais txog
+
+00:04:34.660 --> 00:04:36.910
+Yuav muab ntxiv rau thaum twg?
+
+00:04:36.910 --> 00:04:39.910
+Puas yuav tsum suav nrog qhov no rau hauv qhov project no ua ntej?
+
+00:04:39.910 --> 00:04:43.590
+Los yog kuv xav paub seb kuv puas yuav tsum xav txog nws tseem
+
+00:04:43.590 --> 00:04:46.090
+Thiab qhov xav tau los khaws cov ntaub ntawv uas twb muaj lawm
+
+00:04:46.090 --> 00:04:48.940
+Qhov no puas txhais tau tias peb yuav tsum tsis txhob hloov lub DB system?
+
+00:04:48.940 --> 00:04:51.950
+Puas muaj lwm cov kev pabcuam uas sib koom DB tam sim no?
+
+00:04:53.580 --> 00:04:54.980
+Raws li koj tuaj yeem pom los ntawm DB,
+
+00:04:54.980 --> 00:04:57.290
+Vim tias cov kws tshaj lij hauv domain tsis yog cov neeg tsim khoom.
+
+00:04:57.290 --> 00:04:59.430
+Cov lus piav qhia txog kev siv tshuab tsis meej
+
+00:04:59.910 --> 00:05:02.890
+Cov neeg tsim khoom yuav tsum tau xyuas cov no kom zoo zoo.
+
+00:05:04.230 --> 00:05:07.450
+Cov kws tshaj lij hauv domain teb cov lus nug ntawm cov neeg tsim khoom zoo li no:
+
+00:05:08.330 --> 00:05:10.210
+Lub luag haujlwm loj ntawm kev tseg daim pib ua yeeb yam
+
+00:05:10.210 --> 00:05:13.450
+Tseem tsis tau muaj lub sijhawm teem tseg tshwj xeeb.
+
+00:05:13.450 --> 00:05:15.970
+Txawm li cas los xij, thaum muaj ntxiv cov yam ntxwv rau yav tom ntej
+
+00:05:15.970 --> 00:05:18.700
+Yog li koj tuaj yeem hloov kho dua tshiab yam tsis muaj teeb meem ntau
+
+00:05:18.700 --> 00:05:22.600
+Kuv xav tias yuav zoo yog tias koj tuaj yeem xav txog nws lub sijhawm no.
+
+00:05:22.600 --> 00:05:27.050
+Peb tsis siv DB rau lwm yam tsuas yog peb cov kev pabcuam xwb.
+
+00:05:27.050 --> 00:05:32.840
+Kev hloov lub kaw lus nws tus kheej tsis yog teeb meem loj tsuav yog cov ntaub ntawv raug khaws cia zoo.
+
+00:05:33.840 --> 00:05:35.080
+Tom qab hnov ​​zaj dab neeg
+
+00:05:35.080 --> 00:05:39.400
+Kuv tsis xav tias koj yuav tsum txhawj txog qhov yeeb yam loj.
+
+00:05:39.400 --> 00:05:40.790
+Nws tsis yog qhov project uas yuav ua tau
+
+00:05:40.790 --> 00:05:43.040
+Cov kev cai tsis meej thiab
+
+00:05:43.040 --> 00:05:44.930
+Kuv tsis paub tias kuv yuav xav tau nws thaum twg, tab sis
+
+00:05:44.930 --> 00:05:47.710
+Qhov ntawd yog ib qho teeb meem uas peb yuav tau rov los saib dua tom qab.
+
+00:05:48.920 --> 00:05:50.910
+Txawm tias nws tsis tau sau tseg rau hauv daim ntawv
+
+00:05:50.910 --> 00:05:54.880
+Cov kws tshaj lij hauv thaj chaw kuj tseem yuav muab cov lus teb tias lawv yuav xav txog kev ua yeeb yam loj.
+
+00:05:54.880 --> 00:05:55.960
+Koj yuav tsum tsis txhob hnov ​​qab
+
+00:05:56.740 --> 00:05:58.320
+Zoo kawg li
+
+00:05:58.320 --> 00:06:00.630
+Tom qab ntawd, qhov kev ua yeeb yam loj loj booking daim pib functionality
+
+00:06:00.630 --> 00:06:04.500
+Kuv yuav tsis muab nws tso rau ntawm qhov tseem ceeb tshaj plaws rau qhov project no.
+
+00:06:04.500 --> 00:06:08.220
+Hloov chaw, nws ua rau nws yooj yim dua los nthuav kev ua haujlwm tom qab hauv txoj kev loj hlob.
+
+00:06:08.220 --> 00:06:10.190
+Kuv yuav saib xyuas nws zoo
+
+00:06:10.190 --> 00:06:12.840
+Tsis txhob txhawj. Tsuas yog ntseeg kuv xwb
+
+00:06:13.840 --> 00:06:15.960
+Nws yog ib qho tseem ceeb kom sib raug zoo
+
+00:06:17.980 --> 00:06:19.500
+Los ntawm peb qhov kev sib tham mus txog tam sim no
+
+00:06:19.500 --> 00:06:22.700
+Cov yam tseem ceeb tshaj plaws tau muab sau ua ke raws li nram no:
+
+00:06:23.220 --> 00:06:25.890
+Qhov no yog cov ntaub ntawv muab los ntawm cov kws tshaj lij hauv thaj chaw.
+
+00:06:25.890 --> 00:06:28.410
+Kev txhais lus thiab kev teeb tsa los ntawm qhov kev xav ntawm tus tsim tawm
+
+00:06:28.410 --> 00:06:29.810
+Pib qhov project
+
+00:06:31.700 --> 00:06:32.860
+Nrog cov kws tshaj lij hauv thaj chaw
+
+00:06:32.860 --> 00:06:34.980
+Thaum koj tau txiav txim siab txog lub hom phiaj ntawm koj qhov project lawm,
+
+00:06:35.620 --> 00:06:37.980
+Tam sim no yog lub sijhawm los sau koj lub npe rau koj qhov project.
+
+00:06:38.750 --> 00:06:41.840
+Ua ntej, nug ib tus kws tshaj lij hauv thaj chaw kom paub lawv lub tswv yim.
+
+00:06:42.800 --> 00:06:45.540
+Kuv yuav tsum muab lub npe rau qhov project no li cas?
+
+00:06:45.540 --> 00:06:47.680
+Nws yog ib qho system booking movie.
+
+00:06:47.680 --> 00:06:50.150
+Yuav ua li cas txog qhov Movie Booking System xwb?
+
+00:06:50.150 --> 00:06:51.430
+tsis yog, kuv tsis xav tau
+
+00:06:51.430 --> 00:06:53.570
+Kuv yuav saib xyuas cov kev ua yeeb yam loj
+
+00:06:53.570 --> 00:06:56.930
+Cia peb mus nrog lub Movie Booking System. yog?
+
+00:06:56.930 --> 00:06:58.180
+zoo kawg li
+
+00:06:58.180 --> 00:06:59.950
+Ua tsaug ntau ntau
+
+00:07:01.000 --> 00:07:05.230
+Cov kws tshaj lij hauv thaj chaw yuav xav tau cov npe project ua lus Kauslim.
+
+00:07:05.580 --> 00:07:07.680
+Tab sis los ntawm qhov kev xav ntawm tus tsim tawm
+
+00:07:07.680 --> 00:07:09.990
+Txhua lo lus suav nrog lub npe ntawm qhov project
+
+00:07:09.990 --> 00:07:12.180
+Vim tias nws tau siv ncaj qha hauv cov lej,
+
+00:07:12.600 --> 00:07:15.000
+Yog ua tau, nws yooj yim dua los txhais ua lus Askiv.
+
+00:07:15.540 --> 00:07:19.510
+Nws yog ib qho tseem ceeb rau cov neeg tsim khoom kom ua raws li qhov xav tau ntawm cov kws tshaj lij hauv thaj chaw, tab sis
+
+00:07:19.960 --> 00:07:21.430
+Xav txog tag nrho qhov project
+
+00:07:21.430 --> 00:07:23.930
+Peb kuj muaj lub luag haujlwm los coj tej yam mus rau hauv kev coj ua zoo.
+
+00:07:25.850 --> 00:07:27.760
+Yog tias koj tau txiav txim siab rau lub npe rau koj qhov project
+
+00:07:27.760 --> 00:07:31.380
+Tam sim no yog lub sijhawm los nrhiav seb leej twg siv Lub Tshuab Sau Npe Saib Yeeb Yam.
+
+00:07:32.020 --> 00:07:34.940
+Tau kawg, koj yuav tsum nug ib tus kws tshaj lij txog qhov no kom paub txog qhov no.
+
+00:07:35.420 --> 00:07:38.740
+Thiab peb pom tias peb muaj cov neeg siv khoom thiab cov thawj coj.
+
+00:07:40.820 --> 00:07:43.280
+Ib qho ntawm cov ntsiab lus uas yooj yim tsis nco qab thaum pib tsim qauv yog
+
+00:07:43.280 --> 00:07:44.760
+Nws yog ib qho kev vam khom sab nraud
+
+00:07:45.340 --> 00:07:46.580
+Cov kev vam khom sab nraud yog
+
+00:07:46.580 --> 00:07:49.210
+Nws yuav yog ib qho kev kaw lus qub uas twb muaj lawm,
+
+00:07:49.660 --> 00:07:51.420
+Nws yuav yog ib qho kev them nyiaj system
+
+00:07:52.020 --> 00:07:53.670
+Qhov kev sib raug zoo ntawm kev vam khom no yog
+
+00:07:53.670 --> 00:07:56.760
+Vim tias nws tuaj yeem muaj kev cuam tshuam loj rau kev tsim qauv tag nrho.
+
+00:07:56.950 --> 00:08:00.150
+Nws yog ib qho tseem ceeb kom paub nws sai li sai tau.
+
+00:08:00.570 --> 00:08:01.240
+hmoov zoo
+
+00:08:01.820 --> 00:08:04.990
+Cov ntsiab lus xws li kev them nyiaj gateways thiab legacy systems
+
+00:08:05.270 --> 00:08:07.730
+Vim tias nws twb tau siv rau hauv cov kab ke uas twb muaj lawm
+
+00:08:07.990 --> 00:08:10.360
+Nws tuaj yeem nkag siab yooj yim heev.
+
+00:08:11.230 --> 00:08:14.410
+Ib qho ntawm tej yam uas yooj yim tsis quav ntsej hauv kev sib raug zoo uas vam khom yog
+
+00:08:14.410 --> 00:08:16.090
+Muaj cov yam ntxwv sab nraud ntawm ib puag ncig
+
+00:08:16.900 --> 00:08:19.060
+Peb lub teb chaws nyob rau tib lub sijhawm
+
+00:08:19.060 --> 00:08:22.430
+Hauv lub tebchaws uas muaj thaj av loj, txhua lub tsev ua yeeb yam muaj lub sijhawm sib txawv.
+
+00:08:23.190 --> 00:08:25.100
+Tom qab ntawd Lub Tshuab Sau Npe Yeeb Yam
+
+00:08:25.100 --> 00:08:28.900
+Nws yog qhov tsis zam tsis tau tias nws yuav raug cuam tshuam los ntawm cov yam ntxwv ib puag ncig xws li thaj chaw sijhawm.
+
+00:08:29.410 --> 00:08:32.760
+Cov yam no yuav tsis pom tseeb yooj yim tshwj tsis yog tias koj nug tus kws tshaj lij hauv thaj chaw ntawd ncaj qha.
+
+00:08:32.760 --> 00:08:33.950
+Nws yooj yim rau nco
+
+00:08:34.740 --> 00:08:37.610
+Cov kws tshaj lij hauv thaj chaw feem ntau tsis quav ntsej txog cov ntsiab lus no.
+
+00:08:37.610 --> 00:08:40.010
+Vim tias cov lus piav qhia yuav raug tshem tawm
+
+00:08:41.680 --> 00:08:43.640
+Vim tias qhov kev sib raug zoo ntawm kev vam khom tau hais meej meej
+
+00:08:43.640 --> 00:08:47.500
+Tam sim no cia peb tsom mus rau sab hauv ntawm Movie Booking System.
+
+00:08:48.430 --> 00:08:52.230
+Ua ntej tshaj plaws, tus neeg siv khoom ua dab tsi hauv Movie Booking System?
+
+00:08:52.230 --> 00:08:54.230
+Cia peb nug cov kws tshaj lij hauv thaj chaw
+
+00:08:55.800 --> 00:08:57.880
+Cov neeg siv khoom ua dab tsi?
+
+00:08:57.880 --> 00:08:59.970
+Cov neeg siv khoom nrhiav cov yeeb yaj kiab,
+
+00:08:59.970 --> 00:09:01.450
+Saib cov ntsiab lus ntawm zaj yeeb yaj kiab,
+
+00:09:01.450 --> 00:09:02.910
+Xaiv lub sijhawm tshuaj ntsuam,
+
+00:09:02.910 --> 00:09:04.450
+Xaiv koj lub rooj zaum,
+
+00:09:04.450 --> 00:09:05.920
+Book daim pib saib yeeb yaj kiab,
+
+00:09:05.920 --> 00:09:07.610
+Tshawb xyuas cov ntaub ntawv booking,
+
+00:09:07.610 --> 00:09:10.180
+Ua tej yam xws li kev rho tawm daim ntawv tseg
+
+00:09:10.180 --> 00:09:15.750
+Puas yog kev xaiv lub sijhawm ua yeeb yam thiab kev xaiv lub rooj zaum yog ib feem ntawm cov txheej txheem booking daim pib yeeb yaj kiab?
+
+00:09:15.750 --> 00:09:18.880
+Thiab kom tseg daim pib ua yeeb yaj kiab, kom rho tawm qhov kev tseg
+
+00:09:18.880 --> 00:09:22.210
+Tom qab tag nrho, koj puas tsis yog yuav daim pib thiab tau txais nyiaj rov qab?
+
+00:09:22.210 --> 00:09:23.620
+koj hais yog lawm
+
+00:09:23.620 --> 00:09:25.030
+Yog lawm
+
+00:09:25.480 --> 00:09:27.880
+Vim tias nws yog ib qho chaw paub tam sim no
+
+00:09:27.880 --> 00:09:31.240
+Xaiv lub sijhawm tshuaj ntsuam thiab xaiv koj lub rooj zaum
+
+00:09:31.240 --> 00:09:33.200
+Qhov no puas yog ib feem ntawm cov txheej txheem booking daim pib saib yeeb yaj kiab?
+
+00:09:33.200 --> 00:09:34.530
+Kuv tuaj yeem nug
+
+00:09:34.980 --> 00:09:37.220
+Tiam sis yog tias nws yog ib qho chaw tsis paub,
+
+00:09:37.410 --> 00:09:40.160
+Kev tshuaj xyuas txhua qhov kev siv kom ntxaws
+
+00:09:40.520 --> 00:09:43.330
+Koj yuav rov ua qhov txheej txheem refining ntau zaus.
+
+00:09:43.790 --> 00:09:45.350
+Nyob ntawm qhov xwm txheej ntawm qhov project
+
+00:09:45.350 --> 00:09:48.080
+Koj tuaj yeem rov ua qhov txheej txheem no ntau zaus,
+
+00:09:48.080 --> 00:09:50.580
+Koj siv sijhawm ntau npaum li cas los xav txog kom zoo zoo,
+
+00:09:50.580 --> 00:09:54.190
+Txo qhov kev sim thiab qhov yuam kev thaum lub sijhawm tsim qauv thiab kev siv.
+
+00:09:55.850 --> 00:09:57.530
+Raws li kev sib tham txog tam sim no
+
+00:09:57.530 --> 00:10:00.970
+Peb tau teeb tsa peb cov neeg siv khoom siv ua plaub pawg:
+
+00:10:02.960 --> 00:10:04.470
+Tom ntej no yog tus thawj coj
+
+00:10:05.190 --> 00:10:08.850
+Tus thawj coj pom tau tias muaj tsib yam kev tswj hwm:
+
+00:10:09.440 --> 00:10:13.620
+Tus kheej, kuv ceev faj txog kev siv lo lus "Tswj" hauv kev txhim kho.
+
+00:10:14.360 --> 00:10:16.980
+Kev tswj hwm yog ib qho lus dav dhau
+
+00:10:16.980 --> 00:10:19.030
+Tsis meej tias koj ua dab tsi
+
+00:10:19.640 --> 00:10:20.950
+Nws kuj zoo ib yam li no thiab
+
+00:10:21.370 --> 00:10:23.760
+Nws tswj hwm li cas tiag?
+
+00:10:23.760 --> 00:10:24.810
+Kuv tsis paub
+
+00:10:25.930 --> 00:10:27.620
+Los ntawm kev tham nrog cov kws tshaj lij hauv thaj chaw
+
+00:10:27.620 --> 00:10:31.220
+Txhua yam khoom tswj hwm tau nthuav dav mus rau ib qho kev siv tshwj xeeb.
+
+00:10:31.900 --> 00:10:33.660
+Yog tias nws yog ib qhov project tiag tiag
+
+00:10:33.660 --> 00:10:35.890
+Tej zaum yuav muaj ntau yam kev siv dua li qhov no.
+
+00:10:36.150 --> 00:10:39.000
+Nov kuv tau ua kom yooj yim rau kev piav qhia.
+
+00:10:39.860 --> 00:10:42.700
+Qhov tseem ceeb uas yuav tsum nco ntsoov ntawm no yog tias thaum koj tsim lub sijhawm khiav,
+
+00:10:43.020 --> 00:10:45.900
+Koj tuaj yeem pom tias daim pib kuj tau tsim
+
+00:10:46.960 --> 00:10:49.200
+Thiab thaum yuav daim pib lossis them rov qab cov nyiaj
+
+00:10:49.490 --> 00:10:53.910
+Koj tuaj yeem pom tias peb siv cov kev pabcuam sab nraud hu ua lub rooj vag them nyiaj.
+
+00:10:55.890 --> 00:10:58.670
+Kuv tau muab cov ntaub ntawv siv ntawm cov neeg siv khoom thiab cov thawj coj ua ke.
+
+00:10:59.350 --> 00:11:01.730
+Xav txog tag nrho cov kev siv ntawm no
+
+00:11:01.730 --> 00:11:02.900
+Muaj ib yam dab tsi uas zoo li khoob
+
+00:11:03.890 --> 00:11:05.840
+Muaj kev xaiv ntxiv ib lub tsev ua yeeb yam
+
+00:11:05.840 --> 00:11:08.720
+Kuv tsis pom dab tsi zoo li Search Theatre
+
+00:11:09.410 --> 00:11:12.130
+Zoo li muaj ntau qhov xwm txheej siv uas raug tshem tawm.
+
+00:11:12.770 --> 00:11:15.980
+Vim tias los ntawm qhov kev xav ntawm tus kws tshaj lij hauv thaj chaw, muaj ntau yam los piav qhia.
+
+00:11:15.980 --> 00:11:17.950
+Cov ntaub ntawv siv no, uas zoo li pom tseeb heev,
+
+00:11:18.150 --> 00:11:19.810
+Koj tuaj yeem tshem tawm cov lus piav qhia
+
+00:11:20.770 --> 00:11:23.460
+Yog li cas los ntawm qhov kev xav ntawm tus tsim tawm?
+
+00:11:24.400 --> 00:11:28.290
+Zoo dua yog tsis txhob tham txog tej xov xwm yooj yim xws li nrhiav chaw ua yeeb yam.
+
+00:11:28.290 --> 00:11:30.700
+Qhov no puas yuav pab tau ntau dua rau kev tswj cov ntaub ntawv?
+
+00:11:31.720 --> 00:11:32.870
+Yog tias nws yog qhov tsim backend
+
+00:11:32.870 --> 00:11:35.920
+Cov xwm txheej siv yooj yim xws li kev tshawb nrhiav chaw ua yeeb yam
+
+00:11:35.920 --> 00:11:37.760
+Kuv xav tias tsis ua li cas yog tias koj hla nws mus
+
+00:11:38.600 --> 00:11:41.570
+Qhov kuv hais yog tias nws tsis lig dhau los teb thaum lub sijhawm ua tiav.
+
+00:11:42.370 --> 00:11:44.310
+Tab sis yog tias nws yog ib qhov project tiag tiag
+
+00:11:44.310 --> 00:11:48.450
+Rau cov neeg npaj cov ntxaij vab tshaus, cov rooj plaub siv no yog qhov pib zoo.
+
+00:11:49.250 --> 00:11:52.300
+Tus neeg npaj tau saib qhov kev siv ntawm kev nrhiav chaw ua yeeb yam.
+
+00:11:52.300 --> 00:11:55.300
+Kuv yuav tsum ua li cas thiaj nrhiav tau cov chaw ua yeeb yam?
+
+00:11:55.300 --> 00:11:56.600
+Koj yuav tau xav txog
+
+00:11:58.000 --> 00:12:00.880
+Thaum koj muab cov duab kos ua ke ua ib qho, nws zoo li nyuaj heev.
+
+00:12:01.490 --> 00:12:05.150
+Yog tias nws yog ib qhov project tiag tiag, nws yuav nyuaj dua.
+
+00:12:05.720 --> 00:12:08.240
+Hauv qhov no, tsis tas yuav tsum yuam kom muaj kev sib koom ua ke.
+
+00:12:08.810 --> 00:12:13.910
+Kuv nyuam qhuav muab lawv sib sau ua ke ntawm no kom qhia tau tias muaj cov ntaub ntawv uas ploj lawm.
+
+00:12:16.020 --> 00:12:18.490
+Kuv tau sau tag nrho cov ntaub ntawv uas ploj lawm
+
+00:12:19.200 --> 00:12:21.880
+Kuv muaj ib qho piv txwv siv uas qhov kev sib txuas rau tus neeg ua yeeb yam raug tshem tawm.
+
+00:12:22.290 --> 00:12:25.720
+Qhov no siv rau ob qho tib si cov neeg siv khoom thiab cov thawj coj.
+
+00:12:26.400 --> 00:12:29.480
+Thiab rau qhov yooj yim ntawm kev siv, kuv tau sau nws ua lus Askiv.
+
+00:12:31.370 --> 00:12:34.160
+Nws tsis ua li cas tam sim no vim nws yog ib qho project me me
+
+00:12:34.160 --> 00:12:36.160
+Yog tias qhov project loj thiab nyuaj heev
+
+00:12:36.160 --> 00:12:38.980
+Tus kws tshaj lij hauv thaj chaw yuav tsum pib piav qhia qhov twg?
+
+00:12:38.980 --> 00:12:40.380
+Tej zaum yuav nyuaj
+
+00:12:41.280 --> 00:12:43.300
+Tus thawj coj ua dab tsi?
+
+00:12:43.300 --> 00:12:44.700
+Nws yog ib txoj haujlwm ntau heev
+
+00:12:44.700 --> 00:12:46.620
+Raws li xav tau los ntawm tus thawj coj
+
+00:12:47.620 --> 00:12:49.750
+Hauv qhov no, peb puas tuaj yeem faib cov neeg ua yeeb yam?
+
+00:12:49.750 --> 00:12:52.340
+Nws tseem yog ib lub tswv yim zoo los tshuaj xyuas
+
+00:12:53.140 --> 00:12:54.790
+Thaum xub thawj kuv raug hu ua tus thawj coj
+
+00:12:54.790 --> 00:12:57.400
+Tej zaum yuav muaj peev xwm faib ua pawg raws li lub luag haujlwm
+
+00:12:58.520 --> 00:13:00.820
+Thiab siv lub Movie Booking System
+
+00:13:00.820 --> 00:13:02.870
+Tej zaum yuav muaj cov kev pabcuam sab nraud
+
+00:13:03.660 --> 00:13:05.340
+Yog peb faib cov neeg ua yeeb yam zoo li no,
+
+00:13:05.340 --> 00:13:09.420
+Cov kws tshaj lij hauv thaj chaw yuav muaj peev xwm muab cov ntaub ntawv ntau dua.
+
+00:13:10.350 --> 00:13:14.000
+Tau kawg, qhov no tsuas yog ib qho piv txwv ntawm kev tshuaj xyuas ib qho chaw nyuaj.
+
+00:13:14.540 --> 00:13:17.320
+Tej zaum yuav muaj lwm txoj kev zoo
+
+00:13:17.960 --> 00:13:21.740
+Nws yog ib qho tseem ceeb uas yuav tsum teb tau yooj ywm nyob ntawm qhov xwm txheej.
+
+00:13:24.250 --> 00:13:25.060
+Qhov no yog qhov xaus lus
+
+00:13:25.950 --> 00:13:29.170
+Lub sijhawm no, peb yuav siv daim duab qhia txog kev siv
+
+00:13:29.170 --> 00:13:30.840
+Teem cov hom phiaj rau qhov project
+
+00:13:31.230 --> 00:13:33.700
+Kuv tau dhau los ntawm theem pib ntawm kev tshuaj xyuas.
+
+00:13:34.880 --> 00:13:38.010
+Tus kheej, thaum lub sijhawm tag nrho txoj kev loj hlob
+
+00:13:38.010 --> 00:13:40.060
+Kuv xav tias kev tshuaj xyuas yog qhov nyuaj tshaj plaws
+
+00:13:40.570 --> 00:13:44.250
+Vim tias peb yuav tsum npaj cov tswv yim tsis meej thiab tsis meej tshaj plaws.
+
+00:13:45.020 --> 00:13:47.650
+Lub sijhawm tom ntej peb yuav los saib cov ntaub ntawv siv tseem ceeb
+
+00:13:47.650 --> 00:13:49.470
+Cia peb tshuaj xyuas nws kom meej ntxiv
+
+00:13:50.300 --> 00:13:52.100
+Ua tsaug rau koj txoj kev ua haujlwm nyuaj kom deb li deb.
+

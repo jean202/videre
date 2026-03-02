@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: ceb
+
+00:00:00.000 --> 00:00:02.020
+Kumusta, kini ang Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Komplikado ang software
+
+00:00:06.650 --> 00:00:08.890
+Una sa tanan, daghan kaayong code nga kinahanglan isulat.
+
+00:00:09.760 --> 00:00:12.710
+Mga ehemplo lang sa mga proyekto nga akong gihimo para ani nga serye
+
+00:00:12.710 --> 00:00:15.270
+Ang kodigo kay sobra sa 12,000 ka linya ang gitas-on.
+
+00:00:16.330 --> 00:00:18.320
+Kon kini usa ka aktuwal nga serbisyo sa operasyon
+
+00:00:18.320 --> 00:00:21.530
+Bisan gamay ra kini nga serbisyo, dali ra kini molapas sa 100,000 ka linya.
+
+00:00:22.130 --> 00:00:25.300
+Ang usa ka gatos ka libo ka linya igo na aron mapuno ang baynte ka nobela.
+
+00:00:26.870 --> 00:00:29.560
+Ang pagsulat og taas nga code wala magpasabot nga nahuman na.
+
+00:00:30.330 --> 00:00:32.540
+Kinahanglan nimo nga padayon nga ayuhon ang code nga imong gisulat.
+
+00:00:33.400 --> 00:00:35.800
+Kon ayuhon nimo ang A, madaot ang B.
+
+00:00:35.800 --> 00:00:39.130
+Kon imong ayohon ang B, mabuak ang A ug C.
+
+00:00:41.090 --> 00:00:44.260
+Sa paggamit og analohiya, mura ra kag natanggong sa Rasputica ug naghilak.
+
+00:00:44.260 --> 00:00:46.360
+Mahimo nimong isulti nga kini parehas nga sitwasyon sa usa ka kabayo.
+
+00:00:47.330 --> 00:00:50.550
+Niining puntoha, imong mabati ang panginahanglan alang sa disenyo.
+
+00:00:52.580 --> 00:00:55.010
+Apan kon mosulay ka gyud sa pagsulat og dokumento sa disenyo,
+
+00:00:55.500 --> 00:00:58.490
+Pagpahayag sa mga hunahuna sa imong ulo sa konkreto nga paagi
+
+00:00:58.790 --> 00:01:01.260
+Imong masayran nga dili kini sayon ​​sama sa imong gihunahuna.
+
+00:01:01.890 --> 00:01:05.600
+Bisan ang sheet music, nga usa ka dokumento nga biswal nga nagrekord sa tunog o musika,
+
+00:01:05.600 --> 00:01:06.700
+Komplikado kaayo ni
+
+00:01:07.520 --> 00:01:10.610
+Dili lang musika, apan lakip usab ang pinansya ug logistik
+
+00:01:10.610 --> 00:01:14.060
+Mas lain-laing mga konsepto ug abstraktong mga kinahanglanon sa tiggamit
+
+00:01:14.060 --> 00:01:17.220
+Dili sayon ​​ang pagpahayag niini sa usa ka piho nga modelo.
+
+00:01:18.530 --> 00:01:19.490
+Maayo na lang
+
+00:01:19.770 --> 00:01:23.200
+Aron mabuntog ang kalisud sa pagmodelo sa mga abstraktong konsepto
+
+00:01:23.540 --> 00:01:26.860
+Natawo ang UML sa ulahing bahin sa dekada 1990.
+
+00:01:27.730 --> 00:01:30.120
+Gipangulohan kini ni Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Gigamit namo ang UML uban ang pagpaabut
+
+00:01:34.980 --> 00:01:36.990
+Pagdrowing og diagram sa klase
+
+00:01:36.990 --> 00:01:38.760
+Magdrowing usab kita og sequence diagram
+
+00:01:39.430 --> 00:01:39.980
+bisan pa
+
+00:01:40.360 --> 00:01:43.160
+Sa dihang gisulayan nako kini pagdisenyo, lahi kini sa direkta nga pag-code niini.
+
+00:01:43.160 --> 00:01:45.130
+Murag dili kaayo lahi
+
+00:01:45.590 --> 00:01:46.520
+Ngano man na?
+
+00:01:47.350 --> 00:01:50.910
+Kana tungod kay ang proseso sa panghunahuna naanad na sa implementasyon.
+
+00:01:51.290 --> 00:01:54.170
+Imbis nga himuong mas konkreto ang mga abstraktong konsepto,
+
+00:01:54.490 --> 00:01:57.590
+Tungod kay kini naghubad sa panghunahuna sa lebel sa implementasyon ngadto sa UML.
+
+00:01:58.520 --> 00:02:00.270
+Kay makabasa ka man og sheet music
+
+00:02:00.270 --> 00:02:01.950
+Dili man sad ko kaya mo-compose
+
+00:02:02.390 --> 00:02:03.850
+Tungod lang kay nakakat-on ka og UML
+
+00:02:03.850 --> 00:02:06.170
+Dili ingon nga mapalambo nimo ang kahanas sa pagdesinyo.
+
+00:02:07.700 --> 00:02:09.300
+Mao nga sa kini nga serye
+
+00:02:09.300 --> 00:02:11.580
+Pinaagi sa tinuod nga mga proyekto
+
+00:02:11.580 --> 00:02:14.420
+Unsaon pagkonkreto ang mga abstract nga kinahanglanon
+
+00:02:14.420 --> 00:02:16.290
+Mahimo ba nimo nga ikonektar ang code?
+
+00:02:16.290 --> 00:02:18.010
+Gusto nako ipakita nimo sa personal
+
+00:02:18.530 --> 00:02:20.930
+Gipili nako nga magpareserba og mga tiket sa sine pinaagi sa domain
+
+00:02:21.370 --> 00:02:25.200
+Sayon ra sabton ang pagpareserba og tiket sa sine kay kasagaran pamilyar na kini nga mga domain.
+
+00:02:25.200 --> 00:02:29.710
+Naglakip sa lain-laing mga gimbuhaton sama sa pag-login, pagbayad, ug pagpili sa lingkuranan.
+
+00:02:29.710 --> 00:02:31.580
+Murag maayo nga ehemplo
+
+00:02:33.600 --> 00:02:36.890
+Sa panguna, ang hilisgutan niini nga artikulo mao ang disenyo sa software, apan
+
+00:02:36.890 --> 00:02:40.350
+Sakop usab nato ang test-driven development.
+
+00:02:41.210 --> 00:02:44.890
+Ang mga modernong palibot sa pag-uswag lumad nga nagsuporta sa mga himan sa pagsulay.
+
+00:02:45.600 --> 00:02:48.320
+Bisan kon imong tan-awon ang mga sikat nga open source nga proyekto,
+
+00:02:48.320 --> 00:02:51.130
+Naa tay usa ka lebel sa pagsulay.
+
+00:02:51.740 --> 00:02:56.200
+Kini lagmit nagpasabot nga ang pagsulay adunay taas nga importansya ug gamit.
+
+00:02:56.870 --> 00:02:58.120
+Apan sa tinuod lang
+
+00:02:58.120 --> 00:03:02.590
+Sa daghang mga kaso, dili lang ang TDD, apan bisan ang test automation wala gipatuman sa husto.
+
+00:03:03.190 --> 00:03:06.260
+Ang pagsulat una og mga makahuluganon nga pagsulay nga walay bisan unsang pagpangandam
+
+00:03:06.260 --> 00:03:07.540
+Dili gyud kini sayon
+
+00:03:08.410 --> 00:03:12.340
+Kini usa ka butang nga nanginahanglan sa hiniusa nga mga kapabilidad sa pagdisenyo sa software.
+
+00:03:13.320 --> 00:03:16.270
+Busa, mas maayo nga atubangon ang disenyo ug TDD nga magkauban.
+
+00:03:16.270 --> 00:03:18.180
+Giisip nako kini nga epektibo
+
+00:03:20.120 --> 00:03:23.450
+Karon, atong sugdan ang unang miting sa proyekto.
+
+00:03:24.150 --> 00:03:26.470
+Kay gamay ra man ni nga proyekto
+
+00:03:26.470 --> 00:03:28.090
+Adunay duha ka partisipante
+
+00:03:28.790 --> 00:03:32.340
+Ang naa sa wala usa ka domain expert, ug ang naa sa tuo usa ka developer.
+
+00:03:34.550 --> 00:03:37.790
+Ang mga eksperto sa domain adunay ikasulti sa mga sistema nga kinahanglan namong tukoron.
+
+00:03:37.790 --> 00:03:39.280
+Daghan kinig gisaysay nga mga istorya
+
+00:03:40.340 --> 00:03:42.160
+Ang teatro nga among gidumala
+
+00:03:42.160 --> 00:03:44.710
+Adunay mga upat ka libo kanila sa tibuok nasud.
+
+00:03:44.710 --> 00:03:47.220
+Posible nga modaghan pa kini sa umaabot.
+
+00:03:47.220 --> 00:03:50.480
+Sa pagkakaron, ang function sa pag-reserve og tiket sa sine ra ang gisuportahan.
+
+00:03:50.480 --> 00:03:54.510
+Plano namo nga dugangan ang halin sa tiket para sa mga dagkong pasundayag sa ulahi.
+
+00:03:54.510 --> 00:03:58.940
+Ug ang importante kay dili gyud ka angay mag-double book og mga lingkuranan.
+
+00:03:58.940 --> 00:04:03.250
+Kaniadto, ang mga customer service center naglisod gyud sa ingon ana nga problema.
+
+00:04:03.250 --> 00:04:07.670
+Kay daghan na man gud nga impormasyon bahin sa salida ug datos sa mga review ang natipon na.
+
+00:04:07.670 --> 00:04:11.090
+Kini nga mga datos kinahanglan nga magpabilin nga wala mausab.
+
+00:04:12.090 --> 00:04:14.730
+Dinhi, ang panagsulti maayo nga naorganisar, apan
+
+00:04:14.890 --> 00:04:16.960
+Sa tinuod lang, naa pay dugang impormasyon
+
+00:04:16.960 --> 00:04:18.600
+Kini ihatud sa dili organisado nga paagi
+
+00:04:19.470 --> 00:04:22.110
+Apan ang istorya nga mogawas sa sinugdanan sa proyekto mao
+
+00:04:22.110 --> 00:04:23.780
+Kay mao kini ang pinakaimportanteng kinahanglanon
+
+00:04:23.780 --> 00:04:25.320
+Kinahanglan kang maminaw pag-ayo
+
+00:04:27.110 --> 00:04:29.810
+Ang mga developer maminaw sa mga eksperto sa domain
+
+00:04:29.810 --> 00:04:31.290
+Naa koy pipila ka mga pangutana
+
+00:04:32.290 --> 00:04:34.660
+Ang dako nga gimbuhaton sa pag-reserba sa tiket sa pasundayag nga imong gihisgutan
+
+00:04:34.660 --> 00:04:36.910
+Kanus-a kini idugang?
+
+00:04:36.910 --> 00:04:39.910
+Kinahanglan ba kining ilakip sa sakup niining proyekto daan?
+
+00:04:39.910 --> 00:04:43.590
+O gusto nakong mahibal-an kung angay ba nako kini hunahunaon pa
+
+00:04:43.590 --> 00:04:46.090
+Ug ang panginahanglan sa pagmentinar sa kasamtangang datos
+
+00:04:46.090 --> 00:04:48.940
+Nagpasabot ba kini nga dili nato angay usbon ang sistema sa DB?
+
+00:04:48.940 --> 00:04:51.950
+Naa bay ubang serbisyo nga nag-share sa DB karon?
+
+00:04:53.580 --> 00:04:54.980
+Sama sa imong makita gikan sa DB,
+
+00:04:54.980 --> 00:04:57.290
+Kay ang mga eksperto sa domain dili mga developer.
+
+00:04:57.290 --> 00:04:59.430
+Ang teknikal nga ekspresyon dili klaro
+
+00:04:59.910 --> 00:05:02.890
+Kinahanglan nga susihon pag-ayo sa mga developer kini nga mga butang.
+
+00:05:04.230 --> 00:05:07.450
+Ang mga eksperto sa domain motubag sa mga pangutana sa mga developer sama niini:
+
+00:05:08.330 --> 00:05:10.210
+Ang function sa pag-reserba sa tiket sa pasundayag sa dako nga sukod
+
+00:05:10.210 --> 00:05:13.450
+Wala pa'y espesipikong iskedyul.
+
+00:05:13.450 --> 00:05:15.970
+Apan, kon adunay mga feature nga idugang sa umaabot
+
+00:05:15.970 --> 00:05:18.700
+Para maka-upgrade ka nga walay daghang kalisod
+
+00:05:18.700 --> 00:05:22.600
+Sa akong hunahuna maayo unta kon imong hatagan kini og konsiderasyon karong panahona.
+
+00:05:22.600 --> 00:05:27.050
+Wala mi mogamit og DB para sa bisan unsa gawas sa among mga serbisyo.
+
+00:05:27.050 --> 00:05:32.840
+Ang pag-ilis sa sistema mismo dili usa ka dakong problema basta ang datos maayo nga pagkamentinar.
+
+00:05:33.840 --> 00:05:35.080
+Human makadungog sa istorya
+
+00:05:35.080 --> 00:05:39.400
+Sa akong hunahuna dili ka kinahanglan mabalaka bahin sa dako nga pasundayag.
+
+00:05:39.400 --> 00:05:40.790
+Dili kini ang gilapdon sa proyekto
+
+00:05:40.790 --> 00:05:43.040
+Dili usab klaro ang mga kinahanglanon
+
+00:05:43.040 --> 00:05:44.930
+Wala ko kabalo kanus-a nako kini kinahanglan, pero
+
+00:05:44.930 --> 00:05:47.710
+Mao kana ang problema nga kinahanglan natong ribyuhon pag-usab sa ulahi.
+
+00:05:48.920 --> 00:05:50.910
+Bisan kung wala kini natala sa dokumento
+
+00:05:50.910 --> 00:05:54.880
+Ang mga eksperto sa domain mohatag usab og tubag nga ilang ikonsiderar ang dagkong mga pasundayag.
+
+00:05:54.880 --> 00:05:55.960
+Dili nimo angay kalimtan
+
+00:05:56.740 --> 00:05:58.320
+Sige
+
+00:05:58.320 --> 00:06:00.630
+Dayon, ang dako nga sukod nga function sa pagreserba sa tiket sa pasundayag
+
+00:06:00.630 --> 00:06:04.500
+Dili nako kini ibutang sa mga nag-unang prayoridad para ani nga proyekto.
+
+00:06:04.500 --> 00:06:08.220
+Hinuon, kini naghimo nga mas sayon ​​ang pagpalapad sa mga gimbuhaton sa ulahi nga bahin sa proseso sa pag-uswag.
+
+00:06:08.220 --> 00:06:10.190
+Atimanon nako kini pag-ayo
+
+00:06:10.190 --> 00:06:12.840
+Ayaw kabalaka. Salig lang kanako
+
+00:06:13.840 --> 00:06:15.960
+Importante nga mag-uban og maayo
+
+00:06:17.980 --> 00:06:19.500
+Sa atong panagsulti hangtod karon
+
+00:06:19.500 --> 00:06:22.700
+Ang mga nag-unang prayoridad gisumada sama sa mosunod:
+
+00:06:23.220 --> 00:06:25.890
+Kini ang impormasyon nga gihatag sa mga eksperto sa domain.
+
+00:06:25.890 --> 00:06:28.410
+Paghubad ug pag-organisar gikan sa perspektibo sa usa ka developer
+
+00:06:28.410 --> 00:06:29.810
+Sugdi ang proyekto
+
+00:06:31.700 --> 00:06:32.860
+Uban sa mga eksperto sa domain
+
+00:06:32.860 --> 00:06:34.980
+Kung nakadesisyon na ka sa mga tumong sa imong proyekto,
+
+00:06:35.620 --> 00:06:37.980
+Karon na ang panahon sa pagngalan sa imong proyekto.
+
+00:06:38.750 --> 00:06:41.840
+Una, pangutan-a ang usa ka eksperto sa domain alang sa ilang opinyon.
+
+00:06:42.800 --> 00:06:45.540
+Unsa may akong angay nga ingalan sa proyekto?
+
+00:06:45.540 --> 00:06:47.680
+Sistema kini sa pagreserba sa sine.
+
+00:06:47.680 --> 00:06:50.150
+Kumusta man ang Movie Booking System?
+
+00:06:50.150 --> 00:06:51.430
+dili, dili ko gusto
+
+00:06:51.430 --> 00:06:53.570
+Ako na ang bahala sa mga dagkong pasundayag
+
+00:06:53.570 --> 00:06:56.930
+Gamiton nato ang Movie Booking System. oo?
+
+00:06:56.930 --> 00:06:58.180
+dako
+
+00:06:58.180 --> 00:06:59.950
+Daghang salamat
+
+00:07:01.000 --> 00:07:05.230
+Ang mga eksperto sa domain basin gusto og mga ngalan sa proyekto sa Korean.
+
+00:07:05.580 --> 00:07:07.680
+Apan gikan sa perspektibo sa usa ka developer
+
+00:07:07.680 --> 00:07:09.990
+Tanang termino lakip ang mga ngalan sa proyekto
+
+00:07:09.990 --> 00:07:12.180
+Tungod kay kini direktang gipatuman sa code,
+
+00:07:12.600 --> 00:07:15.000
+Mas sayon ​​kini ipasabot sa Iningles kon mahimo.
+
+00:07:15.540 --> 00:07:19.510
+Importante para sa mga developer nga matinud-anon nga mosunod sa mga panginahanglan sa mga eksperto sa domain, apan
+
+00:07:19.960 --> 00:07:21.430
+Pagkonsiderar sa tibuok proyekto
+
+00:07:21.430 --> 00:07:23.930
+Kita usab adunay responsibilidad sa paggiya sa mga butang ngadto sa epektibo nga direksyon.
+
+00:07:25.850 --> 00:07:27.760
+Kon nakadesisyon ka na og ngalan para sa imong proyekto
+
+00:07:27.760 --> 00:07:31.380
+Karon na ang panahon aron mahibal-an kung kinsa ang naggamit sa Movie Booking System.
+
+00:07:32.020 --> 00:07:34.940
+Siyempre, kinahanglan kang mangutana sa usa ka eksperto sa domain alang sa impormasyon bahin niini.
+
+00:07:35.420 --> 00:07:38.740
+Ug among nakita nga kami adunay mga kustomer ug mga manedyer.
+
+00:07:40.820 --> 00:07:43.280
+Usa sa mga elemento nga dali ra masipyat sa unang mga yugto sa disenyo mao ang
+
+00:07:43.280 --> 00:07:44.760
+Kini usa ka eksternal nga pagsalig
+
+00:07:45.340 --> 00:07:46.580
+Ang mga eksternal nga pagsalig mao ang
+
+00:07:46.580 --> 00:07:49.210
+Mahimo kini nga usa ka kasamtangang sistema sa kabilin,
+
+00:07:49.660 --> 00:07:51.420
+Mahimo kini nga usa ka sistema sa pagbayad
+
+00:07:52.020 --> 00:07:53.670
+Kini nga relasyon sa pagsalig mao ang
+
+00:07:53.670 --> 00:07:56.760
+Kay kini adunay dakong epekto sa kinatibuk-ang disenyo sa sistema.
+
+00:07:56.950 --> 00:08:00.150
+Importante nga mailhan kini sa labing sayo nga panahon.
+
+00:08:00.570 --> 00:08:01.240
+swerte
+
+00:08:01.820 --> 00:08:04.990
+Mga elemento sama sa mga payment gateway ug mga legacy system
+
+00:08:05.270 --> 00:08:07.730
+Tungod kay kini gigamit na sa kasamtangang mga sistema
+
+00:08:07.990 --> 00:08:10.360
+Kini masabtan nga medyo dali
+
+00:08:11.230 --> 00:08:14.410
+Usa sa mga butang nga dali ra malimtan sa usa ka relasyon nga puno sa pagsalig mao ang
+
+00:08:14.410 --> 00:08:16.090
+Adunay mga eksternal nga hinungdan sa palibot
+
+00:08:16.900 --> 00:08:19.060
+Ang atong nasud naa sa parehas nga time zone
+
+00:08:19.060 --> 00:08:22.430
+Sa usa ka nasod nga lapad ang yuta, ang matag teatro adunay lain-laing oras sa pagpasalida.
+
+00:08:23.190 --> 00:08:25.100
+Unya ang Sistema sa Pag-book sa Sine
+
+00:08:25.100 --> 00:08:28.900
+Dili kalikayan nga maapektuhan kini sa mga hinungdan sa palibot sama sa mga time zone.
+
+00:08:29.410 --> 00:08:32.760
+Kini nga mga butang dili dayon makita gawas kung mangutana ka direkta sa eksperto sa domain.
+
+00:08:32.760 --> 00:08:33.950
+Dali ra malimtan
+
+00:08:34.740 --> 00:08:37.610
+Ang mga eksperto sa domain lagmit nga dili tagdon kini nga mga detalye.
+
+00:08:37.610 --> 00:08:40.010
+Kay basin dili maapil ang explanation
+
+00:08:41.680 --> 00:08:43.640
+Tungod kay ang relasyon sa pagsalig klaro nga gipahayag
+
+00:08:43.640 --> 00:08:47.500
+Karon, atong hisgotan ang mga internal nga bahin sa Movie Booking System.
+
+00:08:48.430 --> 00:08:52.230
+Una sa tanan, unsa may gibuhat sa kustomer sa Movie Booking System?
+
+00:08:52.230 --> 00:08:54.230
+Pangutan-on nato ang mga eksperto sa domain
+
+00:08:55.800 --> 00:08:57.880
+Unsa may gibuhat sa mga kustomer?
+
+00:08:57.880 --> 00:08:59.970
+Ang mga kustomer mangita og mga salida,
+
+00:08:59.970 --> 00:09:01.450
+Tan-awa ang mga detalye sa salida,
+
+00:09:01.450 --> 00:09:02.910
+Pagpili og oras sa screening,
+
+00:09:02.910 --> 00:09:04.450
+Pilia ang imong lingkuranan,
+
+00:09:04.450 --> 00:09:05.920
+Pag-book og mga tiket sa sine,
+
+00:09:05.920 --> 00:09:07.610
+Susiha ang mga detalye sa reserbasyon,
+
+00:09:07.610 --> 00:09:10.180
+Buhata ang mga butang sama sa pagkansela sa usa ka reserbasyon
+
+00:09:10.180 --> 00:09:15.750
+Ang pagpili ba og showtime ug pagpili og lingkuranan kabahin sa proseso sa pag-reserve og tiket sa sine?
+
+00:09:15.750 --> 00:09:18.880
+Ug aron mag-reserve og mga tiket sa sine, aron kanselahon ang mga reserbasyon
+
+00:09:18.880 --> 00:09:22.210
+Kay di ba, mopalit ka lang og tiket unya ma-refund nimo ang imong gibayad?
+
+00:09:22.210 --> 00:09:23.620
+sakto ka
+
+00:09:23.620 --> 00:09:25.030
+Sakto gyud
+
+00:09:25.480 --> 00:09:27.880
+Kay kini usa na ka pamilyar nga domain karon
+
+00:09:27.880 --> 00:09:31.240
+Pagpili og oras sa screening ug pilia ang imong lingkuranan
+
+00:09:31.240 --> 00:09:33.200
+Kabahin ba ni sa proseso sa pag-reserve og tiket sa sine?
+
+00:09:33.200 --> 00:09:34.530
+Makapangutana ko
+
+00:09:34.980 --> 00:09:37.220
+Apan kon kini usa ka dili pamilyar nga domain,
+
+00:09:37.410 --> 00:09:40.160
+Detalyado nga pag-analisar sa matag use case
+
+00:09:40.520 --> 00:09:43.330
+Balikon nimo ang proseso sa pagpino sa makadaghang higayon.
+
+00:09:43.790 --> 00:09:45.350
+Depende sa sitwasyon sa proyekto
+
+00:09:45.350 --> 00:09:48.080
+Mahimo nimong balikon kini nga proseso sa daghang beses,
+
+00:09:48.080 --> 00:09:50.580
+Kon mas mogahin ka sa imong panahon ug mo-analisar pag-ayo,
+
+00:09:50.580 --> 00:09:54.190
+Bawasan ang mga pagsulay ug sayop atol sa mga yugto sa disenyo ug implementasyon.
+
+00:09:55.850 --> 00:09:57.530
+Base sa panagsulti hangtod karon
+
+00:09:57.530 --> 00:10:00.970
+Among giorganisar ang among mga gamit sa kustomer ngadto sa upat ka kategorya:
+
+00:10:02.960 --> 00:10:04.470
+Sunod mao ang administrador
+
+00:10:05.190 --> 00:10:08.850
+Makita sa administrador nga adunay lima ka mga butang sa pagdumala:
+
+00:10:09.440 --> 00:10:13.620
+Sa personal, mabinantayon ko sa paggamit sa pulong nga "Manage" sa development.
+
+00:10:14.360 --> 00:10:16.980
+Ang pagdumala kay lapad ra kaayo nga ekspresyon
+
+00:10:16.980 --> 00:10:19.030
+Dili klaro kung unsa imong gibuhat
+
+00:10:19.640 --> 00:10:20.950
+Parehas ra pud dinhi
+
+00:10:21.370 --> 00:10:23.760
+Giunsa gyud kini pagdumala?
+
+00:10:23.760 --> 00:10:24.810
+Wala ko kabalo
+
+00:10:25.930 --> 00:10:27.620
+Pinaagi sa pagpakigsulti sa mga eksperto sa domain
+
+00:10:27.620 --> 00:10:31.220
+Ang matag butang sa pagdumala gipalapdan ngadto sa usa ka piho nga gamit.
+
+00:10:31.900 --> 00:10:33.660
+Kung tinuod nga proyekto
+
+00:10:33.660 --> 00:10:35.890
+Lagmit adunay mas daghang mga kaso sa paggamit kaysa niini.
+
+00:10:36.150 --> 00:10:39.000
+Dinhi akong gipasimple kini para sa katin-awan.
+
+00:10:39.860 --> 00:10:42.700
+Ang importante nga timan-an dinhi mao nga kung maghimo ka og oras sa pagdagan,
+
+00:10:43.020 --> 00:10:45.900
+Makita nimo nga ang tiket gihimo usab
+
+00:10:46.960 --> 00:10:49.200
+Ug sa pagpalit o pag-refund sa tiket
+
+00:10:49.490 --> 00:10:53.910
+Makita usab nimo nga naggamit kami og eksternal nga serbisyo nga gitawag og payment gateway.
+
+00:10:55.890 --> 00:10:58.670
+Akong gihiusa ang mga gamit sa mga kustomer ug mga manedyer.
+
+00:10:59.350 --> 00:11:01.730
+Ang pagtan-aw sa tibuok nga kaso sa paggamit sama niini
+
+00:11:01.730 --> 00:11:02.900
+Murag naay haw-ang
+
+00:11:03.890 --> 00:11:05.840
+Adunay opsyon nga makadugang og sinehan
+
+00:11:05.840 --> 00:11:08.720
+Wala koy nakita nga parehas sa Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Murag daghan kaayong mga gamit nga wala giapil.
+
+00:11:12.770 --> 00:11:15.980
+Kay gikan sa perspektibo sa usa ka domain expert, daghan kaayog angay ipasabot.
+
+00:11:15.980 --> 00:11:17.950
+Kini nga gamit, nga daw klaro kaayo,
+
+00:11:18.150 --> 00:11:19.810
+Mahimo nimong kalimtan ang pagpasabot
+
+00:11:20.770 --> 00:11:23.460
+Busa unsa man gikan sa perspektibo sa usa ka developer?
+
+00:11:24.400 --> 00:11:28.290
+Mas maayong dili iapil ang mga simpleng balita sama sa pagpangita og sinehan.
+
+00:11:28.290 --> 00:11:30.700
+Dili ba kini mas makatabang sa pagdumala sa mga dokumento?
+
+00:11:31.720 --> 00:11:32.870
+Kon kini ang disenyo sa backend
+
+00:11:32.870 --> 00:11:35.920
+Mga simpleng gamit sama sa pagpangita og sinehan
+
+00:11:35.920 --> 00:11:37.760
+Sa akong hunahuna okay ra nga laktawan kini
+
+00:11:38.600 --> 00:11:41.570
+Ang akong gipasabot kay dili pa ulahi ang pagtubag atol sa yugto sa implementasyon.
+
+00:11:42.370 --> 00:11:44.310
+Pero kung tinuod nga proyekto
+
+00:11:44.310 --> 00:11:48.450
+Para sa mga screen planner, kini nga mga use case maayong sinugdanan.
+
+00:11:49.250 --> 00:11:52.300
+Gitan-aw sa planner ang gamit sa pagpangita og sinehan.
+
+00:11:52.300 --> 00:11:55.300
+Unsaon nako paghimo nga posible ang pagpangita og mga sinehan?
+
+00:11:55.300 --> 00:11:56.600
+Makahunahuna ka
+
+00:11:58.000 --> 00:12:00.880
+Kon imong iusa ang mga diagram, kini morag komplikado.
+
+00:12:01.490 --> 00:12:05.150
+Kon tinuod nga proyekto pa unta ni, mas komplikado pa unta ni.
+
+00:12:05.720 --> 00:12:08.240
+Sa kini nga kaso, dili kinahanglan nga pugson ang paghiusa.
+
+00:12:08.810 --> 00:12:13.910
+Gi-merge nako sila diri aron ipakita nga naa'y mga nawala nga kaso.
+
+00:12:16.020 --> 00:12:18.490
+Gipuno nako ang tanan nga nawala nga mga kaso
+
+00:12:19.200 --> 00:12:21.880
+Naa koy use case diin ang koneksyon sa aktor wala gilakip.
+
+00:12:22.290 --> 00:12:25.720
+Kini magamit sa mga kustomer ug mga manedyer.
+
+00:12:26.400 --> 00:12:29.480
+Ug para mas sayon ​​ang pagpatuman, gisulat nako kini sa Iningles.
+
+00:12:31.370 --> 00:12:34.160
+Okay ra karon kay gamay ra man nga proyekto
+
+00:12:34.160 --> 00:12:36.160
+Kon ang proyekto dako ug komplikado
+
+00:12:36.160 --> 00:12:38.980
+Asa man magsugod sa pagpasabot ang usa ka eksperto sa domain?
+
+00:12:38.980 --> 00:12:40.380
+Mahimong lisod kini
+
+00:12:41.280 --> 00:12:43.300
+Unsa ang trabaho sa usa ka administrador?
+
+00:12:43.300 --> 00:12:44.700
+Daghan kaayog trabaho
+
+00:12:44.700 --> 00:12:46.620
+Sama sa gilauman gikan sa manager
+
+00:12:47.620 --> 00:12:49.750
+Sa kini nga kaso, mahimo ba natong bahinon ang mga aktor?
+
+00:12:49.750 --> 00:12:52.340
+Maayo usab nga ideya ang pagrepaso
+
+00:12:53.140 --> 00:12:54.790
+Sa sinugdanan gitawag ko nga administrador
+
+00:12:54.790 --> 00:12:57.400
+Mahimong posible nga bahinon pinaagi sa papel
+
+00:12:58.520 --> 00:13:00.820
+Ug gamit ang Movie Booking System
+
+00:13:00.820 --> 00:13:02.870
+Mahimong adunay mga serbisyo sa gawas
+
+00:13:03.660 --> 00:13:05.340
+Kon atong bahinon ang mga aktor sama niini,
+
+00:13:05.340 --> 00:13:09.420
+Ang mga eksperto sa domain makahatag ug mas sistematikong impormasyon.
+
+00:13:10.350 --> 00:13:14.000
+Siyempre, kini usa lamang ka ehemplo sa pag-analisar sa usa ka komplikado nga dominyo.
+
+00:13:14.540 --> 00:13:17.320
+Basin naa pay ubang maayong paagi
+
+00:13:17.960 --> 00:13:21.740
+Importante ang pagtubag nga flexible depende sa sitwasyon.
+
+00:13:24.250 --> 00:13:25.060
+Mao kini ang konklusyon
+
+00:13:25.950 --> 00:13:29.170
+Niining higayona, mogamit kita og usa ka use case diagram
+
+00:13:29.170 --> 00:13:30.840
+Pagtakda og mga tumong para sa proyekto
+
+00:13:31.230 --> 00:13:33.700
+Naagian na nako ang mga unang yugto sa pag-analisar.
+
+00:13:34.880 --> 00:13:38.010
+Sa personal, atol sa tibuok proseso sa pag-uswag
+
+00:13:38.010 --> 00:13:40.060
+Sa akong hunahuna ang pag-analisa mao ang pinakalisod
+
+00:13:40.570 --> 00:13:44.250
+Kay kinahanglan natong organisahon ang labing abstrakto ug dili klaro nga mga konsepto.
+
+00:13:45.020 --> 00:13:47.650
+Sa sunod natong tan-awon ang mga nag-unang gamit
+
+00:13:47.650 --> 00:13:49.470
+Atong analisahon kini sa mas detalyado
+
+00:13:50.300 --> 00:13:52.100
+Salamat sa imong kakugi hangtod karon.
+

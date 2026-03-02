@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: sq
+
+00:00:00.000 --> 00:00:02.020
+Përshëndetje, ky është Kodi i Modulit.
+
+00:00:03.290 --> 00:00:05.350
+Softueri është kompleks
+
+00:00:06.650 --> 00:00:08.890
+Para së gjithash, ka shumë kod që duhet të shkruhet.
+
+00:00:09.760 --> 00:00:12.710
+Vetëm projektet shembull që krijova për këtë seri
+
+00:00:12.710 --> 00:00:15.270
+Kodi është i gjatë mbi 12,000 rreshta.
+
+00:00:16.330 --> 00:00:18.320
+Nëse është një shërbim operativ i vërtetë
+
+00:00:18.320 --> 00:00:21.530
+Edhe nëse është një shërbim i vogël, lehtësisht do të kalojë 100,000 rreshta.
+
+00:00:22.130 --> 00:00:25.300
+Njëqind mijë rreshta janë të mjaftueshëm për të mbushur njëzet romane.
+
+00:00:26.870 --> 00:00:29.560
+Të shkruash kod të gjatë nuk do të thotë se ka mbaruar.
+
+00:00:30.330 --> 00:00:32.540
+Duhet të vazhdosh ta rregullosh kodin që shkruan.
+
+00:00:33.400 --> 00:00:35.800
+Nëse rregullon A, B prishet.
+
+00:00:35.800 --> 00:00:39.130
+Nëse e rregullon B-në, A dhe C do të prishen.
+
+00:00:41.090 --> 00:00:44.260
+Për të përdorur një analogji, është si të jesh i bllokuar në një Rasputica dhe të qash.
+
+00:00:44.260 --> 00:00:46.360
+Mund të thuhet se është një situatë e ngjashme me një kalë.
+
+00:00:47.330 --> 00:00:50.550
+Në këtë pikë, do të ndjeni nevojën për dizajn.
+
+00:00:52.580 --> 00:00:55.010
+Por kur përpiqesh të shkruash një dokument dizajni,
+
+00:00:55.500 --> 00:00:58.490
+Shprehja konkrete e mendimeve në kokën tuaj
+
+00:00:58.790 --> 00:01:01.260
+Do të zbuloni se nuk është aq e lehtë sa mendoni.
+
+00:01:01.890 --> 00:01:05.600
+Edhe notat muzikore, e cila është një dokument që regjistron vizualisht tinguj ose muzikë,
+
+00:01:05.600 --> 00:01:06.700
+Është kaq e ndërlikuar
+
+00:01:07.520 --> 00:01:10.610
+Jo vetëm muzikë, por edhe financa dhe logjistikë
+
+00:01:10.610 --> 00:01:14.060
+Koncepte më të larmishme dhe kërkesa abstrakte të përdoruesit
+
+00:01:14.060 --> 00:01:17.220
+Nuk do të jetë e lehtë ta shprehësh atë në një model specifik.
+
+00:01:18.530 --> 00:01:19.490
+Për fat të mirë
+
+00:01:19.770 --> 00:01:23.200
+Për të kapërcyer vështirësinë e modelimit të koncepteve abstrakte
+
+00:01:23.540 --> 00:01:26.860
+UML lindi në fund të viteve 1990.
+
+00:01:27.730 --> 00:01:30.120
+Udhëhiqej nga Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Ne përdorim UML me parashikim
+
+00:01:34.980 --> 00:01:36.990
+Vizatoni një diagram të klasës
+
+00:01:36.990 --> 00:01:38.760
+Le të vizatojmë edhe një diagram sekuencial
+
+00:01:39.430 --> 00:01:39.980
+megjithatë
+
+00:01:40.360 --> 00:01:43.160
+Kur provova ta dizajnoja, ishte ndryshe nga kodimi i drejtpërdrejtë i tij.
+
+00:01:43.160 --> 00:01:45.130
+Nuk duket të jetë shumë ndryshe
+
+00:01:45.590 --> 00:01:46.520
+Pse ndodh kjo?
+
+00:01:47.350 --> 00:01:50.910
+Kjo për shkak se procesi i të menduarit është mësuar me zbatimin.
+
+00:01:51.290 --> 00:01:54.170
+Në vend që t'i bëni konceptet abstrakte më konkrete,
+
+00:01:54.490 --> 00:01:57.590
+Sepse përkthen të menduarit në nivel implementimi në UML.
+
+00:01:58.520 --> 00:02:00.270
+Vetëm sepse mund të lexosh partitura muzikore
+
+00:02:00.270 --> 00:02:01.950
+Nuk është se mund ta kompozoj
+
+00:02:02.390 --> 00:02:03.850
+Vetëm sepse keni mësuar UML
+
+00:02:03.850 --> 00:02:06.170
+Nuk është sikur të zhvillosh aftësi dizajni.
+
+00:02:07.700 --> 00:02:09.300
+Pra, në këtë seri
+
+00:02:09.300 --> 00:02:11.580
+Përmes projekteve reale
+
+00:02:11.580 --> 00:02:14.420
+Si të konkretizohen kërkesat abstrakte
+
+00:02:14.420 --> 00:02:16.290
+A mund ta lidhësh kodin?
+
+00:02:16.290 --> 00:02:18.010
+Do të doja t'ju tregoja personalisht
+
+00:02:18.530 --> 00:02:20.930
+Zgjodha të rezervoj bileta filmi sipas domenit
+
+00:02:21.370 --> 00:02:25.200
+Rezervimet e biletave të filmave janë të lehta për t'u kuptuar sepse ato janë kryesisht domene të njohura.
+
+00:02:25.200 --> 00:02:29.710
+Përfshin funksione të ndryshme si hyrja, pagesa dhe zgjedhja e vendit.
+
+00:02:29.710 --> 00:02:31.580
+Duket si një shembull i mirë
+
+00:02:33.600 --> 00:02:36.890
+Në thelb, tema e këtij artikulli është dizajni i softuerit, por
+
+00:02:36.890 --> 00:02:40.350
+Ne gjithashtu do të mbulojmë zhvillimin e bazuar në testime.
+
+00:02:41.210 --> 00:02:44.890
+Mjediset moderne të zhvillimit mbështesin në mënyrë native mjetet e testimit.
+
+00:02:45.600 --> 00:02:48.320
+Edhe nëse shikoni projekte të famshme me burim të hapur,
+
+00:02:48.320 --> 00:02:51.130
+Ne kemi një nivel të caktuar testimi.
+
+00:02:51.740 --> 00:02:56.200
+Kjo ka të ngjarë të thotë që testimi është me rëndësi dhe dobi kaq të lartë.
+
+00:02:56.870 --> 00:02:58.120
+Por në realitet
+
+00:02:58.120 --> 00:03:02.590
+Në shumë raste, jo vetëm TDD, por edhe automatizimi i testimit nuk zbatohet siç duhet.
+
+00:03:03.190 --> 00:03:06.260
+Shkrimi i testeve kuptimplote së pari pa asnjë përgatitje është
+
+00:03:06.260 --> 00:03:07.540
+Nuk është kurrë e lehtë
+
+00:03:08.410 --> 00:03:12.340
+Kjo është diçka që kërkon aftësitë e kombinuara të dizajnit të softuerëve.
+
+00:03:13.320 --> 00:03:16.270
+Pra, është më mirë të merremi së bashku me dizajnin dhe TDD-në.
+
+00:03:16.270 --> 00:03:18.180
+E vlerësova si efikase
+
+00:03:20.120 --> 00:03:23.450
+Pra, tani le të fillojmë takimin e parë të projektit.
+
+00:03:24.150 --> 00:03:26.470
+Sepse ky është një projekt i vogël
+
+00:03:26.470 --> 00:03:28.090
+Ka dy pjesëmarrës
+
+00:03:28.790 --> 00:03:32.340
+Ai në të majtë është një ekspert domeni, dhe ai në të djathtë është një zhvillues.
+
+00:03:34.550 --> 00:03:37.790
+Ekspertët e domeneve kanë të drejtë fjale në sistemet që duhet të ndërtojmë.
+
+00:03:37.790 --> 00:03:39.280
+Tregon shumë histori
+
+00:03:40.340 --> 00:03:42.160
+Teatri që drejtojmë
+
+00:03:42.160 --> 00:03:44.710
+Ka rreth katër mijë prej tyre në të gjithë vendin.
+
+00:03:44.710 --> 00:03:47.220
+Mund të rritet më tej në të ardhmen.
+
+00:03:47.220 --> 00:03:50.480
+Aktualisht, mbështetet vetëm funksioni i rezervimit të biletave të filmit.
+
+00:03:50.480 --> 00:03:54.510
+Ne planifikojmë të shtojmë shitjen e biletave për shfaqje në shkallë të gjerë më vonë.
+
+00:03:54.510 --> 00:03:58.940
+Dhe gjëja e rëndësishme është që nuk duhet të rezervoni kurrë vende të dyfishta.
+
+00:03:58.940 --> 00:04:03.250
+Në të kaluarën, qendrat e shërbimit ndaj klientit kishin shumë vështirësi me këtë lloj problemi.
+
+00:04:03.250 --> 00:04:07.670
+Sepse ka shumë informacione për filmat dhe të dhëna nga recensionet që janë grumbulluar tashmë.
+
+00:04:07.670 --> 00:04:11.090
+Këto të dhëna duhet të mbeten të paprekura.
+
+00:04:12.090 --> 00:04:14.730
+Këtu biseda është e organizuar mirë, por
+
+00:04:14.890 --> 00:04:16.960
+Në fakt, ka më shumë informacion
+
+00:04:16.960 --> 00:04:18.600
+Do të dorëzohet në një mënyrë të çorganizuar
+
+00:04:19.470 --> 00:04:22.110
+Por historia që del në fillim të projektit është
+
+00:04:22.110 --> 00:04:23.780
+Sepse është kërkesa më e rëndësishme
+
+00:04:23.780 --> 00:04:25.320
+Duhet të dëgjosh me kujdes
+
+00:04:27.110 --> 00:04:29.810
+Zhvilluesit i dëgjojnë ekspertët e domenit
+
+00:04:29.810 --> 00:04:31.290
+Kam disa pyetje
+
+00:04:32.290 --> 00:04:34.660
+Funksioni i rezervimit të biletave për performancë në shkallë të gjerë që përmendët
+
+00:04:34.660 --> 00:04:36.910
+Kur do të shtohet?
+
+00:04:36.910 --> 00:04:39.910
+A duhet të përfshihet kjo në fushëveprimin e këtij projekti paraprakisht?
+
+00:04:39.910 --> 00:04:43.590
+Ose do të doja të dija nëse duhet ta marr në konsideratë akoma
+
+00:04:43.590 --> 00:04:46.090
+Dhe nevoja për të ruajtur të dhënat ekzistuese
+
+00:04:46.090 --> 00:04:48.940
+A do të thotë kjo që nuk duhet ta ndryshojmë sistemin e bazës së të dhënave?
+
+00:04:48.940 --> 00:04:51.950
+A ka ndonjë shërbim tjetër që aktualisht ndan bazën e të dhënave?
+
+00:04:53.580 --> 00:04:54.980
+Siç mund ta shihni nga DB,
+
+00:04:54.980 --> 00:04:57.290
+Sepse ekspertët e domenit nuk janë zhvillues.
+
+00:04:57.290 --> 00:04:59.430
+Shprehja teknike është e paqartë
+
+00:04:59.910 --> 00:05:02.890
+Zhvilluesit duhet t'i kontrollojnë këto gjëra me kujdes.
+
+00:05:04.230 --> 00:05:07.450
+Ekspertët e domenit u përgjigjen pyetjeve të zhvilluesve si kjo:
+
+00:05:08.330 --> 00:05:10.210
+Funksioni i rezervimit të biletave për performancë në shkallë të gjerë
+
+00:05:10.210 --> 00:05:13.450
+Ende nuk ka një orar specifik.
+
+00:05:13.450 --> 00:05:15.970
+Megjithatë, kur shtohen veçori në të ardhmen
+
+00:05:15.970 --> 00:05:18.700
+Në mënyrë që të mund të përmirësoni pa shumë vështirësi
+
+00:05:18.700 --> 00:05:22.600
+Mendoj se do të ishte mirë nëse do ta merrnit pak në konsideratë këtë herë.
+
+00:05:22.600 --> 00:05:27.050
+Ne nuk e përdorim DB për asgjë tjetër përveç shërbimeve tona.
+
+00:05:27.050 --> 00:05:32.840
+Ndryshimi i vetë sistemit nuk është një problem i madh për sa kohë që të dhënat ruhen mirë.
+
+00:05:33.840 --> 00:05:35.080
+Pasi dëgjoi historinë
+
+00:05:35.080 --> 00:05:39.400
+Nuk mendoj se duhet të shqetësohesh për shfaqjen e madhe.
+
+00:05:39.400 --> 00:05:40.790
+Nuk është fushëveprimi i projektit
+
+00:05:40.790 --> 00:05:43.040
+Kërkesat nuk janë të qarta as
+
+00:05:43.040 --> 00:05:44.930
+Nuk e di kur do të më duhet, por
+
+00:05:44.930 --> 00:05:47.710
+Ky është një problem që do të duhet ta shqyrtojmë përsëri më vonë.
+
+00:05:48.920 --> 00:05:50.910
+Edhe nëse nuk është regjistruar në dokument
+
+00:05:50.910 --> 00:05:54.880
+Ekspertët e fushës do të japin gjithashtu një përgjigje se do të marrin në konsideratë performanca në shkallë të gjerë.
+
+00:05:54.880 --> 00:05:55.960
+Nuk duhet të harrosh
+
+00:05:56.740 --> 00:05:58.320
+Në rregull
+
+00:05:58.320 --> 00:06:00.630
+Pastaj, funksioni i rezervimit të biletave të performancës në shkallë të gjerë
+
+00:06:00.630 --> 00:06:04.500
+Nuk do ta vendosja atë midis prioriteteve kryesore për këtë projekt.
+
+00:06:04.500 --> 00:06:08.220
+Në vend të kësaj, e bën më të lehtë zgjerimin e funksionalitetit më vonë në procesin e zhvillimit.
+
+00:06:08.220 --> 00:06:10.190
+Do të kujdesem mirë për të
+
+00:06:10.190 --> 00:06:12.840
+Mos u shqetëso. Më beso vetëm mua
+
+00:06:13.840 --> 00:06:15.960
+Është e rëndësishme të shkojmë mirë bashkë
+
+00:06:17.980 --> 00:06:19.500
+Përmes bisedës sonë deri më tani
+
+00:06:19.500 --> 00:06:22.700
+Prioritetet kryesore janë përmbledhur si më poshtë:
+
+00:06:23.220 --> 00:06:25.890
+Ky është informacioni i ofruar nga ekspertët e fushës.
+
+00:06:25.890 --> 00:06:28.410
+Interpretimi dhe organizimi nga perspektiva e një zhvilluesi
+
+00:06:28.410 --> 00:06:29.810
+Fillo projektin
+
+00:06:31.700 --> 00:06:32.860
+Me ekspertë të fushës
+
+00:06:32.860 --> 00:06:34.980
+Pasi të keni vendosur për qëllimet e projektit tuaj,
+
+00:06:35.620 --> 00:06:37.980
+Tani është koha për të emërtuar projektin tuaj.
+
+00:06:38.750 --> 00:06:41.840
+Së pari, kërkoni mendimin e një eksperti të domenit.
+
+00:06:42.800 --> 00:06:45.540
+Si duhet ta emërtoj projektin?
+
+00:06:45.540 --> 00:06:47.680
+Është një sistem rezervimi filmash.
+
+00:06:47.680 --> 00:06:50.150
+Po sikur vetëm Sistemi i Rezervimit të Filmave?
+
+00:06:50.150 --> 00:06:51.430
+jo, nuk dua
+
+00:06:51.430 --> 00:06:53.570
+Do të kujdesem për shfaqjet në shkallë të gjerë
+
+00:06:53.570 --> 00:06:56.930
+Le të kalojmë te Sistemi i Rezervimit të Filmave. po?
+
+00:06:56.930 --> 00:06:58.180
+i madh
+
+00:06:58.180 --> 00:06:59.950
+Faleminderit shumë
+
+00:07:01.000 --> 00:07:05.230
+Ekspertët e domeneve mund të duan emrat e projekteve në gjuhën koreane.
+
+00:07:05.580 --> 00:07:07.680
+Por nga perspektiva e një zhvilluesi
+
+00:07:07.680 --> 00:07:09.990
+Të gjitha termat, përfshirë emrat e projekteve
+
+00:07:09.990 --> 00:07:12.180
+Meqenëse zbatohet direkt në kod,
+
+00:07:12.600 --> 00:07:15.000
+Është më e lehtë ta përcaktosh në anglisht nëse është e mundur.
+
+00:07:15.540 --> 00:07:19.510
+Është e rëndësishme që zhvilluesit të ndjekin me besnikëri nevojat e ekspertëve të fushës, por
+
+00:07:19.960 --> 00:07:21.430
+Duke marrë parasysh të gjithë projektin
+
+00:07:21.430 --> 00:07:23.930
+Ne gjithashtu kemi përgjegjësinë t'i drejtojmë gjërat në një drejtim efikas.
+
+00:07:25.850 --> 00:07:27.760
+Nëse keni vendosur për një emër për projektin tuaj
+
+00:07:27.760 --> 00:07:31.380
+Tani është koha për të zbuluar se kush e përdor Sistemin e Rezervimit të Filmave.
+
+00:07:32.020 --> 00:07:34.940
+Sigurisht, duhet të pyesni një ekspert të domenit për informacion në lidhje me këtë.
+
+00:07:35.420 --> 00:07:38.740
+Dhe zbulojmë se kemi klientë dhe menaxherë.
+
+00:07:40.820 --> 00:07:43.280
+Një nga elementët që është e lehtë të mos vihet re në fazat e hershme të projektimit është
+
+00:07:43.280 --> 00:07:44.760
+Është një varësi e jashtme
+
+00:07:45.340 --> 00:07:46.580
+Varësitë e jashtme janë
+
+00:07:46.580 --> 00:07:49.210
+Mund të jetë një sistem i trashëguar ekzistues,
+
+00:07:49.660 --> 00:07:51.420
+Mund të jetë një sistem pagesash
+
+00:07:52.020 --> 00:07:53.670
+Kjo marrëdhënie varësie është
+
+00:07:53.670 --> 00:07:56.760
+Sepse mund të ketë një ndikim të madh në dizajnin e përgjithshëm të sistemit.
+
+00:07:56.950 --> 00:08:00.150
+Është e rëndësishme ta identifikoni atë sa më shpejt të jetë e mundur.
+
+00:08:00.570 --> 00:08:01.240
+për fat të mirë
+
+00:08:01.820 --> 00:08:04.990
+Elemente të tilla si portat e pagesave dhe sistemet e trashëguara
+
+00:08:05.270 --> 00:08:07.730
+Sepse tashmë përdoret në sistemet ekzistuese
+
+00:08:07.990 --> 00:08:10.360
+Mund të kuptohet relativisht lehtë
+
+00:08:11.230 --> 00:08:14.410
+Një nga gjërat që është e lehtë të anashkalohet në një marrëdhënie varësie është
+
+00:08:14.410 --> 00:08:16.090
+Ekzistojnë faktorë të jashtëm mjedisorë
+
+00:08:16.900 --> 00:08:19.060
+Vendi ynë është në të njëjtën zonë kohore
+
+00:08:19.060 --> 00:08:22.430
+Në një vend me një sipërfaqe të madhe tokësore, çdo teatër ka intervale kohore të ndryshme.
+
+00:08:23.190 --> 00:08:25.100
+Pastaj Sistemi i Rezervimit të Filmave
+
+00:08:25.100 --> 00:08:28.900
+Është e pashmangshme që ajo të ndikohet nga faktorë mjedisorë siç janë zonat kohore.
+
+00:08:29.410 --> 00:08:32.760
+Këta faktorë nuk janë lehtësisht të dukshëm nëse nuk e pyetni drejtpërdrejt ekspertin e fushës.
+
+00:08:32.760 --> 00:08:33.950
+Është e lehtë të humbasësh
+
+00:08:34.740 --> 00:08:37.610
+Ekspertët e domenit kanë tendencë t'i anashkalojnë këto detaje.
+
+00:08:37.610 --> 00:08:40.010
+Meqenëse shpjegimi mund të lihet pas dore.
+
+00:08:41.680 --> 00:08:43.640
+Meqenëse marrëdhënia e varësisë ishte deklaruar qartë
+
+00:08:43.640 --> 00:08:47.500
+Tani le të përqendrohemi në brendësinë e Sistemit të Rezervimit të Filmave.
+
+00:08:48.430 --> 00:08:52.230
+Para së gjithash, çfarë bën klienti në Sistemin e Rezervimit të Filmave?
+
+00:08:52.230 --> 00:08:54.230
+Le t'i pyesim ekspertët e domenit
+
+00:08:55.800 --> 00:08:57.880
+Çfarë bëjnë klientët?
+
+00:08:57.880 --> 00:08:59.970
+Klientët kërkojnë filma,
+
+00:08:59.970 --> 00:09:01.450
+Shikoni detajet e filmit,
+
+00:09:01.450 --> 00:09:02.910
+Zgjidhni një kohë për shfaqjen e filmit,
+
+00:09:02.910 --> 00:09:04.450
+Zgjidhni vendin tuaj,
+
+00:09:04.450 --> 00:09:05.920
+Rezervoni bileta filmash,
+
+00:09:05.920 --> 00:09:07.610
+Kontrolloni detajet e rezervimit,
+
+00:09:07.610 --> 00:09:10.180
+Bëni gjëra të tilla si anulimi i një rezervimi
+
+00:09:10.180 --> 00:09:15.750
+A janë zgjedhja e orarit të shfaqjes dhe zgjedhja e vendit pjesë e procesit të rezervimit të biletave të filmit?
+
+00:09:15.750 --> 00:09:18.880
+Dhe për të rezervuar bileta filmash, për të anuluar rezervimet
+
+00:09:18.880 --> 00:09:22.210
+Në fund të fundit, a nuk po blini thjesht një biletë dhe po merrni një rimbursim?
+
+00:09:22.210 --> 00:09:23.620
+ke të drejtë
+
+00:09:23.620 --> 00:09:25.030
+Pikërisht
+
+00:09:25.480 --> 00:09:27.880
+Sepse tani është një domen i njohur
+
+00:09:27.880 --> 00:09:31.240
+Zgjidhni një kohë shfaqjeje dhe zgjidhni vendin tuaj
+
+00:09:31.240 --> 00:09:33.200
+A është kjo pjesë e procesit të rezervimit të biletave të filmit?
+
+00:09:33.200 --> 00:09:34.530
+Mund të pyesja
+
+00:09:34.980 --> 00:09:37.220
+Por nëse është një domen i panjohur,
+
+00:09:37.410 --> 00:09:40.160
+Analizimi i çdo rasti përdorimi në detaje
+
+00:09:40.520 --> 00:09:43.330
+Do ta përsërisni procesin e rafinimit disa herë.
+
+00:09:43.790 --> 00:09:45.350
+Në varësi të situatës së projektit
+
+00:09:45.350 --> 00:09:48.080
+Mund ta përsërisni këtë proces disa herë,
+
+00:09:48.080 --> 00:09:50.580
+Sa më shumë kohë të marrësh dhe të analizosh me kujdes,
+
+00:09:50.580 --> 00:09:54.190
+Zvogëloni procesin e provës dhe gabimit gjatë fazave të projektimit dhe zbatimit.
+
+00:09:55.850 --> 00:09:57.530
+Bazuar në bisedën e deritanishme
+
+00:09:57.530 --> 00:10:00.970
+Ne i kemi organizuar rastet e përdorimit të klientëve tanë në katër kategori:
+
+00:10:02.960 --> 00:10:04.470
+Tjetra është administratori
+
+00:10:05.190 --> 00:10:08.850
+Administratori mund të shohë se ka pesë artikuj menaxhimi:
+
+00:10:09.440 --> 00:10:13.620
+Personalisht, jam i kujdesshëm në përdorimin e fjalës "Menaxho" në zhvillim.
+
+00:10:14.360 --> 00:10:16.980
+Menaxho është një shprehje shumë e gjerë
+
+00:10:16.980 --> 00:10:19.030
+Nuk është e qartë se çfarë po bën
+
+00:10:19.640 --> 00:10:20.950
+Edhe këtu është e njëjta gjë
+
+00:10:21.370 --> 00:10:23.760
+Si menaxhohet saktësisht?
+
+00:10:23.760 --> 00:10:24.810
+Nuk e di
+
+00:10:25.930 --> 00:10:27.620
+Duke folur me ekspertë të domenit
+
+00:10:27.620 --> 00:10:31.220
+Çdo artikull menaxhimi është zgjeruar në një rast përdorimi specifik.
+
+00:10:31.900 --> 00:10:33.660
+Nëse është një projekt i vërtetë
+
+00:10:33.660 --> 00:10:35.890
+Me shumë mundësi ka më shumë raste përdorimi se kaq.
+
+00:10:36.150 --> 00:10:39.000
+Këtu e kam thjeshtuar për shpjegim.
+
+00:10:39.860 --> 00:10:42.700
+Ajo që është e rëndësishme të theksohet këtu është se kur krijoni një kohëzgjatje ekzekutimi,
+
+00:10:43.020 --> 00:10:45.900
+Mund të shihni që bileta është krijuar gjithashtu
+
+00:10:46.960 --> 00:10:49.200
+Dhe kur blini ose rimbursoni një biletë
+
+00:10:49.490 --> 00:10:53.910
+Gjithashtu mund të shihni se ne përdorim një shërbim të jashtëm të quajtur portë pagesash.
+
+00:10:55.890 --> 00:10:58.670
+Unë kombinova rastet e përdorimit të klientëve dhe menaxherëve.
+
+00:10:59.350 --> 00:11:01.730
+Duke e parë të gjithë rastin e përdorimit si ky
+
+00:11:01.730 --> 00:11:02.900
+Diçka ndihet bosh
+
+00:11:03.890 --> 00:11:05.840
+Ekziston një mundësi për të shtuar një kinema
+
+00:11:05.840 --> 00:11:08.720
+Nuk shoh asgjë si Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Duket sikur ka mjaft raste përdorimi që po lihen pas dore.
+
+00:11:12.770 --> 00:11:15.980
+Sepse nga perspektiva e një eksperti të fushës, ka shumë për të shpjeguar.
+
+00:11:15.980 --> 00:11:17.950
+Ky rast përdorimi, i cili duket kaq i qartë,
+
+00:11:18.150 --> 00:11:19.810
+Mund ta anashkaloni shpjegimin
+
+00:11:20.770 --> 00:11:23.460
+Po nga perspektiva e një zhvilluesi, çfarë mund të themi?
+
+00:11:24.400 --> 00:11:28.290
+Është më mirë të lihen mënjanë rastet e thjeshta të lajmeve, siç është kërkimi i një teatri.
+
+00:11:28.290 --> 00:11:30.700
+A nuk do të ishte kjo më e dobishme për menaxhimin e dokumenteve?
+
+00:11:31.720 --> 00:11:32.870
+Nëse është dizajn backend
+
+00:11:32.870 --> 00:11:35.920
+Raste të thjeshta përdorimi si kërkimi i një kinemaje
+
+00:11:35.920 --> 00:11:37.760
+Mendoj se është në rregull ta anashkalojmë
+
+00:11:38.600 --> 00:11:41.570
+Ajo që po them është se nuk është tepër vonë për t'u përgjigjur gjatë fazës së zbatimit.
+
+00:11:42.370 --> 00:11:44.310
+Por nëse është një projekt i vërtetë
+
+00:11:44.310 --> 00:11:48.450
+Për planifikuesit e ekranit, këto raste përdorimi janë një pikënisje e mirë.
+
+00:11:49.250 --> 00:11:52.300
+Planifikuesi shqyrtoi rastin e përdorimit të kërkimit të një teatri.
+
+00:11:52.300 --> 00:11:55.300
+Si duhet ta bëj të mundur kërkimin e kinemave?
+
+00:11:55.300 --> 00:11:56.600
+Do të jeni në gjendje të mendoni
+
+00:11:58.000 --> 00:12:00.880
+Kur i kombinoni diagramet në një, duket e ndërlikuar.
+
+00:12:01.490 --> 00:12:05.150
+Nëse do të ishte një projekt i vërtetë, do të ishte shumë më i ndërlikuar.
+
+00:12:05.720 --> 00:12:08.240
+Në këtë rast, nuk ka nevojë të detyrosh një bashkim.
+
+00:12:08.810 --> 00:12:13.910
+Sapo i kam bashkuar këtu për të zbuluar se ka raste që mungojnë.
+
+00:12:16.020 --> 00:12:18.490
+I plotësova të gjitha rastet që mungonin
+
+00:12:19.200 --> 00:12:21.880
+Kam një rast përdorimi ku lidhja me aktorin është lënë jashtë.
+
+00:12:22.290 --> 00:12:25.720
+Kjo vlen si për klientët ashtu edhe për menaxherët.
+
+00:12:26.400 --> 00:12:29.480
+Dhe për lehtësinë e zbatimit, e shkrova në anglisht.
+
+00:12:31.370 --> 00:12:34.160
+Tani është në rregull sepse është një projekt i vogël
+
+00:12:34.160 --> 00:12:36.160
+Nëse projekti është i madh dhe kompleks
+
+00:12:36.160 --> 00:12:38.980
+Ku duhet të fillojë shpjegimin një ekspert i fushës?
+
+00:12:38.980 --> 00:12:40.380
+Mund të jetë e vështirë
+
+00:12:41.280 --> 00:12:43.300
+Çfarë bën një administrator?
+
+00:12:43.300 --> 00:12:44.700
+Është shumë punë
+
+00:12:44.700 --> 00:12:46.620
+Siç pritej nga menaxheri
+
+00:12:47.620 --> 00:12:49.750
+Në këtë rast, a mund t’i ndajmë aktorët në nën-ndarje?
+
+00:12:49.750 --> 00:12:52.340
+Është gjithashtu një ide e mirë të rishikoni
+
+00:12:53.140 --> 00:12:54.790
+Në fillim më quanin administrator
+
+00:12:54.790 --> 00:12:57.400
+Mund të jetë e mundur të ndahet sipas rolit
+
+00:12:58.520 --> 00:13:00.820
+Dhe duke përdorur Sistemin e Rezervimit të Filmave
+
+00:13:00.820 --> 00:13:02.870
+Mund të ketë shërbime të jashtme
+
+00:13:03.660 --> 00:13:05.340
+Nëse i segmentojmë aktorët në këtë mënyrë,
+
+00:13:05.340 --> 00:13:09.420
+Ekspertët e fushës do të jenë në gjendje të ofrojnë informacion më sistematik.
+
+00:13:10.350 --> 00:13:14.000
+Sigurisht, ky është vetëm një shembull i analizimit të një domeni kompleks.
+
+00:13:14.540 --> 00:13:17.320
+Mund të ketë mënyra të tjera të mira
+
+00:13:17.960 --> 00:13:21.740
+Është e rëndësishme të reagoni në mënyrë fleksibile në varësi të situatës.
+
+00:13:24.250 --> 00:13:25.060
+Ky është përfundimi
+
+00:13:25.950 --> 00:13:29.170
+Këtë herë, do të përdorim një diagram të rastit të përdorimit
+
+00:13:29.170 --> 00:13:30.840
+Vendosni objektiva për projektin
+
+00:13:31.230 --> 00:13:33.700
+Kam kaluar nëpër fazat fillestare të analizës.
+
+00:13:34.880 --> 00:13:38.010
+Personalisht, gjatë gjithë procesit të zhvillimit
+
+00:13:38.010 --> 00:13:40.060
+Mendoj se analiza është më e vështira
+
+00:13:40.570 --> 00:13:44.250
+Sepse duhet të organizojmë konceptet më abstrakte dhe të paqarta.
+
+00:13:45.020 --> 00:13:47.650
+Herën tjetër do të shqyrtojmë rastet kryesore të përdorimit
+
+00:13:47.650 --> 00:13:49.470
+Le ta analizojmë më në detaje
+
+00:13:50.300 --> 00:13:52.100
+Faleminderit për punën tuaj të palodhur deri më tani.
+

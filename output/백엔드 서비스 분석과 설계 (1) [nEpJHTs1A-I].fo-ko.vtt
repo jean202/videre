@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: fo
+
+00:00:00.000 --> 00:00:02.020
+Hey, hetta er háttalagsregla.
+
+00:00:03.290 --> 00:00:05.350
+Forrit er fløkt
+
+00:00:06.650 --> 00:00:08.890
+Fyrst og fremst er nógv koda, sum skal skrivast.
+
+00:00:09.760 --> 00:00:12.710
+Bara dømi um verkætlanirnar eg havi gjørt til hesa røðina
+
+00:00:12.710 --> 00:00:15.270
+Kodan er yvir 12.000 linjur long.
+
+00:00:16.330 --> 00:00:18.320
+Um talan er um eina veruliga rakstrartænastu
+
+00:00:18.320 --> 00:00:21.530
+Sjálvt um tað er ein lítil tænasta, so fer hon lættliga upp um 100.000 linjur.
+
+00:00:22.130 --> 00:00:25.300
+Hundrað túsund linjur eru nóg mikið til at fylla tjúgu skaldsøgur.
+
+00:00:26.870 --> 00:00:29.560
+At skriva langa kodu merkir ikki, at tað er liðugt.
+
+00:00:30.330 --> 00:00:32.540
+Tú mást halda á við at rætta kodu, tú skrivar.
+
+00:00:33.400 --> 00:00:35.800
+Um tú rættar A, so brotnar B.
+
+00:00:35.800 --> 00:00:39.130
+Um tú rættar B, so brotna A og C.
+
+00:00:41.090 --> 00:00:44.260
+Fyri at brúka eina líkning, so er tað sum at vera fangaður í einum Rasputica og gráta.
+
+00:00:44.260 --> 00:00:46.360
+Tú kundi sagt, at tað er ein líknandi støða sum ein hestur.
+
+00:00:47.330 --> 00:00:50.550
+Hesa tíðina følir tú tørvin á sniðgeving.
+
+00:00:52.580 --> 00:00:55.010
+Men tá tú faktiskt roynir at skriva eitt sniðgevingarskjal,
+
+00:00:55.500 --> 00:00:58.490
+At siga tankarnar í høvdinum ítøkiliga
+
+00:00:58.790 --> 00:01:01.260
+Tú finnur útav, at tað ikki er so lætt, sum tú heldur.
+
+00:01:01.890 --> 00:01:05.600
+Sjálvt nótar, sum er eitt skjal, sum visuelt tekur upp ljóð ella tónleik,
+
+00:01:05.600 --> 00:01:06.700
+Tað er so fløkt
+
+00:01:07.520 --> 00:01:10.610
+Ikki bara tónleikur, men eisini fíggjar- og logistikk
+
+00:01:10.610 --> 00:01:14.060
+Fjølbroyttari hugtøk og abstrakt brúkarakrøv
+
+00:01:14.060 --> 00:01:17.220
+Tað verður ikki lætt at úttrykkja tað í einum ávísum modelli.
+
+00:01:18.530 --> 00:01:19.490
+Tíbetur
+
+00:01:19.770 --> 00:01:23.200
+At vinna á trupulleikanum við at modellera abstrakt hugtøk
+
+00:01:23.540 --> 00:01:26.860
+UML varð føtt seinast í 1990-árunum.
+
+00:01:27.730 --> 00:01:30.120
+Tað stóð Grady Butch á odda fyri.
+
+00:01:31.460 --> 00:01:34.390
+Vit brúka UML við forvæntan
+
+00:01:34.980 --> 00:01:36.990
+Tekna eitt floksmynd
+
+00:01:36.990 --> 00:01:38.760
+Latið okkum eisini tekna eitt raðfylgjudiagramm
+
+00:01:39.430 --> 00:01:39.980
+hvussu enn
+
+00:01:40.360 --> 00:01:43.160
+Tá eg faktiskt royndi at sniðgeva tað, var tað øðrvísi enn at koda tað beinleiðis.
+
+00:01:43.160 --> 00:01:45.130
+Tað tykist ikki vera nógv øðrvísi
+
+00:01:45.590 --> 00:01:46.520
+Hví er tað so?
+
+00:01:47.350 --> 00:01:50.910
+Tað er tí, at tankagongdin er von við umsiting.
+
+00:01:51.290 --> 00:01:54.170
+Heldur enn at gera abstrakt hugtøk meira ítøkilig,
+
+00:01:54.490 --> 00:01:57.590
+Tí tað umsetir hugsan á umsitingarstøði til UML.
+
+00:01:58.520 --> 00:02:00.270
+Bara tí tú dugir at lesa nótar
+
+00:02:00.270 --> 00:02:01.950
+Tað er ikki sum um eg dugi at yrkja tað
+
+00:02:02.390 --> 00:02:03.850
+Bara tí tú lærdi UML
+
+00:02:03.850 --> 00:02:06.170
+Tað er ikki sum um, at tú mennir sniðgevaraførleikar.
+
+00:02:07.700 --> 00:02:09.300
+So í hesi røðini
+
+00:02:09.300 --> 00:02:11.580
+Gjøgnum veruligar verkætlanir
+
+00:02:11.580 --> 00:02:14.420
+Hvussu vit konkretisera abstrakt krøv
+
+00:02:14.420 --> 00:02:16.290
+Kanst tú seta kotuna saman?
+
+00:02:16.290 --> 00:02:18.010
+Eg vil fegin vísa tykkum persónliga
+
+00:02:18.530 --> 00:02:20.930
+Eg valdi at bíleggja biografatgongumerki eftir øki.
+
+00:02:21.370 --> 00:02:25.200
+Biografatgongumerkjabíleggingar eru lættar at skilja, tí tær eru mestsum kend øki.
+
+00:02:25.200 --> 00:02:29.710
+Inniheldur ymiskar funkur so sum innritan, gjald, og plássval.
+
+00:02:29.710 --> 00:02:31.580
+Tað tykist sum eitt gott dømi
+
+00:02:33.600 --> 00:02:36.890
+Í grundini er evnið í hesi greinini ritbúnaðarsniðgeving, men
+
+00:02:36.890 --> 00:02:40.350
+Eisini fara vit at fevna um royndardrivna menning.
+
+00:02:41.210 --> 00:02:44.890
+Nútímans menningarumhvørvi stuðla upprunaliga royndartól.
+
+00:02:45.600 --> 00:02:48.320
+Sjálvt um tú hyggur at kendum open source verkætlanum, so
+
+00:02:48.320 --> 00:02:51.130
+Vit hava eitt ávíst stig av royndum.
+
+00:02:51.740 --> 00:02:56.200
+Hetta merkir helst, at royndir hava so stóran týdning og nyttu.
+
+00:02:56.870 --> 00:02:58.120
+Men í veruleikanum
+
+00:02:58.120 --> 00:03:02.590
+Í nógvum førum er ikki bara TDD, men enntá royndarsjálvvirkan ikki rætt sett í verk.
+
+00:03:03.190 --> 00:03:06.260
+At skriva innihaldsríkar royndir fyrst uttan nakra fyrireiking er
+
+00:03:06.260 --> 00:03:07.540
+Tað er ongantíð lætt
+
+00:03:08.410 --> 00:03:12.340
+Hetta er nakað, sum krevur samanlagdu førleikarnar hjá ritbúnaðarsniðgeving.
+
+00:03:13.320 --> 00:03:16.270
+So, tað er betri at fáast við design og TDD saman.
+
+00:03:16.270 --> 00:03:18.180
+Eg metti tað vera effektivt.
+
+00:03:20.120 --> 00:03:23.450
+So nú skulu vit byrja fyrsta fundin í verkætlanini.
+
+00:03:24.150 --> 00:03:26.470
+Tí hetta er ein lítil verkætlan
+
+00:03:26.470 --> 00:03:28.090
+Tað eru tveir luttakarar
+
+00:03:28.790 --> 00:03:32.340
+Tann til vinstru er økisserfrøðingur, og tann til høgru er mennari.
+
+00:03:34.550 --> 00:03:37.790
+Domain serfrøðingar hava orðið á teimum skipanum, sum vit hava brúk fyri at byggja upp.
+
+00:03:37.790 --> 00:03:39.280
+Tað sigur nógvar søgur
+
+00:03:40.340 --> 00:03:42.160
+Sjónleikarhúsið vit reka
+
+00:03:42.160 --> 00:03:44.710
+Tey eru umleið fýra túsund um alt landið.
+
+00:03:44.710 --> 00:03:47.220
+Tað kann økjast enn meira í framtíðini.
+
+00:03:47.220 --> 00:03:50.480
+Í løtuni er bert bíleggingarfunktión fyri biografatgongumerki stuðlað.
+
+00:03:50.480 --> 00:03:54.510
+Vit ætla at leggja atgongumerkjasølu til stórar framførslur afturat seinni.
+
+00:03:54.510 --> 00:03:58.940
+Og tað týdningarmesta er, at tú ongantíð skalt dupulta bíleggja pláss.
+
+00:03:58.940 --> 00:04:03.250
+Fyrr høvdu kundatænastumiðstøðirnar ordiliga ringt við tí slagnum av trupulleika.
+
+00:04:03.250 --> 00:04:07.670
+Tí tað eru nógvar filmsupplýsingar og ummælisdátur, sum longu eru savnaðar.
+
+00:04:07.670 --> 00:04:11.090
+Hesi dátu mugu vera óbroytt.
+
+00:04:12.090 --> 00:04:14.730
+Her er prátið væl skipað, men
+
+00:04:14.890 --> 00:04:16.960
+Faktiskt eru fleiri upplýsingar
+
+00:04:16.960 --> 00:04:18.600
+Tað verður latið á ein óskipaðan hátt .
+
+00:04:19.470 --> 00:04:22.110
+Men søgan, sum kemur fram í byrjanini av verkætlanini, er
+
+00:04:22.110 --> 00:04:23.780
+Tí tað er tað týdningarmesta kravið
+
+00:04:23.780 --> 00:04:25.320
+Tú mást lurta væl eftir
+
+00:04:27.110 --> 00:04:29.810
+Forritarar lurta eftir serfrøðingum á økinum.
+
+00:04:29.810 --> 00:04:31.290
+Eg havi nakrar spurningar.
+
+00:04:32.290 --> 00:04:34.660
+Stóra framførsluatgongumerkjabíleggingarfunktiónin, sum tú nevndi
+
+00:04:34.660 --> 00:04:36.910
+Nær verður tað lagt afturat?
+
+00:04:36.910 --> 00:04:39.910
+Skal hetta takast við í umfangið av hesi verkætlan frammanundan?
+
+00:04:39.910 --> 00:04:43.590
+Ella eg vil gjarna vita um eg skal umhugsa tað enn
+
+00:04:43.590 --> 00:04:46.090
+Og tørvurin á at varðveita verandi dátur .
+
+00:04:46.090 --> 00:04:48.940
+Merkir hetta, at vit ikki skulu broyta DB skipanina?
+
+00:04:48.940 --> 00:04:51.950
+Eru nakrar aðrar tænastur, sum deila DB í løtuni?
+
+00:04:53.580 --> 00:04:54.980
+Sum tit síggja á DB, so er
+
+00:04:54.980 --> 00:04:57.290
+Tí domain serfrøðingar eru ikki forritarar.
+
+00:04:57.290 --> 00:04:59.430
+Tøkniliga úttrykkið er tvítýtt
+
+00:04:59.910 --> 00:05:02.890
+Forritarar mugu kanna hesi tingini væl.
+
+00:05:04.230 --> 00:05:07.450
+Serfrøðingar á økinum svara spurningum hjá forritarum soleiðis:
+
+00:05:08.330 --> 00:05:10.210
+Stóra framførsluatgongumerkjabíleggingarfunktiónin
+
+00:05:10.210 --> 00:05:13.450
+Tað er eingin ávís tíðarætlan enn.
+
+00:05:13.450 --> 00:05:15.970
+Men tá funktiónir verða lagdar afturat í framtíðini
+
+00:05:15.970 --> 00:05:18.700
+Soleiðis at tú kanst uppgradera uttan stórvegis trupulleikar
+
+00:05:18.700 --> 00:05:22.600
+Eg haldi, at tað hevði verið gott, um tú kundi givið tí nøkur umhugsni hesaferð.
+
+00:05:22.600 --> 00:05:27.050
+Vit brúka ikki DB til annað enn okkara tænastur.
+
+00:05:27.050 --> 00:05:32.840
+At broyta sjálva skipanina er ikki ein stórur trupulleiki, so leingi dáturnar verða væl viðlíkahildnar.
+
+00:05:33.840 --> 00:05:35.080
+Eftir at hava hoyrt søguna
+
+00:05:35.080 --> 00:05:39.400
+Eg haldi ikki, at tær nýtist at stúra fyri stóru sýningini.
+
+00:05:39.400 --> 00:05:40.790
+Tað er ikki umfangið av verkætlanini.
+
+00:05:40.790 --> 00:05:43.040
+Krøvini eru heldur ikki greið
+
+00:05:43.040 --> 00:05:44.930
+Eg veit ikki nær eg fái brúk fyri tí, men
+
+00:05:44.930 --> 00:05:47.710
+Hatta er ein trupulleiki, sum vit mugu kanna aftur seinni.
+
+00:05:48.920 --> 00:05:50.910
+Sjálvt um tað ikki er skrásett í skjalinum .
+
+00:05:50.910 --> 00:05:54.880
+Eisini fara økisserfrøðingar at geva svar um, at teir fara at umhugsa stórar framførslur.
+
+00:05:54.880 --> 00:05:55.960
+Tú mást ikki gloyma
+
+00:05:56.740 --> 00:05:58.320
+Í lagi
+
+00:05:58.320 --> 00:06:00.630
+Síðani er stórframførsluatgongumerkjabíleggingarfunktiónin
+
+00:06:00.630 --> 00:06:04.500
+Eg vildi ikki sett tað millum fremstu raðfestingar fyri hesa verkætlan.
+
+00:06:04.500 --> 00:06:08.220
+Í staðin ger tað tað lættari at víðka um virksemið seinni í menningartilgongdini.
+
+00:06:08.220 --> 00:06:10.190
+Eg skal ansa væl eftir tí
+
+00:06:10.190 --> 00:06:12.840
+Ikki hugsa um tað. Lít bara á meg
+
+00:06:13.840 --> 00:06:15.960
+Tað er umráðandi at semjast væl
+
+00:06:17.980 --> 00:06:19.500
+Gjøgnum okkara prát higartil
+
+00:06:19.500 --> 00:06:22.700
+Toppraðfestingarnar eru samanfataðar soleiðis:
+
+00:06:23.220 --> 00:06:25.890
+Hetta eru upplýsingarnar, sum økisserfrøðingar hava givið.
+
+00:06:25.890 --> 00:06:28.410
+Tulka og skipa frá einum mennarasjónarhorni
+
+00:06:28.410 --> 00:06:29.810
+Byrja verkætlanina
+
+00:06:31.700 --> 00:06:32.860
+Við serfrøðingum á økinum
+
+00:06:32.860 --> 00:06:34.980
+Tá tú hevur tikið støðu til málini við tíni verkætlan,
+
+00:06:35.620 --> 00:06:37.980
+Nú er tíðin komin at nevna tína verkætlan.
+
+00:06:38.750 --> 00:06:41.840
+Spyr fyrst ein serfrøðing um teirra meining.
+
+00:06:42.800 --> 00:06:45.540
+Hvat skal eg nevna verkætlanina?
+
+00:06:45.540 --> 00:06:47.680
+Tað er ein bíleggingarskipan fyri film.
+
+00:06:47.680 --> 00:06:50.150
+Hvat við bara Filmsbíleggingarskipanini?
+
+00:06:50.150 --> 00:06:51.430
+nei, eg vil ikki
+
+00:06:51.430 --> 00:06:53.570
+Eg skal taka mær av teimum stóru framførslunum
+
+00:06:53.570 --> 00:06:56.930
+Latið okkum fara við Filmsbíleggingarskipanini. Ja?
+
+00:06:56.930 --> 00:06:58.180
+stórur
+
+00:06:58.180 --> 00:06:59.950
+Stóra tøkk
+
+00:07:01.000 --> 00:07:05.230
+Serfrøðingar á økinum vilja kanska hava verkætlanarnøvn á koreanskum.
+
+00:07:05.580 --> 00:07:07.680
+Men frá einum mennarasjónarhorni
+
+00:07:07.680 --> 00:07:09.990
+Øll hugtøk íroknað verkætlanarnøvn
+
+00:07:09.990 --> 00:07:12.180
+Av tí at tað er implementerað beinleiðis í kodu,
+
+00:07:12.600 --> 00:07:15.000
+Tað er lættari at definera tað á enskum um tað ber til.
+
+00:07:15.540 --> 00:07:19.510
+Tað er umráðandi hjá forritarum at fylgja tørvinum hjá økisserfrøðingum trúgvur, men
+
+00:07:19.960 --> 00:07:21.430
+Tá hugsað verður um alla verkætlanina
+
+00:07:21.430 --> 00:07:23.930
+Vit hava eisini ábyrgdina av at stýra tingunum effektivan veg.
+
+00:07:25.850 --> 00:07:27.760
+Um tú hevur tikið støðu til eitt navn til tína verkætlan
+
+00:07:27.760 --> 00:07:31.380
+Nú er tíðin komin at finna útav, hvør brúkar Filmsbíleggingarskipanina.
+
+00:07:32.020 --> 00:07:34.940
+Tú skalt sjálvandi spyrja ein serfrøðing á økinum um upplýsingar um hetta.
+
+00:07:35.420 --> 00:07:38.740
+Og vit finna útav, at vit hava kundar og leiðarar.
+
+00:07:40.820 --> 00:07:43.280
+Eitt av teimum elementunum, sum er lætt at sleppa undan í fyrstu stigunum av sniðgevingini, er
+
+00:07:43.280 --> 00:07:44.760
+Tað er ein avhengi uttanífrá.
+
+00:07:45.340 --> 00:07:46.580
+Uttanhýsis avhengi eru
+
+00:07:46.580 --> 00:07:49.210
+Tað kundi verið ein verandi arvaskipan,
+
+00:07:49.660 --> 00:07:51.420
+Tað kundi verið ein gjaldsskipan
+
+00:07:52.020 --> 00:07:53.670
+Hetta avhengissambandið er
+
+00:07:53.670 --> 00:07:56.760
+Tí tað kann hava stóra ávirkan á samlaðu skipanarsniðið.
+
+00:07:56.950 --> 00:08:00.150
+Tað er umráðandi at eyðmerkja tað so tíðliga sum gjørligt.
+
+00:08:00.570 --> 00:08:01.240
+tíbetur
+
+00:08:01.820 --> 00:08:04.990
+Elementir sum gjaldsgáttir og arvaskipanir
+
+00:08:05.270 --> 00:08:07.730
+Tí tað longu verður brúkt í verandi skipanum .
+
+00:08:07.990 --> 00:08:10.360
+Tað kann skiljast lutfalsliga lætt
+
+00:08:11.230 --> 00:08:14.410
+Eitt av tí, sum er lætt at síggja burtur frá í einum avhengandi parlagi, er
+
+00:08:14.410 --> 00:08:16.090
+Tað eru umhvørvislig viðurskifti uttanífrá .
+
+00:08:16.900 --> 00:08:19.060
+Okkara land er í somu tíðarsonu .
+
+00:08:19.060 --> 00:08:22.430
+Í einum landi við stórum landaøki hevur hvørt sjónleikarhús sítt tíðarskeið.
+
+00:08:23.190 --> 00:08:25.100
+Síðani filmsbíleggingarskipanin
+
+00:08:25.100 --> 00:08:28.900
+Tað slepst ikki undan, at tað verður ávirkað av umhvørvisligum viðurskiftum sum t.d.
+
+00:08:29.410 --> 00:08:32.760
+Hesi viðurskifti eru ikki lætt at síggja, uttan so at tú spyrt økisserfrøðingin beinleiðis.
+
+00:08:32.760 --> 00:08:33.950
+Tað er lætt at sleppa
+
+00:08:34.740 --> 00:08:37.610
+Serfrøðingar á økinum hava lyndi til at síggja burtur frá hesum smálutum.
+
+00:08:37.610 --> 00:08:40.010
+Tí forkláringin kann sleppa
+
+00:08:41.680 --> 00:08:43.640
+Av tí at avhengissambandið varð greitt sagt
+
+00:08:43.640 --> 00:08:47.500
+Latið okkum nú fokusera á innanhýsis í Filmsbíleggingarskipanini.
+
+00:08:48.430 --> 00:08:52.230
+Fyrst og fremst, hvat ger kundin í Filmsbíleggingarskipanini?
+
+00:08:52.230 --> 00:08:54.230
+Latið okkum spyrja økisserfrøðingarnar
+
+00:08:55.800 --> 00:08:57.880
+Hvat gera kundar?
+
+00:08:57.880 --> 00:08:59.970
+Kundar leita eftir filmum,
+
+00:08:59.970 --> 00:09:01.450
+Sí smálutir um filmin,
+
+00:09:01.450 --> 00:09:02.910
+Vel eina sýningartíð,
+
+00:09:02.910 --> 00:09:04.450
+Vel títt sess,
+
+00:09:04.450 --> 00:09:05.920
+Bílegg biografatgongumerki,
+
+00:09:05.920 --> 00:09:07.610
+Kanna bíleggingar upplýsingar,
+
+00:09:07.610 --> 00:09:10.180
+Ger ting sum at avlýsa eina bílegging
+
+00:09:10.180 --> 00:09:15.750
+Eru tað at velja sýningartíð og at velja pláss ein partur av tilgongdini at bíleggja biografatgongumerki?
+
+00:09:15.750 --> 00:09:18.880
+Og at bíleggja biografatgongumerki, at avlýsa bíleggingar
+
+00:09:18.880 --> 00:09:22.210
+Keypir tú jú ikki bara ein atgongumerki og fært peningin endurgoldnan?
+
+00:09:22.210 --> 00:09:23.620
+tú hevur rætt
+
+00:09:23.620 --> 00:09:25.030
+Tað er rætt
+
+00:09:25.480 --> 00:09:27.880
+Tí tað er eitt kent øki nú
+
+00:09:27.880 --> 00:09:31.240
+Vel sýningartíð og vel títt pláss
+
+00:09:31.240 --> 00:09:33.200
+Er hetta ein partur av tilgongdini at bíleggja biografatgongumerki?
+
+00:09:33.200 --> 00:09:34.530
+Eg kundi spurt
+
+00:09:34.980 --> 00:09:37.220
+Men um tað er eitt ókent øki,
+
+00:09:37.410 --> 00:09:40.160
+Greina hvørt nýtslutilfelli nærri
+
+00:09:40.520 --> 00:09:43.330
+Tú fert at endurtaka raffineringstilgongdina fleiri ferðir.
+
+00:09:43.790 --> 00:09:45.350
+Alt eftir verkætlanarstøðuni
+
+00:09:45.350 --> 00:09:48.080
+Tú kanst endurtaka hesa tilgongdina fleiri ferðir,
+
+00:09:48.080 --> 00:09:50.580
+Jú meira tú tekur tær tíð og greinar væl,
+
+00:09:50.580 --> 00:09:54.190
+Minka um royndir og feilir í sniðgevingar- og umsitingarstigunum.
+
+00:09:55.850 --> 00:09:57.530
+Út frá samrøðuni higartil
+
+00:09:57.530 --> 00:10:00.970
+Vit hava skipað okkara kundanýtslutilburðir í fýra flokkar:
+
+00:10:02.960 --> 00:10:04.470
+Næst er umsitarin
+
+00:10:05.190 --> 00:10:08.850
+Umsitarin sær, at tað eru fimm leiðslulutir:
+
+00:10:09.440 --> 00:10:13.620
+Persónliga eri eg varin við at brúka orðið "Manage" í menning.
+
+00:10:14.360 --> 00:10:16.980
+Stýra er eitt ov breitt úttrykk
+
+00:10:16.980 --> 00:10:19.030
+Tað er ógreitt, hvat tú gert.
+
+00:10:19.640 --> 00:10:20.950
+Tað er tað sama her eisini
+
+00:10:21.370 --> 00:10:23.760
+Hvussu er tað júst stýrt?
+
+00:10:23.760 --> 00:10:24.810
+Eg veit ikki
+
+00:10:25.930 --> 00:10:27.620
+Við at tosa við serfrøðingar á økinum
+
+00:10:27.620 --> 00:10:31.220
+Hvør leiðslulutur er víðkaður til eitt ávíst nýtslutilfelli.
+
+00:10:31.900 --> 00:10:33.660
+Um tað er ein verulig verkætlan
+
+00:10:33.660 --> 00:10:35.890
+Tað eru nokk fleiri nýtslutilfelli enn hetta.
+
+00:10:36.150 --> 00:10:39.000
+Her havi eg einfaldað tað til forkláring.
+
+00:10:39.860 --> 00:10:42.700
+Tað sum er umráðandi at leggja til merkis her er, at tá tú gert eina koyritíð,
+
+00:10:43.020 --> 00:10:45.900
+Tú sært, at atgongumerkið eisini er skapt
+
+00:10:46.960 --> 00:10:49.200
+Og tá ið tú keypir ella endurrindar atgongumerki
+
+00:10:49.490 --> 00:10:53.910
+Tú sært eisini, at vit brúka eina tænastu uttanífrá, sum eitur gjaldsgátt.
+
+00:10:55.890 --> 00:10:58.670
+Eg sameindi nýtslutilburðirnar hjá kundum og leiðarum.
+
+00:10:59.350 --> 00:11:01.730
+Hyggja vit at øllum nýtslumálinum soleiðis
+
+00:11:01.730 --> 00:11:02.900
+Okkurt kennist tómt
+
+00:11:03.890 --> 00:11:05.840
+Tað er ein møguleiki at leggja eitt sjónleikarhús afturat.
+
+00:11:05.840 --> 00:11:08.720
+Eg síggi einki sum Leitisjónleikarhúsið
+
+00:11:09.410 --> 00:11:12.130
+Tað tykist sum um tað eru rættiliga nógv nýtslutilfelli, sum verða slept.
+
+00:11:12.770 --> 00:11:15.980
+Tí frá einum økisserfrøðingi er nógv at greiða frá.
+
+00:11:15.980 --> 00:11:17.950
+Hetta nýtslumálið, sum tykist so týðiligt,
+
+00:11:18.150 --> 00:11:19.810
+Tú kanst sleppa frágreiðingini.
+
+00:11:20.770 --> 00:11:23.460
+So hvat við frá einum mennara sjónarhorni?
+
+00:11:24.400 --> 00:11:28.290
+Tað er betri at sleppa einføldum tíðindamálum sum at leita eftir einum sjónleikarhúsi.
+
+00:11:28.290 --> 00:11:30.700
+Hevði hetta ikki verið meira gagnligt fyri skjalaumsiting?
+
+00:11:31.720 --> 00:11:32.870
+Um tað er backend sniðgeving
+
+00:11:32.870 --> 00:11:35.920
+Einføld nýtslutilfelli sum at leita eftir einum sjónleikarhúsi
+
+00:11:35.920 --> 00:11:37.760
+Eg haldi tað er í lagi at sleppa tí
+
+00:11:38.600 --> 00:11:41.570
+Tað, sum eg sigi, er, at tað er ikki ov seint at svara í umsitingarskeiðnum.
+
+00:11:42.370 --> 00:11:44.310
+Men um tað er ein verulig verkætlan
+
+00:11:44.310 --> 00:11:48.450
+Fyri skermplanleggjarar eru hesi nýtslutilfelli eitt gott útgangsstøði.
+
+00:11:49.250 --> 00:11:52.300
+Planleggjarin hugdi at nýtsluførinum við at leita eftir sjónleikarhúsi.
+
+00:11:52.300 --> 00:11:55.300
+Hvussu skal eg gera tað møguligt at leita eftir sjónleikarhúsum?
+
+00:11:55.300 --> 00:11:56.600
+Tú verður førur fyri at hugsa
+
+00:11:58.000 --> 00:12:00.880
+Tá tú setur diagrammini saman til eitt, sær tað fløkt út.
+
+00:12:01.490 --> 00:12:05.150
+Var tað ein verulig verkætlan, so hevði hon verið nógv fløktari.
+
+00:12:05.720 --> 00:12:08.240
+Í hesum føri er ikki neyðugt at noyða samanlegging.
+
+00:12:08.810 --> 00:12:13.910
+Eg havi bara lagt tey saman her fyri at avdúka, at tað mangla mál.
+
+00:12:16.020 --> 00:12:18.490
+Eg fylti øll vantandi málini út.
+
+00:12:19.200 --> 00:12:21.880
+Eg havi eitt nýtslutilfelli, har sambandið við leikaran er slept.
+
+00:12:22.290 --> 00:12:25.720
+Hetta er galdandi fyri bæði kundar og leiðarar.
+
+00:12:26.400 --> 00:12:29.480
+Og fyri at lætta um umsitingina, skrivaði eg tað á enskum.
+
+00:12:31.370 --> 00:12:34.160
+Tað er í lagi nú tí tað er ein lítil verkætlan
+
+00:12:34.160 --> 00:12:36.160
+Um verkætlanin er stór og fløkt
+
+00:12:36.160 --> 00:12:38.980
+Hvar skal ein økisserfrøðingur byrja at greiða frá?
+
+00:12:38.980 --> 00:12:40.380
+Tað kann vera trupult
+
+00:12:41.280 --> 00:12:43.300
+Hvat ger ein umsitarin?
+
+00:12:43.300 --> 00:12:44.700
+Tað er nógv arbeiði
+
+00:12:44.700 --> 00:12:46.620
+Sum væntað frá stjóranum
+
+00:12:47.620 --> 00:12:49.750
+Kunnu vit í hesum førinum undirbýta leikararnar?
+
+00:12:49.750 --> 00:12:52.340
+Tað er eisini eitt gott hugskot at ummæla
+
+00:12:53.140 --> 00:12:54.790
+Í fyrstuni varð eg kallaður umsitari .
+
+00:12:54.790 --> 00:12:57.400
+Tað kann vera møguligt at undirbýta eftir leikluti .
+
+00:12:58.520 --> 00:13:00.820
+Og við at brúka Filmsbíleggingarskipanina
+
+00:13:00.820 --> 00:13:02.870
+Tað kunnu vera uttanhýsis tænastur
+
+00:13:03.660 --> 00:13:05.340
+Um vit segmentera leikararnar soleiðis,
+
+00:13:05.340 --> 00:13:09.420
+Økisserfrøðingar fara at kunna veita meira systematiskar upplýsingar.
+
+00:13:10.350 --> 00:13:14.000
+Hetta er sjálvandi bara eitt dømi um at greina eitt fløkt øki.
+
+00:13:14.540 --> 00:13:17.320
+Tað kunnu vera aðrir góðir mátar
+
+00:13:17.960 --> 00:13:21.740
+Tað er umráðandi at svara fleksibelt alt eftir støðuni.
+
+00:13:24.250 --> 00:13:25.060
+Hetta er niðurstøðan
+
+00:13:25.950 --> 00:13:29.170
+Hesaferð fara vit at brúka eitt nýtslutilburðardiagramm
+
+00:13:29.170 --> 00:13:30.840
+Set tær mál fyri verkætlanina
+
+00:13:31.230 --> 00:13:33.700
+Eg havi gingið ígjøgnum fyrstu stigini av greiningini.
+
+00:13:34.880 --> 00:13:38.010
+Persónliga, undir allari menningartilgongdini
+
+00:13:38.010 --> 00:13:40.060
+Eg haldi, at greining er tann torførasta.
+
+00:13:40.570 --> 00:13:44.250
+Tí vit mugu skipa tey mest abstraktu og ógreiðu hugtøkini.
+
+00:13:45.020 --> 00:13:47.650
+Næstu ferð fara vit at hyggja at høvuðsnýtsluførunum .
+
+00:13:47.650 --> 00:13:49.470
+Latið okkum greina tað nærri
+
+00:13:50.300 --> 00:13:52.100
+Takk fyri tykkara megnar arbeiði higartil.
+

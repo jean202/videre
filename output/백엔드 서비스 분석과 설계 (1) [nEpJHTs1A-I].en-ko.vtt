@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.020
+Hello, this is Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Software is complicated.
+
+00:00:06.650 --> 00:00:08.890
+First of all, there is a lot of code to write. The
+
+00:00:09.760 --> 00:00:12.710
+example project created for this series alone
+
+00:00:12.710 --> 00:00:15.270
+has over 12,000 lines of code. If it is an
+
+00:00:16.330 --> 00:00:18.320
+actual operating service, even a
+
+00:00:18.320 --> 00:00:21.530
+small service, it will easily exceed 100,000 lines.
+
+00:00:22.130 --> 00:00:25.300
+100,000 lines is the amount of code in 20 novels.
+
+00:00:26.870 --> 00:00:29.560
+Writing a long code is not the end. You have to
+
+00:00:30.330 --> 00:00:32.540
+keep fixing the code you wrote. This means that if you
+
+00:00:33.400 --> 00:00:35.800
+fix A, B breaks down, and if you
+
+00:00:35.800 --> 00:00:39.130
+fix B, A and C break down. To use an analogy, it is like a horse
+
+00:00:41.090 --> 00:00:44.260
+crying while trapped in a Rasputica.
+
+00:00:44.260 --> 00:00:46.360
+
+
+00:00:47.330 --> 00:00:50.550
+At this point, you feel the need for design.
+
+00:00:52.580 --> 00:00:55.010
+However, when you actually try to write a design document, you realize that
+
+00:00:55.500 --> 00:00:58.490
+expressing the thoughts in your head in detail is
+
+00:00:58.790 --> 00:01:01.260
+not as easy as you thought. Even a sheet music, a
+
+00:01:01.890 --> 00:01:05.600
+document that visually records sound or music, is
+
+00:01:05.600 --> 00:01:06.700
+this complicated. It is not easy to express not only music but also various concepts such as
+
+00:01:07.520 --> 00:01:10.610
+finance and logistics
+
+00:01:10.610 --> 00:01:14.060
+and abstract user requirements
+
+00:01:14.060 --> 00:01:17.220
+in a concrete model.
+
+00:01:18.530 --> 00:01:19.490
+Fortunately, UML was born in the late 1990s
+
+00:01:19.770 --> 00:01:23.200
+to overcome the difficulty of modeling abstract concepts.
+
+00:01:23.540 --> 00:01:26.860
+
+
+00:01:27.730 --> 00:01:30.120
+Grady Bouch led the way.
+
+00:01:31.460 --> 00:01:34.390
+We use UML with anticipation. Let's
+
+00:01:34.980 --> 00:01:36.990
+draw a class diagram.  I
+
+00:01:36.990 --> 00:01:38.760
+also draw sequence diagrams,
+
+00:01:39.430 --> 00:01:39.980
+but when I
+
+00:01:40.360 --> 00:01:43.160
+actually try to design them, it does
+
+00:01:43.160 --> 00:01:45.130
+n't seem to be much different from coding them directly.
+
+00:01:45.590 --> 00:01:46.520
+Why is that?
+
+00:01:47.350 --> 00:01:50.910
+This is because the thought process is accustomed to implementation. It is
+
+00:01:51.290 --> 00:01:54.170
+
+
+00:01:54.490 --> 00:01:57.590
+because it transfers implementation-level thoughts into UML rather than gradually concretizing abstract concepts. Just as
+
+00:01:58.520 --> 00:02:00.270
+knowing how to read sheet music does
+
+00:02:00.270 --> 00:02:01.950
+not enable you to compose music,
+
+00:02:02.390 --> 00:02:03.850
+learning UML does
+
+00:02:03.850 --> 00:02:06.170
+not give you design skills.
+
+00:02:07.700 --> 00:02:09.300
+Therefore, in this series, I will show you
+
+00:02:09.300 --> 00:02:11.580
+
+
+00:02:11.580 --> 00:02:14.420
+how to concretize abstract requirements and
+
+00:02:14.420 --> 00:02:16.290
+connect code through a real project. I
+
+00:02:16.290 --> 00:02:18.010
+
+
+00:02:18.530 --> 00:02:20.930
+chose movie ticket reservations as the domain.
+
+00:02:21.370 --> 00:02:25.200
+Movie ticket reservations are a familiar domain for most people, so they are easy to understand and
+
+00:02:25.200 --> 00:02:29.710
+include various functions such as login, payment, and seat selection, making them a
+
+00:02:29.710 --> 00:02:31.580
+suitable example. The
+
+00:02:33.600 --> 00:02:36.890
+basic topic of this article is software design, but I will
+
+00:02:36.890 --> 00:02:40.350
+also cover test-driven development.
+
+00:02:41.210 --> 00:02:44.890
+Modern development environments basically support testing tools. Even if you
+
+00:02:45.600 --> 00:02:48.320
+look at famous open source projects, they
+
+00:02:48.320 --> 00:02:51.130
+have a certain level of testing.
+
+00:02:51.740 --> 00:02:56.200
+This means that testing is important and highly utilized.
+
+00:02:56.870 --> 00:02:58.120
+However, in reality,
+
+00:02:58.120 --> 00:03:02.590
+many cases do not even properly implement test automation, let alone TDD. It is by no means easy to
+
+00:03:03.190 --> 00:03:06.260
+write meaningful tests without any preparation.
+
+00:03:06.260 --> 00:03:07.540
+
+
+00:03:08.410 --> 00:03:12.340
+This is possible only when you have software design capabilities.
+
+00:03:13.320 --> 00:03:16.270
+Therefore, I decided that it would be efficient to cover design and TDD together.
+
+00:03:16.270 --> 00:03:18.180
+
+
+00:03:20.120 --> 00:03:23.450
+Now, let's start the first meeting of the project.
+
+00:03:24.150 --> 00:03:26.470
+Since this is a small project, there are
+
+00:03:26.470 --> 00:03:28.090
+two participants. The
+
+00:03:28.790 --> 00:03:32.340
+one on the left is the domain expert, and the one on the right is the test automation expert.  I'm a developer. The
+
+00:03:34.550 --> 00:03:37.790
+domain expert tells us a lot about the system we need to build.
+
+00:03:37.790 --> 00:03:39.280
+
+
+00:03:40.340 --> 00:03:42.160
+We operate about
+
+00:03:42.160 --> 00:03:44.710
+4,000 theaters nationwide, and that number
+
+00:03:44.710 --> 00:03:47.220
+could increase in the future.
+
+00:03:47.220 --> 00:03:50.480
+Currently, we only support movie ticket reservations, but we
+
+00:03:50.480 --> 00:03:54.510
+plan to add large-scale performance tickets in the future.
+
+00:03:54.510 --> 00:03:58.940
+And the important thing is that seats cannot be double-booked.
+
+00:03:58.940 --> 00:04:03.250
+In the past, our customer service center had a really hard time due to that problem. We
+
+00:04:03.250 --> 00:04:07.670
+also have a lot of accumulated movie information and review data, so
+
+00:04:07.670 --> 00:04:11.090
+this data must be maintained. The
+
+00:04:12.090 --> 00:04:14.730
+conversation here is well-organized, but in
+
+00:04:14.890 --> 00:04:16.960
+reality, more information will be
+
+00:04:16.960 --> 00:04:18.600
+conveyed in a disorganized manner.
+
+00:04:19.470 --> 00:04:22.110
+However, we need to listen carefully to the stories that come out at the beginning of the project, because they are the
+
+00:04:22.110 --> 00:04:23.780
+most important requirements.
+
+00:04:23.780 --> 00:04:25.320
+
+
+00:04:27.110 --> 00:04:29.810
+The developer listens to the domain expert and asks
+
+00:04:29.810 --> 00:04:31.290
+a few questions. When do you plan to add the
+
+00:04:32.290 --> 00:04:34.660
+large-scale performance ticket reservation feature that you mentioned
+
+00:04:34.660 --> 00:04:36.910
+?  I'd like to know if this should be
+
+00:04:36.910 --> 00:04:39.910
+included in the scope of this project in advance
+
+00:04:39.910 --> 00:04:43.590
+or if it's not something I should consider yet.
+
+00:04:43.590 --> 00:04:46.090
+And does keeping existing data
+
+00:04:46.090 --> 00:04:48.940
+mean not changing the DB system?  Are
+
+00:04:48.940 --> 00:04:51.950
+there any other services currently sharing the DB?
+
+00:04:53.580 --> 00:04:54.980
+As you can see from the DB, the
+
+00:04:54.980 --> 00:04:57.290
+domain expert is not a developer, so the
+
+00:04:57.290 --> 00:04:59.430
+technical expressions are vague.
+
+00:04:59.910 --> 00:05:02.890
+These things need to be carefully checked by the developer. The
+
+00:05:04.230 --> 00:05:07.450
+domain expert answers the developer's question like this. There is no specific schedule for the
+
+00:05:08.330 --> 00:05:10.210
+large-scale concert ticket reservation function
+
+00:05:10.210 --> 00:05:13.450
+yet.
+
+00:05:13.450 --> 00:05:15.970
+However, I think it would be good if you could consider it a little this time so that we can upgrade without much difficulty when the function is added in the future. The
+
+00:05:15.970 --> 00:05:18.700
+
+
+00:05:18.700 --> 00:05:22.600
+
+
+00:05:22.600 --> 00:05:27.050
+DB is not used anywhere else but our service. As long as the
+
+00:05:27.050 --> 00:05:32.840
+data is well maintained, changing the system itself is not a big problem. From what I've heard, it
+
+00:05:33.840 --> 00:05:35.080
+
+
+00:05:35.080 --> 00:05:39.400
+seems that we don't need to worry about the content regarding large-scale concerts. It is
+
+00:05:39.400 --> 00:05:40.790
+not the scope of the project, and the
+
+00:05:40.790 --> 00:05:43.040
+requirements are not clear. I don't know
+
+00:05:43.040 --> 00:05:44.930
+when it will be needed, but it is an
+
+00:05:44.930 --> 00:05:47.710
+issue that needs to be reviewed again when it is needed.
+
+00:05:48.920 --> 00:05:50.910
+Even if it is not documented, you should not forget to tell the
+
+00:05:50.910 --> 00:05:54.880
+domain expert that you will carefully consider large-scale concerts.
+
+00:05:54.880 --> 00:05:55.960
+
+
+00:05:56.740 --> 00:05:58.320
+Understood.
+
+00:05:58.320 --> 00:06:00.630
+Then, the large-scale concert ticket reservation function will
+
+00:06:00.630 --> 00:06:04.500
+not be one of the top requirements for this project.
+
+00:06:04.500 --> 00:06:08.220
+Instead, we will pay close attention to making it easy to expand the function later during the development process. Do
+
+00:06:08.220 --> 00:06:10.190
+
+
+00:06:10.190 --> 00:06:12.840
+n't worry.  It's
+
+00:06:13.840 --> 00:06:15.960
+important to get along well with someone who believes in you.
+
+00:06:17.980 --> 00:06:19.500
+Through our conversations so far, we've
+
+00:06:19.500 --> 00:06:22.700
+summarized the top priorities as follows. We begin the project by interpreting and organizing the
+
+00:06:23.220 --> 00:06:25.890
+information provided by the domain expert
+
+00:06:25.890 --> 00:06:28.410
+from a developer's perspective.
+
+00:06:28.410 --> 00:06:29.810
+
+
+00:06:31.700 --> 00:06:32.860
+
+
+00:06:32.860 --> 00:06:34.980
+Once you've roughly established the project's goals with the domain expert, it's
+
+00:06:35.620 --> 00:06:37.980
+time to name the project.
+
+00:06:38.750 --> 00:06:41.840
+First, ask the domain expert for their opinion.
+
+00:06:42.800 --> 00:06:45.540
+What should we name the project?
+
+00:06:45.540 --> 00:06:47.680
+It's a movie reservation system.
+
+00:06:47.680 --> 00:06:50.150
+How about just the Movie Booking System?  I do
+
+00:06:50.150 --> 00:06:51.430
+n't like it. I'll
+
+00:06:51.430 --> 00:06:53.570
+worry about large-scale performances. Let's
+
+00:06:53.570 --> 00:06:56.930
+use the Movie Booking System.  yes?
+
+00:06:56.930 --> 00:06:58.180
+Okay,
+
+00:06:58.180 --> 00:06:59.950
+thank you.
+
+00:07:01.000 --> 00:07:05.230
+Domain experts might want a Korean project name.
+
+00:07:05.580 --> 00:07:07.680
+However, from a developer's perspective, since
+
+00:07:07.680 --> 00:07:09.990
+all terms, including the project name, are
+
+00:07:09.990 --> 00:07:12.180
+directly implemented in the code, it's
+
+00:07:12.600 --> 00:07:15.000
+easier to define them in English if possible. It's
+
+00:07:15.540 --> 00:07:19.510
+important for developers to faithfully follow the domain expert's requests, but they
+
+00:07:19.960 --> 00:07:21.430
+
+
+00:07:21.430 --> 00:07:23.930
+also have the responsibility to coordinate the project in an efficient way by considering the entire project. Once the
+
+00:07:25.850 --> 00:07:27.760
+project name is decided, it's
+
+00:07:27.760 --> 00:07:31.380
+time to find out who will use the Movie Booking System.
+
+00:07:32.020 --> 00:07:34.940
+Of course, we need to ask the domain expert for this information.
+
+00:07:35.420 --> 00:07:38.740
+And we know that there are customers and managers.
+
+00:07:40.820 --> 00:07:43.280
+One element that is easy to miss in the early stages of design
+
+00:07:43.280 --> 00:07:44.760
+is external dependencies.
+
+00:07:45.340 --> 00:07:46.580
+External dependencies
+
+00:07:46.580 --> 00:07:49.210
+could be existing legacy systems or
+
+00:07:49.660 --> 00:07:51.420
+payment systems.
+
+00:07:52.020 --> 00:07:53.670
+These dependencies can have a
+
+00:07:53.670 --> 00:07:56.760
+significant impact on the overall system design, so it's
+
+00:07:56.950 --> 00:08:00.150
+important to identify them as early as possible.
+
+00:08:00.570 --> 00:08:01.240
+Fortunately,
+
+00:08:01.820 --> 00:08:04.990
+elements such as payment gateways and legacy systems are
+
+00:08:05.270 --> 00:08:07.730
+already used in existing systems, so they
+
+00:08:07.990 --> 00:08:10.360
+can be identified relatively easily.
+
+00:08:11.230 --> 00:08:14.410
+One of the elements that is easy to overlook in dependencies is
+
+00:08:14.410 --> 00:08:16.090
+external environmental factors.
+
+00:08:16.900 --> 00:08:19.060
+Korea is in the same time zone, but in a
+
+00:08:19.060 --> 00:08:22.430
+large country, each theater has a different time zone.
+
+00:08:23.190 --> 00:08:25.100
+So, the Movie Booking System is
+
+00:08:25.100 --> 00:08:28.900
+inevitably affected by the environmental factor of time zone.
+
+00:08:29.410 --> 00:08:32.760
+These factors are easy to miss unless you ask the domain expert directly.
+
+00:08:32.760 --> 00:08:33.950
+
+
+00:08:34.740 --> 00:08:37.610
+Domain experts are good at identifying these aspects.
+
+00:08:37.610 --> 00:08:40.010
+Since we might consider it trivial and skip the explanation, now that we have
+
+00:08:41.680 --> 00:08:43.640
+specified the dependencies, let's
+
+00:08:43.640 --> 00:08:47.500
+focus on the internals of the Movie Booking System.
+
+00:08:48.430 --> 00:08:52.230
+First, let's ask a domain expert what the customer does in the Movie Booking System.
+
+00:08:52.230 --> 00:08:54.230
+
+
+00:08:55.800 --> 00:08:57.880
+What does the customer do?
+
+00:08:57.880 --> 00:08:59.970
+Customers perform tasks such as searching for movies,
+
+00:08:59.970 --> 00:09:01.450
+viewing movie details,
+
+00:09:01.450 --> 00:09:02.910
+selecting a showtime,
+
+00:09:02.910 --> 00:09:04.450
+selecting a seat,
+
+00:09:04.450 --> 00:09:05.920
+booking a movie,
+
+00:09:05.920 --> 00:09:07.610
+checking reservation details, and
+
+00:09:07.610 --> 00:09:10.180
+canceling a reservation.
+
+00:09:10.180 --> 00:09:15.750
+Are choosing a showtime and selecting a seat part of the process of booking a movie?
+
+00:09:15.750 --> 00:09:18.880
+And isn't reserving a movie ticket and canceling a reservation
+
+00:09:18.880 --> 00:09:22.210
+ultimately the same as purchasing a ticket and getting a refund?  That's right.
+
+00:09:22.210 --> 00:09:23.620
+
+
+00:09:23.620 --> 00:09:25.030
+
+
+00:09:25.480 --> 00:09:27.880
+Since this is a familiar domain, you could have asked if
+
+00:09:27.880 --> 00:09:31.240
+selecting a showtime and selecting a seat were
+
+00:09:31.240 --> 00:09:33.200
+part of the process of booking a movie ticket.
+
+00:09:33.200 --> 00:09:34.530
+
+
+00:09:34.980 --> 00:09:37.220
+However, if it's an unfamiliar domain, you'll repeat several refinement processes while
+
+00:09:37.410 --> 00:09:40.160
+analyzing each use case in detail.
+
+00:09:40.520 --> 00:09:43.330
+
+
+00:09:43.790 --> 00:09:45.350
+Depending on the project situation,
+
+00:09:45.350 --> 00:09:48.080
+this process may be repeated several times, but the more
+
+00:09:48.080 --> 00:09:50.580
+leisurely and meticulously you analyze, the less trial and
+
+00:09:50.580 --> 00:09:54.190
+error you'll experience during the design and implementation stages.
+
+00:09:55.850 --> 00:09:57.530
+Based on our conversation so far, we've
+
+00:09:57.530 --> 00:10:00.970
+organized the customer's use cases into four categories.
+
+00:10:02.960 --> 00:10:04.470
+Next is the administrator. You
+
+00:10:05.190 --> 00:10:08.850
+can see that the administrator has five management items.
+
+00:10:09.440 --> 00:10:13.620
+Personally, I tend to be careful with the word "Manage" in development. It's
+
+00:10:14.360 --> 00:10:16.980
+too general an expression, so it's
+
+00:10:16.980 --> 00:10:19.030
+unclear what the job is. This is also the case
+
+00:10:19.640 --> 00:10:20.950
+here. I'm not sure
+
+00:10:21.370 --> 00:10:23.760
+how to specifically manage.
+
+00:10:23.760 --> 00:10:24.810
+
+
+00:10:25.930 --> 00:10:27.620
+Through conversations with domain experts, we
+
+00:10:27.620 --> 00:10:31.220
+expanded each management item into a specific use case.
+
+00:10:31.900 --> 00:10:33.660
+In an actual project,
+
+00:10:33.660 --> 00:10:35.890
+there would be more use cases than this, but I've
+
+00:10:36.150 --> 00:10:39.000
+simplified it for the sake of explanation. What's
+
+00:10:39.860 --> 00:10:42.700
+notable here is that creating a showtime also
+
+00:10:43.020 --> 00:10:45.900
+creates a ticket.
+
+00:10:46.960 --> 00:10:49.200
+And you
+
+00:10:49.490 --> 00:10:53.910
+can also see that an external service called a payment gateway is used to purchase or refund tickets.
+
+00:10:55.890 --> 00:10:58.670
+I've combined the customer and administrator use cases.
+
+00:10:59.350 --> 00:11:01.730
+Looking at the entire set of use cases like this,
+
+00:11:01.730 --> 00:11:02.900
+something feels missing.
+
+00:11:03.890 --> 00:11:05.840
+There's adding a theater, but there's nothing
+
+00:11:05.840 --> 00:11:08.720
+like searching for a theater.
+
+00:11:09.410 --> 00:11:12.130
+It seems like there are quite a few use cases that are not visible.
+
+00:11:12.770 --> 00:11:15.980
+From a domain expert's perspective, there is a lot to explain, so
+
+00:11:15.980 --> 00:11:17.950
+use cases that seem obvious can be
+
+00:11:18.150 --> 00:11:19.810
+omitted.
+
+00:11:20.770 --> 00:11:23.460
+So, what about from a developer's perspective?
+
+00:11:24.400 --> 00:11:28.290
+
+
+00:11:28.290 --> 00:11:30.700
+Wouldn't it be more helpful for document management to omit simple news cases like searching for theaters?
+
+00:11:31.720 --> 00:11:32.870
+If it's a backend design, it seems okay to omit
+
+00:11:32.870 --> 00:11:35.920
+simple use cases like searching for a theater. It's
+
+00:11:35.920 --> 00:11:37.760
+
+
+00:11:38.600 --> 00:11:41.570
+not too late to respond during the implementation phase.
+
+00:11:42.370 --> 00:11:44.310
+However, for an actual project,
+
+00:11:44.310 --> 00:11:48.450
+these use cases are a good starting point for the screen planner. The
+
+00:11:49.250 --> 00:11:52.300
+planner can look at the use case for searching for a theater and think about
+
+00:11:52.300 --> 00:11:55.300
+how to enable searching for a theater. When you
+
+00:11:55.300 --> 00:11:56.600
+
+
+00:11:58.000 --> 00:12:00.880
+merge the diagrams, it looks complicated. In an
+
+00:12:01.490 --> 00:12:05.150
+actual project, it would be much more complicated. In
+
+00:12:05.720 --> 00:12:08.240
+this case, there is no need to forcefully merge them. I
+
+00:12:08.810 --> 00:12:13.910
+merged them here just to reveal that there are missing cases. I
+
+00:12:16.020 --> 00:12:18.490
+filled in all the missing cases.
+
+00:12:19.200 --> 00:12:21.880
+There is a use case where the connection to the actor is omitted.
+
+00:12:22.290 --> 00:12:25.720
+This means that it applies to both the customer and the manager.
+
+00:12:26.400 --> 00:12:29.480
+And I wrote it in English for the convenience of implementation. It's
+
+00:12:31.370 --> 00:12:34.160
+okay because it's a small project now, but
+
+00:12:34.160 --> 00:12:36.160
+if the project is large and complex, the
+
+00:12:36.160 --> 00:12:38.980
+domain expert may be at a loss as to where to start explaining.
+
+00:12:38.980 --> 00:12:40.380
+
+
+00:12:41.280 --> 00:12:43.300
+What does a manager do?  It's
+
+00:12:43.300 --> 00:12:44.700
+a lot of work, as expected from an
+
+00:12:44.700 --> 00:12:46.620
+administrator. In
+
+00:12:47.620 --> 00:12:49.750
+this case, it's a
+
+00:12:49.750 --> 00:12:52.340
+good idea to consider whether the actors can be subdivided. Although it
+
+00:12:53.140 --> 00:12:54.790
+was initially called an administrator, it may be possible to
+
+00:12:54.790 --> 00:12:57.400
+subdivide by role.
+
+00:12:58.520 --> 00:13:00.820
+And there may be an external service that uses the Movie Booking System. If the
+
+00:13:00.820 --> 00:13:02.870
+
+
+00:13:03.660 --> 00:13:05.340
+actors are subdivided like this, the
+
+00:13:05.340 --> 00:13:09.420
+domain expert will be able to provide information in a more systematic way.
+
+00:13:10.350 --> 00:13:14.000
+Of course, this is just one example of analyzing a complex domain. There may be many
+
+00:13:14.540 --> 00:13:17.320
+other good methods. It is
+
+00:13:17.960 --> 00:13:21.740
+important to respond flexibly according to the situation.
+
+00:13:24.250 --> 00:13:25.060
+Conclusion: In
+
+00:13:25.950 --> 00:13:29.170
+this session, we used a use case diagram to
+
+00:13:29.170 --> 00:13:30.840
+set the project's goals and
+
+00:13:31.230 --> 00:13:33.700
+proceeded with the initial stages of analysis.
+
+00:13:34.880 --> 00:13:38.010
+Personally, I think analysis is the most difficult part of the entire development process. This is
+
+00:13:38.010 --> 00:13:40.060
+
+
+00:13:40.570 --> 00:13:44.250
+because the most abstract and vague concepts need to be organized.
+
+00:13:45.020 --> 00:13:47.650
+Next time, we will analyze the main use cases in
+
+00:13:47.650 --> 00:13:49.470
+more detail. Thank you for your hard work
+
+00:13:50.300 --> 00:13:52.100
+so far.
+

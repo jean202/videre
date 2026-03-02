@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: gl
+
+00:00:00.000 --> 00:00:02.020
+Ola, este é o Código de Boas Maneras.
+
+00:00:03.290 --> 00:00:05.350
+O software é complexo
+
+00:00:06.650 --> 00:00:08.890
+En primeiro lugar, hai moito código que precisa ser escrito.
+
+00:00:09.760 --> 00:00:12.710
+Só os proxectos de exemplo que creei para esta serie
+
+00:00:12.710 --> 00:00:15.270
+O código ten máis de 12.000 liñas de lonxitude.
+
+00:00:16.330 --> 00:00:18.320
+Se se trata dun servizo operativo real
+
+00:00:18.320 --> 00:00:21.530
+Mesmo sendo un servizo pequeno, superará facilmente as 100.000 liñas.
+
+00:00:22.130 --> 00:00:25.300
+Cen mil liñas abonda para encher vinte novelas.
+
+00:00:26.870 --> 00:00:29.560
+Escribir código longo non significa que remate.
+
+00:00:30.330 --> 00:00:32.540
+Tes que seguir corrixindo o código que escribes.
+
+00:00:33.400 --> 00:00:35.800
+Se arranxas A, B rómpese.
+
+00:00:35.800 --> 00:00:39.130
+Se arranxas B, A e C romperánse.
+
+00:00:41.090 --> 00:00:44.260
+Para usar unha analoxía, é coma estar atrapado nunha Raspútica e chorar.
+
+00:00:44.260 --> 00:00:46.360
+Poderíase dicir que é unha situación semellante á dun cabalo.
+
+00:00:47.330 --> 00:00:50.550
+Neste punto, sentirás a necesidade de deseñar.
+
+00:00:52.580 --> 00:00:55.010
+Pero cando intentas escribir un documento de deseño,
+
+00:00:55.500 --> 00:00:58.490
+Expresar os pensamentos que tes na cabeza de xeito concreto
+
+00:00:58.790 --> 00:01:01.260
+Descubrirás que non é tan doado como pensas.
+
+00:01:01.890 --> 00:01:05.600
+Mesmo as partituras, que son un documento que rexistra visualmente son ou música,
+
+00:01:05.600 --> 00:01:06.700
+É así de complicado
+
+00:01:07.520 --> 00:01:10.610
+Non só música, senón tamén finanzas e loxística
+
+00:01:10.610 --> 00:01:14.060
+Conceptos máis diversos e requisitos de usuario abstractos
+
+00:01:14.060 --> 00:01:17.220
+Non será doado expresalo nun modelo específico.
+
+00:01:18.530 --> 00:01:19.490
+Afortunadamente
+
+00:01:19.770 --> 00:01:23.200
+Para superar a dificultade de modelar conceptos abstractos
+
+00:01:23.540 --> 00:01:26.860
+UML naceu a finais da década de 1990.
+
+00:01:27.730 --> 00:01:30.120
+Foi dirixido por Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Usamos UML con anticipación
+
+00:01:34.980 --> 00:01:36.990
+Debuxa un diagrama de clases
+
+00:01:36.990 --> 00:01:38.760
+Debuxemos tamén un diagrama de secuencia
+
+00:01:39.430 --> 00:01:39.980
+con todo
+
+00:01:40.360 --> 00:01:43.160
+Cando intentei deseñalo, foi diferente de codificalo directamente.
+
+00:01:43.160 --> 00:01:45.130
+Non parece ser moi diferente
+
+00:01:45.590 --> 00:01:46.520
+Por que é iso?
+
+00:01:47.350 --> 00:01:50.910
+Iso débese a que o proceso de pensamento está afeito á implementación.
+
+00:01:51.290 --> 00:01:54.170
+En lugar de concretar os conceptos abstractos,
+
+00:01:54.490 --> 00:01:57.590
+Porque traduce o pensamento a nivel de implementación a UML.
+
+00:01:58.520 --> 00:02:00.270
+Só porque sabes ler partituras
+
+00:02:00.270 --> 00:02:01.950
+Non é como se eu puidese compoñer
+
+00:02:02.390 --> 00:02:03.850
+Só porque aprendiches UML
+
+00:02:03.850 --> 00:02:06.170
+Non é como se desenvolveses habilidades de deseño.
+
+00:02:07.700 --> 00:02:09.300
+Entón, nesta serie
+
+00:02:09.300 --> 00:02:11.580
+A través de proxectos reais
+
+00:02:11.580 --> 00:02:14.420
+Como concretar requisitos abstractos
+
+00:02:14.420 --> 00:02:16.290
+Podes conectar o código?
+
+00:02:16.290 --> 00:02:18.010
+Gustaríame mostrarche en persoa
+
+00:02:18.530 --> 00:02:20.930
+Escollín reservar entradas de cine por dominio
+
+00:02:21.370 --> 00:02:25.200
+As reservas de entradas de cine son fáciles de entender porque na súa maioría son dominios familiares.
+
+00:02:25.200 --> 00:02:29.710
+Inclúe varias funcións como inicio de sesión, pagamento e selección de asentos.
+
+00:02:29.710 --> 00:02:31.580
+Parece un bo exemplo
+
+00:02:33.600 --> 00:02:36.890
+Basicamente, o tema deste artigo é o deseño de software, pero
+
+00:02:36.890 --> 00:02:40.350
+Tamén abordaremos o desenvolvemento baseado en probas.
+
+00:02:41.210 --> 00:02:44.890
+Os entornos de desenvolvemento modernos admiten de forma nativa ferramentas de probas.
+
+00:02:45.600 --> 00:02:48.320
+Mesmo se botamos unha ollada a proxectos de código aberto famosos,
+
+00:02:48.320 --> 00:02:51.130
+Temos un certo nivel de probas.
+
+00:02:51.740 --> 00:02:56.200
+Isto probablemente significa que as probas son de gran importancia e utilidade.
+
+00:02:56.870 --> 00:02:58.120
+Pero en realidade
+
+00:02:58.120 --> 00:03:02.590
+En moitos casos, non só o TDD, senón mesmo a automatización de probas non está implementada correctamente.
+
+00:03:03.190 --> 00:03:06.260
+Escribir primeiro probas significativas sen ningunha preparación é
+
+00:03:06.260 --> 00:03:07.540
+Nunca é doado.
+
+00:03:08.410 --> 00:03:12.340
+Isto é algo que require as capacidades combinadas do deseño de software.
+
+00:03:13.320 --> 00:03:16.270
+Entón, é mellor xestionar o deseño e o TDD xuntos.
+
+00:03:16.270 --> 00:03:18.180
+Considereino eficiente
+
+00:03:20.120 --> 00:03:23.450
+Entón, imos comezar a primeira reunión do proxecto.
+
+00:03:24.150 --> 00:03:26.470
+Porque este é un proxecto pequeno
+
+00:03:26.470 --> 00:03:28.090
+Hai dous asistentes
+
+00:03:28.790 --> 00:03:32.340
+O da esquerda é un experto en dominios e o da dereita é un desenvolvedor.
+
+00:03:34.550 --> 00:03:37.790
+Os expertos en dominios teñen voz e voto nos sistemas que precisamos construír.
+
+00:03:37.790 --> 00:03:39.280
+Conta moitas historias
+
+00:03:40.340 --> 00:03:42.160
+O teatro que diriximos
+
+00:03:42.160 --> 00:03:44.710
+Hai arredor de catro mil deles en todo o país.
+
+00:03:44.710 --> 00:03:47.220
+Podería aumentar aínda máis no futuro.
+
+00:03:47.220 --> 00:03:50.480
+Actualmente, só se admite a función de reserva de entradas de cine.
+
+00:03:50.480 --> 00:03:54.510
+Planeamos engadir a venda de entradas para actuacións a grande escala máis adiante.
+
+00:03:54.510 --> 00:03:58.940
+E o importante é que nunca debes reservar asentos dúas veces.
+
+00:03:58.940 --> 00:04:03.250
+No pasado, os centros de atención ao cliente tiveron moitas dificultades con ese tipo de problema.
+
+00:04:03.250 --> 00:04:07.670
+Porque xa se acumulou moita información e datos de críticas de películas.
+
+00:04:07.670 --> 00:04:11.090
+Estes datos deben permanecer intactos.
+
+00:04:12.090 --> 00:04:14.730
+Aquí a conversa está ben organizada, pero
+
+00:04:14.890 --> 00:04:16.960
+De feito, hai máis información
+
+00:04:16.960 --> 00:04:18.600
+Impartirase de xeito desorganizado
+
+00:04:19.470 --> 00:04:22.110
+Pero a historia que sae á luz ao comezo do proxecto é
+
+00:04:22.110 --> 00:04:23.780
+Porque é o requisito máis importante
+
+00:04:23.780 --> 00:04:25.320
+Tes que escoitar atentamente
+
+00:04:27.110 --> 00:04:29.810
+Os desenvolvedores escoitan aos expertos en dominios
+
+00:04:29.810 --> 00:04:31.290
+Teño algunhas preguntas
+
+00:04:32.290 --> 00:04:34.660
+A función de reserva de entradas para espectáculos a grande escala que mencionaches
+
+00:04:34.660 --> 00:04:36.910
+Cando se engadirá?
+
+00:04:36.910 --> 00:04:39.910
+Debería incluírse isto no alcance deste proxecto con antelación?
+
+00:04:39.910 --> 00:04:43.590
+Ou gustaríame saber se debería consideralo xa
+
+00:04:43.590 --> 00:04:46.090
+E a necesidade de manter os datos existentes
+
+00:04:46.090 --> 00:04:48.940
+Significa isto que non deberiamos cambiar o sistema de bases de datos?
+
+00:04:48.940 --> 00:04:51.950
+Hai outros servizos que compartan a base de datos actualmente?
+
+00:04:53.580 --> 00:04:54.980
+Como se pode ver na base de datos,
+
+00:04:54.980 --> 00:04:57.290
+Porque os expertos en dominios non son desenvolvedores.
+
+00:04:57.290 --> 00:04:59.430
+A expresión técnica é ambigua
+
+00:04:59.910 --> 00:05:02.890
+Os desenvolvedores deben comprobar estas cousas coidadosamente.
+
+00:05:04.230 --> 00:05:07.450
+Os expertos en dominios responden ás preguntas dos desenvolvedores deste xeito:
+
+00:05:08.330 --> 00:05:10.210
+Función de reserva de entradas para espectáculos a grande escala
+
+00:05:10.210 --> 00:05:13.450
+Aínda non hai un horario específico.
+
+00:05:13.450 --> 00:05:15.970
+Non obstante, cando se engadan funcións no futuro
+
+00:05:15.970 --> 00:05:18.700
+Para que poidas actualizar sen moita dificultade
+
+00:05:18.700 --> 00:05:22.600
+Creo que sería bo que puideses consideralo un pouco esta vez.
+
+00:05:22.600 --> 00:05:27.050
+Non usamos a base de datos para nada que non sexan os nosos servizos.
+
+00:05:27.050 --> 00:05:32.840
+Cambiar o sistema en si non é un gran problema sempre que os datos se manteñan ben.
+
+00:05:33.840 --> 00:05:35.080
+Despois de escoitar a historia
+
+00:05:35.080 --> 00:05:39.400
+Non creo que teñas que preocuparte polo gran espectáculo.
+
+00:05:39.400 --> 00:05:40.790
+Non é o alcance do proxecto
+
+00:05:40.790 --> 00:05:43.040
+Os requisitos tampouco están claros
+
+00:05:43.040 --> 00:05:44.930
+Non sei cando o precisarei, pero
+
+00:05:44.930 --> 00:05:47.710
+Ese é un problema que teremos que revisar de novo máis tarde.
+
+00:05:48.920 --> 00:05:50.910
+Mesmo se non consta no documento
+
+00:05:50.910 --> 00:05:54.880
+Os expertos en dominios tamén responderán que considerarán actuacións a grande escala.
+
+00:05:54.880 --> 00:05:55.960
+Non debes esquecer
+
+00:05:56.740 --> 00:05:58.320
+Moi ben
+
+00:05:58.320 --> 00:06:00.630
+Entón, a función de reserva de entradas para actuacións a grande escala
+
+00:06:00.630 --> 00:06:04.500
+Eu non o colocaría entre as principais prioridades deste proxecto.
+
+00:06:04.500 --> 00:06:08.220
+Pola contra, facilita a ampliación da funcionalidade máis adiante no proceso de desenvolvemento.
+
+00:06:08.220 --> 00:06:10.190
+Vou coidalo ben.
+
+00:06:10.190 --> 00:06:12.840
+Non te preocupes. Confía só en min
+
+00:06:13.840 --> 00:06:15.960
+É importante levarse ben
+
+00:06:17.980 --> 00:06:19.500
+A través da nosa conversa ata o de agora
+
+00:06:19.500 --> 00:06:22.700
+As principais prioridades resúmense do seguinte xeito:
+
+00:06:23.220 --> 00:06:25.890
+Esta é a información proporcionada por expertos en dominios.
+
+00:06:25.890 --> 00:06:28.410
+Interpretación e organización desde a perspectiva dun desenvolvedor
+
+00:06:28.410 --> 00:06:29.810
+Comezar o proxecto
+
+00:06:31.700 --> 00:06:32.860
+Con expertos en dominios
+
+00:06:32.860 --> 00:06:34.980
+Unha vez que teñas decidido os obxectivos do teu proxecto,
+
+00:06:35.620 --> 00:06:37.980
+Agora é o momento de poñerlle nome ao teu proxecto.
+
+00:06:38.750 --> 00:06:41.840
+Primeiro, pídelle a opinión a un experto en dominios.
+
+00:06:42.800 --> 00:06:45.540
+Como debería chamarlle ao proxecto?
+
+00:06:45.540 --> 00:06:47.680
+É un sistema de reserva de películas.
+
+00:06:47.680 --> 00:06:50.150
+Que tal só o sistema de reservas de películas?
+
+00:06:50.150 --> 00:06:51.430
+non, non quero
+
+00:06:51.430 --> 00:06:53.570
+Encargareime das actuacións a grande escala
+
+00:06:53.570 --> 00:06:56.930
+Imos co sistema de reservas de películas. si?
+
+00:06:56.930 --> 00:06:58.180
+xenial
+
+00:06:58.180 --> 00:06:59.950
+Moitas grazas
+
+00:07:01.000 --> 00:07:05.230
+Os expertos en dominios poden querer nomes de proxectos en coreano.
+
+00:07:05.580 --> 00:07:07.680
+Pero desde a perspectiva dun desenvolvedor
+
+00:07:07.680 --> 00:07:09.990
+Todos os termos, incluídos os nomes dos proxectos
+
+00:07:09.990 --> 00:07:12.180
+Dado que se implementa directamente no código,
+
+00:07:12.600 --> 00:07:15.000
+É máis doado definilo en inglés se é posible.
+
+00:07:15.540 --> 00:07:19.510
+É importante que os desenvolvedores sigan fielmente as necesidades dos expertos en dominios, pero
+
+00:07:19.960 --> 00:07:21.430
+Considerando todo o proxecto
+
+00:07:21.430 --> 00:07:23.930
+Tamén temos a responsabilidade de dirixir as cousas nunha dirección eficiente.
+
+00:07:25.850 --> 00:07:27.760
+Se xa decidiches un nome para o teu proxecto
+
+00:07:27.760 --> 00:07:31.380
+Agora é o momento de descubrir quen usa o sistema de reserva de películas.
+
+00:07:32.020 --> 00:07:34.940
+Por suposto, deberías pedir información a un experto en dominios sobre isto.
+
+00:07:35.420 --> 00:07:38.740
+E descubrimos que temos clientes e xerentes.
+
+00:07:40.820 --> 00:07:43.280
+Un dos elementos que é doado pasar por alto nas primeiras etapas do deseño é
+
+00:07:43.280 --> 00:07:44.760
+É unha dependencia externa
+
+00:07:45.340 --> 00:07:46.580
+As dependencias externas son
+
+00:07:46.580 --> 00:07:49.210
+Podería ser un sistema herdado xa existente,
+
+00:07:49.660 --> 00:07:51.420
+Podería ser un sistema de pago
+
+00:07:52.020 --> 00:07:53.670
+Esta relación de dependencia é
+
+00:07:53.670 --> 00:07:56.760
+Porque pode ter un impacto importante no deseño xeral do sistema.
+
+00:07:56.950 --> 00:08:00.150
+É importante identificalo canto antes.
+
+00:08:00.570 --> 00:08:01.240
+afortunadamente
+
+00:08:01.820 --> 00:08:04.990
+Elementos como pasarelas de pagamento e sistemas herdados
+
+00:08:05.270 --> 00:08:07.730
+Porque xa se está a usar en sistemas existentes
+
+00:08:07.990 --> 00:08:10.360
+Pódese entender con relativa facilidade
+
+00:08:11.230 --> 00:08:14.410
+Unha das cousas que é doado pasar por alto nunha relación de dependencia é
+
+00:08:14.410 --> 00:08:16.090
+Hai factores ambientais externos
+
+00:08:16.900 --> 00:08:19.060
+O noso país está no mesmo fuso horario
+
+00:08:19.060 --> 00:08:22.430
+Nun país cunha gran superficie terrestre, cada teatro ten unha franxa horaria diferente.
+
+00:08:23.190 --> 00:08:25.100
+Entón o sistema de reserva de películas
+
+00:08:25.100 --> 00:08:28.900
+É inevitable que se vexa afectado por factores ambientais como os fusos horarios.
+
+00:08:29.410 --> 00:08:32.760
+Estes factores non son evidentes a menos que llo preguntes directamente ao experto en dominios.
+
+00:08:32.760 --> 00:08:33.950
+É doado pasar por alto
+
+00:08:34.740 --> 00:08:37.610
+Os expertos en dominios tenden a pasar por alto estes detalles.
+
+00:08:37.610 --> 00:08:40.010
+Porque a explicación pode ser omitida
+
+00:08:41.680 --> 00:08:43.640
+Dado que a relación de dependencia estaba claramente establecida
+
+00:08:43.640 --> 00:08:47.500
+Agora centrémonos nos aspectos internos do sistema de reserva de películas.
+
+00:08:48.430 --> 00:08:52.230
+En primeiro lugar, que fai o cliente no sistema de reserva de películas?
+
+00:08:52.230 --> 00:08:54.230
+Preguntémoslles aos expertos en dominios
+
+00:08:55.800 --> 00:08:57.880
+Que fan os clientes?
+
+00:08:57.880 --> 00:08:59.970
+Os clientes buscan películas,
+
+00:08:59.970 --> 00:09:01.450
+Ver detalles da película,
+
+00:09:01.450 --> 00:09:02.910
+Selecciona unha hora de proxección,
+
+00:09:02.910 --> 00:09:04.450
+Escolle o teu asento,
+
+00:09:04.450 --> 00:09:05.920
+Reserva entradas de cine,
+
+00:09:05.920 --> 00:09:07.610
+Consulta os detalles da reserva,
+
+00:09:07.610 --> 00:09:10.180
+Facer cousas como cancelar unha reserva
+
+00:09:10.180 --> 00:09:15.750
+A elección da hora da sesión e a elección do asento forman parte do proceso de reserva de entradas de cine?
+
+00:09:15.750 --> 00:09:18.880
+E para reservar entradas de cine, para cancelar reservas
+
+00:09:18.880 --> 00:09:22.210
+Despois de todo, non estás a mercar un billete e obter un reembolso?
+
+00:09:22.210 --> 00:09:23.620
+tes razón
+
+00:09:23.620 --> 00:09:25.030
+Iso é correcto
+
+00:09:25.480 --> 00:09:27.880
+Porque agora é un dominio familiar
+
+00:09:27.880 --> 00:09:31.240
+Selecciona unha hora de proxección e escolle o teu asento
+
+00:09:31.240 --> 00:09:33.200
+Isto forma parte do proceso de reserva de entradas de cine?
+
+00:09:33.200 --> 00:09:34.530
+Podería preguntar
+
+00:09:34.980 --> 00:09:37.220
+Pero se é un dominio descoñecido,
+
+00:09:37.410 --> 00:09:40.160
+Analizando cada caso de uso en detalle
+
+00:09:40.520 --> 00:09:43.330
+Repetirás o proceso de refinado varias veces.
+
+00:09:43.790 --> 00:09:45.350
+Dependendo da situación do proxecto
+
+00:09:45.350 --> 00:09:48.080
+Podes repetir este proceso varias veces,
+
+00:09:48.080 --> 00:09:50.580
+Canto máis tempo te tomes e analices coidadosamente,
+
+00:09:50.580 --> 00:09:54.190
+Reducir as probas e erros durante as etapas de deseño e implementación.
+
+00:09:55.850 --> 00:09:57.530
+Baseado na conversa ata o de agora
+
+00:09:57.530 --> 00:10:00.970
+Organizamos os casos de uso dos nosos clientes en catro categorías:
+
+00:10:02.960 --> 00:10:04.470
+O seguinte é o administrador
+
+00:10:05.190 --> 00:10:08.850
+O administrador pode ver que hai cinco elementos de xestión:
+
+00:10:09.440 --> 00:10:13.620
+Persoalmente, son cauteloso ao usar a palabra "Xestionar" no desenvolvemento.
+
+00:10:14.360 --> 00:10:16.980
+Xestionar é unha expresión demasiado ampla
+
+00:10:16.980 --> 00:10:19.030
+Non está claro o que estás facendo
+
+00:10:19.640 --> 00:10:20.950
+Aquí tamén pasa o mesmo
+
+00:10:21.370 --> 00:10:23.760
+Como se xestiona exactamente?
+
+00:10:23.760 --> 00:10:24.810
+Non sei
+
+00:10:25.930 --> 00:10:27.620
+Falando con expertos en dominios
+
+00:10:27.620 --> 00:10:31.220
+Cada elemento de xestión ampliouse a un caso de uso específico.
+
+00:10:31.900 --> 00:10:33.660
+Se é un proxecto real
+
+00:10:33.660 --> 00:10:35.890
+Probablemente haxa máis casos de uso que este.
+
+00:10:36.150 --> 00:10:39.000
+Aquí o simplifico para a súa explicación.
+
+00:10:39.860 --> 00:10:42.700
+O importante a ter en conta aquí é que cando creas un tempo de execución,
+
+00:10:43.020 --> 00:10:45.900
+Podes ver que o billete tamén está creado
+
+00:10:46.960 --> 00:10:49.200
+E ao mercar ou reembolsar un billete
+
+00:10:49.490 --> 00:10:53.910
+Tamén podes ver que empregamos un servizo externo chamado pasarela de pagamento.
+
+00:10:55.890 --> 00:10:58.670
+Combinei os casos de uso de clientes e xestores.
+
+00:10:59.350 --> 00:11:01.730
+Analizando todo o caso de uso deste xeito
+
+00:11:01.730 --> 00:11:02.900
+Algo séntese baleiro
+
+00:11:03.890 --> 00:11:05.840
+Hai unha opción para engadir un teatro
+
+00:11:05.840 --> 00:11:08.720
+Non vexo nada parecido a Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Parece que hai bastantes casos de uso que se están omitindo.
+
+00:11:12.770 --> 00:11:15.980
+Porque desde a perspectiva dun experto en dominios, hai moito que explicar.
+
+00:11:15.980 --> 00:11:17.950
+Este caso de uso, que parece tan obvio,
+
+00:11:18.150 --> 00:11:19.810
+Podes omitir a explicación
+
+00:11:20.770 --> 00:11:23.460
+Entón, que pasa desde a perspectiva dun desenvolvedor?
+
+00:11:24.400 --> 00:11:28.290
+É mellor omitir casos de noticias sinxelos como a busca dun teatro.
+
+00:11:28.290 --> 00:11:30.700
+Non sería isto máis útil para a xestión documental?
+
+00:11:31.720 --> 00:11:32.870
+Se é deseño de backend
+
+00:11:32.870 --> 00:11:35.920
+Casos de uso sinxelos como buscar un cine
+
+00:11:35.920 --> 00:11:37.760
+Creo que está ben saltalo
+
+00:11:38.600 --> 00:11:41.570
+O que quero dicir é que non é demasiado tarde para responder durante a fase de implementación.
+
+00:11:42.370 --> 00:11:44.310
+Pero se é un proxecto real
+
+00:11:44.310 --> 00:11:48.450
+Para os planificadores de pantalla, estes casos de uso son un bo punto de partida.
+
+00:11:49.250 --> 00:11:52.300
+O planificador analizou o caso práctico de buscar un teatro.
+
+00:11:52.300 --> 00:11:55.300
+Como debería facer posible a busca de teatros?
+
+00:11:55.300 --> 00:11:56.600
+Poderás pensar.
+
+00:11:58.000 --> 00:12:00.880
+Cando combinas os diagramas nun só, parece complicado.
+
+00:12:01.490 --> 00:12:05.150
+Se fose un proxecto real, sería moito máis complicado.
+
+00:12:05.720 --> 00:12:08.240
+Neste caso, non hai necesidade de forzar unha fusión.
+
+00:12:08.810 --> 00:12:13.910
+Acabo de fusionalos aquí para revelar que hai casos que faltan.
+
+00:12:16.020 --> 00:12:18.490
+Completei todos os casos que faltaban
+
+00:12:19.200 --> 00:12:21.880
+Teño un caso de uso onde se omite a conexión co actor.
+
+00:12:22.290 --> 00:12:25.720
+Isto aplícase tanto a clientes como a xestores.
+
+00:12:26.400 --> 00:12:29.480
+E para facilitar a implementación, escribíno en inglés.
+
+00:12:31.370 --> 00:12:34.160
+Agora está ben porque é un proxecto pequeno
+
+00:12:34.160 --> 00:12:36.160
+Se o proxecto é grande e complexo
+
+00:12:36.160 --> 00:12:38.980
+Por onde debería comezar a explicar un experto en dominios?
+
+00:12:38.980 --> 00:12:40.380
+Pode ser difícil
+
+00:12:41.280 --> 00:12:43.300
+Que fai un administrador?
+
+00:12:43.300 --> 00:12:44.700
+É moito traballo.
+
+00:12:44.700 --> 00:12:46.620
+Como se esperaba do xerente
+
+00:12:47.620 --> 00:12:49.750
+Neste caso, podemos subdividir os actores?
+
+00:12:49.750 --> 00:12:52.340
+Tamén é unha boa idea revisar
+
+00:12:53.140 --> 00:12:54.790
+Ao principio chamábanme administrador
+
+00:12:54.790 --> 00:12:57.400
+Pode ser posible subdividir por rol
+
+00:12:58.520 --> 00:13:00.820
+E usando o sistema de reserva de películas
+
+00:13:00.820 --> 00:13:02.870
+Pode haber servizos externos
+
+00:13:03.660 --> 00:13:05.340
+Se segmentamos os actores deste xeito,
+
+00:13:05.340 --> 00:13:09.420
+Os expertos en dominios poderán proporcionar información máis sistemática.
+
+00:13:10.350 --> 00:13:14.000
+Por suposto, este é só un exemplo de como analizar un dominio complexo.
+
+00:13:14.540 --> 00:13:17.320
+Pode haber outros bos xeitos
+
+00:13:17.960 --> 00:13:21.740
+É importante responder con flexibilidade dependendo da situación.
+
+00:13:24.250 --> 00:13:25.060
+Esta é a conclusión
+
+00:13:25.950 --> 00:13:29.170
+Desta vez, empregaremos un diagrama de casos de uso
+
+00:13:29.170 --> 00:13:30.840
+Establecer obxectivos para o proxecto
+
+00:13:31.230 --> 00:13:33.700
+Pasei polas fases iniciais da análise.
+
+00:13:34.880 --> 00:13:38.010
+Persoalmente, durante todo o proceso de desenvolvemento
+
+00:13:38.010 --> 00:13:40.060
+Creo que a análise é o máis difícil
+
+00:13:40.570 --> 00:13:44.250
+Porque temos que organizar os conceptos máis abstractos e vagos.
+
+00:13:45.020 --> 00:13:47.650
+A próxima vez veremos os principais casos de uso
+
+00:13:47.650 --> 00:13:49.470
+Analizámolo con máis detalle
+
+00:13:50.300 --> 00:13:52.100
+Grazas polo teu traballo duro ata agora.
+

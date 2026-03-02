@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:02.020
+Dobrý den, zde Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Software je složitý
+
+00:00:06.650 --> 00:00:08.890
+Zaprvé je potřeba napsat spoustu kódu.
+
+00:00:09.760 --> 00:00:12.710
+Jen příklady projektů, které jsem pro tuto sérii vytvořil/a
+
+00:00:12.710 --> 00:00:15.270
+Kód má přes 12 000 řádků.
+
+00:00:16.330 --> 00:00:18.320
+Pokud se jedná o skutečnou provozní službu
+
+00:00:18.320 --> 00:00:21.530
+I když se jedná o malou službu, snadno překročí 100 000 řádků.
+
+00:00:22.130 --> 00:00:25.300
+Sto tisíc řádků stačí na zaplnění dvaceti románů.
+
+00:00:26.870 --> 00:00:29.560
+Psaní dlouhého kódu neznamená konec.
+
+00:00:30.330 --> 00:00:32.540
+Musíš neustále opravovat kód, který píšeš.
+
+00:00:33.400 --> 00:00:35.800
+Pokud opravíte A, B se porouchá.
+
+00:00:35.800 --> 00:00:39.130
+Pokud opravíte B, A a C se rozbijí.
+
+00:00:41.090 --> 00:00:44.260
+Abych použil analogii, je to jako být uvězněn v Rasputice a plakat.
+
+00:00:44.260 --> 00:00:46.360
+Dalo by se říct, že je to podobná situace jako u koně.
+
+00:00:47.330 --> 00:00:50.550
+V tomto okamžiku pocítíte potřebu designu.
+
+00:00:52.580 --> 00:00:55.010
+Ale když se skutečně pokusíte napsat návrhový dokument,
+
+00:00:55.500 --> 00:00:58.490
+Konkrétně vyjádřit myšlenky, které máte ve své hlavě
+
+00:00:58.790 --> 00:01:01.260
+Zjistíš, že to není tak jednoduché, jak si myslíš.
+
+00:01:01.890 --> 00:01:05.600
+Dokonce i notový zápis, což je dokument, který vizuálně zaznamenává zvuk nebo hudbu,
+
+00:01:05.600 --> 00:01:06.700
+Je to takhle složité
+
+00:01:07.520 --> 00:01:10.610
+Nejen hudba, ale i finance a logistika
+
+00:01:10.610 --> 00:01:14.060
+Rozmanitější koncepty a abstraktnější požadavky uživatelů
+
+00:01:14.060 --> 00:01:17.220
+Nebude snadné to vyjádřit v konkrétním modelu.
+
+00:01:18.530 --> 00:01:19.490
+Naštěstí
+
+00:01:19.770 --> 00:01:23.200
+Překonat obtíže s modelováním abstraktních konceptů
+
+00:01:23.540 --> 00:01:26.860
+UML se zrodilo koncem 90. let.
+
+00:01:27.730 --> 00:01:30.120
+Vedl ho Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Používáme UML s očekáváním
+
+00:01:34.980 --> 00:01:36.990
+Nakreslete diagram tříd
+
+00:01:36.990 --> 00:01:38.760
+Nakresleme si také sekvenční diagram
+
+00:01:39.430 --> 00:01:39.980
+však
+
+00:01:40.360 --> 00:01:43.160
+Když jsem se to skutečně pokusil navrhnout, bylo to jiné než to přímo kódovat.
+
+00:01:43.160 --> 00:01:45.130
+Nezdá se, že by to bylo moc jiné
+
+00:01:45.590 --> 00:01:46.520
+Proč tomu tak je?
+
+00:01:47.350 --> 00:01:50.910
+Je to proto, že myšlenkový proces je zvyklý na implementaci.
+
+00:01:51.290 --> 00:01:54.170
+Spíše než konkretizovat abstraktní pojmy,
+
+00:01:54.490 --> 00:01:57.590
+Protože převádí myšlení na úrovni implementace do UML.
+
+00:01:58.520 --> 00:02:00.270
+Jen proto, že umíš číst noty
+
+00:02:00.270 --> 00:02:01.950
+Není to tak, že bych to dokázal složit
+
+00:02:02.390 --> 00:02:03.850
+Jen proto, že ses naučil UML
+
+00:02:03.850 --> 00:02:06.170
+Není to tak, že byste si rozvíjeli designérské dovednosti.
+
+00:02:07.700 --> 00:02:09.300
+Takže v této sérii
+
+00:02:09.300 --> 00:02:11.580
+Prostřednictvím skutečných projektů
+
+00:02:11.580 --> 00:02:14.420
+Jak konkretizovat abstraktní požadavky
+
+00:02:14.420 --> 00:02:16.290
+Můžete propojit kód?
+
+00:02:16.290 --> 00:02:18.010
+Rád bych vám to osobně ukázal
+
+00:02:18.530 --> 00:02:20.930
+Zvolil(a) jsem rezervaci vstupenek do kina přes doménu
+
+00:02:21.370 --> 00:02:25.200
+Rezervace vstupenek do kina jsou snadno pochopitelné, protože se většinou jedná o známé domény.
+
+00:02:25.200 --> 00:02:29.710
+Zahrnuje různé funkce, jako je přihlášení, platba a výběr sedadla.
+
+00:02:29.710 --> 00:02:31.580
+Zdá se to být dobrý příklad
+
+00:02:33.600 --> 00:02:36.890
+V podstatě je tématem tohoto článku návrh softwaru, ale
+
+00:02:36.890 --> 00:02:40.350
+Budeme se také zabývat vývojem řízeným testováním.
+
+00:02:41.210 --> 00:02:44.890
+Moderní vývojová prostředí nativně podporují testovací nástroje.
+
+00:02:45.600 --> 00:02:48.320
+I když se podíváte na slavné open source projekty,
+
+00:02:48.320 --> 00:02:51.130
+Máme určitou úroveň testování.
+
+00:02:51.740 --> 00:02:56.200
+To pravděpodobně znamená, že testování má tak velký význam a užitečnost.
+
+00:02:56.870 --> 00:02:58.120
+Ale ve skutečnosti
+
+00:02:58.120 --> 00:03:02.590
+V mnoha případech není správně implementována nejen TDD, ale ani automatizace testování.
+
+00:03:03.190 --> 00:03:06.260
+Psaní smysluplných testů nejdříve bez jakékoli přípravy je
+
+00:03:06.260 --> 00:03:07.540
+Nikdy to není snadné
+
+00:03:08.410 --> 00:03:12.340
+To je něco, co vyžaduje kombinované schopnosti softwarového návrhu.
+
+00:03:13.320 --> 00:03:16.270
+Je tedy lepší zabývat se designem a TDD společně.
+
+00:03:16.270 --> 00:03:18.180
+Posoudil jsem to jako efektivní
+
+00:03:20.120 --> 00:03:23.450
+Takže nyní začněme první schůzku projektu.
+
+00:03:24.150 --> 00:03:26.470
+Protože se jedná o malý projekt
+
+00:03:26.470 --> 00:03:28.090
+Jsou dva účastníci
+
+00:03:28.790 --> 00:03:32.340
+Ten vlevo je odborník na doménu a ten vpravo je vývojář.
+
+00:03:34.550 --> 00:03:37.790
+Odborníci na danou oblast mají slovo v tom, jaké systémy musíme vybudovat.
+
+00:03:37.790 --> 00:03:39.280
+Vypráví spoustu příběhů
+
+00:03:40.340 --> 00:03:42.160
+Divadlo, které provozujeme
+
+00:03:42.160 --> 00:03:44.710
+Po celé zemi jich je asi čtyři tisíce.
+
+00:03:44.710 --> 00:03:47.220
+V budoucnu se to může ještě zvýšit.
+
+00:03:47.220 --> 00:03:50.480
+V současné době je podporována pouze funkce rezervace vstupenek do kina.
+
+00:03:50.480 --> 00:03:54.510
+Později plánujeme přidat prodej vstupenek na velká představení.
+
+00:03:54.510 --> 00:03:58.940
+A důležité je, abyste si nikdy nerezervovali dvě sedadla.
+
+00:03:58.940 --> 00:04:03.250
+V minulosti měla centra zákaznických služeb s tímto druhem problému opravdu těžké potíže.
+
+00:04:03.250 --> 00:04:07.670
+Protože již existuje spousta informací o filmech a recenzí.
+
+00:04:07.670 --> 00:04:11.090
+Tato data musí zůstat nedotčena.
+
+00:04:12.090 --> 00:04:14.730
+Zde je konverzace dobře organizovaná, ale
+
+00:04:14.890 --> 00:04:16.960
+Ve skutečnosti je tam více informací
+
+00:04:16.960 --> 00:04:18.600
+Bude doručeno neorganizovaným způsobem
+
+00:04:19.470 --> 00:04:22.110
+Ale příběh, který se odhalí na začátku projektu, je
+
+00:04:22.110 --> 00:04:23.780
+Protože je to nejdůležitější požadavek
+
+00:04:23.780 --> 00:04:25.320
+Musíš pozorně naslouchat
+
+00:04:27.110 --> 00:04:29.810
+Vývojáři naslouchají odborníkům z oboru
+
+00:04:29.810 --> 00:04:31.290
+Mám pár otázek
+
+00:04:32.290 --> 00:04:34.660
+Funkce rezervace vstupenek na rozsáhlá představení, kterou jste zmínil/a
+
+00:04:34.660 --> 00:04:36.910
+Kdy bude přidáno?
+
+00:04:36.910 --> 00:04:39.910
+Mělo by to být zahrnuto do rozsahu tohoto projektu předem?
+
+00:04:39.910 --> 00:04:43.590
+Nebo bych rád věděl, jestli to mám ještě zvážit
+
+00:04:43.590 --> 00:04:46.090
+A potřeba udržovat stávající data
+
+00:04:46.090 --> 00:04:48.940
+Znamená to, že bychom neměli měnit systém databází?
+
+00:04:48.940 --> 00:04:51.950
+Sdílejí aktuálně databázi nějaké další služby?
+
+00:04:53.580 --> 00:04:54.980
+Jak je vidět z databáze,
+
+00:04:54.980 --> 00:04:57.290
+Protože odborníci na doménu nejsou vývojáři
+
+00:04:57.290 --> 00:04:59.430
+Technický výraz je nejednoznačný
+
+00:04:59.910 --> 00:05:02.890
+Vývojáři by si měli tyto věci pečlivě prověřit.
+
+00:05:04.230 --> 00:05:07.450
+Odborníci na domény odpovídají na otázky vývojářů takto:
+
+00:05:08.330 --> 00:05:10.210
+Funkce rezervace vstupenek na rozsáhlá představení
+
+00:05:10.210 --> 00:05:13.450
+Zatím není žádný konkrétní harmonogram.
+
+00:05:13.450 --> 00:05:15.970
+Nicméně, až budou v budoucnu přidány nové funkce
+
+00:05:15.970 --> 00:05:18.700
+Abyste mohli upgradovat bez větších obtíží
+
+00:05:18.700 --> 00:05:22.600
+Myslím, že by bylo dobré, kdybyste to tentokrát trochu zvážili.
+
+00:05:22.600 --> 00:05:27.050
+DB nepoužíváme k ničemu jinému než k našim službám.
+
+00:05:27.050 --> 00:05:32.840
+Změna samotného systému není velký problém, pokud jsou data dobře udržována.
+
+00:05:33.840 --> 00:05:35.080
+Po vyslechnutí příběhu
+
+00:05:35.080 --> 00:05:39.400
+Myslím, že se nemusíš bát té velké show.
+
+00:05:39.400 --> 00:05:40.790
+Není to rozsah projektu
+
+00:05:40.790 --> 00:05:43.040
+Požadavky také nejsou jasné
+
+00:05:43.040 --> 00:05:44.930
+Nevím, kdy to budu potřebovat, ale
+
+00:05:44.930 --> 00:05:47.710
+To je problém, který budeme muset později znovu prozkoumat.
+
+00:05:48.920 --> 00:05:50.910
+I když to není v dokumentu zaznamenáno
+
+00:05:50.910 --> 00:05:54.880
+Odborníci v dané oblasti také odpoví, že budou brát v úvahu výkony ve velkém měřítku.
+
+00:05:54.880 --> 00:05:55.960
+Nesmíš zapomenout
+
+00:05:56.740 --> 00:05:58.320
+V pořádku
+
+00:05:58.320 --> 00:06:00.630
+Pak funkce rezervace vstupenek na rozsáhlá představení
+
+00:06:00.630 --> 00:06:04.500
+Neřadil bych to mezi hlavní priority tohoto projektu.
+
+00:06:04.500 --> 00:06:08.220
+Místo toho usnadňuje pozdější rozšíření funkcí v procesu vývoje.
+
+00:06:08.220 --> 00:06:10.190
+Budu se o to dobře starat
+
+00:06:10.190 --> 00:06:12.840
+Nedělej si starosti. Věř jen mně
+
+00:06:13.840 --> 00:06:15.960
+Důležité je dobře vycházet
+
+00:06:17.980 --> 00:06:19.500
+Během naší dosavadní konverzace
+
+00:06:19.500 --> 00:06:22.700
+Hlavní priority jsou shrnuty následovně:
+
+00:06:23.220 --> 00:06:25.890
+Toto jsou informace poskytnuté odborníky na danou doménu.
+
+00:06:25.890 --> 00:06:28.410
+Interpretace a organizace z pohledu vývojáře
+
+00:06:28.410 --> 00:06:29.810
+Zahájení projektu
+
+00:06:31.700 --> 00:06:32.860
+S odborníky na domény
+
+00:06:32.860 --> 00:06:34.980
+Jakmile si stanovíte cíle svého projektu,
+
+00:06:35.620 --> 00:06:37.980
+Nyní je čas pojmenovat váš projekt.
+
+00:06:38.750 --> 00:06:41.840
+Nejprve se zeptejte odborníka na doménu na jeho názor.
+
+00:06:42.800 --> 00:06:45.540
+Jak bych měl/a ten projekt pojmenovat?
+
+00:06:45.540 --> 00:06:47.680
+Je to systém rezervace filmů.
+
+00:06:47.680 --> 00:06:50.150
+A co třeba jen systém rezervace filmů?
+
+00:06:50.150 --> 00:06:51.430
+ne, nechci
+
+00:06:51.430 --> 00:06:53.570
+Postarám se o velká představení
+
+00:06:53.570 --> 00:06:56.930
+Pojďme se podívat na systém rezervace filmů. Ano?
+
+00:06:56.930 --> 00:06:58.180
+velký
+
+00:06:58.180 --> 00:06:59.950
+Moc děkuji
+
+00:07:01.000 --> 00:07:05.230
+Odborníci na domény mohou chtít názvy projektů v korejštině.
+
+00:07:05.580 --> 00:07:07.680
+Ale z pohledu vývojáře
+
+00:07:07.680 --> 00:07:09.990
+Všechny termíny včetně názvů projektů
+
+00:07:09.990 --> 00:07:12.180
+Protože je implementován přímo v kódu,
+
+00:07:12.600 --> 00:07:15.000
+Pokud je to možné, je snazší to definovat v angličtině.
+
+00:07:15.540 --> 00:07:19.510
+Je důležité, aby vývojáři věrně následovali potřeby odborníků v dané oblasti, ale
+
+00:07:19.960 --> 00:07:21.430
+S ohledem na celý projekt
+
+00:07:21.430 --> 00:07:23.930
+Také máme odpovědnost řídit věci efektivním směrem.
+
+00:07:25.850 --> 00:07:27.760
+Pokud jste se rozhodli pro název svého projektu
+
+00:07:27.760 --> 00:07:31.380
+Nyní je čas zjistit, kdo používá systém rezervace filmů.
+
+00:07:32.020 --> 00:07:34.940
+Samozřejmě byste se o informace v této věci měli zeptat odborníka na doménu.
+
+00:07:35.420 --> 00:07:38.740
+A zjišťujeme, že máme zákazníky a manažery.
+
+00:07:40.820 --> 00:07:43.280
+Jedním z prvků, který lze v raných fázích návrhu snadno přehlédnout, je
+
+00:07:43.280 --> 00:07:44.760
+Je to vnější závislost
+
+00:07:45.340 --> 00:07:46.580
+Externí závislosti jsou
+
+00:07:46.580 --> 00:07:49.210
+Mohlo by se jednat o existující starší systém,
+
+00:07:49.660 --> 00:07:51.420
+Mohlo by se jednat o platební systém
+
+00:07:52.020 --> 00:07:53.670
+Tento závislostní vztah je
+
+00:07:53.670 --> 00:07:56.760
+Protože to může mít zásadní vliv na celkový návrh systému.
+
+00:07:56.950 --> 00:08:00.150
+Je důležité to identifikovat co nejdříve.
+
+00:08:00.570 --> 00:08:01.240
+naštěstí
+
+00:08:01.820 --> 00:08:04.990
+Prvky jako platební brány a starší systémy
+
+00:08:05.270 --> 00:08:07.730
+Protože se již používá ve stávajících systémech
+
+00:08:07.990 --> 00:08:10.360
+Dá se to pochopit relativně snadno
+
+00:08:11.230 --> 00:08:14.410
+Jednou z věcí, kterou lze v závislém vztahu snadno přehlédnout, je
+
+00:08:14.410 --> 00:08:16.090
+Existují vnější faktory prostředí
+
+00:08:16.900 --> 00:08:19.060
+Naše země je ve stejném časovém pásmu
+
+00:08:19.060 --> 00:08:22.430
+V zemi s velkou rozlohou má každé divadlo jiný časový úsek.
+
+00:08:23.190 --> 00:08:25.100
+Pak systém rezervace filmů
+
+00:08:25.100 --> 00:08:28.900
+Je nevyhnutelné, že bude ovlivněn faktory prostředí, jako jsou časová pásma.
+
+00:08:29.410 --> 00:08:32.760
+Tyto faktory nejsou snadno zřejmé, pokud se nezeptáte přímo odborníka na danou oblast.
+
+00:08:32.760 --> 00:08:33.950
+Je snadné to přehlédnout
+
+00:08:34.740 --> 00:08:37.610
+Odborníci na domény mají tendenci tyto detaily přehlížet.
+
+00:08:37.610 --> 00:08:40.010
+Protože vysvětlení může být vynecháno
+
+00:08:41.680 --> 00:08:43.640
+Protože vztah závislosti byl jasně stanoven
+
+00:08:43.640 --> 00:08:47.500
+Nyní se zaměřme na vnitřnosti systému pro rezervaci filmů.
+
+00:08:48.430 --> 00:08:52.230
+Za prvé, co zákazník dělá v systému pro rezervaci filmů?
+
+00:08:52.230 --> 00:08:54.230
+Zeptáme se odborníků na domény
+
+00:08:55.800 --> 00:08:57.880
+Co dělají zákazníci?
+
+00:08:57.880 --> 00:08:59.970
+Zákazníci hledají filmy,
+
+00:08:59.970 --> 00:09:01.450
+Zobrazit podrobnosti o filmu,
+
+00:09:01.450 --> 00:09:02.910
+Vyberte čas promítání,
+
+00:09:02.910 --> 00:09:04.450
+Vyberte si sedadlo,
+
+00:09:04.450 --> 00:09:05.920
+Rezervujte si vstupenky do kina,
+
+00:09:05.920 --> 00:09:07.610
+Zkontrolujte podrobnosti rezervace,
+
+00:09:07.610 --> 00:09:10.180
+Dělat věci jako zrušit rezervaci
+
+00:09:10.180 --> 00:09:15.750
+Je výběr času promítání a výběr sedadla součástí procesu rezervace vstupenek do kina?
+
+00:09:15.750 --> 00:09:18.880
+A rezervovat si vstupenky do kina, zrušit rezervace
+
+00:09:18.880 --> 00:09:22.210
+Koneckonců, nekoupíte si jen letenku a dostanete peníze zpět?
+
+00:09:22.210 --> 00:09:23.620
+máš pravdu
+
+00:09:23.620 --> 00:09:25.030
+To je pravda
+
+00:09:25.480 --> 00:09:27.880
+Protože je to teď známá doména
+
+00:09:27.880 --> 00:09:31.240
+Vyberte si čas promítání a zvolte si svá místa
+
+00:09:31.240 --> 00:09:33.200
+Je to součástí procesu rezervace vstupenek do kina?
+
+00:09:33.200 --> 00:09:34.530
+Mohl bych se zeptat
+
+00:09:34.980 --> 00:09:37.220
+Ale pokud se jedná o neznámou doménu,
+
+00:09:37.410 --> 00:09:40.160
+Detailní analýza každého případu použití
+
+00:09:40.520 --> 00:09:43.330
+Proces rafinace budete několikrát opakovat.
+
+00:09:43.790 --> 00:09:45.350
+V závislosti na situaci projektu
+
+00:09:45.350 --> 00:09:48.080
+Tento postup můžete několikrát opakovat,
+
+00:09:48.080 --> 00:09:50.580
+Čím více času si věnujete a pečlivěji analyzujete,
+
+00:09:50.580 --> 00:09:54.190
+Snižte počet pokusů a omylů během fází návrhu a implementace.
+
+00:09:55.850 --> 00:09:57.530
+Na základě dosavadní konverzace
+
+00:09:57.530 --> 00:10:00.970
+Případy užití našich zákazníků jsme uspořádali do čtyř kategorií:
+
+00:10:02.960 --> 00:10:04.470
+Další je administrátor
+
+00:10:05.190 --> 00:10:08.850
+Správce vidí, že existuje pět položek správy:
+
+00:10:09.440 --> 00:10:13.620
+Osobně jsem opatrný, pokud jde o používání slova „Spravovat“ ve vývoji.
+
+00:10:14.360 --> 00:10:16.980
+Spravovat je příliš široký výraz.
+
+00:10:16.980 --> 00:10:19.030
+Není jasné, co děláš
+
+00:10:19.640 --> 00:10:20.950
+Je to tady taky stejné
+
+00:10:21.370 --> 00:10:23.760
+Jak přesně se to spravuje?
+
+00:10:23.760 --> 00:10:24.810
+Nevím
+
+00:10:25.930 --> 00:10:27.620
+Rozhovory s odborníky na domény
+
+00:10:27.620 --> 00:10:31.220
+Každá položka správy byla rozšířena na specifický případ použití.
+
+00:10:31.900 --> 00:10:33.660
+Pokud se jedná o skutečný projekt
+
+00:10:33.660 --> 00:10:35.890
+Pravděpodobně existuje více případů použití než toto.
+
+00:10:36.150 --> 00:10:39.000
+Zde jsem to pro vysvětlení zjednodušil.
+
+00:10:39.860 --> 00:10:42.700
+Důležité je si zde uvědomit, že když vytvoříte dobu běhu,
+
+00:10:43.020 --> 00:10:45.900
+Vidíte, že je také vytvořen tiket
+
+00:10:46.960 --> 00:10:49.200
+A při nákupu nebo vrácení jízdenky
+
+00:10:49.490 --> 00:10:53.910
+Také vidíte, že používáme externí službu zvanou platební brána.
+
+00:10:55.890 --> 00:10:58.670
+Zkombinoval jsem případy užití zákazníků a manažerů.
+
+00:10:59.350 --> 00:11:01.730
+Když se na celý případ použití podíváme takto
+
+00:11:01.730 --> 00:11:02.900
+Něco se zdá prázdné
+
+00:11:03.890 --> 00:11:05.840
+Existuje možnost přidat divadlo
+
+00:11:05.840 --> 00:11:08.720
+Nevidím nic jako Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Zdá se, že existuje poměrně dost případů použití, které jsou opomíjeny.
+
+00:11:12.770 --> 00:11:15.980
+Protože z pohledu odborníka v dané oblasti je toho hodně k vysvětlení.
+
+00:11:15.980 --> 00:11:17.950
+Tento případ použití, který se zdá být tak zřejmý,
+
+00:11:18.150 --> 00:11:19.810
+Vysvětlení můžete vynechat
+
+00:11:20.770 --> 00:11:23.460
+A co tedy z pohledu vývojáře?
+
+00:11:24.400 --> 00:11:28.290
+Je lepší vynechat jednoduché zprávy, jako je hledání divadla.
+
+00:11:28.290 --> 00:11:30.700
+Nebylo by to užitečnější pro správu dokumentů?
+
+00:11:31.720 --> 00:11:32.870
+Pokud se jedná o backendový design
+
+00:11:32.870 --> 00:11:35.920
+Jednoduché případy použití, jako je hledání kina
+
+00:11:35.920 --> 00:11:37.760
+Myslím, že je v pořádku to přeskočit
+
+00:11:38.600 --> 00:11:41.570
+Říkám, že během implementační fáze není příliš pozdě reagovat.
+
+00:11:42.370 --> 00:11:44.310
+Ale pokud se jedná o skutečný projekt
+
+00:11:44.310 --> 00:11:48.450
+Pro plánovače obrazovky jsou tyto případy užití dobrým výchozím bodem.
+
+00:11:49.250 --> 00:11:52.300
+Plánovač se zabýval případem užití hledání divadla.
+
+00:11:52.300 --> 00:11:55.300
+Jak mám umožnit vyhledávání kin?
+
+00:11:55.300 --> 00:11:56.600
+Budete si moci myslet
+
+00:11:58.000 --> 00:12:00.880
+Když diagramy spojíte do jednoho, vypadá to složitě.
+
+00:12:01.490 --> 00:12:05.150
+Kdyby se jednalo o skutečný projekt, bylo by to mnohem složitější.
+
+00:12:05.720 --> 00:12:08.240
+V tomto případě není nutné vynucovat sloučení.
+
+00:12:08.810 --> 00:12:13.910
+Právě jsem je zde sloučil, abych odhalil, že tam chybí případy.
+
+00:12:16.020 --> 00:12:18.490
+Doplnil jsem všechny chybějící případy
+
+00:12:19.200 --> 00:12:21.880
+Mám případ použití, kdy je vynecháno spojení s hercem.
+
+00:12:22.290 --> 00:12:25.720
+To platí jak pro zákazníky, tak pro manažery.
+
+00:12:26.400 --> 00:12:29.480
+A pro snazší implementaci jsem to napsal v angličtině.
+
+00:12:31.370 --> 00:12:34.160
+Teď už je to v pořádku, protože je to malý projekt.
+
+00:12:34.160 --> 00:12:36.160
+Pokud je projekt rozsáhlý a složitý
+
+00:12:36.160 --> 00:12:38.980
+Kde by měl odborník na doménu začít s vysvětlováním?
+
+00:12:38.980 --> 00:12:40.380
+Může to být obtížné
+
+00:12:41.280 --> 00:12:43.300
+Co dělá administrátor?
+
+00:12:43.300 --> 00:12:44.700
+Je to spousta práce
+
+00:12:44.700 --> 00:12:46.620
+Jak se od manažera očekávalo
+
+00:12:47.620 --> 00:12:49.750
+Můžeme v tomto případě rozdělit aktéry?
+
+00:12:49.750 --> 00:12:52.340
+Je také dobrý nápad si to zkontrolovat
+
+00:12:53.140 --> 00:12:54.790
+Nejdřív mi říkali administrátor/ka.
+
+00:12:54.790 --> 00:12:57.400
+Je možné rozdělit podle rolí
+
+00:12:58.520 --> 00:13:00.820
+A používání systému rezervace filmů
+
+00:13:00.820 --> 00:13:02.870
+Mohou existovat externí služby
+
+00:13:03.660 --> 00:13:05.340
+Pokud herce takto rozdělíme,
+
+00:13:05.340 --> 00:13:09.420
+Odborníci v dané oblasti budou schopni poskytnout systematičtější informace.
+
+00:13:10.350 --> 00:13:14.000
+Samozřejmě je to jen jeden příklad analýzy složité domény.
+
+00:13:14.540 --> 00:13:17.320
+Mohou existovat i jiné dobré způsoby
+
+00:13:17.960 --> 00:13:21.740
+Je důležité reagovat flexibilně v závislosti na situaci.
+
+00:13:24.250 --> 00:13:25.060
+Toto je závěr
+
+00:13:25.950 --> 00:13:29.170
+Tentokrát použijeme diagram případů užití
+
+00:13:29.170 --> 00:13:30.840
+Stanovte si cíle pro projekt
+
+00:13:31.230 --> 00:13:33.700
+Prošla jsem si úvodními fázemi analýzy.
+
+00:13:34.880 --> 00:13:38.010
+Osobně, během celého vývojového procesu
+
+00:13:38.010 --> 00:13:40.060
+Myslím, že analýza je nejtěžší
+
+00:13:40.570 --> 00:13:44.250
+Protože musíme uspořádat ty nejabstrahčnější a nejvágnější pojmy.
+
+00:13:45.020 --> 00:13:47.650
+Příště se podíváme na hlavní případy použití
+
+00:13:47.650 --> 00:13:49.470
+Pojďme si to rozebrat podrobněji
+
+00:13:50.300 --> 00:13:52.100
+Děkuji vám za vaši dosavadní tvrdou práci.
+

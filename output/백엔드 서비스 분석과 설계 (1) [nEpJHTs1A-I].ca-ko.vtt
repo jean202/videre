@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: ca
+
+00:00:00.000 --> 00:00:02.020
+Hola, això és Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+El programari és complex
+
+00:00:06.650 --> 00:00:08.890
+En primer lloc, hi ha molt de codi que cal escriure.
+
+00:00:09.760 --> 00:00:12.710
+Només els projectes d'exemple que he creat per a aquesta sèrie
+
+00:00:12.710 --> 00:00:15.270
+El codi té més de 12.000 línies de llargada.
+
+00:00:16.330 --> 00:00:18.320
+Si es tracta d'un servei operatiu real
+
+00:00:18.320 --> 00:00:21.530
+Fins i tot si és un servei petit, superarà fàcilment les 100.000 línies.
+
+00:00:22.130 --> 00:00:25.300
+Cent mil línies són suficients per omplir vint novel·les.
+
+00:00:26.870 --> 00:00:29.560
+Escriure codi llarg no vol dir que s'hagi acabat.
+
+00:00:30.330 --> 00:00:32.540
+Has d'anar corregint el codi que escrius.
+
+00:00:33.400 --> 00:00:35.800
+Si arregles A, B es trenca.
+
+00:00:35.800 --> 00:00:39.130
+Si arregles B, A i C es trencaran.
+
+00:00:41.090 --> 00:00:44.260
+Per fer servir una analogia, és com estar atrapat en una Raspútica i plorar.
+
+00:00:44.260 --> 00:00:46.360
+Es podria dir que és una situació similar a la d'un cavall.
+
+00:00:47.330 --> 00:00:50.550
+En aquest punt, sentiràs la necessitat de dissenyar.
+
+00:00:52.580 --> 00:00:55.010
+Però quan realment intentes escriure un document de disseny,
+
+00:00:55.500 --> 00:00:58.490
+Expressar els pensaments que tens al cap de manera concreta
+
+00:00:58.790 --> 00:01:01.260
+Descobriràs que no és tan fàcil com penses.
+
+00:01:01.890 --> 00:01:05.600
+Fins i tot les partitures, que són un document que enregistra visualment so o música,
+
+00:01:05.600 --> 00:01:06.700
+És així de complicat
+
+00:01:07.520 --> 00:01:10.610
+No només música, sinó també finances i logística
+
+00:01:10.610 --> 00:01:14.060
+Conceptes més diversos i requisits d'usuari abstractes
+
+00:01:14.060 --> 00:01:17.220
+No serà fàcil expressar-ho en un model concret.
+
+00:01:18.530 --> 00:01:19.490
+Afortunadament
+
+00:01:19.770 --> 00:01:23.200
+Per superar la dificultat de modelar conceptes abstractes
+
+00:01:23.540 --> 00:01:26.860
+UML va néixer a finals dels anys noranta.
+
+00:01:27.730 --> 00:01:30.120
+Va ser dirigit per Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Fem servir UML amb anticipació
+
+00:01:34.980 --> 00:01:36.990
+Dibuixa un diagrama de classes
+
+00:01:36.990 --> 00:01:38.760
+Dibuixem també un diagrama de seqüència
+
+00:01:39.430 --> 00:01:39.980
+tanmateix
+
+00:01:40.360 --> 00:01:43.160
+Quan vaig intentar dissenyar-lo, va ser diferent de codificar-lo directament.
+
+00:01:43.160 --> 00:01:45.130
+No sembla que sigui gaire diferent
+
+00:01:45.590 --> 00:01:46.520
+Per què és això?
+
+00:01:47.350 --> 00:01:50.910
+Això és degut a que el procés de pensament està acostumat a la implementació.
+
+00:01:51.290 --> 00:01:54.170
+En lloc de fer més concrets els conceptes abstractes,
+
+00:01:54.490 --> 00:01:57.590
+Perquè tradueix el pensament a nivell d'implementació a UML.
+
+00:01:58.520 --> 00:02:00.270
+Només perquè saps llegir partitures
+
+00:02:00.270 --> 00:02:01.950
+No és com si ho pogués compondre
+
+00:02:02.390 --> 00:02:03.850
+Només perquè has après UML
+
+00:02:03.850 --> 00:02:06.170
+No és com si desenvolupessis habilitats de disseny.
+
+00:02:07.700 --> 00:02:09.300
+Així doncs, en aquesta sèrie
+
+00:02:09.300 --> 00:02:11.580
+A través de projectes reals
+
+00:02:11.580 --> 00:02:14.420
+Com concretar requisits abstractes
+
+00:02:14.420 --> 00:02:16.290
+Pots connectar el codi?
+
+00:02:16.290 --> 00:02:18.010
+M'agradaria mostrar-te en persona
+
+00:02:18.530 --> 00:02:20.930
+Vaig triar reservar entrades de cinema per domini
+
+00:02:21.370 --> 00:02:25.200
+Les reserves d'entrades de cinema són fàcils d'entendre perquè són majoritàriament dominis familiars.
+
+00:02:25.200 --> 00:02:29.710
+Inclou diverses funcions com ara iniciar sessió, pagament i selecció de seient.
+
+00:02:29.710 --> 00:02:31.580
+Sembla un bon exemple
+
+00:02:33.600 --> 00:02:36.890
+Bàsicament, el tema d'aquest article és el disseny de programari, però
+
+00:02:36.890 --> 00:02:40.350
+També tractarem el desenvolupament basat en proves.
+
+00:02:41.210 --> 00:02:44.890
+Els entorns de desenvolupament moderns admeten de manera nativa eines de prova.
+
+00:02:45.600 --> 00:02:48.320
+Fins i tot si mireu projectes de codi obert famosos,
+
+00:02:48.320 --> 00:02:51.130
+Tenim un cert nivell de proves.
+
+00:02:51.740 --> 00:02:56.200
+Això probablement significa que les proves són de gran importància i utilitat.
+
+00:02:56.870 --> 00:02:58.120
+Però en realitat
+
+00:02:58.120 --> 00:03:02.590
+En molts casos, no només el TDD, sinó fins i tot l'automatització de proves no s'implementa correctament.
+
+00:03:03.190 --> 00:03:06.260
+Escriure primer proves significatives sense cap preparació és
+
+00:03:06.260 --> 00:03:07.540
+Mai és fàcil
+
+00:03:08.410 --> 00:03:12.340
+Això és una cosa que requereix les capacitats combinades del disseny de programari.
+
+00:03:13.320 --> 00:03:16.270
+Per tant, és millor tractar el disseny i el TDD junts.
+
+00:03:16.270 --> 00:03:18.180
+Ho vaig considerar eficient
+
+00:03:20.120 --> 00:03:23.450
+Així doncs, comencem ara la primera reunió del projecte.
+
+00:03:24.150 --> 00:03:26.470
+Perquè aquest és un projecte petit
+
+00:03:26.470 --> 00:03:28.090
+Hi ha dos assistents
+
+00:03:28.790 --> 00:03:32.340
+El de l'esquerra és un expert en dominis i el de la dreta és un desenvolupador.
+
+00:03:34.550 --> 00:03:37.790
+Els experts en dominis tenen veu en els sistemes que hem de construir.
+
+00:03:37.790 --> 00:03:39.280
+Explica moltes històries
+
+00:03:40.340 --> 00:03:42.160
+El teatre que dirigim
+
+00:03:42.160 --> 00:03:44.710
+N'hi ha uns quatre mil arreu del país.
+
+00:03:44.710 --> 00:03:47.220
+Pot augmentar encara més en el futur.
+
+00:03:47.220 --> 00:03:50.480
+Actualment, només s'admet la funció de reserva d'entrades de cinema.
+
+00:03:50.480 --> 00:03:54.510
+Tenim previst afegir la venda d'entrades per a actuacions a gran escala més endavant.
+
+00:03:54.510 --> 00:03:58.940
+I l'important és que mai no has de reservar dues places.
+
+00:03:58.940 --> 00:04:03.250
+En el passat, els centres d'atenció al client tenien moltes dificultats amb aquest tipus de problema.
+
+00:04:03.250 --> 00:04:07.670
+Perquè ja s'ha acumulat molta informació i dades de ressenyes de pel·lícules.
+
+00:04:07.670 --> 00:04:11.090
+Aquestes dades han de romandre intactes.
+
+00:04:12.090 --> 00:04:14.730
+Aquí la conversa està ben organitzada, però
+
+00:04:14.890 --> 00:04:16.960
+De fet, hi ha més informació
+
+00:04:16.960 --> 00:04:18.600
+Es lliurarà de manera desorganitzada
+
+00:04:19.470 --> 00:04:22.110
+Però la història que surt al principi del projecte és
+
+00:04:22.110 --> 00:04:23.780
+Perquè és el requisit més important
+
+00:04:23.780 --> 00:04:25.320
+Has d'escoltar atentament
+
+00:04:27.110 --> 00:04:29.810
+Els desenvolupadors escolten els experts en dominis
+
+00:04:29.810 --> 00:04:31.290
+Tinc unes quantes preguntes
+
+00:04:32.290 --> 00:04:34.660
+La funció de reserva d'entrades per a grans espectacles que has esmentat
+
+00:04:34.660 --> 00:04:36.910
+Quan s'afegirà?
+
+00:04:36.910 --> 00:04:39.910
+Això s'hauria d'incloure prèviament en l'abast d'aquest projecte?
+
+00:04:39.910 --> 00:04:43.590
+O m'agradaria saber si ho hauria de considerar ja
+
+00:04:43.590 --> 00:04:46.090
+I la necessitat de mantenir les dades existents
+
+00:04:46.090 --> 00:04:48.940
+Vol dir això que no hauríem de canviar el sistema de bases de dades?
+
+00:04:48.940 --> 00:04:51.950
+Hi ha altres serveis que comparteixin actualment la base de dades?
+
+00:04:53.580 --> 00:04:54.980
+Com podeu veure a la base de dades,
+
+00:04:54.980 --> 00:04:57.290
+Perquè els experts en dominis no són desenvolupadors
+
+00:04:57.290 --> 00:04:59.430
+L'expressió tècnica és ambigua
+
+00:04:59.910 --> 00:05:02.890
+Els desenvolupadors han de comprovar aquestes coses acuradament.
+
+00:05:04.230 --> 00:05:07.450
+Els experts en dominis responen a les preguntes dels desenvolupadors com aquesta:
+
+00:05:08.330 --> 00:05:10.210
+La funció de reserva d'entrades per a grans espectacles
+
+00:05:10.210 --> 00:05:13.450
+Encara no hi ha cap horari concret.
+
+00:05:13.450 --> 00:05:15.970
+Tanmateix, quan s'afegeixin funcions en el futur
+
+00:05:15.970 --> 00:05:18.700
+Perquè puguis actualitzar sense gaire dificultat
+
+00:05:18.700 --> 00:05:22.600
+Crec que seria bo que aquesta vegada hi donessis una mica de relleu.
+
+00:05:22.600 --> 00:05:27.050
+No fem servir la base de dades per a res més que no siguin els nostres serveis.
+
+00:05:27.050 --> 00:05:32.840
+Canviar el sistema en si no és un gran problema sempre que les dades es mantinguin bé.
+
+00:05:33.840 --> 00:05:35.080
+Després d'escoltar la història
+
+00:05:35.080 --> 00:05:39.400
+No crec que hagis de preocupar-te pel gran espectacle.
+
+00:05:39.400 --> 00:05:40.790
+No és l'abast del projecte
+
+00:05:40.790 --> 00:05:43.040
+Els requisits tampoc són clars
+
+00:05:43.040 --> 00:05:44.930
+No sé quan ho necessitaré, però
+
+00:05:44.930 --> 00:05:47.710
+Aquest és un problema que haurem de tornar a revisar més tard.
+
+00:05:48.920 --> 00:05:50.910
+Fins i tot si no consta al document
+
+00:05:50.910 --> 00:05:54.880
+Els experts en dominis també respondran que consideraran actuacions a gran escala.
+
+00:05:54.880 --> 00:05:55.960
+No has d'oblidar
+
+00:05:56.740 --> 00:05:58.320
+D'acord
+
+00:05:58.320 --> 00:06:00.630
+Aleshores, la funció de reserva d'entrades per a grans espectacles
+
+00:06:00.630 --> 00:06:04.500
+No ho posaria entre les principals prioritats d'aquest projecte.
+
+00:06:04.500 --> 00:06:08.220
+En canvi, facilita l'ampliació de la funcionalitat més endavant en el procés de desenvolupament.
+
+00:06:08.220 --> 00:06:10.190
+Ho cuidaré bé
+
+00:06:10.190 --> 00:06:12.840
+No et preocupis. Confia només en mi
+
+00:06:13.840 --> 00:06:15.960
+És important portar-se bé
+
+00:06:17.980 --> 00:06:19.500
+A través de la nostra conversa fins ara
+
+00:06:19.500 --> 00:06:22.700
+Les principals prioritats es resumeixen de la manera següent:
+
+00:06:23.220 --> 00:06:25.890
+Aquesta és la informació proporcionada per experts en dominis.
+
+00:06:25.890 --> 00:06:28.410
+Interpretació i organització des de la perspectiva d'un desenvolupador
+
+00:06:28.410 --> 00:06:29.810
+Inicia el projecte
+
+00:06:31.700 --> 00:06:32.860
+Amb experts en dominis
+
+00:06:32.860 --> 00:06:34.980
+Un cop hagis decidit els objectius del teu projecte,
+
+00:06:35.620 --> 00:06:37.980
+Ara és el moment de posar nom al vostre projecte.
+
+00:06:38.750 --> 00:06:41.840
+Primer, demana l'opinió d'un expert en dominis.
+
+00:06:42.800 --> 00:06:45.540
+Quin nom hauria de posar al projecte?
+
+00:06:45.540 --> 00:06:47.680
+És un sistema de reserves de pel·lícules.
+
+00:06:47.680 --> 00:06:50.150
+Què tal el sistema de reserves de pel·lícules?
+
+00:06:50.150 --> 00:06:51.430
+no, no vull
+
+00:06:51.430 --> 00:06:53.570
+Jo m'encarregaré de les actuacions a gran escala
+
+00:06:53.570 --> 00:06:56.930
+Anem amb el sistema de reserves de pel·lícules. Sí?
+
+00:06:56.930 --> 00:06:58.180
+genial
+
+00:06:58.180 --> 00:06:59.950
+Moltes gràcies
+
+00:07:01.000 --> 00:07:05.230
+Els experts en dominis poden voler noms de projectes en coreà.
+
+00:07:05.580 --> 00:07:07.680
+Però des del punt de vista d'un desenvolupador
+
+00:07:07.680 --> 00:07:09.990
+Tots els termes, inclosos els noms dels projectes
+
+00:07:09.990 --> 00:07:12.180
+Com que s'implementa directament en codi,
+
+00:07:12.600 --> 00:07:15.000
+És més fàcil definir-ho en anglès si és possible.
+
+00:07:15.540 --> 00:07:19.510
+És important que els desenvolupadors segueixin fidelment les necessitats dels experts en dominis, però
+
+00:07:19.960 --> 00:07:21.430
+Considerant tot el projecte
+
+00:07:21.430 --> 00:07:23.930
+També tenim la responsabilitat de dirigir les coses en una direcció eficient.
+
+00:07:25.850 --> 00:07:27.760
+Si ja has decidit un nom per al teu projecte
+
+00:07:27.760 --> 00:07:31.380
+Ara és el moment de descobrir qui utilitza el sistema de reserves de pel·lícules.
+
+00:07:32.020 --> 00:07:34.940
+Per descomptat, hauries de demanar informació a un expert en dominis sobre això.
+
+00:07:35.420 --> 00:07:38.740
+I descobrim que tenim clients i directius.
+
+00:07:40.820 --> 00:07:43.280
+Un dels elements que és fàcil passar per alt en les primeres etapes del disseny és
+
+00:07:43.280 --> 00:07:44.760
+És una dependència externa
+
+00:07:45.340 --> 00:07:46.580
+Les dependències externes són
+
+00:07:46.580 --> 00:07:49.210
+Podria ser un sistema antic existent,
+
+00:07:49.660 --> 00:07:51.420
+Podria ser un sistema de pagament
+
+00:07:52.020 --> 00:07:53.670
+Aquesta relació de dependència és
+
+00:07:53.670 --> 00:07:56.760
+Perquè pot tenir un impacte important en el disseny general del sistema.
+
+00:07:56.950 --> 00:08:00.150
+És important identificar-ho el més aviat possible.
+
+00:08:00.570 --> 00:08:01.240
+afortunadament
+
+00:08:01.820 --> 00:08:04.990
+Elements com ara passarelles de pagament i sistemes antics
+
+00:08:05.270 --> 00:08:07.730
+Perquè ja s'utilitza en sistemes existents
+
+00:08:07.990 --> 00:08:10.360
+Es pot entendre amb relativa facilitat
+
+00:08:11.230 --> 00:08:14.410
+Una de les coses que és fàcil de passar per alt en una relació de dependència és
+
+00:08:14.410 --> 00:08:16.090
+Hi ha factors ambientals externs
+
+00:08:16.900 --> 00:08:19.060
+El nostre país està en el mateix fus horari
+
+00:08:19.060 --> 00:08:22.430
+En un país amb una gran superfície terrestre, cada teatre té una franja horària diferent.
+
+00:08:23.190 --> 00:08:25.100
+Aleshores, el sistema de reserves de pel·lícules
+
+00:08:25.100 --> 00:08:28.900
+És inevitable que es vegi afectat per factors ambientals com ara els fusos horaris.
+
+00:08:29.410 --> 00:08:32.760
+Aquests factors no són evidents si no ho preguntes directament a l'expert en dominis.
+
+00:08:32.760 --> 00:08:33.950
+És fàcil passar per alt
+
+00:08:34.740 --> 00:08:37.610
+Els experts en dominis solen passar per alt aquests detalls.
+
+00:08:37.610 --> 00:08:40.010
+Perquè l'explicació es pot ometre
+
+00:08:41.680 --> 00:08:43.640
+Com que la relació de dependència estava clarament establerta
+
+00:08:43.640 --> 00:08:47.500
+Ara centrem-nos en els aspectes interns del sistema de reserves de pel·lícules.
+
+00:08:48.430 --> 00:08:52.230
+En primer lloc, què fa el client al sistema de reserves de pel·lícules?
+
+00:08:52.230 --> 00:08:54.230
+Preguntem-ho als experts en dominis
+
+00:08:55.800 --> 00:08:57.880
+Què fan els clients?
+
+00:08:57.880 --> 00:08:59.970
+Els clients busquen pel·lícules,
+
+00:08:59.970 --> 00:09:01.450
+Veure detalls de la pel·lícula,
+
+00:09:01.450 --> 00:09:02.910
+Seleccioneu una hora de projecció,
+
+00:09:02.910 --> 00:09:04.450
+Selecciona el teu seient,
+
+00:09:04.450 --> 00:09:05.920
+Reserva entrades de cinema,
+
+00:09:05.920 --> 00:09:07.610
+Consulta els detalls de la reserva,
+
+00:09:07.610 --> 00:09:10.180
+Fer coses com ara cancel·lar una reserva
+
+00:09:10.180 --> 00:09:15.750
+L'elecció d'una hora de sessió i l'elecció d'un seient formen part del procés de reserva d'entrades de cinema?
+
+00:09:15.750 --> 00:09:18.880
+I per reservar entrades de cinema, per cancel·lar reserves
+
+00:09:18.880 --> 00:09:22.210
+Al cap i a la fi, no estàs comprant un bitllet i rebent un reemborsament?
+
+00:09:22.210 --> 00:09:23.620
+tens raó
+
+00:09:23.620 --> 00:09:25.030
+Això és correcte
+
+00:09:25.480 --> 00:09:27.880
+Perquè ara és un domini familiar
+
+00:09:27.880 --> 00:09:31.240
+Selecciona una hora de projecció i tria els teus seients
+
+00:09:31.240 --> 00:09:33.200
+Això forma part del procés de reserva d'entrades de cinema?
+
+00:09:33.200 --> 00:09:34.530
+Podria preguntar
+
+00:09:34.980 --> 00:09:37.220
+Però si és un domini desconegut,
+
+00:09:37.410 --> 00:09:40.160
+Analitzant cada cas d'ús en detall
+
+00:09:40.520 --> 00:09:43.330
+Repetiràs el procés de refinació diverses vegades.
+
+00:09:43.790 --> 00:09:45.350
+Depenent de la situació del projecte
+
+00:09:45.350 --> 00:09:48.080
+Podeu repetir aquest procés diverses vegades,
+
+00:09:48.080 --> 00:09:50.580
+Com més temps et prenguis i analitzis amb cura,
+
+00:09:50.580 --> 00:09:54.190
+Reduir la prova i l'error durant les etapes de disseny i implementació.
+
+00:09:55.850 --> 00:09:57.530
+Basat en la conversa fins ara
+
+00:09:57.530 --> 00:10:00.970
+Hem organitzat els casos d'ús dels nostres clients en quatre categories:
+
+00:10:02.960 --> 00:10:04.470
+El següent és l'administrador
+
+00:10:05.190 --> 00:10:08.850
+L'administrador pot veure que hi ha cinc elements de gestió:
+
+00:10:09.440 --> 00:10:13.620
+Personalment, sóc cautelós a l'hora d'utilitzar la paraula "Gestionar" en el desenvolupament.
+
+00:10:14.360 --> 00:10:16.980
+Gestionar és una expressió massa àmplia
+
+00:10:16.980 --> 00:10:19.030
+No està clar què estàs fent
+
+00:10:19.640 --> 00:10:20.950
+Aquí també és el mateix
+
+00:10:21.370 --> 00:10:23.760
+Com es gestiona exactament?
+
+00:10:23.760 --> 00:10:24.810
+No ho sé
+
+00:10:25.930 --> 00:10:27.620
+Parlant amb experts en dominis
+
+00:10:27.620 --> 00:10:31.220
+Cada element de gestió s'ha ampliat a un cas d'ús específic.
+
+00:10:31.900 --> 00:10:33.660
+Si és un projecte real
+
+00:10:33.660 --> 00:10:35.890
+Probablement hi ha més casos d'ús que aquest.
+
+00:10:36.150 --> 00:10:39.000
+Aquí ho he simplificat per a l'explicació.
+
+00:10:39.860 --> 00:10:42.700
+El que és important tenir en compte aquí és que quan creeu un temps d'execució,
+
+00:10:43.020 --> 00:10:45.900
+Podeu veure que el tiquet també s'ha creat
+
+00:10:46.960 --> 00:10:49.200
+I en comprar o reemborsar un bitllet
+
+00:10:49.490 --> 00:10:53.910
+També podeu veure que fem servir un servei extern anomenat passarel·la de pagament.
+
+00:10:55.890 --> 00:10:58.670
+Vaig combinar els casos d'ús de clients i gestors.
+
+00:10:59.350 --> 00:11:01.730
+Mirant tot el cas d'ús així
+
+00:11:01.730 --> 00:11:02.900
+Alguna cosa sembla buida
+
+00:11:03.890 --> 00:11:05.840
+Hi ha l'opció d'afegir un teatre
+
+00:11:05.840 --> 00:11:08.720
+No veig res semblant a Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Sembla que hi ha bastants casos d'ús que s'estan ometent.
+
+00:11:12.770 --> 00:11:15.980
+Perquè des de la perspectiva d'un expert en el domini, hi ha molt per explicar.
+
+00:11:15.980 --> 00:11:17.950
+Aquest cas d'ús, que sembla tan obvi,
+
+00:11:18.150 --> 00:11:19.810
+Pots ometre l'explicació
+
+00:11:20.770 --> 00:11:23.460
+Aleshores, què passa des del punt de vista d'un desenvolupador?
+
+00:11:24.400 --> 00:11:28.290
+És millor ometre casos informatius simples com ara la cerca d'un cinema.
+
+00:11:28.290 --> 00:11:30.700
+No seria això més útil per a la gestió documental?
+
+00:11:31.720 --> 00:11:32.870
+Si és disseny de backend
+
+00:11:32.870 --> 00:11:35.920
+Casos d'ús simples com ara cercar un cinema
+
+00:11:35.920 --> 00:11:37.760
+Crec que està bé saltar-ho
+
+00:11:38.600 --> 00:11:41.570
+El que dic és que no és massa tard per respondre durant la fase d'implementació.
+
+00:11:42.370 --> 00:11:44.310
+Però si és un projecte real
+
+00:11:44.310 --> 00:11:48.450
+Per als planificadors de pantalla, aquests casos d'ús són un bon punt de partida.
+
+00:11:49.250 --> 00:11:52.300
+El planificador va examinar el cas d'ús de la cerca d'un teatre.
+
+00:11:52.300 --> 00:11:55.300
+Com hauria de fer possible la cerca de cinemes?
+
+00:11:55.300 --> 00:11:56.600
+Podràs pensar.
+
+00:11:58.000 --> 00:12:00.880
+Quan combines els diagrames en un de sol, sembla complicat.
+
+00:12:01.490 --> 00:12:05.150
+Si fos un projecte real, seria molt més complicat.
+
+00:12:05.720 --> 00:12:08.240
+En aquest cas, no cal forçar una fusió.
+
+00:12:08.810 --> 00:12:13.910
+Els acabo de fusionar aquí per revelar que hi ha casos que falten.
+
+00:12:16.020 --> 00:12:18.490
+Vaig omplir tots els casos que faltaven
+
+00:12:19.200 --> 00:12:21.880
+Tinc un cas d'ús on s'omet la connexió amb l'actor.
+
+00:12:22.290 --> 00:12:25.720
+Això s'aplica tant als clients com als gestors.
+
+00:12:26.400 --> 00:12:29.480
+I per facilitar-ne la implementació, ho vaig escriure en anglès.
+
+00:12:31.370 --> 00:12:34.160
+Ara està bé perquè és un projecte petit
+
+00:12:34.160 --> 00:12:36.160
+Si el projecte és gran i complex
+
+00:12:36.160 --> 00:12:38.980
+Per on hauria de començar a explicar un expert en dominis?
+
+00:12:38.980 --> 00:12:40.380
+Pot ser difícil
+
+00:12:41.280 --> 00:12:43.300
+Què fa un administrador?
+
+00:12:43.300 --> 00:12:44.700
+És molta feina.
+
+00:12:44.700 --> 00:12:46.620
+Tal com s'esperava del gerent
+
+00:12:47.620 --> 00:12:49.750
+En aquest cas, podem subdividir els actors?
+
+00:12:49.750 --> 00:12:52.340
+També és una bona idea revisar
+
+00:12:53.140 --> 00:12:54.790
+Al principi em deien administrador
+
+00:12:54.790 --> 00:12:57.400
+Pot ser possible subdividir per rol
+
+00:12:58.520 --> 00:13:00.820
+I utilitzant el sistema de reserves de pel·lícules
+
+00:13:00.820 --> 00:13:02.870
+Pot haver-hi serveis externs
+
+00:13:03.660 --> 00:13:05.340
+Si segmentem els actors d'aquesta manera,
+
+00:13:05.340 --> 00:13:09.420
+Els experts en dominis podran proporcionar informació més sistemàtica.
+
+00:13:10.350 --> 00:13:14.000
+Naturalment, aquest és només un exemple d'anàlisi d'un domini complex.
+
+00:13:14.540 --> 00:13:17.320
+Pot haver-hi altres bones maneres
+
+00:13:17.960 --> 00:13:21.740
+És important respondre amb flexibilitat segons la situació.
+
+00:13:24.250 --> 00:13:25.060
+Aquesta és la conclusió
+
+00:13:25.950 --> 00:13:29.170
+Aquesta vegada, farem servir un diagrama de casos d'ús
+
+00:13:29.170 --> 00:13:30.840
+Establir objectius per al projecte
+
+00:13:31.230 --> 00:13:33.700
+He passat per les etapes inicials de l'anàlisi.
+
+00:13:34.880 --> 00:13:38.010
+Personalment, durant tot el procés de desenvolupament
+
+00:13:38.010 --> 00:13:40.060
+Crec que l'anàlisi és el més difícil
+
+00:13:40.570 --> 00:13:44.250
+Perquè hem d'organitzar els conceptes més abstractes i vagues.
+
+00:13:45.020 --> 00:13:47.650
+La propera vegada veurem els principals casos d'ús
+
+00:13:47.650 --> 00:13:49.470
+Analitzem-ho amb més detall
+
+00:13:50.300 --> 00:13:52.100
+Gràcies per la teva feina fins ara.
+

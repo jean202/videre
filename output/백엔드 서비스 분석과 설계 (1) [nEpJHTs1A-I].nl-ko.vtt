@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: nl
+
+00:00:00.000 --> 00:00:02.020
+Hallo, dit is Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Software is complex
+
+00:00:06.650 --> 00:00:08.890
+Allereerst moet er heel wat code geschreven worden.
+
+00:00:09.760 --> 00:00:12.710
+Dit zijn slechts enkele voorbeeldprojecten die ik voor deze serie heb gemaakt.
+
+00:00:12.710 --> 00:00:15.270
+De code is meer dan 12.000 regels lang.
+
+00:00:16.330 --> 00:00:18.320
+Als het een daadwerkelijke operationele dienst betreft
+
+00:00:18.320 --> 00:00:21.530
+Zelfs bij een kleine dienst zal het aantal aansluitingen gemakkelijk de 100.000 overschrijden.
+
+00:00:22.130 --> 00:00:25.300
+Honderdduizend regels zijn genoeg om twintig romans te vullen.
+
+00:00:26.870 --> 00:00:29.560
+Het schrijven van lange stukken code betekent niet dat het klaar is.
+
+00:00:30.330 --> 00:00:32.540
+Je moet de code die je schrijft voortdurend blijven aanpassen.
+
+00:00:33.400 --> 00:00:35.800
+Als je A repareert, gaat B kapot.
+
+00:00:35.800 --> 00:00:39.130
+Als je B repareert, gaan A en C kapot.
+
+00:00:41.090 --> 00:00:44.260
+Om een ​​analogie te gebruiken: het is alsof je vastzit in een Rasputica en huilt.
+
+00:00:44.260 --> 00:00:46.360
+Je zou kunnen zeggen dat het vergelijkbaar is met een paard.
+
+00:00:47.330 --> 00:00:50.550
+Op dit punt zul je de behoefte aan design voelen.
+
+00:00:52.580 --> 00:00:55.010
+Maar als je daadwerkelijk een ontwerpdocument probeert te schrijven,
+
+00:00:55.500 --> 00:00:58.490
+Je gedachten concreet onder woorden brengen
+
+00:00:58.790 --> 00:01:01.260
+Je zult ontdekken dat het niet zo eenvoudig is als je denkt.
+
+00:01:01.890 --> 00:01:05.600
+Zelfs bladmuziek, een document dat geluid of muziek visueel vastlegt,
+
+00:01:05.600 --> 00:01:06.700
+Zo ingewikkeld is het.
+
+00:01:07.520 --> 00:01:10.610
+Niet alleen muziek, maar ook financiën en logistiek.
+
+00:01:10.610 --> 00:01:14.060
+Meer uiteenlopende concepten en abstracte gebruikersvereisten
+
+00:01:14.060 --> 00:01:17.220
+Het zal niet eenvoudig zijn om dit in een specifiek model uit te drukken.
+
+00:01:18.530 --> 00:01:19.490
+Gelukkig
+
+00:01:19.770 --> 00:01:23.200
+Om de moeilijkheid van het modelleren van abstracte concepten te overwinnen
+
+00:01:23.540 --> 00:01:26.860
+UML is eind jaren negentig ontstaan.
+
+00:01:27.730 --> 00:01:30.120
+Het werd geleid door Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+We gebruiken UML met anticipatie.
+
+00:01:34.980 --> 00:01:36.990
+Teken een klassendiagram.
+
+00:01:36.990 --> 00:01:38.760
+Laten we ook een sequentiediagram tekenen.
+
+00:01:39.430 --> 00:01:39.980
+Echter
+
+00:01:40.360 --> 00:01:43.160
+Toen ik het daadwerkelijk probeerde te ontwerpen, bleek het anders te zijn dan het direct te coderen.
+
+00:01:43.160 --> 00:01:45.130
+Het lijkt niet veel anders te zijn.
+
+00:01:45.590 --> 00:01:46.520
+Hoe komt dat?
+
+00:01:47.350 --> 00:01:50.910
+Dat komt omdat het denkproces gewend is aan de uitvoering.
+
+00:01:51.290 --> 00:01:54.170
+In plaats van abstracte concepten concreter te maken,
+
+00:01:54.490 --> 00:01:57.590
+Omdat het denkbeelden op implementatieniveau vertaalt naar UML.
+
+00:01:58.520 --> 00:02:00.270
+Alleen omdat je noten kunt lezen
+
+00:02:00.270 --> 00:02:01.950
+Het is niet alsof ik het kan componeren.
+
+00:02:02.390 --> 00:02:03.850
+Dat je UML hebt geleerd, betekent niet alleen dat...
+
+00:02:03.850 --> 00:02:06.170
+Je ontwikkelt er geen ontwerpvaardigheden mee.
+
+00:02:07.700 --> 00:02:09.300
+Dus in deze serie
+
+00:02:09.300 --> 00:02:11.580
+Via concrete projecten
+
+00:02:11.580 --> 00:02:14.420
+Hoe abstracte eisen concreet te maken
+
+00:02:14.420 --> 00:02:16.290
+Kun je de code koppelen?
+
+00:02:16.290 --> 00:02:18.010
+Ik wil het je graag persoonlijk laten zien.
+
+00:02:18.530 --> 00:02:20.930
+Ik heb ervoor gekozen om filmkaartjes te reserveren via het domein.
+
+00:02:21.370 --> 00:02:25.200
+Het reserveren van bioscoopkaartjes is eenvoudig te begrijpen, omdat het grotendeels om bekende domeinen gaat.
+
+00:02:25.200 --> 00:02:29.710
+Bevat diverse functies zoals inloggen, betalen en stoelkeuze.
+
+00:02:29.710 --> 00:02:31.580
+Het lijkt een goed voorbeeld.
+
+00:02:33.600 --> 00:02:36.890
+Het onderwerp van dit artikel is in principe softwareontwerp, maar
+
+00:02:36.890 --> 00:02:40.350
+We zullen ook testgestuurde ontwikkeling behandelen.
+
+00:02:41.210 --> 00:02:44.890
+Moderne ontwikkelomgevingen bieden van nature ondersteuning voor testtools.
+
+00:02:45.600 --> 00:02:48.320
+Zelfs als je kijkt naar bekende open source-projecten,
+
+00:02:48.320 --> 00:02:51.130
+We hanteren een bepaald testniveau.
+
+00:02:51.740 --> 00:02:56.200
+Dit betekent waarschijnlijk dat testen van groot belang en nut is.
+
+00:02:56.870 --> 00:02:58.120
+Maar in werkelijkheid
+
+00:02:58.120 --> 00:03:02.590
+In veel gevallen wordt niet alleen TDD, maar zelfs testautomatisering niet correct geïmplementeerd.
+
+00:03:03.190 --> 00:03:06.260
+Het schrijven van zinvolle tests zonder enige voorbereiding is
+
+00:03:06.260 --> 00:03:07.540
+Het is nooit makkelijk.
+
+00:03:08.410 --> 00:03:12.340
+Dit vereist de gecombineerde vaardigheden van softwareontwerp.
+
+00:03:13.320 --> 00:03:16.270
+Het is daarom beter om ontwerp en TDD samen aan te pakken.
+
+00:03:16.270 --> 00:03:18.180
+Ik vond het efficiënt.
+
+00:03:20.120 --> 00:03:23.450
+Laten we nu beginnen met de eerste bijeenkomst van het project.
+
+00:03:24.150 --> 00:03:26.470
+Omdat dit een klein project is.
+
+00:03:26.470 --> 00:03:28.090
+Er zijn twee deelnemers.
+
+00:03:28.790 --> 00:03:32.340
+De persoon links is een domeinexpert en de persoon rechts is een ontwikkelaar.
+
+00:03:34.550 --> 00:03:37.790
+Vakexperts hebben inspraak in de systemen die we moeten bouwen.
+
+00:03:37.790 --> 00:03:39.280
+Het vertelt veel verhalen.
+
+00:03:40.340 --> 00:03:42.160
+Het theater dat we runnen
+
+00:03:42.160 --> 00:03:44.710
+Er zijn er ongeveer vierduizend verspreid over het hele land.
+
+00:03:44.710 --> 00:03:47.220
+Het kan in de toekomst nog verder toenemen.
+
+00:03:47.220 --> 00:03:50.480
+Momenteel wordt alleen de functie voor het reserveren van bioscoopkaartjes ondersteund.
+
+00:03:50.480 --> 00:03:54.510
+We zijn van plan om later ook kaartverkoop voor grootschalige voorstellingen toe te voegen.
+
+00:03:54.510 --> 00:03:58.940
+En het belangrijkste is dat je nooit twee stoelen tegelijk boekt.
+
+00:03:58.940 --> 00:04:03.250
+Vroeger hadden klantenservicecentra het erg moeilijk met dat soort problemen.
+
+00:04:03.250 --> 00:04:07.670
+Omdat er al veel informatie en recensies over films zijn verzameld.
+
+00:04:07.670 --> 00:04:11.090
+Deze gegevens moeten intact blijven.
+
+00:04:12.090 --> 00:04:14.730
+Het gesprek is hier goed georganiseerd, maar
+
+00:04:14.890 --> 00:04:16.960
+Er is namelijk meer informatie beschikbaar.
+
+00:04:16.960 --> 00:04:18.600
+Het zal op een ongeorganiseerde manier worden geleverd.
+
+00:04:19.470 --> 00:04:22.110
+Maar het verhaal dat aan het begin van het project naar buiten komt is
+
+00:04:22.110 --> 00:04:23.780
+Omdat het de belangrijkste vereiste is.
+
+00:04:23.780 --> 00:04:25.320
+Je moet aandachtig luisteren.
+
+00:04:27.110 --> 00:04:29.810
+Ontwikkelaars luisteren naar domeinexperts.
+
+00:04:29.810 --> 00:04:31.290
+Ik heb een paar vragen.
+
+00:04:32.290 --> 00:04:34.660
+De functie voor het reserveren van tickets voor grootschalige voorstellingen die u noemde.
+
+00:04:34.660 --> 00:04:36.910
+Wanneer wordt het toegevoegd?
+
+00:04:36.910 --> 00:04:39.910
+Moet dit van tevoren in de projectomvang worden opgenomen?
+
+00:04:39.910 --> 00:04:43.590
+Of ik wil graag weten of ik het al zou moeten overwegen.
+
+00:04:43.590 --> 00:04:46.090
+En de noodzaak om bestaande gegevens te behouden.
+
+00:04:46.090 --> 00:04:48.940
+Betekent dit dat we het databasesysteem niet moeten wijzigen?
+
+00:04:48.940 --> 00:04:51.950
+Zijn er momenteel nog andere diensten die de database delen?
+
+00:04:53.580 --> 00:04:54.980
+Zoals je in de database kunt zien,
+
+00:04:54.980 --> 00:04:57.290
+Omdat domeinexperts geen ontwikkelaars zijn.
+
+00:04:57.290 --> 00:04:59.430
+De technische uitdrukking is dubbelzinnig.
+
+00:04:59.910 --> 00:05:02.890
+Ontwikkelaars moeten deze zaken zorgvuldig controleren.
+
+00:05:04.230 --> 00:05:07.450
+Domeinexperts beantwoorden vragen van ontwikkelaars als volgt:
+
+00:05:08.330 --> 00:05:10.210
+De functie voor het reserveren van tickets voor grootschalige voorstellingen
+
+00:05:10.210 --> 00:05:13.450
+Er is nog geen specifiek schema.
+
+00:05:13.450 --> 00:05:15.970
+Wanneer er in de toekomst echter nieuwe functies worden toegevoegd,
+
+00:05:15.970 --> 00:05:18.700
+Zodat je zonder al te veel moeite kunt upgraden.
+
+00:05:18.700 --> 00:05:22.600
+Ik denk dat het goed zou zijn als u er deze keer eens over na zou willen denken.
+
+00:05:22.600 --> 00:05:27.050
+We gebruiken DB uitsluitend voor onze diensten.
+
+00:05:27.050 --> 00:05:32.840
+Het systeem zelf aanpassen is geen groot probleem, zolang de gegevens maar goed worden bijgehouden.
+
+00:05:33.840 --> 00:05:35.080
+Nadat ik het verhaal had gehoord
+
+00:05:35.080 --> 00:05:39.400
+Ik denk niet dat je je zorgen hoeft te maken over de grote show.
+
+00:05:39.400 --> 00:05:40.790
+Dat valt buiten de scope van het project.
+
+00:05:40.790 --> 00:05:43.040
+De eisen zijn ook niet duidelijk.
+
+00:05:43.040 --> 00:05:44.930
+Ik weet niet wanneer ik het nodig zal hebben, maar
+
+00:05:44.930 --> 00:05:47.710
+Dat is een probleem dat we later nog eens moeten bekijken.
+
+00:05:48.920 --> 00:05:50.910
+Ook als het niet in het document staat vermeld.
+
+00:05:50.910 --> 00:05:54.880
+Vakexperts zullen ook aangeven dat ze grootschalige uitvoeringen in overweging zullen nemen.
+
+00:05:54.880 --> 00:05:55.960
+Je mag het niet vergeten
+
+00:05:56.740 --> 00:05:58.320
+Oké
+
+00:05:58.320 --> 00:06:00.630
+Vervolgens de functie voor het reserveren van tickets voor grootschalige voorstellingen.
+
+00:06:00.630 --> 00:06:04.500
+Ik zou het niet tot de topprioriteiten voor dit project rekenen.
+
+00:06:04.500 --> 00:06:08.220
+Het maakt het juist gemakkelijker om de functionaliteit later in het ontwikkelingsproces uit te breiden.
+
+00:06:08.220 --> 00:06:10.190
+Ik zal er goed voor zorgen.
+
+00:06:10.190 --> 00:06:12.840
+Maak je geen zorgen. Vertrouw alleen mij.
+
+00:06:13.840 --> 00:06:15.960
+Het is belangrijk om goed met elkaar overweg te kunnen.
+
+00:06:17.980 --> 00:06:19.500
+Tijdens ons gesprek tot nu toe
+
+00:06:19.500 --> 00:06:22.700
+De belangrijkste prioriteiten worden als volgt samengevat:
+
+00:06:23.220 --> 00:06:25.890
+Deze informatie is afkomstig van domeinexperts.
+
+00:06:25.890 --> 00:06:28.410
+Interpreteren en organiseren vanuit het perspectief van een ontwikkelaar
+
+00:06:28.410 --> 00:06:29.810
+Start het project
+
+00:06:31.700 --> 00:06:32.860
+Met domeinexperts
+
+00:06:32.860 --> 00:06:34.980
+Zodra je de doelen van je project hebt vastgesteld,
+
+00:06:35.620 --> 00:06:37.980
+Nu is het tijd om je project een naam te geven.
+
+00:06:38.750 --> 00:06:41.840
+Vraag allereerst een expert op dit gebied om zijn of haar mening.
+
+00:06:42.800 --> 00:06:45.540
+Hoe moet ik het project noemen?
+
+00:06:45.540 --> 00:06:47.680
+Het is een systeem voor het reserveren van bioscoopkaartjes.
+
+00:06:47.680 --> 00:06:50.150
+Wat dacht je van alleen het bioscoopboekingssysteem?
+
+00:06:50.150 --> 00:06:51.430
+Nee, dat wil ik niet.
+
+00:06:51.430 --> 00:06:53.570
+Ik neem de grootschalige optredens voor mijn rekening.
+
+00:06:53.570 --> 00:06:56.930
+Laten we kiezen voor het filmboekingssysteem. Ja?
+
+00:06:56.930 --> 00:06:58.180
+Geweldig
+
+00:06:58.180 --> 00:06:59.950
+Ontzettend bedankt
+
+00:07:01.000 --> 00:07:05.230
+Vakexperts willen wellicht projectnamen in het Koreaans.
+
+00:07:05.580 --> 00:07:07.680
+Maar vanuit het perspectief van een ontwikkelaar...
+
+00:07:07.680 --> 00:07:09.990
+Alle termen, inclusief projectnamen.
+
+00:07:09.990 --> 00:07:12.180
+Omdat het direct in de code is geïmplementeerd,
+
+00:07:12.600 --> 00:07:15.000
+Het is makkelijker om het, indien mogelijk, in het Engels te definiëren.
+
+00:07:15.540 --> 00:07:19.510
+Het is belangrijk dat ontwikkelaars nauwgezet de behoeften van domeinexperts volgen, maar
+
+00:07:19.960 --> 00:07:21.430
+Gezien het gehele project
+
+00:07:21.430 --> 00:07:23.930
+We hebben ook de verantwoordelijkheid om de zaken in een efficiënte richting te sturen.
+
+00:07:25.850 --> 00:07:27.760
+Als je een naam voor je project hebt gekozen
+
+00:07:27.760 --> 00:07:31.380
+Nu is het tijd om te ontdekken wie het filmboekingssysteem gebruikt.
+
+00:07:32.020 --> 00:07:34.940
+Uiteraard kunt u hiervoor het beste een expert op dit gebied raadplegen.
+
+00:07:35.420 --> 00:07:38.740
+En we merken dat we klanten en managers hebben.
+
+00:07:40.820 --> 00:07:43.280
+Een van de elementen die in de beginfase van het ontwerp gemakkelijk over het hoofd wordt gezien, is
+
+00:07:43.280 --> 00:07:44.760
+Het is een externe afhankelijkheid.
+
+00:07:45.340 --> 00:07:46.580
+Externe afhankelijkheden zijn
+
+00:07:46.580 --> 00:07:49.210
+Het zou een bestaand, verouderd systeem kunnen zijn.
+
+00:07:49.660 --> 00:07:51.420
+Het zou een betalingssysteem kunnen zijn.
+
+00:07:52.020 --> 00:07:53.670
+Deze afhankelijkheidsrelatie is
+
+00:07:53.670 --> 00:07:56.760
+Omdat het een grote invloed kan hebben op het algehele systeemontwerp.
+
+00:07:56.950 --> 00:08:00.150
+Het is belangrijk om het zo vroeg mogelijk te herkennen.
+
+00:08:00.570 --> 00:08:01.240
+gelukkig
+
+00:08:01.820 --> 00:08:04.990
+Elementen zoals betaalpoorten en verouderde systemen.
+
+00:08:05.270 --> 00:08:07.730
+Omdat het al in bestaande systemen wordt gebruikt.
+
+00:08:07.990 --> 00:08:10.360
+Het is relatief gemakkelijk te begrijpen.
+
+00:08:11.230 --> 00:08:14.410
+Een van de dingen die in een afhankelijke relatie gemakkelijk over het hoofd gezien wordt, is
+
+00:08:14.410 --> 00:08:16.090
+Er zijn externe omgevingsfactoren.
+
+00:08:16.900 --> 00:08:19.060
+Ons land bevindt zich in dezelfde tijdzone.
+
+00:08:19.060 --> 00:08:22.430
+In een land met een groot grondgebied heeft elke bioscoop een ander tijdslot.
+
+00:08:23.190 --> 00:08:25.100
+Vervolgens het filmboekingssysteem
+
+00:08:25.100 --> 00:08:28.900
+Het is onvermijdelijk dat het beïnvloed zal worden door omgevingsfactoren zoals tijdzones.
+
+00:08:29.410 --> 00:08:32.760
+Deze factoren zijn niet direct duidelijk, tenzij je de expert op dit gebied rechtstreeks raadpleegt.
+
+00:08:32.760 --> 00:08:33.950
+Het is makkelijk om dit over het hoofd te zien.
+
+00:08:34.740 --> 00:08:37.610
+Vakexperts hebben de neiging deze details over het hoofd te zien.
+
+00:08:37.610 --> 00:08:40.010
+Omdat de toelichting mogelijk weggelaten wordt.
+
+00:08:41.680 --> 00:08:43.640
+Aangezien de afhankelijkheidsrelatie duidelijk was aangegeven.
+
+00:08:43.640 --> 00:08:47.500
+Laten we ons nu richten op de interne werking van het filmboekingssysteem.
+
+00:08:48.430 --> 00:08:52.230
+Allereerst, wat doet de klant in het filmboekingssysteem?
+
+00:08:52.230 --> 00:08:54.230
+Laten we de experts op dit gebied raadplegen.
+
+00:08:55.800 --> 00:08:57.880
+Wat doen de klanten?
+
+00:08:57.880 --> 00:08:59.970
+Klanten zoeken naar films,
+
+00:08:59.970 --> 00:09:01.450
+Bekijk filmdetails,
+
+00:09:01.450 --> 00:09:02.910
+Selecteer een tijdstip voor de screening.
+
+00:09:02.910 --> 00:09:04.450
+Kies uw stoel,
+
+00:09:04.450 --> 00:09:05.920
+Boek bioscoopkaartjes,
+
+00:09:05.920 --> 00:09:07.610
+Controleer de reserveringsgegevens.
+
+00:09:07.610 --> 00:09:10.180
+Doe dingen zoals een reservering annuleren.
+
+00:09:10.180 --> 00:09:15.750
+Zijn het kiezen van een aanvangstijd en een stoel onderdeel van het reserveringsproces voor bioscoopkaartjes?
+
+00:09:15.750 --> 00:09:18.880
+En om bioscoopkaartjes te reserveren, reserveringen te annuleren.
+
+00:09:18.880 --> 00:09:22.210
+Uiteindelijk koop je toch gewoon een ticket en krijg je je geld terug?
+
+00:09:22.210 --> 00:09:23.620
+Je hebt gelijk.
+
+00:09:23.620 --> 00:09:25.030
+Dat klopt.
+
+00:09:25.480 --> 00:09:27.880
+Omdat het nu een bekend terrein is.
+
+00:09:27.880 --> 00:09:31.240
+Kies een tijdstip voor de voorstelling en selecteer je stoel.
+
+00:09:31.240 --> 00:09:33.200
+Is dit onderdeel van het reserveringsproces voor bioscoopkaartjes?
+
+00:09:33.200 --> 00:09:34.530
+Ik zou kunnen vragen
+
+00:09:34.980 --> 00:09:37.220
+Maar als het een onbekend domein is,
+
+00:09:37.410 --> 00:09:40.160
+Elk gebruiksscenario in detail analyseren
+
+00:09:40.520 --> 00:09:43.330
+Je herhaalt het verfijningsproces meerdere keren.
+
+00:09:43.790 --> 00:09:45.350
+Afhankelijk van de projectsituatie
+
+00:09:45.350 --> 00:09:48.080
+Je kunt dit proces meerdere keren herhalen.
+
+00:09:48.080 --> 00:09:50.580
+Hoe meer tijd je neemt en hoe zorgvuldiger je analyseert,
+
+00:09:50.580 --> 00:09:54.190
+Verminder het aantal proefondervindingen tijdens de ontwerp- en implementatiefasen.
+
+00:09:55.850 --> 00:09:57.530
+Op basis van het gesprek tot nu toe
+
+00:09:57.530 --> 00:10:00.970
+We hebben onze klantcases in vier categorieën ingedeeld:
+
+00:10:02.960 --> 00:10:04.470
+Vervolgens komt de beheerder aan de beurt.
+
+00:10:05.190 --> 00:10:08.850
+De beheerder kan zien dat er vijf beheertaken zijn:
+
+00:10:09.440 --> 00:10:13.620
+Persoonlijk ben ik terughoudend met het gebruik van het woord "beheren" in de context van ontwikkeling.
+
+00:10:14.360 --> 00:10:16.980
+'Beheren' is een te algemene uitdrukking.
+
+00:10:16.980 --> 00:10:19.030
+Het is onduidelijk wat je aan het doen bent.
+
+00:10:19.640 --> 00:10:20.950
+Hier is het ook hetzelfde.
+
+00:10:21.370 --> 00:10:23.760
+Hoe wordt dat precies beheerd?
+
+00:10:23.760 --> 00:10:24.810
+Ik weet het niet
+
+00:10:25.930 --> 00:10:27.620
+Door met domeinexperts te praten
+
+00:10:27.620 --> 00:10:31.220
+Elk beheeritem is uitgebreid naar een specifiek gebruiksscenario.
+
+00:10:31.900 --> 00:10:33.660
+Als het een echt project is
+
+00:10:33.660 --> 00:10:35.890
+Er zijn waarschijnlijk meer toepassingsmogelijkheden dan dit.
+
+00:10:36.150 --> 00:10:39.000
+Ter verduidelijking heb ik het hier vereenvoudigd.
+
+00:10:39.860 --> 00:10:42.700
+Het is belangrijk om hier op te merken dat wanneer je een looptijd creëert,
+
+00:10:43.020 --> 00:10:45.900
+U kunt zien dat het ticket ook is aangemaakt.
+
+00:10:46.960 --> 00:10:49.200
+En bij het kopen of terugbetalen van een ticket
+
+00:10:49.490 --> 00:10:53.910
+U kunt ook zien dat we gebruikmaken van een externe dienst, een zogenaamde betalingsgateway.
+
+00:10:55.890 --> 00:10:58.670
+Ik heb de gebruiksscenario's van klanten en managers gecombineerd.
+
+00:10:59.350 --> 00:11:01.730
+Als we het hele gebruiksscenario op deze manier bekijken
+
+00:11:01.730 --> 00:11:02.900
+Er voelt iets leeg aan.
+
+00:11:03.890 --> 00:11:05.840
+Er is een optie om een ​​theater toe te voegen.
+
+00:11:05.840 --> 00:11:08.720
+Ik zie niets vergelijkbaars met Search Theater.
+
+00:11:09.410 --> 00:11:12.130
+Het lijkt erop dat er nogal wat gebruiksscenario's over het hoofd worden gezien.
+
+00:11:12.770 --> 00:11:15.980
+Vanuit het perspectief van een domeinexpert valt er namelijk veel uit te leggen.
+
+00:11:15.980 --> 00:11:17.950
+Dit gebruiksscenario, dat zo voor de hand liggend lijkt,
+
+00:11:18.150 --> 00:11:19.810
+U kunt de uitleg weglaten.
+
+00:11:20.770 --> 00:11:23.460
+En hoe zit het vanuit het perspectief van een ontwikkelaar?
+
+00:11:24.400 --> 00:11:28.290
+Het is beter om eenvoudige nieuwsberichten, zoals het zoeken naar een theater, achterwege te laten.
+
+00:11:28.290 --> 00:11:30.700
+Zou dit niet veel handiger zijn voor documentbeheer?
+
+00:11:31.720 --> 00:11:32.870
+Als het om backend-ontwerp gaat
+
+00:11:32.870 --> 00:11:35.920
+Eenvoudige gebruiksvoorbeelden, zoals het zoeken naar een theater.
+
+00:11:35.920 --> 00:11:37.760
+Ik denk dat het prima is om het over te slaan.
+
+00:11:38.600 --> 00:11:41.570
+Wat ik wil zeggen is dat het nog niet te laat is om te reageren tijdens de implementatiefase.
+
+00:11:42.370 --> 00:11:44.310
+Maar als het een echt project is...
+
+00:11:44.310 --> 00:11:48.450
+Voor schermplanners zijn deze gebruiksscenario's een goed uitgangspunt.
+
+00:11:49.250 --> 00:11:52.300
+De planner onderzocht het gebruiksscenario van het zoeken naar een theater.
+
+00:11:52.300 --> 00:11:55.300
+Hoe kan ik het mogelijk maken om naar theaters te zoeken?
+
+00:11:55.300 --> 00:11:56.600
+Je zult in staat zijn om na te denken.
+
+00:11:58.000 --> 00:12:00.880
+Als je de diagrammen combineert tot één geheel, ziet het er ingewikkeld uit.
+
+00:12:01.490 --> 00:12:05.150
+Als het een echt project was, zou het veel ingewikkelder zijn.
+
+00:12:05.720 --> 00:12:08.240
+In dit geval is het niet nodig om een ​​samenvoeging af te dwingen.
+
+00:12:08.810 --> 00:12:13.910
+Ik heb ze hier samengevoegd om te laten zien dat er gevallen ontbreken.
+
+00:12:16.020 --> 00:12:18.490
+Ik heb alle ontbrekende gegevens ingevuld.
+
+00:12:19.200 --> 00:12:21.880
+Ik heb een gebruiksscenario waarbij de verbinding met de actor wordt weggelaten.
+
+00:12:22.290 --> 00:12:25.720
+Dit geldt zowel voor klanten als voor managers.
+
+00:12:26.400 --> 00:12:29.480
+En om de implementatie te vergemakkelijken, heb ik het in het Engels geschreven.
+
+00:12:31.370 --> 00:12:34.160
+Het is nu in orde, want het is een klein project.
+
+00:12:34.160 --> 00:12:36.160
+Als het project groot en complex is
+
+00:12:36.160 --> 00:12:38.980
+Waar moet een domeinexpert beginnen met uitleggen?
+
+00:12:38.980 --> 00:12:40.380
+Het kan moeilijk zijn
+
+00:12:41.280 --> 00:12:43.300
+Wat doet een beheerder?
+
+00:12:43.300 --> 00:12:44.700
+Het is veel werk.
+
+00:12:44.700 --> 00:12:46.620
+Zoals verwacht van de manager.
+
+00:12:47.620 --> 00:12:49.750
+Kunnen we in dit geval de actoren verder onderverdelen?
+
+00:12:49.750 --> 00:12:52.340
+Het is ook een goed idee om te herzien
+
+00:12:53.140 --> 00:12:54.790
+Aanvankelijk werd ik een beheerder genoemd.
+
+00:12:54.790 --> 00:12:57.400
+Het is wellicht mogelijk om verder onder te verdelen op basis van rol.
+
+00:12:58.520 --> 00:13:00.820
+En gebruikmakend van het filmboekingssysteem.
+
+00:13:00.820 --> 00:13:02.870
+Er kunnen externe diensten zijn.
+
+00:13:03.660 --> 00:13:05.340
+Als we de actoren op deze manier segmenteren,
+
+00:13:05.340 --> 00:13:09.420
+Vakexperts kunnen meer systematische informatie verstrekken.
+
+00:13:10.350 --> 00:13:14.000
+Dit is natuurlijk slechts één voorbeeld van het analyseren van een complex domein.
+
+00:13:14.540 --> 00:13:17.320
+Er zijn wellicht andere goede manieren.
+
+00:13:17.960 --> 00:13:21.740
+Het is belangrijk om flexibel te reageren, afhankelijk van de situatie.
+
+00:13:24.250 --> 00:13:25.060
+Dit is de conclusie.
+
+00:13:25.950 --> 00:13:29.170
+Deze keer gebruiken we een use case-diagram.
+
+00:13:29.170 --> 00:13:30.840
+Stel doelen voor het project.
+
+00:13:31.230 --> 00:13:33.700
+Ik heb de eerste analysefase doorlopen.
+
+00:13:34.880 --> 00:13:38.010
+Persoonlijk heb ik gedurende het hele ontwikkelingsproces...
+
+00:13:38.010 --> 00:13:40.060
+Ik denk dat analyseren het moeilijkst is.
+
+00:13:40.570 --> 00:13:44.250
+Omdat we de meest abstracte en vage concepten moeten ordenen.
+
+00:13:45.020 --> 00:13:47.650
+De volgende keer bekijken we de belangrijkste gebruiksscenario's.
+
+00:13:47.650 --> 00:13:49.470
+Laten we het eens nader bekijken.
+
+00:13:50.300 --> 00:13:52.100
+Dankjewel voor je harde werk tot nu toe.
+

@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: is
+
+00:00:00.000 --> 00:00:02.020
+Hæ, þetta er Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Hugbúnaður er flókinn
+
+00:00:06.650 --> 00:00:08.890
+Í fyrsta lagi er mikill kóði sem þarf að skrifa.
+
+00:00:09.760 --> 00:00:12.710
+Bara dæmi um verkefni sem ég bjó til fyrir þessa seríu
+
+00:00:12.710 --> 00:00:15.270
+Kóðinn er yfir 12.000 línur að lengd.
+
+00:00:16.330 --> 00:00:18.320
+Ef um raunverulega rekstrarþjónustu er að ræða
+
+00:00:18.320 --> 00:00:21.530
+Jafnvel þótt um litla þjónustu sé að ræða, þá fer hún auðveldlega yfir 100.000 línur.
+
+00:00:22.130 --> 00:00:25.300
+Hundrað þúsund línur duga til að fylla tuttugu skáldsögur.
+
+00:00:26.870 --> 00:00:29.560
+Það að skrifa langan kóða þýðir ekki að honum sé lokið.
+
+00:00:30.330 --> 00:00:32.540
+Þú verður að halda áfram að laga kóðann sem þú skrifar.
+
+00:00:33.400 --> 00:00:35.800
+Ef þú lagar A, þá bilar B.
+
+00:00:35.800 --> 00:00:39.130
+Ef þú lagar B, þá munu A og C bila.
+
+00:00:41.090 --> 00:00:44.260
+Til að nota samlíkingu, þá er það eins og að vera fastur í Rasputica og gráta.
+
+00:00:44.260 --> 00:00:46.360
+Það mætti ​​segja að þetta sé svipað ástand og með hest.
+
+00:00:47.330 --> 00:00:50.550
+Á þessum tímapunkti munt þú finna þörfina fyrir hönnun.
+
+00:00:52.580 --> 00:00:55.010
+En þegar þú reynir í raun að skrifa hönnunarskjal,
+
+00:00:55.500 --> 00:00:58.490
+Að tjá hugsanir sínar í höfðinu á raunverulegan hátt
+
+00:00:58.790 --> 00:01:01.260
+Þú munt komast að því að það er ekki eins auðvelt og þú heldur.
+
+00:01:01.890 --> 00:01:05.600
+Jafnvel nótur, sem er skjal sem tekur upp hljóð eða tónlist sjónrænt,
+
+00:01:05.600 --> 00:01:06.700
+Þetta er svona flókið
+
+00:01:07.520 --> 00:01:10.610
+Ekki bara tónlist, heldur einnig fjármál og flutningar
+
+00:01:10.610 --> 00:01:14.060
+Fjölbreyttari hugtök og óhlutbundnar kröfur notenda
+
+00:01:14.060 --> 00:01:17.220
+Það verður ekki auðvelt að tjá það í ákveðinni fyrirmynd.
+
+00:01:18.530 --> 00:01:19.490
+Sem betur fer
+
+00:01:19.770 --> 00:01:23.200
+Að sigrast á erfiðleikum við að módela abstrakt hugtök
+
+00:01:23.540 --> 00:01:26.860
+UML varð til seint á tíunda áratugnum.
+
+00:01:27.730 --> 00:01:30.120
+Það var undir forystu Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Við notum UML með eftirvæntingu
+
+00:01:34.980 --> 00:01:36.990
+Teikna flokksmynd
+
+00:01:36.990 --> 00:01:38.760
+Teiknum líka raðmynd
+
+00:01:39.430 --> 00:01:39.980
+þó
+
+00:01:40.360 --> 00:01:43.160
+Þegar ég reyndi í raun að hanna það var það öðruvísi en að kóða það beint.
+
+00:01:43.160 --> 00:01:45.130
+Það virðist ekki vera mikið öðruvísi
+
+00:01:45.590 --> 00:01:46.520
+Af hverju er það?
+
+00:01:47.350 --> 00:01:50.910
+Það er vegna þess að hugsunarferlið er vant framkvæmd.
+
+00:01:51.290 --> 00:01:54.170
+Í stað þess að gera abstrakt hugtök áþreifanlegri,
+
+00:01:54.490 --> 00:01:57.590
+Vegna þess að það þýðir hugsun á framkvæmdastigi yfir í UML.
+
+00:01:58.520 --> 00:02:00.270
+Bara af því að þú getur lesið nótur
+
+00:02:00.270 --> 00:02:01.950
+Það er ekki eins og ég geti samið það
+
+00:02:02.390 --> 00:02:03.850
+Bara vegna þess að þú lærðir UML
+
+00:02:03.850 --> 00:02:06.170
+Það er ekki eins og þú þroskir með þér hönnunarhæfileika.
+
+00:02:07.700 --> 00:02:09.300
+Svo í þessari seríu
+
+00:02:09.300 --> 00:02:11.580
+Í gegnum raunveruleg verkefni
+
+00:02:11.580 --> 00:02:14.420
+Hvernig á að gera abstrakt kröfur að veruleika
+
+00:02:14.420 --> 00:02:16.290
+Geturðu tengt kóðann?
+
+00:02:16.290 --> 00:02:18.010
+Mig langar að sýna þér í eigin persónu
+
+00:02:18.530 --> 00:02:20.930
+Ég valdi að bóka bíómiða eftir léni
+
+00:02:21.370 --> 00:02:25.200
+Það er auðvelt að skilja bíómiðapantanir því þær eru að mestu leyti kunnugleg.
+
+00:02:25.200 --> 00:02:29.710
+Inniheldur ýmsa virkni eins og innskráningu, greiðslu og sætisval.
+
+00:02:29.710 --> 00:02:31.580
+Það virðist vera gott dæmi
+
+00:02:33.600 --> 00:02:36.890
+Í grundvallaratriðum er efni þessarar greinar hugbúnaðarhönnun, en
+
+00:02:36.890 --> 00:02:40.350
+Við munum einnig fjalla um prófunardrifin þróun.
+
+00:02:41.210 --> 00:02:44.890
+Nútímaleg þróunarumhverfi styðja prófunartól innfædda.
+
+00:02:45.600 --> 00:02:48.320
+Jafnvel þótt þú skoðir fræg opinn hugbúnaðarverkefni,
+
+00:02:48.320 --> 00:02:51.130
+Við höfum ákveðið prófunarstig.
+
+00:02:51.740 --> 00:02:56.200
+Þetta þýðir líklega að prófanir eru af svo mikilli mikilvægi og gagnsemi.
+
+00:02:56.870 --> 00:02:58.120
+En í raun og veru
+
+00:02:58.120 --> 00:03:02.590
+Í mörgum tilfellum er ekki aðeins TDD, heldur jafnvel sjálfvirkni prófana ekki rétt innleitt.
+
+00:03:03.190 --> 00:03:06.260
+Að skrifa fyrst marktæk próf án nokkurs undirbúnings er
+
+00:03:06.260 --> 00:03:07.540
+Það er aldrei auðvelt
+
+00:03:08.410 --> 00:03:12.340
+Þetta er eitthvað sem krefst sameinaðrar getu hugbúnaðarhönnunar.
+
+00:03:13.320 --> 00:03:16.270
+Þess vegna er betra að takast á við hönnun og TDD saman.
+
+00:03:16.270 --> 00:03:18.180
+Ég mat það sem skilvirkt
+
+00:03:20.120 --> 00:03:23.450
+Byrjum nú á fyrsta fundi verkefnisins.
+
+00:03:24.150 --> 00:03:26.470
+Þar sem þetta er lítið verkefni
+
+00:03:26.470 --> 00:03:28.090
+Það eru tveir þátttakendur
+
+00:03:28.790 --> 00:03:32.340
+Sá vinstra megin er lénsfræðingur og sá hægra megin er forritari.
+
+00:03:34.550 --> 00:03:37.790
+Sérfræðingar í léni hafa áhrif á kerfin sem við þurfum að byggja upp.
+
+00:03:37.790 --> 00:03:39.280
+Það segir margar sögur
+
+00:03:40.340 --> 00:03:42.160
+Leikhúsið sem við rekum
+
+00:03:42.160 --> 00:03:44.710
+Þeir eru um fjögur þúsund talsins um allt land.
+
+00:03:44.710 --> 00:03:47.220
+Það gæti aukist enn frekar í framtíðinni.
+
+00:03:47.220 --> 00:03:50.480
+Eins og er er aðeins hægt að bóka bíómiða.
+
+00:03:50.480 --> 00:03:54.510
+Við ætlum að bæta við miðasölu fyrir stórar sýningar síðar.
+
+00:03:54.510 --> 00:03:58.940
+Og það mikilvægasta er að þú ættir aldrei að bóka sæti tvöfalt.
+
+00:03:58.940 --> 00:04:03.250
+Áður fyrr áttu þjónustuver mjög erfitt með slík vandamál.
+
+00:04:03.250 --> 00:04:07.670
+Vegna þess að það eru til margar upplýsingar um kvikmyndir og umsagnir sem þegar hafa verið safnaðar saman.
+
+00:04:07.670 --> 00:04:11.090
+Þessi gögn verða að vera óbreytt.
+
+00:04:12.090 --> 00:04:14.730
+Hér er samræðurnar vel skipulagðar, en
+
+00:04:14.890 --> 00:04:16.960
+Reyndar eru til fleiri upplýsingar
+
+00:04:16.960 --> 00:04:18.600
+Það verður afhent á óskipulagðan hátt
+
+00:04:19.470 --> 00:04:22.110
+En sagan sem kemur fram í upphafi verkefnisins er
+
+00:04:22.110 --> 00:04:23.780
+Vegna þess að það er mikilvægasta skilyrðið
+
+00:04:23.780 --> 00:04:25.320
+Þú verður að hlusta vandlega
+
+00:04:27.110 --> 00:04:29.810
+Forritarar hlusta á sérfræðinga í léni
+
+00:04:29.810 --> 00:04:31.290
+Ég hef nokkrar spurningar
+
+00:04:32.290 --> 00:04:34.660
+Stórfellda miðapöntunarþjónustan fyrir sýningar sem þú nefndir
+
+00:04:34.660 --> 00:04:36.910
+Hvenær verður því bætt við?
+
+00:04:36.910 --> 00:04:39.910
+Ætti þetta að vera tekið með í verkefnið fyrirfram?
+
+00:04:39.910 --> 00:04:43.590
+Eða ég vil vita hvort ég ætti að íhuga það núna
+
+00:04:43.590 --> 00:04:46.090
+Og þörfin á að viðhalda núverandi gögnum
+
+00:04:46.090 --> 00:04:48.940
+Þýðir þetta að við ættum ekki að breyta gagnagrunnskerfinu?
+
+00:04:48.940 --> 00:04:51.950
+Eru einhverjar aðrar þjónustur sem deila gagnagrunninum núna?
+
+00:04:53.580 --> 00:04:54.980
+Eins og þú sérð á DB,
+
+00:04:54.980 --> 00:04:57.290
+Vegna þess að sérfræðingar í lénum eru ekki forritarar.
+
+00:04:57.290 --> 00:04:59.430
+Tæknilega orðalagið er tvírætt
+
+00:04:59.910 --> 00:05:02.890
+Forritarar þurfa að skoða þessa hluti vandlega.
+
+00:05:04.230 --> 00:05:07.450
+Sérfræðingar í léni svara spurningum forritara svona:
+
+00:05:08.330 --> 00:05:10.210
+Miðapantanir fyrir stórar sýningar
+
+00:05:10.210 --> 00:05:13.450
+Það er engin sérstök tímaáætlun ennþá.
+
+00:05:13.450 --> 00:05:15.970
+Hins vegar, þegar eiginleikum er bætt við í framtíðinni
+
+00:05:15.970 --> 00:05:18.700
+Svo þú getir uppfært án mikilla vandræða
+
+00:05:18.700 --> 00:05:22.600
+Ég held að það væri gott ef þú gætir íhugað þetta aðeins að þessu sinni.
+
+00:05:22.600 --> 00:05:27.050
+Við notum DB ekki í neitt annað en þjónustu okkar.
+
+00:05:27.050 --> 00:05:32.840
+Að breyta kerfinu sjálfu er ekki stórt vandamál svo lengi sem gögnin eru vel varðveitt.
+
+00:05:33.840 --> 00:05:35.080
+Eftir að hafa heyrt söguna
+
+00:05:35.080 --> 00:05:39.400
+Ég held að þú þurfir ekki að hafa áhyggjur af stóru sýningunni.
+
+00:05:39.400 --> 00:05:40.790
+Það er ekki umfang verkefnisins
+
+00:05:40.790 --> 00:05:43.040
+Kröfurnar eru heldur ekki skýrar
+
+00:05:43.040 --> 00:05:44.930
+Ég veit ekki hvenær ég þarf þess, en
+
+00:05:44.930 --> 00:05:47.710
+Það er vandamál sem við þurfum að skoða aftur síðar.
+
+00:05:48.920 --> 00:05:50.910
+Jafnvel þótt það sé ekki skráð í skjalið
+
+00:05:50.910 --> 00:05:54.880
+Sérfræðingar á sviði léns munu einnig svara því til að þeir muni íhuga stórfelldar frammistöður.
+
+00:05:54.880 --> 00:05:55.960
+Þú mátt ekki gleyma
+
+00:05:56.740 --> 00:05:58.320
+Allt í lagi
+
+00:05:58.320 --> 00:06:00.630
+Síðan, miðapöntunaraðgerðin fyrir stóra sýningar
+
+00:06:00.630 --> 00:06:04.500
+Ég myndi ekki setja þetta á forgangsverkefni í þessu verkefni.
+
+00:06:04.500 --> 00:06:08.220
+Í staðinn auðveldar það að auka virkni síðar í þróunarferlinu.
+
+00:06:08.220 --> 00:06:10.190
+Ég mun gæta þess vel
+
+00:06:10.190 --> 00:06:12.840
+Ekki hafa áhyggjur. Treystu aðeins mér
+
+00:06:13.840 --> 00:06:15.960
+Það er mikilvægt að koma vel saman
+
+00:06:17.980 --> 00:06:19.500
+Í gegnum samtal okkar hingað til
+
+00:06:19.500 --> 00:06:22.700
+Helstu forgangsverkefnin eru tekin saman sem hér segir:
+
+00:06:23.220 --> 00:06:25.890
+Þetta eru upplýsingar sem sérfræðingar á þessu sviði veita.
+
+00:06:25.890 --> 00:06:28.410
+Að túlka og skipuleggja frá sjónarhóli forritara
+
+00:06:28.410 --> 00:06:29.810
+Byrjaðu verkefnið
+
+00:06:31.700 --> 00:06:32.860
+Með sérfræðingum í léni
+
+00:06:32.860 --> 00:06:34.980
+Þegar þú hefur ákveðið markmið verkefnisins,
+
+00:06:35.620 --> 00:06:37.980
+Nú er kominn tími til að gefa verkefninu þínu nafn.
+
+00:06:38.750 --> 00:06:41.840
+Fyrst skaltu spyrja sérfræðing í léni um álit hans.
+
+00:06:42.800 --> 00:06:45.540
+Hvað ætti ég að nefna verkefnið?
+
+00:06:45.540 --> 00:06:47.680
+Þetta er kvikmyndabókunarkerfi.
+
+00:06:47.680 --> 00:06:50.150
+Hvað með bara kvikmyndabókunarkerfið?
+
+00:06:50.150 --> 00:06:51.430
+nei, ég vil ekki
+
+00:06:51.430 --> 00:06:53.570
+Ég mun sjá um stóru sýningarnar
+
+00:06:53.570 --> 00:06:56.930
+Förum með kvikmyndabókunarkerfið. já?
+
+00:06:56.930 --> 00:06:58.180
+frábært
+
+00:06:58.180 --> 00:06:59.950
+Þakka þér kærlega fyrir
+
+00:07:01.000 --> 00:07:05.230
+Sérfræðingar í lénsmálum gætu viljað nöfn verkefna á kóresku.
+
+00:07:05.580 --> 00:07:07.680
+En frá sjónarhóli forritara
+
+00:07:07.680 --> 00:07:09.990
+Öll hugtök, þar á meðal nöfn verkefna
+
+00:07:09.990 --> 00:07:12.180
+Þar sem það er útfært beint í kóða,
+
+00:07:12.600 --> 00:07:15.000
+Það er auðveldara að skilgreina það á ensku ef mögulegt er.
+
+00:07:15.540 --> 00:07:19.510
+Það er mikilvægt fyrir forritara að fylgja þörfum sérfræðinga á sviðinu dyggilega, en
+
+00:07:19.960 --> 00:07:21.430
+Að teknu tilliti til alls verkefnisins
+
+00:07:21.430 --> 00:07:23.930
+Við berum líka ábyrgð á að stýra hlutunum í skilvirka átt.
+
+00:07:25.850 --> 00:07:27.760
+Ef þú hefur ákveðið nafn á verkefnið þitt
+
+00:07:27.760 --> 00:07:31.380
+Nú er kominn tími til að komast að því hverjir nota Kvikmyndabókunarkerfið.
+
+00:07:32.020 --> 00:07:34.940
+Auðvitað ættirðu að spyrja sérfræðing í lénsmálum um upplýsingar um þetta.
+
+00:07:35.420 --> 00:07:38.740
+Og við komumst að því að við höfum viðskiptavini og stjórnendur.
+
+00:07:40.820 --> 00:07:43.280
+Eitt af þeim þáttum sem auðvelt er að gleyma á fyrstu stigum hönnunar er
+
+00:07:43.280 --> 00:07:44.760
+Það er utanaðkomandi háð
+
+00:07:45.340 --> 00:07:46.580
+Ytri ósjálfstæði eru
+
+00:07:46.580 --> 00:07:49.210
+Þetta gæti verið eldri kerfi,
+
+00:07:49.660 --> 00:07:51.420
+Það gæti verið greiðslukerfi
+
+00:07:52.020 --> 00:07:53.670
+Þetta ósjálfstæðissamband er
+
+00:07:53.670 --> 00:07:56.760
+Vegna þess að það getur haft mikil áhrif á heildarhönnun kerfisins.
+
+00:07:56.950 --> 00:08:00.150
+Það er mikilvægt að greina það eins snemma og mögulegt er.
+
+00:08:00.570 --> 00:08:01.240
+sem betur fer
+
+00:08:01.820 --> 00:08:04.990
+Þættir eins og greiðslugáttir og eldri kerfi
+
+00:08:05.270 --> 00:08:07.730
+Vegna þess að það er þegar notað í núverandi kerfum
+
+00:08:07.990 --> 00:08:10.360
+Það er hægt að skilja það tiltölulega auðveldlega
+
+00:08:11.230 --> 00:08:14.410
+Eitt af því sem auðvelt er að gleyma í sambandi sem tengist ósjálfstæði er
+
+00:08:14.410 --> 00:08:16.090
+Það eru ytri umhverfisþættir
+
+00:08:16.900 --> 00:08:19.060
+Landið okkar er í sama tímabelti
+
+00:08:19.060 --> 00:08:22.430
+Í landi með stórt landsvæði hefur hvert leikhús mismunandi tímaramma.
+
+00:08:23.190 --> 00:08:25.100
+Síðan kvikmyndabókunarkerfið
+
+00:08:25.100 --> 00:08:28.900
+Það er óhjákvæmilegt að það verði fyrir áhrifum af umhverfisþáttum eins og tímabeltum.
+
+00:08:29.410 --> 00:08:32.760
+Þessir þættir eru ekki augljósir nema þú spyrjir lénsérfræðinginn beint.
+
+00:08:32.760 --> 00:08:33.950
+Það er auðvelt að missa af því
+
+00:08:34.740 --> 00:08:37.610
+Sérfræðingar í lénsmálum hafa tilhneigingu til að líta fram hjá þessum upplýsingum.
+
+00:08:37.610 --> 00:08:40.010
+Þar sem skýringin gæti sleppt
+
+00:08:41.680 --> 00:08:43.640
+Þar sem tengslin milli ósjálfstæðis og tengsla voru skýrt tilgreind
+
+00:08:43.640 --> 00:08:47.500
+Nú skulum við einbeita okkur að innri þáttum kvikmyndabókunarkerfisins.
+
+00:08:48.430 --> 00:08:52.230
+Í fyrsta lagi, hvað gerir viðskiptavinurinn í kvikmyndabókunarkerfinu?
+
+00:08:52.230 --> 00:08:54.230
+Við skulum spyrja lénssérfræðingana
+
+00:08:55.800 --> 00:08:57.880
+Hvað gera viðskiptavinir?
+
+00:08:57.880 --> 00:08:59.970
+Viðskiptavinir leita að kvikmyndum,
+
+00:08:59.970 --> 00:09:01.450
+Skoða upplýsingar um kvikmyndina,
+
+00:09:01.450 --> 00:09:02.910
+Veldu sýningartíma,
+
+00:09:02.910 --> 00:09:04.450
+Veldu sæti þitt,
+
+00:09:04.450 --> 00:09:05.920
+Panta bíómiða,
+
+00:09:05.920 --> 00:09:07.610
+Athugaðu upplýsingar um bókun,
+
+00:09:07.610 --> 00:09:10.180
+Gera hluti eins og að afbóka
+
+00:09:10.180 --> 00:09:15.750
+Eru val á sýningartíma og sæti hluti af ferlinu við að bóka bíómiða?
+
+00:09:15.750 --> 00:09:18.880
+Og til að panta bíómiða, til að hætta við bókanir
+
+00:09:18.880 --> 00:09:22.210
+Ertu ekki bara að kaupa miða og fá endurgreitt?
+
+00:09:22.210 --> 00:09:23.620
+þú hefur rétt fyrir þér
+
+00:09:23.620 --> 00:09:25.030
+Það er rétt
+
+00:09:25.480 --> 00:09:27.880
+Vegna þess að þetta er kunnuglegt lén núna
+
+00:09:27.880 --> 00:09:31.240
+Veldu sýningartíma og veldu sæti
+
+00:09:31.240 --> 00:09:33.200
+Er þetta hluti af ferlinu við að bóka bíómiða?
+
+00:09:33.200 --> 00:09:34.530
+Ég gæti spurt
+
+00:09:34.980 --> 00:09:37.220
+En ef þetta er ókunnugt lén,
+
+00:09:37.410 --> 00:09:40.160
+Að greina hvert notkunartilvik í smáatriðum
+
+00:09:40.520 --> 00:09:43.330
+Þú munt endurtaka hreinsunarferlið nokkrum sinnum.
+
+00:09:43.790 --> 00:09:45.350
+Eftir aðstæðum verkefnisins
+
+00:09:45.350 --> 00:09:48.080
+Þú getur endurtekið þetta ferli nokkrum sinnum,
+
+00:09:48.080 --> 00:09:50.580
+Því meiri tíma sem þú tekur þér og greinir vandlega,
+
+00:09:50.580 --> 00:09:54.190
+Minnkaðu tilraunir og mistök á hönnunar- og framkvæmdastigum.
+
+00:09:55.850 --> 00:09:57.530
+Miðað við samtalið hingað til
+
+00:09:57.530 --> 00:10:00.970
+Við höfum flokkað notkunartilvik viðskiptavina okkar í fjóra flokka:
+
+00:10:02.960 --> 00:10:04.470
+Næstur er stjórnandinn
+
+00:10:05.190 --> 00:10:08.850
+Stjórnandinn sér að það eru fimm stjórnunaratriði:
+
+00:10:09.440 --> 00:10:13.620
+Persónulega er ég varkár með að nota orðið „stjórna“ í þróun.
+
+00:10:14.360 --> 00:10:16.980
+Stjórna er of víðtækt orðalag
+
+00:10:16.980 --> 00:10:19.030
+Það er óljóst hvað þú ert að gera
+
+00:10:19.640 --> 00:10:20.950
+Það er það sama hér líka
+
+00:10:21.370 --> 00:10:23.760
+Hvernig nákvæmlega er því stjórnað?
+
+00:10:23.760 --> 00:10:24.810
+Ég veit ekki
+
+00:10:25.930 --> 00:10:27.620
+Með því að tala við sérfræðinga í léni
+
+00:10:27.620 --> 00:10:31.220
+Hver stjórnunarliður hefur verið útvíkkaður til að ná tilteknu notkunartilviki.
+
+00:10:31.900 --> 00:10:33.660
+Ef þetta er raunverulegt verkefni
+
+00:10:33.660 --> 00:10:35.890
+Það eru líklega fleiri notkunartilvik en þetta.
+
+00:10:36.150 --> 00:10:39.000
+Hér hef ég einfaldað þetta til skýringar.
+
+00:10:39.860 --> 00:10:42.700
+Það sem er mikilvægt að hafa í huga hér er að þegar þú býrð til keyrslutíma,
+
+00:10:43.020 --> 00:10:45.900
+Þú sérð að miðinn er líka búinn til
+
+00:10:46.960 --> 00:10:49.200
+Og þegar miði er keyptur eða endurgreiddur
+
+00:10:49.490 --> 00:10:53.910
+Þú getur líka séð að við notum utanaðkomandi þjónustu sem kallast greiðslugátt.
+
+00:10:55.890 --> 00:10:58.670
+Ég sameinaði notkunartilvik viðskiptavina og stjórnenda.
+
+00:10:59.350 --> 00:11:01.730
+Að skoða allt notkunartilfellið svona
+
+00:11:01.730 --> 00:11:02.900
+Eitthvað finnst mér tómlegt
+
+00:11:03.890 --> 00:11:05.840
+Það er möguleiki að bæta við leikhúsi
+
+00:11:05.840 --> 00:11:08.720
+Ég sé ekkert eins og Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Það virðist sem það séu nokkuð mörg notkunartilvik sem eru sleppt.
+
+00:11:12.770 --> 00:11:15.980
+Vegna þess að frá sjónarhóli sérfræðings í léni er margt að útskýra.
+
+00:11:15.980 --> 00:11:17.950
+Þetta notkunartilfelli, sem virðist svo augljóst,
+
+00:11:18.150 --> 00:11:19.810
+Þú getur sleppt útskýringunni
+
+00:11:20.770 --> 00:11:23.460
+Hvað með það frá sjónarhóli forritara?
+
+00:11:24.400 --> 00:11:28.290
+Það er betra að sleppa einföldum fréttatilfellum eins og að leita að kvikmyndahúsi.
+
+00:11:28.290 --> 00:11:30.700
+Væri þetta ekki gagnlegra fyrir skjalastjórnun?
+
+00:11:31.720 --> 00:11:32.870
+Ef þetta er bakendahönnun
+
+00:11:32.870 --> 00:11:35.920
+Einföld notkunartilvik eins og að leita að kvikmyndahúsi
+
+00:11:35.920 --> 00:11:37.760
+Mér finnst í lagi að sleppa því
+
+00:11:38.600 --> 00:11:41.570
+Það sem ég er að segja er að það er ekki of seint að bregðast við á framkvæmdastiginu.
+
+00:11:42.370 --> 00:11:44.310
+En ef þetta er raunverulegt verkefni
+
+00:11:44.310 --> 00:11:48.450
+Fyrir skjááætlanagerðarmenn eru þessi notkunartilvik góður upphafspunktur.
+
+00:11:49.250 --> 00:11:52.300
+Skipuleggjandinn skoðaði notkunartilvikið við að leita að kvikmyndahúsi.
+
+00:11:52.300 --> 00:11:55.300
+Hvernig ætti ég að gera það mögulegt að leita að kvikmyndahúsum?
+
+00:11:55.300 --> 00:11:56.600
+Þú munt geta hugsað
+
+00:11:58.000 --> 00:12:00.880
+Þegar þú sameinar skýringarmyndirnar í eina lítur þetta út fyrir að vera flókið.
+
+00:12:01.490 --> 00:12:05.150
+Ef þetta væri raunverulegt verkefni, þá væri þetta miklu flóknara.
+
+00:12:05.720 --> 00:12:08.240
+Í þessu tilviki er engin þörf á að þvinga fram sameiningu.
+
+00:12:08.810 --> 00:12:13.910
+Ég hef bara sameinað þau hér til að sýna að það vantar mál.
+
+00:12:16.020 --> 00:12:18.490
+Ég fyllti út öll eyðurnar
+
+00:12:19.200 --> 00:12:21.880
+Ég hef notkunartilvik þar sem tengingin við leikarann ​​er sleppt.
+
+00:12:22.290 --> 00:12:25.720
+Þetta á bæði við um viðskiptavini og stjórnendur.
+
+00:12:26.400 --> 00:12:29.480
+Og til að auðvelda framkvæmdina skrifaði ég þetta á ensku.
+
+00:12:31.370 --> 00:12:34.160
+Þetta er í lagi núna því þetta er lítið verkefni
+
+00:12:34.160 --> 00:12:36.160
+Ef verkefnið er stórt og flókið
+
+00:12:36.160 --> 00:12:38.980
+Hvar ætti sérfræðingur í léni að byrja að útskýra?
+
+00:12:38.980 --> 00:12:40.380
+Það gæti verið erfitt
+
+00:12:41.280 --> 00:12:43.300
+Hvað gerir stjórnandi?
+
+00:12:43.300 --> 00:12:44.700
+Það er mikil vinna
+
+00:12:44.700 --> 00:12:46.620
+Eins og búist var við af stjórnandanum
+
+00:12:47.620 --> 00:12:49.750
+Í þessu tilfelli, getum við skipt leikurunum niður í nokkra hluta?
+
+00:12:49.750 --> 00:12:52.340
+Það er líka góð hugmynd að endurskoða
+
+00:12:53.140 --> 00:12:54.790
+Fyrst var ég kallaður stjórnandi
+
+00:12:54.790 --> 00:12:57.400
+Það gæti verið mögulegt að skipta niður eftir hlutverkum
+
+00:12:58.520 --> 00:13:00.820
+Og með því að nota kvikmyndabókunarkerfið
+
+00:13:00.820 --> 00:13:02.870
+Það gæti verið um utanaðkomandi þjónustu að ræða
+
+00:13:03.660 --> 00:13:05.340
+Ef við flokkum leikarana svona,
+
+00:13:05.340 --> 00:13:09.420
+Sérfræðingar á sviði léns munu geta veitt kerfisbundnari upplýsingar.
+
+00:13:10.350 --> 00:13:14.000
+Auðvitað er þetta bara eitt dæmi um greiningu á flóknu sviði.
+
+00:13:14.540 --> 00:13:17.320
+Það gætu verið aðrar góðar leiðir
+
+00:13:17.960 --> 00:13:21.740
+Það er mikilvægt að bregðast sveigjanlega við eftir aðstæðum.
+
+00:13:24.250 --> 00:13:25.060
+Þetta er niðurstaðan
+
+00:13:25.950 --> 00:13:29.170
+Að þessu sinni munum við nota notkunartilviksmynd
+
+00:13:29.170 --> 00:13:30.840
+Settu þér markmið fyrir verkefnið
+
+00:13:31.230 --> 00:13:33.700
+Ég hef farið í gegnum fyrstu stig greiningarinnar.
+
+00:13:34.880 --> 00:13:38.010
+Persónulega, á meðan öllu þróunarferlinu stendur
+
+00:13:38.010 --> 00:13:40.060
+Ég held að greining sé erfiðust
+
+00:13:40.570 --> 00:13:44.250
+Vegna þess að við verðum að skipuleggja óhlutbundnustu og óljósustu hugtökin.
+
+00:13:45.020 --> 00:13:47.650
+Næst skoðum við helstu notkunartilvikin
+
+00:13:47.650 --> 00:13:49.470
+Við skulum greina það nánar
+
+00:13:50.300 --> 00:13:52.100
+Þakka þér fyrir erfiðið hingað til.
+

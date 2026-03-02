@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: kha
+
+00:00:00.000 --> 00:00:02.020
+Khublei, kane ka dei ka Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Ka software ka long kaba jylliew
+
+00:00:06.650 --> 00:00:08.890
+Nyngkong eh, ka don shibun ki code kiba donkam ban thoh.
+
+00:00:09.760 --> 00:00:12.710
+Tang ki nuksa projek ba nga la shna na ka bynta kane ka series .
+
+00:00:12.710 --> 00:00:15.270
+U code u jrong palat 12,000 lain.
+
+00:00:16.330 --> 00:00:18.320
+Lada ka dei ka jingshakri ba shisha .
+
+00:00:18.320 --> 00:00:21.530
+Wat la ka long ka jingshakri kaba rit, hynrei kan suk ban palat ia ka 100,000 tylli ki lain.
+
+00:00:22.130 --> 00:00:25.300
+Shispah hajar lain ka biang ban pyndap arphew tylli ki novel.
+
+00:00:26.870 --> 00:00:29.560
+Ka jingthoh code kaba jrong kam mut ba ka la kut.
+
+00:00:30.330 --> 00:00:32.540
+Phi hap ban iai pynbeit ia u code uba phi thoh.
+
+00:00:33.400 --> 00:00:35.800
+Lada ngi pynbeit ia u A, u B u bthei.
+
+00:00:35.800 --> 00:00:39.130
+Lada pynbeit ia u B, u A bad u C kin sa bthei.
+
+00:00:41.090 --> 00:00:44.260
+Ban pyndonkam da ka jingiasyriem, ka long kumba shah teh ha ka Rasputica bad iam.
+
+00:00:44.260 --> 00:00:46.360
+Phi lah ban ong ba ka long ka jinglong kaba kum kata kum u kulai.
+
+00:00:47.330 --> 00:00:50.550
+Ha kane ka por, phin sa sngew ia ka jingdonkam jong ka jingpynwandur.
+
+00:00:52.580 --> 00:00:55.010
+Hynrei haba phi pyrshang shisha ban thoh ia ka kot shna dur, .
+
+00:00:55.500 --> 00:00:58.490
+Ka jingpynpaw ia ki jingpyrkhat ha ka khlieh jong phi da kaba thikna .
+
+00:00:58.790 --> 00:01:01.260
+Phin sa shem ba kam long kaba suk kumba phi pyrkhat.
+
+00:01:01.890 --> 00:01:05.600
+Wat ki sheet jingrwai, kiba long ki kot kiba buh jingthoh da kaba peit ia ka sur ne jingrwai, .
+
+00:01:05.600 --> 00:01:06.700
+Ka long kaba eh
+
+00:01:07.520 --> 00:01:10.610
+Ym tang ka jingrwai, hynrei ka pisa tyngka bad ka jingpynpoi marbam
+
+00:01:10.610 --> 00:01:14.060
+Ki jingmut kiba kham pher bad ki jingdonkam ba rit jong ki nongpyndonkam
+
+00:01:14.060 --> 00:01:17.220
+Kan ym long kaba suk ban pynpaw ia ka ha ka model kaba kyrpang.
+
+00:01:18.530 --> 00:01:19.490
+Donbok
+
+00:01:19.770 --> 00:01:23.200
+Ban jop ia ka jingeh ban model ia ki jingmut ba rit .
+
+00:01:23.540 --> 00:01:26.860
+Ka UML ka la kha ha ki snem 1990 ba la dep.
+
+00:01:27.730 --> 00:01:30.120
+La ialam ia ka da u Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Ngi pyndonkam ia ka UML da ka jingkhmih lynti .
+
+00:01:34.980 --> 00:01:36.990
+Pynwan dur ia ka klas
+
+00:01:36.990 --> 00:01:38.760
+To ngin dro ruh ia ka diagram ba bud ryntih .
+
+00:01:39.430 --> 00:01:39.980
+hynrei
+
+00:01:40.360 --> 00:01:43.160
+Haba nga pyrshang shisha ban design ia ka, ka la pher na kaba code ia ka beit beit.
+
+00:01:43.160 --> 00:01:45.130
+Kam long kumba ka long kaba pher than .
+
+00:01:45.590 --> 00:01:46.520
+Balei ka long kumta?
+
+00:01:47.350 --> 00:01:50.910
+Kata ka long namar ba ka rukom pyrkhat ka la pynmlien ia ka jingpyntreikam.
+
+00:01:51.290 --> 00:01:54.170
+Ban ia kaba pynlong ia ki jingmut kiba rit kiba kham thikna,
+
+00:01:54.490 --> 00:01:57.590
+Namar ka pynkylla ia ka jingpyrkhat ha ka kyrdan pyntreikam sha ka UML.
+
+00:01:58.520 --> 00:02:00.270
+Tang namar ba phi lah ban pule ia ki jingrwai .
+
+00:02:00.270 --> 00:02:01.950
+Kam long kumta ba nga lah ban thaw ia ka
+
+00:02:02.390 --> 00:02:03.850
+Tang namar ba phi la nang ia ka UML .
+
+00:02:03.850 --> 00:02:06.170
+Kam dei kum ka jingpynroi ia ka jingtbit ban shna dur.
+
+00:02:07.700 --> 00:02:09.300
+Kumta ha kane ka thup .
+
+00:02:09.300 --> 00:02:11.580
+Lyngba ki projek ba shisha .
+
+00:02:11.580 --> 00:02:14.420
+Kumno ban pynlong ia ki jingdonkam ba rit
+
+00:02:14.420 --> 00:02:16.290
+Phi lah ban pyniasoh ia u code?
+
+00:02:16.290 --> 00:02:18.010
+Nga kwah ban pyni ia phi ha khmat
+
+00:02:18.530 --> 00:02:20.930
+Nga la jied ban buh tiket phlim da ka domain
+
+00:02:21.370 --> 00:02:25.200
+Ka jingpynsah tiket phlim ka long kaba suk ban sngewthuh namar ki dei kham bunsien ki domain kiba la tip bha.
+
+00:02:25.200 --> 00:02:29.710
+Ka kynthup ia ki kam bapher bapher kum ka login, ka jingsiew, bad ka jingjied jaka shong.
+
+00:02:29.710 --> 00:02:31.580
+Ka long kumba ka long ka nuksa kaba bha .
+
+00:02:33.600 --> 00:02:36.890
+Ha ka jingshisha, ka phang jong kane ka jingthoh ka dei ka jingshna software, hynrei .
+
+00:02:36.890 --> 00:02:40.350
+Ngin sa ia kren ruh ia ka jingpynroi ba la pynlong da ki test.
+
+00:02:41.210 --> 00:02:44.890
+Ki jaka pynroi ba mynta ki kyrshan tynrai ia ki tiar test.
+
+00:02:45.600 --> 00:02:48.320
+Wat lada ngi peit ia ki projek ba pawnam jong ka open source, .
+
+00:02:48.320 --> 00:02:51.130
+Ngi don ia ka kyrdan jong ka jingpynbna.
+
+00:02:51.740 --> 00:02:56.200
+Kane ka lah ban mut ba ka jingtest ka long kaba donkam bad kaba myntoi haduh katne.
+
+00:02:56.870 --> 00:02:58.120
+Hynrei ha ka jingshisha .
+
+00:02:58.120 --> 00:03:02.590
+Ha kiba bun ki khep, ym tang ka TDD, hynrei wat ka jingpynlong test ruh kam shym la pyntreikam bha.
+
+00:03:03.190 --> 00:03:06.260
+Ka jingthoh shwa ia ki test kiba don jingmut khlem kano kano ka jingpynkhreh ka long .
+
+00:03:06.260 --> 00:03:07.540
+Kam ju long kaba suk
+
+00:03:08.410 --> 00:03:12.340
+Kane ka dei kaei kaei kaba donkam ia ki jinglah ba la pyniasoh lang jong ka jingshna ia ki software.
+
+00:03:13.320 --> 00:03:16.270
+Kumta, ka kham bha ban iadei bad ka design bad ka TDD ryngkat.
+
+00:03:16.270 --> 00:03:18.180
+Nga la bishar ia ka ba ka long kaba tbit
+
+00:03:20.120 --> 00:03:23.450
+Kumta mynta to ngin sdang ia ka jingialang kaba nyngkong jong ka projek.
+
+00:03:24.150 --> 00:03:26.470
+Namar kane ka dei ka projek kaba rit .
+
+00:03:26.470 --> 00:03:28.090
+Ki don arngut ki nongwan .
+
+00:03:28.790 --> 00:03:32.340
+Uba sha kadiang u dei u riew shemphang ha ka domain, bad uba sha kamon u dei u nongpynwandur.
+
+00:03:34.550 --> 00:03:37.790
+Ki riew shemphang ha ka domain ki don ka ktien ha ki system kiba ngi donkam ban shna.
+
+00:03:37.790 --> 00:03:39.280
+Ka iathuh shibun ki khana .
+
+00:03:40.340 --> 00:03:42.160
+Ka theatre kaba ngi pyniaid .
+
+00:03:42.160 --> 00:03:44.710
+Ki don kumba saw hajar ngut ha kylleng ka ri.
+
+00:03:44.710 --> 00:03:47.220
+Ka lah ban nang kiew shuh shuh ha ki por ban wan.
+
+00:03:47.220 --> 00:03:50.480
+Mynta, tang ka jingbuh tiket phlim la kyrshan.
+
+00:03:50.480 --> 00:03:54.510
+Ngi thmu ban pyndap ia ka jingdie tiket na ka bynta ki jingshad kiba heh hadien.
+
+00:03:54.510 --> 00:03:58.940
+Bad kaba kongsan ka long ba phim dei ban book arsien ia ki jaka shong.
+
+00:03:58.940 --> 00:04:03.250
+Ha ki por mynshuwa, ki jaka ai jingshakri ia ki nongthied ki don shisha ka jingeh bad kata ka jait jingeh.
+
+00:04:03.250 --> 00:04:07.670
+Namar ka don shibun ki jingtip shaphang ki phlim bad ki review data kiba la dep ban lum.
+
+00:04:07.670 --> 00:04:11.090
+Kine ki data ki dei ban sah kumjuh.
+
+00:04:12.090 --> 00:04:14.730
+Hangne ​​ka jingiakren ka long kaba la pynbeit bha, hynrei .
+
+00:04:14.890 --> 00:04:16.960
+Ha ka jingshisha, ka don ka jingtip kaba kham bniah .
+
+00:04:16.960 --> 00:04:18.600
+Yn pynpoi ia ka ha ka rukom kaba khlem pynbeit .
+
+00:04:19.470 --> 00:04:22.110
+Hynrei ka jingiathuhkhana kaba mih ha kaba sdang jong ka projek ka long .
+
+00:04:22.110 --> 00:04:23.780
+Namar ka dei ka jingdonkam kaba kongsan tam .
+
+00:04:23.780 --> 00:04:25.320
+Ngi hap ban sngap bha .
+
+00:04:27.110 --> 00:04:29.810
+Ki nongpynwandur ki sngap ia ki riew shemphang ha ka domain
+
+00:04:29.810 --> 00:04:31.290
+Nga don katto katne ki jingkylli
+
+00:04:32.290 --> 00:04:34.660
+Ka jingpynbna tiket jong ka jinglehkai kaba heh kaba phi la kdew .
+
+00:04:34.660 --> 00:04:36.910
+Lano yn pynrung ia ka?
+
+00:04:36.910 --> 00:04:39.910
+Hato dei ban pynrung ia kane ha ka jingthew jong kane ka projek lypa?
+
+00:04:39.910 --> 00:04:43.590
+Lane nga kwah ban tip lada nga dei ban pyrkhat ia ka haduh mynta .
+
+00:04:43.590 --> 00:04:46.090
+Bad ka jingdonkam ban pynneh pynsah ia ki data kiba la don lypa .
+
+00:04:46.090 --> 00:04:48.940
+Hato kane ka mut ba ngim dei ban pynkylla ia ka rukom treikam jong ka DB?
+
+00:04:48.940 --> 00:04:51.950
+Hato ki don kiwei pat ki jingshakri kiba iasam ia ka DB mynta?
+
+00:04:53.580 --> 00:04:54.980
+Kumba phi lah ban iohi na ka DB, .
+
+00:04:54.980 --> 00:04:57.290
+Namar ki riew shemphang ha ka domain kim dei ki nongpynwandur.
+
+00:04:57.290 --> 00:04:59.430
+Ka jingpynpaw ba stad ka long kaba arsap
+
+00:04:59.910 --> 00:05:02.890
+Ki nongpynmih ki donkam ban peit bha ia kine kiei kiei.
+
+00:05:04.230 --> 00:05:07.450
+Ki riew shemphang ha ka domain ki jubab ia ki jingkylli jong ki nongpynwandur kumne:
+
+00:05:08.330 --> 00:05:10.210
+Ka jinglehniam ban buh tiket ia ka jinglehkai kaba heh
+
+00:05:10.210 --> 00:05:13.450
+Ym pat don ka por ba la buh kyrpang.
+
+00:05:13.450 --> 00:05:15.970
+Hynrei, ynda la pynrung ia ki jingdonkam ha ki por ban wan .
+
+00:05:15.970 --> 00:05:18.700
+Khnang ba phin lah ban upgrade khlem jingeh than .
+
+00:05:18.700 --> 00:05:22.600
+Nga tharai kan bha lada phi lah ban ai katto katne ka jingpyrkhat ia ka ha kane ka kynti.
+
+00:05:22.600 --> 00:05:27.050
+Ngim pyndonkam ia ka DB na ka bynta kiwei pat ki kam lait na ki jingshakri jong ngi.
+
+00:05:27.050 --> 00:05:32.840
+Ka jingkylla ia ka system hi kam dei ka jingeh kaba khraw katba dang pynneh pynsah bha ia ki data.
+
+00:05:33.840 --> 00:05:35.080
+Hadien ba la iohsngew ia ka jingiathuhkhana .
+
+00:05:35.080 --> 00:05:39.400
+Nga tharai ba phim donkam ban khuslai shaphang ka show kaba heh.
+
+00:05:39.400 --> 00:05:40.790
+Ka dei ka jingheh jong ka projek
+
+00:05:40.790 --> 00:05:43.040
+Ki jingdonkam kim da shai bha ruh .
+
+00:05:43.040 --> 00:05:44.930
+Ngam tip lano ngan donkam ia ka, hynrei
+
+00:05:44.930 --> 00:05:47.710
+Kata ka dei ka jingeh kaba ngin hap ban bishar bniah biang hadien.
+
+00:05:48.920 --> 00:05:50.910
+Wat lada ym shym la thoh ha ka kot .
+
+00:05:50.910 --> 00:05:54.880
+Ki riew shemphang ha ka domain kin ai ruh ia ka jubab ba kin pyrkhat ia ki jinglehkai kiba heh.
+
+00:05:54.880 --> 00:05:55.960
+Ngim dei ban klet .
+
+00:05:56.740 --> 00:05:58.320
+Biang lut
+
+00:05:58.320 --> 00:06:00.630
+Nangta, ka jingtreikam jong ka jingbuh tiket jong ka jinglehkai kaba heh .
+
+00:06:00.630 --> 00:06:04.500
+Ngam shym la buh ia ka hapdeng ki mat ba kongsan tam na ka bynta kane ka projek.
+
+00:06:04.500 --> 00:06:08.220
+Ha ka jaka kata, ka pynsuk ban pyniar ia ka jingtreikam hadien ha ka jingpynroi.
+
+00:06:08.220 --> 00:06:10.190
+Ngan sumar bha ia ka
+
+00:06:10.190 --> 00:06:12.840
+Wat khuslai. Shaniah tang ha nga .
+
+00:06:13.840 --> 00:06:15.960
+Ka long kaba donkam ban iadei bha
+
+00:06:17.980 --> 00:06:19.500
+Lyngba ka jingiakren jong ngi haduh mynta .
+
+00:06:19.500 --> 00:06:22.700
+Ia ki jingthmu ba kongsan la lum lang kumne harum:
+
+00:06:23.220 --> 00:06:25.890
+Kane ka dei ka jingtip ba la ai da ki riew shemphang ha ka domain.
+
+00:06:25.890 --> 00:06:28.410
+Ka jingpynkylla bad pynbeit na ka jingpeit jong u nongpynroi
+
+00:06:28.410 --> 00:06:29.810
+Sdang ia ka projek
+
+00:06:31.700 --> 00:06:32.860
+Ki riew shemphang ha ka domain
+
+00:06:32.860 --> 00:06:34.980
+Shisien ba phi la rai ia ki thong jong ka projek jong phi, .
+
+00:06:35.620 --> 00:06:37.980
+Mynta ka la dei ka por ban ai kyrteng ia ka projek jong phi.
+
+00:06:38.750 --> 00:06:41.840
+Nyngkong, kylli na u riew shemphang ha ka domain ia ka jingmut jong ki.
+
+00:06:42.800 --> 00:06:45.540
+Kaei ka kyrteng jong ka projek?
+
+00:06:45.540 --> 00:06:47.680
+Ka dei ka rukom buh jaka ban peit phlim.
+
+00:06:47.680 --> 00:06:50.150
+Kumno shaphang tang ka System ban book ia ki phlim?
+
+00:06:50.150 --> 00:06:51.430
+em, ngam kwah
+
+00:06:51.430 --> 00:06:53.570
+Ngan sumar ia ki jingpyni kiba heh
+
+00:06:53.570 --> 00:06:56.930
+To ngin ia leit bad ka System ban buh ia ki phlim. Hooid?
+
+00:06:56.930 --> 00:06:58.180
+khraw
+
+00:06:58.180 --> 00:06:59.950
+Khublei shibun
+
+00:07:01.000 --> 00:07:05.230
+Ki riew shemphang ha ka domain ki lah ban kwah ia ki kyrteng projek ha ka ktien Korea.
+
+00:07:05.580 --> 00:07:07.680
+Hynrei na ka jingpeit jong u nongpynroi .
+
+00:07:07.680 --> 00:07:09.990
+Baroh ki kyndon kynthup ia ki kyrteng projek
+
+00:07:09.990 --> 00:07:12.180
+Namar ba la pyntreikam beit beit ha ka code, .
+
+00:07:12.600 --> 00:07:15.000
+Ka kham suk ban batai ia ka ha ka ktien phareng lada lah.
+
+00:07:15.540 --> 00:07:19.510
+Ka long kaba kongsan ia ki nongpynmih ban bud ryntih ia ki jingdonkam jong ki riew shemphang ha ka domain, hynrei .
+
+00:07:19.960 --> 00:07:21.430
+Da kaba pyrkhat ia ka projek baroh kawei .
+
+00:07:21.430 --> 00:07:23.930
+Ngi don ruh ka jingkitkhlieh ban pyniaid ia kiei kiei ha ka lynti kaba biang.
+
+00:07:25.850 --> 00:07:27.760
+Lada phi la rai ia ka kyrteng jong ka projek jong phi .
+
+00:07:27.760 --> 00:07:31.380
+Mynta ka la dei ka por ban wad bniah mano ba pyndonkam ia ka Movie Booking System.
+
+00:07:32.020 --> 00:07:34.940
+Hooid, phi dei ban kylli na u riew shemphang ha ka domain na ka bynta ki jingtip shaphang kane.
+
+00:07:35.420 --> 00:07:38.740
+Bad ngi shem ba ngi don ki nongthied bad ki nongpyniaid.
+
+00:07:40.820 --> 00:07:43.280
+Kawei na ki bynta kaba suk ban duh ha ki por ba sdang jong ka jingshna dur ka long .
+
+00:07:43.280 --> 00:07:44.760
+Ka dei ka jingshaniah shabar
+
+00:07:45.340 --> 00:07:46.580
+Ki jingshaniah shabar ki long .
+
+00:07:46.580 --> 00:07:49.210
+Ka lah ban long ka rukom treikam kaba la don lypa,
+
+00:07:49.660 --> 00:07:51.420
+Ka lah ban long ka rukom siew .
+
+00:07:52.020 --> 00:07:53.670
+Kane ka jingiadei jong ka jingshaniah ka long .
+
+00:07:53.670 --> 00:07:56.760
+Namar ka lah ban ktah jur ia ka jingpynwandur ia ka system baroh kawei.
+
+00:07:56.950 --> 00:08:00.150
+Ka long kaba donkam ban ithuh kloi katba lah.
+
+00:08:00.570 --> 00:08:01.240
+donbok
+
+00:08:01.820 --> 00:08:04.990
+Ki bynta kum ki khyrdop siew bad ki rukom treikam ba la rim
+
+00:08:05.270 --> 00:08:07.730
+Namar ba la dep pyndonkam ia ka ha ki system kiba la don lypa .
+
+00:08:07.990 --> 00:08:10.360
+Lah ban sngewthuh ia ka da kaba suk bha .
+
+00:08:11.230 --> 00:08:14.410
+Kawei na kiei kiei kaba suk ban iehnoh ha ka jingiadei kaba shaniah ka long .
+
+00:08:14.410 --> 00:08:16.090
+Ki don ki jingma kiba nabar kiba iadei bad ka mariang .
+
+00:08:16.900 --> 00:08:19.060
+Ka ri jong ngi ka don ha kajuh ka por .
+
+00:08:19.060 --> 00:08:22.430
+Ha ka ri kaba heh ka jaka, kawei pa kawei ka theatre ka don la ka jong ka por.
+
+00:08:23.190 --> 00:08:25.100
+Nangta ka rukom buh phlim .
+
+00:08:25.100 --> 00:08:28.900
+Ym lah ban kiar ba kan shah ktah ha ki jinglong jong ka mariang kum ki por.
+
+00:08:29.410 --> 00:08:32.760
+Kine ki jingjia kim ju paw shynna lymda phi kylli beit na u riew shemphang jong ka domain.
+
+00:08:32.760 --> 00:08:33.950
+Ka long kaba suk ban duh
+
+00:08:34.740 --> 00:08:37.610
+Ki riew shemphang ha ka domain ki kham sngewtynnad ban iehnoh ia kine ki jingtip ba bniah.
+
+00:08:37.610 --> 00:08:40.010
+Namar ba ka jingbatai ka lah ban shah iehnoh .
+
+00:08:41.680 --> 00:08:43.640
+Namar ba la kren shai ia ka jingiadei jong ka jingshaniah .
+
+00:08:43.640 --> 00:08:47.500
+Mynta ngin ia phai sha ki bynta ba shapoh jong ka System ban book ia ki phlim.
+
+00:08:48.430 --> 00:08:52.230
+Nyngkong eh, kaei kaba u nongthied u leh ha ka Movie Booking System?
+
+00:08:52.230 --> 00:08:54.230
+To ngin kylli ia ki riew shemphang ha ka domain .
+
+00:08:55.800 --> 00:08:57.880
+Ki nongthied ki leh aiu?
+
+00:08:57.880 --> 00:08:59.970
+Ki nongthied ki wad ia ki phlim,
+
+00:08:59.970 --> 00:09:01.450
+Peit ia ki jingtip ba bniah jong ka phlim,
+
+00:09:01.450 --> 00:09:02.910
+Jied ia ka por pyni, .
+
+00:09:02.910 --> 00:09:04.450
+Jied ia ka jaka shong jong phi, .
+
+00:09:04.450 --> 00:09:05.920
+Ki tiket peit phlim,
+
+00:09:05.920 --> 00:09:07.610
+Peit ia ki jingtip ba bniah jong ka jingbuh jaka,
+
+00:09:07.610 --> 00:09:10.180
+Ai kiei kiei kum ka jingpynsangeh ia ka jingbuh jaka
+
+00:09:10.180 --> 00:09:15.750
+Hato ka jingjied ia ka por pyni bad ka jingjied ia ka jaka shong ka dei ka bynta jong ka jingpynbiang tiket phlim?
+
+00:09:15.750 --> 00:09:18.880
+Bad ban buh tiket phlim, ban weng noh ia ki jingbuh tiket .
+
+00:09:18.880 --> 00:09:22.210
+Hadien baroh, hato phim dei tang ban thied tiket bad ioh biang ia ka pisa?
+
+00:09:22.210 --> 00:09:23.620
+ka jingkren .
+
+00:09:23.620 --> 00:09:25.030
+Kata ka dei
+
+00:09:25.480 --> 00:09:27.880
+Namar ka dei ka domain kaba la tip bha mynta .
+
+00:09:27.880 --> 00:09:31.240
+Jied ia ka por pyni bad jied ia ka jaka shong jong phi .
+
+00:09:31.240 --> 00:09:33.200
+Hato kane ka dei ka bynta jong ka jingpynbiang tiket phlim?
+
+00:09:33.200 --> 00:09:34.530
+Nga lah ban kylli
+
+00:09:34.980 --> 00:09:37.220
+Hynrei lada ka dei ka domain kaba ym tip,
+
+00:09:37.410 --> 00:09:40.160
+Ka jingbishar bniah ia kawei pa kawei ka jingpyndonkam .
+
+00:09:40.520 --> 00:09:43.330
+U la pynbud biang ia ka rukom pynkhuid katto katne sien.
+
+00:09:43.790 --> 00:09:45.350
+Ka shong ha ka jinglong jong ka projek .
+
+00:09:45.350 --> 00:09:48.080
+Phi lah ban pynbud biang ia kane ka rukom katto katne sien, .
+
+00:09:48.080 --> 00:09:50.580
+Katba nang shim por bad bishar bniah bha, .
+
+00:09:50.580 --> 00:09:54.190
+Pynduna ia ka jingpyrshang bad jingbakla ha ka por ba shna bad pyntreikam.
+
+00:09:55.850 --> 00:09:57.530
+Da kaba pynshong nongrim ha ka jingiakren haduh mynta .
+
+00:09:57.530 --> 00:10:00.970
+Ngi la pynbeit ia ki jingpyndonkam jong ki nongthied jong ngi ha ki saw bynta:
+
+00:10:02.960 --> 00:10:04.470
+Hadien kata u dei u nongpyniaid .
+
+00:10:05.190 --> 00:10:08.850
+U nongpyniaid u lah ban iohi ba ki don phra tylli ki jingpyniaid:
+
+00:10:09.440 --> 00:10:13.620
+Ha lade, nga long uba husiar bha ban pyndonkam ia ka kyntien "Manage" ha ka jingpynroi.
+
+00:10:14.360 --> 00:10:16.980
+Manage ka long ka jingpynpaw kaba jylliew palat
+
+00:10:16.980 --> 00:10:19.030
+Kam long kaba shai kaei kaba phi leh
+
+00:10:19.640 --> 00:10:20.950
+Ka long kumjuh hangne ​​ruh .
+
+00:10:21.370 --> 00:10:23.760
+Kumno thik la pyniaid ia ka?
+
+00:10:23.760 --> 00:10:24.810
+Ngam tip
+
+00:10:25.930 --> 00:10:27.620
+Da kaba iakren bad ki riew shemphang ha ka domain
+
+00:10:27.620 --> 00:10:31.220
+Ia kawei pa kawei ka jingpyniaid la pynheh sha ka jingpyndonkam ba kyrpang.
+
+00:10:31.900 --> 00:10:33.660
+Lada ka dei ka projek kaba shisha
+
+00:10:33.660 --> 00:10:35.890
+Ki don lehse ki jingpyndonkam kiba kham bun ban ia kane.
+
+00:10:36.150 --> 00:10:39.000
+Hangne ​​nga la pynsuk ia ka na ka bynta ka jingbatai.
+
+00:10:39.860 --> 00:10:42.700
+Kaba donkam ban tip hangne ​​ka long ba haba ngi shna ia ka por iaid, .
+
+00:10:43.020 --> 00:10:45.900
+Phi lah ban iohi ba ka tiket ruh ka long kaba la shna .
+
+00:10:46.960 --> 00:10:49.200
+Bad haba thied ne pynphai pisa ia ka tiket .
+
+00:10:49.490 --> 00:10:53.910
+Phi lah ruh ban iohi ba ngi pyndonkam ia ka jingshakri kaba nabar kaba ki khot ka khyrdop siew.
+
+00:10:55.890 --> 00:10:58.670
+Nga la pyniasoh lang ia ki jingpyndonkam jong ki nongthied bad ki nongpyniaid.
+
+00:10:59.350 --> 00:11:01.730
+Da kaba peit ia ka jingpyndonkam baroh kawei kum kane .
+
+00:11:01.730 --> 00:11:02.900
+Kaei kaei kaba sngew thylli
+
+00:11:03.890 --> 00:11:05.840
+Ka don ka lad ban pyndap ia ka jaka peitkai .
+
+00:11:05.840 --> 00:11:08.720
+Ngam iohi ia kaei kaei kum ka Search Theatre .
+
+00:11:09.410 --> 00:11:12.130
+Ka long kumba ki don katto katne ki use case kiba la pynduh noh.
+
+00:11:12.770 --> 00:11:15.980
+Namar na ka jingpeit jong u riew shemphang ha ka domain, ka don shibun kiei kiei ban batai.
+
+00:11:15.980 --> 00:11:17.950
+Kane ka jingpyndonkam, kaba i kumba ka paw shai bha,
+
+00:11:18.150 --> 00:11:19.810
+Phi lah ban weng noh ia ka jingbatai .
+
+00:11:20.770 --> 00:11:23.460
+Kumta kumno shaphang ka jingpeit jong u nongpynroi?
+
+00:11:24.400 --> 00:11:28.290
+Ka kham bha ban weng noh ia ki khubor kiba suk kum ka jingwad ia ka jaka peitkai.
+
+00:11:28.290 --> 00:11:30.700
+Hato kane kan ym kham iarap ia ka jingpyniaid ia ki kot ki sla?
+
+00:11:31.720 --> 00:11:32.870
+Lada ka dei ka jingpynwandur ba shadien
+
+00:11:32.870 --> 00:11:35.920
+Ki jingpyndonkam kiba suk kum ka jingwad ia ka jaka peitkai
+
+00:11:35.920 --> 00:11:37.760
+Nga tharai kam pher ban skip ia ka
+
+00:11:38.600 --> 00:11:41.570
+Kaei kaba nga ong ka long ba kam pat long kaba slem ban jubab ha ka por ba pyntreikam.
+
+00:11:42.370 --> 00:11:44.310
+Hynrei lada ka dei ka projek kaba shisha
+
+00:11:44.310 --> 00:11:48.450
+Na ka bynta ki nongpynkhreh screen, kine ki jingpyndonkam ki long ka jingsdang kaba bha.
+
+00:11:49.250 --> 00:11:52.300
+U nongpynkhreh u la peit ia ka jingpyndonkam jong ka jingwad ia ka jaka lehkai.
+
+00:11:52.300 --> 00:11:55.300
+Kumno nga dei ban pynlong ia ka ban wad ia ki jaka peitkai?
+
+00:11:55.300 --> 00:11:56.600
+Phin sa lah ban pyrkhat .
+
+00:11:58.000 --> 00:12:00.880
+Haba ngi pyniasoh lang ia ki diagram ha kawei, ka i kumba ka long kaba eh.
+
+00:12:01.490 --> 00:12:05.150
+Lada ka dei ka projek kaba shisha, kan long kaba kham jynjar shibun.
+
+00:12:05.720 --> 00:12:08.240
+Ha kane ka khep, ym donkam ban pynbor ia ka jingpyniasoh.
+
+00:12:08.810 --> 00:12:13.910
+Nga shu pyniasoh lang ia ki hangne ​​ban pynpaw ba ki don ki case kiba la jah.
+
+00:12:16.020 --> 00:12:18.490
+Nga la pyndap lut ia ki case kiba la jah
+
+00:12:19.200 --> 00:12:21.880
+Nga don ka jingpyndonkam ha kaba la pynduh ia ka jingiadei bad u aktor.
+
+00:12:22.290 --> 00:12:25.720
+Kane ka treikam ia ki nongthied bad ki nongpyniaid.
+
+00:12:26.400 --> 00:12:29.480
+Bad khnang ban suk ban pyntreikam, nga la thoh ia ka ha ka ktien phareng.
+
+00:12:31.370 --> 00:12:34.160
+Ka long kaba bha mynta namar ka dei ka projek kaba rit
+
+00:12:34.160 --> 00:12:36.160
+Lada ka projek ka long kaba heh bad kaba jylliew .
+
+00:12:36.160 --> 00:12:38.980
+Hangno u riewstad domain u dei ban sdang ban batai?
+
+00:12:38.980 --> 00:12:40.380
+Ka lah ban long kaba eh .
+
+00:12:41.280 --> 00:12:43.300
+Kaei kaba u nongpyniaid u leh?
+
+00:12:43.300 --> 00:12:44.700
+Ka long ka kam kaba bun
+
+00:12:44.700 --> 00:12:46.620
+Kumba la khmih lynti na u manager .
+
+00:12:47.620 --> 00:12:49.750
+Ha kane ka khep, hato ngi lah ban phiah ia ki aktor?
+
+00:12:49.750 --> 00:12:52.340
+Ka long ruh ka jingmut kaba bha ban bishar bniah .
+
+00:12:53.140 --> 00:12:54.790
+Ha kaba nyngkong la khot ia nga u nongpyniaid .
+
+00:12:54.790 --> 00:12:57.400
+Ka lah ban long kaba lah ban phiah katkum ka bynta .
+
+00:12:58.520 --> 00:13:00.820
+Bad da kaba pyndonkam ia ka rukom book phlim .
+
+00:13:00.820 --> 00:13:02.870
+Ki lah ban don ki jingshakri nabar .
+
+00:13:03.660 --> 00:13:05.340
+Lada ngi pyniakhlad ia ki aktor kumne, .
+
+00:13:05.340 --> 00:13:09.420
+Ki riew shemphang ha ka domain kin lah ban ai ia ki jingtip kiba kham ryntih.
+
+00:13:10.350 --> 00:13:14.000
+Hooid, kane ka dei tang kawei ka nuksa jong ka jingbishar bniah ia ka domain kaba jylliew.
+
+00:13:14.540 --> 00:13:17.320
+Ki lah ban don kiwei pat ki lad kiba bha .
+
+00:13:17.960 --> 00:13:21.740
+Ka long kaba donkam ban jubab da kaba suk katkum ka jinglong jingman.
+
+00:13:24.250 --> 00:13:25.060
+Kane ka long ka jingpynkut .
+
+00:13:25.950 --> 00:13:29.170
+Ha kane ka kynti, ngin pyndonkam ia ka dur jong ka jingpyndonkam .
+
+00:13:29.170 --> 00:13:30.840
+Buh ia ki thong na ka bynta ka projek
+
+00:13:31.230 --> 00:13:33.700
+Nga la iaid lyngba ki bynta ba sdang jong ka jingbishar bniah.
+
+00:13:34.880 --> 00:13:38.010
+Ha lade, ha ka por jong ka jingpynroi baroh kawei .
+
+00:13:38.010 --> 00:13:40.060
+Nga tharai ba ka jingbishar bniah ka long kaba eh tam .
+
+00:13:40.570 --> 00:13:44.250
+Namar ngi hap ban pynbeit ia ki jingmut kiba rit bad kiba jylliew tam.
+
+00:13:45.020 --> 00:13:47.650
+Ha ka sien kaba bud ngin sa peit ia ki jingpyndonkam ba kongsan .
+
+00:13:47.650 --> 00:13:49.470
+To ngin ia bishar bniah ia ka .
+
+00:13:50.300 --> 00:13:52.100
+Khublei shibun ia ka jingtrei shitom jong phi haduh mynta.
+

@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: ga
+
+00:00:00.000 --> 00:00:02.020
+Haigh, seo Cód Méasa.
+
+00:00:03.290 --> 00:00:05.350
+Tá bogearraí casta
+
+00:00:06.650 --> 00:00:08.890
+Ar an gcéad dul síos, tá go leor cóid le scríobh.
+
+00:00:09.760 --> 00:00:12.710
+Na tionscadail shamplacha a chruthaigh mé don tsraith seo amháin
+
+00:00:12.710 --> 00:00:15.270
+Tá an cód os cionn 12,000 líne ar fhad.
+
+00:00:16.330 --> 00:00:18.320
+Más seirbhís oibriúcháin iarbhír í
+
+00:00:18.320 --> 00:00:21.530
+Fiú más seirbhís bheag í, rachaidh sí thar 100,000 líne go héasca.
+
+00:00:22.130 --> 00:00:25.300
+Is leor céad míle líne le fiche úrscéal a líonadh.
+
+00:00:26.870 --> 00:00:29.560
+Ní chiallaíonn cód fada a scríobh go bhfuil deireadh leis.
+
+00:00:30.330 --> 00:00:32.540
+Caithfidh tú leanúint ar aghaidh ag socrú an chóid a scríobhann tú.
+
+00:00:33.400 --> 00:00:35.800
+Má dheisíonn tú A, briseann B.
+
+00:00:35.800 --> 00:00:39.130
+Má dheisíonn tú B, brisfidh A agus C.
+
+00:00:41.090 --> 00:00:44.260
+Chun analaí a úsáid, tá sé cosúil le bheith gafa i Rasputica agus ag gol.
+
+00:00:44.260 --> 00:00:46.360
+D’fhéadfá a rá gur cás cosúil é le capall.
+
+00:00:47.330 --> 00:00:50.550
+Ag an bpointe seo, beidh ort an gá atá le dearadh.
+
+00:00:52.580 --> 00:00:55.010
+Ach nuair a dhéanann tú iarracht doiciméad dearaidh a scríobh i ndáiríre,
+
+00:00:55.500 --> 00:00:58.490
+Ag cur na smaointe i do cheann in iúl go coincréiteach
+
+00:00:58.790 --> 00:01:01.260
+Gheobhaidh tú amach nach bhfuil sé chomh héasca agus a cheapfá.
+
+00:01:01.890 --> 00:01:05.600
+Fiú ceol bileog, ar doiciméad é a thaifeadann fuaim nó ceol go amhairc,
+
+00:01:05.600 --> 00:01:06.700
+Tá sé seo casta
+
+00:01:07.520 --> 00:01:10.610
+Ní hamháin ceol, ach airgeadas agus lóistíocht freisin
+
+00:01:10.610 --> 00:01:14.060
+Coincheapa níos éagsúla agus riachtanais úsáideoirí teibí
+
+00:01:14.060 --> 00:01:17.220
+Ní bheidh sé éasca é a chur in iúl i samhail shonrach.
+
+00:01:18.530 --> 00:01:19.490
+Ar ámharaí an tsaoil
+
+00:01:19.770 --> 00:01:23.200
+Chun an deacracht a bhaineann le samhaltú coincheapa teibí a shárú
+
+00:01:23.540 --> 00:01:26.860
+Rugadh UML ag deireadh na 1990idí.
+
+00:01:27.730 --> 00:01:30.120
+Bhí Grady Butch i gceannas air.
+
+00:01:31.460 --> 00:01:34.390
+Úsáidimid UML le réamhshuim
+
+00:01:34.980 --> 00:01:36.990
+Tarraing léaráid ranga
+
+00:01:36.990 --> 00:01:38.760
+Tarraingímis léaráid seicheamhach freisin
+
+00:01:39.430 --> 00:01:39.980
+áfach
+
+00:01:40.360 --> 00:01:43.160
+Nuair a rinne mé iarracht é a dhearadh i ndáiríre, bhí sé difriúil ó é a chódú go díreach.
+
+00:01:43.160 --> 00:01:45.130
+Ní cosúil go bhfuil sé i bhfad difriúil
+
+00:01:45.590 --> 00:01:46.520
+Cén fáth go bhfuil sin amhlaidh?
+
+00:01:47.350 --> 00:01:50.910
+Sin toisc go bhfuil an próiseas smaointeoireachta cleachtaithe le cur i bhfeidhm.
+
+00:01:51.290 --> 00:01:54.170
+In áit coincheapa teibí a dhéanamh níos coincréite,
+
+00:01:54.490 --> 00:01:57.590
+Mar go n-aistríonn sé smaointeoireacht ar leibhéal an chur i bhfeidhm go UML.
+
+00:01:58.520 --> 00:02:00.270
+Díreach toisc gur féidir leat bileoga ceoil a léamh
+
+00:02:00.270 --> 00:02:01.950
+Ní mar is féidir liom é a chumadh
+
+00:02:02.390 --> 00:02:03.850
+Díreach mar gheall gur fhoghlaim tú UML
+
+00:02:03.850 --> 00:02:06.170
+Ní mar a fhorbraíonn tú scileanna dearaidh.
+
+00:02:07.700 --> 00:02:09.300
+Mar sin sa tsraith seo
+
+00:02:09.300 --> 00:02:11.580
+Trí thionscadail iarbhír
+
+00:02:11.580 --> 00:02:14.420
+Conas riachtanais teibí a chur i gcrích go coincréiteach
+
+00:02:14.420 --> 00:02:16.290
+An féidir leat an cód a nascadh?
+
+00:02:16.290 --> 00:02:18.010
+Ba mhaith liom a thaispeáint duit go pearsanta
+
+00:02:18.530 --> 00:02:20.930
+Roghnaigh mé ticéid scannán a chur in áirithe de réir fearainn
+
+00:02:21.370 --> 00:02:25.200
+Is furasta áirithintí ticéad scannán a thuiscint mar is réimsí eolacha iad den chuid is mó.
+
+00:02:25.200 --> 00:02:29.710
+Áirítear feidhmeanna éagsúla amhail logáil isteach, íocaíocht agus roghnú suíochán.
+
+00:02:29.710 --> 00:02:31.580
+Is cosúil gur sampla maith é
+
+00:02:33.600 --> 00:02:36.890
+Go bunúsach, is é dearadh bogearraí ábhar an ailt seo, ach
+
+00:02:36.890 --> 00:02:40.350
+Clúdóimid forbairt tástála-thiomáinte freisin.
+
+00:02:41.210 --> 00:02:44.890
+Tacaíonn timpeallachtaí forbartha nua-aimseartha go dúchasach le huirlisí tástála.
+
+00:02:45.600 --> 00:02:48.320
+Fiú má fhéachann tú ar thionscadail foinse oscailte cáiliúla,
+
+00:02:48.320 --> 00:02:51.130
+Tá leibhéal áirithe tástála againn.
+
+00:02:51.740 --> 00:02:56.200
+Is dócha go gciallaíonn sé seo go bhfuil an oiread sin tábhachta agus úsáideachta ag baint leis an tástáil.
+
+00:02:56.870 --> 00:02:58.120
+Ach i ndáiríre
+
+00:02:58.120 --> 00:03:02.590
+I go leor cásanna, ní hamháin go gcuirtear TDD i bhfeidhm i gceart, ach fiú uathoibriú tástála.
+
+00:03:03.190 --> 00:03:06.260
+Is é atá i gceist le tástálacha bríocha a scríobh ar dtús gan aon ullmhúchán
+
+00:03:06.260 --> 00:03:07.540
+Ní bhíonn sé éasca riamh
+
+00:03:08.410 --> 00:03:12.340
+Is rud é seo a éilíonn cumais chomhcheangailte dearadh bogearraí.
+
+00:03:13.320 --> 00:03:16.270
+Mar sin, is fearr déileáil leis an dearadh agus leis an TDD le chéile.
+
+00:03:16.270 --> 00:03:18.180
+Mheas mé go raibh sé éifeachtach
+
+00:03:20.120 --> 00:03:23.450
+Mar sin, déanaimis tús a chur leis an gcéad chruinniú den tionscadal anois.
+
+00:03:24.150 --> 00:03:26.470
+Mar gheall gur tionscadal beag é seo
+
+00:03:26.470 --> 00:03:28.090
+Tá beirt i láthair
+
+00:03:28.790 --> 00:03:32.340
+Is saineolaí fearainn an duine ar chlé, agus is forbróir an duine ar dheis.
+
+00:03:34.550 --> 00:03:37.790
+Tá cead cainte ag saineolaithe fearainn maidir leis na córais a chaithfimid a thógáil.
+
+00:03:37.790 --> 00:03:39.280
+Insíonn sé go leor scéalta
+
+00:03:40.340 --> 00:03:42.160
+An amharclann a reáchtálaimid
+
+00:03:42.160 --> 00:03:44.710
+Tá thart ar cheithre mhíle acu ar fud na tíre.
+
+00:03:44.710 --> 00:03:47.220
+D’fhéadfadh sé méadú tuilleadh sa todhchaí.
+
+00:03:47.220 --> 00:03:50.480
+Faoi láthair, ní thacaítear ach leis an bhfeidhm áirithinte ticéad scannán.
+
+00:03:50.480 --> 00:03:54.510
+Tá sé beartaithe againn díolacháin ticéad a chur leis le haghaidh léirithe mórscála níos déanaí.
+
+00:03:54.510 --> 00:03:58.940
+Agus an rud is tábhachtaí ná nár cheart duit suíocháin a chur in áirithe faoi dhó choíche.
+
+00:03:58.940 --> 00:04:03.250
+San am atá thart, bhí am an-deacair ag ionaid seirbhíse do chustaiméirí leis an gcineál sin fadhbanna.
+
+00:04:03.250 --> 00:04:07.670
+Mar gheall go bhfuil go leor eolais faoi scannáin agus sonraí léirmheasa bailithe cheana féin.
+
+00:04:07.670 --> 00:04:11.090
+Caithfidh na sonraí seo fanacht slán.
+
+00:04:12.090 --> 00:04:14.730
+Anseo tá an comhrá eagraithe go maith, ach
+
+00:04:14.890 --> 00:04:16.960
+Go deimhin, tá tuilleadh eolais ann
+
+00:04:16.960 --> 00:04:18.600
+Déanfar é a sheachadadh ar bhealach neamh-eagraithe
+
+00:04:19.470 --> 00:04:22.110
+Ach an scéal a thagann amach ag tús an tionscadail ná
+
+00:04:22.110 --> 00:04:23.780
+Mar is é an riachtanas is tábhachtaí é
+
+00:04:23.780 --> 00:04:25.320
+Caithfidh tú éisteacht go cúramach
+
+00:04:27.110 --> 00:04:29.810
+Éisteann forbróirí le saineolaithe fearainn
+
+00:04:29.810 --> 00:04:31.290
+Tá cúpla ceist agam
+
+00:04:32.290 --> 00:04:34.660
+An fheidhm áirithinte ticéad léirithe ar scála mór a luaigh tú
+
+00:04:34.660 --> 00:04:36.910
+Cathain a chuirfear leis é?
+
+00:04:36.910 --> 00:04:39.910
+Ar cheart é seo a áireamh i raon feidhme an tionscadail seo roimh ré?
+
+00:04:39.910 --> 00:04:43.590
+Nó ba mhaith liom a fháil amach an gcaithfidh mé smaoineamh air fós
+
+00:04:43.590 --> 00:04:46.090
+Agus an gá atá le sonraí atá ann cheana a choinneáil
+
+00:04:46.090 --> 00:04:48.940
+An gciallaíonn sé seo nach gceart dúinn an córas DB a athrú?
+
+00:04:48.940 --> 00:04:51.950
+An bhfuil aon seirbhísí eile ag roinnt an DB faoi láthair?
+
+00:04:53.580 --> 00:04:54.980
+Mar is féidir leat a fheiceáil ón DB,
+
+00:04:54.980 --> 00:04:57.290
+Mar nach forbróirí iad saineolaithe fearainn.
+
+00:04:57.290 --> 00:04:59.430
+Tá an abairt theicniúil débhríoch
+
+00:04:59.910 --> 00:05:02.890
+Caithfidh forbróirí na rudaí seo a sheiceáil go cúramach.
+
+00:05:04.230 --> 00:05:07.450
+Freagraíonn saineolaithe fearainn ceisteanna forbróirí mar seo:
+
+00:05:08.330 --> 00:05:10.210
+Feidhm áirithinte ticéad léirithe ar scála mór
+
+00:05:10.210 --> 00:05:13.450
+Níl aon sceideal sonrach ann go fóill.
+
+00:05:13.450 --> 00:05:15.970
+Mar sin féin, nuair a chuirtear gnéithe leis sa todhchaí
+
+00:05:15.970 --> 00:05:18.700
+Ionas gur féidir leat uasghrádú a dhéanamh gan mórán deacrachta
+
+00:05:18.700 --> 00:05:22.600
+Sílim go mbeadh sé go maith dá bhféadfá machnamh a dhéanamh air an uair seo.
+
+00:05:22.600 --> 00:05:27.050
+Ní úsáidimid DB le haghaidh aon rud seachas ár seirbhísí.
+
+00:05:27.050 --> 00:05:32.840
+Ní fadhb mhór í an córas féin a athrú chomh fada agus a choimeádtar na sonraí i gceart.
+
+00:05:33.840 --> 00:05:35.080
+Tar éis an scéal a chloisteáil
+
+00:05:35.080 --> 00:05:39.400
+Ní dóigh liom go gcaithfidh tú a bheith buartha faoin seó mór.
+
+00:05:39.400 --> 00:05:40.790
+Ní hé raon feidhme an tionscadail é
+
+00:05:40.790 --> 00:05:43.040
+Níl na ceanglais soiléir ach an oiread
+
+00:05:43.040 --> 00:05:44.930
+Níl a fhios agam cathain a bheidh sé ag teastáil uaim, ach
+
+00:05:44.930 --> 00:05:47.710
+Is fadhb í sin a mbeidh orainn athbhreithniú a dhéanamh uirthi arís níos déanaí.
+
+00:05:48.920 --> 00:05:50.910
+Fiú mura bhfuil sé taifeadta sa doiciméad
+
+00:05:50.910 --> 00:05:54.880
+Tabharfaidh saineolaithe fearainn freagra freisin go mbreithneoidh siad léirithe ar scála mór.
+
+00:05:54.880 --> 00:05:55.960
+Ní mór duit dearmad a dhéanamh
+
+00:05:56.740 --> 00:05:58.320
+Ceart go leor
+
+00:05:58.320 --> 00:06:00.630
+Ansin, feidhm áirithinte ticéad feidhmíochta ar scála mór
+
+00:06:00.630 --> 00:06:04.500
+Ní chuirfinn i measc na bpríomhthosaíochtaí don tionscadal seo é.
+
+00:06:04.500 --> 00:06:08.220
+Ina áit sin, cuireann sé ar chumas daoine feidhmiúlacht a leathnú níos déanaí sa phróiseas forbartha.
+
+00:06:08.220 --> 00:06:10.190
+Tabharfaidh mé aire mhaith dó
+
+00:06:10.190 --> 00:06:12.840
+Ná bíodh imní ort. Muinín domsa amháin
+
+00:06:13.840 --> 00:06:15.960
+Tá sé tábhachtach go mbeadh dea-chomhrá agat.
+
+00:06:17.980 --> 00:06:19.500
+Tríd an gcomhrá a bhí againn go dtí seo
+
+00:06:19.500 --> 00:06:22.700
+Seo a leanas achoimre ar na príomhthosaíochtaí:
+
+00:06:23.220 --> 00:06:25.890
+Seo an fhaisnéis a sholáthraíonn saineolaithe fearainn.
+
+00:06:25.890 --> 00:06:28.410
+Léirmhíniú agus eagrú ó pheirspictíocht forbróra
+
+00:06:28.410 --> 00:06:29.810
+Tosaigh an tionscadal
+
+00:06:31.700 --> 00:06:32.860
+Le saineolaithe fearainn
+
+00:06:32.860 --> 00:06:34.980
+Nuair a bheidh cinneadh déanta agat faoi spriocanna do thionscadail,
+
+00:06:35.620 --> 00:06:37.980
+Anois tá sé in am ainm a thabhairt do do thionscadal.
+
+00:06:38.750 --> 00:06:41.840
+Ar dtús, iarr tuairim ar shaineolaí fearainn.
+
+00:06:42.800 --> 00:06:45.540
+Cén t-ainm ba chóir dom a thabhairt ar an tionscadal?
+
+00:06:45.540 --> 00:06:47.680
+Is córas áirithinte scannán é.
+
+00:06:47.680 --> 00:06:50.150
+Cad faoin gCóras Áirithinte Scannán amháin?
+
+00:06:50.150 --> 00:06:51.430
+ní, níl mé ag iarraidh
+
+00:06:51.430 --> 00:06:53.570
+Tabharfaidh mé aire do na léirithe mórscála
+
+00:06:53.570 --> 00:06:56.930
+Téimis leis an gCóras Áirithinte Scannán. tá?
+
+00:06:56.930 --> 00:06:58.180
+iontach
+
+00:06:58.180 --> 00:06:59.950
+Go raibh míle maith agat
+
+00:07:01.000 --> 00:07:05.230
+B’fhéidir go mbeadh ainmneacha tionscadal i gCóiréis ag teastáil ó shaineolaithe fearainn.
+
+00:07:05.580 --> 00:07:07.680
+Ach ó pheirspictíocht forbróra
+
+00:07:07.680 --> 00:07:09.990
+Gach téarma lena n-áirítear ainmneacha tionscadal
+
+00:07:09.990 --> 00:07:12.180
+Ós rud é go gcuirtear i bhfeidhm go díreach é sa chód,
+
+00:07:12.600 --> 00:07:15.000
+Is fusa é a mhíniú i mBéarla más féidir.
+
+00:07:15.540 --> 00:07:19.510
+Tá sé tábhachtach d’fhorbróirí riachtanais na saineolaithe fearainn a leanúint go dílis, ach
+
+00:07:19.960 --> 00:07:21.430
+Ag cur san áireamh an tionscadal ar fad
+
+00:07:21.430 --> 00:07:23.930
+Tá freagracht orainn freisin rudaí a stiúradh i dtreo éifeachtach.
+
+00:07:25.850 --> 00:07:27.760
+Má tá ainm cinntithe agat do do thionscadal
+
+00:07:27.760 --> 00:07:31.380
+Anois tá sé in am a fháil amach cé a úsáideann an Córas Áirithinte Scannán.
+
+00:07:32.020 --> 00:07:34.940
+Ar ndóigh, ba cheart duit eolas a iarraidh ar shaineolaí fearainn faoi seo.
+
+00:07:35.420 --> 00:07:38.740
+Agus faighimid amach go bhfuil custaiméirí agus bainisteoirí againn.
+
+00:07:40.820 --> 00:07:43.280
+Ceann de na heilimintí is furasta a chailleadh i gcéimeanna tosaigh an dearaidh ná
+
+00:07:43.280 --> 00:07:44.760
+Is spleáchas seachtrach é
+
+00:07:45.340 --> 00:07:46.580
+Is iad spleáchais sheachtracha
+
+00:07:46.580 --> 00:07:49.210
+D’fhéadfadh sé a bheith ina chóras oidhreachta atá ann cheana féin,
+
+00:07:49.660 --> 00:07:51.420
+D’fhéadfadh sé a bheith ina chóras íocaíochta
+
+00:07:52.020 --> 00:07:53.670
+Is é an caidreamh spleáchais seo
+
+00:07:53.670 --> 00:07:56.760
+Toisc go bhféadfadh tionchar mór a bheith aige ar dhearadh foriomlán an chórais.
+
+00:07:56.950 --> 00:08:00.150
+Tá sé tábhachtach é a aithint chomh luath agus is féidir.
+
+00:08:00.570 --> 00:08:01.240
+ar ámharaí an tsaoil
+
+00:08:01.820 --> 00:08:04.990
+Eilimintí ar nós geataí íocaíochta agus córais oidhreachta
+
+00:08:05.270 --> 00:08:07.730
+Mar gheall go bhfuil sé in úsáid cheana féin i gcórais atá ann cheana féin
+
+00:08:07.990 --> 00:08:10.360
+Is féidir é a thuiscint go réasúnta éasca
+
+00:08:11.230 --> 00:08:14.410
+Ceann de na rudaí is furasta neamhaird a dhéanamh orthu i gcaidreamh cleithiúnach ná
+
+00:08:14.410 --> 00:08:16.090
+Tá tosca comhshaoil ​​seachtracha ann
+
+00:08:16.900 --> 00:08:19.060
+Tá ár dtír sa chrios ama céanna
+
+00:08:19.060 --> 00:08:22.430
+I dtír a bhfuil achar talún mór aici, bíonn sliotán ama difriúil ag gach amharclann.
+
+00:08:23.190 --> 00:08:25.100
+Ansin an Córas Áirithinte Scannán
+
+00:08:25.100 --> 00:08:28.900
+Is dosheachanta go mbeidh tionchar ag fachtóirí comhshaoil ​​amhail criosanna ama air.
+
+00:08:29.410 --> 00:08:32.760
+Ní bhíonn na tosca seo soiléir go héasca mura n-iarrann tú ar an saineolaí fearainn go díreach.
+
+00:08:32.760 --> 00:08:33.950
+Is furasta é a chailleadh
+
+00:08:34.740 --> 00:08:37.610
+Is gnách le saineolaithe fearainn neamhaird a dhéanamh de na sonraí seo.
+
+00:08:37.610 --> 00:08:40.010
+Mar gheall gur féidir an míniú a fhágáil ar lár
+
+00:08:41.680 --> 00:08:43.640
+Ós rud é gur luaitear go soiléir an gaol spleáchais
+
+00:08:43.640 --> 00:08:47.500
+Díreoimid anois ar ghnéithe inmheánacha an Chórais Áirithinte Scannán.
+
+00:08:48.430 --> 00:08:52.230
+Ar an gcéad dul síos, cad a dhéanann an custaiméir sa Chóras Áirithinte Scannán?
+
+00:08:52.230 --> 00:08:54.230
+Cuir ceist ar na saineolaithe fearainn
+
+00:08:55.800 --> 00:08:57.880
+Cad a dhéanann custaiméirí?
+
+00:08:57.880 --> 00:08:59.970
+Custaiméirí ag cuardach scannáin,
+
+00:08:59.970 --> 00:09:01.450
+Féach sonraí an scannáin,
+
+00:09:01.450 --> 00:09:02.910
+Roghnaigh am scagtha,
+
+00:09:02.910 --> 00:09:04.450
+Roghnaigh do shuíochán,
+
+00:09:04.450 --> 00:09:05.920
+Ticéid scannán a chur in áirithe,
+
+00:09:05.920 --> 00:09:07.610
+Seiceáil sonraí an áirithinte,
+
+00:09:07.610 --> 00:09:10.180
+Déan rudaí cosúil le háirithint a chealú
+
+00:09:10.180 --> 00:09:15.750
+An bhfuil am taispeántais agus suíochán a roghnú mar chuid den phróiseas áirithinte ticéad scannáin?
+
+00:09:15.750 --> 00:09:18.880
+Agus ticéid scannán a chur in áirithe, áirithintí a chealú
+
+00:09:18.880 --> 00:09:22.210
+Tar éis an tsaoil, nach bhfuil tú ag ceannach ticéid agus ag fáil aisíocaíocht?
+
+00:09:22.210 --> 00:09:23.620
+tá an ceart agat
+
+00:09:23.620 --> 00:09:25.030
+Sin ceart
+
+00:09:25.480 --> 00:09:27.880
+Mar is fearann ​​eolach é anois
+
+00:09:27.880 --> 00:09:31.240
+Roghnaigh am scagtha agus roghnaigh do shuíochán
+
+00:09:31.240 --> 00:09:33.200
+An cuid den phróiseas áirithinte ticéad scannáin é seo?
+
+00:09:33.200 --> 00:09:34.530
+D’fhéadfainn a iarraidh
+
+00:09:34.980 --> 00:09:37.220
+Ach más fearann ​​nach bhfuil aithne agat air,
+
+00:09:37.410 --> 00:09:40.160
+Ag anailísiú gach cás úsáide go mion
+
+00:09:40.520 --> 00:09:43.330
+Déanfaidh tú an próiseas scagtha a athdhéanamh arís agus arís eile.
+
+00:09:43.790 --> 00:09:45.350
+Ag brath ar staid an tionscadail
+
+00:09:45.350 --> 00:09:48.080
+Féadfaidh tú an próiseas seo a athdhéanamh arís agus arís eile,
+
+00:09:48.080 --> 00:09:50.580
+Dá mhéad ama a thógann tú agus a dhéanann tú anailís chúramach,
+
+00:09:50.580 --> 00:09:54.190
+Laghdaigh triail agus earráid le linn na gcéimeanna deartha agus cur i bhfeidhm.
+
+00:09:55.850 --> 00:09:57.530
+Bunaithe ar an gcomhrá go dtí seo
+
+00:09:57.530 --> 00:10:00.970
+Tá cásanna úsáide ár gcustaiméirí eagraithe againn i gceithre chatagóir:
+
+00:10:02.960 --> 00:10:04.470
+Seo chugainn an riarthóir
+
+00:10:05.190 --> 00:10:08.850
+Feiceann an riarthóir go bhfuil cúig mhír bhainistíochta ann:
+
+00:10:09.440 --> 00:10:13.620
+Go pearsanta, táim cúramach faoi úsáid a bhaint as an bhfocal "Bainistigh" i bhforbairt.
+
+00:10:14.360 --> 00:10:16.980
+Is frása ró-leathan é bainistíocht
+
+00:10:16.980 --> 00:10:19.030
+Níl sé soiléir cad atá á dhéanamh agat
+
+00:10:19.640 --> 00:10:20.950
+Tá sé mar an gcéanna anseo freisin
+
+00:10:21.370 --> 00:10:23.760
+Conas go díreach a dhéantar é a bhainistiú?
+
+00:10:23.760 --> 00:10:24.810
+Níl a fhios agam
+
+00:10:25.930 --> 00:10:27.620
+Trí labhairt le saineolaithe fearainn
+
+00:10:27.620 --> 00:10:31.220
+Tá gach mír bhainistíochta leathnaithe chuig cás úsáide sonrach.
+
+00:10:31.900 --> 00:10:33.660
+Más tionscadal fíor é
+
+00:10:33.660 --> 00:10:35.890
+Is dócha go bhfuil níos mó cásanna úsáide ná seo ann.
+
+00:10:36.150 --> 00:10:39.000
+Anseo tá sé simplithe agam mar mhíniú.
+
+00:10:39.860 --> 00:10:42.700
+Is é atá tábhachtach a thabhairt faoi deara anseo ná nuair a chruthaíonn tú am reatha,
+
+00:10:43.020 --> 00:10:45.900
+Is féidir leat a fheiceáil go bhfuil an ticéad cruthaithe freisin
+
+00:10:46.960 --> 00:10:49.200
+Agus ticéad á cheannach nó á aisíoc
+
+00:10:49.490 --> 00:10:53.910
+Is féidir leat a fheiceáil freisin go n-úsáidimid seirbhís sheachtrach ar a dtugtar geata íocaíochta.
+
+00:10:55.890 --> 00:10:58.670
+Chomhcheangail mé cásanna úsáide custaiméirí agus bainisteoirí.
+
+00:10:59.350 --> 00:11:01.730
+Ag féachaint ar an gcás úsáide iomlán mar seo
+
+00:11:01.730 --> 00:11:02.900
+Mothaíonn rud éigin folamh
+
+00:11:03.890 --> 00:11:05.840
+Tá rogha ann amharclann a chur leis
+
+00:11:05.840 --> 00:11:08.720
+Ní fheicim aon rud cosúil le Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Is cosúil go bhfuil roinnt mhaith cásanna úsáide á bhfágáil ar lár.
+
+00:11:12.770 --> 00:11:15.980
+Mar ó pheirspictíocht saineolaí fearainn, tá go leor le míniú.
+
+00:11:15.980 --> 00:11:17.950
+An cás úsáide seo, a bhfuil cuma chomh soiléir sin air,
+
+00:11:18.150 --> 00:11:19.810
+Is féidir leat an míniú a fhágáil ar lár
+
+00:11:20.770 --> 00:11:23.460
+Mar sin, cad faoi ó pheirspictíocht forbróra?
+
+00:11:24.400 --> 00:11:28.290
+Is fearr cásanna nuachta simplí a fhágáil ar lár amhail cuardach a dhéanamh ar phictiúrlann.
+
+00:11:28.290 --> 00:11:30.700
+Nach mbeadh sé seo níos cabhraí le haghaidh bainistíocht doiciméad?
+
+00:11:31.720 --> 00:11:32.870
+Más dearadh cúil é
+
+00:11:32.870 --> 00:11:35.920
+Cásanna úsáide simplí cosúil le cuardach a dhéanamh ar phictiúrlann
+
+00:11:35.920 --> 00:11:37.760
+Sílim go bhfuil sé ceart go leor é a scipeáil
+
+00:11:38.600 --> 00:11:41.570
+Is é atá mé ag rá ná nach bhfuil sé rómhall freagairt le linn chéim an chur i bhfeidhm.
+
+00:11:42.370 --> 00:11:44.310
+Ach más tionscadal fíor é
+
+00:11:44.310 --> 00:11:48.450
+I gcás pleanálaithe scáileáin, is pointe tosaigh maith iad na cásanna úsáide seo.
+
+00:11:49.250 --> 00:11:52.300
+Bhreathnaigh an pleanálaí ar an gcás úsáide maidir le hamharclann a chuardach.
+
+00:11:52.300 --> 00:11:55.300
+Conas ba chóir dom a chur ar chumas pictiúrlanna a chuardach?
+
+00:11:55.300 --> 00:11:56.600
+Beidh tú in ann smaoineamh
+
+00:11:58.000 --> 00:12:00.880
+Nuair a chuireann tú na léaráidí le chéile in aon cheann amháin, breathnaíonn sé casta.
+
+00:12:01.490 --> 00:12:05.150
+Dá mba tionscadal fíor é, bheadh ​​​​sé i bhfad níos casta.
+
+00:12:05.720 --> 00:12:08.240
+Sa chás seo, níl aon ghá le cumasc a fhorchur.
+
+00:12:08.810 --> 00:12:13.910
+Tá mé díreach tar éis iad a chumasc anseo chun a nochtadh go bhfuil cásanna ar iarraidh ann.
+
+00:12:16.020 --> 00:12:18.490
+Líon mé isteach na cásanna uile a bhí ar iarraidh
+
+00:12:19.200 --> 00:12:21.880
+Tá cás úsáide agam ina bhfágtar an nasc leis an aisteoir ar lár.
+
+00:12:22.290 --> 00:12:25.720
+Baineann sé seo le custaiméirí agus le bainisteoirí araon.
+
+00:12:26.400 --> 00:12:29.480
+Agus ar mhaithe le héascaíocht chur i bhfeidhm, scríobh mé i mBéarla é.
+
+00:12:31.370 --> 00:12:34.160
+Tá sé ceart go leor anois mar is tionscadal beag é.
+
+00:12:34.160 --> 00:12:36.160
+Más tionscadal mór agus casta é
+
+00:12:36.160 --> 00:12:38.980
+Cá háit ar cheart do shaineolaí fearainn tosú ag míniú?
+
+00:12:38.980 --> 00:12:40.380
+D’fhéadfadh sé a bheith deacair
+
+00:12:41.280 --> 00:12:43.300
+Cad a dhéanann riarthóir?
+
+00:12:43.300 --> 00:12:44.700
+Is go leor oibre é
+
+00:12:44.700 --> 00:12:46.620
+Mar a bhíothas ag súil leis ón mbainisteoir
+
+00:12:47.620 --> 00:12:49.750
+Sa chás seo, an féidir linn na haisteoirí a fho-roinnt?
+
+00:12:49.750 --> 00:12:52.340
+Is dea-smaoineamh é freisin athbhreithniú a dhéanamh
+
+00:12:53.140 --> 00:12:54.790
+Ar dtús tugadh riarthóir orm
+
+00:12:54.790 --> 00:12:57.400
+B’fhéidir go mbeadh sé indéanta é a fho-roinnt de réir róil
+
+00:12:58.520 --> 00:13:00.820
+Agus an Córas Áirithinte Scannán á úsáid
+
+00:13:00.820 --> 00:13:02.870
+D’fhéadfadh seirbhísí seachtracha a bheith ann
+
+00:13:03.660 --> 00:13:05.340
+Má dheighleoimid na haisteoirí mar seo,
+
+00:13:05.340 --> 00:13:09.420
+Beidh saineolaithe fearainn in ann faisnéis níos córasaí a sholáthar.
+
+00:13:10.350 --> 00:13:14.000
+Ar ndóigh, níl anseo ach sampla amháin d'anailís a dhéanamh ar réimse casta.
+
+00:13:14.540 --> 00:13:17.320
+B’fhéidir go bhfuil bealaí maithe eile ann
+
+00:13:17.960 --> 00:13:21.740
+Tá sé tábhachtach freagairt go solúbtha ag brath ar an gcás.
+
+00:13:24.250 --> 00:13:25.060
+Seo í an chonclúid
+
+00:13:25.950 --> 00:13:29.170
+An uair seo, úsáidfimid léaráid cás úsáide
+
+00:13:29.170 --> 00:13:30.840
+Socraigh spriocanna don tionscadal
+
+00:13:31.230 --> 00:13:33.700
+Tá mé tar éis dul trí na céimeanna tosaigh den anailís.
+
+00:13:34.880 --> 00:13:38.010
+Go pearsanta, le linn an phróisis forbartha ar fad
+
+00:13:38.010 --> 00:13:40.060
+Sílim gurb í an anailís an ceann is deacra
+
+00:13:40.570 --> 00:13:44.250
+Mar go gcaithfimid na coincheapa is teibí agus is doiléire a eagrú.
+
+00:13:45.020 --> 00:13:47.650
+An chéad uair eile féachfaimid ar na príomhchásanna úsáide
+
+00:13:47.650 --> 00:13:49.470
+Déanaimis anailís níos mine air
+
+00:13:50.300 --> 00:13:52.100
+Go raibh maith agat as an obair chrua atá déanta agat go dtí seo.
+

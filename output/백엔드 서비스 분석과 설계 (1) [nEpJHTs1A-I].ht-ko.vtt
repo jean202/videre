@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: ht
+
+00:00:00.000 --> 00:00:02.020
+Bonjou, sa a se Kòd Manyè.
+
+00:00:03.290 --> 00:00:05.350
+Lojisyèl la konplèks
+
+00:00:06.650 --> 00:00:08.890
+Premyeman, gen anpil kòd ki bezwen ekri.
+
+00:00:09.760 --> 00:00:12.710
+Jis egzanp pwojè mwen te kreye pou seri sa a
+
+00:00:12.710 --> 00:00:15.270
+Kòd la gen plis pase 12,000 liy.
+
+00:00:16.330 --> 00:00:18.320
+Si se yon sèvis operasyon reyèl
+
+00:00:18.320 --> 00:00:21.530
+Menm si se yon ti sèvis, li pral fasilman depase 100,000 liy.
+
+00:00:22.130 --> 00:00:25.300
+San mil liy sifi pou ranpli ven woman.
+
+00:00:26.870 --> 00:00:29.560
+Ekri kòd long pa vle di li fini.
+
+00:00:30.330 --> 00:00:32.540
+Ou dwe kontinye korije kòd w ap ekri a.
+
+00:00:33.400 --> 00:00:35.800
+Si ou repare A, B kraze.
+
+00:00:35.800 --> 00:00:39.130
+Si ou ranje B, A ak C ap kraze.
+
+00:00:41.090 --> 00:00:44.260
+Pou nou itilize yon analoji, se tankou ou bloke nan yon Rasputica epi w ap kriye.
+
+00:00:44.260 --> 00:00:46.360
+Ou ta ka di se yon sitiyasyon ki sanble ak yon chwal.
+
+00:00:47.330 --> 00:00:50.550
+Nan pwen sa a, ou pral santi bezwen pou konsepsyon.
+
+00:00:52.580 --> 00:00:55.010
+Men, lè ou vrèman eseye ekri yon dokiman konsepsyon,
+
+00:00:55.500 --> 00:00:58.490
+Eksprime panse ki nan tèt ou yo yon fason konkrè
+
+00:00:58.790 --> 00:01:01.260
+W ap wè ke li pa osi fasil jan ou panse a.
+
+00:01:01.890 --> 00:01:05.600
+Menm patisyon mizik, ki se yon dokiman ki anrejistre son oswa mizik vizyèlman,
+
+00:01:05.600 --> 00:01:06.700
+Li konplike konsa
+
+00:01:07.520 --> 00:01:10.610
+Non sèlman mizik, men tou finans ak lojistik
+
+00:01:10.610 --> 00:01:14.060
+Konsèp ki pi divès ak egzijans itilizatè abstrè
+
+00:01:14.060 --> 00:01:17.220
+Li p ap fasil pou eksprime li nan yon modèl espesifik.
+
+00:01:18.530 --> 00:01:19.490
+Erezman
+
+00:01:19.770 --> 00:01:23.200
+Pou simonte difikilte pou modle konsèp abstrè yo
+
+00:01:23.540 --> 00:01:26.860
+UML te fèt nan fen ane 1990 yo.
+
+00:01:27.730 --> 00:01:30.120
+Se Grady Butch ki te dirije li.
+
+00:01:31.460 --> 00:01:34.390
+Nou itilize UML avèk antisipasyon
+
+00:01:34.980 --> 00:01:36.990
+Desine yon dyagram klas
+
+00:01:36.990 --> 00:01:38.760
+Ann trase yon dyagram sekans tou
+
+00:01:39.430 --> 00:01:39.980
+sepandan
+
+00:01:40.360 --> 00:01:43.160
+Lè m te eseye desine li tout bon vre, li te diferan de kode li dirèkteman.
+
+00:01:43.160 --> 00:01:45.130
+Li pa sanble twò diferan
+
+00:01:45.590 --> 00:01:46.520
+Poukisa sa?
+
+00:01:47.350 --> 00:01:50.910
+Se paske pwosesis panse a abitye ak aplikasyon.
+
+00:01:51.290 --> 00:01:54.170
+Olye pou nou rann konsèp abstrè yo pi konkrè,
+
+00:01:54.490 --> 00:01:57.590
+Paske li tradui panse nivo aplikasyon an UML.
+
+00:01:58.520 --> 00:02:00.270
+Jis paske ou ka li mizik
+
+00:02:00.270 --> 00:02:01.950
+Se pa tankou mwen ka konpoze li
+
+00:02:02.390 --> 00:02:03.850
+Jis paske ou te aprann UML
+
+00:02:03.850 --> 00:02:06.170
+Se pa tankou ou devlope ladrès nan konsepsyon.
+
+00:02:07.700 --> 00:02:09.300
+Kidonk nan seri sa a
+
+00:02:09.300 --> 00:02:11.580
+Atravè pwojè reyèl yo
+
+00:02:11.580 --> 00:02:14.420
+Kijan pou konkretize egzijans abstrè yo
+
+00:02:14.420 --> 00:02:16.290
+Èske ou ka konekte kòd la?
+
+00:02:16.290 --> 00:02:18.010
+Mwen ta renmen montre w an pèsòn
+
+00:02:18.530 --> 00:02:20.930
+Mwen chwazi rezève tikè sinema pa domèn
+
+00:02:21.370 --> 00:02:25.200
+Rezèvasyon tikè sinema yo fasil pou konprann paske yo se domèn familye pou pifò moun.
+
+00:02:25.200 --> 00:02:29.710
+Gen ladan plizyè fonksyon tankou koneksyon, peman, ak seleksyon plas.
+
+00:02:29.710 --> 00:02:31.580
+Li sanble yon bon egzanp
+
+00:02:33.600 --> 00:02:36.890
+Anfèt, sijè atik sa a se konsepsyon lojisyèl, men
+
+00:02:36.890 --> 00:02:40.350
+Nou pral kouvri tou devlopman ki baze sou tès.
+
+00:02:41.210 --> 00:02:44.890
+Anviwònman devlopman modèn yo sipòte zouti tès yo natif natalman.
+
+00:02:45.600 --> 00:02:48.320
+Menm si ou gade pwojè sous ouvè ki pi popilè yo,
+
+00:02:48.320 --> 00:02:51.130
+Nou gen yon sèten nivo tès.
+
+00:02:51.740 --> 00:02:56.200
+Sa vle di pwobableman ke tès la gen yon gwo enpòtans ak itilite.
+
+00:02:56.870 --> 00:02:58.120
+Men an reyalite
+
+00:02:58.120 --> 00:03:02.590
+Nan anpil ka, non sèlman TDD, men menm automatisation tès la pa byen aplike.
+
+00:03:03.190 --> 00:03:06.260
+Ekri tès ki gen sans an premye san okenn preparasyon se
+
+00:03:06.260 --> 00:03:07.540
+Li pa janm fasil
+
+00:03:08.410 --> 00:03:12.340
+Sa a se yon bagay ki mande kapasite konbine nan konsepsyon lojisyèl.
+
+00:03:13.320 --> 00:03:16.270
+Kidonk, li pi bon pou nou fè fas ak konsepsyon ak TDD ansanm.
+
+00:03:16.270 --> 00:03:18.180
+Mwen te jije li efikas
+
+00:03:20.120 --> 00:03:23.450
+Kounye a, ann kòmanse premye reyinyon pwojè a.
+
+00:03:24.150 --> 00:03:26.470
+Paske sa a se yon ti pwojè
+
+00:03:26.470 --> 00:03:28.090
+Gen de patisipan
+
+00:03:28.790 --> 00:03:32.340
+Moun ki sou bò gòch la se yon ekspè nan domèn, epi moun ki sou bò dwat la se yon devlopè.
+
+00:03:34.550 --> 00:03:37.790
+Ekspè nan domèn yo gen yon di nan sistèm nou bezwen bati yo.
+
+00:03:37.790 --> 00:03:39.280
+Li rakonte anpil istwa
+
+00:03:40.340 --> 00:03:42.160
+Teyat nou dirije a
+
+00:03:42.160 --> 00:03:44.710
+Gen anviwon kat mil ladan yo atravè peyi a.
+
+00:03:44.710 --> 00:03:47.220
+Li ka ogmante plis toujou nan lavni.
+
+00:03:47.220 --> 00:03:50.480
+Kounye a, se sèlman fonksyon rezèvasyon tikè sinema ki sipòte.
+
+00:03:50.480 --> 00:03:54.510
+Nou gen plan pou ajoute lavant tikè pou gwo pèfòmans pita.
+
+00:03:54.510 --> 00:03:58.940
+Epi bagay enpòtan an se pou ou pa janm rezève plas de fwa.
+
+00:03:58.940 --> 00:04:03.250
+Nan tan lontan, sant sèvis kliyan yo te gen anpil difikilte ak pwoblèm sa a.
+
+00:04:03.250 --> 00:04:07.670
+Paske gen anpil enfòmasyon sou fim ak done sou kritik ki deja akimile.
+
+00:04:07.670 --> 00:04:11.090
+Done sa yo dwe rete entak.
+
+00:04:12.090 --> 00:04:14.730
+Isit la konvèsasyon an byen òganize, men
+
+00:04:14.890 --> 00:04:16.960
+Anfèt, gen plis enfòmasyon
+
+00:04:16.960 --> 00:04:18.600
+Li pral delivre nan yon fason dezòganize
+
+00:04:19.470 --> 00:04:22.110
+Men istwa ki soti nan kòmansman pwojè a se
+
+00:04:22.110 --> 00:04:23.780
+Paske se egzijans ki pi enpòtan an
+
+00:04:23.780 --> 00:04:25.320
+Ou dwe koute ak atansyon
+
+00:04:27.110 --> 00:04:29.810
+Devlopè yo koute ekspè nan domèn yo
+
+00:04:29.810 --> 00:04:31.290
+Mwen gen kèk kesyon
+
+00:04:32.290 --> 00:04:34.660
+Fonksyon rezèvasyon tikè pèfòmans gwo echèl ou te mansyone a
+
+00:04:34.660 --> 00:04:36.910
+Kilè y ap ajoute l?
+
+00:04:36.910 --> 00:04:39.910
+Èske yo ta dwe enkli sa nan pwojè sa a davans?
+
+00:04:39.910 --> 00:04:43.590
+Oswa mwen ta renmen konnen si mwen ta dwe konsidere li deja
+
+00:04:43.590 --> 00:04:46.090
+Ak nesesite pou kenbe done ki deja egziste yo
+
+00:04:46.090 --> 00:04:48.940
+Èske sa vle di nou pa ta dwe chanje sistèm DB a?
+
+00:04:48.940 --> 00:04:51.950
+Èske gen lòt sèvis k ap pataje baz done a kounye a?
+
+00:04:53.580 --> 00:04:54.980
+Jan ou ka wè nan baz done a,
+
+00:04:54.980 --> 00:04:57.290
+Paske ekspè nan domèn yo pa devlopè.
+
+00:04:57.290 --> 00:04:59.430
+Ekspresyon teknik la anbigwi
+
+00:04:59.910 --> 00:05:02.890
+Devlopè yo bezwen verifye bagay sa yo ak anpil atansyon.
+
+00:05:04.230 --> 00:05:07.450
+Ekspè domèn yo reponn kesyon devlopè yo jan sa a:
+
+00:05:08.330 --> 00:05:10.210
+Fonksyon rezèvasyon tikè pèfòmans gwo echèl la
+
+00:05:10.210 --> 00:05:13.450
+Pa gen okenn orè espesifik ankò.
+
+00:05:13.450 --> 00:05:15.970
+Sepandan, lè yo ajoute fonksyonalite nan lavni
+
+00:05:15.970 --> 00:05:18.700
+Pou ou ka amelyore san twòp difikilte
+
+00:05:18.700 --> 00:05:22.600
+Mwen panse li ta bon si ou te ka pran sa an konsiderasyon fwa sa a.
+
+00:05:22.600 --> 00:05:27.050
+Nou pa itilize DB pou anyen lòt ke sèvis nou yo.
+
+00:05:27.050 --> 00:05:32.840
+Chanje sistèm nan li menm pa yon gwo pwoblèm depi done yo byen konsève.
+
+00:05:33.840 --> 00:05:35.080
+Apre m fin tande istwa a
+
+00:05:35.080 --> 00:05:39.400
+M pa kwè ou bezwen enkyete w pou gwo spektak la.
+
+00:05:39.400 --> 00:05:40.790
+Se pa sijè ki abòde pwojè a
+
+00:05:40.790 --> 00:05:43.040
+Kondisyon yo pa klè nonplis
+
+00:05:43.040 --> 00:05:44.930
+Mwen pa konnen ki lè m ap bezwen li, men
+
+00:05:44.930 --> 00:05:47.710
+Sa se yon pwoblèm nou pral oblije egzamine ankò pita.
+
+00:05:48.920 --> 00:05:50.910
+Menm si li pa anrejistre nan dokiman an
+
+00:05:50.910 --> 00:05:54.880
+Ekspè nan domèn yo ap bay tou yon repons ke y ap konsidere pèfòmans sou gwo echèl.
+
+00:05:54.880 --> 00:05:55.960
+Ou pa dwe bliye
+
+00:05:56.740 --> 00:05:58.320
+Tout byen
+
+00:05:58.320 --> 00:06:00.630
+Apre sa, fonksyon rezèvasyon tikè pèfòmans gwo echèl la
+
+00:06:00.630 --> 00:06:04.500
+Mwen pa ta mete l pami pi gwo priyorite yo pou pwojè sa a.
+
+00:06:04.500 --> 00:06:08.220
+Okontrè, li fè li pi fasil pou elaji fonksyonalite pita nan pwosesis devlopman an.
+
+00:06:08.220 --> 00:06:10.190
+M ap byen pran swen l
+
+00:06:10.190 --> 00:06:12.840
+Pa enkyete w. Fè m konfyans sèlman
+
+00:06:13.840 --> 00:06:15.960
+Li enpòtan pou nou byen antann nou
+
+00:06:17.980 --> 00:06:19.500
+Nan konvèsasyon nou jiskaprezan
+
+00:06:19.500 --> 00:06:22.700
+Pi gwo priyorite yo rezime jan sa a:
+
+00:06:23.220 --> 00:06:25.890
+Sa a se enfòmasyon ekspè nan domèn nan bay.
+
+00:06:25.890 --> 00:06:28.410
+Entèprete ak òganize nan pèspektiv yon devlopè
+
+00:06:28.410 --> 00:06:29.810
+Kòmanse pwojè a
+
+00:06:31.700 --> 00:06:32.860
+Avèk ekspè nan domèn yo
+
+00:06:32.860 --> 00:06:34.980
+Yon fwa ou fin deside sou objektif pwojè w la,
+
+00:06:35.620 --> 00:06:37.980
+Kounye a li lè pou bay pwojè w la yon non.
+
+00:06:38.750 --> 00:06:41.840
+Premyèman, mande yon ekspè nan domèn nan opinyon li.
+
+00:06:42.800 --> 00:06:45.540
+Ki non mwen ta dwe bay pwojè a?
+
+00:06:45.540 --> 00:06:47.680
+Se yon sistèm rezèvasyon fim.
+
+00:06:47.680 --> 00:06:50.150
+E jis Sistèm Rezèvasyon Fim nan?
+
+00:06:50.150 --> 00:06:51.430
+non, mwen pa vle
+
+00:06:51.430 --> 00:06:53.570
+M ap okipe gwo pèfòmans yo
+
+00:06:53.570 --> 00:06:56.930
+Ann ale ak Sistèm Rezèvasyon Fim nan. wi?
+
+00:06:56.930 --> 00:06:58.180
+gran
+
+00:06:58.180 --> 00:06:59.950
+Mèsi anpil
+
+00:07:01.000 --> 00:07:05.230
+Ekspè nan domèn yo ka vle non pwojè an Koreyen.
+
+00:07:05.580 --> 00:07:07.680
+Men, nan pèspektiv yon devlopè
+
+00:07:07.680 --> 00:07:09.990
+Tout tèm ki gen ladan non pwojè yo
+
+00:07:09.990 --> 00:07:12.180
+Paske li aplike dirèkteman nan kòd,
+
+00:07:12.600 --> 00:07:15.000
+Li pi fasil pou defini li an Angle si sa posib.
+
+00:07:15.540 --> 00:07:19.510
+Li enpòtan pou devlopè yo swiv fidèlman bezwen ekspè domèn yo, men
+
+00:07:19.960 --> 00:07:21.430
+Konsidere tout pwojè a
+
+00:07:21.430 --> 00:07:23.930
+Nou gen responsablite tou pou nou dirije bagay yo nan yon direksyon efikas.
+
+00:07:25.850 --> 00:07:27.760
+Si ou fin deside sou yon non pou pwojè w la
+
+00:07:27.760 --> 00:07:31.380
+Kounye a li lè pou nou chèche konnen ki moun ki itilize Sistèm Rezèvasyon Fim nan.
+
+00:07:32.020 --> 00:07:34.940
+Natirèlman, ou ta dwe mande yon ekspè nan domèn pou enfòmasyon sou sa.
+
+00:07:35.420 --> 00:07:38.740
+Epi nou jwenn ke nou gen kliyan ak manadjè.
+
+00:07:40.820 --> 00:07:43.280
+Youn nan eleman ki fasil pou rate nan premye etap konsepsyon an se
+
+00:07:43.280 --> 00:07:44.760
+Li se yon depandans ekstèn
+
+00:07:45.340 --> 00:07:46.580
+Depandans ekstèn yo se
+
+00:07:46.580 --> 00:07:49.210
+Li ta ka yon sistèm ansyen ki deja egziste,
+
+00:07:49.660 --> 00:07:51.420
+Li ta ka yon sistèm peman
+
+00:07:52.020 --> 00:07:53.670
+Relasyon depandans sa a se
+
+00:07:53.670 --> 00:07:56.760
+Paske li ka gen yon gwo enpak sou konsepsyon sistèm nan an jeneral.
+
+00:07:56.950 --> 00:08:00.150
+Li enpòtan pou idantifye li pi bonè posib.
+
+00:08:00.570 --> 00:08:01.240
+erezman
+
+00:08:01.820 --> 00:08:04.990
+Eleman tankou pòtay peman ak sistèm ansyen yo
+
+00:08:05.270 --> 00:08:07.730
+Paske li deja itilize nan sistèm ki deja egziste yo
+
+00:08:07.990 --> 00:08:10.360
+Li ka konprann relativman fasil
+
+00:08:11.230 --> 00:08:14.410
+Youn nan bagay ki fasil pou neglije nan yon relasyon depandan se
+
+00:08:14.410 --> 00:08:16.090
+Gen faktè anviwònman ekstèn
+
+00:08:16.900 --> 00:08:19.060
+Peyi nou an nan menm zòn tan an
+
+00:08:19.060 --> 00:08:22.430
+Nan yon peyi ki gen yon gwo sifas, chak teyat gen yon lè diferan.
+
+00:08:23.190 --> 00:08:25.100
+Lè sa a, Sistèm Rezèvasyon Fim nan
+
+00:08:25.100 --> 00:08:28.900
+Li inevitab ke li pral afekte pa faktè anviwònman tankou zòn tan yo.
+
+00:08:29.410 --> 00:08:32.760
+Faktè sa yo pa parèt fasilman sof si ou mande ekspè domèn nan dirèkteman.
+
+00:08:32.760 --> 00:08:33.950
+Li fasil pou rate
+
+00:08:34.740 --> 00:08:37.610
+Ekspè nan domèn yo gen tandans neglije detay sa yo.
+
+00:08:37.610 --> 00:08:40.010
+Paske eksplikasyon an ka pa la
+
+00:08:41.680 --> 00:08:43.640
+Piske relasyon depandans lan te byen klè
+
+00:08:43.640 --> 00:08:47.500
+Kounye a, ann konsantre sou aspè entèn Sistèm Rezèvasyon Fim nan.
+
+00:08:48.430 --> 00:08:52.230
+Premyeman, kisa kliyan an fè nan Sistèm Rezèvasyon Fim nan?
+
+00:08:52.230 --> 00:08:54.230
+Ann mande ekspè domèn yo
+
+00:08:55.800 --> 00:08:57.880
+Kisa kliyan yo fè?
+
+00:08:57.880 --> 00:08:59.970
+Kliyan yo ap chèche fim,
+
+00:08:59.970 --> 00:09:01.450
+Gade detay fim nan,
+
+00:09:01.450 --> 00:09:02.910
+Chwazi yon lè pou pase tès depistaj,
+
+00:09:02.910 --> 00:09:04.450
+Chwazi plas ou,
+
+00:09:04.450 --> 00:09:05.920
+Rezève tikè sinema,
+
+00:09:05.920 --> 00:09:07.610
+Tcheke detay rezèvasyon an,
+
+00:09:07.610 --> 00:09:10.180
+Fè bagay tankou anile yon rezèvasyon
+
+00:09:10.180 --> 00:09:15.750
+Èske chwa yon lè pou sinema ak chwa yon plas fè pati pwosesis rezèvasyon tikè sinema a?
+
+00:09:15.750 --> 00:09:18.880
+Epi pou rezève tikè sinema, pou anile rezèvasyon yo
+
+00:09:18.880 --> 00:09:22.210
+Apre tou, èske ou pa jis achte yon tikè epi jwenn yon ranbousman?
+
+00:09:22.210 --> 00:09:23.620
+ou gen rezon
+
+00:09:23.620 --> 00:09:25.030
+Se vre
+
+00:09:25.480 --> 00:09:27.880
+Paske se yon domèn familye kounye a
+
+00:09:27.880 --> 00:09:31.240
+Chwazi yon lè pou pwojeksyon epi chwazi plas ou.
+
+00:09:31.240 --> 00:09:33.200
+Èske sa fè pati pwosesis rezèvasyon tikè sinema a?
+
+00:09:33.200 --> 00:09:34.530
+Mwen te ka mande
+
+00:09:34.980 --> 00:09:37.220
+Men, si se yon domèn ou pa konnen,
+
+00:09:37.410 --> 00:09:40.160
+Analize chak ka itilizasyon an detay
+
+00:09:40.520 --> 00:09:43.330
+Ou pral repete pwosesis rafinman an plizyè fwa.
+
+00:09:43.790 --> 00:09:45.350
+Tou depan de sitiyasyon pwojè a
+
+00:09:45.350 --> 00:09:48.080
+Ou ka repete pwosesis sa a plizyè fwa,
+
+00:09:48.080 --> 00:09:50.580
+Plis ou pran tan ou epi analize ak anpil atansyon,
+
+00:09:50.580 --> 00:09:54.190
+Redui esè ak erè pandan etap konsepsyon ak aplikasyon yo.
+
+00:09:55.850 --> 00:09:57.530
+Baze sou konvèsasyon an jiskaprezan
+
+00:09:57.530 --> 00:10:00.970
+Nou òganize ka itilizasyon kliyan nou yo an kat kategori:
+
+00:10:02.960 --> 00:10:04.470
+Apre sa, se administratè a
+
+00:10:05.190 --> 00:10:08.850
+Administratè a ka wè ke gen senk atik jesyon:
+
+00:10:09.440 --> 00:10:13.620
+Pèsonèlman, mwen pridan lè m ap itilize mo "Jere" a nan devlopman.
+
+00:10:14.360 --> 00:10:16.980
+Jere se yon ekspresyon twò laj
+
+00:10:16.980 --> 00:10:19.030
+Li pa klè sa w ap fè a
+
+00:10:19.640 --> 00:10:20.950
+Se menm bagay la isit la tou
+
+00:10:21.370 --> 00:10:23.760
+Ki jan egzakteman yo jere li?
+
+00:10:23.760 --> 00:10:24.810
+Mwen pa konnen
+
+00:10:25.930 --> 00:10:27.620
+Lè w pale ak ekspè nan domèn nan
+
+00:10:27.620 --> 00:10:31.220
+Chak atik jesyon te elaji pou yon ka itilizasyon espesifik.
+
+00:10:31.900 --> 00:10:33.660
+Si se yon pwojè reyèl
+
+00:10:33.660 --> 00:10:35.890
+Gen pwobableman plis ka itilizasyon pase sa.
+
+00:10:36.150 --> 00:10:39.000
+Men mwen senplifye l pou plis eksplikasyon.
+
+00:10:39.860 --> 00:10:42.700
+Sa ki enpòtan pou nou sonje la a se lè nou kreye yon tan k ap kouri,
+
+00:10:43.020 --> 00:10:45.900
+Ou ka wè ke tikè a kreye tou
+
+00:10:46.960 --> 00:10:49.200
+Epi lè w ap achte oswa ranbouse yon tikè
+
+00:10:49.490 --> 00:10:53.910
+Ou ka wè tou ke nou itilize yon sèvis ekstèn yo rele yon pòtay peman.
+
+00:10:55.890 --> 00:10:58.670
+Mwen konbine ka itilizasyon kliyan yo ak manadjè yo.
+
+00:10:59.350 --> 00:11:01.730
+Gade tout ka itilizasyon an konsa
+
+00:11:01.730 --> 00:11:02.900
+Yon bagay santi vid
+
+00:11:03.890 --> 00:11:05.840
+Gen yon opsyon pou ajoute yon teyat
+
+00:11:05.840 --> 00:11:08.720
+Mwen pa wè anyen tankou Search Theater.
+
+00:11:09.410 --> 00:11:12.130
+Li sanble gen yon bon kantite ka itilizasyon ki pa pran an kont.
+
+00:11:12.770 --> 00:11:15.980
+Paske nan pèspektiv yon ekspè nan domèn nan, gen anpil bagay pou eksplike.
+
+00:11:15.980 --> 00:11:17.950
+Ka itilizasyon sa a, ki sanble tèlman evidan,
+
+00:11:18.150 --> 00:11:19.810
+Ou ka pa bay eksplikasyon an
+
+00:11:20.770 --> 00:11:23.460
+Alò, e nan pèspektiv yon devlopè?
+
+00:11:24.400 --> 00:11:28.290
+Li pi bon pou pa mansyone ka nouvèl senp tankou chèche yon teyat.
+
+00:11:28.290 --> 00:11:30.700
+Èske sa pa t ap pi itil pou jesyon dokiman?
+
+00:11:31.720 --> 00:11:32.870
+Si se konsepsyon backend
+
+00:11:32.870 --> 00:11:35.920
+Ka itilizasyon senp tankou chèche yon sinema
+
+00:11:35.920 --> 00:11:37.760
+Mwen panse li pa gen pwoblèm pou sote li
+
+00:11:38.600 --> 00:11:41.570
+Sa m ap di a se ke li pa twò ta pou reponn pandan faz aplikasyon an.
+
+00:11:42.370 --> 00:11:44.310
+Men, si se yon pwojè reyèl
+
+00:11:44.310 --> 00:11:48.450
+Pou planifikatè ekran yo, ka itilizasyon sa yo se yon bon pwen depa.
+
+00:11:49.250 --> 00:11:52.300
+Planifikatè a te gade ka itilizasyon rechèch yon teyat.
+
+00:11:52.300 --> 00:11:55.300
+Kijan pou m fè li posib pou m chèche sinema?
+
+00:11:55.300 --> 00:11:56.600
+Ou pral kapab panse
+
+00:11:58.000 --> 00:12:00.880
+Lè ou konbine dyagram yo an yon sèl, li parèt konplike.
+
+00:12:01.490 --> 00:12:05.150
+Si se te yon pwojè reyèl, li t ap pi konplike.
+
+00:12:05.720 --> 00:12:08.240
+Nan ka sa a, pa gen okenn nesesite pou fòse yon fizyon.
+
+00:12:08.810 --> 00:12:13.910
+Mwen fèk mete yo ansanm la a pou m montre gen ka ki manke.
+
+00:12:16.020 --> 00:12:18.490
+Mwen ranpli tout ka ki te manke yo
+
+00:12:19.200 --> 00:12:21.880
+Mwen gen yon ka itilizasyon kote koneksyon ak aktè a omisyon.
+
+00:12:22.290 --> 00:12:25.720
+Sa a aplike pou tou de kliyan ak manadjè yo.
+
+00:12:26.400 --> 00:12:29.480
+Epi pou fasilite aplikasyon an, mwen ekri li an anglè.
+
+00:12:31.370 --> 00:12:34.160
+Li anfòm kounye a paske se yon ti pwojè.
+
+00:12:34.160 --> 00:12:36.160
+Si pwojè a gwo epi konplèks
+
+00:12:36.160 --> 00:12:38.980
+Ki kote yon ekspè nan domèn ta dwe kòmanse eksplike?
+
+00:12:38.980 --> 00:12:40.380
+Li ka difisil
+
+00:12:41.280 --> 00:12:43.300
+Kisa yon administratè fè?
+
+00:12:43.300 --> 00:12:44.700
+Se anpil travay
+
+00:12:44.700 --> 00:12:46.620
+Jan manadjè a te espere a
+
+00:12:47.620 --> 00:12:49.750
+Nan ka sa a, èske nou ka divize aktè yo?
+
+00:12:49.750 --> 00:12:52.340
+Li se yon bon lide tou pou revize
+
+00:12:53.140 --> 00:12:54.790
+Okòmansman yo te rele m administratè
+
+00:12:54.790 --> 00:12:57.400
+Li posib pou divize pa wòl
+
+00:12:58.520 --> 00:13:00.820
+Epi sèvi ak Sistèm Rezèvasyon Fim nan
+
+00:13:00.820 --> 00:13:02.870
+Kapab gen sèvis ekstèn
+
+00:13:03.660 --> 00:13:05.340
+Si nou divize aktè yo konsa,
+
+00:13:05.340 --> 00:13:09.420
+Ekspè nan domèn yo ap kapab bay enfòmasyon ki pi sistematik.
+
+00:13:10.350 --> 00:13:14.000
+Natirèlman, sa a se jis yon egzanp sou analize yon domèn konplèks.
+
+00:13:14.540 --> 00:13:17.320
+Kapab gen lòt bon fason
+
+00:13:17.960 --> 00:13:21.740
+Li enpòtan pou reponn avèk fleksibilite selon sitiyasyon an.
+
+00:13:24.250 --> 00:13:25.060
+Sa a se konklizyon an
+
+00:13:25.950 --> 00:13:29.170
+Fwa sa a, nou pral sèvi ak yon dyagram ka itilizasyon
+
+00:13:29.170 --> 00:13:30.840
+Fikse objektif pou pwojè a
+
+00:13:31.230 --> 00:13:33.700
+Mwen fin pase nan premye etap analiz yo.
+
+00:13:34.880 --> 00:13:38.010
+Pèsonèlman, pandan tout pwosesis devlopman an
+
+00:13:38.010 --> 00:13:40.060
+Mwen panse analiz se bagay ki pi difisil la
+
+00:13:40.570 --> 00:13:44.250
+Paske nou oblije òganize konsèp ki pi abstrè ak vag yo.
+
+00:13:45.020 --> 00:13:47.650
+Pwochen fwa a, n ap gade prensipal ka itilizasyon yo
+
+00:13:47.650 --> 00:13:49.470
+Ann analize li pi an detay
+
+00:13:50.300 --> 00:13:52.100
+Mèsi pou travay di ou jiskaprezan.
+

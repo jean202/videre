@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: jv
+
+00:00:00.000 --> 00:00:02.020
+Halo, iki Kode Etik.
+
+00:00:03.290 --> 00:00:05.350
+Piranti lunak iku rumit
+
+00:00:06.650 --> 00:00:08.890
+Kaping pisanan, ana akeh kode sing kudu ditulis.
+
+00:00:09.760 --> 00:00:12.710
+Mung conto proyèk sing tak gawé kanggo seri iki
+
+00:00:12.710 --> 00:00:15.270
+Kode kasebut dawane luwih saka 12.000 baris.
+
+00:00:16.330 --> 00:00:18.320
+Yen iku layanan operasi nyata
+
+00:00:18.320 --> 00:00:21.530
+Sanajan layanane cilik, bakal gampang ngluwihi 100.000 baris.
+
+00:00:22.130 --> 00:00:25.300
+Satus ewu baris cukup kanggo ngisi rong puluh novel.
+
+00:00:26.870 --> 00:00:29.560
+Nulis kode sing dawa ora ateges wis rampung.
+
+00:00:30.330 --> 00:00:32.540
+Kowé kudu terus ndandani kode sing kok tulis.
+
+00:00:33.400 --> 00:00:35.800
+Yen sampeyan ndandani A, B bakal rusak.
+
+00:00:35.800 --> 00:00:39.130
+Yen sampeyan ndandani B, A lan C bakal rusak.
+
+00:00:41.090 --> 00:00:44.260
+Kanggo nggunakake analogi, iki kaya kejebak ing Rasputica lan nangis.
+
+00:00:44.260 --> 00:00:46.360
+Sampeyan bisa ujar manawa kahanane padha karo jaran.
+
+00:00:47.330 --> 00:00:50.550
+Ing wektu iki, sampeyan bakal rumangsa butuh desain.
+
+00:00:52.580 --> 00:00:55.010
+Nanging nalika sampeyan nyoba nulis dokumen desain,
+
+00:00:55.500 --> 00:00:58.490
+Ngungkapke pikirane kanthi konkret ing njero sirah
+
+00:00:58.790 --> 00:01:01.260
+Kowé bakal ngerti nèk kuwi ora semudah sing kokkira.
+
+00:01:01.890 --> 00:01:05.600
+Malah lembaran musik, yaiku dokumen sing ngrekam swara utawa musik kanthi visual,
+
+00:01:05.600 --> 00:01:06.700
+Iki rumit banget
+
+00:01:07.520 --> 00:01:10.610
+Ora mung musik, nanging uga keuangan lan logistik
+
+00:01:10.610 --> 00:01:14.060
+Konsep sing luwih maneka warna lan syarat pangguna sing abstrak
+
+00:01:14.060 --> 00:01:17.220
+Ora bakal gampang kanggo ngungkapake ing model tartamtu.
+
+00:01:18.530 --> 00:01:19.490
+Untunge
+
+00:01:19.770 --> 00:01:23.200
+Kanggo ngatasi kangelan pemodelan konsep abstrak
+
+00:01:23.540 --> 00:01:26.860
+UML lair ing pungkasan taun 1990-an.
+
+00:01:27.730 --> 00:01:30.120
+Iku dipimpin déning Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Kita nggunakake UML kanthi antisipasi
+
+00:01:34.980 --> 00:01:36.990
+Gambar diagram kelas
+
+00:01:36.990 --> 00:01:38.760
+Ayo uga nggambar diagram urutan
+
+00:01:39.430 --> 00:01:39.980
+nanging
+
+00:01:40.360 --> 00:01:43.160
+Nalika aku nyoba ngrancang, beda karo ngode langsung.
+
+00:01:43.160 --> 00:01:45.130
+Rasane ora beda banget
+
+00:01:45.590 --> 00:01:46.520
+Yagene kok ngono?
+
+00:01:47.350 --> 00:01:50.910
+Kuwi amarga proses pamikirane wis biasa karo implementasine.
+
+00:01:51.290 --> 00:01:54.170
+Tinimbang nggawe konsep abstrak luwih konkret,
+
+00:01:54.490 --> 00:01:57.590
+Amarga iki nerjemahake pamikiran tingkat implementasi menyang UML.
+
+00:01:58.520 --> 00:02:00.270
+Mung amarga sampeyan bisa maca lembaran musik
+
+00:02:00.270 --> 00:02:01.950
+Ora kaya aku sing isa ngarang
+
+00:02:02.390 --> 00:02:03.850
+Mung amarga sampeyan sinau UML
+
+00:02:03.850 --> 00:02:06.170
+Iku ora kaya kowé ngembangaké katrampilan desain.
+
+00:02:07.700 --> 00:02:09.300
+Dadi ing seri iki
+
+00:02:09.300 --> 00:02:11.580
+Liwat proyèk nyata
+
+00:02:11.580 --> 00:02:14.420
+Cara kanggo ngkonkretake syarat abstrak
+
+00:02:14.420 --> 00:02:16.290
+Apa sampeyan bisa nyambungake kode kasebut?
+
+00:02:16.290 --> 00:02:18.010
+Aku pengin nuduhake sampeyan langsung
+
+00:02:18.530 --> 00:02:20.930
+Aku milih pesen tiket film miturut domain
+
+00:02:21.370 --> 00:02:25.200
+Reservasi tiket bioskop gampang dingerteni amarga umume babagan domain sing wis dikenal.
+
+00:02:25.200 --> 00:02:29.710
+Kalebu macem-macem fungsi kayata mlebu, pembayaran, lan pilihan kursi.
+
+00:02:29.710 --> 00:02:31.580
+Iku koyone conto sing apik
+
+00:02:33.600 --> 00:02:36.890
+Intine, topik artikel iki yaiku desain piranti lunak, nanging
+
+00:02:36.890 --> 00:02:40.350
+Kita uga bakal ngrembug babagan pangembangan sing didorong uji coba.
+
+00:02:41.210 --> 00:02:44.890
+Lingkungan pangembangan modern ndhukung piranti pangujian kanthi asli.
+
+00:02:45.600 --> 00:02:48.320
+Sanajan sampeyan ndeleng proyèk sumber terbuka sing misuwur,
+
+00:02:48.320 --> 00:02:51.130
+Kita duwe tingkat tes tartamtu.
+
+00:02:51.740 --> 00:02:56.200
+Iki tegese pengujian iku penting banget lan migunani.
+
+00:02:56.870 --> 00:02:58.120
+Nanging ing kasunyatan
+
+00:02:58.120 --> 00:03:02.590
+Ing pirang-pirang kasus, ora mung TDD, nanging uga otomatisasi tes ora dileksanakake kanthi bener.
+
+00:03:03.190 --> 00:03:06.260
+Nulis tes sing migunani dhisik tanpa persiapan apa-apa iku
+
+00:03:06.260 --> 00:03:07.540
+Ora tau gampang
+
+00:03:08.410 --> 00:03:12.340
+Iki minangka perkara sing mbutuhake kemampuan gabungan saka desain piranti lunak.
+
+00:03:13.320 --> 00:03:16.270
+Dadi, luwih becik nangani desain lan TDD bebarengan.
+
+00:03:16.270 --> 00:03:18.180
+Aku nganggep iku efisien
+
+00:03:20.120 --> 00:03:23.450
+Dadi saiki ayo miwiti rapat pisanan saka proyek iki.
+
+00:03:24.150 --> 00:03:26.470
+Amarga iki minangka proyek cilik
+
+00:03:26.470 --> 00:03:28.090
+Ana rong peserta
+
+00:03:28.790 --> 00:03:32.340
+Sing ana ing sisih kiwa iku pakar domain, lan sing ana ing sisih tengen iku pangembang.
+
+00:03:34.550 --> 00:03:37.790
+Para ahli domain duwe hak suara babagan sistem sing kudu dibangun.
+
+00:03:37.790 --> 00:03:39.280
+Iku nyritakake akeh crita
+
+00:03:40.340 --> 00:03:42.160
+Teater sing kita lakoni
+
+00:03:42.160 --> 00:03:44.710
+Ana udakara patang ewu wong ing saindenging negara.
+
+00:03:44.710 --> 00:03:47.220
+Bisa uga tambah akeh ing mangsa ngarep.
+
+00:03:47.220 --> 00:03:50.480
+Saiki, mung fungsi reservasi tiket film sing didhukung.
+
+00:03:50.480 --> 00:03:54.510
+Kita ngrencanakake nambah dodolan tiket kanggo pagelaran skala gedhe mengko.
+
+00:03:54.510 --> 00:03:58.940
+Lan sing penting yaiku sampeyan ora kena pesen kursi kaping pindho.
+
+00:03:58.940 --> 00:04:03.250
+Ing jaman kepungkur, pusat layanan pelanggan ngalami masalah kaya ngono pancen angel.
+
+00:04:03.250 --> 00:04:07.670
+Amarga wis akeh informasi film lan data resensi sing wis dikumpulake.
+
+00:04:07.670 --> 00:04:11.090
+Data-data iki kudu tetep utuh.
+
+00:04:12.090 --> 00:04:14.730
+Ing kene obrolane wis diatur kanthi apik, nanging
+
+00:04:14.890 --> 00:04:16.960
+Sebenernya, ana informasi luwih lengkap
+
+00:04:16.960 --> 00:04:18.600
+Bakal dikirim kanthi cara sing ora teratur
+
+00:04:19.470 --> 00:04:22.110
+Nanging crita sing metu ing wiwitan proyek iki yaiku
+
+00:04:22.110 --> 00:04:23.780
+Amarga iku syarat sing paling penting
+
+00:04:23.780 --> 00:04:25.320
+Kowé kudu ngrungokake kanthi teliti
+
+00:04:27.110 --> 00:04:29.810
+Para pangembang ngrungokake pakar domain
+
+00:04:29.810 --> 00:04:31.290
+Aku duwe sawetara pitakonan
+
+00:04:32.290 --> 00:04:34.660
+Fungsi reservasi tiket pagelaran skala gedhe sing sampeyan sebutne
+
+00:04:34.660 --> 00:04:36.910
+Kapan bakal ditambahake?
+
+00:04:36.910 --> 00:04:39.910
+Apa iki kudu dilebokake ing ruang lingkup proyek iki luwih dhisik?
+
+00:04:39.910 --> 00:04:43.590
+Utawa aku pengin ngerti apa aku kudu nimbang iki durung
+
+00:04:43.590 --> 00:04:46.090
+Lan kabutuhan kanggo njaga data sing wis ana
+
+00:04:46.090 --> 00:04:48.940
+Apa iki tegese kita ora kudu ngganti sistem DB?
+
+00:04:48.940 --> 00:04:51.950
+Apa ana layanan liyane sing saiki nuduhake DB?
+
+00:04:53.580 --> 00:04:54.980
+Kaya sing sampeyan deleng saka DB,
+
+00:04:54.980 --> 00:04:57.290
+Amarga pakar domain dudu pangembang.
+
+00:04:57.290 --> 00:04:59.430
+Ungkapan teknis kasebut ambigu
+
+00:04:59.910 --> 00:05:02.890
+Para pangembang kudu mriksa bab-bab iki kanthi teliti.
+
+00:05:04.230 --> 00:05:07.450
+Pakar domain njawab pitakonan para pangembang kaya iki:
+
+00:05:08.330 --> 00:05:10.210
+Fungsi reservasi tiket pagelaran skala gedhe
+
+00:05:10.210 --> 00:05:13.450
+Durung ana jadwal tartamtu.
+
+00:05:13.450 --> 00:05:15.970
+Nanging, nalika fitur ditambahake ing mangsa ngarep
+
+00:05:15.970 --> 00:05:18.700
+Supaya sampeyan bisa nganyarke tanpa akeh kangelan
+
+00:05:18.700 --> 00:05:22.600
+Aku mikir bakal apik yen sampeyan bisa menehi pertimbangan wektu iki.
+
+00:05:22.600 --> 00:05:27.050
+Kita ora nggunakake DB kanggo apa wae kajaba layanan kita.
+
+00:05:27.050 --> 00:05:32.840
+Ngganti sistem dhewe dudu masalah gedhe anggere data dijaga kanthi apik.
+
+00:05:33.840 --> 00:05:35.080
+Sawisé krungu critané
+
+00:05:35.080 --> 00:05:39.400
+Aku ora mikir kowe perlu kuwatir babagan pertunjukan gedhe kuwi.
+
+00:05:39.400 --> 00:05:40.790
+Iku dudu ruang lingkup proyek kasebut
+
+00:05:40.790 --> 00:05:43.040
+Syarate uga ora jelas
+
+00:05:43.040 --> 00:05:44.930
+Aku ora ngerti kapan aku butuh, nanging
+
+00:05:44.930 --> 00:05:47.710
+Kuwi masalah sing bakal dirembug maneh mengko.
+
+00:05:48.920 --> 00:05:50.910
+Sanajan ora kacathet ing dokumen kasebut
+
+00:05:50.910 --> 00:05:54.880
+Para ahli domain uga bakal menehi tanggapan yen dheweke bakal nimbang kinerja skala gedhe.
+
+00:05:54.880 --> 00:05:55.960
+Kowé ora kena lali
+
+00:05:56.740 --> 00:05:58.320
+Ya wis
+
+00:05:58.320 --> 00:06:00.630
+Banjur, fungsi reservasi tiket pagelaran skala gedhe
+
+00:06:00.630 --> 00:06:04.500
+Aku ora bakal nglebokaké iki minangka prioritas utama kanggo proyèk iki.
+
+00:06:04.500 --> 00:06:08.220
+Nanging, iki nggampangake ngembangake fungsi mengko ing proses pangembangan.
+
+00:06:08.220 --> 00:06:10.190
+Aku bakal njaga kanthi becik
+
+00:06:10.190 --> 00:06:12.840
+Aja kuwatir. Percayaa mung aku
+
+00:06:13.840 --> 00:06:15.960
+Penting akur apik
+
+00:06:17.980 --> 00:06:19.500
+Liwat obrolan kita nganti saiki
+
+00:06:19.500 --> 00:06:22.700
+Prioritas utama diringkes kaya ing ngisor iki:
+
+00:06:23.220 --> 00:06:25.890
+Iki informasi sing diwenehake dening para ahli domain.
+
+00:06:25.890 --> 00:06:28.410
+Nginterpretasikake lan ngatur saka perspektif pangembang
+
+00:06:28.410 --> 00:06:29.810
+Miwiti proyèk kasebut
+
+00:06:31.700 --> 00:06:32.860
+Karo para ahli domain
+
+00:06:32.860 --> 00:06:34.980
+Sawise sampeyan nemtokake tujuan saka proyek sampeyan,
+
+00:06:35.620 --> 00:06:37.980
+Saiki wayahe menehi jeneng proyekmu.
+
+00:06:38.750 --> 00:06:41.840
+Kapisan, takon pendapat saka pakar domain.
+
+00:06:42.800 --> 00:06:45.540
+Aku kudu menehi jeneng apa kanggo proyèk iki?
+
+00:06:45.540 --> 00:06:47.680
+Iku sistem reservasi film.
+
+00:06:47.680 --> 00:06:50.150
+Kepriye yen mung Sistem Pemesanan Film?
+
+00:06:50.150 --> 00:06:51.430
+ora, aku ora pengin
+
+00:06:51.430 --> 00:06:53.570
+Aku bakal ngurus pagelaran skala gedhe
+
+00:06:53.570 --> 00:06:56.930
+Ayo nganggo Sistem Pemesanan Film. ya? (or) Iya?
+
+00:06:56.930 --> 00:06:58.180
+apik banget
+
+00:06:58.180 --> 00:06:59.950
+Matur nuwun sanget
+
+00:07:01.000 --> 00:07:05.230
+Para ahli domain bisa uga pengin jeneng proyèk nganggo basa Korea.
+
+00:07:05.580 --> 00:07:07.680
+Nanging saka perspektif pangembang
+
+00:07:07.680 --> 00:07:09.990
+Kabeh istilah kalebu jeneng proyek
+
+00:07:09.990 --> 00:07:12.180
+Amarga diimplementasikake langsung ing kode,
+
+00:07:12.600 --> 00:07:15.000
+Luwih gampang ditegesi nganggo basa Inggris yen bisa.
+
+00:07:15.540 --> 00:07:19.510
+Penting kanggo para pangembang supaya setya nuruti kabutuhan para ahli domain, nanging
+
+00:07:19.960 --> 00:07:21.430
+Ngelingi kabeh proyek
+
+00:07:21.430 --> 00:07:23.930
+Kita uga duwe tanggung jawab kanggo ngarahake samubarang menyang arah sing efisien.
+
+00:07:25.850 --> 00:07:27.760
+Yen sampeyan wis mutusake jeneng kanggo proyek sampeyan
+
+00:07:27.760 --> 00:07:31.380
+Saiki wayahe ngerteni sapa sing nggunakake Sistem Pemesanan Film.
+
+00:07:32.020 --> 00:07:34.940
+Mesthi wae, sampeyan kudu takon marang pakar domain kanggo informasi babagan iki.
+
+00:07:35.420 --> 00:07:38.740
+Lan kita nemokake manawa kita duwe pelanggan lan manajer.
+
+00:07:40.820 --> 00:07:43.280
+Salah sawijining unsur sing gampang dilewati ing tahap awal desain yaiku
+
+00:07:43.280 --> 00:07:44.760
+Iku minangka ketergantungan eksternal
+
+00:07:45.340 --> 00:07:46.580
+Ketergantungan eksternal yaiku
+
+00:07:46.580 --> 00:07:49.210
+Bisa uga sistem warisan sing wis ana,
+
+00:07:49.660 --> 00:07:51.420
+Bisa uga sistem pambayaran
+
+00:07:52.020 --> 00:07:53.670
+Hubungan ketergantungan iki
+
+00:07:53.670 --> 00:07:56.760
+Amarga bisa nduweni pengaruh gedhe marang desain sistem sakabèhé.
+
+00:07:56.950 --> 00:08:00.150
+Penting kanggo ngenali sedini mungkin.
+
+00:08:00.570 --> 00:08:01.240
+untunge
+
+00:08:01.820 --> 00:08:04.990
+Unsur-unsur kaya ta gateway pembayaran lan sistem lawas
+
+00:08:05.270 --> 00:08:07.730
+Amarga wis digunakake ing sistem sing wis ana
+
+00:08:07.990 --> 00:08:10.360
+Iku bisa dingerteni kanthi relatif gampang
+
+00:08:11.230 --> 00:08:14.410
+Salah sawijining bab sing gampang dilalekake ing hubungan sing gumantung yaiku
+
+00:08:14.410 --> 00:08:16.090
+Ana faktor lingkungan njaba
+
+00:08:16.900 --> 00:08:19.060
+Negara kita ana ing zona wektu sing padha
+
+00:08:19.060 --> 00:08:22.430
+Ing negara sing jembar wilayahé, saben teater nduwèni slot wektu sing béda-béda.
+
+00:08:23.190 --> 00:08:25.100
+Banjur Sistem Pemesanan Film
+
+00:08:25.100 --> 00:08:28.900
+Ora bisa dihindari yen bakal kena pengaruh faktor lingkungan kayata zona wektu.
+
+00:08:29.410 --> 00:08:32.760
+Faktor-faktor iki ora gampang katon kajaba sampeyan takon langsung marang pakar domain kasebut.
+
+00:08:32.760 --> 00:08:33.950
+Gampang banget luput
+
+00:08:34.740 --> 00:08:37.610
+Pakar domain cenderung nglirwakake rincian kasebut.
+
+00:08:37.610 --> 00:08:40.010
+Amarga panjelasan kasebut bisa uga ora digatekake
+
+00:08:41.680 --> 00:08:43.640
+Amarga hubungan ketergantungan wis kasebut kanthi jelas
+
+00:08:43.640 --> 00:08:47.500
+Saiki ayo fokus ing internal Sistem Pemesanan Film.
+
+00:08:48.430 --> 00:08:52.230
+Kaping pisanan, apa sing ditindakake pelanggan ing Sistem Pemesanan Film?
+
+00:08:52.230 --> 00:08:54.230
+Ayo takon karo para ahli domain
+
+00:08:55.800 --> 00:08:57.880
+Apa sing ditindakake pelanggan?
+
+00:08:57.880 --> 00:08:59.970
+Pelanggan nggoleki film,
+
+00:08:59.970 --> 00:09:01.450
+Deleng rincian film,
+
+00:09:01.450 --> 00:09:02.910
+Pilih wektu tayang,
+
+00:09:02.910 --> 00:09:04.450
+Pilih kursimu,
+
+00:09:04.450 --> 00:09:05.920
+Pesan tiket film,
+
+00:09:05.920 --> 00:09:07.610
+Priksa rincian reservasi,
+
+00:09:07.610 --> 00:09:10.180
+Nindakake bab-bab kaya mbatalake reservasi
+
+00:09:10.180 --> 00:09:15.750
+Apa milih wektu pertunjukan lan milih kursi kalebu proses reservasi tiket film?
+
+00:09:15.750 --> 00:09:18.880
+Lan kanggo pesen tiket film, kanggo mbatalake reservasi
+
+00:09:18.880 --> 00:09:22.210
+Lagian, apa kowe ora mung tuku tiket lan entuk mbalekaken dhuwit?
+
+00:09:22.210 --> 00:09:23.620
+kowé bener
+
+00:09:23.620 --> 00:09:25.030
+Bener kuwi
+
+00:09:25.480 --> 00:09:27.880
+Amarga saiki wis dadi domain sing akrab
+
+00:09:27.880 --> 00:09:31.240
+Pilih wektu pemutaran film lan pilih kursi sampeyan
+
+00:09:31.240 --> 00:09:33.200
+Apa iki kalebu bagean saka proses reservasi tiket film?
+
+00:09:33.200 --> 00:09:34.530
+Aku isa takon
+
+00:09:34.980 --> 00:09:37.220
+Nanging yen iku domain sing ora dikenal,
+
+00:09:37.410 --> 00:09:40.160
+Nganalisis saben kasus panggunaan kanthi rinci
+
+00:09:40.520 --> 00:09:43.330
+Sampeyan bakal mbaleni proses panyulingan kaping pirang-pirang.
+
+00:09:43.790 --> 00:09:45.350
+Gumantung saka kahanan proyek
+
+00:09:45.350 --> 00:09:48.080
+Sampeyan bisa mbaleni proses iki kaping pirang-pirang,
+
+00:09:48.080 --> 00:09:50.580
+Semakin sampeyan nggunakake wektu lan nganalisa kanthi teliti,
+
+00:09:50.580 --> 00:09:54.190
+Ngurangi coba-coba sajrone tahap desain lan implementasi.
+
+00:09:55.850 --> 00:09:57.530
+Adhedhasar obrolan nganti saiki
+
+00:09:57.530 --> 00:10:00.970
+Kita wis ngatur kasus panggunaan pelanggan dadi patang kategori:
+
+00:10:02.960 --> 00:10:04.470
+Sabanjure yaiku administrator
+
+00:10:05.190 --> 00:10:08.850
+Administrator bisa ndeleng manawa ana limang item manajemen:
+
+00:10:09.440 --> 00:10:13.620
+Secara pribadi, aku ati-ati banget nggunakake tembung "Manage" ing pangembangan.
+
+00:10:14.360 --> 00:10:16.980
+Ngatur iku ungkapan sing amba banget
+
+00:10:16.980 --> 00:10:19.030
+Ora jelas apa sing kok lakoni
+
+00:10:19.640 --> 00:10:20.950
+Ing kene uga padha
+
+00:10:21.370 --> 00:10:23.760
+Kepriye persisé carané ngatur?
+
+00:10:23.760 --> 00:10:24.810
+Aku ora ngerti
+
+00:10:25.930 --> 00:10:27.620
+Kanthi ngobrol karo para ahli domain
+
+00:10:27.620 --> 00:10:31.220
+Saben item manajemen wis dikembangake menyang kasus panggunaan tartamtu.
+
+00:10:31.900 --> 00:10:33.660
+Yen iku proyek nyata
+
+00:10:33.660 --> 00:10:35.890
+Mbokmenawa ana luwih akeh kasus panggunaan tinimbang iki.
+
+00:10:36.150 --> 00:10:39.000
+Ing kene aku wis nyederhanakake kanggo panjelasan.
+
+00:10:39.860 --> 00:10:42.700
+Sing penting kanggo dicathet ing kene yaiku nalika sampeyan nggawe wektu mlaku,
+
+00:10:43.020 --> 00:10:45.900
+Sampeyan bisa ndeleng yen tiket uga digawe
+
+00:10:46.960 --> 00:10:49.200
+Lan nalika tuku utawa mbalekake dhuwit tiket
+
+00:10:49.490 --> 00:10:53.910
+Sampeyan uga bisa ndeleng manawa kita nggunakake layanan eksternal sing diarani gateway pembayaran.
+
+00:10:55.890 --> 00:10:58.670
+Aku nggabungake kasus panggunaan pelanggan lan manajer.
+
+00:10:59.350 --> 00:11:01.730
+Ndeleng kabeh kasus panggunaan kaya iki
+
+00:11:01.730 --> 00:11:02.900
+Ana sing krasa kosong
+
+00:11:03.890 --> 00:11:05.840
+Ana pilihan kanggo nambah teater
+
+00:11:05.840 --> 00:11:08.720
+Aku ora weruh sing kaya Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Koyone ana sawetara kasus panggunaan sing diilangi.
+
+00:11:12.770 --> 00:11:15.980
+Amarga saka perspektif pakar domain, ana akeh sing kudu diterangake.
+
+00:11:15.980 --> 00:11:17.950
+Kasus panggunaan iki, sing katon jelas banget,
+
+00:11:18.150 --> 00:11:19.810
+Sampeyan bisa nglirwakake panjelasan kasebut
+
+00:11:20.770 --> 00:11:23.460
+Dadi kepriye saka perspektif pangembang?
+
+00:11:24.400 --> 00:11:28.290
+Luwih becik ora ngrembug babagan pawarta prasaja kaya nggoleki bioskop.
+
+00:11:28.290 --> 00:11:30.700
+Apa iki ora bakal luwih migunani kanggo manajemen dokumen?
+
+00:11:31.720 --> 00:11:32.870
+Yen desain backend
+
+00:11:32.870 --> 00:11:35.920
+Kasus panggunaan sing prasaja kaya nggoleki bioskop
+
+00:11:35.920 --> 00:11:37.760
+Aku mikir ora apa-apa yen dilewati
+
+00:11:38.600 --> 00:11:41.570
+Sing tak kandhakake yaiku durung kasep kanggo nanggapi sajrone tahap implementasi.
+
+00:11:42.370 --> 00:11:44.310
+Nanging yen iku proyek nyata
+
+00:11:44.310 --> 00:11:48.450
+Kanggo perencana layar, kasus panggunaan iki minangka titik wiwitan sing apik.
+
+00:11:49.250 --> 00:11:52.300
+Perencana kasebut nyinaoni kasus panggunaan nggoleki teater.
+
+00:11:52.300 --> 00:11:55.300
+Kepriye carane supaya aku bisa nggoleki bioskop?
+
+00:11:55.300 --> 00:11:56.600
+Kowé bakal bisa mikir
+
+00:11:58.000 --> 00:12:00.880
+Nalika sampeyan nggabungake diagram dadi siji, katon rumit.
+
+00:12:01.490 --> 00:12:05.150
+Nanging nèk kuwi proyèk tenanan, mesthi bakal luwih rumit.
+
+00:12:05.720 --> 00:12:08.240
+Ing kasus iki, ora perlu meksa gabung.
+
+00:12:08.810 --> 00:12:13.910
+Aku nembe nggabungake ing kene kanggo nuduhake yen ana kasus sing ilang.
+
+00:12:16.020 --> 00:12:18.490
+Aku ngisi kabeh kasus sing ilang
+
+00:12:19.200 --> 00:12:21.880
+Aku duwe kasus panggunaan ing ngendi sambungan menyang aktor diilangi.
+
+00:12:22.290 --> 00:12:25.720
+Iki ditrapake kanggo pelanggan lan manajer.
+
+00:12:26.400 --> 00:12:29.480
+Lan supaya gampang diimplementasikake, aku nulis nganggo basa Inggris.
+
+00:12:31.370 --> 00:12:34.160
+Saiki ora apa-apa amarga iki proyek cilik
+
+00:12:34.160 --> 00:12:36.160
+Yen proyek kasebut gedhe lan rumit
+
+00:12:36.160 --> 00:12:38.980
+Pakar domain kudu miwiti nerangake saka ngendi?
+
+00:12:38.980 --> 00:12:40.380
+Iku bisa uga angel
+
+00:12:41.280 --> 00:12:43.300
+Apa sing ditindakake administrator?
+
+00:12:43.300 --> 00:12:44.700
+Iku akeh gaweyan
+
+00:12:44.700 --> 00:12:46.620
+Kaya sing dikarepake saka manajer
+
+00:12:47.620 --> 00:12:49.750
+Ing kasus iki, apa kita bisa mbagi aktor-aktor kasebut?
+
+00:12:49.750 --> 00:12:52.340
+Iku uga ide sing apik kanggo ngevaluasi
+
+00:12:53.140 --> 00:12:54.790
+Wiwitane aku diarani administrator
+
+00:12:54.790 --> 00:12:57.400
+Bisa uga dipérang miturut peran
+
+00:12:58.520 --> 00:13:00.820
+Lan nggunakake Sistem Pemesanan Film
+
+00:13:00.820 --> 00:13:02.870
+Bisa uga ana layanan eksternal
+
+00:13:03.660 --> 00:13:05.340
+Yen kita nggolongake para aktor kaya iki,
+
+00:13:05.340 --> 00:13:09.420
+Para ahli domain bakal bisa menehi informasi sing luwih sistematis.
+
+00:13:10.350 --> 00:13:14.000
+Mesthi wae, iki mung salah sawijining conto nganalisa domain sing kompleks.
+
+00:13:14.540 --> 00:13:17.320
+Bisa uga ana cara liya sing apik
+
+00:13:17.960 --> 00:13:21.740
+Penting kanggo nanggapi kanthi fleksibel gumantung saka kahanane.
+
+00:13:24.250 --> 00:13:25.060
+Iki kesimpulane
+
+00:13:25.950 --> 00:13:29.170
+Ing wektu iki, kita bakal nggunakake diagram kasus panggunaan
+
+00:13:29.170 --> 00:13:30.840
+Nyetel target kanggo proyek kasebut
+
+00:13:31.230 --> 00:13:33.700
+Aku wis ngliwati tahap awal analisis.
+
+00:13:34.880 --> 00:13:38.010
+Secara pribadi, sajrone kabeh proses pembangunan
+
+00:13:38.010 --> 00:13:40.060
+Aku mikir analisis iku sing paling angel
+
+00:13:40.570 --> 00:13:44.250
+Amarga kita kudu ngatur konsep-konsep sing paling abstrak lan samar.
+
+00:13:45.020 --> 00:13:47.650
+Sabanjure kita bakal ngrembug babagan kasus panggunaan utama
+
+00:13:47.650 --> 00:13:49.470
+Ayo dianalisis luwih rinci
+
+00:13:50.300 --> 00:13:52.100
+Matur nuwun kanggo kerja kerasmu nganti saiki.
+

@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: haw
+
+00:00:00.000 --> 00:00:02.020
+Aloha, ʻo Manner Code kēia.
+
+00:00:03.290 --> 00:00:05.350
+He paʻakikī ka polokalamu
+
+00:00:06.650 --> 00:00:08.890
+ʻO ka mea mua, he nui nā code e pono e kākau ʻia.
+
+00:00:09.760 --> 00:00:12.710
+ʻO nā papahana hoʻohālike wale nō aʻu i hana ai no kēia moʻo
+
+00:00:12.710 --> 00:00:15.270
+ʻOi aku ka lōʻihi o ke code ma mua o 12,000 mau laina.
+
+00:00:16.330 --> 00:00:18.320
+Inā he lawelawe hana maoli ia
+
+00:00:18.320 --> 00:00:21.530
+ʻOiai inā he lawelawe liʻiliʻi ia, e ʻoi aku ia ma mua o 100,000 mau laina.
+
+00:00:22.130 --> 00:00:25.300
+Hoʻokahi haneri tausani laina ua lawa ia e hoʻopiha i nā puke moʻolelo he iwakālua.
+
+00:00:26.870 --> 00:00:29.560
+ʻO ke kākau ʻana i ke code lōʻihi ʻaʻole ia e manaʻo ua pau.
+
+00:00:30.330 --> 00:00:32.540
+Pono ʻoe e hoʻoponopono mau i ke code āu i kākau ai.
+
+00:00:33.400 --> 00:00:35.800
+Inā hoʻoponopono ʻoe iā A, e haki ʻo B.
+
+00:00:35.800 --> 00:00:39.130
+Inā ʻoe e hoʻoponopono i ka B, e haki ʻo A a me C.
+
+00:00:41.090 --> 00:00:44.260
+I ka hoʻohana ʻana i kahi hoʻohālikelike, ua like ia me ke paʻa ʻia ʻana i loko o kahi Rasputica a uē.
+
+00:00:44.260 --> 00:00:46.360
+Hiki iā ʻoe ke ʻōlelo he kūlana like ia me ka lio.
+
+00:00:47.330 --> 00:00:50.550
+I loko o kēia manawa, e ʻike ʻoe i ka pono no ka hoʻolālā.
+
+00:00:52.580 --> 00:00:55.010
+Akā ke ho'āʻo maoli ʻoe e kākau i kahi palapala hoʻolālā,
+
+00:00:55.500 --> 00:00:58.490
+Ke hōʻike pololei nei i nā manaʻo i loko o kou poʻo
+
+00:00:58.790 --> 00:01:01.260
+E ʻike ʻoe ʻaʻole ia he mea maʻalahi e like me kou manaʻo.
+
+00:01:01.890 --> 00:01:05.600
+ʻOiai nā pepa mele, ʻo ia hoʻi kahi palapala e hoʻopaʻa maka ana i ke kani a i ʻole ke mele,
+
+00:01:05.600 --> 00:01:06.700
+He paʻakikī kēia
+
+00:01:07.520 --> 00:01:10.610
+ʻAʻole wale ke mele, akā, ʻo ke kālā a me ka logistics hoʻi
+
+00:01:10.610 --> 00:01:14.060
+Nā manaʻo like ʻole a me nā koi mea hoʻohana abstract
+
+00:01:14.060 --> 00:01:17.220
+ʻAʻole hiki ke maʻalahi ke hōʻike iā ia ma kahi kumu hoʻohālike kikoʻī.
+
+00:01:18.530 --> 00:01:19.490
+ʻO ka mea pōmaikaʻi
+
+00:01:19.770 --> 00:01:23.200
+No ka lanakila ʻana i ka paʻakikī o ke kumu hoʻohālike ʻana i nā manaʻo abstract
+
+00:01:23.540 --> 00:01:26.860
+Ua hānau ʻia ʻo UML i ka hopena o nā makahiki 1990.
+
+00:01:27.730 --> 00:01:30.120
+Ua alakaʻi ʻia e Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Hoʻohana mākou iā UML me ka manaʻolana
+
+00:01:34.980 --> 00:01:36.990
+E kaha kiʻi i kahi kiʻikuhi papa
+
+00:01:36.990 --> 00:01:38.760
+E kahakiʻi pū kākou i kahi kiʻikuhi moʻo
+
+00:01:39.430 --> 00:01:39.980
+akā naʻe
+
+00:01:40.360 --> 00:01:43.160
+I koʻu hoʻāʻo ʻana e hoʻolālā, ua ʻokoʻa ia mai ke code pololei ʻana.
+
+00:01:43.160 --> 00:01:45.130
+ʻAʻole like ia me he mea lā he ʻokoʻa loa
+
+00:01:45.590 --> 00:01:46.520
+No ke aha lā ia?
+
+00:01:47.350 --> 00:01:50.910
+No ka mea, ua maʻa ke kaʻina hana noʻonoʻo i ka hoʻokō ʻana.
+
+00:01:51.290 --> 00:01:54.170
+Ma mua o ka hoʻolilo ʻana i nā manaʻo abstract i mea paʻa,
+
+00:01:54.490 --> 00:01:57.590
+No ka mea, unuhi ia i ka noʻonoʻo pae hoʻokō i loko o UML.
+
+00:01:58.520 --> 00:02:00.270
+No ka mea hiki iā ʻoe ke heluhelu i nā pepa mele
+
+00:02:00.270 --> 00:02:01.950
+ʻAʻole like me ka hiki iaʻu ke haku mele
+
+00:02:02.390 --> 00:02:03.850
+No ka mea ua aʻo ʻoe iā UML
+
+00:02:03.850 --> 00:02:06.170
+ʻAʻole like me ʻoe e hoʻomohala i nā mākau hoʻolālā.
+
+00:02:07.700 --> 00:02:09.300
+No laila ma kēia moʻo
+
+00:02:09.300 --> 00:02:11.580
+Ma o nā papahana maoli
+
+00:02:11.580 --> 00:02:14.420
+Pehea e hoʻokūpaʻa ai i nā pono abstract
+
+00:02:14.420 --> 00:02:16.290
+Hiki iā ʻoe ke hoʻohui i ke code?
+
+00:02:16.290 --> 00:02:18.010
+Makemake au e hōʻike iā ʻoe ma ke kino
+
+00:02:18.530 --> 00:02:20.930
+Ua koho au e hoʻopaʻa i nā tikiki kiʻiʻoniʻoni ma o ka inoa kikowaena
+
+00:02:21.370 --> 00:02:25.200
+He maʻalahi ka hoʻomaopopo ʻana i nā hoʻopaʻa tikiki kiʻiʻoniʻoni no ka mea he mau ʻano kamaʻāina lākou.
+
+00:02:25.200 --> 00:02:29.710
+Hoʻokomo pū ʻia nā hana like ʻole e like me ke komo ʻana, ka uku ʻana, a me ke koho ʻana i nā noho.
+
+00:02:29.710 --> 00:02:31.580
+Me he mea lā he laʻana maikaʻi ia
+
+00:02:33.600 --> 00:02:36.890
+ʻO ke kumu, ʻo ke kumuhana o kēia ʻatikala ka hoʻolālā polokalamu, akā
+
+00:02:36.890 --> 00:02:40.350
+E uhi pū mākou i ka hoʻomohala hoʻāʻo.
+
+00:02:41.210 --> 00:02:44.890
+Kākoʻo maoli nā ʻōnaehana hoʻomohala hou i nā mea hana hoʻāʻo.
+
+00:02:45.600 --> 00:02:48.320
+ʻOiai inā ʻoe e nānā i nā papahana open source kaulana,
+
+00:02:48.320 --> 00:02:51.130
+Loaʻa iā mākou kahi pae hoʻāʻo.
+
+00:02:51.740 --> 00:02:56.200
+ʻO ke ʻano paha kēia he mea nui loa ka hoʻāʻo ʻana a me ka pono.
+
+00:02:56.870 --> 00:02:58.120
+Akā i ka ʻoiaʻiʻo
+
+00:02:58.120 --> 00:03:02.590
+I nā manawa he nui, ʻaʻole wale ʻo TDD, akā ʻaʻole hoʻi i hoʻokō pono ʻia ka automation hoʻāʻo.
+
+00:03:03.190 --> 00:03:06.260
+ʻO ke kākau ʻana i nā hoʻokolohua koʻikoʻi mua me ka ʻole o ka hoʻomākaukau ʻana
+
+00:03:06.260 --> 00:03:07.540
+ʻAʻole loa ia he mea maʻalahi
+
+00:03:08.410 --> 00:03:12.340
+He mea kēia e pono ai ka hui pū ʻana o nā hiki o ka hoʻolālā polokalamu.
+
+00:03:13.320 --> 00:03:16.270
+No laila, ʻoi aku ka maikaʻi o ka hana pū ʻana me ka hoʻolālā a me ka TDD.
+
+00:03:16.270 --> 00:03:18.180
+Ua manaʻo wau he kūpono ia
+
+00:03:20.120 --> 00:03:23.450
+No laila, e hoʻomaka kākou i ka hālāwai mua o ka papahana.
+
+00:03:24.150 --> 00:03:26.470
+No ka mea, he papahana liʻiliʻi kēia
+
+00:03:26.470 --> 00:03:28.090
+ʻElua mau mea hele mai
+
+00:03:28.790 --> 00:03:32.340
+ʻO ka mea ma ka hema he loea kikowaena pūnaewele, a ʻo ka mea ma ka ʻākau he mea hoʻomohala pūnaewele.
+
+00:03:34.550 --> 00:03:37.790
+He ʻōlelo ko ka poʻe loea kikowaena pūnaewele i nā ʻōnaehana e pono ai mākou e kūkulu.
+
+00:03:37.790 --> 00:03:39.280
+He nui nā moʻolelo e haʻi mai ana
+
+00:03:40.340 --> 00:03:42.160
+ʻO ka hale keaka a mākou e holo nei
+
+00:03:42.160 --> 00:03:44.710
+Aia ma kahi o ʻehā tausani o lākou ma ka ʻāina.
+
+00:03:44.710 --> 00:03:47.220
+Hiki ke hoʻonui hou aku i ka wā e hiki mai ana.
+
+00:03:47.220 --> 00:03:50.480
+I kēia manawa, ʻo ka hana hoʻopaʻa tikiki kiʻiʻoniʻoni wale nō ke kākoʻo ʻia nei.
+
+00:03:50.480 --> 00:03:54.510
+Hoʻolālā mākou e hoʻohui i nā kūʻai tikiki no nā hōʻike nui ma hope.
+
+00:03:54.510 --> 00:03:58.940
+A ʻo ka mea nui, ʻaʻole loa ʻoe e hoʻopaʻa pālua i nā noho.
+
+00:03:58.940 --> 00:04:03.250
+I ka wā ma mua, ua paʻakikī loa nā kikowaena lawelawe mea kūʻai aku me kēlā ʻano pilikia.
+
+00:04:03.250 --> 00:04:07.670
+No ka mea, ua nui ka ʻike kiʻiʻoniʻoni a me ka ʻikepili loiloi i hōʻiliʻili mua ʻia.
+
+00:04:07.670 --> 00:04:11.090
+Pono e noho paʻa kēia mau ʻikepili.
+
+00:04:12.090 --> 00:04:14.730
+Maanei ua hoʻonohonoho maikaʻi ʻia ke kamaʻilio ʻana, akā
+
+00:04:14.890 --> 00:04:16.960
+ʻOiaʻiʻo, aia nā ʻike hou aku
+
+00:04:16.960 --> 00:04:18.600
+E hāʻawi ʻia ia ma ke ʻano hoʻonohonoho ʻole ʻia
+
+00:04:19.470 --> 00:04:22.110
+Akā, ʻo ka moʻolelo e puka mai ana i ka hoʻomaka ʻana o ka papahana, ʻo ia
+
+00:04:22.110 --> 00:04:23.780
+No ka mea, ʻo ia ka mea nui loa e pono ai
+
+00:04:23.780 --> 00:04:25.320
+Pono ʻoe e hoʻolohe pono
+
+00:04:27.110 --> 00:04:29.810
+Hoʻolohe nā mea hoʻomohala i nā loea kikowaena
+
+00:04:29.810 --> 00:04:31.290
+He mau nīnau kaʻu
+
+00:04:32.290 --> 00:04:34.660
+ʻO ka hana hoʻopaʻa tikiki hana nui āu i ʻōlelo ai
+
+00:04:34.660 --> 00:04:36.910
+Āhea e hoʻohui ʻia ai?
+
+00:04:36.910 --> 00:04:39.910
+Pono anei e hoʻokomo ʻia kēia i loko o ka laulā o kēia papahana ma mua?
+
+00:04:39.910 --> 00:04:43.590
+A i ʻole makemake wau e ʻike inā pono iaʻu e noʻonoʻo iā ia
+
+00:04:43.590 --> 00:04:46.090
+A me ka pono e mālama i ka ʻikepili o kēia manawa
+
+00:04:46.090 --> 00:04:48.940
+ʻO ke ʻano anei kēia ʻaʻole pono mākou e hoʻololi i ka ʻōnaehana DB?
+
+00:04:48.940 --> 00:04:51.950
+Aia kekahi mau lawelawe ʻē aʻe e kaʻana like ana i ka DB i kēia manawa?
+
+00:04:53.580 --> 00:04:54.980
+E like me kāu e ʻike ai mai ka DB,
+
+00:04:54.980 --> 00:04:57.290
+No ka mea, ʻaʻole he poʻe hoʻomohala nā loea kikowaena pūnaewele.
+
+00:04:57.290 --> 00:04:59.430
+He kānalua ka ʻōlelo loea
+
+00:04:59.910 --> 00:05:02.890
+Pono nā mea hoʻomohala e nānā pono i kēia mau mea.
+
+00:05:04.230 --> 00:05:07.450
+Pane nā loea kikowaena i nā nīnau a nā mea hoʻomohala penei:
+
+00:05:08.330 --> 00:05:10.210
+Ka hana hoʻopaʻa tikiki hana nui
+
+00:05:10.210 --> 00:05:13.450
+ʻAʻohe papa hana kikoʻī i kēia manawa.
+
+00:05:13.450 --> 00:05:15.970
+Eia nō naʻe, ke hoʻohui ʻia nā hiʻohiʻona i ka wā e hiki mai ana
+
+00:05:15.970 --> 00:05:18.700
+I hiki iā ʻoe ke hoʻonui me ka ʻole o ka pilikia nui
+
+00:05:18.700 --> 00:05:22.600
+Manaʻo wau he mea maikaʻi inā hiki iā ʻoe ke noʻonoʻo iki i kēia manawa.
+
+00:05:22.600 --> 00:05:27.050
+ʻAʻole mākou e hoʻohana iā DB no kekahi mea ʻē aʻe ma mua o kā mākou lawelawe.
+
+00:05:27.050 --> 00:05:32.840
+ʻAʻole pilikia nui ka hoʻololi ʻana i ka ʻōnaehana inā mālama maikaʻi ʻia ka ʻikepili.
+
+00:05:33.840 --> 00:05:35.080
+Ma hope o ka lohe ʻana i ka moʻolelo
+
+00:05:35.080 --> 00:05:39.400
+ʻAʻole au i manaʻo he pono ʻoe e hopohopo e pili ana i ka hōʻike nui.
+
+00:05:39.400 --> 00:05:40.790
+ʻAʻole ia ka laulā o ka papahana
+
+00:05:40.790 --> 00:05:43.040
+ʻAʻole maopopo hoʻi nā koi
+
+00:05:43.040 --> 00:05:44.930
+ʻAʻole maopopo iaʻu ka wā e pono ai iaʻu, akā
+
+00:05:44.930 --> 00:05:47.710
+He pilikia kēlā e pono ai mākou e loiloi hou ma hope.
+
+00:05:48.920 --> 00:05:50.910
+ʻOiai inā ʻaʻole i hoʻopaʻa ʻia ma ka palapala
+
+00:05:50.910 --> 00:05:54.880
+E hāʻawi pū nā loea kikowaena i kahi pane e noʻonoʻo lākou i nā hana nui.
+
+00:05:54.880 --> 00:05:55.960
+ʻAʻole pono ʻoe e poina
+
+00:05:56.740 --> 00:05:58.320
+Hiki nō
+
+00:05:58.320 --> 00:06:00.630
+A laila, ka hana hoʻopaʻa tikiki hana nui
+
+00:06:00.630 --> 00:06:04.500
+ʻAʻole au e kau i kēia ma waena o nā mea nui loa no kēia papahana.
+
+00:06:04.500 --> 00:06:08.220
+Akā, e maʻalahi ia e hoʻonui i ka hana ma hope o ke kaʻina hana hoʻomohala.
+
+00:06:08.220 --> 00:06:10.190
+E mālama pono wau ia mea
+
+00:06:10.190 --> 00:06:12.840
+Mai hopohopo. E hilinaʻi wale mai iaʻu
+
+00:06:13.840 --> 00:06:15.960
+He mea nui e launa maikaʻi
+
+00:06:17.980 --> 00:06:19.500
+Ma o kā mākou kamaʻilio ʻana a hiki i kēia manawa
+
+00:06:19.500 --> 00:06:22.700
+Ua hōʻuluʻulu ʻia nā mea nui loa penei:
+
+00:06:23.220 --> 00:06:25.890
+ʻO kēia ka ʻike i hāʻawi ʻia e nā loea kikowaena pūnaewele.
+
+00:06:25.890 --> 00:06:28.410
+Ka wehewehe ʻana a me ka hoʻonohonoho ʻana mai ka manaʻo o ka mea hoʻomohala
+
+00:06:28.410 --> 00:06:29.810
+E hoʻomaka i ka papahana
+
+00:06:31.700 --> 00:06:32.860
+Me nā loea kikowaena pūnaewele
+
+00:06:32.860 --> 00:06:34.980
+Ke hoʻoholo ʻoe i nā pahuhopu o kāu papahana,
+
+00:06:35.620 --> 00:06:37.980
+ʻĀnō ka manawa e kapa inoa ai i kāu papahana.
+
+00:06:38.750 --> 00:06:41.840
+ʻO ka mea mua, e nīnau i kahi loea pūnaewele no ko lākou manaʻo.
+
+00:06:42.800 --> 00:06:45.540
+He aha kaʻu e kapa ai i ka papahana?
+
+00:06:45.540 --> 00:06:47.680
+He ʻōnaehana hoʻopaʻa kiʻiʻoniʻoni ia.
+
+00:06:47.680 --> 00:06:50.150
+Pehea e pili ana i ka ʻōnaehana hoʻopaʻa kiʻiʻoniʻoni?
+
+00:06:50.150 --> 00:06:51.430
+ʻaʻole, ʻaʻole au makemake
+
+00:06:51.430 --> 00:06:53.570
+Naʻu e mālama i nā hana nui
+
+00:06:53.570 --> 00:06:56.930
+E hele kākou me ka ʻōnaehana hoʻopaʻa kiʻiʻoniʻoni. ʻAe?
+
+00:06:56.930 --> 00:06:58.180
+nui
+
+00:06:58.180 --> 00:06:59.950
+Mahalo nui iā ʻoe
+
+00:07:01.000 --> 00:07:05.230
+Makemake paha nā loea kikowaena inoa i nā inoa papahana ma ka ʻōlelo Kōlea.
+
+00:07:05.580 --> 00:07:07.680
+Akā mai ka manaʻo o ka mea hoʻomohala
+
+00:07:07.680 --> 00:07:09.990
+Nā huaʻōlelo a pau me nā inoa papahana
+
+00:07:09.990 --> 00:07:12.180
+No ka mea ua hoʻokō pololei ʻia i loko o ke code,
+
+00:07:12.600 --> 00:07:15.000
+Inā hiki, e maʻalahi ka wehewehe ʻana ma ka ʻōlelo Pelekania.
+
+00:07:15.540 --> 00:07:19.510
+He mea nui i nā mea hoʻomohala e hahai pono i nā pono o nā loea kikowaena, akā
+
+00:07:19.960 --> 00:07:21.430
+Ke noʻonoʻo nei i ka papahana holoʻokoʻa
+
+00:07:21.430 --> 00:07:23.930
+He kuleana ko kākou e hoʻokele i nā mea ma ke ala kūpono.
+
+00:07:25.850 --> 00:07:27.760
+Inā ua hoʻoholo ʻoe i kahi inoa no kāu papahana
+
+00:07:27.760 --> 00:07:31.380
+ʻĀnō ka manawa e ʻike ai i ka mea nāna e hoʻohana i ka ʻōnaehana hoʻopaʻa kiʻiʻoniʻoni.
+
+00:07:32.020 --> 00:07:34.940
+ʻOiaʻiʻo, pono ʻoe e nīnau i kahi loea kikowaena no ka ʻike e pili ana i kēia.
+
+00:07:35.420 --> 00:07:38.740
+A ke ʻike nei mākou he mau mea kūʻai aku a me nā luna hoʻokele kā mākou.
+
+00:07:40.820 --> 00:07:43.280
+ʻO kekahi o nā mea i maʻalahi ke nalo i nā pae mua o ka hoʻolālā ʻana, ʻo ia
+
+00:07:43.280 --> 00:07:44.760
+He hilinaʻi kūwaho ia
+
+00:07:45.340 --> 00:07:46.580
+ʻO nā hilinaʻi o waho
+
+00:07:46.580 --> 00:07:49.210
+He ʻōnaehana hoʻoilina paha ia e kū nei,
+
+00:07:49.660 --> 00:07:51.420
+He ʻōnaehana uku paha ia
+
+00:07:52.020 --> 00:07:53.670
+ʻO kēia pilina hilinaʻi
+
+00:07:53.670 --> 00:07:56.760
+No ka mea hiki iā ia ke loaʻa ka hopena nui ma ka hoʻolālā holoʻokoʻa o ka ʻōnaehana.
+
+00:07:56.950 --> 00:08:00.150
+He mea nui e ʻike iā ia i ka wā hikiwawe loa.
+
+00:08:00.570 --> 00:08:01.240
+me ka pōmaikaʻi
+
+00:08:01.820 --> 00:08:04.990
+Nā mea e like me nā puka uku a me nā ʻōnaehana hoʻoilina
+
+00:08:05.270 --> 00:08:07.730
+No ka mea, ke hoʻohana mua ʻia nei ia i nā ʻōnaehana e kū nei
+
+00:08:07.990 --> 00:08:10.360
+Hiki ke hoʻomaopopo maʻalahi ʻia
+
+00:08:11.230 --> 00:08:14.410
+ʻO kekahi o nā mea i maʻalahi ke nānā ʻole ʻia i loko o kahi pilina hilinaʻi
+
+00:08:14.410 --> 00:08:16.090
+Aia nā kumu kaiapuni o waho
+
+00:08:16.900 --> 00:08:19.060
+Aia ko mākou ʻāina ma ka ʻāpana manawa like
+
+00:08:19.060 --> 00:08:22.430
+Ma kahi ʻāina me ka ʻāina nui, ʻokoʻa ka manawa o kēlā me kēia hale keaka.
+
+00:08:23.190 --> 00:08:25.100
+A laila ka ʻōnaehana hoʻopaʻa kiʻiʻoniʻoni
+
+00:08:25.100 --> 00:08:28.900
+He mea hiki ʻole ke pale ʻia mai ka hoʻopilikia ʻia e nā kumu o ke kaiapuni e like me nā ʻāpana manawa.
+
+00:08:29.410 --> 00:08:32.760
+ʻAʻole ʻike koke ʻia kēia mau mea ke ʻole ʻoe e nīnau pololei i ka loea kikowaena.
+
+00:08:32.760 --> 00:08:33.950
+He mea maʻalahi ke nalo
+
+00:08:34.740 --> 00:08:37.610
+Hoʻopoina pinepine nā loea kikowaena i kēia mau kikoʻī.
+
+00:08:37.610 --> 00:08:40.010
+No ka mea, hiki ke kāpae ʻia ka wehewehe ʻana
+
+00:08:41.680 --> 00:08:43.640
+ʻOiai ua hōʻike maopopo ʻia ka pilina hilinaʻi
+
+00:08:43.640 --> 00:08:47.500
+I kēia manawa, e nānā kākou i nā mea o loko o ka ʻōnaehana hoʻopaʻa kiʻiʻoniʻoni.
+
+00:08:48.430 --> 00:08:52.230
+ʻO ka mea mua, he aha ka hana a ka mea kūʻai aku ma ka ʻōnaehana hoʻopaʻa kiʻiʻoniʻoni?
+
+00:08:52.230 --> 00:08:54.230
+E nīnau kākou i nā loea kikowaena pūnaewele
+
+00:08:55.800 --> 00:08:57.880
+He aha ka hana a nā mea kūʻai aku?
+
+00:08:57.880 --> 00:08:59.970
+Ke ʻimi nei nā mea kūʻai aku i nā kiʻiʻoniʻoni,
+
+00:08:59.970 --> 00:09:01.450
+E nānā i nā kikoʻī o ke kiʻiʻoniʻoni,
+
+00:09:01.450 --> 00:09:02.910
+E koho i kahi manawa hōʻike,
+
+00:09:02.910 --> 00:09:04.450
+E koho i kou noho,
+
+00:09:04.450 --> 00:09:05.920
+E hoʻopaʻa i nā tikiki kiʻiʻoniʻoni,
+
+00:09:05.920 --> 00:09:07.610
+E nānā i nā kikoʻī hoʻopaʻa,
+
+00:09:07.610 --> 00:09:10.180
+E hana i nā mea e like me ke kāpae ʻana i kahi hoʻopaʻa
+
+00:09:10.180 --> 00:09:15.750
+Ke koho nei i kahi manawa hōʻikeʻike a me ke koho ʻana i kahi noho he ʻāpana o ke kaʻina hana hoʻopaʻa tikiki kiʻiʻoniʻoni?
+
+00:09:15.750 --> 00:09:18.880
+A e hoʻopaʻa i nā tikiki kiʻiʻoniʻoni, e hoʻōki i nā hoʻopaʻa ʻana
+
+00:09:18.880 --> 00:09:22.210
+Ma hope o nā mea a pau, ʻaʻole anei ʻoe e kūʻai wale ana i kahi tikiki a loaʻa iā ʻoe kahi uku hoʻihoʻi?
+
+00:09:22.210 --> 00:09:23.620
+pololei ʻoe
+
+00:09:23.620 --> 00:09:25.030
+Pololei kēnā
+
+00:09:25.480 --> 00:09:27.880
+No ka mea, he ʻāina kamaʻāina ia i kēia manawa
+
+00:09:27.880 --> 00:09:31.240
+E koho i kahi manawa hōʻike a koho i kou noho
+
+00:09:31.240 --> 00:09:33.200
+He ʻāpana kēia o ke kaʻina hana hoʻopaʻa tikiki kiʻiʻoniʻoni?
+
+00:09:33.200 --> 00:09:34.530
+Hiki iaʻu ke nīnau
+
+00:09:34.980 --> 00:09:37.220
+Akā inā he kahua kamaʻāina ʻole ia,
+
+00:09:37.410 --> 00:09:40.160
+Ke nānā pono ʻana i kēlā me kēia hihia hoʻohana
+
+00:09:40.520 --> 00:09:43.330
+E hana hou ʻoe i ke kaʻina hana hoʻomaʻemaʻe i nā manawa he nui.
+
+00:09:43.790 --> 00:09:45.350
+Ma muli o ke kūlana o ka papahana
+
+00:09:45.350 --> 00:09:48.080
+Hiki iā ʻoe ke hana hou i kēia kaʻina hana i nā manawa he nui,
+
+00:09:48.080 --> 00:09:50.580
+ʻO ka nui o kou manawa e hoʻolōʻihi ai a kālailai pono,
+
+00:09:50.580 --> 00:09:54.190
+E hōʻemi i ka hoʻāʻo a me ka hewa i ka wā o ka hoʻolālā a me ka hoʻokō ʻana.
+
+00:09:55.850 --> 00:09:57.530
+Ma muli o ke kamaʻilio ʻana a hiki i kēia manawa
+
+00:09:57.530 --> 00:10:00.970
+Ua hoʻonohonoho mākou i nā hihia hoʻohana a kā mākou mea kūʻai aku i ʻehā mau māhele:
+
+00:10:02.960 --> 00:10:04.470
+ʻO ka luna hoʻomalu ka mea aʻe
+
+00:10:05.190 --> 00:10:08.850
+Hiki i ka luna hoʻomalu ke ʻike he ʻelima mau mea hoʻokele:
+
+00:10:09.440 --> 00:10:13.620
+ʻO wau iho, ua akahele wau e pili ana i ka hoʻohana ʻana i ka huaʻōlelo "Manage" i ka hoʻomohala ʻana.
+
+00:10:14.360 --> 00:10:16.980
+He ʻōlelo ākea loa ka hoʻokele
+
+00:10:16.980 --> 00:10:19.030
+ʻAʻole maopopo ka mea āu e hana nei
+
+00:10:19.640 --> 00:10:20.950
+Pēlā nō hoʻi ma ʻaneʻi
+
+00:10:21.370 --> 00:10:23.760
+Pehea pololei e mālama ʻia ai?
+
+00:10:23.760 --> 00:10:24.810
+ʻaʻole maopopo iaʻu
+
+00:10:25.930 --> 00:10:27.620
+Ma ke kamaʻilio ʻana me nā loea kikowaena
+
+00:10:27.620 --> 00:10:31.220
+Ua hoʻonui ʻia kēlā me kēia mea hoʻokele i kahi hihia hoʻohana kikoʻī.
+
+00:10:31.900 --> 00:10:33.660
+Inā he papahana maoli ia
+
+00:10:33.660 --> 00:10:35.890
+Aia paha he nui aku nā hihia hoʻohana ma mua o kēia.
+
+00:10:36.150 --> 00:10:39.000
+Maanei ua hoʻomaʻalahi wau iā ia no ka wehewehe ʻana.
+
+00:10:39.860 --> 00:10:42.700
+ʻO ka mea nui e hoʻomaopopo ma aneʻi, ke hana ʻoe i kahi manawa holo,
+
+00:10:43.020 --> 00:10:45.900
+Hiki iā ʻoe ke ʻike ua hana ʻia hoʻi ka tikiki
+
+00:10:46.960 --> 00:10:49.200
+A i ke kūʻai ʻana a i ʻole ka hoʻihoʻi kālā ʻana i kahi tikiki
+
+00:10:49.490 --> 00:10:53.910
+Hiki iā ʻoe ke ʻike e hoʻohana mākou i kahi lawelawe waho i kapa ʻia he gateway uku.
+
+00:10:55.890 --> 00:10:58.670
+Ua hoʻohui au i nā hihia hoʻohana o nā mea kūʻai aku a me nā luna.
+
+00:10:59.350 --> 00:11:01.730
+Ke nānā nei i ka hihia hoʻohana holoʻokoʻa e like me kēia
+
+00:11:01.730 --> 00:11:02.900
+Manaʻo ʻole kekahi mea
+
+00:11:03.890 --> 00:11:05.840
+Aia kahi koho e hoʻohui i kahi hale kiʻiʻoniʻoni
+
+00:11:05.840 --> 00:11:08.720
+ʻAʻole au e ʻike i kekahi mea e like me Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Me he mea lā he nui nā hihia hoʻohana e kāpae ʻia ana.
+
+00:11:12.770 --> 00:11:15.980
+No ka mea, mai ka manaʻo o kahi loea i kahi ʻāpana, nui nā mea e wehewehe ai.
+
+00:11:15.980 --> 00:11:17.950
+ʻO kēia hihia hoʻohana, ka mea i ʻike maopopo ʻia,
+
+00:11:18.150 --> 00:11:19.810
+Hiki iā ʻoe ke haʻalele i ka wehewehe ʻana
+
+00:11:20.770 --> 00:11:23.460
+No laila pehea e pili ana i ka manaʻo o ka mea hoʻomohala?
+
+00:11:24.400 --> 00:11:28.290
+He mea maikaʻi ke kāpae ʻana i nā hihia nūhou maʻalahi e like me ka ʻimi ʻana i kahi hale kiʻiʻoniʻoni.
+
+00:11:28.290 --> 00:11:30.700
+ʻAʻole anei e ʻoi aku ka kōkua o kēia no ka hoʻokele palapala?
+
+00:11:31.720 --> 00:11:32.870
+Inā he hoʻolālā hope ia
+
+00:11:32.870 --> 00:11:35.920
+Nā hiʻohiʻona hoʻohana maʻalahi e like me ka ʻimi ʻana i kahi hale kiʻiʻoniʻoni
+
+00:11:35.920 --> 00:11:37.760
+Manaʻo wau he mea maikaʻi ke kāpae iā ia
+
+00:11:38.600 --> 00:11:41.570
+ʻO kaʻu e ʻōlelo nei, ʻaʻole i lohi loa ka pane ʻana i ka wā o ka hoʻokō ʻana.
+
+00:11:42.370 --> 00:11:44.310
+Akā inā he papahana maoli ia
+
+00:11:44.310 --> 00:11:48.450
+No nā mea hoʻolālā pale, he wahi hoʻomaka maikaʻi kēia mau hihia hoʻohana.
+
+00:11:49.250 --> 00:11:52.300
+Ua nānā ka mea hoʻolālā i ka hihia hoʻohana o ka ʻimi ʻana i kahi hale kiʻiʻoniʻoni.
+
+00:11:52.300 --> 00:11:55.300
+Pehea e hiki ai iaʻu ke ʻimi i nā hale kiʻiʻoniʻoni?
+
+00:11:55.300 --> 00:11:56.600
+E hiki iā ʻoe ke noʻonoʻo
+
+00:11:58.000 --> 00:12:00.880
+Ke hoʻohui ʻoe i nā kiʻikuhi i hoʻokahi, he paʻakikī ke ʻano.
+
+00:12:01.490 --> 00:12:05.150
+Inā he papahana maoli, inā e ʻoi aku ka paʻakikī.
+
+00:12:05.720 --> 00:12:08.240
+I kēia hihia, ʻaʻohe pono e hoʻoikaika i ka hui ʻana.
+
+00:12:08.810 --> 00:12:13.910
+Ua hoʻohui wale aku nei au iā lākou ma ʻaneʻi e hōʻike i nā hihia i nalowale.
+
+00:12:16.020 --> 00:12:18.490
+Ua hoʻopiha au i nā hihia i nalowale a pau
+
+00:12:19.200 --> 00:12:21.880
+Loaʻa iaʻu kahi hihia hoʻohana kahi i kāpae ʻia ai ka pilina me ka mea hana.
+
+00:12:22.290 --> 00:12:25.720
+Pili kēia i nā mea kūʻai aku a me nā luna hoʻokele.
+
+00:12:26.400 --> 00:12:29.480
+A no ka maʻalahi o ka hoʻokō ʻana, ua kākau wau ia mea ma ka ʻōlelo Pelekania.
+
+00:12:31.370 --> 00:12:34.160
+Ua maikaʻi i kēia manawa no ka mea he papahana liʻiliʻi ia
+
+00:12:34.160 --> 00:12:36.160
+Inā nui a paʻakikī ka papahana
+
+00:12:36.160 --> 00:12:38.980
+Ma hea kahi e hoʻomaka ai kahi loea kikowaena e wehewehe?
+
+00:12:38.980 --> 00:12:40.380
+He mea paʻakikī paha
+
+00:12:41.280 --> 00:12:43.300
+He aha ka hana a ka luna hoʻomalu?
+
+00:12:43.300 --> 00:12:44.700
+He nui ka hana
+
+00:12:44.700 --> 00:12:46.620
+E like me ka mea i manaʻo ʻia mai ka luna hoʻokele
+
+00:12:47.620 --> 00:12:49.750
+I kēia hihia, hiki iā mākou ke hoʻokaʻawale i nā mea hana keaka?
+
+00:12:49.750 --> 00:12:52.340
+He manaʻo maikaʻi nō hoʻi e nānā hou aku
+
+00:12:53.140 --> 00:12:54.790
+I kinohi ua kapa ʻia au he luna hoʻomalu
+
+00:12:54.790 --> 00:12:57.400
+Hiki paha ke hoʻokaʻawale ʻia ma ke kuleana
+
+00:12:58.520 --> 00:13:00.820
+A me ka hoʻohana ʻana i ka ʻōnaehana hoʻopaʻa kiʻiʻoniʻoni
+
+00:13:00.820 --> 00:13:02.870
+Aia paha he mau lawelawe o waho
+
+00:13:03.660 --> 00:13:05.340
+Inā mākou e hoʻokaʻawale i nā mea hana keaka e like me kēia,
+
+00:13:05.340 --> 00:13:09.420
+E hiki i nā loea kikowaena ke hāʻawi i ka ʻike ʻōnaehana hou aku.
+
+00:13:10.350 --> 00:13:14.000
+ʻOiaʻiʻo, hoʻokahi wale nō laʻana kēia o ke kālailai ʻana i kahi ʻāpana paʻakikī.
+
+00:13:14.540 --> 00:13:17.320
+Aia paha he mau ala maikaʻi ʻē aʻe
+
+00:13:17.960 --> 00:13:21.740
+He mea nui e pane maʻalahi ma muli o ke kūlana.
+
+00:13:24.250 --> 00:13:25.060
+ʻO kēia ka hopena
+
+00:13:25.950 --> 00:13:29.170
+I kēia manawa, e hoʻohana mākou i kahi kiʻikuhi hoʻohana
+
+00:13:29.170 --> 00:13:30.840
+E hoʻonohonoho i nā pahuhopu no ka papahana
+
+00:13:31.230 --> 00:13:33.700
+Ua hala au i nā pae mua o ka nānā ʻana.
+
+00:13:34.880 --> 00:13:38.010
+ʻO wau iho, i ke kaʻina hana hoʻomohala holoʻokoʻa
+
+00:13:38.010 --> 00:13:40.060
+Manaʻo wau ʻo ka loiloi ka mea paʻakikī loa
+
+00:13:40.570 --> 00:13:44.250
+No ka mea, pono mākou e hoʻonohonoho i nā manaʻo pohihihi a maopopo ʻole loa.
+
+00:13:45.020 --> 00:13:47.650
+I ka manawa aʻe e nānā mākou i nā hihia hoʻohana nui
+
+00:13:47.650 --> 00:13:49.470
+E kālailai kākou iā ia me nā kikoʻī hou aku
+
+00:13:50.300 --> 00:13:52.100
+Mahalo no kāu hana nui a hiki i kēia manawa.
+

@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: kl
+
+00:00:00.000 --> 00:00:02.020
+Hallo, tassaavoq Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Software tassaavoq ajornakusoortoq
+
+00:00:06.650 --> 00:00:08.890
+Siullermik kode-nik allanneqartariaqartunik amerlasuunik peqarpoq.
+
+00:00:09.760 --> 00:00:12.710
+Aamma assersuutigalugu projektit seriemut tassunga pilersippakka
+
+00:00:12.710 --> 00:00:15.270
+Kode 12.000-it sinnerlugit takissuseqarpoq.
+
+00:00:16.330 --> 00:00:18.320
+Ingerlatsinermi sullissineq ilumut tassaappat
+
+00:00:18.320 --> 00:00:21.530
+Naak sullissineq mikisuugaluartoq, ajornanngitsumik 100.000-it qaangersinnaavaat.
+
+00:00:22.130 --> 00:00:25.300
+Liniit hundrede tusind-it naammassisaqarluarput oqaluttualiat 20-t ulikkaarnissaannut.
+
+00:00:26.870 --> 00:00:29.560
+Kode-mik sivisuumik allanniarneq isumaqanngilaq naammassisimasoq.
+
+00:00:30.330 --> 00:00:32.540
+Kode-mik allassimasunik aaqqissuussisarnissaq ingerlateqqittariaqarpat.
+
+00:00:33.400 --> 00:00:35.800
+A-mik aaqqissuussiguit B-p aserorpaa.
+
+00:00:35.800 --> 00:00:39.130
+B-mik iluarsaassiguit A aamma C aseruuttoortussaapput.
+
+00:00:41.090 --> 00:00:44.260
+Analogi atorlugu soorlu Rasputica-mi paarnaarussaaqqalluni qiarpalulluni.
+
+00:00:44.260 --> 00:00:46.360
+Oqarsinnaavutit hiistimut assingusumik inissisimasoq.
+
+00:00:47.330 --> 00:00:50.550
+Tassani misigissavat niuernermik pisariaqartitsineq.
+
+00:00:52.580 --> 00:00:55.010
+Kisianni ilumut designdokumentimik allanniarsariguit,
+
+00:00:55.500 --> 00:00:58.490
+Eqqarsaatit niaqqunniittut konkrete-mik ersersinniarlugit
+
+00:00:58.790 --> 00:01:01.260
+Paasissavat isumaqarfigisatut ajornanngitsoq.
+
+00:01:01.890 --> 00:01:05.600
+Naak noter, tassa allakkiaq nipimik nipilersornermilluunniit takussutissiamik immiussisartoq,
+
+00:01:05.600 --> 00:01:06.700
+Tamanna pissanganartuuvoq
+
+00:01:07.520 --> 00:01:10.610
+Nipilersorneq kisiat pinnagu aamma aningaasaqarneq logistikkilu
+
+00:01:10.610 --> 00:01:14.060
+Assigiinngisitsinerusut isumassarsiat aamma abstrakte atuisunut piumasaqaatit
+
+00:01:14.060 --> 00:01:17.220
+Immikkut ittumik modelimi ersersinnissaa ajornanngilaq.
+
+00:01:18.530 --> 00:01:19.490
+Ajoraluartumik
+
+00:01:19.770 --> 00:01:23.200
+Abstrakte isumassarsiat modellernissaannut ajornartorsiut qaangerniarlugu
+
+00:01:23.540 --> 00:01:26.860
+UML 1990-ikkunni kingullerni inunngorpoq.
+
+00:01:27.730 --> 00:01:30.120
+Taanna Grady Butch-imit aqunneqarpoq.
+
+00:01:31.460 --> 00:01:34.390
+UML atortarparput neriuuteqarluta
+
+00:01:34.980 --> 00:01:36.990
+Klassimik diagrammik titartakkit
+
+00:01:36.990 --> 00:01:38.760
+Aammattaaq sekvensdiagrammimik titartaavugut
+
+00:01:39.430 --> 00:01:39.980
+qanorluunniit
+
+00:01:40.360 --> 00:01:43.160
+Ilumut designerniarlugu misiliigama, taanna allaaneruvoq toqqaannartumik kode-lernermit.
+
+00:01:43.160 --> 00:01:45.130
+Assigiinngilluinnartutut isikkoqanngilaq
+
+00:01:45.590 --> 00:01:46.520
+Sooq taamaappa?
+
+00:01:47.350 --> 00:01:50.910
+Tassami eqqarsartaatsip atuutsinneqarneranut ileqquuvoq.
+
+00:01:51.290 --> 00:01:54.170
+Abstrakte isumassarsiat konkretinngortinniarlugit,
+
+00:01:54.490 --> 00:01:57.590
+Pissutigalugu implementeringsniveau-mik eqqarsarneq UML-imut nutserneqartarmat.
+
+00:01:58.520 --> 00:02:00.270
+Pissutigalugu noter atuarsinnaagakku
+
+00:02:00.270 --> 00:02:01.950
+Soorlu uanga taanna erinarsorsinnaanngilara
+
+00:02:02.390 --> 00:02:03.850
+UML-imik ilinniarsimanerit pissutigalugu
+
+00:02:03.850 --> 00:02:06.170
+Soorlu designimik piginnaasanik ineriartortitsisarneq.
+
+00:02:07.700 --> 00:02:09.300
+Taamaattumik seriemi tassani
+
+00:02:09.300 --> 00:02:11.580
+Suliniutit ilumoortut aqqutigalugit
+
+00:02:11.580 --> 00:02:14.420
+Abstrakte piumasaqaatit qanoq konkretiserineqarsinnaanersut
+
+00:02:14.420 --> 00:02:16.290
+Kode-mik attaveqarsinnaavit?
+
+00:02:16.290 --> 00:02:18.010
+Uanga nammineq takutikkumaarpakkit
+
+00:02:18.530 --> 00:02:20.930
+Filmimut billetsinik domæne atorlugu inniminniinissaq toqqarpara
+
+00:02:21.370 --> 00:02:25.200
+Filmimut billetsinut inniminniinerit paasineqarsinnaapput, tassami taakku annertuumik ilisimaneqarluartumik domæneqarmata.
+
+00:02:25.200 --> 00:02:29.710
+Ilaatigut suliassat assigiinngitsut soorlu isernissaq, akiliinissaq, aamma issiavimmik toqqaanissaq.
+
+00:02:29.710 --> 00:02:31.580
+Assersuutissatut pitsaasutut isigineqartarpoq
+
+00:02:33.600 --> 00:02:36.890
+Tunngaviusumik allaaserisami matumani sammisaq tassaavoq softwaremik suliaqarneq, kisianni...
+
+00:02:36.890 --> 00:02:40.350
+Aamma misileraalluni ineriartortitsineq sammissavarput.
+
+00:02:41.210 --> 00:02:44.890
+Ullumikkut ineriartortitsinermi avatangiisit misileraanermut atortut nunap inoqqaavisa tapersersorpaat.
+
+00:02:45.600 --> 00:02:48.320
+Naak open source-imik suliassat tusaamasat qiviaraanni,
+
+00:02:48.320 --> 00:02:51.130
+Misilitsinnerup aalajangersimasup niveau-anik peqarpugut.
+
+00:02:51.740 --> 00:02:56.200
+Tamanna isumaqarpoq misissuineq taama pingaaruteqartigisoq aammalu iluaqutaasinnaasoq.
+
+00:02:56.870 --> 00:02:58.120
+Kisianni ilumut
+
+00:02:58.120 --> 00:03:02.590
+Amerlasuutigut TDD kisiat pinnagu, aammali misissuinermi automatisering eqqortumik atuutilersinneqanngilaq.
+
+00:03:03.190 --> 00:03:06.260
+Piareersarneq ajorlugu siullermik misilitsinnerit isumaqarluartunik allannissaat tassaavoq
+
+00:03:06.260 --> 00:03:07.540
+Ajornanngilaq
+
+00:03:08.410 --> 00:03:12.340
+Tamanna softwaremik suliaqarnermi ataatsimoorussamik piginnaasanik pisariaqartitsivoq.
+
+00:03:13.320 --> 00:03:16.270
+Taava, pitsaaneruvoq design aamma TDD ataatsimoorlutik suliarinissaat.
+
+00:03:16.270 --> 00:03:18.180
+Effektiviusutut nalilerpara
+
+00:03:20.120 --> 00:03:23.450
+Taamaattumik maanna suliap ataatsimeersuarnera siulleq aallartissavarput.
+
+00:03:24.150 --> 00:03:26.470
+Pissutigalugu tamanna suliassaq mikisoq
+
+00:03:26.470 --> 00:03:28.090
+Peqataasut marluupput
+
+00:03:28.790 --> 00:03:32.340
+Taanna talerperliup tungaaniittoq tassaavoq domæne-mik ilisimasalik, taannalu talerperliup tungaaniittoq tassaavoq ineriartortitsisoq.
+
+00:03:34.550 --> 00:03:37.790
+Domæne-mik ilisimasallit systemit sanaartortariaqarpagut oqaaseqarsinnaapput.
+
+00:03:37.790 --> 00:03:39.280
+Oqaluttuarpassuarnik oqaluttuarpoq
+
+00:03:40.340 --> 00:03:42.160
+Teateri ingerlataraarput
+
+00:03:42.160 --> 00:03:44.710
+Nuna tamakkerlugu taakku sisamat tusindit missaanniipput.
+
+00:03:44.710 --> 00:03:47.220
+Siunissami suli annertunerulersinnaavoq.
+
+00:03:47.220 --> 00:03:50.480
+Ullumikkut filmimut billetsinut inniminniinermut atortoq kisimi tapersersorneqarpoq.
+
+00:03:50.480 --> 00:03:54.510
+Annertuumik tusarnaartitsinernut billetsinik tuniniaaneq kingusinnerusukkut ilanngunneqarnissaa pilersaarutigaarput.
+
+00:03:54.510 --> 00:03:58.940
+Aammalu pingaaruteqartoq tassaavoq issiaviit marloqiusamik booking-ertariaqanngitsutit.
+
+00:03:58.940 --> 00:04:03.250
+Siornatigut ataasiakkaanik sullissiviit taamatut ajornartorsiuteqarlutik ilumut ajornartorsiuteqarsimapput.
+
+00:04:03.250 --> 00:04:07.670
+Pissutigalugu filmimik paasissutissanik aammalu nalilersuinermik paasissutissanik katersorneqareersunik amerlasuunik peqarmat.
+
+00:04:07.670 --> 00:04:11.090
+Paasissutissat taakku ataqqineqartussaapput.
+
+00:04:12.090 --> 00:04:14.730
+Tassa oqallinneq aaqqissuulluagaalluni, kisianni
+
+00:04:14.890 --> 00:04:16.960
+Ilumut paasissutissanik amerlanerusunik peqarpoq
+
+00:04:16.960 --> 00:04:18.600
+Aaqqissuussaanngitsumik tunniunneqassaaq
+
+00:04:19.470 --> 00:04:22.110
+Kisianni oqaluttuaq suliap aallartinnerani saqqummertoq tassaavoq
+
+00:04:22.110 --> 00:04:23.780
+Pissutigalugu piumasaqaataavoq pingaarnerpaaq
+
+00:04:23.780 --> 00:04:25.320
+Tusarnaarluartariaqarputit
+
+00:04:27.110 --> 00:04:29.810
+Ineriartortitsisartut domænemik ilisimasallit tusarnaartarpaat
+
+00:04:29.810 --> 00:04:31.290
+Arlalinnik apeqquteqarpunga
+
+00:04:32.290 --> 00:04:34.660
+Annertuumik isiginnaartitsinermut billetsinut inniminniinermut funktioni eqqaamasat
+
+00:04:34.660 --> 00:04:36.910
+Qanga ilanngunneqassava?
+
+00:04:36.910 --> 00:04:39.910
+Tamanna suliap matuma annertussusaanut siusinnerusukkut ilanngunneqartariaqarpa?
+
+00:04:39.910 --> 00:04:43.590
+Imaluunniit paaserusuppara suli eqqarsaatigisariaqaraluarlugu
+
+00:04:43.590 --> 00:04:46.090
+Aammalu paasissutissat pioreersut pilersorneqarnissaat pisariaqartinneqartoq
+
+00:04:46.090 --> 00:04:48.940
+Tamanna isumaqarpa DB-systemi allanngortittariaqanngikkatsigu?
+
+00:04:48.940 --> 00:04:51.950
+Ullumikkut DB-mik avitseqatigiittartunik allanik sullissisoqarpa?
+
+00:04:53.580 --> 00:04:54.980
+Soorlu DB-mi takusinnaagitsik,
+
+00:04:54.980 --> 00:04:57.290
+Pissutigalugu domain-imik ilisimasallit ineriartortitsisuunngillat
+
+00:04:57.290 --> 00:04:59.430
+Teknikkikkut ersersitsineq marlunnik isumaqarpoq
+
+00:04:59.910 --> 00:05:02.890
+Ineriartortitsisut tamakku peqqissaartumik misissoqqissaartariaqarpaat.
+
+00:05:04.230 --> 00:05:07.450
+Domain-imi ilisimasallit ineriartortitsisut apeqqutaannut ima akisarpaat:
+
+00:05:08.330 --> 00:05:10.210
+Annertuumik isiginnaartitsinermut billetsinut inniminniisarneq
+
+00:05:10.210 --> 00:05:13.450
+Suli immikkut ittumik pilersaarusiortoqanngilaq.
+
+00:05:13.450 --> 00:05:15.970
+Kisianni siunissami features-it ilanngunneqarpata
+
+00:05:15.970 --> 00:05:18.700
+Taamaalilluni annertuumik ajornartorsiuteqanngitsumik nutarterisinnaassallutit
+
+00:05:18.700 --> 00:05:22.600
+Isumaqarpunga pitsaassasoq maannakkut eqqarsaatigisinnaagukku.
+
+00:05:22.600 --> 00:05:27.050
+DB-mik sullissinerput allamut atortarparput.
+
+00:05:27.050 --> 00:05:32.840
+Systemip nammineq allanngortinneqarnera annertuumik ajornartorsiutaanngilaq, paasissutissat pitsaasumik ingerlanneqarpata.
+
+00:05:33.840 --> 00:05:35.080
+Oqaluttuaq tusareerlugu
+
+00:05:35.080 --> 00:05:39.400
+Isumaqarpunga takutitsineq annertooq pillugu ernumasariaqanngitsut.
+
+00:05:39.400 --> 00:05:40.790
+Suliniummi annertussuseq tassaanngilaq
+
+00:05:40.790 --> 00:05:43.040
+Piumasaqaatit aamma ersarissuunngillat
+
+00:05:43.040 --> 00:05:44.930
+Nalunngilara qaqugu pisariaqartitsissanerlunga, kisianni
+
+00:05:44.930 --> 00:05:47.710
+Tassa ajornartorsiut kingusinnerusukkut nalilersortariaqassavarput.
+
+00:05:48.920 --> 00:05:50.910
+Aamma allakkiami allassimanngikkaluartoq
+
+00:05:50.910 --> 00:05:54.880
+Domæne-mik ilisimasallit aamma akissuteqartussaapput, annertuumik isiginnaartitsisarnissaq eqqarsaatigissagaat.
+
+00:05:54.880 --> 00:05:55.960
+Illit puigortariaqanngilatit
+
+00:05:56.740 --> 00:05:58.320
+Ajunngilaq
+
+00:05:58.320 --> 00:06:00.630
+Taava, annertuumik tusarnaartitsinermut billetsinut inniminniinermi funktion
+
+00:06:00.630 --> 00:06:04.500
+Suliniummut tassunga pingaarnertut pingaarnertut ilaatinngilara.
+
+00:06:04.500 --> 00:06:08.220
+Taarsiullugu ineriartortitsinermi kingusinnerusukkut funktionalitetimik annertusaanissaq ajornannginnerulersippaa.
+
+00:06:08.220 --> 00:06:10.190
+Taanna isumagilluarpara
+
+00:06:10.190 --> 00:06:12.840
+Ernumassanngilatit. Uanga kisimi upperiuk
+
+00:06:13.840 --> 00:06:15.960
+Pingaaruteqarpoq isumaqatigiilluarnissaq
+
+00:06:17.980 --> 00:06:19.500
+Manna tikillugu oqaloqatigiinnerput aqqutigalugu
+
+00:06:19.500 --> 00:06:22.700
+Pingaarnertut qullerpaat imatut agguataarneqarput:
+
+00:06:23.220 --> 00:06:25.890
+Tassa domænemik ilisimasallit paasissutissiissutigaat.
+
+00:06:25.890 --> 00:06:28.410
+Ineriartortitsisup isiginnittaasianit oqariartuuteqarneq aaqqissuussinerlu
+
+00:06:28.410 --> 00:06:29.810
+Suliniut aallartissavat
+
+00:06:31.700 --> 00:06:32.860
+Domæne-mik ilisimasallit peqatigalugit
+
+00:06:32.860 --> 00:06:34.980
+Suliniummi anguniakkat aalajangersimagukkit,
+
+00:06:35.620 --> 00:06:37.980
+Maanna piffissanngorpoq projektit taaguuteqartinnissaanut.
+
+00:06:38.750 --> 00:06:41.840
+Siullermik domæne-mik ilisimasalik isumassarsiaq aperiuk.
+
+00:06:42.800 --> 00:06:45.540
+Suliniut qanoq ateqartariaqarpa?
+
+00:06:45.540 --> 00:06:47.680
+Tassaavoq filminik inniminniinermik systemi.
+
+00:06:47.680 --> 00:06:50.150
+Filminik Booking Systemi kisiat qanoq ippa?
+
+00:06:50.150 --> 00:06:51.430
+aap, piumanngilara
+
+00:06:51.430 --> 00:06:53.570
+Isiginnaartitsinerit annertuut uanga isumagissavakka
+
+00:06:53.570 --> 00:06:56.930
+Filminik Booking System atorlugu ingerlaqqissaagut. Aap?
+
+00:06:56.930 --> 00:06:58.180
+torrak
+
+00:06:58.180 --> 00:06:59.950
+Qujanarujussuaq
+
+00:07:01.000 --> 00:07:05.230
+Domæne-mik ilisimasallit koreamiusut projektit aqqinik piumasaqarsinnaapput.
+
+00:07:05.580 --> 00:07:07.680
+Kisianni ineriartortitsisup isiginnittaasianit
+
+00:07:07.680 --> 00:07:09.990
+Taaguutit tamarmik ilaatigut projektit aqqi
+
+00:07:09.990 --> 00:07:12.180
+Pissutigalugu kode-mi toqqaannartumik atuutilersinneqartarmat,
+
+00:07:12.600 --> 00:07:15.000
+Pisinnaappat tuluttut nassuiarnissaa ajornannginneruvoq.
+
+00:07:15.540 --> 00:07:19.510
+Pingaaruteqarpoq ineriartortitsisut domæne-mik ilisimasallit pisariaqartitaannik upperinnillutik malinnaanissaq, kisianni...
+
+00:07:19.960 --> 00:07:21.430
+Suliniut tamaat eqqarsaatigalugu
+
+00:07:21.430 --> 00:07:23.930
+Aamma akisussaaffigaarput suliassat pitsaasumik ingerlatsinissaannut.
+
+00:07:25.850 --> 00:07:27.760
+Suliniummut aqqimik aalajangersimaguit
+
+00:07:27.760 --> 00:07:31.380
+Maanna piffissanngorpoq paasiniarlugu kikkut Filminik Inniminniinermik Systemimik atuisarnersut.
+
+00:07:32.020 --> 00:07:34.940
+Soorunami tamanna pillugu paasissutissanik domain-imik ilisimasalimmut aperisariaqarpat.
+
+00:07:35.420 --> 00:07:38.740
+Aammalu paasivagut ataasiakkaanik aqutsisunillu peqartugut.
+
+00:07:40.820 --> 00:07:43.280
+Niuernerup siulliup nalaani ajornanngitsumik misigineqarsinnaasut ilaat tassaavoq
+
+00:07:43.280 --> 00:07:44.760
+Tassaavoq avataaniit apeqqutaaneq
+
+00:07:45.340 --> 00:07:46.580
+Avatangiisinut tunngasut tassaapput
+
+00:07:46.580 --> 00:07:49.210
+Tassaasinnaavoq legacy systemi pioreersoq,
+
+00:07:49.660 --> 00:07:51.420
+Tassaasinnaavoq akiliisarfiit
+
+00:07:52.020 --> 00:07:53.670
+Tamanna dependence-mik ataqatigiinneq tassaavoq
+
+00:07:53.670 --> 00:07:56.760
+Pissutigalugu systemip tamakkerlugu sananeqarneranut annertuumik sunniuteqarsinnaammat.
+
+00:07:56.950 --> 00:08:00.150
+Pingaaruteqarpoq sapinngisamik siusinnerusukkut tunniussinissaq.
+
+00:08:00.570 --> 00:08:01.240
+ajoraluartumik
+
+00:08:01.820 --> 00:08:04.990
+Pissutsit soorlu akiliisarfiit aamma systemit siulliit
+
+00:08:05.270 --> 00:08:07.730
+Pissutigalugu systemini pioreersuni atorneqalereermat
+
+00:08:07.990 --> 00:08:10.360
+Taanna assut ajornanngitsumik paasineqarsinnaavoq
+
+00:08:11.230 --> 00:08:14.410
+Ilaatigut dependentimik aappariinnermi ajornanngitsumik eqqarsaatigineqarsinnaasoq tassaavoq
+
+00:08:14.410 --> 00:08:16.090
+Avatangiisinut tunngasut tassaapput
+
+00:08:16.900 --> 00:08:19.060
+Nunarput nalunaaquttap ingerlanerani taamaallaat inissisimavoq
+
+00:08:19.060 --> 00:08:22.430
+Nunami nunap immikkoortuani angisuumi isiginnaartitsisarfiit ataasiakkaat piffissaq assigiinngitsoq atortarpaat.
+
+00:08:23.190 --> 00:08:25.100
+Taava Filminik Inniminniinermut Systemi
+
+00:08:25.100 --> 00:08:28.900
+Avatangiisinut tunngasunik soorlu piffissap ingerlanerani sunniuteqarnissaa pinngitsoorneqarsinnaanngilaq.
+
+00:08:29.410 --> 00:08:32.760
+Pissutsit taakku erseqqissumik takuneqarsinnaanngillat, domain-imi immikkut ilisimasalimmut toqqaannartumik aperinngikkuit.
+
+00:08:32.760 --> 00:08:33.950
+Ajornanngilaq misigissallugu
+
+00:08:34.740 --> 00:08:37.610
+Domæne-mik ilisimasallit taakku kisitsisit puigortarpaat.
+
+00:08:37.610 --> 00:08:40.010
+Pissutigalugu nassuiaat ilanngunneqarsinnaammat
+
+00:08:41.680 --> 00:08:43.640
+Taamaattumik dependency-mik ataqatigiinneq ersarissumik oqaatigineqarmat
+
+00:08:43.640 --> 00:08:47.500
+Maanna Filminik Booking Systemip iluani pingaarnertut sammisaqarpugut.
+
+00:08:48.430 --> 00:08:52.230
+Siullermik Film Booking Systemimi ataasiakkaaq qanoq iliortarpa?
+
+00:08:52.230 --> 00:08:54.230
+Domæne-mik ilisimasallit apeqqutigissavagut
+
+00:08:55.800 --> 00:08:57.880
+Ataasiakkaat qanoq iliortarpat?
+
+00:08:57.880 --> 00:08:59.970
+Ataasiakkaat filminik ujaasipput,
+
+00:08:59.970 --> 00:09:01.450
+Filmip kisitsisit takukkit,
+
+00:09:01.450 --> 00:09:02.910
+Piffissaq takutinneqartussaq toqqaruk,
+
+00:09:02.910 --> 00:09:04.450
+Issiaviit toqqaruk,
+
+00:09:04.450 --> 00:09:05.920
+Filmimut billetsinik inniminniisoqarsinnaavoq,
+
+00:09:05.920 --> 00:09:07.610
+Inniminniinermut paasissutissat takukkit,
+
+00:09:07.610 --> 00:09:10.180
+Soorlu inniminniinermik unitsitsineq suliariuk
+
+00:09:10.180 --> 00:09:15.750
+Takutitsiffissaq toqqarnissaa aamma issiavimmik toqqaanissaq filmimut billetsinik inniminniinermut ilaapput?
+
+00:09:15.750 --> 00:09:18.880
+Aamma filmimut billetsinik inniminniinissaq, inniminniinerit unitsinnissaat
+
+00:09:18.880 --> 00:09:22.210
+Soorunami billetsimik pisisarneq aningaasanillu taarsiiffigineqarneq ajorpit?
+
+00:09:22.210 --> 00:09:23.620
+illit eqqorpit
+
+00:09:23.620 --> 00:09:25.030
+Tassa taamaappoq
+
+00:09:25.480 --> 00:09:27.880
+Pissutigalugu maanna ilisimaneqarluartoq
+
+00:09:27.880 --> 00:09:31.240
+Piffissaq takutinneqartussaq toqqaruk aammalu issiaviit toqqarlugit
+
+00:09:31.240 --> 00:09:33.200
+Tamanna filmimut billetsinut inniminniinermut ilaavoq?
+
+00:09:33.200 --> 00:09:34.530
+Aperisinnaavunga
+
+00:09:34.980 --> 00:09:37.220
+Kisianni ilisimaneqanngitsumik domæne-uppat,
+
+00:09:37.410 --> 00:09:40.160
+Atorneqarnerit ataasiakkaat sukumiisumik misissoqqissaarlugit
+
+00:09:40.520 --> 00:09:43.330
+Arlaleriarlutit raffinerineq uteqqissavat.
+
+00:09:43.790 --> 00:09:45.350
+Suliniummi qanoq inissisimaneq apeqqutaatillugu
+
+00:09:45.350 --> 00:09:48.080
+Suliaq tamanna arlaleriarlutit uteqqissinnaavat,
+
+00:09:48.080 --> 00:09:50.580
+Piffissaq atorlugu peqqissaartumik misissueqqissaartarpat,
+
+00:09:50.580 --> 00:09:54.190
+Niuernermi atuutilersitsinermilu misileraaneq kukkunerlu annikillisikkit.
+
+00:09:55.850 --> 00:09:57.530
+Manna tikillugu oqaloqatigiinneq aallaavigalugu
+
+00:09:57.530 --> 00:10:00.970
+Atuisut atuinerput sisamanut immikkoortortarsimavarput:
+
+00:10:02.960 --> 00:10:04.470
+Taava tassaavoq aqutsisoq
+
+00:10:05.190 --> 00:10:08.850
+Administratorip takusinnaavaa aqutsinermi pissutsit pingasut:
+
+00:10:09.440 --> 00:10:13.620
+Uanga nammineq oqaaseq "Manage" ineriartortitsinermi atorneqarnissaanut mianersoqquvunga.
+
+00:10:14.360 --> 00:10:16.980
+Manage tassaavoq oqaaseq annertoorujussuaq
+
+00:10:16.980 --> 00:10:19.030
+Nalunarpoq qanoq iliornersutit
+
+00:10:19.640 --> 00:10:20.950
+Maani aamma taamaappoq
+
+00:10:21.370 --> 00:10:23.760
+Qanoq eqqortumik aqunneqartarpa?
+
+00:10:23.760 --> 00:10:24.810
+Naluara
+
+00:10:25.930 --> 00:10:27.620
+Domæne-mik ilisimasallit oqaloqatiginerisigut
+
+00:10:27.620 --> 00:10:31.220
+Aqutsinermi atortut ataasiakkaat immikkut ittumik atuinermut annertusarneqarput.
+
+00:10:31.900 --> 00:10:33.660
+Ilumut projektiuppat
+
+00:10:33.660 --> 00:10:35.890
+Tamatuma saniatigut atuinerit amerlanerupput.
+
+00:10:36.150 --> 00:10:39.000
+Uani nassuiaatissatut piuminarsarpara.
+
+00:10:39.860 --> 00:10:42.700
+Uani maluginiassagipput pingaaruteqartoq tassaavoq, ingerlaarfiusumik pilersitsisoqarpat,
+
+00:10:43.020 --> 00:10:45.900
+Takusinnaavat billetsi aamma pilersinneqartoq
+
+00:10:46.960 --> 00:10:49.200
+Aammalu billetsimik pisiniarnermi imaluunniit taarsiiffiginninnermi
+
+00:10:49.490 --> 00:10:53.910
+Aamma takusinnaavat avataaniit sullissineq akiliisarfimmik taaneqartartoq atortarparput.
+
+00:10:55.890 --> 00:10:58.670
+Ataasiakkaat aamma aqutsisut atuinerat ataatsimoortippara.
+
+00:10:59.350 --> 00:11:01.730
+Use case tamakkerlugu qiviaraanni taamatut
+
+00:11:01.730 --> 00:11:02.900
+Suliaq imaannaanngitsoq misigivoq
+
+00:11:03.890 --> 00:11:05.840
+Teaterimik ilanngussaqarnissaq periarfissaqarpoq
+
+00:11:05.840 --> 00:11:08.720
+Uanga Search Theatre-tut ittumik takusaqanngilanga
+
+00:11:09.410 --> 00:11:12.130
+Sunaaffa arlalinnik use case-inik atornerluisoqartartoq.
+
+00:11:12.770 --> 00:11:15.980
+Pissutigalugu domæne-mik ilisimasalik isigalugu nassuiaatissaqartorujussuuvoq.
+
+00:11:15.980 --> 00:11:17.950
+Una atuineq, taama erseqqissutut isigineqartoq,
+
+00:11:18.150 --> 00:11:19.810
+Nassuiaat ilanngussinnaavat
+
+00:11:20.770 --> 00:11:23.460
+Taava ineriartortitsisup isiginnittaasianit sunagooq?
+
+00:11:24.400 --> 00:11:28.290
+Pitsaaneruvoq tusagassiuutit ajornanngitsut soorlu isiginnaartitsisarfimmik ujaasineq unitsissallugit.
+
+00:11:28.290 --> 00:11:30.700
+Tamanna allakkianik aqutsinermut iluaqutaanerussannginnerpa?
+
+00:11:31.720 --> 00:11:32.870
+Backend-imik suliaqarneq tassaappat
+
+00:11:32.870 --> 00:11:35.920
+Atorneqarsinnaasut ajornanngitsut soorlu isiginnaartitsisarfimmik ujarlerneq
+
+00:11:35.920 --> 00:11:37.760
+Isumaqarpunga skip-ernissaq ajunngitsoq
+
+00:11:38.600 --> 00:11:41.570
+Oqaatigisara tassaavoq atuutsinneqarnerata nalaani akissuteqarnissaq kingusippallaanngitsoq.
+
+00:11:42.370 --> 00:11:44.310
+Kisianni ilumut projektiuppat
+
+00:11:44.310 --> 00:11:48.450
+Skærmimik pilersaarusiortunut atuinerit taakku aallartiffiulluarsinnaapput.
+
+00:11:49.250 --> 00:11:52.300
+Pilersaarusiortup isiginnaartitsisarfimmik ujaasinermi atuineq qiviarpaa.
+
+00:11:52.300 --> 00:11:55.300
+Isiginnaartitsisarfinnik ujaasisinnaaneq qanoq periarfissinneqartariaqarpa?
+
+00:11:55.300 --> 00:11:56.600
+Eqqarsarsinnaassaatit
+
+00:11:58.000 --> 00:12:00.880
+Diagrammit ataatsimoortillugit ataatsimoortillugit, taava pissanganartutut isikkoqarpoq.
+
+00:12:01.490 --> 00:12:05.150
+Ilumoortumik suliniuteqarsimagaluarpat, taava annertuumik ajornakusoorsinnaagaluarpoq.
+
+00:12:05.720 --> 00:12:08.240
+Tassa ataatsimoortitsinissaq pinngitsoorniarlugu pisariaqanngilaq.
+
+00:12:08.810 --> 00:12:13.910
+Uani aatsaat ataatsimoortippakka, paasiniarlugu suliassanik amigaateqartoqartoq.
+
+00:12:16.020 --> 00:12:18.490
+Suliassat amigaatigineqartut tamarmik immerpakka
+
+00:12:19.200 --> 00:12:21.880
+Uanga use case-eqarpunga, tassani isiginnaartitsisartumut attaveqarneq ilanngunneqanngilaq.
+
+00:12:22.290 --> 00:12:25.720
+Tamanna atuisunut aamma aqutsisunut atuuppoq.
+
+00:12:26.400 --> 00:12:29.480
+Aammalu atuutilersinneqarnissaa ajornannginnerulersinniarlugu tuluttut allappara.
+
+00:12:31.370 --> 00:12:34.160
+Maanna ajunngilaq pissutigalugu suliassaq mikisoq
+
+00:12:34.160 --> 00:12:36.160
+Suliniut annertuujuppat aammalu ajornakusoorpat
+
+00:12:36.160 --> 00:12:38.980
+Domæne-mik ilisimasalik sumi nassuiaateqalertariaqarpa?
+
+00:12:38.980 --> 00:12:40.380
+Ajornartorsiutaasinnaavoq
+
+00:12:41.280 --> 00:12:43.300
+Administratori qanoq iliortarpa?
+
+00:12:43.300 --> 00:12:44.700
+Suliassaqartorujussuuvoq
+
+00:12:44.700 --> 00:12:46.620
+Soorlu pisortamit naatsorsuutigineqartoq
+
+00:12:47.620 --> 00:12:49.750
+Tassani isiginnaartitsisartut immikkoortitersinnaavagut?
+
+00:12:49.750 --> 00:12:52.340
+Aamma nalilersuinissaq isumassarsiatsialaavoq
+
+00:12:53.140 --> 00:12:54.790
+Aallaqqaammut administratoritut taaneqartarpunga
+
+00:12:54.790 --> 00:12:57.400
+Rolle malillugu immikkoortitsisoqarsinnaavoq
+
+00:12:58.520 --> 00:13:00.820
+Aammalu Filminik Inniminniinermut Systemi atorlugu
+
+00:13:00.820 --> 00:13:02.870
+Avataaniit sullissisoqarsinnaavoq
+
+00:13:03.660 --> 00:13:05.340
+Isiginnaartitsisut taamatut segmenterpagut,
+
+00:13:05.340 --> 00:13:09.420
+Domæne-mik ilisimasallit systematiskiusumik paasissutissanik tunniussisinnaassapput.
+
+00:13:10.350 --> 00:13:14.000
+Soorunami tamanna domænemik annertuumik misissueqqissaarnissamut assersuutissaavoq.
+
+00:13:14.540 --> 00:13:17.320
+Allanik pitsaasunik aqqutissaqarsinnaavoq
+
+00:13:17.960 --> 00:13:21.740
+Pingaaruteqarpoq pissutsit apeqqutaallutik tamatigoortumik akissuteqarnissaq.
+
+00:13:24.250 --> 00:13:25.060
+Taamatut inerniliisoqarpoq
+
+00:13:25.950 --> 00:13:29.170
+Taamaalilluni atuinermut diagrammi atorniarparput
+
+00:13:29.170 --> 00:13:30.840
+Suliniummut anguniagassat aalajangersarlugit
+
+00:13:31.230 --> 00:13:33.700
+Misissuinerup siulliup nalaani ingerlasimavunga.
+
+00:13:34.880 --> 00:13:38.010
+Personligt, ineriartortitsinerup nalaani tamakkerlugu
+
+00:13:38.010 --> 00:13:40.060
+Isumaqarpunga misissuineq ajornerpaaq
+
+00:13:40.570 --> 00:13:44.250
+Pissutigalugu isumassarsiat abstrakterepaat aammalu eqqortuunngitsut aaqqissuuttariaqarpagut.
+
+00:13:45.020 --> 00:13:47.650
+Tulliani pingaarnertut atorneqartut qiviassavagut
+
+00:13:47.650 --> 00:13:49.470
+Taanna sukumiinerusumik misissoriartigu
+
+00:13:50.300 --> 00:13:52.100
+Manna tikillugu sulilluarsimanersi pillugu qujanaq.
+

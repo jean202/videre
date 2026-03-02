@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: ig
+
+00:00:00.000 --> 00:00:02.020
+Ndewo, nke a bụ Koodu Omume.
+
+00:00:03.290 --> 00:00:05.350
+Ngwanrọ dị mgbagwoju anya
+
+00:00:06.650 --> 00:00:08.890
+Nke mbụ, e nwere ọtụtụ koodu nke a ga-ede.
+
+00:00:09.760 --> 00:00:12.710
+Naanị ihe atụ ọrụ m mepụtara maka usoro a
+
+00:00:12.710 --> 00:00:15.270
+Koodu ahụ karịrị ahịrị 12,000.
+
+00:00:16.330 --> 00:00:18.320
+Ọ bụrụ na ọ bụ ọrụ ọrụ n'ezie
+
+00:00:18.320 --> 00:00:21.530
+Ọ bụrụgodị na ọ bụ obere ọrụ, ọ ga-agafe ahịrị puku narị (100,000).
+
+00:00:22.130 --> 00:00:25.300
+Otu narị puku ahịrị zuru ezu iji jupụta akwụkwọ akụkọ iri abụọ.
+
+00:00:26.870 --> 00:00:29.560
+Ide koodu ogologo apụtaghị na ọ gwụla.
+
+00:00:30.330 --> 00:00:32.540
+Ị ga-anọgide na-edozi koodu ị na-ede.
+
+00:00:33.400 --> 00:00:35.800
+Ọ bụrụ na ị dozie A, B ga-agbaji.
+
+00:00:35.800 --> 00:00:39.130
+Ọ bụrụ na ị dozie B, A na C ga-agbaji.
+
+00:00:41.090 --> 00:00:44.260
+Iji ihe atụ mee ihe, ọ dị ka ịnọ n'ime Rasputica ma na-ebe ákwá.
+
+00:00:44.260 --> 00:00:46.360
+I nwere ike ikwu na ọ bụ ọnọdụ yiri nke ịnyịnya.
+
+00:00:47.330 --> 00:00:50.550
+N'oge a, ị ga-ahụ mkpa ọ dị imepụta ihe.
+
+00:00:52.580 --> 00:00:55.010
+Ma mgbe ị na-agbalị ide akwụkwọ nhazi,
+
+00:00:55.500 --> 00:00:58.490
+Ikwupụta echiche dị n'isi gị nke ọma
+
+00:00:58.790 --> 00:01:01.260
+Ị ga-achọpụta na ọ dịghị mfe dịka i chere.
+
+00:01:01.890 --> 00:01:05.600
+Ọbụna egwu mpempe akwụkwọ, nke bụ akwụkwọ nke na-edekọ ụda ma ọ bụ egwu n'anya,
+
+00:01:05.600 --> 00:01:06.700
+Ọ dị mgbagwoju anya nke a
+
+00:01:07.520 --> 00:01:10.610
+Ọ bụghị naanị egwu, kamakwa ego na nhazi ọrụ
+
+00:01:10.610 --> 00:01:14.060
+Echiche dị iche iche na ihe ndị ọrụ chọrọ n'ezie
+
+00:01:14.060 --> 00:01:17.220
+Ọ gaghị adị mfe igosipụta ya n'ụdị pụrụ iche.
+
+00:01:18.530 --> 00:01:19.490
+Ọ dabara nke ọma
+
+00:01:19.770 --> 00:01:23.200
+Iji merie ihe isi ike nke ịme ihe nlereanya echiche nkịtị
+
+00:01:23.540 --> 00:01:26.860
+A mụrụ UML na ngwụcha afọ 1990.
+
+00:01:27.730 --> 00:01:30.120
+Grady Butch duru ya.
+
+00:01:31.460 --> 00:01:34.390
+Anyị na-eji UML eme ihe n'oge ụfọdụ
+
+00:01:34.980 --> 00:01:36.990
+See eserese klaasị
+
+00:01:36.990 --> 00:01:38.760
+Ka anyị seekwa eserese usoro
+
+00:01:39.430 --> 00:01:39.980
+agbanyeghị
+
+00:01:40.360 --> 00:01:43.160
+Mgbe m gbalịrị imepụta ya, ọ dị iche na ide ya kpọmkwem.
+
+00:01:43.160 --> 00:01:45.130
+O yighị ka ọ dị nnọọ iche
+
+00:01:45.590 --> 00:01:46.520
+Gịnị kpatara nke ahụ?
+
+00:01:47.350 --> 00:01:50.910
+Nke ahụ bụ maka na usoro echiche ahụ na-emekarị ka e mejuputa ya.
+
+00:01:51.290 --> 00:01:54.170
+Kama ime ka echiche ndị a na-anaghị ahụ anya doo anya,
+
+00:01:54.490 --> 00:01:57.590
+Maka na ọ na-atụgharị echiche ọkwa mmejuputa ka ọ bụrụ UML.
+
+00:01:58.520 --> 00:02:00.270
+Naanị n'ihi na ị nwere ike ịgụ akwụkwọ egwu
+
+00:02:00.270 --> 00:02:01.950
+Ọ bụghị ka m nwere ike ide ya
+
+00:02:02.390 --> 00:02:03.850
+Naanị n'ihi na ị mụtara UML
+
+00:02:03.850 --> 00:02:06.170
+Ọ bụghị dịka ị na-azụlite nkà imewe.
+
+00:02:07.700 --> 00:02:09.300
+Ya mere, n'usoro a
+
+00:02:09.300 --> 00:02:11.580
+Site na ọrụ ndị dị adị
+
+00:02:11.580 --> 00:02:14.420
+Otu esi eme ka ihe achọrọ dị nkọ
+
+00:02:14.420 --> 00:02:16.290
+Ị nwere ike ijikọ koodu ahụ?
+
+00:02:16.290 --> 00:02:18.010
+Achọrọ m igosi gị n'onwe m
+
+00:02:18.530 --> 00:02:20.930
+Ahọpụtara m idobere tiketi ihe nkiri site na ngalaba
+
+00:02:21.370 --> 00:02:25.200
+Ịdenye tiketi fim dị mfe nghọta n'ihi na ha bụ ngalaba amaara ama.
+
+00:02:25.200 --> 00:02:29.710
+Gụnyere ọrụ dị iche iche dịka nbanye, ịkwụ ụgwọ, na nhọrọ oche.
+
+00:02:29.710 --> 00:02:31.580
+O yiri ka ọ bụ ezigbo ihe atụ
+
+00:02:33.600 --> 00:02:36.890
+N'ikwu ya n'ụzọ dị mfe, isiokwu nke isiokwu a bụ imewe ngwanrọ, mana
+
+00:02:36.890 --> 00:02:40.350
+Anyị ga-ekpuchikwa mmepe nke nnwale na-akwado.
+
+00:02:41.210 --> 00:02:44.890
+Gburugburu mmepe nke oge a na-akwado ngwa nnwale.
+
+00:02:45.600 --> 00:02:48.320
+Ọ bụrụgodị na ị lelee ọrụ ndị a ma ama na-emepe emepe,
+
+00:02:48.320 --> 00:02:51.130
+Anyị nwere ọkwa nnwale ụfọdụ.
+
+00:02:51.740 --> 00:02:56.200
+Nke a nwere ike ịpụta na nnwale dị oke mkpa ma baa uru.
+
+00:02:56.870 --> 00:02:58.120
+Mana n'eziokwu
+
+00:02:58.120 --> 00:03:02.590
+N'ọtụtụ oge, ọ bụghị naanị TDD, kamakwa ọbụna akpaaka nnwale anaghị arụ ọrụ nke ọma.
+
+00:03:03.190 --> 00:03:06.260
+Ide ule bara uru na mbụ na-enweghị nkwadebe ọ bụla bụ
+
+00:03:06.260 --> 00:03:07.540
+Ọ dịghị mgbe ọ dị mfe
+
+00:03:08.410 --> 00:03:12.340
+Nke a bụ ihe chọrọ ike njikọta nke imewe ngwanrọ.
+
+00:03:13.320 --> 00:03:16.270
+Ya mere, ọ ka mma ijikọta imewe na TDD ọnụ.
+
+00:03:16.270 --> 00:03:18.180
+Ekpebiri m na ọ dị irè
+
+00:03:20.120 --> 00:03:23.450
+Ya mere, ugbu a, ka anyị malite nzukọ mbụ nke ọrụ ahụ.
+
+00:03:24.150 --> 00:03:26.470
+Maka na nke a bụ obere ọrụ
+
+00:03:26.470 --> 00:03:28.090
+E nwere ndị bịaranụ abụọ
+
+00:03:28.790 --> 00:03:32.340
+Onye dị n'aka ekpe bụ ọkachamara n'ihe gbasara ngalaba, onye dị n'aka nri bụkwa onye mmepụta ihe.
+
+00:03:34.550 --> 00:03:37.790
+Ndị ọkachamara n'ihe gbasara ngalaba nwere ike ikwu okwu gbasara sistemụ ndị anyị kwesịrị iwulite.
+
+00:03:37.790 --> 00:03:39.280
+Ọ na-akọ ọtụtụ akụkọ
+
+00:03:40.340 --> 00:03:42.160
+Ụlọ ihe nkiri anyị na-agba
+
+00:03:42.160 --> 00:03:44.710
+E nwere ihe dị ka puku anọ n'ime ha n'ofe mba ahụ.
+
+00:03:44.710 --> 00:03:47.220
+O nwere ike ịbawanye n'ọdịnihu.
+
+00:03:47.220 --> 00:03:50.480
+Ugbu a, naanị ọrụ ndoputa tiketi fim ka akwadoro.
+
+00:03:50.480 --> 00:03:54.510
+Anyị na-eme atụmatụ itinye ahịa tiketi maka nnukwu ihe ngosi ma emechaa.
+
+00:03:54.510 --> 00:03:58.940
+Ihe dị mkpa bụ na ị gaghị enwe ike ịnọdụ ala ugboro abụọ n'oche akwụkwọ.
+
+00:03:58.940 --> 00:04:03.250
+N'oge gara aga, ebe ndị na-ahụ maka ndị ahịa nwere nsogbu siri ike na ụdị nsogbu ahụ.
+
+00:04:03.250 --> 00:04:07.670
+Maka na e nwere ọtụtụ ozi gbasara ihe nkiri na nyocha e tinyere na ya.
+
+00:04:07.670 --> 00:04:11.090
+Data ndị a aghaghị ịnọgide na-adị.
+
+00:04:12.090 --> 00:04:14.730
+N'ebe a, a haziri mkparịta ụka ahụ nke ọma, mana
+
+00:04:14.890 --> 00:04:16.960
+N'ezie, enwere ozi ndị ọzọ
+
+00:04:16.960 --> 00:04:18.600
+A ga-ebuga ya n'ụzọ na-enweghị nhazi
+
+00:04:19.470 --> 00:04:22.110
+Mana akụkọ nke pụtara na mbido ọrụ ahụ bụ
+
+00:04:22.110 --> 00:04:23.780
+Maka na ọ bụ ihe kacha mkpa achọrọ
+
+00:04:23.780 --> 00:04:25.320
+Ị ga-ege ntị nke ọma
+
+00:04:27.110 --> 00:04:29.810
+Ndị mmepe na-ege ndị ọkachamara na ngalaba ntị
+
+00:04:29.810 --> 00:04:31.290
+Enwere m ajụjụ ole na ole
+
+00:04:32.290 --> 00:04:34.660
+Ọrụ ndoputa tiketi arụmọrụ buru ibu nke ị kpọtụrụ aha
+
+00:04:34.660 --> 00:04:36.910
+Olee mgbe a ga-agbakwunye ya?
+
+00:04:36.910 --> 00:04:39.910
+È kwesịrị itinye nke a n'ọrụ a tupu oge eruo?
+
+00:04:39.910 --> 00:04:43.590
+Ma ọ bụ m ga-achọ ịma ma m kwesịrị ịtụle ya.
+
+00:04:43.590 --> 00:04:46.090
+Na mkpa ọ dị ịnọgide na-enwe data dị adị
+
+00:04:46.090 --> 00:04:48.940
+Nke a ọ pụtara na anyị ekwesịghị ịgbanwe sistemụ DB?
+
+00:04:48.940 --> 00:04:51.950
+Enwere ọrụ ndị ọzọ na-ekerịta DB ugbu a?
+
+00:04:53.580 --> 00:04:54.980
+Dịka ị pụrụ ịhụ na DB,
+
+00:04:54.980 --> 00:04:57.290
+N'ihi na ndị ọkachamara na ngalaba abụghị ndị mmepe
+
+00:04:57.290 --> 00:04:59.430
+Okwu teknụzụ ahụ edoghị anya
+
+00:04:59.910 --> 00:05:02.890
+Ndị mmepe kwesịrị inyocha ihe ndị a nke ọma.
+
+00:05:04.230 --> 00:05:07.450
+Ndị ọkachamara na ngalaba na-aza ajụjụ ndị mmepe dịka nke a:
+
+00:05:08.330 --> 00:05:10.210
+Ọrụ ndoputa tiketi arụmọrụ buru ibu
+
+00:05:10.210 --> 00:05:13.450
+Enweghị usoro ihe omume a kapịrị ọnụ.
+
+00:05:13.450 --> 00:05:15.970
+Agbanyeghị, mgbe etinyere atụmatụ n'ọdịnihu
+
+00:05:15.970 --> 00:05:18.700
+Ka i wee nwee ike imelite ihe n'enweghị nsogbu dị ukwuu
+
+00:05:18.700 --> 00:05:22.600
+Echere m na ọ ga-adị mma ma ị tụlee ya nke ọma n'oge a.
+
+00:05:22.600 --> 00:05:27.050
+Anyị anaghị eji DB eme ihe ọ bụla ọzọ ma e wezụga ọrụ anyị.
+
+00:05:27.050 --> 00:05:32.840
+Ịgbanwe sistemụ ahụ n'onwe ya abụghị nnukwu nsogbu ma ọ bụrụhaala na a na-echekwa data ahụ nke ọma.
+
+00:05:33.840 --> 00:05:35.080
+Mgbe m nụsịrị akụkọ ahụ
+
+00:05:35.080 --> 00:05:39.400
+Echeghị m na ị kwesịrị ichegbu onwe gị maka nnukwu ihe ngosi ahụ.
+
+00:05:39.400 --> 00:05:40.790
+Ọ bụghị oke ọrụ ahụ
+
+00:05:40.790 --> 00:05:43.040
+Ihe ndị a chọrọ edoghịkwa anya
+
+00:05:43.040 --> 00:05:44.930
+Amaghị m mgbe m ga-achọ ya, mana
+
+00:05:44.930 --> 00:05:47.710
+Nke ahụ bụ nsogbu anyị ga-enyocha ọzọ ma emechaa.
+
+00:05:48.920 --> 00:05:50.910
+Ọ bụrụgodị na e deghị ya n'akwụkwọ ahụ
+
+00:05:50.910 --> 00:05:54.880
+Ndị ọkachamara n'ihe gbasara ngalaba ga-enyekwa azịza na ha ga-atụle nnukwu arụmọrụ.
+
+00:05:54.880 --> 00:05:55.960
+Ị gaghị echefu
+
+00:05:56.740 --> 00:05:58.320
+Ọ dị mma
+
+00:05:58.320 --> 00:06:00.630
+Mgbe ahụ, ọrụ ndoputa tiketi arụmọrụ buru ibu
+
+00:06:00.630 --> 00:06:04.500
+Agaghị m etinye ya n'ime ihe kacha mkpa maka ọrụ a.
+
+00:06:04.500 --> 00:06:08.220
+Kama, ọ na-eme ka ọ dịkwuo mfe ịgbasa ọrụ ma emechaa n'oge mmepe.
+
+00:06:08.220 --> 00:06:10.190
+M ga-elekọta ya nke ọma
+
+00:06:10.190 --> 00:06:12.840
+Echegbula onwe gị. Tụkwasịnụ m obi naanị
+
+00:06:13.840 --> 00:06:15.960
+Ọ dị mkpa ka anyị na-emekọrịta ihe nke ọma
+
+00:06:17.980 --> 00:06:19.500
+Site na mkparịta ụka anyị ruo ugbu a
+
+00:06:19.500 --> 00:06:22.700
+A chịkọtara ihe ndị kacha mkpa dịka ndị a:
+
+00:06:23.220 --> 00:06:25.890
+Nke a bụ ozi nke ndị ọkachamara na ngalaba nyere.
+
+00:06:25.890 --> 00:06:28.410
+Ịkọwa na nhazi site n'echiche nke onye mmepụta ihe
+
+00:06:28.410 --> 00:06:29.810
+Malite ọrụ ahụ
+
+00:06:31.700 --> 00:06:32.860
+Na ndị ọkachamara ngalaba
+
+00:06:32.860 --> 00:06:34.980
+Ozugbo i kpebiri ihe mgbaru ọsọ nke ọrụ gị,
+
+00:06:35.620 --> 00:06:37.980
+Ugbua oge eruola ịkpọ aha ọrụ gị.
+
+00:06:38.750 --> 00:06:41.840
+Nke mbụ, jụọ ọkachamara n'ihe gbasara ngalaba maka echiche ha.
+
+00:06:42.800 --> 00:06:45.540
+Gịnị ka m kwesịrị ịkpọ ọrụ ahụ aha?
+
+00:06:45.540 --> 00:06:47.680
+Ọ bụ usoro ndoputa ihe nkiri.
+
+00:06:47.680 --> 00:06:50.150
+Kedu maka naanị Sistemụ Ndebanye Ihe nkiri?
+
+00:06:50.150 --> 00:06:51.430
+mba, achọghị m
+
+00:06:51.430 --> 00:06:53.570
+M ga-ahụ maka nnukwu ihe ngosi
+
+00:06:53.570 --> 00:06:56.930
+Ka anyị gaa na Sistemụ Ndebanye Ihe nkiri. ee?
+
+00:06:56.930 --> 00:06:58.180
+dị mma
+
+00:06:58.180 --> 00:06:59.950
+Daalụ nke ukwuu
+
+00:07:01.000 --> 00:07:05.230
+Ndị ọkachamara na ngalaba nwere ike ịchọ aha ọrụ na asụsụ Korean.
+
+00:07:05.580 --> 00:07:07.680
+Mana site n'echiche nke onye mmepụta ihe
+
+00:07:07.680 --> 00:07:09.990
+Usoro niile gụnyere aha ọrụ
+
+00:07:09.990 --> 00:07:12.180
+N'ihi na a na-etinye ya kpọmkwem na koodu,
+
+00:07:12.600 --> 00:07:15.000
+Ọ dị mfe ịkọwa ya n'asụsụ Bekee ma ọ bụrụ na o kwere mee.
+
+00:07:15.540 --> 00:07:19.510
+Ọ dị mkpa ka ndị mmepe soro mkpa nke ndị ọkachamara ngalaba n'eziokwu, mana
+
+00:07:19.960 --> 00:07:21.430
+N'ịtụle ọrụ ahụ dum
+
+00:07:21.430 --> 00:07:23.930
+Anyị nwekwara ọrụ iduzi ihe n'ụzọ dị irè.
+
+00:07:25.850 --> 00:07:27.760
+Ọ bụrụ na ị kpebiela aha maka ọrụ gị
+
+00:07:27.760 --> 00:07:31.380
+Ugbua oge eruola ịchọpụta onye na-eji Sistemụ Ndebanye Ihe nkiri.
+
+00:07:32.020 --> 00:07:34.940
+N'ezie, ị kwesịrị ịjụ ọkachamara ngalaba maka ozi gbasara nke a.
+
+00:07:35.420 --> 00:07:38.740
+Anyị na-achọpụtakwa na anyị nwere ndị ahịa na ndị njikwa.
+
+00:07:40.820 --> 00:07:43.280
+Otu n'ime ihe ndị dị mfe ichefu na mbido imewe bụ
+
+00:07:43.280 --> 00:07:44.760
+Ọ bụ ndabere sitere na mpụga
+
+00:07:45.340 --> 00:07:46.580
+Ndabere mpụga bụ
+
+00:07:46.580 --> 00:07:49.210
+Ọ nwere ike ịbụ usoro ihe ochie dị ugbu a,
+
+00:07:49.660 --> 00:07:51.420
+O nwere ike ịbụ usoro ịkwụ ụgwọ
+
+00:07:52.020 --> 00:07:53.670
+Mmekọrịta ntụkwasị obi a bụ
+
+00:07:53.670 --> 00:07:56.760
+Maka na ọ nwere ike inwe nnukwu mmetụta na nhazi sistemụ ahụ dum.
+
+00:07:56.950 --> 00:08:00.150
+Ọ dị mkpa ịchọpụta ya ozugbo enwere ike.
+
+00:08:00.570 --> 00:08:01.240
+ọ dabara nke ọma
+
+00:08:01.820 --> 00:08:04.990
+Ihe ndị dị ka ọnụ ụzọ ịkwụ ụgwọ na sistemụ ihe nketa
+
+00:08:05.270 --> 00:08:07.730
+Maka na a na-eji ya eme ihe na sistemụ ndị dị adị
+
+00:08:07.990 --> 00:08:10.360
+Enwere ike ịghọta ya ngwa ngwa
+
+00:08:11.230 --> 00:08:14.410
+Otu n'ime ihe ndị dị mfe ileghara anya na mmekọrịta dabere na onye bụ di bụ
+
+00:08:14.410 --> 00:08:16.090
+E nwere ihe ndị dị na mpụga gburugburu ebe obibi
+
+00:08:16.900 --> 00:08:19.060
+Obodo anyị nọ n'otu mpaghara oge ahụ
+
+00:08:19.060 --> 00:08:22.430
+N'obodo nwere nnukwu ala, ụlọ ihe nkiri ọ bụla nwere oge dị iche iche.
+
+00:08:23.190 --> 00:08:25.100
+Mgbe ahụ Sistemụ Ndebanye Ihe nkiri
+
+00:08:25.100 --> 00:08:28.900
+Ọ bụ ihe a na-apụghị izere ezere na ihe ndị metụtara gburugburu ebe obibi dịka mpaghara oge ga-emetụta ya.
+
+00:08:29.410 --> 00:08:32.760
+Ihe ndị a anaghị apụta ìhè ngwa ngwa ma ọ bụrụ na ị jụọ ọkachamara ngalaba ahụ ozugbo.
+
+00:08:32.760 --> 00:08:33.950
+Ọ dị mfe ịhapụ
+
+00:08:34.740 --> 00:08:37.610
+Ndị ọkachamara n'ihe gbasara ngalaba na-elegharakarị nkọwa ndị a anya.
+
+00:08:37.610 --> 00:08:40.010
+Maka na enwere ike ịhapụ nkọwa ahụ
+
+00:08:41.680 --> 00:08:43.640
+Ebe ọ bụ na e kwuru nke ọma mmekọrịta ịdabere na ya
+
+00:08:43.640 --> 00:08:47.500
+Ugbua, ka anyị lekwasị anya n'ihe dị n'ime Sistemụ Ndebanye Ihe nkiri.
+
+00:08:48.430 --> 00:08:52.230
+Nke mbụ, gịnị ka onye ahịa na-eme na Sistemụ Ndebanye Ihe nkiri?
+
+00:08:52.230 --> 00:08:54.230
+Ka anyị jụọ ndị ọkachamara n'ihe gbasara ngalaba
+
+00:08:55.800 --> 00:08:57.880
+Gịnị ka ndị ahịa na-eme?
+
+00:08:57.880 --> 00:08:59.970
+Ndị ahịa na-achọ ihe nkiri,
+
+00:08:59.970 --> 00:09:01.450
+Lee nkọwa ihe nkiri ahụ,
+
+00:09:01.450 --> 00:09:02.910
+Họrọ oge nlele,
+
+00:09:02.910 --> 00:09:04.450
+Họrọ oche gị,
+
+00:09:04.450 --> 00:09:05.920
+Debe tiketi ihe nkiri,
+
+00:09:05.920 --> 00:09:07.610
+Lelee nkọwa ndoputa,
+
+00:09:07.610 --> 00:09:10.180
+Mee ihe dịka ịkagbu ndoputa
+
+00:09:10.180 --> 00:09:15.750
+Ịhọrọ oge ngosi na ịhọrọ oche ọ̀ bụ akụkụ nke usoro ndoputa tiketi ihe nkiri?
+
+00:09:15.750 --> 00:09:18.880
+Na idobe tiketi ihe nkiri, ịkagbu ndoputa
+
+00:09:18.880 --> 00:09:22.210
+Ka o sina dị, ọ̀ bụ na ị naghị azụta tiketi ma nwetaghachi ego gị?
+
+00:09:22.210 --> 00:09:23.620
+ị nwetara ya
+
+00:09:23.620 --> 00:09:25.030
+Nke ahụ dị mma
+
+00:09:25.480 --> 00:09:27.880
+Maka na ọ bụ ngalaba a maara nke ọma ugbu a
+
+00:09:27.880 --> 00:09:31.240
+Họrọ oge nlele ma họrọ oche gị
+
+00:09:31.240 --> 00:09:33.200
+Nke a ọ bụ akụkụ nke usoro ndoputa tiketi ihe nkiri?
+
+00:09:33.200 --> 00:09:34.530
+Enwere m ike ịjụ
+
+00:09:34.980 --> 00:09:37.220
+Ma ọ bụrụ na ọ bụ ngalaba a na-amaghị ama,
+
+00:09:37.410 --> 00:09:40.160
+Ịtụle nkebi ojiji ọ bụla n'ụzọ zuru ezu
+
+00:09:40.520 --> 00:09:43.330
+Ị ga-emeghachi usoro nchacha ahụ ọtụtụ ugboro.
+
+00:09:43.790 --> 00:09:45.350
+Dabere na ọnọdụ ọrụ ahụ
+
+00:09:45.350 --> 00:09:48.080
+I nwere ike imeghachi usoro a ọtụtụ oge,
+
+00:09:48.080 --> 00:09:50.580
+Ka ị na-ewepụta oge gị ma na-enyocha nke ọma,
+
+00:09:50.580 --> 00:09:54.190
+Belata nnwale na mmejọ n'oge nhazi na mmejuputa.
+
+00:09:55.850 --> 00:09:57.530
+Dabere na mkparịta ụka ruo ugbu a
+
+00:09:57.530 --> 00:10:00.970
+Anyị ahaziela ọnọdụ ojiji ndị ahịa anyị n'ime ụdị anọ:
+
+00:10:02.960 --> 00:10:04.470
+Onye nchịkwa na-esote bụ onye nchịkwa
+
+00:10:05.190 --> 00:10:08.850
+Onye nchịkwa ahụ nwere ike ịhụ na e nwere ihe njikwa ise:
+
+00:10:09.440 --> 00:10:13.620
+N'onwe m, ana m akpachara anya maka iji okwu ahụ bụ "Jikwaa" eme ihe n'ime mmepe.
+
+00:10:14.360 --> 00:10:16.980
+Njikwa sara mbara nke ukwuu
+
+00:10:16.980 --> 00:10:19.030
+Ihe ị na-eme edoghị anya
+
+00:10:19.640 --> 00:10:20.950
+Ọ bụkwa otu ihe ahụ ebe a
+
+00:10:21.370 --> 00:10:23.760
+Kedu kpọmkwem otu esi ejikwa ya?
+
+00:10:23.760 --> 00:10:24.810
+Amaghị m
+
+00:10:25.930 --> 00:10:27.620
+Site n'ịgwa ndị ọkachamara ngalaba okwu
+
+00:10:27.620 --> 00:10:31.220
+Agbasawanyela ihe njikwa ọ bụla gaa n'ọnọdụ ojiji kpọmkwem.
+
+00:10:31.900 --> 00:10:33.660
+Ọ bụrụ na ọ bụ ezigbo ọrụ
+
+00:10:33.660 --> 00:10:35.890
+O nwere ike ịbụ na e nwere ọtụtụ ihe eji eme ihe karịa nke a.
+
+00:10:36.150 --> 00:10:39.000
+Lee ka m si mee ka ọ dị mfe maka nkọwa.
+
+00:10:39.860 --> 00:10:42.700
+Ihe dị mkpa ịmara ebe a bụ na mgbe ị na-emepụta oge ịgba ọsọ,
+
+00:10:43.020 --> 00:10:45.900
+I nwere ike ịhụ na e mekwara tiketi ahụ
+
+00:10:46.960 --> 00:10:49.200
+Ma mgbe ị na-azụ ma ọ bụ na-akwụghachi tiketi
+
+00:10:49.490 --> 00:10:53.910
+I nwekwara ike ịhụ na anyị na-eji ọrụ mpụga nke a na-akpọ ọnụ ụzọ ịkwụ ụgwọ.
+
+00:10:55.890 --> 00:10:58.670
+Ejikọtara m ihe eji eme ihe nke ndị ahịa na ndị njikwa.
+
+00:10:59.350 --> 00:11:01.730
+Na-ele anya na ojiji niile dịka nke a
+
+00:11:01.730 --> 00:11:02.900
+Ihe dị ka ihe tọgbọrọ chakoo
+
+00:11:03.890 --> 00:11:05.840
+Enwere nhọrọ ịgbakwunye ihe nkiri
+
+00:11:05.840 --> 00:11:08.720
+Ahụghị m ihe ọ bụla dị ka Ụlọ Ihe Nchọgharị
+
+00:11:09.410 --> 00:11:12.130
+O yiri ka e nwere ọtụtụ ihe eji eme ihe ndị a na-ewepụ.
+
+00:11:12.770 --> 00:11:15.980
+Maka na site n'echiche nke ọkachamara ngalaba, e nwere ọtụtụ ihe a ga-akọwa.
+
+00:11:15.980 --> 00:11:17.950
+Ihe eji eme ihe a, nke yiri ka ọ doro anya,
+
+00:11:18.150 --> 00:11:19.810
+I nwere ike ịhapụ nkọwa ahụ
+
+00:11:20.770 --> 00:11:23.460
+Gịnịzi banyere onye mmepụta ihe?
+
+00:11:24.400 --> 00:11:28.290
+Ọ ka mma ịhapụ akụkọ dị mfe dịka ịchọ ebe a na-eme ihe nkiri.
+
+00:11:28.290 --> 00:11:30.700
+Nke a ọ́ gaghị enyere aka karịa maka njikwa akwụkwọ?
+
+00:11:31.720 --> 00:11:32.870
+Ọ bụrụ na ọ bụ imewe azụ
+
+00:11:32.870 --> 00:11:35.920
+Ihe eji eme ihe dị mfe dịka ịchọ ụlọ ihe nkiri
+
+00:11:35.920 --> 00:11:37.760
+Echere m na ọ dị mma ịhapụ ya
+
+00:11:38.600 --> 00:11:41.570
+Ihe m na-ekwu bụ na oge agafebeghị ịzaghachi n'oge mmejuputa.
+
+00:11:42.370 --> 00:11:44.310
+Mana ọ bụrụ na ọ bụ ezigbo ọrụ
+
+00:11:44.310 --> 00:11:48.450
+Maka ndị na-eme atụmatụ ihuenyo, ihe ndị a na-eji eme ihe bụ ezigbo ebe mmalite.
+
+00:11:49.250 --> 00:11:52.300
+Onye nhazi ahụ lere anya n'ihe gbasara ịchọ ebe a na-eme ihe nkiri.
+
+00:11:52.300 --> 00:11:55.300
+Kedu ka m ga-esi mee ka o kwe omume ịchọ ụlọ ihe nkiri?
+
+00:11:55.300 --> 00:11:56.600
+Ị ga-enwe ike iche echiche
+
+00:11:58.000 --> 00:12:00.880
+Mgbe ị jikọtara eserese ndị ahụ n'otu, ọ na-adị ka ihe siri ike.
+
+00:12:01.490 --> 00:12:05.150
+Ọ bụrụ na ọ bụ ezigbo ọrụ, ọ ga-adị mgbagwoju anya karịa.
+
+00:12:05.720 --> 00:12:08.240
+N'okwu a, ọ dịghị mkpa ịmanye njikọta.
+
+00:12:08.810 --> 00:12:13.910
+Ejikọtara m ha ebe a iji kpughee na e nwere ikpe ndị na-efu efu.
+
+00:12:16.020 --> 00:12:18.490
+Edejupụtara m ikpe niile furu efu
+
+00:12:19.200 --> 00:12:21.880
+Enwere m ihe atụ ebe e wepụrụ njikọ na onye na-eme ihe nkiri ahụ.
+
+00:12:22.290 --> 00:12:25.720
+Nke a metụtara ma ndị ahịa ma ndị njikwa.
+
+00:12:26.400 --> 00:12:29.480
+Maka mfe itinye ya n'ọrụ, edere m ya n'asụsụ Bekee.
+
+00:12:31.370 --> 00:12:34.160
+Ọ dị mma ugbu a n'ihi na ọ bụ obere ọrụ
+
+00:12:34.160 --> 00:12:36.160
+Ọ bụrụ na ọrụ ahụ buru ibu ma dị mgbagwoju anya
+
+00:12:36.160 --> 00:12:38.980
+Ebee ka ọkachamara ngalaba kwesịrị ịmalite ịkọwa?
+
+00:12:38.980 --> 00:12:40.380
+O nwere ike isi ike
+
+00:12:41.280 --> 00:12:43.300
+Gịnị ka onye nchịkwa na-eme?
+
+00:12:43.300 --> 00:12:44.700
+Ọ bụ nnukwu ọrụ
+
+00:12:44.700 --> 00:12:46.620
+Dịka a tụrụ anya ya n'aka onye njikwa
+
+00:12:47.620 --> 00:12:49.750
+N'okwu a, anyị nwere ike kewaa ndị na-eme ihe nkiri?
+
+00:12:49.750 --> 00:12:52.340
+Ọ dịkwa mma ịtụleghachi
+
+00:12:53.140 --> 00:12:54.790
+Na mbụ, a kpọrọ m onye nchịkwa
+
+00:12:54.790 --> 00:12:57.400
+O nwere ike ịbụ na e kewara ya site n'ọrụ dị iche iche
+
+00:12:58.520 --> 00:13:00.820
+Na iji Sistemụ Ndebanye Ihe Nkiri
+
+00:13:00.820 --> 00:13:02.870
+Enwere ike ịnwe ọrụ mpụga
+
+00:13:03.660 --> 00:13:05.340
+Ọ bụrụ na anyị kewaa ndị na-eme ihe nkiri n'otu ụzọ ahụ,
+
+00:13:05.340 --> 00:13:09.420
+Ndị ọkachamara n'ihe gbasara ngalaba ga-enwe ike inye ozi gbasara usoro.
+
+00:13:10.350 --> 00:13:14.000
+N'ezie, nke a bụ naanị otu ihe atụ nke inyocha ngalaba dị mgbagwoju anya.
+
+00:13:14.540 --> 00:13:17.320
+Enwere ike ịnwe ụzọ ndị ọzọ dị mma
+
+00:13:17.960 --> 00:13:21.740
+Ọ dị mkpa ịzaghachi n'ụzọ dị mfe dabere na ọnọdụ ahụ.
+
+00:13:24.250 --> 00:13:25.060
+Nke a bụ mmechi
+
+00:13:25.950 --> 00:13:29.170
+Oge a, anyị ga-eji eserese ihe atụ ojiji
+
+00:13:29.170 --> 00:13:30.840
+Setịpụ ihe mgbaru ọsọ maka ọrụ ahụ
+
+00:13:31.230 --> 00:13:33.700
+Agabigala m usoro nyocha mbụ.
+
+00:13:34.880 --> 00:13:38.010
+N'onwe gị, n'oge usoro mmepe dum
+
+00:13:38.010 --> 00:13:40.060
+Echere m na nyocha bụ nke kacha sie ike
+
+00:13:40.570 --> 00:13:44.250
+Maka na anyị ga-ahazi echiche ndị kacha dị omimi na ndị na-edoghị anya.
+
+00:13:45.020 --> 00:13:47.650
+Oge ọzọ anyị ga-eleba anya na okwu ndị bụ isi gbasara ojiji
+
+00:13:47.650 --> 00:13:49.470
+Ka anyị nyochaa ya nke ọma.
+
+00:13:50.300 --> 00:13:52.100
+Daalụ maka ọrụ siri ike unu ruo ugbu a.
+

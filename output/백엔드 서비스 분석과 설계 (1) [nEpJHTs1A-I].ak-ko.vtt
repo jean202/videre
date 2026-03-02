@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: ak
+
+00:00:00.000 --> 00:00:02.020
+Hello, eyi ne Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Software yɛ nea ɛyɛ den
+
+00:00:06.650 --> 00:00:08.890
+Nea edi kan koraa no, mmara pii wɔ hɔ a ɛsɛ sɛ wɔkyerɛw.
+
+00:00:09.760 --> 00:00:12.710
+Nhwɛsoɔ nnwuma a meyɛɛ maa saa ntoatoasoɔ yi ara kwa
+
+00:00:12.710 --> 00:00:15.270
+Mmara no tenten boro nkyerɛwde 12,000.
+
+00:00:16.330 --> 00:00:18.320
+Sɛ ɛyɛ adwumayɛ som ankasa a
+
+00:00:18.320 --> 00:00:21.530
+Sɛ ɛyɛ ɔsom ketewa mpo a, ɛnyɛ den sɛ ɛbɛboro nkyerɛwde 100,000.
+
+00:00:22.130 --> 00:00:25.300
+Ntrɛwmu mpem ɔha dɔɔso sɛ ɛbɛhyɛ ayɛsɛm aduonu ma.
+
+00:00:26.870 --> 00:00:29.560
+Sɛ wokyerɛw code tenten a, ɛnkyerɛ sɛ awie.
+
+00:00:30.330 --> 00:00:32.540
+Ɛsɛ sɛ wokɔ so siesie mmara a wokyerɛw no.
+
+00:00:33.400 --> 00:00:35.800
+Sɛ wosiesie A a, B bubu.
+
+00:00:35.800 --> 00:00:39.130
+Sɛ wosiesie B a, A ne C bɛbubu.
+
+00:00:41.090 --> 00:00:44.260
+Sɛ yɛde mfatoho bedi dwuma a, ɛte sɛ nea wɔakyere wo wɔ Rasputa mu na woresu.
+
+00:00:44.260 --> 00:00:46.360
+Wubetumi aka sɛ ɛyɛ tebea a ɛte sɛ ɔpɔnkɔ.
+
+00:00:47.330 --> 00:00:50.550
+Saa bere yi de, wobɛte nka sɛ ɛho hia sɛ wɔyɛ adwini.
+
+00:00:52.580 --> 00:00:55.010
+Nanso sɛ wobɔ mmɔden ankasa sɛ wobɛkyerɛw adwini ho krataa bi a, .
+
+00:00:55.500 --> 00:00:58.490
+Nsusuwii a ɛwɔ wo tirim a wobɛda no adi pefee
+
+00:00:58.790 --> 00:01:01.260
+Wubehu sɛ ɛnyɛ mmerɛw sɛnea wususuw no.
+
+00:01:01.890 --> 00:01:05.600
+Nnwom a wɔakyerɛw so mpo, a ɛyɛ krataa a wɔde aniwa kyere nnyigyei anaa nnwom gu kasɛt so, .
+
+00:01:05.600 --> 00:01:06.700
+Ɛyɛ eyi a ɛyɛ den
+
+00:01:07.520 --> 00:01:10.610
+Ɛnyɛ nnwom nko, na mmom sikasɛm ne nneɛma a wɔde kɔ amannɔne nso
+
+00:01:10.610 --> 00:01:14.060
+Nsusuwii ahorow pii ne abstract user ahwehwɛde ahorow
+
+00:01:14.060 --> 00:01:17.220
+Ɛrenyɛ mmerɛw sɛ wobɛda no adi wɔ nhwɛso pɔtee bi mu.
+
+00:01:18.530 --> 00:01:19.490
+Ti yɛ
+
+00:01:19.770 --> 00:01:23.200
+Sɛnea ɛbɛyɛ a wobedi ɔhaw a ɛwɔ nsusuwii a enni nnyinaso ho nhwɛso mu no so
+
+00:01:23.540 --> 00:01:26.860
+Wɔwoo UML wɔ 1990 mfe no awiei.
+
+00:01:27.730 --> 00:01:30.120
+Grady Butch na odii anim.
+
+00:01:31.460 --> 00:01:34.390
+Yɛde UML di dwuma wɔ anidaso mu
+
+00:01:34.980 --> 00:01:36.990
+Twe adesuakuw mfonini
+
+00:01:36.990 --> 00:01:38.760
+Momma yɛnsan ntwe mfonini a ɛkyerɛ sɛnea nneɛma nnidiso nnidiso
+
+00:01:39.430 --> 00:01:39.980
+mmom
+
+00:01:40.360 --> 00:01:43.160
+Bere a mebɔɔ ​​mmɔden ankasa sɛ mɛyɛ ne ho mfonini no, na ɛsono sɛnea mɛkyerɛw no tẽẽ.
+
+00:01:43.160 --> 00:01:45.130
+Ɛte sɛ nea ɛnyɛ soronko koraa
+
+00:01:45.590 --> 00:01:46.520
+Dɛn nti na ɛte saa?
+
+00:01:47.350 --> 00:01:50.910
+Ɛte saa efisɛ adwene nhyehyɛe no ayɛ ne su sɛ wɔde bedi dwuma.
+
+00:01:51.290 --> 00:01:54.170
+Sɛ́ anka wɔbɛma nsusuwii ahorow a enni nnyinaso ayɛ nea ɛyɛ nokware kɛse no, .
+
+00:01:54.490 --> 00:01:57.590
+Efisɛ ɛkyerɛ implementation-level adwene ase kɔ UML mu.
+
+00:01:58.520 --> 00:02:00.270
+Esiane sɛ wubetumi akenkan nnwom a wɔakyerɛw so nti
+
+00:02:00.270 --> 00:02:01.950
+Ɛnyɛ sɛ metumi ahyehyɛ no
+
+00:02:02.390 --> 00:02:03.850
+Esiane sɛ wusuaa UML nti kɛkɛ
+
+00:02:03.850 --> 00:02:06.170
+Ɛnyɛ sɛ wunya design ho nimdeɛ.
+
+00:02:07.700 --> 00:02:09.300
+Enti wɔ saa nsɛm a ɛtoatoa so yi mu no
+
+00:02:09.300 --> 00:02:11.580
+Ɛdenam nnwuma ankasa so
+
+00:02:11.580 --> 00:02:14.420
+Sɛnea wɔde abstract ahwehwɛde ahorow no yɛ nokware
+
+00:02:14.420 --> 00:02:16.290
+So wubetumi de code no abɔ mu?
+
+00:02:16.290 --> 00:02:18.010
+Mepɛ sɛ mekyerɛ wo ankasa
+
+00:02:18.530 --> 00:02:20.930
+Mepaw sɛ mɛkora sini tekiti denam domain so
+
+00:02:21.370 --> 00:02:25.200
+Ɛnyɛ den sɛ wɔbɛte sini tekiti a wɔkora so no ase efisɛ ne fã kɛse no ara yɛ domain ahorow a wonim no yiye.
+
+00:02:25.200 --> 00:02:29.710
+Dwumadi ahorow te sɛ login, payment, ne seat selection ka ho.
+
+00:02:29.710 --> 00:02:31.580
+Ɛte sɛ nea ɛyɛ nhwɛso pa
+
+00:02:33.600 --> 00:02:36.890
+Ne titiriw no, asɛm yi asɛmti ne software design, nanso
+
+00:02:36.890 --> 00:02:40.350
+Yɛbɛka nkɔso a wɔde sɔhwɛ di dwuma nso ho asɛm.
+
+00:02:41.210 --> 00:02:44.890
+Nnɛyi nkɔso tebea horow natively boa sɔhwɛ nnwinnade.
+
+00:02:45.600 --> 00:02:48.320
+Sɛ wohwɛ open source projects a agye din mpo a, .
+
+00:02:48.320 --> 00:02:51.130
+Yɛwɔ sɔhwɛ bi a ɛkɔ akyiri.
+
+00:02:51.740 --> 00:02:56.200
+Ɛbɛyɛ sɛ eyi kyerɛ sɛ sɔhwɛ ho hia kɛse na mfaso wɔ so saa.
+
+00:02:56.870 --> 00:02:58.120
+Nanso nokwarem no
+
+00:02:58.120 --> 00:03:02.590
+Mpɛn pii no, ɛnyɛ TDD nko, na mmom test automation mpo no, wɔmfa nni dwuma yiye.
+
+00:03:03.190 --> 00:03:06.260
+Sɔhwɛ ahorow a ntease wom a wobɛkyerɛw kan a wonsiesiee wo ho biara yɛ
+
+00:03:06.260 --> 00:03:07.540
+Ɛnyɛ mmerɛw da
+
+00:03:08.410 --> 00:03:12.340
+Eyi yɛ biribi a ɛhwehwɛ sɛ wɔde software nhyehyɛe no tumi a wɔaka abom.
+
+00:03:13.320 --> 00:03:16.270
+Enti, eye sɛ wobɛbom adi design ne TDD ho dwuma.
+
+00:03:16.270 --> 00:03:18.180
+Mibuu atɛn sɛ ɛyɛ nea etu mpɔn
+
+00:03:20.120 --> 00:03:23.450
+Enti afei momma yɛnhyɛ adwuma no nhyiam a edi kan ase.
+
+00:03:24.150 --> 00:03:26.470
+Efisɛ eyi yɛ adwuma ketewaa bi
+
+00:03:26.470 --> 00:03:28.090
+Nnipa baanu na wɔba
+
+00:03:28.790 --> 00:03:32.340
+Nea ɔwɔ benkum so no yɛ domain ho ɔbenfo, na nea ɔwɔ nifa so no yɛ developer.
+
+00:03:34.550 --> 00:03:37.790
+Domain ho abenfo wɔ ka wɔ nhyehyɛe ahorow a ɛsɛ sɛ yɛkyekye no ho.
+
+00:03:37.790 --> 00:03:39.280
+Ɛka nsɛm pii
+
+00:03:40.340 --> 00:03:42.160
+Agorudibea a yɛhwɛ so no
+
+00:03:42.160 --> 00:03:44.710
+Wɔn mu bɛyɛ mpem anan wɔ ɔman no mu nyinaa.
+
+00:03:44.710 --> 00:03:47.220
+Ebia ɛbɛkɔ soro bio daakye.
+
+00:03:47.220 --> 00:03:50.480
+Mprempren, sini tekiti a wɔkora so dwumadi nkutoo na wɔboa.
+
+00:03:50.480 --> 00:03:54.510
+Yɛayɛ nhyehyɛe sɛ yɛde tekiti a wɔtɔn bɛka ho ama agoru akɛse a wɔbɛyɛ akyiri yi.
+
+00:03:54.510 --> 00:03:58.940
+Na nea ɛho hia ne sɛ ɛnsɛ sɛ wokyerɛw nkongua mmɔho abien da.
+
+00:03:58.940 --> 00:04:03.250
+Bere bi a atwam no, na ɛyɛ den ma mmeae a wɔhwɛ adetɔfo so ankasa wɔ ɔhaw a ɛte saa ho.
+
+00:04:03.250 --> 00:04:07.670
+Efisɛ sini ho nsɛm ne nhwehwɛmu ho nsɛm pii wɔ hɔ a wɔaboaboa ano dedaw.
+
+00:04:07.670 --> 00:04:11.090
+Ɛsɛ sɛ saa data yi kɔ so yɛ nea ɛte saa.
+
+00:04:12.090 --> 00:04:14.730
+Ɛha no, wɔahyehyɛ nkɔmmɔbɔ no yiye, nanso
+
+00:04:14.890 --> 00:04:16.960
+Nokwarem no, nsɛm pii wɔ hɔ
+
+00:04:16.960 --> 00:04:18.600
+Wɔde bɛma wɔ ɔkwan a wɔanhyehyɛ no yiye so
+
+00:04:19.470 --> 00:04:22.110
+Nanso asɛm a ɛba wɔ adwuma no mfiase ne
+
+00:04:22.110 --> 00:04:23.780
+Efisɛ ɛyɛ ahwehwɛde a ɛho hia sen biara
+
+00:04:23.780 --> 00:04:25.320
+Ɛsɛ sɛ wutie no yiye
+
+00:04:27.110 --> 00:04:29.810
+Wɔn a wɔyɛ nneɛma no tie domain ho abenfo
+
+00:04:29.810 --> 00:04:31.290
+Mewɔ nsɛmmisa kakraa bi
+
+00:04:32.290 --> 00:04:34.660
+Dwumadi kɛse a wɔde gye adwumayɛ tekiti a woka ho asɛm no
+
+00:04:34.660 --> 00:04:36.910
+Bere bɛn na wɔde bɛka ho?
+
+00:04:36.910 --> 00:04:39.910
+So ɛsɛ sɛ wodi kan de eyi ka adwuma yi kɛse ho?
+
+00:04:39.910 --> 00:04:43.590
+Anaasɛ mɛpɛ sɛ mihu sɛ ebia ɛsɛ sɛ misusuw ho de besi nnɛ anaa
+
+00:04:43.590 --> 00:04:46.090
+Na hia a ehia sɛ wɔhwɛ data a ɛwɔ hɔ dedaw so
+
+00:04:46.090 --> 00:04:48.940
+So eyi kyerɛ sɛ ɛnsɛ sɛ yɛsesa DB nhyehyɛe no?
+
+00:04:48.940 --> 00:04:51.950
+So nnwuma foforo bi wɔ hɔ a mprempren ɛrekyɛ DB no?
+
+00:04:53.580 --> 00:04:54.980
+Sɛnea wubetumi ahu wɔ DB no, .
+
+00:04:54.980 --> 00:04:57.290
+Efisɛ domain ho abenfo nyɛ developers.
+
+00:04:57.290 --> 00:04:59.430
+Mfiridwuma ho asɛm no mu nna hɔ
+
+00:04:59.910 --> 00:05:02.890
+Ɛsɛ sɛ wɔn a wɔyɛ nneɛma yi hwɛ nneɛma yi mu yiye.
+
+00:05:04.230 --> 00:05:07.450
+Domain ho abenfo bua developers nsɛmmisa te sɛ eyi:
+
+00:05:08.330 --> 00:05:10.210
+Adwumayɛ tekiti a wɔkora so kɛse no
+
+00:05:10.210 --> 00:05:13.450
+Nhyehyɛe pɔtee biara nni hɔ a wɔde besi nnɛ.
+
+00:05:13.450 --> 00:05:15.970
+Nanso, bere a wɔde nneɛma bi bɛka ho daakye
+
+00:05:15.970 --> 00:05:18.700
+Sɛnea ɛbɛyɛ a wubetumi ayɛ upgrade a ɛnyɛ den pii
+
+00:05:18.700 --> 00:05:22.600
+Misusuw sɛ ɛbɛyɛ papa sɛ wubetumi asusuw ho kakra saa bere yi.
+
+00:05:22.600 --> 00:05:27.050
+Yɛmfa DB nni dwuma mma biribi foforo biara a ɛnyɛ yɛn nnwuma.
+
+00:05:27.050 --> 00:05:32.840
+Nhyehyɛe no ankasa a wɔbɛsakra no nyɛ ɔhaw kɛse bere tenten a wɔhwɛ data no so yiye no.
+
+00:05:33.840 --> 00:05:35.080
+Bere a wate asɛm no akyi
+
+00:05:35.080 --> 00:05:39.400
+Minsusuw sɛ ɛho nhia sɛ wohaw wo ho wɔ ɔyɛkyerɛ kɛse no ho.
+
+00:05:39.400 --> 00:05:40.790
+Ɛnyɛ adwuma no kɛse
+
+00:05:40.790 --> 00:05:43.040
+Ahwehwɛde ahorow no nso mu nna hɔ
+
+00:05:43.040 --> 00:05:44.930
+Minnim bere a mehia, nanso
+
+00:05:44.930 --> 00:05:47.710
+Ɛno yɛ ɔhaw a ɛsɛ sɛ yɛsan hwɛ mu akyiri yi.
+
+00:05:48.920 --> 00:05:50.910
+Sɛ wɔankyerɛw wɔ krataa no mu mpo a
+
+00:05:50.910 --> 00:05:54.880
+Domain ho abenfoɔ nso bɛma mmuaeɛ sɛ wɔbɛsusu agodie akɛseɛ ho.
+
+00:05:54.880 --> 00:05:55.960
+Ɛnsɛ sɛ wo werɛ fi
+
+00:05:56.740 --> 00:05:58.320
+Ne nyinaa yɛ
+
+00:05:58.320 --> 00:06:00.630
+Afei, adwumayɛ tekiti a wɔkora so kɛse no
+
+00:06:00.630 --> 00:06:04.500
+Meremfa nka nneɛma a ɛho hia sen biara wɔ saa adwuma yi mu ho.
+
+00:06:04.500 --> 00:06:08.220
+Mmom no, ɛma ɛyɛ mmerɛw sɛ wobɛtrɛw dwumadi mu akyiri yi wɔ nkɔso nhyehyɛe no mu.
+
+00:06:08.220 --> 00:06:10.190
+Mɛhwɛ so yiye
+
+00:06:10.190 --> 00:06:12.840
+Nha wo ho. Gye me nkutoo di
+
+00:06:13.840 --> 00:06:15.960
+Ɛho hia sɛ wo ne afoforo bɔ yiye
+
+00:06:17.980 --> 00:06:19.500
+Ɛdenam yɛn nkɔmmɔbɔ so de besi nnɛ
+
+00:06:19.500 --> 00:06:22.700
+Wɔabobɔ nneɛma a ɛho hia sen biara no so sɛnea edidi so yi:
+
+00:06:23.220 --> 00:06:25.890
+Eyi ne nsɛm a domain ho abenfo de ma.
+
+00:06:25.890 --> 00:06:28.410
+Nkyerɛase ne nhyehyɛe a wɔyɛ fi developer bi adwene mu
+
+00:06:28.410 --> 00:06:29.810
+Fi ase yɛ adwuma no
+
+00:06:31.700 --> 00:06:32.860
+Ɛne domain ho abenfo
+
+00:06:32.860 --> 00:06:34.980
+Sɛ wusi w’adwuma no botae ahorow ho gyinae wie a, .
+
+00:06:35.620 --> 00:06:37.980
+Afei bere aso sɛ wobɔ wo dwumadi no din.
+
+00:06:38.750 --> 00:06:41.840
+Nea edi kan no, bisa domain ho ɔbenfo bi ma ɔmma no wɔn adwene.
+
+00:06:42.800 --> 00:06:45.540
+Dɛn na ɛsɛ sɛ meto adwuma no din?
+
+00:06:45.540 --> 00:06:47.680
+Ɛyɛ sini nhyehyɛe a wɔde sie.
+
+00:06:47.680 --> 00:06:50.150
+Na Movie Booking System no nkutoo nso ɛ?
+
+00:06:50.150 --> 00:06:51.430
+dabi, mempɛ
+
+00:06:51.430 --> 00:06:53.570
+Me na mɛhwɛ agodie akɛse a wɔyɛ no so
+
+00:06:53.570 --> 00:06:56.930
+Momma yɛnkɔ ne Movie Booking System no so. Aane?
+
+00:06:56.930 --> 00:06:58.180
+kɛseɛ
+
+00:06:58.180 --> 00:06:59.950
+Meda wo ase pa ara
+
+00:07:01.000 --> 00:07:05.230
+Ebia domain ho abenfo bɛpɛ sɛ wɔkyerɛw project din wɔ Korea kasa mu.
+
+00:07:05.580 --> 00:07:07.680
+Nanso sɛnea developer bi hwɛ no
+
+00:07:07.680 --> 00:07:09.990
+Nsɛmfua nyinaa a adwuma no din ka ho
+
+00:07:09.990 --> 00:07:12.180
+Esiane sɛ wɔde di dwuma tẽẽ wɔ mmara mu nti, .
+
+00:07:12.600 --> 00:07:15.000
+Ɛyɛ mmerɛw sɛ wobɛkyerɛkyerɛ mu wɔ Borɔfo kasa mu sɛ ɛbɛyɛ yiye a.
+
+00:07:15.540 --> 00:07:19.510
+Ɛho hia sɛ developers de nokwaredi di domain ho abenfo ahiade akyi, nanso
+
+00:07:19.960 --> 00:07:21.430
+Sɛ yesusuw adwuma no nyinaa ho a
+
+00:07:21.430 --> 00:07:23.930
+Yɛwɔ asɛyɛde nso sɛ yɛbɛkyerɛ nneɛma kwan akɔ ɔkwan a etu mpɔn so.
+
+00:07:25.850 --> 00:07:27.760
+Sɛ woasi din a wode bɛhyɛ wo dwumadi no ho gyinae a
+
+00:07:27.760 --> 00:07:31.380
+Afei bere aso sɛ wuhu onii a ɔde Movie Booking System no di dwuma.
+
+00:07:32.020 --> 00:07:34.940
+Nokwarem no, ɛsɛ sɛ wubisa domain ho ɔbenfo bi ma ɔmma wo eyi ho nsɛm.
+
+00:07:35.420 --> 00:07:38.740
+Na yehu sɛ yɛwɔ adetɔfo ne adwuma so ahwɛfo.
+
+00:07:40.820 --> 00:07:43.280
+Nneɛma a ɛnyɛ den sɛ wobɛpa wɔ adwini mfiase no mu biako ne
+
+00:07:43.280 --> 00:07:44.760
+Ɛyɛ abɔnten so ade a ɛde ne ho to so
+
+00:07:45.340 --> 00:07:46.580
+Abɔnten so nneɛma a egyina so ne
+
+00:07:46.580 --> 00:07:49.210
+Ebetumi ayɛ agyapade nhyehyɛe a ɛwɔ hɔ dedaw, .
+
+00:07:49.660 --> 00:07:51.420
+Ebetumi ayɛ nhyehyɛe a wɔde tua ka
+
+00:07:52.020 --> 00:07:53.670
+Saa abusuabɔ a ɛde ne ho to so yi ne
+
+00:07:53.670 --> 00:07:56.760
+Efisɛ ebetumi anya nkɛntɛnso kɛse wɔ nhyehyɛe no nyinaa nhyehyɛe so.
+
+00:07:56.950 --> 00:08:00.150
+Ɛho hia sɛ wuhu no ntɛm sɛnea wubetumi.
+
+00:08:00.570 --> 00:08:01.240
+ti yɛ
+
+00:08:01.820 --> 00:08:04.990
+Nneɛma te sɛ sikatua apon ne agyapade nhyehyɛe
+
+00:08:05.270 --> 00:08:07.730
+Efisɛ wɔde redi dwuma dedaw wɔ nhyehyɛe ahorow a ɛwɔ hɔ dedaw mu
+
+00:08:07.990 --> 00:08:10.360
+Wobetumi ate ase ntɛm ara
+
+00:08:11.230 --> 00:08:14.410
+Nneɛma a ɛnyɛ den sɛ wobebu ani agu so wɔ abusuabɔ a wɔde wɔn ho to so mu biako ne
+
+00:08:14.410 --> 00:08:16.090
+Nneɛma a atwa yɛn ho ahyia a efi abɔnten wɔ hɔ
+
+00:08:16.900 --> 00:08:19.060
+Yɛn man no wɔ bere koro no ara mu
+
+00:08:19.060 --> 00:08:22.430
+Wɔ ɔman a asase kɛse wɔ so mu no, ɛsono bere a wɔde yɛ agoprama biara.
+
+00:08:23.190 --> 00:08:25.100
+Afei Movie Booking System no
+
+00:08:25.100 --> 00:08:28.900
+Ɛyɛ nea wontumi nkwati sɛ nneɛma a atwa yɛn ho ahyia te sɛ bere nhyehyɛe bɛka no.
+
+00:08:29.410 --> 00:08:32.760
+Saa nneɛma yi ntumi nna adi ntɛm gye sɛ wubisa domain ho ɔbenfo no tẽẽ.
+
+00:08:32.760 --> 00:08:33.950
+Ɛnyɛ den sɛ wobɛpa ho kyɛw
+
+00:08:34.740 --> 00:08:37.610
+Domain ho abenfo taa bu wɔn ani gu saa nsɛm yi so.
+
+00:08:37.610 --> 00:08:40.010
+Efisɛ ebia wobeyi nkyerɛkyerɛmu no afi mu
+
+00:08:41.680 --> 00:08:43.640
+Esiane sɛ wɔkaa abusuabɔ a ɛde ne ho to so no ho asɛm pefee nti
+
+00:08:43.640 --> 00:08:47.500
+Afei momma yɛmfa yɛn adwene nsi Movie Booking System no mu nneɛma so.
+
+00:08:48.430 --> 00:08:52.230
+Nea edi kan koraa no, dɛn na adetɔfo no yɛ wɔ Movie Booking System no mu?
+
+00:08:52.230 --> 00:08:54.230
+Momma yenbisa domain ho abenfo no
+
+00:08:55.800 --> 00:08:57.880
+Dɛn na adetɔfo yɛ?
+
+00:08:57.880 --> 00:08:59.970
+Adetɔfo hwehwɛ sini ahorow, .
+
+00:08:59.970 --> 00:09:01.450
+Hwɛ sini ho nsɛm, .
+
+00:09:01.450 --> 00:09:02.910
+Paw bere a wɔde bɛkyerɛ sini, .
+
+00:09:02.910 --> 00:09:04.450
+Paw w’akongua, .
+
+00:09:04.450 --> 00:09:05.920
+Fa sini tekiti ho nhyehyɛe, .
+
+00:09:05.920 --> 00:09:07.610
+Hwɛ reservation ho nsɛm, .
+
+00:09:07.610 --> 00:09:10.180
+Yɛ nneɛma te sɛ nea wobɛtwa reservation bi mu
+
+00:09:10.180 --> 00:09:15.750
+So bere a wɔde bɛkyerɛ ne nkongua a wɔbɛpaw no yɛ sini tekiti a wɔbɛhyehyɛ no fã?
+
+00:09:15.750 --> 00:09:18.880
+Na sɛ wobɛkora sini tekiti so, wobɛtwa sini tekiti mu
+
+00:09:18.880 --> 00:09:22.210
+Ne nyinaa akyi no, so ɛnyɛ sɛ woretɔ tekiti na woasan de sika no ama wo kɛkɛ?
+
+00:09:22.210 --> 00:09:23.620
+woka no yie
+
+00:09:23.620 --> 00:09:25.030
+Ɛte saa
+
+00:09:25.480 --> 00:09:27.880
+Efisɛ ɛyɛ domain a wonim no yiye mprempren
+
+00:09:27.880 --> 00:09:31.240
+Paw bere a wode bɛhwɛ sini no na paw wo nkongua
+
+00:09:31.240 --> 00:09:33.200
+So eyi yɛ sini tekiti a wɔkora so no fã?
+
+00:09:33.200 --> 00:09:34.530
+Ná metumi abisa
+
+00:09:34.980 --> 00:09:37.220
+Nanso sɛ ɛyɛ domain a wonnim a, .
+
+00:09:37.410 --> 00:09:40.160
+Nhwehwɛmu biara a wɔde di dwuma no mu kɔ akyiri
+
+00:09:40.520 --> 00:09:43.330
+Wobɛsan ayɛ refining nhyehyɛe no mpɛn pii.
+
+00:09:43.790 --> 00:09:45.350
+Ɛgyina adwuma no tebea so
+
+00:09:45.350 --> 00:09:48.080
+Wubetumi ayɛ saa adeyɛ yi mpɛn pii, .
+
+00:09:48.080 --> 00:09:50.580
+Dodow a wugye wo bere na wohwehwɛ mu yiye no, .
+
+00:09:50.580 --> 00:09:54.190
+Tew sɔhwɛ ne mfomso so wɔ nhyehyɛe ne dwumadie no mu.
+
+00:09:55.850 --> 00:09:57.530
+Egyina nkɔmmɔbɔ a wɔabɔ de besi saa bere yi so
+
+00:09:57.530 --> 00:10:00.970
+Yɛahyehyɛ yɛn adetɔfoɔ dwumadie nsɛm no mu akuo anan:
+
+00:10:02.960 --> 00:10:04.470
+Nea edi hɔ ne ɔhwɛfo no
+
+00:10:05.190 --> 00:10:08.850
+Ɔhwɛfo no betumi ahu sɛ nneɛma anum na ɛwɔ hɔ a wɔde di dwuma:
+
+00:10:09.440 --> 00:10:13.620
+Ankasa, meyɛ ahwɛyiye wɔ asɛmfua "Manage" a mede bedi dwuma wɔ nkɔso mu no ho.
+
+00:10:14.360 --> 00:10:16.980
+Manage yɛ asɛmfua a ɛtrɛw dodo
+
+00:10:16.980 --> 00:10:19.030
+Ɛnyɛ nea ɛda adi pefee sɛ woreyɛ
+
+00:10:19.640 --> 00:10:20.950
+Ɛte saa ara wɔ ha nso
+
+00:10:21.370 --> 00:10:23.760
+Ɔkwan bɛn so ankasa na wodi ho dwuma?
+
+00:10:23.760 --> 00:10:24.810
+Mennim
+
+00:10:25.930 --> 00:10:27.620
+Ɛdenam nkɔmmɔ a wɔne domain ho abenfo bɛkasa so
+
+00:10:27.620 --> 00:10:31.220
+Wɔatrɛw ade biara a wɔde di dwuma mu akɔ tebea pɔtee bi a wɔde di dwuma mu.
+
+00:10:31.900 --> 00:10:33.660
+Sɛ ɛyɛ adwuma ankasa a
+
+00:10:33.660 --> 00:10:35.890
+Ebia nsɛm a wɔde di dwuma pii wɔ hɔ sen eyi.
+
+00:10:36.150 --> 00:10:39.000
+Ɛha na mayɛ no mmerɛw de akyerɛkyerɛ mu.
+
+00:10:39.860 --> 00:10:42.700
+Nea ɛho hia sɛ yɛhyɛ no nsow wɔ ha ne sɛ, sɛ wobɔ bere a wɔde tu mmirika a, .
+
+00:10:43.020 --> 00:10:45.900
+Wubetumi ahu sɛ wɔabɔ tekiti no nso
+
+00:10:46.960 --> 00:10:49.200
+Na bere a woretɔ tekiti anaasɛ woresan de ama no
+
+00:10:49.490 --> 00:10:53.910
+Wubetumi nso ahu sɛ yɛde abɔnten so dwumadie bi a wɔfrɛ no payment gateway di dwuma.
+
+00:10:55.890 --> 00:10:58.670
+Mekaa adetɔfo ne adwuma so ahwɛfo nsɛm a wɔde di dwuma no boom.
+
+00:10:59.350 --> 00:11:01.730
+Sɛ yɛhwɛ use case no nyinaa te sɛ eyi a
+
+00:11:01.730 --> 00:11:02.900
+Biribi te nka sɛ ɛda mpan
+
+00:11:03.890 --> 00:11:05.840
+Ɔkwan bi wɔ hɔ a wobɛfa so de agoprama bi aka ho
+
+00:11:05.840 --> 00:11:08.720
+Minhu biribiara te sɛ Search Theatre
+
+00:11:09.410 --> 00:11:12.130
+Ɛte sɛ nea use cases kakraa bi na ɛwɔ hɔ a wɔreyi afi mu.
+
+00:11:12.770 --> 00:11:15.980
+Efisɛ sɛ yɛhwɛ domain ho ɔbenfo bi a, pii wɔ hɔ a ɛsɛ sɛ yɛkyerɛkyerɛ mu.
+
+00:11:15.980 --> 00:11:17.950
+Saa asɛm a wɔde di dwuma yi, a ɛte sɛ nea ɛda adi kɛse no, .
+
+00:11:18.150 --> 00:11:19.810
+Wubetumi ayi nkyerɛkyerɛmu no afi mu
+
+00:11:20.770 --> 00:11:23.460
+Enti sɛnea developer bi hwɛ nso ɛ?
+
+00:11:24.400 --> 00:11:28.290
+Ɛyɛ papa sɛ wubeyi nsɛm ho amanneɛbɔ a ɛnyɛ den te sɛ agoprama a wɔhwehwɛ no afi hɔ.
+
+00:11:28.290 --> 00:11:30.700
+So eyi renboa kɛse wɔ nkrataa sohwɛ mu?
+
+00:11:31.720 --> 00:11:32.870
+Sɛ ɛyɛ backend design a
+
+00:11:32.870 --> 00:11:35.920
+Nsɛm a wɔde di dwuma a ɛnyɛ den te sɛ agoprama a wɔhwehwɛ
+
+00:11:35.920 --> 00:11:37.760
+Misusuw sɛ ɛnyɛ hwee sɛ wubehuruw
+
+00:11:38.600 --> 00:11:41.570
+Nea mereka ne sɛ ɛnka akyi dodo sɛ wobebua wɔ dwumadie fã no mu.
+
+00:11:42.370 --> 00:11:44.310
+Nanso sɛ ɛyɛ adwuma ankasa a
+
+00:11:44.310 --> 00:11:48.450
+Wɔ screen planners fam no, saa use cases yi yɛ mfiase pa.
+
+00:11:49.250 --> 00:11:52.300
+Nhyehyɛefo no hwɛɛ sɛnea wɔde di dwuma de hwehwɛɛ agoprama.
+
+00:11:52.300 --> 00:11:55.300
+Ɔkwan bɛn so na ɛsɛ sɛ mema ɛyɛ yiye sɛ mɛhwehwɛ agoprama ahorow?
+
+00:11:55.300 --> 00:11:56.600
+Wobɛtumi adwendwene
+
+00:11:58.000 --> 00:12:00.880
+Sɛ woka mfonini ahorow no bom yɛ biako a, ɛte sɛ nea ɛyɛ den.
+
+00:12:01.490 --> 00:12:05.150
+Sɛ ɛyɛ adwuma ankasa a, anka ɛbɛyɛ den kɛse.
+
+00:12:05.720 --> 00:12:08.240
+Wɔ eyi mu no, ɛho nhia sɛ wɔhyɛ ma wɔka bom.
+
+00:12:08.810 --> 00:12:13.910
+Mede wɔn abɔ mu wɔ ha kɛkɛ de ada no adi sɛ nsɛm bi ayera.
+
+00:12:16.020 --> 00:12:18.490
+Mehyehyɛɛ nsɛm a na ɛyerae no nyinaa
+
+00:12:19.200 --> 00:12:21.880
+Mewɔ use case a wɔayi nkitahodi a ɛda odiyifo no ntam no afi mu.
+
+00:12:22.290 --> 00:12:25.720
+Eyi fa adetɔfo ne adwuma so ahwɛfo nyinaa ho.
+
+00:12:26.400 --> 00:12:29.480
+Na sɛnea ɛbɛyɛ a ɛbɛyɛ mmerɛw sɛ wɔde bedi dwuma no, mekyerɛw no Borɔfo kasa mu.
+
+00:12:31.370 --> 00:12:34.160
+Ɛnyɛ hwee mprempren efisɛ ɛyɛ adwuma ketewaa bi
+
+00:12:34.160 --> 00:12:36.160
+Sɛ adwuma no yɛ kɛse na ɛyɛ den a
+
+00:12:36.160 --> 00:12:38.980
+Ɛhe na ɛsɛ sɛ domain ho ɔbenfo fi ase kyerɛkyerɛ mu?
+
+00:12:38.980 --> 00:12:40.380
+Ebia ɛbɛyɛ den
+
+00:12:41.280 --> 00:12:43.300
+Dɛn na ɔhwɛfo yɛ?
+
+00:12:43.300 --> 00:12:44.700
+Ɛyɛ adwuma pii
+
+00:12:44.700 --> 00:12:46.620
+Sɛnea wɔhwɛ kwan fi ɔpanyin no hɔ no
+
+00:12:47.620 --> 00:12:49.750
+Wɔ eyi mu no, so yebetumi akyekyɛ agoruyɛfo no mu nketenkete?
+
+00:12:49.750 --> 00:12:52.340
+Ɛyɛ adwene pa nso sɛ wobɛsan ahwɛ mu
+
+00:12:53.140 --> 00:12:54.790
+Mfiase no na wɔfrɛ me ɔhwɛfo
+
+00:12:54.790 --> 00:12:57.400
+Ebia ɛbɛyɛ yiye sɛ wɔbɛkyekyɛ mu nketenkete denam dwumadi a wodi so
+
+00:12:58.520 --> 00:13:00.820
+Na wode Movie Booking System no di dwuma
+
+00:13:00.820 --> 00:13:02.870
+Ebia abɔnten so nnwuma bi wɔ hɔ
+
+00:13:03.660 --> 00:13:05.340
+Sɛ yɛkyekyɛ agoruyɛfo no mu te sɛ eyi a, .
+
+00:13:05.340 --> 00:13:09.420
+Domain ho abenfo betumi de nsɛm a wɔahyehyɛ no yiye ama.
+
+00:13:10.350 --> 00:13:14.000
+Nokwarem no, eyi yɛ nhwɛso biako pɛ a ɛkyerɛ sɛnea wɔhwehwɛ asɛm bi a ɛyɛ den mu.
+
+00:13:14.540 --> 00:13:17.320
+Ebia akwan pa foforo nso wɔ hɔ
+
+00:13:17.960 --> 00:13:21.740
+Ɛho hia sɛ woyɛ ho biribi wɔ ɔkwan a ɛyɛ mmerɛw so a egyina tebea no so.
+
+00:13:24.250 --> 00:13:25.060
+Eyi ne nsɛm a wɔde wie
+
+00:13:25.950 --> 00:13:29.170
+Saa bere yi de, yɛde use case diagram bedi dwuma
+
+00:13:29.170 --> 00:13:30.840
+Fa botae ahorow sisi w’ani so ma adwuma no
+
+00:13:31.230 --> 00:13:33.700
+Mafa nhwehwɛmu no mfiase fã ahorow no mu.
+
+00:13:34.880 --> 00:13:38.010
+Ankasa, wɔ nkɔso nhyehyɛe no nyinaa mu
+
+00:13:38.010 --> 00:13:40.060
+Misusuw sɛ nhwehwɛmu ne nea ɛyɛ den sen biara
+
+00:13:40.570 --> 00:13:44.250
+Efisɛ ɛsɛ sɛ yɛhyehyɛ nsusuwii ahorow a ɛnyɛ adwene na emu nna hɔ sen biara.
+
+00:13:45.020 --> 00:13:47.650
+Bere foforo no yɛbɛhwɛ sɛnea wɔde di dwuma titiriw no
+
+00:13:47.650 --> 00:13:49.470
+Momma yɛnhwehwɛ mu nkɔ akyiri
+
+00:13:50.300 --> 00:13:52.100
+Yɛda mo ase wɔ adwumaden a moayɛ de besi nnɛ no ho.
+

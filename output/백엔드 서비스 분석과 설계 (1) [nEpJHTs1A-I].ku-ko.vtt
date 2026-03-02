@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: ku
+
+00:00:00.000 --> 00:00:02.020
+Silav, ev Koda Manner e.
+
+00:00:03.290 --> 00:00:05.350
+Nermalav aloz e
+
+00:00:06.650 --> 00:00:08.890
+Pêşî, gelek kod hene ku divê werin nivîsandin.
+
+00:00:09.760 --> 00:00:12.710
+Tenê projeyên mînakî yên ku min ji bo vê rêzefîlmê çêkirine
+
+00:00:12.710 --> 00:00:15.270
+Kod ji 12,000 xêzan dirêjtir e.
+
+00:00:16.330 --> 00:00:18.320
+Ger ew karûbarek xebitandinê ya rastîn be
+
+00:00:18.320 --> 00:00:21.530
+Tewra ku xizmetek piçûk be jî, ew ê bi hêsanî ji 100,000 rêzan derbas bibe.
+
+00:00:22.130 --> 00:00:25.300
+Sed hezar rêz bes in ji bo dagirtina bîst romanan.
+
+00:00:26.870 --> 00:00:29.560
+Nivîsandina kodek dirêj nayê wê wateyê ku ew qediyaye.
+
+00:00:30.330 --> 00:00:32.540
+Divê hûn koda ku hûn dinivîsin berdewam bikin sererast bikin.
+
+00:00:33.400 --> 00:00:35.800
+Eger tu A sererast bikî, B dişkê.
+
+00:00:35.800 --> 00:00:39.130
+Eger tu B sererast bikî, A û C dê bişkên.
+
+00:00:41.090 --> 00:00:44.260
+Bi karanîna mînakekê, ew mîna asêbûna di Rasputicayekê de û girîn e.
+
+00:00:44.260 --> 00:00:46.360
+Meriv dikare bibêje ku ew rewşek dişibihe hespê.
+
+00:00:47.330 --> 00:00:50.550
+Di vê qonaxê de, hûn ê hewcedariya sêwiranê hîs bikin.
+
+00:00:52.580 --> 00:00:55.010
+Lê gava ku hûn bi rastî hewl didin ku belgeyek sêwiranê binivîsin,
+
+00:00:55.500 --> 00:00:58.490
+Fikrên di serê xwe de bi awayekî konkret îfade dikin
+
+00:00:58.790 --> 00:01:01.260
+Hûn ê bibînin ku ew ne ew qas hêsan e ku hûn difikirin.
+
+00:01:01.890 --> 00:01:05.600
+Tew notên muzîkê, ku belgeyek e ku bi dîtbarî deng an muzîkê tomar dike,
+
+00:01:05.600 --> 00:01:06.700
+Evqas tevlihev e
+
+00:01:07.520 --> 00:01:10.610
+Ne tenê muzîk, lê di heman demê de darayî û lojîstîk jî
+
+00:01:10.610 --> 00:01:14.060
+Têgehên cihêrengtir û hewcedariyên bikarhêner ên abstrakt
+
+00:01:14.060 --> 00:01:17.220
+Ew ê ne hêsan be ku meriv wê di modelek taybetî de îfade bike.
+
+00:01:18.530 --> 00:01:19.490
+Dilşane
+
+00:01:19.770 --> 00:01:23.200
+Ji bo derbaskirina dijwarîya modelkirina têgehên abstrakt
+
+00:01:23.540 --> 00:01:26.860
+UML di dawiya salên 1990î de ji dayik bû.
+
+00:01:27.730 --> 00:01:30.120
+Grady Butch serokatiya wê dikir.
+
+00:01:31.460 --> 00:01:34.390
+Em UML bi pêşbînîkirinê bikar tînin
+
+00:01:34.980 --> 00:01:36.990
+Nexşeya çînê xêz bike
+
+00:01:36.990 --> 00:01:38.760
+Werin em diyagrama rêzê jî xêz bikin
+
+00:01:39.430 --> 00:01:39.980
+lebê
+
+00:01:40.360 --> 00:01:43.160
+Dema ku min bi rastî hewl da ku wê sêwirînim, ew ji kodkirina rasterast cuda bû.
+
+00:01:43.160 --> 00:01:45.130
+Ew pir cûda xuya nake
+
+00:01:45.590 --> 00:01:46.520
+Çima wisa ye?
+
+00:01:47.350 --> 00:01:50.910
+Ji ber ku pêvajoya ramanê bi pêkanînê ve hatiye rahênan.
+
+00:01:51.290 --> 00:01:54.170
+Li şûna ku têgehên abstrakt bêtir berbiçav bikin,
+
+00:01:54.490 --> 00:01:57.590
+Ji ber ku ew ramana asta pêkanînê werdigerîne UML.
+
+00:01:58.520 --> 00:02:00.270
+Tenê ji ber ku hûn dikarin notên muzîkê bixwînin
+
+00:02:00.270 --> 00:02:01.950
+Ne wekî ku ez bikaribim wê çêbikim
+
+00:02:02.390 --> 00:02:03.850
+Tenê ji ber ku te UML hîn bûye
+
+00:02:03.850 --> 00:02:06.170
+Ew ne wekî pêşxistina jêhatîyên sêwirandinê ye.
+
+00:02:07.700 --> 00:02:09.300
+Ji ber vê yekê di vê rêzefîlmê de
+
+00:02:09.300 --> 00:02:11.580
+Bi rêya projeyên rastîn
+
+00:02:11.580 --> 00:02:14.420
+Meriv çawa hewcedariyên abstrakt diyar dike
+
+00:02:14.420 --> 00:02:16.290
+Ma hûn dikarin kodê girêdin?
+
+00:02:16.290 --> 00:02:18.010
+Ez dixwazim bi xwe nîşanî te bidim
+
+00:02:18.530 --> 00:02:20.930
+Min hilbijart ku bilêtên fîlman bi rêya domainê veqetînim
+
+00:02:21.370 --> 00:02:25.200
+Rezervasyonên bilêtên fîlman hêsan têne fêmkirin ji ber ku ew bi piranî domênên naskirî ne.
+
+00:02:25.200 --> 00:02:29.710
+Fonksiyonên cûrbecûr ên wekî têketin, dravdan û hilbijartina kursiyê vedihewîne.
+
+00:02:29.710 --> 00:02:31.580
+Ew wekî mînakek baş xuya dike
+
+00:02:33.600 --> 00:02:36.890
+Di bingeh de, mijara vê gotarê sêwirana nermalavê ye, lê
+
+00:02:36.890 --> 00:02:40.350
+Em ê di heman demê de pêşveçûna ceribandinê jî vebêjin.
+
+00:02:41.210 --> 00:02:44.890
+Jîngehên pêşveçûnê yên nûjen bi xwezayî amûrên ceribandinê piştgirî dikin.
+
+00:02:45.600 --> 00:02:48.320
+Tewra ku hûn li projeyên çavkaniya vekirî yên navdar binêrin jî,
+
+00:02:48.320 --> 00:02:51.130
+Astek diyarkirî ya ceribandina me heye.
+
+00:02:51.740 --> 00:02:56.200
+Ev tê vê wateyê ku ceribandin xwedî girîngî û kêrhatîyek ewqas zêde ye.
+
+00:02:56.870 --> 00:02:58.120
+Lê di rastiyê de
+
+00:02:58.120 --> 00:03:02.590
+Di gelek rewşan de, ne tenê TDD, lê tewra otomasyona ceribandinê jî bi rêkûpêk nayê bicîhkirin.
+
+00:03:03.190 --> 00:03:06.260
+Nivîsandina testên watedar pêşî bêyî amadekariyekê ev e
+
+00:03:06.260 --> 00:03:07.540
+Qet ne hêsan e
+
+00:03:08.410 --> 00:03:12.340
+Ev tiştek e ku şiyanên hevbeş ên sêwirana nermalavê hewce dike.
+
+00:03:13.320 --> 00:03:16.270
+Ji ber vê yekê, çêtir e ku meriv bi hev re bi sêwiran û TDD re mijûl bibe.
+
+00:03:16.270 --> 00:03:18.180
+Min texmîn kir ku ew bikêrhatî ye
+
+00:03:20.120 --> 00:03:23.450
+Ji ber vê yekê, em ê niha dest bi civîna yekem a projeyê bikin.
+
+00:03:24.150 --> 00:03:26.470
+Ji ber ku ev projeyek piçûk e
+
+00:03:26.470 --> 00:03:28.090
+Du beşdarvan hene
+
+00:03:28.790 --> 00:03:32.340
+Yê li milê çepê pisporê domainê ye, û yê li milê rastê jî pêşdebir e.
+
+00:03:34.550 --> 00:03:37.790
+Pisporên domainê di pergalên ku divê em ava bikin de xwedî gotin in.
+
+00:03:37.790 --> 00:03:39.280
+Ew gelek çîrokan vedibêje
+
+00:03:40.340 --> 00:03:42.160
+Şanoya ku em dimeşînin
+
+00:03:42.160 --> 00:03:44.710
+Nêzîkî çar hezar ji wan li seranserê welêt hene.
+
+00:03:44.710 --> 00:03:47.220
+Dibe ku di pêşerojê de hîn bêtir zêde bibe.
+
+00:03:47.220 --> 00:03:50.480
+Niha, tenê fonksiyona rezervasyona bilêtên fîlman tê piştgirîkirin.
+
+00:03:50.480 --> 00:03:54.510
+Em plan dikin ku paşê firotina bilêtan ji bo performansên mezin zêde bikin.
+
+00:03:54.510 --> 00:03:58.940
+Û ya girîng ew e ku divê hûn qet kursiyan duqat nekin.
+
+00:03:58.940 --> 00:04:03.250
+Berê, navendên karûbarê xerîdar bi wî rengî pirsgirêkê re pir zehmetiyan dikişandin.
+
+00:04:03.250 --> 00:04:07.670
+Ji ber ku gelek agahî û daneyên nirxandinê yên fîlman hatine berhevkirin.
+
+00:04:07.670 --> 00:04:11.090
+Divê ev daneyên bêkêmasî bimînin.
+
+00:04:12.090 --> 00:04:14.730
+Li vir axaftin baş hatiye rêkxistin, lê
+
+00:04:14.890 --> 00:04:16.960
+Di rastiyê de, agahdariya zêdetir
+
+00:04:16.960 --> 00:04:18.600
+Ew ê bi awayekî bêrêxistin were pêşkêşkirin
+
+00:04:19.470 --> 00:04:22.110
+Lê çîroka ku di destpêka projeyê de derdikeve holê ev e ku
+
+00:04:22.110 --> 00:04:23.780
+Ji ber ku ew pêdiviya herî girîng e
+
+00:04:23.780 --> 00:04:25.320
+Divê hûn bi baldarî guhdarî bikin
+
+00:04:27.110 --> 00:04:29.810
+Pêşdebir guh didin pisporên domainê
+
+00:04:29.810 --> 00:04:31.290
+Çend pirsên min hene
+
+00:04:32.290 --> 00:04:34.660
+Fonksiyona rezervasyona bilêtê ya performansa mezin a ku we behs kir
+
+00:04:34.660 --> 00:04:36.910
+Kengî wê were zêdekirin?
+
+00:04:36.910 --> 00:04:39.910
+Gelo divê ev yek ji pêş de di çarçoveya vê projeyê de cih bigire?
+
+00:04:39.910 --> 00:04:43.590
+An jî ez dixwazim bizanim gelo divê ez hîn jî li ser bifikirim
+
+00:04:43.590 --> 00:04:46.090
+Û pêwîstiya parastina daneyên heyî
+
+00:04:46.090 --> 00:04:48.940
+Ma ev tê wê maneyê ku divê em sîstema DB neguherînin?
+
+00:04:48.940 --> 00:04:51.950
+Ma niha xizmetên din hene ku DB-ê parve dikin?
+
+00:04:53.580 --> 00:04:54.980
+Wekî ku hûn ji DB-ê dibînin,
+
+00:04:54.980 --> 00:04:57.290
+Ji ber ku pisporên domainê pêşdebir nînin.
+
+00:04:57.290 --> 00:04:59.430
+Daxuyaniya teknîkî nezelal e
+
+00:04:59.910 --> 00:05:02.890
+Pêdivî ye ku pêşdebir van tiştan bi baldarî kontrol bikin.
+
+00:05:04.230 --> 00:05:07.450
+Pisporên domainê pirsên pêşdebiran bi vî rengî bersiv dikin:
+
+00:05:08.330 --> 00:05:10.210
+Fonksiyona rezervasyona bilêtê ya performansa mezin
+
+00:05:10.210 --> 00:05:13.450
+Hîn bernameyeke diyarkirî tune ye.
+
+00:05:13.450 --> 00:05:15.970
+Lêbelê, dema ku taybetmendî di pêşerojê de werin zêdekirin
+
+00:05:15.970 --> 00:05:18.700
+Ji bo ku hûn bêyî gelek zehmetiyê nûve bikin
+
+00:05:18.700 --> 00:05:22.600
+Ez difikirim ku dê baş be ku hûn vê carê hinekî li ser vê yekê bifikirin.
+
+00:05:22.600 --> 00:05:27.050
+Em DB-ê ji bilî xizmetên xwe ji bo tiştekî din bi kar naynin.
+
+00:05:27.050 --> 00:05:32.840
+Heta ku daneyên baş werin parastin, guhertina pergalê bi xwe ne pirsgirêkek mezin e.
+
+00:05:33.840 --> 00:05:35.080
+Piştî bihîstina çîrokê
+
+00:05:35.080 --> 00:05:39.400
+Ez nafikirim ku hûn hewce ne ku li ser pêşandana mezin xemgîn bibin.
+
+00:05:39.400 --> 00:05:40.790
+Ne çarçoveya projeyê ye
+
+00:05:40.790 --> 00:05:43.040
+Daxwazên wê jî ne zelal in
+
+00:05:43.040 --> 00:05:44.930
+Ez nizanim kengê ez ê hewce bikim, lê ez nizanim
+
+00:05:44.930 --> 00:05:47.710
+Ew pirsgirêkek e ku em ê neçar bimînin paşê dîsa li ser bifikirin.
+
+00:05:48.920 --> 00:05:50.910
+Her çend di belgeyê de nehatibe tomar kirin jî
+
+00:05:50.910 --> 00:05:54.880
+Pisporên domainê jî dê bersivek bidin ku ew ê performansên di asta mezin de bifikirin.
+
+00:05:54.880 --> 00:05:55.960
+Divê hûn ji bîr nekin
+
+00:05:56.740 --> 00:05:58.320
+Baş e
+
+00:05:58.320 --> 00:06:00.630
+Dûv re, fonksiyona rezervasyona bilêtê ya performansa mezin
+
+00:06:00.630 --> 00:06:04.500
+Ez ê wê nexim nav pêşîniyên sereke yên vê projeyê.
+
+00:06:04.500 --> 00:06:08.220
+Di şûna wê de, ew berfirehkirina fonksiyonê di paşê de di pêvajoya pêşkeftinê de hêsantir dike.
+
+00:06:08.220 --> 00:06:10.190
+Ez ê baş lê xwedî derkevim
+
+00:06:10.190 --> 00:06:12.840
+Dilnigeran nebe. Tenê baweriya xwe bi min bîne
+
+00:06:13.840 --> 00:06:15.960
+Girîng e ku meriv baş li hev bike
+
+00:06:17.980 --> 00:06:19.500
+Bi rêya sohbeta me heta niha
+
+00:06:19.500 --> 00:06:22.700
+Pêşîniyên jorîn bi vî rengî hatine kurtkirin:
+
+00:06:23.220 --> 00:06:25.890
+Ev agahî ji hêla pisporên qadê ve hatine dayîn.
+
+00:06:25.890 --> 00:06:28.410
+Şîrovekirin û rêxistinkirin ji perspektîfa pêşdebiran
+
+00:06:28.410 --> 00:06:29.810
+Projeyê dest pê bike
+
+00:06:31.700 --> 00:06:32.860
+Bi pisporên warê re
+
+00:06:32.860 --> 00:06:34.980
+Piştî ku we li ser armancên projeya xwe biryar da,
+
+00:06:35.620 --> 00:06:37.980
+Niha dem hatiye ku hûn navê projeya xwe bidin.
+
+00:06:38.750 --> 00:06:41.840
+Pêşî, ji pisporekî domainê nêrîna wî/wê bipirsin.
+
+00:06:42.800 --> 00:06:45.540
+Navê projeyê ez çi bikim? / Divê ez çi navî lê bikim?
+
+00:06:45.540 --> 00:06:47.680
+Ew sîstemeke rezervasyona fîlman e.
+
+00:06:47.680 --> 00:06:50.150
+Çawa li ser Sîstema Rezervasyona Fîlman?
+
+00:06:50.150 --> 00:06:51.430
+na, ez naxwazim
+
+00:06:51.430 --> 00:06:53.570
+Ez ê li performansên mezin xwedî derkevim
+
+00:06:53.570 --> 00:06:56.930
+Werin em bi Sîstema Rezervasyona Fîlman re biçin. erê?
+
+00:06:56.930 --> 00:06:58.180
+ecêb
+
+00:06:58.180 --> 00:06:59.950
+Gelek sipas
+
+00:07:01.000 --> 00:07:05.230
+Pisporên domainê dibe ku navên projeyan bi Koreyî bixwazin.
+
+00:07:05.580 --> 00:07:07.680
+Lê ji perspektîfa pêşdebir
+
+00:07:07.680 --> 00:07:09.990
+Hemû term, tevî navên projeyan
+
+00:07:09.990 --> 00:07:12.180
+Ji ber ku ew rasterast di kodê de tê bicîhkirin,
+
+00:07:12.600 --> 00:07:15.000
+Heke gengaz be, pênasekirina wê bi îngilîzî hêsantir e.
+
+00:07:15.540 --> 00:07:19.510
+Ji bo pêşdebiran girîng e ku bi dilsozî pêdiviyên pisporên qadê bişopînin, lê
+
+00:07:19.960 --> 00:07:21.430
+Bihesibînin tevahiya projeyê
+
+00:07:21.430 --> 00:07:23.930
+Em jî berpirsiyar in ku tiştan ber bi aliyekî bi bandor ve bibin.
+
+00:07:25.850 --> 00:07:27.760
+Heger we li ser navekî ji bo projeya xwe biryar dabe
+
+00:07:27.760 --> 00:07:31.380
+Niha dem hatiye ku em bibînin ka kî Sîstema Rezervasyona Fîlman bikar tîne.
+
+00:07:32.020 --> 00:07:34.940
+Bê guman, divê hûn ji pisporekî domainê agahdarî li ser vê yekê bipirsin.
+
+00:07:35.420 --> 00:07:38.740
+Û em dibînin ku xerîdar û rêveber hene.
+
+00:07:40.820 --> 00:07:43.280
+Yek ji wan hêmanan ku di qonaxên destpêkê yên sêwiranê de bi hêsanî ji bîr dibe ev e ku
+
+00:07:43.280 --> 00:07:44.760
+Ew girêdayîbûnek derveyî ye
+
+00:07:45.340 --> 00:07:46.580
+Girêdayîbûnên derveyî ne
+
+00:07:46.580 --> 00:07:49.210
+Ew dikare pergalek mîrasî ya heyî be,
+
+00:07:49.660 --> 00:07:51.420
+Ew dikare bibe sîstemeke peredanê
+
+00:07:52.020 --> 00:07:53.670
+Ev têkiliya girêdayîbûnê ye
+
+00:07:53.670 --> 00:07:56.760
+Ji ber ku ew dikare bandorek mezin li ser sêwirana giştî ya sîstemê bike.
+
+00:07:56.950 --> 00:08:00.150
+Girîng e ku ew di zûtirîn dem de were naskirin.
+
+00:08:00.570 --> 00:08:01.240
+dilşane
+
+00:08:01.820 --> 00:08:04.990
+Hêmanên wekî dergehên dravdanê û pergalên mîrasî
+
+00:08:05.270 --> 00:08:07.730
+Ji ber ku ew jixwe di sîstemên heyî de tê bikar anîn.
+
+00:08:07.990 --> 00:08:10.360
+Ew dikare bi rengekî nisbeten bi hêsanî were fêm kirin
+
+00:08:11.230 --> 00:08:14.410
+Yek ji wan tiştan ku di têkiliyeke girêdayî de bi hêsanî ji bîr dibe ev e ku
+
+00:08:14.410 --> 00:08:16.090
+Faktorên jîngehê yên derveyî hene
+
+00:08:16.900 --> 00:08:19.060
+Welatê me di heman herêma demê de ye
+
+00:08:19.060 --> 00:08:22.430
+Li welatekî bi rûbereke fireh, her şanoyek xwedî demjimêrek cuda ye.
+
+00:08:23.190 --> 00:08:25.100
+Paşê Sîstema Rezervasyona Fîlman
+
+00:08:25.100 --> 00:08:28.900
+Neçar e ku ew ê ji hêla faktorên hawîrdorê yên wekî deverên demjimêr ve bandor bibe.
+
+00:08:29.410 --> 00:08:32.760
+Ev faktor bi hêsanî nayên dîtin heya ku hûn rasterast ji pisporê qadê nepirsin.
+
+00:08:32.760 --> 00:08:33.950
+Hêsan e ku meriv ji bîr bike
+
+00:08:34.740 --> 00:08:37.610
+Pisporên domainê meyla wan heye ku van hûrguliyan ji nedîtî ve werin.
+
+00:08:37.610 --> 00:08:40.010
+Ji ber ku ravekirin dikare were paşguh kirin
+
+00:08:41.680 --> 00:08:43.640
+Ji ber ku têkiliya girêdayîbûnê bi awayekî zelal hatiye diyarkirin
+
+00:08:43.640 --> 00:08:47.500
+Niha em li ser taybetmendiyên navxweyî yên Sîstema Rezervasyona Fîlman bisekinin.
+
+00:08:48.430 --> 00:08:52.230
+Pêşî, xerîdar di Sîstema Rezervasyona Fîlman de çi dike?
+
+00:08:52.230 --> 00:08:54.230
+Werin em ji pisporên domainê bipirsin
+
+00:08:55.800 --> 00:08:57.880
+Xerîdar çi dikin?
+
+00:08:57.880 --> 00:08:59.970
+Xerîdar li fîlman digerin,
+
+00:08:59.970 --> 00:09:01.450
+Hûrguliyên fîlmê bibînin,
+
+00:09:01.450 --> 00:09:02.910
+Demjimêrek nîşandanê hilbijêre,
+
+00:09:02.910 --> 00:09:04.450
+Kursîya xwe hilbijêre,
+
+00:09:04.450 --> 00:09:05.920
+Bilêtên fîlman rezerv bikin,
+
+00:09:05.920 --> 00:09:07.610
+Agahiyên rezervasyonê kontrol bikin,
+
+00:09:07.610 --> 00:09:10.180
+Tiştên wekî betalkirina rezervasyonê bikin
+
+00:09:10.180 --> 00:09:15.750
+Ma hilbijartina demjimêra pêşandanê û hilbijartina kursiyekê beşek ji pêvajoya rezervasyona bilêtên sînemayê ye?
+
+00:09:15.750 --> 00:09:18.880
+Û ji bo veqetandina bilêtên fîlman, ji bo betalkirina rezervasyonan
+
+00:09:18.880 --> 00:09:22.210
+Axir, ma hûn ne tenê bilêtek dikirin û pereyê xwe distînin?
+
+00:09:22.210 --> 00:09:23.620
+tu rast dibêjî
+
+00:09:23.620 --> 00:09:25.030
+Ew rast e
+
+00:09:25.480 --> 00:09:27.880
+Ji ber ku ew êdî domainek naskirî ye
+
+00:09:27.880 --> 00:09:31.240
+Demê nîşandanê hilbijêre û kursiya xwe hilbijêre
+
+00:09:31.240 --> 00:09:33.200
+Ev beşek ji pêvajoya rezervasyona bilêtên fîlmê ye?
+
+00:09:33.200 --> 00:09:34.530
+Ez dikarim bipirsim
+
+00:09:34.980 --> 00:09:37.220
+Lê eger ew domainek nenas be,
+
+00:09:37.410 --> 00:09:40.160
+Analîzkirina her rewşa karanînê bi berfirehî
+
+00:09:40.520 --> 00:09:43.330
+Hûn ê pêvajoya paqijkirinê çend caran dubare bikin.
+
+00:09:43.790 --> 00:09:45.350
+Li gorî rewşa projeyê
+
+00:09:45.350 --> 00:09:48.080
+Hûn dikarin vê pêvajoyê çend caran dubare bikin,
+
+00:09:48.080 --> 00:09:50.580
+Her ku hûn bêtir wextê xwe bigirin û bi baldarî analîz bikin,
+
+00:09:50.580 --> 00:09:54.190
+Di qonaxên sêwirandin û pêkanînê de ceribandin û xeletiyan kêm bikin.
+
+00:09:55.850 --> 00:09:57.530
+Li gorî axaftinên heta niha
+
+00:09:57.530 --> 00:10:00.970
+Me rewşên karanîna xerîdarên xwe di çar kategoriyan de rêxistin kirine:
+
+00:10:02.960 --> 00:10:04.470
+Ya din jî rêveber e
+
+00:10:05.190 --> 00:10:08.850
+Rêveber dikare bibîne ku pênc xalên rêveberiyê hene:
+
+00:10:09.440 --> 00:10:13.620
+Bi xwe, ez di warê bikaranîna peyva "Rêvebirin" de di pêşkeftinê de bi hişyarî me.
+
+00:10:14.360 --> 00:10:16.980
+"Rêvebirin" îfadeyeke pir fireh e
+
+00:10:16.980 --> 00:10:19.030
+Ne diyar e hûn çi dikin
+
+00:10:19.640 --> 00:10:20.950
+Li vir jî eynî ye
+
+00:10:21.370 --> 00:10:23.760
+Bi rastî çawa tê birêvebirin?
+
+00:10:23.760 --> 00:10:24.810
+Ez nizanim
+
+00:10:25.930 --> 00:10:27.620
+Bi axaftina bi pisporên domainê re
+
+00:10:27.620 --> 00:10:31.220
+Her babetê rêveberiyê ji bo rewşek karanîna taybetî hatiye berfireh kirin.
+
+00:10:31.900 --> 00:10:33.660
+Heger projeyek rastîn be
+
+00:10:33.660 --> 00:10:35.890
+Dibe ku ji vê bêtir rewşên karanînê hebin.
+
+00:10:36.150 --> 00:10:39.000
+Li vir min ew ji bo ravekirinê hêsan kiriye.
+
+00:10:39.860 --> 00:10:42.700
+Tiştê girîng ku li vir were zanîn ev e ku dema ku hûn demek xebitandinê diafirînin,
+
+00:10:43.020 --> 00:10:45.900
+Hûn dikarin bibînin ku bilêt jî hatiye afirandin
+
+00:10:46.960 --> 00:10:49.200
+Û dema kirîn an vegerandina pereyê bilêtê
+
+00:10:49.490 --> 00:10:53.910
+Her weha hûn dikarin bibînin ku em karûbarek derveyî bikar tînin ku jê re deriyê dravdanê tê gotin.
+
+00:10:55.890 --> 00:10:58.670
+Min rewşên karanîna xerîdar û rêvebiran li hev anîn.
+
+00:10:59.350 --> 00:11:01.730
+Bi vî rengî li tevahiya doza karanînê dinêre
+
+00:11:01.730 --> 00:11:02.900
+Tiştek vala hîs dike
+
+00:11:03.890 --> 00:11:05.840
+Vebijêrkek heye ku şanoyek lê zêde bike
+
+00:11:05.840 --> 00:11:08.720
+Ez tiştekî mîna Search Theater nabînim
+
+00:11:09.410 --> 00:11:12.130
+Ew xuya dike ku gelek rewşên karanînê hene ku têne jibîrkirin.
+
+00:11:12.770 --> 00:11:15.980
+Ji ber ku ji perspektîfa pisporekî qadê ve, gelek tişt hene ku werin ravekirin.
+
+00:11:15.980 --> 00:11:17.950
+Ev rewşa bikaranînê, ku pir eşkere xuya dike,
+
+00:11:18.150 --> 00:11:19.810
+Hûn dikarin ravekirinê ji bîr bikin
+
+00:11:20.770 --> 00:11:23.460
+Ji perspektîfa pêşdebiran çi ye?
+
+00:11:24.400 --> 00:11:28.290
+Çêtir e ku rewşên nûçeyên hêsan ên wekî lêgerîna şanoyê ji holê werin rakirin.
+
+00:11:28.290 --> 00:11:30.700
+Ma ev ji bo rêveberiya belgeyan ne bikêrtir be?
+
+00:11:31.720 --> 00:11:32.870
+Ger ew sêwirana paşîn be
+
+00:11:32.870 --> 00:11:35.920
+Rewşên karanîna hêsan ên wekî lêgerîna sînemayekê
+
+00:11:35.920 --> 00:11:37.760
+Ez difikirim ku baş e ku meriv wê derbas bike
+
+00:11:38.600 --> 00:11:41.570
+Tiştê ku ez dibêjim ev e ku di qonaxa pêkanînê de hîn jî dereng nîne ku bersiv bê dayîn.
+
+00:11:42.370 --> 00:11:44.310
+Lê eger ew projeyek rastîn be
+
+00:11:44.310 --> 00:11:48.450
+Ji bo plansazkerên ekranê, ev rewşên karanînê xalek destpêkek baş in.
+
+00:11:49.250 --> 00:11:52.300
+Planker li rewşa karanîna lêgerîna şanoyê nihêrî.
+
+00:11:52.300 --> 00:11:55.300
+Ez çawa dikarim lêgerîna sînemayan gengaz bikim?
+
+00:11:55.300 --> 00:11:56.600
+Hûn ê bikaribin bifikirin
+
+00:11:58.000 --> 00:12:00.880
+Dema ku hûn nexşeyan li hev dikin yek, ew tevlihev xuya dike.
+
+00:12:01.490 --> 00:12:05.150
+Ger projeyek rastîn bûya, dê pir aloztir bûya.
+
+00:12:05.720 --> 00:12:08.240
+Di vê rewşê de, ne hewce ye ku zorê li ser tevlîhevkirinê were kirin.
+
+00:12:08.810 --> 00:12:13.910
+Min ew li vir yek kirin da ku eşkere bikim ku dozên wenda hene.
+
+00:12:16.020 --> 00:12:18.490
+Min hemû rewşên winda tijî kirin
+
+00:12:19.200 --> 00:12:21.880
+Rewşa karanînê min heye ku tê de girêdana bi aktorê re tê paşguhkirin.
+
+00:12:22.290 --> 00:12:25.720
+Ev hem ji bo xerîdaran û hem jî ji bo rêveberan derbas dibe.
+
+00:12:26.400 --> 00:12:29.480
+Û ji bo hêsaniya pêkanînê, min ew bi îngilîzî nivîsand.
+
+00:12:31.370 --> 00:12:34.160
+Niha baş e ji ber ku ew projeyek piçûk e.
+
+00:12:34.160 --> 00:12:36.160
+Heger proje mezin û tevlihev be
+
+00:12:36.160 --> 00:12:38.980
+Pisporekî domainê divê ji ku dest bi şirovekirinê bike?
+
+00:12:38.980 --> 00:12:40.380
+Dibe ku zehmet be
+
+00:12:41.280 --> 00:12:43.300
+Administratorek çi dike?
+
+00:12:43.300 --> 00:12:44.700
+Ew gelek kar e
+
+00:12:44.700 --> 00:12:46.620
+Wekî ku ji rêveber tê hêvîkirin
+
+00:12:47.620 --> 00:12:49.750
+Di vê rewşê de, gelo em dikarin aktoran dabeş bikin?
+
+00:12:49.750 --> 00:12:52.340
+Herwiha baş e ku meriv ji nû ve binirxîne jî
+
+00:12:53.140 --> 00:12:54.790
+Di destpêkê de ji min re digotin rêveber
+
+00:12:54.790 --> 00:12:57.400
+Dibe ku dabeşkirin li gorî rolan gengaz be
+
+00:12:58.520 --> 00:13:00.820
+Û bi karanîna Sîstema Rezervasyona Fîlman
+
+00:13:00.820 --> 00:13:02.870
+Dibe ku xizmetên derveyî hebin.
+
+00:13:03.660 --> 00:13:05.340
+Eger em aktoran bi vî rengî dabeş bikin,
+
+00:13:05.340 --> 00:13:09.420
+Pisporên warê dê bikaribin agahdariya sîstematîktir peyda bikin.
+
+00:13:10.350 --> 00:13:14.000
+Bê guman, ev tenê mînakek ji analîzkirina domainek tevlihev e.
+
+00:13:14.540 --> 00:13:17.320
+Dibe ku rêbazên din ên baş jî hebin
+
+00:13:17.960 --> 00:13:21.740
+Girîng e ku li gorî rewşê nermik bersiv bidin.
+
+00:13:24.250 --> 00:13:25.060
+Ev encam e
+
+00:13:25.950 --> 00:13:29.170
+Vê carê, em ê nexşeya rewşa karanînê bikar bînin
+
+00:13:29.170 --> 00:13:30.840
+Armancên ji bo projeyê destnîşan bikin
+
+00:13:31.230 --> 00:13:33.700
+Min qonaxên destpêkê yên analîzê derbas kirin.
+
+00:13:34.880 --> 00:13:38.010
+Bi awayekî kesane, di tevahiya pêvajoya pêşveçûnê de
+
+00:13:38.010 --> 00:13:40.060
+Ez difikirim ku analîzkirin herî dijwar e
+
+00:13:40.570 --> 00:13:44.250
+Ji ber ku divê em têgehên herî abstrakt û nezelal rêk bixin.
+
+00:13:45.020 --> 00:13:47.650
+Cara din em ê li ser rewşên karanîna sereke binêrin
+
+00:13:47.650 --> 00:13:49.470
+Werin em wê bi berfirehî analîz bikin
+
+00:13:50.300 --> 00:13:52.100
+Spas ji bo xebata te ya heta niha.
+

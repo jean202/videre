@@ -1,0 +1,832 @@
+WEBVTT
+Kind: captions
+Language: lg
+
+00:00:00.000 --> 00:00:02.020
+Mwasuze mutya, eno ye Manner Code.
+
+00:00:03.290 --> 00:00:05.350
+Sofutiweya nzibu nnyo
+
+00:00:06.650 --> 00:00:08.890
+Okusookera ddala, waliwo code nnyingi ezeetaaga okuwandiikibwa.
+
+00:00:09.760 --> 00:00:12.710
+Just the example projects ze natondawo ku series eno
+
+00:00:12.710 --> 00:00:15.270
+Koodi eno eweza layini ezisukka mu 12,000.
+
+00:00:16.330 --> 00:00:18.320
+Bwe kiba nga mpeereza yennyini ekola
+
+00:00:18.320 --> 00:00:21.530
+Ne bwe kiba nga kya mpeereza ntono, kyangu okusukka layini 100,000.
+
+00:00:22.130 --> 00:00:25.300
+Ennyiriri emitwalo kikumi zimala okujjuza ebitabo amakumi abiri.
+
+00:00:26.870 --> 00:00:29.560
+Okuwandiika code empanvu tekitegeeza nti ewedde.
+
+00:00:30.330 --> 00:00:32.540
+Olina okusigala ng’otereeza koodi gy’owandiika.
+
+00:00:33.400 --> 00:00:35.800
+Bw’otereeza A, B ekutukako.
+
+00:00:35.800 --> 00:00:39.130
+Bw’otereeza B, A ne C zijja kumenya.
+
+00:00:41.090 --> 00:00:44.260
+Okukozesa okugeraageranya, kiringa okusibira mu Rasputa n’okaaba.
+
+00:00:44.260 --> 00:00:46.360
+Oyinza okugamba nti embeera efaananako n’embalaasi.
+
+00:00:47.330 --> 00:00:50.550
+Mu kiseera kino, ojja kuwulira obwetaavu bw’okukola dizayini.
+
+00:00:52.580 --> 00:00:55.010
+Naye mu butuufu bw’ogezaako okuwandiika ekiwandiiko kya dizayini, .
+
+00:00:55.500 --> 00:00:58.490
+Okwolesa ebirowoozo mu mutwe gwo mu ngeri entuufu
+
+00:00:58.790 --> 00:01:01.260
+Ojja kukizuula nti si kyangu nga bw’olowooza.
+
+00:01:01.890 --> 00:01:05.600
+Ne sheet music, nga kino kiwandiiko ekikwata amaloboozi oba ennyimba mu ngeri ey’okulaba, .
+
+00:01:05.600 --> 00:01:06.700
+Kino kizibu nnyo
+
+00:01:07.520 --> 00:01:10.610
+Si muziki gwokka, wabula n’ebyensimbi n’okutambuza ebintu
+
+00:01:10.610 --> 00:01:14.060
+Endowooza ez’enjawulo ennyo n’ebyetaago by’abakozesa ebitaliimu
+
+00:01:14.060 --> 00:01:17.220
+Tekijja kuba kyangu kukiraga mu modeli eyeetongodde.
+
+00:01:18.530 --> 00:01:19.490
+Eby'obulungi
+
+00:01:19.770 --> 00:01:23.200
+Okuvvuunuka obuzibu bw’okukola modeling abstract concepts
+
+00:01:23.540 --> 00:01:26.860
+UML yazaalibwa ku nkomerero y’emyaka gya 1990.
+
+00:01:27.730 --> 00:01:30.120
+Yakulembeddwamu Grady Butch.
+
+00:01:31.460 --> 00:01:34.390
+Tukozesa UML nga tusuubira
+
+00:01:34.980 --> 00:01:36.990
+Kuba ekifaananyi kya kiraasi
+
+00:01:36.990 --> 00:01:38.760
+Ka tugende n’ekifaananyi ky’omutendera
+
+00:01:39.430 --> 00:01:39.980
+naye
+
+00:01:40.360 --> 00:01:43.160
+Mu butuufu bwe nagezaako okugikola dizayini, yali ya njawulo ku kugikolako enkoodi butereevu.
+
+00:01:43.160 --> 00:01:45.130
+Kirabika tekirina njawulo nnyo
+
+00:01:45.590 --> 00:01:46.520
+Lwaki bwe kityo bwe kiri?
+
+00:01:47.350 --> 00:01:50.910
+Ekyo kiri bwe kityo kubanga enkola y’ebirowoozo emanyidde okussa mu nkola.
+
+00:01:51.290 --> 00:01:54.170
+Mu kifo ky’okufuula endowooza ezitaliimu (abstract concepts) okubeera entuufu, .
+
+00:01:54.490 --> 00:01:57.590
+Kubanga kivvuunula endowooza y’omutendera gw’okussa mu nkola mu UML.
+
+00:01:58.520 --> 00:02:00.270
+Olw’okuba osobola okusoma sheet music
+
+00:02:00.270 --> 00:02:01.950
+Si nga bwe nsobola okugiyiiya
+
+00:02:02.390 --> 00:02:03.850
+Just because wayiga UML
+
+00:02:03.850 --> 00:02:06.170
+Si nga bw’okulaakulanya obukugu mu kukola dizayini.
+
+00:02:07.700 --> 00:02:09.300
+Kale mu lunyiriri luno
+
+00:02:09.300 --> 00:02:11.580
+Nga bayita mu pulojekiti entuufu
+
+00:02:11.580 --> 00:02:14.420
+Engeri y'okufuula ebyetaago ebitaliimu (abstract requirements).
+
+00:02:14.420 --> 00:02:16.290
+Osobola okuyunga koodi?
+
+00:02:16.290 --> 00:02:18.010
+Njagala okukulaga mu buntu
+
+00:02:18.530 --> 00:02:20.930
+Nasalawo okutereka tikiti za firimu okusinziira ku domain
+
+00:02:21.370 --> 00:02:25.200
+Okuteeka tikiti za firimu kyangu okutegeera kubanga okusinga domains ezimanyiddwa.
+
+00:02:25.200 --> 00:02:29.710
+Mulimu emirimu egy’enjawulo nga okuyingira, okusasula, n’okulonda ebifo.
+
+00:02:29.710 --> 00:02:31.580
+Kirabika ng’ekyokulabirako ekirungi
+
+00:02:33.600 --> 00:02:36.890
+Okusinga, omulamwa gw’ekiwandiiko kino gwe gwa software design, naye
+
+00:02:36.890 --> 00:02:40.350
+Tugenda kukwata ku nkulaakulana evugirwa n’okugezesa.
+
+00:02:41.210 --> 00:02:44.890
+Embeera z’enkulaakulana ez’omulembe mu butonde ziwagira ebikozesebwa mu kugezesa.
+
+00:02:45.600 --> 00:02:48.320
+Ne bw’otunuulira pulojekiti ezimanyiddwa ennyo ez’enkozesa enzigule, .
+
+00:02:48.320 --> 00:02:51.130
+Tulina omutindo ogugere ogw’okugezesa.
+
+00:02:51.740 --> 00:02:56.200
+Kino kirabika kitegeeza nti okugezesa kukulu nnyo era kwa mugaso nnyo.
+
+00:02:56.870 --> 00:02:58.120
+Naye mu butuufu
+
+00:02:58.120 --> 00:03:02.590
+Mu mbeera nnyingi, si TDD yokka, naye ne test automation teteekebwa mu nkola bulungi.
+
+00:03:03.190 --> 00:03:06.260
+Okusooka okuwandiika ebigezo eby’amakulu nga tolina kwetegeka kwonna kwe...
+
+00:03:06.260 --> 00:03:07.540
+Si kyangu n’akatono
+
+00:03:08.410 --> 00:03:12.340
+Kino kintu ekyetaagisa obusobozi obugatta obw’okukola pulogulaamu za kompyuta.
+
+00:03:13.320 --> 00:03:16.270
+Kale, kirungi okukola ku dizayini ne TDD wamu.
+
+00:03:16.270 --> 00:03:18.180
+Nasalawo nti ekola bulungi
+
+00:03:20.120 --> 00:03:23.450
+Kale kati ka tutandike olukiiko olusooka olwa pulojekiti.
+
+00:03:24.150 --> 00:03:26.470
+Kubanga eno pulojekiti ntono
+
+00:03:26.470 --> 00:03:28.090
+Abagenda okubeerawo mulimu babiri
+
+00:03:28.790 --> 00:03:32.340
+Oyo ali ku kkono mukugu mu domain, ate ali ku ddyo ye developer.
+
+00:03:34.550 --> 00:03:37.790
+Abakugu mu domain balina kye boogera ku nkola ze twetaaga okuzimba.
+
+00:03:37.790 --> 00:03:39.280
+Kinyumya emboozi nnyingi
+
+00:03:40.340 --> 00:03:42.160
+Katemba gwe tuddukanya
+
+00:03:42.160 --> 00:03:44.710
+Ziri mu nkumi nnya okwetoloola eggwanga.
+
+00:03:44.710 --> 00:03:47.220
+Kiyinza okwongera okweyongera mu biseera eby’omu maaso.
+
+00:03:47.220 --> 00:03:50.480
+Mu kiseera kino, omulimu gw’okuteeka tikiti za firimu gwokka gwe guwagirwa.
+
+00:03:50.480 --> 00:03:54.510
+Tuteekateeka okwongerako okutunda tikiti z’ebivvulu ebinene oluvannyuma.
+
+00:03:54.510 --> 00:03:58.940
+Era ekikulu nti tolina kuddamu kukuba bifo bikubisaamu emirundi ebiri.
+
+00:03:58.940 --> 00:04:03.250
+Edda ebifo ebiweereza bakasitoma byali bizibu nnyo n’ekizibu eky’ekika ekyo.
+
+00:04:03.250 --> 00:04:07.670
+Kubanga waliwo amawulire mangi agakwata ku firimu n’okuddamu okwetegereza data eyakunganyizibwa edda.
+
+00:04:07.670 --> 00:04:11.090
+Data zino zirina okusigala nga bwe ziri.
+
+00:04:12.090 --> 00:04:14.730
+Wano emboozi etegekeddwa bulungi, naye
+
+00:04:14.890 --> 00:04:16.960
+Mu butuufu, waliwo amawulire amalala
+
+00:04:16.960 --> 00:04:18.600
+Kijja kutuusibwa mu ngeri etategekeddwa bulungi
+
+00:04:19.470 --> 00:04:22.110
+Naye emboozi efuluma ku ntandikwa ya pulojekiti eri...
+
+00:04:22.110 --> 00:04:23.780
+Kubanga kye kyetaagisa ekisinga obukulu
+
+00:04:23.780 --> 00:04:25.320
+Olina okuwuliriza obulungi
+
+00:04:27.110 --> 00:04:29.810
+Abakola ebintu bawuliriza abakugu mu by’amasimu
+
+00:04:29.810 --> 00:04:31.290
+Nnina ebibuuzo ebitonotono
+
+00:04:32.290 --> 00:04:34.660
+Omulimu omunene ogw’okuteeka tikiti z’okuyimba gwe mwogeddeko
+
+00:04:34.660 --> 00:04:36.910
+Ddi lwe kinaagattibwako?
+
+00:04:36.910 --> 00:04:39.910
+Kino kisaana okuteekebwa mu bunene bwa pulojekiti eno nga bukyali?
+
+00:04:39.910 --> 00:04:43.590
+Oba njagala okumanya oba nkyalina okukirowoozaako
+
+00:04:43.590 --> 00:04:46.090
+Era obwetaavu bw’okukuuma data eriwo
+
+00:04:46.090 --> 00:04:48.940
+Kino kitegeeza nti tetulina kukyusa nkola ya DB?
+
+00:04:48.940 --> 00:04:51.950
+Waliwo empeereza endala yonna mu kiseera kino egabana DB?
+
+00:04:53.580 --> 00:04:54.980
+Nga bw’olaba okuva mu DB,
+
+00:04:54.980 --> 00:04:57.290
+Kubanga abakugu mu domain si ba developers.
+
+00:04:57.290 --> 00:04:59.430
+Enjogera y’eby’ekikugu etaliimu makulu
+
+00:04:59.910 --> 00:05:02.890
+Abakola ebintu bino balina okukebera obulungi.
+
+00:05:04.230 --> 00:05:07.450
+Abakugu mu domain baddamu ebibuuzo by’abakola nga bino:
+
+00:05:08.330 --> 00:05:10.210
+Omulimu omunene ogw’okuteeka tikiti z’okuyimba
+
+00:05:10.210 --> 00:05:13.450
+Tewali nteekateeka ntongole n'okutuusa kati.
+
+00:05:13.450 --> 00:05:15.970
+Kyokka, ebintu bwe byongerwako mu biseera eby’omu maaso
+
+00:05:15.970 --> 00:05:18.700
+Osobole okulongoosa nga tolina buzibu bungi
+
+00:05:18.700 --> 00:05:22.600
+Ndowooza kyandibadde kirungi singa oyinza okukilowoozaako ku mulundi guno.
+
+00:05:22.600 --> 00:05:27.050
+Tetukozesa DB ku kintu kirala okuggyako empeereza zaffe.
+
+00:05:27.050 --> 00:05:32.840
+Okukyusa enkola yennyini si kizibu kinene kasita data ekuumibwa bulungi.
+
+00:05:33.840 --> 00:05:35.080
+Oluvannyuma lw’okuwulira emboozi
+
+00:05:35.080 --> 00:05:39.400
+Sirowooza nti weetaaga kweraliikirira show ennene.
+
+00:05:39.400 --> 00:05:40.790
+Si bunene bwa pulojekiti
+
+00:05:40.790 --> 00:05:43.040
+Ebyetaago nabyo tebitegeerekeka bulungi
+
+00:05:43.040 --> 00:05:44.930
+Simanyi ddi lwe ndikyetaaga, naye
+
+00:05:44.930 --> 00:05:47.710
+Ekyo kizibu kye tugenda okuddamu okwetegereza oluvannyuma.
+
+00:05:48.920 --> 00:05:50.910
+Ne bwe kiba nga tekiwandiikiddwa mu kiwandiiko
+
+00:05:50.910 --> 00:05:54.880
+Abakugu mu domain nabo bajja kuwa eky’okuddamu nti bagenda kulowooza ku mirimu eminene.
+
+00:05:54.880 --> 00:05:55.960
+Tolina kwerabira
+
+00:05:56.740 --> 00:05:58.320
+Kaale
+
+00:05:58.320 --> 00:06:00.630
+Olwo, omulimu omunene ogw’okuteeka tikiti z’omuzannyo
+
+00:06:00.630 --> 00:06:04.500
+Ssandikitadde mu bintu ebisinga okukulembezebwa mu pulojekiti eno.
+
+00:06:04.500 --> 00:06:08.220
+Wabula, kyanguyiza okugaziya emirimu oluvannyuma mu nkola y’okukulaakulanya.
+
+00:06:08.220 --> 00:06:10.190
+Nja kukirabirira bulungi
+
+00:06:10.190 --> 00:06:12.840
+Tofaayo. Wesige nze nzekka
+
+00:06:13.840 --> 00:06:15.960
+Kikulu okukwatagana obulungi
+
+00:06:17.980 --> 00:06:19.500
+Nga tuyita mu mboozi yaffe okutuusa kati
+
+00:06:19.500 --> 00:06:22.700
+Ebikulu ebisookerwako bifunzibwa bwe biti:
+
+00:06:23.220 --> 00:06:25.890
+Gano ge mawulire agaweebwa abakugu mu domain.
+
+00:06:25.890 --> 00:06:28.410
+Okuvvuunula n’okusengeka okusinziira ku ndowooza y’omukugu mu kukulaakulanya
+
+00:06:28.410 --> 00:06:29.810
+Tandika pulojekiti eno
+
+00:06:31.700 --> 00:06:32.860
+Nga tulina abakugu mu domain
+
+00:06:32.860 --> 00:06:34.980
+Bw’omala okusalawo ku biruubirirwa bya pulojekiti yo, .
+
+00:06:35.620 --> 00:06:37.980
+Kati kye kiseera okutuuma pulojekiti yo erinnya.
+
+00:06:38.750 --> 00:06:41.840
+Okusooka buuza omukugu mu by’amasimu akuwe endowooza ye.
+
+00:06:42.800 --> 00:06:45.540
+Pulojekiti eno ngituume erinnya ki?
+
+00:06:45.540 --> 00:06:47.680
+Enkola y'okutereka firimu.
+
+00:06:47.680 --> 00:06:50.150
+Ogamba otya ku nkola ya Movie Booking System yokka?
+
+00:06:50.150 --> 00:06:51.430
+nedda, saagala
+
+00:06:51.430 --> 00:06:53.570
+Nja kulabirira emizannyo egy’amaanyi
+
+00:06:53.570 --> 00:06:56.930
+Ka tugende n'enkola ya Movie Booking System. Yee?
+
+00:06:56.930 --> 00:06:58.180
+kilungi
+
+00:06:58.180 --> 00:06:59.950
+Weebale nyo
+
+00:07:01.000 --> 00:07:05.230
+Abakugu mu domain bayinza okwagala amannya ga pulojekiti mu Lukorea.
+
+00:07:05.580 --> 00:07:07.680
+Naye okusinziira ku ndowooza y’omukulaakulanya
+
+00:07:07.680 --> 00:07:09.990
+Ebigambo byonna omuli n’amannya ga pulojekiti
+
+00:07:09.990 --> 00:07:12.180
+Olw’okuba kiteekebwa mu nkola butereevu mu koodi, .
+
+00:07:12.600 --> 00:07:15.000
+Kyangu okukinnyonnyola mu Lungereza bwe kiba kisoboka.
+
+00:07:15.540 --> 00:07:19.510
+Kikulu abakola okugoberera n’obwesigwa ebyetaago by’abakugu mu domain, naye
+
+00:07:19.960 --> 00:07:21.430
+Okulowooza ku pulojekiti yonna
+
+00:07:21.430 --> 00:07:23.930
+Era tulina obuvunaanyizibwa okulungamya ebintu mu kkubo eddungi.
+
+00:07:25.850 --> 00:07:27.760
+Bw’oba ​​osazeewo erinnya lya pulojekiti yo
+
+00:07:27.760 --> 00:07:31.380
+Kati kye kiseera omanye ani akozesa enkola ya Movie Booking System.
+
+00:07:32.020 --> 00:07:34.940
+Kya lwatu nti wandibadde obuuza omukugu mu by’amasimu akubuulire ebikwata ku nsonga eno.
+
+00:07:35.420 --> 00:07:38.740
+Era tukizuula nti tulina bakasitoma ne ba maneja.
+
+00:07:40.820 --> 00:07:43.280
+Ekimu ku bintu ebyangu okusubwa mu ntandikwa y’okukola dizayini kwe...
+
+00:07:43.280 --> 00:07:44.760
+Kye kwesigamya okw’ebweru
+
+00:07:45.340 --> 00:07:46.580
+Ebisinziirwako eby’ebweru bye...
+
+00:07:46.580 --> 00:07:49.210
+Kiyinza okuba enkola ey’omusika eriwo, .
+
+00:07:49.660 --> 00:07:51.420
+Kiyinza okuba enkola y’okusasula
+
+00:07:52.020 --> 00:07:53.670
+Enkolagana eno ey’okwesigamira eri...
+
+00:07:53.670 --> 00:07:56.760
+Kubanga kiyinza okuba n’akakwate akanene ku nteekateeka y’enkola okutwaliza awamu.
+
+00:07:56.950 --> 00:08:00.150
+Kikulu okukizuula nga bukyali.
+
+00:08:00.570 --> 00:08:01.240
+eby'obulungi
+
+00:08:01.820 --> 00:08:04.990
+Ebintu nga emiryango gy’okusasula n’enkola ez’edda
+
+00:08:05.270 --> 00:08:07.730
+Kubanga yakozesebwa dda mu nkola eziriwo
+
+00:08:07.990 --> 00:08:10.360
+Kiyinza okutegeerwa mu ngeri ennyangu ennyo
+
+00:08:11.230 --> 00:08:14.410
+Ekimu ku bintu ebyangu okubuusa amaaso mu mukwano ogw’okwesigamira kwe...
+
+00:08:14.410 --> 00:08:16.090
+Waliwo ensonga z’obutonde ez’ebweru
+
+00:08:16.900 --> 00:08:19.060
+Ensi yaffe eri mu kiseera kye kimu
+
+00:08:19.060 --> 00:08:22.430
+Mu nsi erimu ettaka eddene, buli katemba alina ekiseera eky’enjawulo.
+
+00:08:23.190 --> 00:08:25.100
+Olwo Enkola y’okubuuka firimu
+
+00:08:25.100 --> 00:08:28.900
+Tekyewalika nti kijja kukosebwa ensonga z’obutonde ng’ebitundu by’obudde.
+
+00:08:29.410 --> 00:08:32.760
+Ensonga zino tezirabika mangu okuggyako ng’obuuzizza omukugu mu domain butereevu.
+
+00:08:32.760 --> 00:08:33.950
+Kyangu okusubwa
+
+00:08:34.740 --> 00:08:37.610
+Abakugu mu domain batera okubuusa amaaso ebikwata ku nsonga zino.
+
+00:08:37.610 --> 00:08:40.010
+Kubanga ennyonyola eyinza okulekebwawo
+
+00:08:41.680 --> 00:08:43.640
+Okuva enkolagana y’okwesigamira bwe yali eragiddwa bulungi
+
+00:08:43.640 --> 00:08:47.500
+Kati essira tuliteeke ku bintu eby’omunda mu nkola ya Movie Booking System.
+
+00:08:48.430 --> 00:08:52.230
+Okusookera ddala, kasitoma akola ki mu nkola ya Movie Booking System?
+
+00:08:52.230 --> 00:08:54.230
+Ka tubuuze abakugu mu domain
+
+00:08:55.800 --> 00:08:57.880
+Bakasitoma bakola ki?
+
+00:08:57.880 --> 00:08:59.970
+Bakasitoma banoonya firimu,
+
+00:08:59.970 --> 00:09:01.450
+Laba ebikwata ku firimu,
+
+00:09:01.450 --> 00:09:02.910
+Londa obudde bw’okukebera, .
+
+00:09:02.910 --> 00:09:04.450
+Londa ekifo kyo, .
+
+00:09:04.450 --> 00:09:05.920
+Teeka tikiti za firimu,
+
+00:09:05.920 --> 00:09:07.610
+Kebera ebikwata ku kuteeka ekifo,
+
+00:09:07.610 --> 00:09:10.180
+Kola ebintu ng’okusazaamu ekifo we bateeka ekifo
+
+00:09:10.180 --> 00:09:15.750
+Okulonda essaawa y’okulaga n’okulonda ekifo kitundu ku nkola y’okuteeka tikiti za firimu?
+
+00:09:15.750 --> 00:09:18.880
+Era okuteeka tikiti za firimu, okusazaamu okuteeka
+
+00:09:18.880 --> 00:09:22.210
+Anti togula tikiti yokka n’okuddizibwa ssente?
+
+00:09:22.210 --> 00:09:23.620
+oli mutuufu
+
+00:09:23.620 --> 00:09:25.030
+Ekyo kituufu
+
+00:09:25.480 --> 00:09:27.880
+Kubanga domain emanyiddwa kati
+
+00:09:27.880 --> 00:09:31.240
+Londa obudde bw’okusunsulamu era olonde ekifo ky’ogenda okutuula
+
+00:09:31.240 --> 00:09:33.200
+Kino kitundu ku nkola y’okuteeka tikiti za firimu?
+
+00:09:33.200 --> 00:09:34.530
+Nnali nsobola okubuuza
+
+00:09:34.980 --> 00:09:37.220
+Naye bwe kiba nga domain gy’otomanyi, .
+
+00:09:37.410 --> 00:09:40.160
+Okwekenenya buli mbeera y’okukozesa mu bujjuvu
+
+00:09:40.520 --> 00:09:43.330
+Ojja kuddamu enkola y’okulongoosa emirundi egiwerako.
+
+00:09:43.790 --> 00:09:45.350
+Okusinziira ku mbeera ya pulojekiti
+
+00:09:45.350 --> 00:09:48.080
+Oyinza okuddamu enkola eno emirundi egiwerako, .
+
+00:09:48.080 --> 00:09:50.580
+Gy’okoma okutwala obudde bwo n’okwekenneenya n’obwegendereza, .
+
+00:09:50.580 --> 00:09:54.190
+Okukendeeza ku kugezesa n’ensobi mu mitendera gy’okukola dizayini n’okussa mu nkola.
+
+00:09:55.850 --> 00:09:57.530
+Okusinziira ku mboozi ebaddewo okutuusa kati
+
+00:09:57.530 --> 00:10:00.970
+Tutegese ensonga zaffe ez’okukozesa bakasitoma mu biti bina:
+
+00:10:02.960 --> 00:10:04.470
+Ekiddako ye muddukanya emirimu
+
+00:10:05.190 --> 00:10:08.850
+Omuddukanya asobola okulaba nti waliwo ebintu bitaano eby’okuddukanya:
+
+00:10:09.440 --> 00:10:13.620
+Nze ku lwange, ndi mwegendereza ku kukozesa ekigambo "Manage" mu nkulaakulana.
+
+00:10:14.360 --> 00:10:16.980
+Manage kigambo kigazi nnyo
+
+00:10:16.980 --> 00:10:19.030
+Tekinnamanyika kiki ky'okola
+
+00:10:19.640 --> 00:10:20.950
+Wano ne wano bwe kityo bwe kiri
+
+00:10:21.370 --> 00:10:23.760
+Ddala kiddukanyizibwa kitya?
+
+00:10:23.760 --> 00:10:24.810
+Simanyi
+
+00:10:25.930 --> 00:10:27.620
+Nga twogera n’abakugu mu by’amasimu
+
+00:10:27.620 --> 00:10:31.220
+Buli kintu ky’okuddukanya kigaziyiziddwa okutuuka ku mbeera y’enkozesa eyeetongodde.
+
+00:10:31.900 --> 00:10:33.660
+Bwe kiba nga pulojekiti ya ddala
+
+00:10:33.660 --> 00:10:35.890
+Oboolyawo waliwo ensonga z’okukozesa ezisinga ku zino.
+
+00:10:36.150 --> 00:10:39.000
+Wano nnyanguyizza okunnyonnyola.
+
+00:10:39.860 --> 00:10:42.700
+Ekikulu okwetegereza wano kiri nti bw’okola obudde bw’okudduka, .
+
+00:10:43.020 --> 00:10:45.900
+Olaba nga tikiti nayo yatondebwa
+
+00:10:46.960 --> 00:10:49.200
+Era ng’ogula oba ng’ozzaayo tikiti
+
+00:10:49.490 --> 00:10:53.910
+Era osobola okulaba nti tukozesa empeereza ey’ebweru eyitibwa payment gateway.
+
+00:10:55.890 --> 00:10:58.670
+Nagatta enkozesa ya bakasitoma ne ba maneja.
+
+00:10:59.350 --> 00:11:01.730
+Okutunuulira use case yonna bweti
+
+00:11:01.730 --> 00:11:02.900
+Ekintu kiwulira nga kyerere
+
+00:11:03.890 --> 00:11:05.840
+Waliwo eky’okulondako okwongerako katemba
+
+00:11:05.840 --> 00:11:08.720
+Siraba kintu kyonna nga Search Theater
+
+00:11:09.410 --> 00:11:12.130
+Kirabika waliwo enkozesa ntono nnyo ezilekebwawo.
+
+00:11:12.770 --> 00:11:15.980
+Kubanga okusinziira ku ndowooza y’omukugu mu domain, waliwo bingi eby’okunnyonnyola.
+
+00:11:15.980 --> 00:11:17.950
+Ensonga eno ey’okukozesa, erabika nga yeeyoleka nnyo, .
+
+00:11:18.150 --> 00:11:19.810
+Osobola okulekawo ennyinnyonnyola
+
+00:11:20.770 --> 00:11:23.460
+Kale ate okusinziira ku ndowooza y’omukugu mu kukola ebintu?
+
+00:11:24.400 --> 00:11:28.290
+Kirungi okulekawo emisango gy’amawulire egyangu ng’okunoonya katemba.
+
+00:11:28.290 --> 00:11:30.700
+Kino tekyandiyambye nnyo mu kuddukanya ebiwandiiko?
+
+00:11:31.720 --> 00:11:32.870
+Bwe kiba nga kya backend design
+
+00:11:32.870 --> 00:11:35.920
+Enkozesa ennyangu nga okunoonya katemba
+
+00:11:35.920 --> 00:11:37.760
+Ndowooza nti si kibi okukibuuka
+
+00:11:38.600 --> 00:11:41.570
+Kye njogera kiri nti tekikeeredde kwanukula mu kiseera ky’okussa mu nkola.
+
+00:11:42.370 --> 00:11:44.310
+Naye bwe kiba nga pulojekiti ya ddala
+
+00:11:44.310 --> 00:11:48.450
+Ku bateekateeka screen, ensonga zino ez’okukozesa ntandikwa nnungi.
+
+00:11:49.250 --> 00:11:52.300
+Omutegesi yatunuulira enkozesa y’okunoonya katemba.
+
+00:11:52.300 --> 00:11:55.300
+Nsobozese ntya okunoonya ebifo ebisanyukirwamu?
+
+00:11:55.300 --> 00:11:56.600
+Ojja kusobola okulowooza
+
+00:11:58.000 --> 00:12:00.880
+Bw’ogatta ebifaananyi mu kimu, kirabika nga kizibu.
+
+00:12:01.490 --> 00:12:05.150
+Singa yali pulojekiti ya ddala, yandibadde nzibu nnyo.
+
+00:12:05.720 --> 00:12:08.240
+Mu mbeera eno, tekyetaagisa kukaka kugatta.
+
+00:12:08.810 --> 00:12:13.910
+Nze naakazigatta wano okulaga nti waliwo emisango egibula.
+
+00:12:16.020 --> 00:12:18.490
+Najjuzaamu emisango gyonna egyabuze
+
+00:12:19.200 --> 00:12:21.880
+Nnina use case nga connection ne actor erekeddwawo.
+
+00:12:22.290 --> 00:12:25.720
+Kino kikwata ku bakasitoma ne ba maneja.
+
+00:12:26.400 --> 00:12:29.480
+Era okusobola okwanguyirwa okussa mu nkola, nakiwandiika mu Lungereza.
+
+00:12:31.370 --> 00:12:34.160
+Kati si kibi kubanga pulojekiti ntono
+
+00:12:34.160 --> 00:12:36.160
+Singa pulojekiti eba nnene era nga nzibu
+
+00:12:36.160 --> 00:12:38.980
+Omukugu mu domain yanditandikidde wa okunnyonnyola?
+
+00:12:38.980 --> 00:12:40.380
+Kiyinza okuba ekizibu
+
+00:12:41.280 --> 00:12:43.300
+Omuddukanya emirimu akola ki?
+
+00:12:43.300 --> 00:12:44.700
+Omulimu munene nnyo
+
+00:12:44.700 --> 00:12:46.620
+Nga bwekisuubirwa okuva eri maneja
+
+00:12:47.620 --> 00:12:49.750
+Mu mbeera eno, tusobola okugabanyaamu bannakatemba?
+
+00:12:49.750 --> 00:12:52.340
+Era kirungi okwekenneenya
+
+00:12:53.140 --> 00:12:54.790
+Mu kusooka nnayitibwa administrator
+
+00:12:54.790 --> 00:12:57.400
+Kiyinza okusoboka okugabanyaamu okusinziira ku mirimu
+
+00:12:58.520 --> 00:13:00.820
+Era nga tukozesa Enkola ya Movie Booking System
+
+00:13:00.820 --> 00:13:02.870
+Wayinza okubaawo empeereza ez’ebweru
+
+00:13:03.660 --> 00:13:05.340
+Singa tugabanya bannakatemba bwe tuti,
+
+00:13:05.340 --> 00:13:09.420
+Abakugu mu domain bajja kusobola okuwa amawulire agasingawo entegeke.
+
+00:13:10.350 --> 00:13:14.000
+Kya lwatu nti kino kyakulabirako kimu kyokka eky’okwekenneenya ekitundu ekizibu.
+
+00:13:14.540 --> 00:13:17.320
+Wayinza okubaawo engeri endala ennungi
+
+00:13:17.960 --> 00:13:21.740
+Kikulu okuddamu mu ngeri ekyukakyuka okusinziira ku mbeera.
+
+00:13:24.250 --> 00:13:25.060
+Kino kye kifundikwa
+
+00:13:25.950 --> 00:13:29.170
+Ku mulundi guno, tujja kukozesa ekifaananyi ky’embeera y’okukozesa
+
+00:13:29.170 --> 00:13:30.840
+Teekawo ebiruubirirwa bya pulojekiti eyo
+
+00:13:31.230 --> 00:13:33.700
+Nze mpise mu mitendera egyasooka egy’okwekenneenya.
+
+00:13:34.880 --> 00:13:38.010
+Nze ku lwange, mu nkola yonna ey’enkulaakulana
+
+00:13:38.010 --> 00:13:40.060
+Ndowooza okwekenneenya kwe kusinga okukaluba
+
+00:13:40.570 --> 00:13:44.250
+Kubanga tulina okusengeka endowooza ezisinga okubeera ez’obutafaayo era ezitaliimu makulu.
+
+00:13:45.020 --> 00:13:47.650
+Omulundi oguddako tujja kutunuulira ensonga enkulu ezikozesebwa
+
+00:13:47.650 --> 00:13:49.470
+Ka twekenneenye mu bujjuvu
+
+00:13:50.300 --> 00:13:52.100
+Mwebale nnyo okukola ennyo okutuusa kati.
+
