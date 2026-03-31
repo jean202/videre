@@ -28,6 +28,7 @@ python lecture_doc_builder.py \
 
 Output:
 - `output/study_notes.md`
+- `output/study_notes_###.md` (run history archive, auto-increment)
 - `output/frames/frame_###.jpg`
 - downloaded subtitle/video assets (when available)
 

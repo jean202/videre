@@ -365,6 +365,19 @@ def render_markdown(
     output_path.write_text("\n".join(lines), encoding="utf-8")
 
 
+def next_numbered_markdown_path(output_dir: Path) -> Path:
+    pattern = re.compile(r"^study_notes_(\d+)\.md$")
+    max_index = 0
+
+    for path in output_dir.glob("study_notes_*.md"):
+        match = pattern.match(path.name)
+        if not match:
+            continue
+        max_index = max(max_index, int(match.group(1)))
+
+    return output_dir / f"study_notes_{max_index + 1:03d}.md"
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Create study notes from lecture video and subtitles")
     parser.add_argument("--youtube-url", help="YouTube lecture URL")
@@ -461,10 +474,14 @@ def main() -> None:
         frame_dir = out_dir / "frames"
         capture_frames(video_path, sections, frame_dir)
 
-    md_path = out_dir / "study_notes.md"
-    render_markdown(title=title, source=source, sections=sections, output_path=md_path)
+    latest_md_path = out_dir / "study_notes.md"
+    numbered_md_path = next_numbered_markdown_path(out_dir)
 
-    print(f"Done: {md_path}")
+    render_markdown(title=title, source=source, sections=sections, output_path=latest_md_path)
+    render_markdown(title=title, source=source, sections=sections, output_path=numbered_md_path)
+
+    print(f"Done: {latest_md_path}")
+    print(f"Archived: {numbered_md_path}")
 
 
 if __name__ == "__main__":
