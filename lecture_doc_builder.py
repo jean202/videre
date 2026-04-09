@@ -21,6 +21,8 @@ from pathlib import Path
 from typing import Iterable
 from urllib.parse import parse_qs, urlparse
 
+import os
+
 from yt_dlp import YoutubeDL
 from yt_dlp.utils import DownloadError
 
@@ -28,6 +30,11 @@ try:
     from youtube_transcript_api import YouTubeTranscriptApi
 except ImportError:
     YouTubeTranscriptApi = None
+
+try:
+    from anthropic import Anthropic
+except ImportError:
+    Anthropic = None
 
 
 TIMING_RE = re.compile(
@@ -307,6 +314,77 @@ def build_sections(entries: list[SubtitleEntry], duration: float, interval: int)
     return sections
 
 
+def summarize_sections(sections: list[dict], title: str) -> str | None:
+    """Summarize each section and generate an overall summary using Claude API."""
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    if not api_key:
+        print("Warning: ANTHROPIC_API_KEY not set, skipping summarization.", file=sys.stderr)
+        return None
+
+    if Anthropic is None:
+        print("Warning: anthropic package not installed, skipping summarization.", file=sys.stderr)
+        return None
+
+    client = Anthropic(api_key=api_key)
+    section_summaries: list[str] = []
+
+    for idx, sec in enumerate(sections, start=1):
+        span = f"{fmt_ts(sec['start'])} - {fmt_ts(sec['end'])}"
+        transcript = sec["text"]
+        if len(transcript) < 20:
+            sec["summary"] = transcript
+            section_summaries.append(transcript)
+            continue
+
+        try:
+            response = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=300,
+                messages=[
+                    {
+                        "role": "user",
+                        "content": (
+                            f"다음은 강의 영상의 [{span}] 구간 자막입니다.\n\n"
+                            f"{transcript}\n\n"
+                            "이 구간의 핵심 내용을 한국어 2~3문장으로 요약해 주세요. "
+                            "요약만 출력하고 다른 설명은 붙이지 마세요."
+                        ),
+                    }
+                ],
+            )
+            summary = response.content[0].text.strip()
+            sec["summary"] = summary
+            section_summaries.append(summary)
+            print(f"  Summarized section {idx}/{len(sections)}", file=sys.stderr)
+        except Exception as err:
+            print(f"  Warning: section {idx} summarization failed: {err}", file=sys.stderr)
+            sec["summary"] = None
+            section_summaries.append(transcript[:100])
+
+    # Generate overall summary
+    all_summaries = "\n".join(f"[{fmt_ts(s['start'])}] {s.get('summary') or s['text'][:80]}" for s in sections)
+    try:
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=500,
+            messages=[
+                {
+                    "role": "user",
+                    "content": (
+                        f"다음은 '{title}' 강의의 구간별 요약입니다.\n\n"
+                        f"{all_summaries}\n\n"
+                        "전체 강의의 핵심 내용을 한국어 5문장 이내로 정리해 주세요. "
+                        "요약만 출력하고 다른 설명은 붙이지 마세요."
+                    ),
+                }
+            ],
+        )
+        return response.content[0].text.strip()
+    except Exception as err:
+        print(f"  Warning: overall summary failed: {err}", file=sys.stderr)
+        return None
+
+
 def capture_frames(video_path: Path, sections: list[dict], frame_dir: Path) -> None:
     frame_dir.mkdir(parents=True, exist_ok=True)
 
@@ -337,6 +415,7 @@ def render_markdown(
     source: str,
     sections: list[dict],
     output_path: Path,
+    overall_summary: str | None = None,
 ) -> None:
     now = dt.datetime.now().strftime("%Y-%m-%d %H:%M")
     lines: list[str] = [
@@ -345,9 +424,20 @@ def render_markdown(
         f"- Source: {source}",
         f"- Generated: {now}",
         "",
+    ]
+
+    if overall_summary:
+        lines.extend([
+            "## Overview",
+            "",
+            overall_summary,
+            "",
+        ])
+
+    lines.extend([
         "## Study Notes",
         "",
-    ]
+    ])
 
     for idx, sec in enumerate(sections, start=1):
         span = f"{fmt_ts(sec['start'])} - {fmt_ts(sec['end'])}"
@@ -359,7 +449,17 @@ def render_markdown(
             lines.append(f"![frame {idx}]({frame.as_posix()})")
             lines.append("")
 
-        lines.append(sec["text"])
+        summary = sec.get("summary")
+        if summary:
+            lines.append(f"**요약:** {summary}")
+            lines.append("")
+            lines.append("<details><summary>원문 자막</summary>")
+            lines.append("")
+            lines.append(sec["text"])
+            lines.append("")
+            lines.append("</details>")
+        else:
+            lines.append(sec["text"])
         lines.append("")
 
     output_path.write_text("\n".join(lines), encoding="utf-8")
@@ -396,6 +496,11 @@ def parse_args() -> argparse.Namespace:
         "--no-video-download",
         action="store_true",
         help="When using --youtube-url, skip downloading the video file",
+    )
+    parser.add_argument(
+        "--summarize",
+        action="store_true",
+        help="Summarize each section and add overall summary using Claude API (requires ANTHROPIC_API_KEY)",
     )
     return parser.parse_args()
 
@@ -474,11 +579,16 @@ def main() -> None:
         frame_dir = out_dir / "frames"
         capture_frames(video_path, sections, frame_dir)
 
+    overall_summary = None
+    if args.summarize:
+        print("Summarizing sections with Claude API...", file=sys.stderr)
+        overall_summary = summarize_sections(sections, title)
+
     latest_md_path = out_dir / "study_notes.md"
     numbered_md_path = next_numbered_markdown_path(out_dir)
 
-    render_markdown(title=title, source=source, sections=sections, output_path=latest_md_path)
-    render_markdown(title=title, source=source, sections=sections, output_path=numbered_md_path)
+    render_markdown(title=title, source=source, sections=sections, output_path=latest_md_path, overall_summary=overall_summary)
+    render_markdown(title=title, source=source, sections=sections, output_path=numbered_md_path, overall_summary=overall_summary)
 
     print(f"Done: {latest_md_path}")
     print(f"Archived: {numbered_md_path}")

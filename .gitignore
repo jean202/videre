@@ -1,2 +1,5 @@
 *.webm
 __pycache__/
+.env
+.venv/
+output/
